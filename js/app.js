@@ -96,7 +96,8 @@
   function pct(d, t) { return t ? Math.round(d / t * 100) : 0; }
 
   var ICON_CHECK = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.4l2.4 2.4 4.6-5.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  var ICON_CARET = '<svg viewBox="0 0 10 10" width="9" height="9" aria-hidden="true"><path d="M3 1.5L7 5 3 8.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var ICON_CARET = '<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><rect x=".5" y=".5" width="15" height="15" rx="2.5"/><path d="M6.4 4.9L9.6 8l-3.2 3.1" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var ICON_CHEV = '<svg class="dd-chev" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var ICON_NOTE = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 2.5h10v8.5l-3 3H3zM10 14v-3h3" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>';
   function noteMark(id) {
     return P.hasNote(id) ? '<span class="nmark" role="img" aria-label="Has a note" title="Has a note">' + ICON_NOTE + '</span>' : '';
@@ -323,9 +324,9 @@
 
     h += '<div class="filters" role="group" aria-label="Filters"><div class="f-row">' +
       '<label class="f-field grow"><span id="f-q-label">Search</span><input type="search" id="f-q" autocomplete="off" spellcheck="false" value="' + esc(F.q) + '"></label>' +
-      '<label class="f-field"><span>Topic</span><select id="f-topic"><option value="">All topics</option>' +
-      S.map(function (s) { return '<option value="' + esc(s.id) + '"' + (F.topic === s.id ? ' selected' : '') + '>' + esc(s.heading) + ' (' + s.allIds.length + ')</option>'; }).join('') + '</select></label>' +
-      '<label class="f-field"><span>Subtopic</span><select id="f-sub"></select></label></div><div class="f-row">' +
+      '<div class="f-field"><span class="f-lab" id="f-topic-lab">Topic</span><select id="f-topic" aria-labelledby="f-topic-lab"><option value="">All topics</option>' +
+      S.map(function (s) { return '<option value="' + esc(s.id) + '"' + (F.topic === s.id ? ' selected' : '') + '>' + esc(s.heading) + ' (' + s.allIds.length + ')</option>'; }).join('') + '</select></div>' +
+      '<div class="f-field"><span class="f-lab" id="f-sub-lab">Subtopic</span><select id="f-sub" aria-labelledby="f-sub-lab"></select></div></div><div class="f-row">' +
       seg('f-status', 'Status', [['all', 'All'], ['unread', 'Unread'], ['read', 'Read']]) +
       seg('f-notes', 'Notes', [['all', 'All'], ['with', 'Has notes'], ['without', 'No notes']]) +
       (hasTags ? seg('f-type', 'Type', [['all', 'All'], ['case', 'Case'], ['other', 'Other']]) : '') +
@@ -339,6 +340,80 @@
     return '<fieldset class="seg"><legend>' + label + '</legend><div class="seg-btns">' +
       opts.map(function (o) { return '<button type="button" data-act="' + key + '" data-v="' + o[0] + '" aria-pressed="false">' + o[1] + '</button>'; }).join('') + '</div></fieldset>';
   }
+
+
+  /* ------------------------------------------------ on-brand dropdowns
+     The native <select> stays in the DOM (hidden) as the source of truth; this draws a
+     page-styled button and list over it and fires a normal 'change' event on selection. */
+  var ddOpen = null;
+  function closeDd(refocus) {
+    if (!ddOpen) return;
+    ddOpen.list.hidden = true; ddOpen.btn.setAttribute('aria-expanded', 'false');
+    var b = ddOpen.btn; ddOpen = null;
+    if (refocus && document.body.contains(b)) b.focus();
+  }
+  function skinSelect(sel) {
+    var box = sel.parentNode, dd = box.querySelector('.dd'), kids = [].slice.call(sel.children);
+    if (!dd) {
+      sel.hidden = true; sel.tabIndex = -1;
+      dd = document.createElement('div'); dd.className = 'dd';
+      dd.innerHTML = '<button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false" id="' + sel.id + '-btn"><span class="dd-val" id="' + sel.id + '-val"></span>' + ICON_CHEV + '</button>' +
+        '<ul class="dd-list" role="listbox" tabindex="-1" hidden></ul>';
+      box.appendChild(dd);
+      var b = dd.querySelector('.dd-btn'), l = dd.querySelector('.dd-list'), active = -1;
+      var opts = function () { return [].slice.call(l.querySelectorAll('[role="option"]')); };
+      var mark = function (n) {
+        var o = opts(); if (!o.length) return;
+        active = Math.max(0, Math.min(o.length - 1, n));
+        o.forEach(function (el, k) { el.classList.toggle('is-active', k === active); });
+        l.setAttribute('aria-activedescendant', o[active].id);
+        o[active].scrollIntoView({ block: 'nearest' });
+      };
+      var open = function () {
+        if (b.disabled) return;
+        if (ddOpen && ddOpen.btn !== b) closeDd();
+        l.hidden = false; b.setAttribute('aria-expanded', 'true'); ddOpen = { btn: b, list: l };
+        var o = opts(), sIdx = o.findIndex(function (el) { return el.getAttribute('aria-selected') === 'true'; });
+        mark(sIdx < 0 ? 0 : sIdx); l.focus({ preventScroll: true });
+      };
+      var choose = function (n) {
+        var o = opts(); if (!o[n]) return;
+        var v = o[n].getAttribute('data-v'); closeDd(true);
+        if (sel.value !== v) { sel.value = v; sel.dispatchEvent(new Event('change', { bubbles: true })); }
+      };
+      b.addEventListener('click', function () { if (l.hidden) open(); else closeDd(true); });
+      b.addEventListener('keydown', function (e) { if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); open(); } });
+      l.addEventListener('click', function (e) { var li = e.target.closest('[role="option"]'); if (li) choose(opts().indexOf(li)); });
+      l.addEventListener('mousemove', function (e) { var li = e.target.closest('[role="option"]'); if (li) { var n = opts().indexOf(li); if (n !== active) mark(n); } });
+      l.addEventListener('keydown', function (e) {
+        var k = e.key;
+        if (k === 'ArrowDown') { e.preventDefault(); mark(active + 1); }
+        else if (k === 'ArrowUp') { e.preventDefault(); mark(active - 1); }
+        else if (k === 'Home') { e.preventDefault(); mark(0); }
+        else if (k === 'End') { e.preventDefault(); mark(opts().length - 1); }
+        else if (k === 'Enter' || k === ' ') { e.preventDefault(); choose(active); }
+        else if (k === 'Escape') { e.preventDefault(); e.stopPropagation(); closeDd(true); }
+        else if (k === 'Tab') { closeDd(false); }
+      });
+    }
+    var btn = dd.querySelector('.dd-btn'), list = dd.querySelector('.dd-list'), html = '', n = 0, shown = '';
+    function opt(o) {
+      var on = o.value === sel.value, id = sel.id + '-o' + (n++);
+      if (on) shown = o.textContent;
+      return '<li role="option" id="' + id + '" data-v="' + esc(o.value) + '" aria-selected="' + on + '">' + esc(o.textContent) + '</li>';
+    }
+    kids.forEach(function (k) {
+      if (k.tagName === 'OPTGROUP') { html += '<li class="dd-group" role="presentation">' + esc(k.label) + '</li>'; [].forEach.call(k.children, function (o) { html += opt(o); }); }
+      else html += opt(k);
+    });
+    list.innerHTML = html;
+    if (!shown && sel.options.length) shown = sel.options[0].textContent;
+    dd.querySelector('.dd-val').textContent = shown;
+    btn.setAttribute('aria-labelledby', sel.id + '-lab ' + sel.id + '-val');
+    btn.disabled = sel.disabled;
+    if (ddOpen && ddOpen.btn === btn) { var s = list.querySelector('[aria-selected="true"]'); if (s) s.classList.add('is-active'); }
+  }
+  document.addEventListener('mousedown', function (e) { if (ddOpen && !e.target.closest('.dd')) closeDd(false); });
 
   function updateFilterControls() {
     var sel = $('f-sub'); if (!sel) return;
@@ -358,6 +433,7 @@
     }
     sel.innerHTML = o;
     if (F.sub) sel.value = F.sub;
+    skinSelect($('f-topic')); skinSelect(sel);
     $('f-q-label').textContent = F.sub ? 'Search within this subtopic' : F.topic ? 'Search within this topic' : 'Search all questions';
     ['status', 'notes', 'type'].forEach(function (k) {
       [].forEach.call(main.querySelectorAll('[data-act="f-' + k + '"]'), function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-v') === F[k])); });
@@ -710,6 +786,7 @@
 
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
+      if (ddOpen) { closeDd(true); return; }
       if (!pop.hidden) { closePop(); return; }
       if (app.classList.contains('drawer-open')) { closeDrawer(); return; }
       if (document.body.classList.contains('focus')) { setFocus(false); return; }
