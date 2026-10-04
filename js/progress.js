@@ -7,6 +7,7 @@
  * localStorage keys (all prefixed "psmqb:v1:")
  *   read      { [questionId]: isoTimestamp }
  *   notes     { [questionId]: { text, t } }
+ *   marks     { [questionId]: isoTimestamp }   flagged "revise later"
  *   recent    [ { id, t } ]            most recent first
  *   last      { id, t }                last question opened
  *   font      number                   reading-size multiplier
@@ -66,6 +67,7 @@
   /* ---------- in-memory caches ---------- */
   var readMap = lget('read', {});
   var notes = lget('notes', {});
+  var marks = lget('marks', {});
   var recent = lget('recent', []);
   var last = lget('last', null);
   var font = lget('font', 1);
@@ -111,6 +113,37 @@
     toggleRead: function (id) {
       API.setRead(id, !API.isRead(id));
       return API.isRead(id);
+    },
+
+    /* "revise later" flags */
+    isMarked: function (id) { return !!marks[id]; },
+    toggleMark: function (id) {
+      if (marks[id]) delete marks[id]; else marks[id] = new Date().toISOString();
+      lset('marks', marks);
+      emit('mark', { id: id, value: !!marks[id] });
+      return !!marks[id];
+    },
+    markedIds: function () { return order.filter(function (id) { return !!marks[id]; }); },
+
+    /* backup / restore: everything the reader has created, keyed by question ID */
+    exportData: function () {
+      return { app: 'psm-viva-question-bank', version: 1, exported: new Date().toISOString(), read: readMap, notes: notes, marks: marks };
+    },
+    importData: function (obj) {
+      if (!obj || typeof obj !== 'object' || obj.app !== 'psm-viva-question-bank') throw new Error('This is not a backup file from this question bank.');
+      var known = function (id) { return !!QB.questions[id]; }, added = { read: 0, notes: 0, marks: 0 }, id;
+      var inRead = obj.read || {}, inNotes = obj.notes || {}, inMarks = obj.marks || {};
+      for (id in inRead) if (known(id) && !QB.questions[id].missing && !readMap[id]) { readMap[id] = String(inRead[id]); added.read++; }
+      for (id in inNotes) {
+        var n = inNotes[id];
+        if (known(id) && n && typeof n.text === 'string' && n.text.trim() && (!notes[id] || String(n.t) > String(notes[id].t))) {
+          notes[id] = { text: n.text, t: String(n.t || new Date().toISOString()) }; added.notes++;
+        }
+      }
+      for (id in inMarks) if (known(id) && !marks[id]) { marks[id] = String(inMarks[id]); added.marks++; }
+      lset('read', readMap); lset('notes', notes); lset('marks', marks);
+      emit('external', { key: 'import' });
+      return added;
     },
 
     /* notes */
@@ -192,6 +225,7 @@
     if (!e.key || e.key.indexOf(NS) !== 0) return;
     readMap = lget('read', {});
     notes = lget('notes', {});
+    marks = lget('marks', {});
     recent = lget('recent', []);
     last = lget('last', null);
     font = lget('font', 1);

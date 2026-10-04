@@ -105,8 +105,10 @@
   var ICON_CARET = '<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><rect x=".5" y=".5" width="15" height="15" rx="2.5"/><path d="M6.4 4.9L9.6 8l-3.2 3.1" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var ICON_CHEV = '<svg class="dd-chev" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var ICON_NOTE = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 2.5h10v8.5l-3 3H3zM10 14v-3h3" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>';
+  var ICON_FLAG = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 14V2.5M4 3h8l-1.8 2.7L12 8.4H4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   function noteMark(id) {
-    return P.hasNote(id) ? '<span class="nmark" role="img" aria-label="Has a note" title="Has a note">' + ICON_NOTE + '</span>' : '';
+    return (P.hasNote(id) ? '<span class="nmark" role="img" aria-label="Has a note" title="Has a note">' + ICON_NOTE + '</span>' : '') +
+      (P.isMarked(id) ? '<span class="fmark" role="img" aria-label="Flagged to revise later" title="Revise later">' + ICON_FLAG + '</span>' : '');
   }
   function bar(done, total, cls, label) {
     return '<span class="bar ' + (cls || '') + '" role="progressbar" aria-valuemin="0" aria-valuemax="' + total +
@@ -123,11 +125,11 @@
 
   /* --------------------------------------------------------------- filters */
   var F = { topic: '', sub: '', status: 'all', notes: 'all', type: 'all', q: '' };
-  function resetF() { F = { topic: '', sub: '', status: 'all', notes: 'all', type: 'all', q: '' }; }
+  function resetF() { F = { topic: '', sub: '', status: 'all', notes: 'all', type: 'all', mark: 'all', q: '' }; }
   function hashFor(f) {
     var base = f.sub ? '#/t/' + enc(f.sub) : f.topic ? '#/s/' + enc(f.topic) : '#/all', qs = [];
     if (f.q) qs.push('q=' + enc(f.q));
-    ['status', 'notes', 'type'].forEach(function (k) { if (f[k] !== 'all') qs.push(k + '=' + enc(f[k])); });
+    ['status', 'notes', 'type', 'mark'].forEach(function (k) { if (f[k] && f[k] !== 'all') qs.push(k + '=' + enc(f[k])); });
     return base + (qs.length ? '?' + qs.join('&') : '');
   }
   function scopeIds() {
@@ -141,6 +143,7 @@
       var r = P.isRead(id), n = P.hasNote(id);
       if (F.status === 'read' && !r) return false;
       if (F.status === 'unread' && r) return false;
+      if (F.mark === 'on' && !P.isMarked(id)) return false;
       if (F.notes === 'with' && !n) return false;
       if (F.notes === 'without' && n) return false;
       var tg = tagsOf(Q[id]);
@@ -151,7 +154,7 @@
       return !tokens.length || scoreOf(id, tokens) > 0;
     });
   }
-  function anyFilter() { return !!(F.topic || F.sub || F.q || F.status !== 'all' || F.notes !== 'all' || F.type !== 'all'); }
+  function anyFilter() { return !!(F.topic || F.sub || F.q || F.status !== 'all' || F.notes !== 'all' || F.type !== 'all' || F.mark !== 'all'); }
   function listTitle() { return F.sub ? subById[F.sub].title : F.topic ? secById[F.topic].heading : 'All questions'; }
 
   /* ----------------------------------------------------------------- state */
@@ -199,6 +202,7 @@
       if (/^(read|unread)$/.test(qs.status || '')) F.status = qs.status;
       if (/^(with|without)$/.test(qs.notes || '')) F.notes = qs.notes;
       if (/^(case|missing|other)$/.test(qs.type || '')) F.type = qs.type;
+      if (qs.mark === 'on') F.mark = 'on';
       if (t === 'search' && qs.q) F.q = qs.q;
       cur = { type: 'list', id: '', secId: F.topic, subId: F.sub };
       renderListPage();
@@ -245,7 +249,7 @@
   }
 
   function renderDashboard() {
-    var ov = P.overall(), withNotes = P.noteIds().length, target = continueTarget(), started = ov.done > 0 || P.recent().length > 0;
+    var ov = P.overall(), withNotes = P.noteIds().length, nMarked = P.markedIds().length, target = continueTarget(), started = ov.done > 0 || P.recent().length > 0;
     var titleParts = String(QB.meta.title).split(/\s+[—-]\s+/), main1 = titleParts[0], tail = titleParts.slice(1).join(' ');
     var h = '<div class="dash">';
     h += '<header class="masthead"><p class="eyebrow">' + esc(QB.meta.site) + ' &middot; MBBS</p>' +
@@ -267,7 +271,7 @@
       '<div><dt>Completed</dt><dd>' + ov.done + '</dd></div>' +
       '<div><dt>Remaining</dt><dd>' + (ov.total - ov.done) + '</dd></div>' +
       '<div><dt>With notes</dt><dd>' + withNotes + '</dd></div></dl>' +
-      (withNotes ? '<p class="link-row"><a href="#/all?notes=with">View questions with notes (' + withNotes + ')</a></p>' : '') + '</section></div>';
+      ((withNotes || nMarked) ? '<p class="link-row">' + (withNotes ? '<a href="#/all?notes=with">Questions with notes (' + withNotes + ')</a>' : '') + (withNotes && nMarked ? ' &nbsp;&middot;&nbsp; ' : '') + (nMarked ? '<a href="#/all?mark=on">Revise later (' + nMarked + ')</a>' : '') + '</p>' : '') + '</section></div>';
 
     h += '<h2>Topics and progress</h2><ul class="topics">';
     S.forEach(function (sec) {
@@ -308,7 +312,9 @@
     main.innerHTML = '<div class="about"><h1>About this question bank</h1>' +
       '<p>' + esc(QB.meta.title) + ' covers Preventive &amp; Social Medicine for MBBS students. The topics, subtopics, questions and answers are shown exactly as they appear in the source file, with bold, italics, lists and tables kept.</p>' +
       '<h2>Your progress</h2><p>Read marks, notes, reading size and recently studied questions are saved in this browser only. They are tied to each question, so they stay in place if the question bank is reordered. Clearing site data for this page also clears them.</p>' +
-      '<h2>Shortcuts</h2><ul><li><kbd>←</kbd> and <kbd>→</kbd> move to the previous or next question.</li><li><kbd>Esc</kbd> exits Focus Mode or closes search.</li></ul>' +
+      '<h2>Shortcuts</h2><ul><li><kbd>←</kbd> and <kbd>→</kbd> move to the previous or next question.</li><li><kbd>R</kbd> marks the open question as read or unread, and <kbd>F</kbd> flags it to revise later.</li><li><kbd>/</kbd> jumps to search.</li><li><kbd>Esc</kbd> exits Focus Mode or closes search.</li></ul>' +
+      '<h2>Back up your progress</h2><p>Your read marks, notes and flags live only in this browser. Download a backup to keep a copy or move to another device. Restoring adds the backup to what is already here; nothing is deleted.</p>' +
+      '<p class="backup-row"><button type="button" class="btn" data-act="backup-export">Download backup</button> <label class="btn filebtn" for="backup-file">Restore from backup</label><input type="file" id="backup-file" accept="application/json,.json" class="sr-only"></p><p class="backup-status" id="backup-status" role="status" aria-live="polite"></p>' +
       '<h2>Credits</h2><p class="credits">Created by Muhtasim Ahmed<br>Netrokona Medical College<br>Session 22–23</p></div>';
   }
 
@@ -339,6 +345,7 @@
       '<div class="f-field"><span class="f-lab" id="f-sub-lab">Subtopic</span><select id="f-sub" aria-labelledby="f-sub-lab"></select></div></div><div class="f-row">' +
       seg('f-status', 'Status', [['all', 'All'], ['unread', 'Unread'], ['read', 'Read']]) +
       seg('f-notes', 'Notes', [['all', 'All'], ['with', 'Has notes'], ['without', 'No notes']]) +
+      seg('f-mark', 'Flag', [['all', 'All'], ['on', 'Revise later']]) +
       (hasTags ? seg('f-type', 'Type', [['all', 'All'], ['case', 'Case']].concat(QB.meta.missingQuestions ? [['missing', 'Missing']] : [], [['other', 'Other']])) : '') +
       '</div></div>';
     h += '<div class="f-summary"><span class="count" id="f-count" role="status" aria-live="polite"></span><div class="chips" id="f-chips"></div></div>';
@@ -445,7 +452,7 @@
     if (F.sub) sel.value = F.sub;
     skinSelect($('f-topic')); skinSelect(sel);
     $('f-q-label').textContent = F.sub ? 'Search within this subtopic' : F.topic ? 'Search within this topic' : 'Search all questions';
-    ['status', 'notes', 'type'].forEach(function (k) {
+    ['status', 'notes', 'type', 'mark'].forEach(function (k) {
       [].forEach.call(main.querySelectorAll('[data-act="f-' + k + '"]'), function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-v') === F[k])); });
     });
   }
@@ -453,13 +460,14 @@
   function refreshList() {
     updateFilterControls();
     var ids = filtered(), tokens = tokensOf(F.q), total = order.length;
-    P.setCtx({ ids: ids, label: F.q ? 'Search “' + F.q + '”' : listTitle() + (F.status !== 'all' || F.notes !== 'all' || F.type !== 'all' ? ' (filtered)' : ''), hash: hashFor(F) });
+    P.setCtx({ ids: ids, label: F.q ? 'Search “' + F.q + '”' : listTitle() + (F.status !== 'all' || F.notes !== 'all' || F.type !== 'all' || F.mark !== 'all' ? ' (filtered)' : ''), hash: hashFor(F) });
     $('f-count').innerHTML = anyFilter() ? '<strong>' + ids.length + '</strong> of ' + plural(total, 'question') : '<strong>' + ids.length + '</strong> ' + (ids.length === 1 ? 'question' : 'questions');
     var chips = [];
     if (F.topic) chips.push(['topic', 'Topic: ' + secById[F.topic].title]);
     if (F.sub) chips.push(['sub', 'Subtopic: ' + subById[F.sub].title]);
     if (F.status !== 'all') chips.push(['status', F.status === 'read' ? 'Read' : 'Unread']);
     if (F.notes !== 'all') chips.push(['notes', F.notes === 'with' ? 'Has notes' : 'No notes']);
+    if (F.mark === 'on') chips.push(['mark', 'Revise later']);
     if (F.type !== 'all') chips.push(['type', F.type === 'case' ? 'Case questions' : F.type === 'missing' ? 'Missing questions' : 'Other questions']);
     if (F.q) chips.push(['q', 'Search: “' + F.q + '”']);
     $('f-chips').innerHTML = chips.map(function (c) {
@@ -492,6 +500,14 @@
   }
 
   /* --------------------------------------------------------- question page */
+  function flagBtn(id) {
+    var on = P.isMarked(id);
+    return '<button type="button" class="flagbtn" data-act="toggle-mark" data-id="' + id + '" data-flagbtn aria-pressed="' + on + '">' + ICON_FLAG + '<span>Revise later</span></button>';
+  }
+  function toggleMark(id) {
+    var now = P.toggleMark(id);
+    announce(Q[id].label + (now ? ' flagged to revise later.' : ' flag removed.'));
+  }
   function readBox(id, compact) {
     if (Q[id].missing) return '';
     var r = P.isRead(id);
@@ -520,12 +536,12 @@
     var h = '<article class="q-page' + (r ? ' is-read' : '') + '" id="q-page"><div class="q-grid"><div class="q-col reading">';
     h += '<header class="q-head"><div class="q-meta"><span class="q-num">' + esc(q.label) + '</span>' +
       tagChips(q) +
-      '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + readBox(id, false) + '</div></header>';
+      '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + flagBtn(id) + readBox(id, false) + '</div></header>';
     h += '<div class="q-prog"><span class="bar" role="progressbar" aria-label="Position in list" aria-valuemin="1" aria-valuemax="' + ids.length + '" aria-valuenow="' + (i + 1) + '"><i style="width:' + pct(i + 1, ids.length) + '%"></i></span>' +
       '<div class="q-prog-note"><span class="q-pos">Question ' + (i + 1) + ' of ' + ids.length + '</span><span id="q-readcount">' + ov.done + ' of ' + ov.total + ' read</span></div></div>';
     h += '<div class="q-text prose" role="heading" aria-level="1">' + proseHtml(q.qHtml) + '</div>';
     h += '<section class="answer' + (q.missing ? ' is-missing' : '') + '" aria-label="Answer"><div class="answer-label">Answer' + (q.missing ? ' <span class="tag tag-missing">Missing</span>' : '') + '</div><div class="prose">' + proseHtml(q.aHtml) + '</div></section>';
-    h += '<div class="q-actions">' + (q.missing ? '<span class="hint">This question cannot be marked as read until its answer is added. You can still keep a note.</span>' : readBox(id, false) + '<span class="hint">Saved in this browser.</span>') + '</div>';
+    h += '<div class="q-actions">' + (q.missing ? '<span class="hint">This question cannot be marked as read until its answer is added. You can still keep a note.</span>' : readBox(id, false) + (next ? '<button type="button" class="btn btn-primary" data-act="read-next" data-id="' + id + '" data-next="' + next + '">Mark as read &amp; next →</button>' : '') + '<span class="hint">Saved in this browser. Keys: R read, F flag.</span>') + '</div>';
     h += '<nav class="pager" aria-label="Question navigation">' + pg(prev, 'prev') + pg(next, 'next') + '</nav>';
     if (seq.ctx) {
       h += '<p class="ctx-line"><span>Stepping through: ' + esc(seq.ctx.label) + '</span><a href="' + esc(seq.ctx.hash) + '">Back to list</a><button type="button" class="linkbtn" data-act="ctx-clear">Step through all questions</button></p>';
@@ -581,6 +597,7 @@
       b.setAttribute('aria-checked', String(r));
       b.querySelector('.lbl').textContent = r ? 'Read' : 'Mark as read';
     });
+    [].forEach.call(document.querySelectorAll('[data-flagbtn][data-id="' + id + '"]'), function (b) { b.setAttribute('aria-pressed', String(P.isMarked(id))); });
     var rc = $('q-readcount'); if (rc) rc.textContent = ov.done + ' of ' + ov.total + ' read';
     var nm = $('q-notemark'); if (nm) nm.innerHTML = noteMark(id);
     var fbn = $('fb-notes'); if (fbn) fbn.classList.toggle('has-note', P.hasNote(id));
@@ -730,6 +747,14 @@
     else if (act === 'f-status') setF({ status: el.getAttribute('data-v') });
     else if (act === 'f-notes') setF({ notes: el.getAttribute('data-v') });
     else if (act === 'f-type') setF({ type: el.getAttribute('data-v') });
+    else if (act === 'f-mark') setF({ mark: el.getAttribute('data-v') });
+    else if (act === 'toggle-mark') { toggleMark(id); }
+    else if (act === 'read-next') {
+      var nx = el.getAttribute('data-next');
+      if (!P.isRead(id)) toggleRead(id);
+      if (nx) location.hash = '#/q/' + enc(nx);
+    }
+    else if (act === 'backup-export') { exportBackup(); }
     else if (act === 'f-clear') { resetF(); history.replaceState(null, '', hashFor(F)); route(true); }
     else if (act === 'f-remove') {
       var k = el.getAttribute('data-key');
@@ -752,7 +777,8 @@
     }
   });
   main.addEventListener('change', function (e) {
-    if (e.target.id === 'f-topic') setF({ topic: e.target.value, sub: '' });
+    if (e.target.id === 'backup-file') { if (e.target.files && e.target.files[0]) importBackup(e.target.files[0]); e.target.value = ''; }
+    else if (e.target.id === 'f-topic') setF({ topic: e.target.value, sub: '' });
     else if (e.target.id === 'f-sub') { var v = e.target.value; setF(v ? { sub: v, topic: subById[v].sec.id } : { sub: '' }); }
   });
   function setFTyping(v) { F.q = v.trim(); history.replaceState(null, '', hashFor(F)); refreshListKeepInput(); }
@@ -792,6 +818,18 @@
   $('font-dec').addEventListener('click', function () { P.stepFont(-1); });
   $('font-inc').addEventListener('click', function () { P.stepFont(1); });
   $('font-reset').addEventListener('click', function () { P.setFont(1); });
+  var toTop = $('totop');
+  if (toTop) {
+    var topTicking = false;
+    window.addEventListener('scroll', function () {
+      if (topTicking) return; topTicking = true;
+      window.requestAnimationFrame(function () { toTop.hidden = window.scrollY < 700; topTicking = false; });
+    }, { passive: true });
+    toTop.addEventListener('click', function () {
+      var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
+    });
+  }
   window.addEventListener('hashchange', function () { route(false); });
   window.addEventListener('resize', syncContentsBtn);
 
@@ -804,13 +842,40 @@
     }
     var t = e.target, tag = t && t.tagName;
     if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return;
+    if (e.key === '/' && !document.body.classList.contains('focus')) {
+      e.preventDefault();
+      var tg = $('btn-search-toggle');
+      if (tg && tg.offsetParent !== null && !$('topbar').classList.contains('search-open')) tg.click(); else sInput.focus();
+      return;
+    }
     if (cur.type !== 'question') return;
+    if ((e.key === 'r' || e.key === 'R') && !Q[cur.id].missing) { e.preventDefault(); toggleRead(cur.id); return; }
+    if (e.key === 'f' || e.key === 'F') { e.preventDefault(); toggleMark(cur.id); return; }
     if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
       var a = main.querySelector('a.pg[rel="' + (e.key === 'ArrowLeft' ? 'prev' : 'next') + '"]');
       if (a) { e.preventDefault(); location.hash = a.getAttribute('href'); }
     }
   });
 
+  function exportBackup() {
+    var blob = new Blob([JSON.stringify(P.exportData(), null, 1)], { type: 'application/json' }), url = URL.createObjectURL(blob);
+    var link = document.createElement('a'), d = new Date(), z = function (n) { return (n < 10 ? '0' : '') + n; };
+    link.href = url; link.download = 'psm-viva-backup-' + d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()) + '.json';
+    document.body.appendChild(link); link.click(); link.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    var s = $('backup-status'); if (s) s.textContent = 'Backup downloaded.';
+  }
+  function importBackup(file) {
+    var s = $('backup-status'), fr = new FileReader();
+    fr.onload = function () {
+      try {
+        var r = P.importData(JSON.parse(String(fr.result)));
+        s = $('backup-status'); if (s) s.textContent = 'Restored: ' + r.read + ' read marks, ' + r.notes + ' notes and ' + r.marks + ' flags added.';
+      } catch (err) { s = $('backup-status'); if (s) s.textContent = 'Could not restore: ' + (err && err.message ? err.message : 'the file could not be read.'); }
+    };
+    fr.onerror = function () { if (s) s.textContent = 'Could not read that file.'; };
+    fr.readAsText(file);
+  }
   function toggleRead(id) {
     var now = P.toggleRead(id), ov = P.overall();
     announce(Q[id].label + (now ? ' marked as read. ' : ' marked as unread. ') + ov.done + ' of ' + ov.total + ' read.');
