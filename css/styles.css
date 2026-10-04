@@ -625,3 +625,54 @@ body.focus .totop { bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px)); }
 #backup-file:focus-visible ~ *, .backup-row:focus-within .filebtn { outline: 2px solid var(--copper); outline-offset: 2px; }
 .backup-status { min-height: 1.5rem; margin-top: .6rem; font-size: .9rem; color: var(--ink-soft); }
 @media print { .totop, .flagbtn { display: none !important; } }
+
+/* ---------- practice mode: answer hidden until tapped ---------- */
+.reveal { display: none; }
+.answer.is-covered .prose { display: none; }
+.answer.is-covered .reveal {
+  display: block; width: 100%; min-height: 3.25rem; margin-top: .8rem; padding: .8rem 1rem;
+  background: transparent; border: 1px dashed var(--rule-strong); border-radius: 3px;
+  font-family: var(--serif); font-size: 1.1rem; font-style: italic; color: var(--ink-soft);
+}
+.answer.is-covered .reveal:hover { background: var(--bone); color: var(--ink); }
+.q-meta .pracbtn { margin-left: auto; }
+.q-meta .pracbtn ~ .flagbtn, .q-meta .pracbtn ~ .readbox { margin-left: 0; }
+
+/* ---------- tablet touch comfort ---------- */
+@media (pointer: coarse) {
+  .btn, .flagbtn, .seg-btns button, .dd-btn, .fontctl button { min-height: 2.75rem; }
+  .caret { min-height: 2.5rem; }
+  .qrow { padding-block: .5rem; }
+  .rowcheck { min-width: 2.5rem; min-height: 2.5rem; }
+}
+
+/* ---------- night theme: the same palette, turned down ---------- */
+.tb-theme svg { flex: none; }
+@media (max-width: 62rem) { .tb-theme span { display: none; } .tb-theme { padding-inline: .6rem; } }
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --parchment: #181416; --page: #211B20; --bone: #2E262D; --ink: #EDE6D8; --ink-soft: #B9AFB3;
+  --rule: #3A3239; --rule-strong: #5C5159; --copper-deep: #E0976F; --lichen-deep: #AAB190; --lichen: #8A9171;
+}
+/* surfaces that stay dark in both themes keep the original light-on-dark values */
+html[data-theme="dark"] .sidebar, html[data-theme="dark"] .resume,
+html[data-theme="dark"] .btn-primary, html[data-theme="dark"] .readbox .box, html[data-theme="dark"] .rdot,
+html[data-theme="dark"] .btn[aria-pressed="true"], html[data-theme="dark"] .sp-scope button[aria-pressed="true"],
+html[data-theme="dark"] .subnav a[aria-current="true"], html[data-theme="dark"] .seg-btns button[aria-pressed="true"] {
+  --parchment: #F2EBDD; --bone: #E5DED2; --ink: #171719; --ink-soft: #55504A;
+  --rule: #D6CCBB; --rule-strong: #B7AC99; --copper-deep: #8A4833; --lichen-deep: #565B46; --lichen: #747A61;
+}
+html[data-theme="dark"] .btn[aria-pressed="true"], html[data-theme="dark"] .sp-scope button[aria-pressed="true"],
+html[data-theme="dark"] .subnav a[aria-current="true"], html[data-theme="dark"] .seg-btns button[aria-pressed="true"] {
+  background: #4B3949; border-color: #4B3949;
+}
+html[data-theme="dark"] .tag { color: #E6A584; border-color: #B4694C; }
+html[data-theme="dark"] .tag-missing { color: var(--ink-soft); border-color: var(--ink-soft); }
+html[data-theme="dark"] .flagbtn[aria-pressed="true"] { background: rgba(224, 151, 111, .14); }
+html[data-theme="dark"] body.focus, html[data-theme="dark"] body.focus .topbar, html[data-theme="dark"] body.focus .focus-bar { background: var(--page); }
+html[data-theme="dark"] .rdot.on { color: #F2EBDD; }
+html[data-theme="dark"] .sidebar .rdot { --parchment: #F2EBDD; }
+
+.dd-list.dd-right { left: auto; right: 0; }
+.topbar .btn { white-space: nowrap; }
+@media (max-width: 75rem) { .tb-theme span { display: none; } .tb-theme { padding-inline: .6rem; } }

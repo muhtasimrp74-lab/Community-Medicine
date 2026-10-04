@@ -11,6 +11,8 @@
  *   recent    [ { id, t } ]            most recent first
  *   last      { id, t }                last question opened
  *   font      number                   reading-size multiplier
+ *   theme     "light" | "dark"
+ *   practice  bool                     hide answers until tapped
  *   ui        { open: {[id]: true}, collapsed: bool }   sidebar state
  * sessionStorage (this tab only)
  *   focus     "1" when Focus Mode is on
@@ -71,6 +73,8 @@
   var recent = lget('recent', []);
   var last = lget('last', null);
   var font = lget('font', 1);
+  var theme = lget('theme', 'light') === 'dark' ? 'dark' : 'light';
+  var practice = lget('practice', false) === true;
   var ui = lget('ui', { open: {}, collapsed: false });
   if (!ui || typeof ui !== 'object') ui = { open: {}, collapsed: false };
   if (!ui.open) ui.open = {};
@@ -190,6 +194,12 @@
       API.setFont(FONT_STEPS[i]);
     },
 
+    /* night theme, practice mode */
+    getTheme: function () { return theme; },
+    setTheme: function (v) { theme = v === 'dark' ? 'dark' : 'light'; lset('theme', theme); emit('theme', { value: theme }); },
+    getPractice: function () { return practice; },
+    setPractice: function (v) { practice = !!v; lset('practice', practice); emit('practice', { value: practice }); },
+
     /* sidebar state */
     isOpen: function (id) { return !!ui.open[id]; },
     setOpen: function (id, v) {
@@ -229,6 +239,8 @@
     recent = lget('recent', []);
     last = lget('last', null);
     font = lget('font', 1);
+    theme = lget('theme', 'light') === 'dark' ? 'dark' : 'light';
+    practice = lget('practice', false) === true;
     emit('external', { key: e.key });
   });
 

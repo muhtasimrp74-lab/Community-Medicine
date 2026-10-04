@@ -6,6 +6,10 @@
   <title>Preventive &amp; Social Medicine — Viva Question Bank</title>
   <meta name="description" content="Second Term Viva Question Bank, Solved. Preventive &amp; Social Medicine study platform for MBBS students, Netrokona Medical College.">
   <meta name="theme-color" content="#241A24">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <script>try { if (JSON.parse(localStorage.getItem('psmqb:v1:theme')) === 'dark') document.documentElement.setAttribute('data-theme', 'dark'); } catch (e) {}</script>
 
   <!-- Fonts: Newsreader (headings) and Instrument Sans (body). Falls back to system serif/sans when offline. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,6 +52,10 @@
           <button type="button" id="font-inc" aria-label="Increase text size">A+</button>
         </div>
 
+        <button type="button" class="btn tb-theme" id="btn-theme" aria-pressed="false" aria-label="Night mode" title="Night mode">
+          <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M16.5 12.2A7 7 0 0 1 7.8 3.5a7 7 0 1 0 8.7 8.7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          <span>Night</span>
+        </button>
         <button type="button" class="btn tb-focus" id="btn-focus" aria-pressed="false">Focus mode</button>
       </header>
 

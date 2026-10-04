@@ -263,7 +263,8 @@
       '<p class="resume-q">' + esc(Q[target].qText) + '</p>' +
       '<p class="resume-where"><b>' + esc(Q[target].label) + '</b>' + esc(where(target)) + '</p>' +
       '<div class="dash-actions"><a class="btn btn-primary" href="#/q/' + enc(target) + '">' + (started ? 'Continue studying' : 'Begin studying') + '</a>' +
-      '<a class="btn" href="#/all">Browse all questions</a></div></section>' +
+      '<a class="btn" href="#/all">Browse all questions</a>' +
+      (ov.done < ov.total ? '<button type="button" class="btn" data-act="random">Random unread</button>' : '') + '</div></section>' +
       '<section class="ledger" aria-label="Overall progress"><p class="eyebrow">Overall progress</p>' +
       '<div class="ledger-pct">' + ov.pct + '<small>%</small></div>' + bar(ov.done, ov.total, 'big', 'Overall progress') +
       '<p class="ledger-note">' + ov.done + ' / ' + ov.total + ' questions read</p>' +
@@ -312,7 +313,9 @@
     main.innerHTML = '<div class="about"><h1>About this question bank</h1>' +
       '<p>' + esc(QB.meta.title) + ' covers Preventive &amp; Social Medicine for MBBS students. The topics, subtopics, questions and answers are shown exactly as they appear in the source file, with bold, italics, lists and tables kept.</p>' +
       '<h2>Your progress</h2><p>Read marks, notes, reading size and recently studied questions are saved in this browser only. They are tied to each question, so they stay in place if the question bank is reordered. Clearing site data for this page also clears them.</p>' +
-      '<h2>Shortcuts</h2><ul><li><kbd>←</kbd> and <kbd>→</kbd> move to the previous or next question.</li><li><kbd>R</kbd> marks the open question as read or unread, and <kbd>F</kbd> flags it to revise later.</li><li><kbd>/</kbd> jumps to search.</li><li><kbd>Esc</kbd> exits Focus Mode or closes search.</li></ul>' +
+      '<h2>Shortcuts</h2><ul><li><kbd>←</kbd> and <kbd>→</kbd> move to the previous or next question.</li><li><kbd>R</kbd> marks the open question as read or unread, and <kbd>F</kbd> flags it to revise later.</li><li><kbd>/</kbd> jumps to search.</li><li><kbd>A</kbd> shows or hides the answer when Hide answers is on.</li><li><kbd>Esc</kbd> exits Focus Mode or closes search.</li></ul>' +
+      '<h2>On a tablet or phone</h2><p>Swipe left or right on a question to move to the next or previous one. Use the Night button for a dark theme, and Hide answers on a question to test yourself before revealing the answer.</p>' +
+      '<h2>Use it offline</h2><p>After one visit online, the site keeps a copy so it opens without internet. On Android you can also add it to your home screen.</p><p class="backup-row"><button type="button" class="btn" id="install-btn"' + (installEvt ? '' : ' hidden') + '>Add to home screen</button></p>' +
       '<h2>Back up your progress</h2><p>Your read marks, notes and flags live only in this browser. Download a backup to keep a copy or move to another device. Restoring adds the backup to what is already here; nothing is deleted.</p>' +
       '<p class="backup-row"><button type="button" class="btn" data-act="backup-export">Download backup</button> <label class="btn filebtn" for="backup-file">Restore from backup</label><input type="file" id="backup-file" accept="application/json,.json" class="sr-only"></p><p class="backup-status" id="backup-status" role="status" aria-live="polite"></p>' +
       '<h2>Credits</h2><p class="credits">Created by Muhtasim Ahmed<br>Netrokona Medical College<br>Session 22–23</p></div>';
@@ -390,6 +393,7 @@
         if (b.disabled) return;
         if (ddOpen && ddOpen.btn !== b) closeDd();
         l.hidden = false; b.setAttribute('aria-expanded', 'true'); ddOpen = { btn: b, list: l };
+        l.classList.remove('dd-right'); if (l.getBoundingClientRect().right > document.documentElement.clientWidth - 8) l.classList.add('dd-right');
         var o = opts(), sIdx = o.findIndex(function (el) { return el.getAttribute('aria-selected') === 'true'; });
         mark(sIdx < 0 ? 0 : sIdx); l.focus({ preventScroll: true });
       };
@@ -500,6 +504,16 @@
   }
 
   /* --------------------------------------------------------- question page */
+  var revealedId = '';
+  function pracBtn() {
+    return '<button type="button" class="flagbtn pracbtn" data-act="toggle-practice" aria-pressed="' + P.getPractice() + '" title="Hide the answer until you tap Show answer (key A)">Hide answers</button>';
+  }
+  function applyPractice() {
+    if (cur.type !== 'question') return;
+    var sec = document.querySelector('.answer'), q = Q[cur.id]; if (!sec) return;
+    sec.classList.toggle('is-covered', P.getPractice() && !q.missing && revealedId !== cur.id);
+    var b = document.querySelector('.pracbtn'); if (b) b.setAttribute('aria-pressed', String(P.getPractice()));
+  }
   function flagBtn(id) {
     var on = P.isMarked(id);
     return '<button type="button" class="flagbtn" data-act="toggle-mark" data-id="' + id + '" data-flagbtn aria-pressed="' + on + '">' + ICON_FLAG + '<span>Revise later</span></button>';
@@ -522,6 +536,7 @@
   }
 
   function renderQuestion(id) {
+    if (revealedId !== id) revealedId = '';
     var q = Q[id], l = loc[id], seq = sequence(id), ids = seq.ids, i = ids.indexOf(id), ov = P.overall();
     P.touch(id);
     revealInSidebar(id);
@@ -536,11 +551,11 @@
     var h = '<article class="q-page' + (r ? ' is-read' : '') + '" id="q-page"><div class="q-grid"><div class="q-col reading">';
     h += '<header class="q-head"><div class="q-meta"><span class="q-num">' + esc(q.label) + '</span>' +
       tagChips(q) +
-      '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + flagBtn(id) + readBox(id, false) + '</div></header>';
+      '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + (q.missing ? '' : pracBtn()) + flagBtn(id) + readBox(id, false) + '</div></header>';
     h += '<div class="q-prog"><span class="bar" role="progressbar" aria-label="Position in list" aria-valuemin="1" aria-valuemax="' + ids.length + '" aria-valuenow="' + (i + 1) + '"><i style="width:' + pct(i + 1, ids.length) + '%"></i></span>' +
       '<div class="q-prog-note"><span class="q-pos">Question ' + (i + 1) + ' of ' + ids.length + '</span><span id="q-readcount">' + ov.done + ' of ' + ov.total + ' read</span></div></div>';
     h += '<div class="q-text prose" role="heading" aria-level="1">' + proseHtml(q.qHtml) + '</div>';
-    h += '<section class="answer' + (q.missing ? ' is-missing' : '') + '" aria-label="Answer"><div class="answer-label">Answer' + (q.missing ? ' <span class="tag tag-missing">Missing</span>' : '') + '</div><div class="prose">' + proseHtml(q.aHtml) + '</div></section>';
+    h += '<section class="answer' + (q.missing ? ' is-missing' : '') + (P.getPractice() && !q.missing && revealedId !== id ? ' is-covered' : '') + '" aria-label="Answer"><div class="answer-label">Answer' + (q.missing ? ' <span class="tag tag-missing">Missing</span>' : '') + '</div><div class="prose">' + proseHtml(q.aHtml) + '</div><button type="button" class="reveal" data-act="reveal">Show answer</button></section>';
     h += '<div class="q-actions">' + (q.missing ? '<span class="hint">This question cannot be marked as read until its answer is added. You can still keep a note.</span>' : readBox(id, false) + (next ? '<button type="button" class="btn btn-primary" data-act="read-next" data-id="' + id + '" data-next="' + next + '">Mark as read &amp; next →</button>' : '') + '<span class="hint">Saved in this browser. Keys: R read, F flag.</span>') + '</div>';
     h += '<nav class="pager" aria-label="Question navigation">' + pg(prev, 'prev') + pg(next, 'next') + '</nav>';
     if (seq.ctx) {
@@ -671,6 +686,12 @@
     if (!isQ) $('focus-bar').innerHTML = '';
   }
   function setFocus(v) { P.setFocus(v); applyMode(); window.scrollTo(0, 0); if (v) announce('Focus mode on'); else announce('Focus mode off'); }
+  function applyTheme() {
+    var dark = P.getTheme() === 'dark', b = $('btn-theme');
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+    if (b) { b.setAttribute('aria-pressed', String(dark)); b.setAttribute('aria-label', dark ? 'Switch to day mode' : 'Switch to night mode'); b.title = b.getAttribute('aria-label'); b.querySelector('span').textContent = dark ? 'Day' : 'Night'; }
+    var m = document.querySelector('meta[name="theme-color"]'); if (m) m.setAttribute('content', dark ? '#141214' : '#241A24');
+  }
   function applyFont() {
     var v = P.getFont(), st = P.fontSteps;
     document.documentElement.style.setProperty('--scale', v);
@@ -749,6 +770,9 @@
     else if (act === 'f-type') setF({ type: el.getAttribute('data-v') });
     else if (act === 'f-mark') setF({ mark: el.getAttribute('data-v') });
     else if (act === 'toggle-mark') { toggleMark(id); }
+    else if (act === 'toggle-practice') { P.setPractice(!P.getPractice()); revealedId = ''; applyPractice(); announce(P.getPractice() ? 'Answers hidden until you tap Show answer.' : 'Answers always shown.'); }
+    else if (act === 'reveal') { revealedId = cur.id; applyPractice(); announce('Answer shown.'); }
+    else if (act === 'random') { randomUnread(); }
     else if (act === 'read-next') {
       var nx = el.getAttribute('data-next');
       if (!P.isRead(id)) toggleRead(id);
@@ -813,11 +837,58 @@
   }
   $('btn-contents').addEventListener('click', toggleSidebar);
   $('scrim').addEventListener('click', closeDrawer);
+  $('btn-theme').addEventListener('click', function () { P.setTheme(P.getTheme() === 'dark' ? 'light' : 'dark'); });
   $('btn-focus').addEventListener('click', function () { setFocus(!P.getFocus()); });
   $('btn-exit-focus').addEventListener('click', function () { setFocus(false); });
   $('font-dec').addEventListener('click', function () { P.stepFont(-1); });
   $('font-inc').addEventListener('click', function () { P.stepFont(1); });
   $('font-reset').addEventListener('click', function () { P.setFont(1); });
+  /* swipe left / right on a question to move between questions (touch screens) */
+  (function () {
+    var sx = 0, sy = 0, st = 0, ok = false;
+    function blocked(el) {
+      for (var n = el; n && n !== document.body; n = n.parentNode) {
+        if (n.nodeType !== 1) continue;
+        var tag = n.tagName;
+        if (tag === 'TEXTAREA' || tag === 'INPUT' || tag === 'SELECT' || tag === 'BUTTON' && n.classList.contains('dd-btn')) return true;
+        if (n.classList.contains('table-wrap') || n.classList.contains('dd-list') || n.id === 'sidebar') return true;
+        if (n.scrollWidth > n.clientWidth + 2) { var ox = getComputedStyle(n).overflowX; if (ox === 'auto' || ox === 'scroll') return true; }
+      }
+      return false;
+    }
+    document.addEventListener('touchstart', function (e) {
+      ok = false;
+      if (cur.type !== 'question' || e.touches.length !== 1) return;
+      var t = e.touches[0];
+      if (t.clientX < 28 || t.clientX > window.innerWidth - 28) return;     // leave the system back-gesture edges alone
+      if (blocked(e.target)) return;
+      sx = t.clientX; sy = t.clientY; st = Date.now(); ok = true;
+    }, { passive: true });
+    document.addEventListener('touchend', function (e) {
+      if (!ok) return; ok = false;
+      var t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy;
+      if (Date.now() - st > 700 || Math.abs(dx) < 80 || Math.abs(dx) < Math.abs(dy) * 2) return;
+      var sel = window.getSelection && window.getSelection(); if (sel && String(sel).length) return;
+      var link = main.querySelector('a.pg[rel="' + (dx < 0 ? 'next' : 'prev') + '"]');
+      if (link) location.hash = link.getAttribute('href');
+    }, { passive: true });
+  })();
+
+  /* install on the home screen, and offline copy */
+  var installEvt = null;
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault(); installEvt = e;
+    var b = $('install-btn'); if (b) b.hidden = false;
+  });
+  window.addEventListener('appinstalled', function () { installEvt = null; var b = $('install-btn'); if (b) b.hidden = true; });
+  main.addEventListener('click', function (e) {
+    if (!e.target.closest('#install-btn') || !installEvt) return;
+    installEvt.prompt(); installEvt.userChoice.then(function () { installEvt = null; var b = $('install-btn'); if (b) b.hidden = true; });
+  });
+  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+    window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+  }
+
   var toTop = $('totop');
   if (toTop) {
     var topTicking = false;
@@ -850,6 +921,9 @@
     }
     if (cur.type !== 'question') return;
     if ((e.key === 'r' || e.key === 'R') && !Q[cur.id].missing) { e.preventDefault(); toggleRead(cur.id); return; }
+    if ((e.key === 'a' || e.key === 'A') && P.getPractice() && !Q[cur.id].missing) {
+      e.preventDefault(); revealedId = revealedId === cur.id ? '' : cur.id; applyPractice(); return;
+    }
     if (e.key === 'f' || e.key === 'F') { e.preventDefault(); toggleMark(cur.id); return; }
     if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
       var a = main.querySelector('a.pg[rel="' + (e.key === 'ArrowLeft' ? 'prev' : 'next') + '"]');
@@ -857,6 +931,12 @@
     }
   });
 
+  function randomUnread() {
+    var pool = order.filter(function (id) { return !Q[id].missing && !P.isRead(id); });
+    if (!pool.length) { announce('Every question is marked as read.'); return; }
+    P.setCtx(null);
+    location.hash = '#/q/' + enc(pool[Math.floor(Math.random() * pool.length)]);
+  }
   function exportBackup() {
     var blob = new Blob([JSON.stringify(P.exportData(), null, 1)], { type: 'application/json' }), url = URL.createObjectURL(blob);
     var link = document.createElement('a'), d = new Date(), z = function (n) { return (n < 10 ? '0' : '') + n; };
@@ -884,7 +964,9 @@
   /* ----------------------------------------------------------- state events */
   P.on(function (type) {
     if (type === 'font') { applyFont(); return; }
-    if (type === 'external') { applyFont(); route(true); return; }
+    if (type === 'theme') { applyTheme(); return; }
+    if (type === 'practice') { return; }
+    if (type === 'external') { applyFont(); applyTheme(); route(true); return; }
     renderSidebar();
     if (cur.type === 'question') updateQuestionUI();
     else if (cur.type === 'list') { var y = window.scrollY; refreshList(); window.scrollTo(0, y); }
@@ -895,6 +977,7 @@
   if (P.isSidebarCollapsed() && !isMobile()) app.classList.add('sb-collapsed');
   syncContentsBtn();
   applyFont();
+  applyTheme();
   window.addEventListener('beforeunload', flushNote);
   route(false);
 })();
