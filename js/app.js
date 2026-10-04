@@ -210,6 +210,7 @@
       crumbs = [['Home', null]];
       if (t) { main.insertAdjacentHTML('afterbegin', '<p class="empty-note">That page was not found, so you are back on the dashboard.</p>'); }
     }
+    document.body.setAttribute('data-page', cur.type);
     renderCrumbs(crumbs);
     renderSidebar();
     applyMode();
@@ -234,36 +235,42 @@
   }
 
   function renderDashboard() {
-    var ov = P.overall(), withNotes = P.noteIds().length, target = continueTarget();
+    var ov = P.overall(), withNotes = P.noteIds().length, target = continueTarget(), started = ov.done > 0 || P.recent().length > 0;
+    var titleParts = String(QB.meta.title).split(/\s+[—-]\s+/), main1 = titleParts[0], tail = titleParts.slice(1).join(' ');
     var h = '<div class="dash">';
-    h += '<h1 class="dash-title">' + esc(QB.meta.title) + '</h1>';
-    h += '<p class="dash-sub">Preventive &amp; Social Medicine for MBBS students</p>';
+    h += '<header class="masthead"><p class="eyebrow">' + esc(QB.meta.site) + ' &middot; MBBS</p>' +
+      '<h1 class="dash-title">' + esc(main1) + (tail ? '<span class="solved">' + esc(tail) + '</span>' : '') + '</h1>' +
+      '<p class="lede">' + plural(ov.total, 'question') + ' across ' + plural(S.length, 'topic') + ', each with a complete answer. Mark what you have read, keep notes, and pick up where you left off.</p></header>';
     h += storageWarn();
-    h += '<section class="overall" aria-label="Overall progress"><div class="overall-line">' +
-      '<div class="overall-main"><b>' + ov.done + '</b> of ' + ov.total + ' questions read</div>' +
-      '<div class="overall-meta">' + ov.pct + '% complete</div></div>' + bar(ov.done, ov.total, 'big', 'Overall progress') +
+
+    h += '<div class="hero-grid">' +
+      '<section class="resume" aria-label="Continue studying"><p class="eyebrow">' + (started ? 'Continue studying' : 'Start here') + '</p>' +
+      '<p class="resume-q">' + esc(Q[target].qText) + '</p>' +
+      '<p class="resume-where"><b>' + esc(Q[target].label) + '</b>' + esc(where(target)) + '</p>' +
+      '<div class="dash-actions"><a class="btn btn-primary" href="#/q/' + enc(target) + '">' + (started ? 'Continue studying' : 'Begin studying') + '</a>' +
+      '<a class="btn" href="#/all">Browse all questions</a></div></section>' +
+      '<section class="ledger" aria-label="Overall progress"><p class="eyebrow">Overall progress</p>' +
+      '<div class="ledger-pct">' + ov.pct + '<small>%</small></div>' + bar(ov.done, ov.total, 'big', 'Overall progress') +
+      '<p class="ledger-note">' + ov.done + ' / ' + ov.total + ' questions read</p>' +
       '<dl class="figs"><div><dt>Total questions</dt><dd>' + ov.total + '</dd></div>' +
       '<div><dt>Completed</dt><dd>' + ov.done + '</dd></div>' +
       '<div><dt>Remaining</dt><dd>' + (ov.total - ov.done) + '</dd></div>' +
       '<div><dt>With notes</dt><dd>' + withNotes + '</dd></div></dl>' +
-      '<div class="dash-actions"><a class="btn btn-primary" href="#/q/' + enc(target) + '">Continue studying</a>' +
-      '<a class="btn" href="#/all">Browse all questions</a>' +
-      (withNotes ? '<a class="btn" href="#/all?notes=with">Questions with notes (' + withNotes + ')</a>' : '') + '</div>' +
-      '<p class="overall-meta" style="margin-top:.6rem">Next up: ' + esc(Q[target].label) + ', ' + esc(where(target)) + '</p></section>';
+      (withNotes ? '<p class="link-row"><a href="#/all?notes=with">View questions with notes (' + withNotes + ')</a></p>' : '') + '</section></div>';
 
-    h += '<h2>Progress by topic</h2><ul class="toc">';
+    h += '<h2>Topics and progress</h2><ul class="topics">';
     S.forEach(function (sec) {
       var st = P.stats(sec.allIds);
-      h += '<li><a class="toc-row" href="#/s/' + enc(sec.id) + '"><span class="toc-t">' + esc(sec.heading) + '</span><span class="toc-lead"></span>' +
-        '<span class="toc-meter">' + bar(st.done, st.total, 'thin', sec.heading + ' progress') + '</span>' +
-        '<span class="toc-ratio"><b>' + st.done + '</b> / ' + st.total + ' &nbsp;' + st.pct + '%</span></a>';
+      h += '<li class="topic"><a class="topic-link" href="#/s/' + enc(sec.id) + '"><span class="topic-num" aria-hidden="true">' + esc(sec.num || '') + '</span>' +
+        '<span class="topic-name">' + esc(sec.title) + '</span>' +
+        '<span class="topic-meta"><span><b>' + st.done + '</b> / ' + st.total + ' read</span><span>' + st.pct + '%</span></span></a>' +
+        bar(st.done, st.total, 'thin', sec.heading + ' progress');
       if (sec.subsections.length) {
-        h += '<ul class="toc-subs">';
+        h += '<ul class="topic-subs">';
         sec.subsections.forEach(function (sub) {
           var s2 = P.stats(sub.questionIds), empty = !s2.total;
-          h += '<li><a class="toc-row' + (empty ? ' is-empty' : '') + '" href="#/t/' + enc(sub.id) + '"><span class="toc-t">' + esc(sub.title) + '</span><span class="toc-lead"></span>' +
-            '<span class="toc-meter">' + (empty ? '' : bar(s2.done, s2.total, 'thin', sub.title + ' progress')) + '</span>' +
-            '<span class="toc-ratio">' + (empty ? 'no questions' : '<b>' + s2.done + '</b> / ' + s2.total) + '</span></a></li>';
+          h += '<li><a class="' + (empty ? 'is-empty' : '') + '" href="#/t/' + enc(sub.id) + '"><span class="st">' + esc(sub.title) + '</span><span class="lead"></span>' +
+            '<span class="rt">' + (empty ? 'no questions' : '<b>' + s2.done + '</b> / ' + s2.total) + '</span></a></li>';
         });
         h += '</ul>';
       }
@@ -281,11 +288,8 @@
           '</span><span class="ml-p">' + esc(where(r.id)) + ', ' + (P.isRead(r.id) ? 'read' : 'unread') + '</span></span><span class="marks">' + noteMark(r.id) + '</span></a></li>';
       }).join('') + '</ul>';
     }
-    h += colophon() + '</div>';
+    h += '</div>';
     main.innerHTML = h;
-  }
-  function colophon() {
-    return '<div class="colophon"><strong>Created by Muhtasim Ahmed</strong><br>Netrokona Medical College<br>Session 22–23 &nbsp;<a href="#/about">About this site</a></div>';
   }
 
   /* ------------------------------------------------------------------ about */
@@ -502,8 +506,9 @@
   function renderSidebar() {
     var keep = sidebar.querySelector('.sb-scroll'), top = keep ? keep.scrollTop : 0, ov = P.overall();
     function nav(href, label, on) { return '<a href="' + href + '"' + (on ? ' aria-current="page"' : '') + '>' + label + '</a>'; }
-    var h = '<div class="sb-top"><a class="sb-brand" href="#/"><span class="sb-title">Preventive &amp; Social Medicine</span><span class="sb-sub">Second Term Viva Question Bank</span></a>' +
-      '<div class="sb-overall"><div class="row"><span>Overall</span><span>' + ov.done + ' / ' + ov.total + ', ' + ov.pct + '%</span></div>' + bar(ov.done, ov.total, 'thin', 'Overall progress') + '</div></div>' +
+    var h = '<div class="sb-top"><div class="sb-head"><a class="sb-brand" href="#/"><span class="sb-eyebrow">Preventive &amp; Social Medicine</span><span class="sb-title">Viva Question Bank</span><span class="sb-sub">Second term, solved</span></a>' +
+      '<button type="button" class="sb-hide" data-act="collapse-sb" aria-label="Hide contents" title="Hide contents"><svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M11.5 5L6.5 10l5 5M16 5l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>' +
+      '<div class="sb-overall"><div class="row"><span>Overall</span><span><b>' + ov.done + '</b> / ' + ov.total + ' &middot; ' + ov.pct + '%</span></div>' + bar(ov.done, ov.total, 'thin', 'Overall progress') + '</div></div>' +
       '<nav class="sb-nav" aria-label="Pages">' + nav('#/', 'Dashboard', cur.type === 'dash') + nav('#/all', 'All questions', cur.type === 'list' && !cur.secId) + nav('#/about', 'About', cur.type === 'about') + '</nav>' +
       '<div class="sb-scroll"><ul class="tree">';
     S.forEach(function (sec) {
@@ -528,7 +533,7 @@
       }
       h += '</li>';
     });
-    h += '</ul></div><div class="sb-foot">Created by Muhtasim Ahmed<br>Netrokona Medical College, Session 22–23<div class="sb-collapse" style="margin-top:.5rem"><button type="button" data-act="collapse-sb">Hide contents</button></div></div>';
+    h += '</ul></div>';
     sidebar.innerHTML = h;
     var sc = sidebar.querySelector('.sb-scroll'); sc.scrollTop = top;
     var act = sidebar.querySelector('.qrow.is-active');
