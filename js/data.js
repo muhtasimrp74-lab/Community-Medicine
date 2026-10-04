@@ -5,7 +5,8 @@ QB.meta = {
  "title": "Second Term Viva Question Bank — Solved",
  "site": "Preventive & Social Medicine",
  "source": "second_term_viva_question_bank_solved.md",
- "totalQuestions": 80
+ "totalQuestions": 80,
+ "missingQuestions": 8
 };
 QB.structure = [
  {
@@ -108,6 +109,20 @@ QB.structure = [
   "heading": "3. Epidemiology of Non-Communicable and Communicable Diseases",
   "questionIds": [],
   "subsections": [
+   {
+    "id": "epidemiology-of-non-communicable-and-communicable-diseases--general-epidemiology",
+    "title": "General Epidemiology",
+    "questionIds": [
+     "q-91c192fe",
+     "q-b984253a",
+     "q-e267bf00",
+     "q-91060a7b",
+     "q-38d05f17",
+     "q-912a53ad",
+     "q-80c7347d",
+     "q-d902b36a"
+    ]
+   },
    {
     "id": "epidemiology-of-non-communicable-and-communicable-diseases--non-communicable-diseases-ncds",
     "title": "Non-Communicable Diseases (NCDs)",

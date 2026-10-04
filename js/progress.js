@@ -103,6 +103,7 @@
     /* read / unread */
     isRead: function (id) { return !!readMap[id]; },
     setRead: function (id, value) {
+      if (QB.questions[id] && QB.questions[id].missing) return;   // placeholders cannot be marked read
       if (value) readMap[id] = new Date().toISOString(); else delete readMap[id];
       lset('read', readMap);
       emit('read', { id: id, value: !!value });
@@ -173,9 +174,13 @@
 
     /* progress maths */
     stats: function (ids) {
-      var done = 0;
-      for (var i = 0; i < ids.length; i++) if (readMap[ids[i]]) done++;
-      var total = ids.length;
+      var done = 0, total = 0;
+      for (var i = 0; i < ids.length; i++) {
+        var q = QB.questions[ids[i]];
+        if (q && q.missing) continue;          // "Missing" placeholders are listed but not counted
+        total++;
+        if (readMap[ids[i]]) done++;
+      }
       return { done: done, total: total, pct: total ? Math.round((done / total) * 100) : 0 };
     },
     overall: function () { return API.stats(order); },

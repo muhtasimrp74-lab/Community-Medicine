@@ -109,7 +109,7 @@ def parse(source_text: str):
             cur_sec["subsections"].append(cur_sub)
             cur_q = None
             continue
-        m = re.match(r"^#### (Q\.(\d+))(?:\s+\(([^)]+)\))?\s*$", line)
+        m = re.match(r"^#### ((?:Q|M)\.(\d+)(?:\s*&\s*(?:Q|M)\.\d+)?)(?:\s+\(([^)]+)\))?\s*$", line)
         if m:
             flush()
             cur_q = {"label": m.group(1), "num": int(m.group(2)), "tag": m.group(3), "raw": []}
@@ -177,11 +177,13 @@ def build():
                     raise SystemExit(f"ID collision: {q['label']} and {used_ids[qid]} -> {qid}")
                 used_ids[qid] = q["label"]
                 q_html, a_html = render(q_md), render(a_md)
+                tags = [t.strip().upper() for t in (q["tag"] or "").split(",") if t.strip()]
                 rec = {
                     "id": qid,
                     "num": q["num"],
                     "label": q["label"],
                     "tag": q["tag"],
+                    "missing": "MISSING" in tags,
                     "section": sec_slug,
                     "sub": sub_id,
                     "qHtml": q_html,
@@ -208,7 +210,8 @@ def build():
         "title": doc_title,
         "site": "Preventive & Social Medicine",
         "source": SOURCE.name,
-        "totalQuestions": len(flat),
+        "totalQuestions": sum(1 for *_, rec in flat if not rec["missing"]),
+        "missingQuestions": sum(1 for *_, rec in flat if rec["missing"]),
     }
     return doc_title, sections, structure, topic_files, flat, meta
 
@@ -287,14 +290,14 @@ def verify(doc_title, sections, structure, flat, meta):
     # 2) question count / numbering / uniqueness
     labels = [q["label"] for q, *_ in flat]
     ids = [rec["id"] for *_, rec in flat]
-    src_count = len(re.findall(r"^#### Q\.\d+", SOURCE.read_text(encoding="utf-8"), flags=re.M))
+    src_count = len(re.findall(r"^#### [QM]\.\d+", SOURCE.read_text(encoding="utf-8"), flags=re.M))
     if len(flat) != src_count:
         problems.append(f"Question count {len(flat)} != source headings {src_count}")
     if len(set(ids)) != len(ids):
         problems.append("Duplicate question IDs")
     if len(set(labels)) != len(labels):
         problems.append("Duplicate question labels")
-    nums = [q["num"] for q, *_ in flat]
+    nums = [q["num"] for q, _, _, rec in flat if not rec["missing"]]
     if nums != list(range(1, len(nums) + 1)):
         notes.append("Question numbers in the source are not a gapless 1..N sequence (kept as written)")
 
@@ -350,7 +353,8 @@ def verify(doc_title, sections, structure, flat, meta):
         "sections": len(structure),
         "subsections": sum(len(s["subsections"]) for s in structure),
         "questions": len(flat),
-        "case_tagged": sum(1 for q, *_ in flat if q["tag"]),
+        "case_tagged": sum(1 for q, *_ in flat if "CASE" in (q["tag"] or "").upper()),
+        "missing_tagged": sum(1 for *_, rec in flat if rec["missing"]),
         "empty_subsections": [sub["title"] for s in structure for sub in s["subsections"] if not sub["questionIds"]],
         **totals,
     }

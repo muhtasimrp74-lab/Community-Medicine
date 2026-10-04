@@ -431,6 +431,88 @@ Explain Multisectoral approach in relation to Primary Health Care (PHC).
 
 ## 3. Epidemiology of Non-Communicable and Communicable Diseases
 
+### General Epidemiology
+
+#### M.106 (MISSING)
+
+**Question:**
+Define Epidemiology. Mention the components of Epidemiology. Mention the aims of Epidemiology.
+
+**Answer:**
+*Master bank Q.106 – answer not yet added to this question bank.*
+
+---
+
+#### M.107 (MISSING)
+
+**Question:**
+What do you mean by health related states and health related events in Epidemiology?
+
+**Answer:**
+*Master bank Q.107 – answer not yet added to this question bank.*
+
+---
+
+#### M.108 (MISSING)
+
+**Question:**
+Mention the tools of measurement of Epidemiology.
+
+**Answer:**
+*Master bank Q.108 – answer not yet added to this question bank.*
+
+---
+
+#### M.109 (MISSING)
+
+**Question:**
+State the advantages and Disadvantages of Cohort studies. Differentiate between Case Control and Cohort studies.
+
+**Answer:**
+*Master bank Q.109 – answer not yet added to this question bank.*
+
+---
+
+#### M.110 (MISSING)
+
+**Question:**
+Define Epidemic, Endemic, Sporadic and Pandemic with examples.
+
+**Answer:**
+*Master bank Q.110 – answer not yet added to this question bank.*
+
+---
+
+#### M.111 (MISSING)
+
+**Question:**
+Define epidemic, endemic and pandemic. How can you investigate an epidemic?
+
+**Answer:**
+*Master bank Q.111 – answer not yet added to this question bank.*
+
+---
+
+#### M.112 (MISSING)
+
+**Question:**
+Define infectious Disease and Contagious Disease with examples.
+
+**Answer:**
+*Master bank Q.112 – answer not yet added to this question bank.*
+
+---
+
+#### M.113 & M.114 (MISSING)
+
+**Question:**
+What is Incubation Period? Importance of Incubation Period in epidemiology.
+
+**Answer:**
+*Master bank Q.113 and 114 – answer not yet added to this question bank.*
+
+---
+
 ### Non-Communicable Diseases (NCDs)
 
 #### Q.22

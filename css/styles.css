@@ -582,3 +582,17 @@ body.focus .focus-bar {
 body[data-page="about"] .foot { display: none; }
 .topic .bar, .hero-grid .bar { background: var(--rule-strong); }
 .topic .bar > i { background: var(--lichen-deep); }
+
+/* ---------- "Missing" placeholders: in the master bank, no answer in this one yet ---------- */
+.tag-missing { border-style: dashed; border-color: var(--ink-soft); color: var(--ink-soft); background: transparent; }
+.answer.is-missing { border-left: 2px dashed var(--rule-strong); }
+.answer.is-missing .prose { color: var(--ink-soft); font-style: italic; }
+.answer-label .tag { margin-left: .5rem; vertical-align: .08em; }
+.res.is-missing .row-q { color: var(--ink-soft); }
+.rowcheck-na { display: inline-grid; place-items: center; }
+.rdot.na { border-style: dashed; opacity: .55; }
+.tag-mini { font-size: .625rem; letter-spacing: .06em; text-transform: uppercase; padding: 0 .3rem; border: 1px dashed var(--mauve); border-radius: 2px; color: var(--mauve); line-height: 1.5; white-space: nowrap; }
+.qrow { grid-template-columns: 2.7rem minmax(0, 1fr) auto; }
+.qrow .qn { white-space: nowrap; }
+.miss { color: var(--ink-soft); font-style: italic; }
+.answer-label .tag-missing { font-family: var(--sans); font-style: normal; font-size: .6875rem; letter-spacing: .04em; }

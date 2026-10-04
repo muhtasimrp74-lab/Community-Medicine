@@ -92,6 +92,12 @@
   }
   function announce(msg) { var l = $('live'); l.textContent = ''; setTimeout(function () { l.textContent = msg; }, 20); }
   function tagLabel(t) { return t ? t.charAt(0).toUpperCase() + t.slice(1).toLowerCase() : ''; }
+  function tagsOf(q) { return q.tag ? q.tag.split(',').map(function (t) { return t.trim().toUpperCase(); }).filter(Boolean) : []; }
+  function tagChips(q) {
+    return tagsOf(q).map(function (t) { return '<span class="tag' + (t === 'MISSING' ? ' tag-missing' : '') + '">' + esc(tagLabel(t)) + '</span>'; }).join('');
+  }
+  function shortLabel(q) { return (q.label.match(/^[QM]\.\d+/) || [q.label])[0].replace('Q.', ''); }
+  function missCount(ids) { var n = 0; ids.forEach(function (id) { if (Q[id].missing) n++; }); return n; }
   function where(id) { var l = loc[id]; return l.sec.title + (l.sub ? ' → ' + l.sub.title : ''); }
   function pct(d, t) { return t ? Math.round(d / t * 100) : 0; }
 
@@ -137,8 +143,11 @@
       if (F.status === 'unread' && r) return false;
       if (F.notes === 'with' && !n) return false;
       if (F.notes === 'without' && n) return false;
-      if (F.type === 'case' && !Q[id].tag) return false;
-      if (F.type === 'other' && Q[id].tag) return false;
+      var tg = tagsOf(Q[id]);
+      if (F.type === 'case' && tg.indexOf('CASE') < 0) return false;
+      if (F.type === 'missing' && tg.indexOf('MISSING') < 0) return false;
+      if (F.type === 'other' && tg.length) return false;
+      if ((F.status === 'read' || F.status === 'unread') && Q[id].missing) return false;
       return !tokens.length || scoreOf(id, tokens) > 0;
     });
   }
@@ -189,7 +198,7 @@
       if (qs.q) F.q = qs.q;
       if (/^(read|unread)$/.test(qs.status || '')) F.status = qs.status;
       if (/^(with|without)$/.test(qs.notes || '')) F.notes = qs.notes;
-      if (/^(case|other)$/.test(qs.type || '')) F.type = qs.type;
+      if (/^(case|missing|other)$/.test(qs.type || '')) F.type = qs.type;
       if (t === 'search' && qs.q) F.q = qs.q;
       cur = { type: 'list', id: '', secId: F.topic, subId: F.sub };
       renderListPage();
@@ -229,10 +238,10 @@
   /* -------------------------------------------------------------- dashboard */
   function continueTarget() {
     var rec = P.recent(), i;
-    for (i = 0; i < rec.length; i++) if (!P.isRead(rec[i].id)) return rec[i].id;
-    for (i = 0; i < order.length; i++) if (!P.isRead(order[i])) return order[i];
+    for (i = 0; i < rec.length; i++) if (!P.isRead(rec[i].id) && !Q[rec[i].id].missing) return rec[i].id;
+    for (i = 0; i < order.length; i++) if (!P.isRead(order[i]) && !Q[order[i]].missing) return order[i];
     var l = P.last();
-    return l ? l.id : order[0];
+    return l && !Q[l.id].missing ? l.id : order[0];
   }
 
   function renderDashboard() {
@@ -241,7 +250,8 @@
     var h = '<div class="dash">';
     h += '<header class="masthead"><p class="eyebrow">' + esc(QB.meta.site) + ' &middot; MBBS</p>' +
       '<h1 class="dash-title">' + esc(main1) + (tail ? '<span class="solved">' + esc(tail) + '</span>' : '') + '</h1>' +
-      '<p class="lede">' + plural(ov.total, 'question') + ' across ' + plural(S.length, 'topic') + ', each with a complete answer. Mark what you have read, keep notes, and pick up where you left off.</p></header>';
+      '<p class="lede">' + plural(ov.total, 'question') + ' across ' + plural(S.length, 'topic') + ', each with a complete answer. Mark what you have read, keep notes, and pick up where you left off.' +
+      (QB.meta.missingQuestions ? ' A further ' + QB.meta.missingQuestions + ' are listed with a Missing tag: they are in the master bank but have no answer here yet.' : '') + '</p></header>';
     h += storageWarn();
 
     h += '<div class="hero-grid">' +
@@ -264,14 +274,14 @@
       var st = P.stats(sec.allIds);
       h += '<li class="topic"><a class="topic-link" href="#/s/' + enc(sec.id) + '"><span class="topic-num" aria-hidden="true">' + esc(sec.num || '') + '</span>' +
         '<span class="topic-name">' + esc(sec.title) + '</span>' +
-        '<span class="topic-meta"><span><b>' + st.done + '</b> / ' + st.total + ' read</span><span>' + st.pct + '%</span></span></a>' +
+        '<span class="topic-meta"><span><b>' + st.done + '</b> / ' + st.total + ' read' + (missCount(sec.allIds) ? ' <span class="miss">+ ' + missCount(sec.allIds) + ' missing</span>' : '') + '</span><span>' + st.pct + '%</span></span></a>' +
         bar(st.done, st.total, 'thin', sec.heading + ' progress');
       if (sec.subsections.length) {
         h += '<ul class="topic-subs">';
         sec.subsections.forEach(function (sub) {
-          var s2 = P.stats(sub.questionIds), empty = !s2.total;
+          var s2 = P.stats(sub.questionIds), mc = missCount(sub.questionIds), empty = !s2.total && !mc;
           h += '<li><a class="' + (empty ? 'is-empty' : '') + '" href="#/t/' + enc(sub.id) + '"><span class="st">' + esc(sub.title) + '</span><span class="lead"></span>' +
-            '<span class="rt">' + (empty ? 'no questions' : '<b>' + s2.done + '</b> / ' + s2.total) + '</span></a></li>';
+            '<span class="rt">' + (empty ? 'no questions' : (s2.total ? '<b>' + s2.done + '</b> / ' + s2.total : '') + (mc ? (s2.total ? ' &middot; ' : '') + '<span class="miss">' + mc + ' missing</span>' : '')) + '</span></a></li>';
         });
         h += '</ul>';
       }
@@ -286,7 +296,7 @@
       h += '<ul class="mini-list">' + rec.map(function (r) {
         var q = Q[r.id];
         return '<li><a href="#/q/' + enc(r.id) + '"><span class="ml-n">' + esc(q.label) + '</span><span><span class="ml-q">' + esc(q.qText) +
-          '</span><span class="ml-p">' + esc(where(r.id)) + ', ' + (P.isRead(r.id) ? 'read' : 'unread') + '</span></span><span class="marks">' + noteMark(r.id) + '</span></a></li>';
+          '</span><span class="ml-p">' + esc(where(r.id)) + ', ' + (Q[r.id].missing ? 'missing' : P.isRead(r.id) ? 'read' : 'unread') + '</span></span><span class="marks">' + noteMark(r.id) + '</span></a></li>';
       }).join('') + '</ul>';
     }
     h += '</div>';
@@ -305,8 +315,8 @@
   /* -------------------------------------------------------------- list page */
   function renderListPage() {
     var scope = scopeIds(), st = P.stats(scope), h = '<section class="list-page">';
-    h += '<div class="list-head"><h1>' + esc(listTitle()) + '</h1><div class="lh-meta"><span>' + plural(st.total, 'question') + '</span>' +
-      (st.total ? bar(st.done, st.total, '', listTitle() + ' progress') + '<span>' + st.done + ' read, ' + st.pct + '%</span>' : '') + '</div>';
+    h += '<div class="list-head"><h1>' + esc(listTitle()) + '</h1><div class="lh-meta"><span>' + (st.total ? plural(st.total, 'question') + (missCount(scope) ? ', ' + missCount(scope) + ' missing' : '') : plural(missCount(scope) || scope.length, missCount(scope) ? 'missing question' : 'question')) + '</span>' +
+      (st.total ? bar(st.done, st.total, '', listTitle() + ' progress') + '<span>' + st.done + ' of ' + st.total + ' read, ' + st.pct + '%</span>' : '') + '</div>';
     var note = F.sub ? subById[F.sub].noteHtml : (F.topic && !F.sub ? secById[F.topic].noteHtml : '');
     if (note && !st.total) h += '<div class="prose" style="margin-top:.8rem">' + note + '</div>';
     var chips = '';
@@ -329,7 +339,7 @@
       '<div class="f-field"><span class="f-lab" id="f-sub-lab">Subtopic</span><select id="f-sub" aria-labelledby="f-sub-lab"></select></div></div><div class="f-row">' +
       seg('f-status', 'Status', [['all', 'All'], ['unread', 'Unread'], ['read', 'Read']]) +
       seg('f-notes', 'Notes', [['all', 'All'], ['with', 'Has notes'], ['without', 'No notes']]) +
-      (hasTags ? seg('f-type', 'Type', [['all', 'All'], ['case', 'Case'], ['other', 'Other']]) : '') +
+      (hasTags ? seg('f-type', 'Type', [['all', 'All'], ['case', 'Case']].concat(QB.meta.missingQuestions ? [['missing', 'Missing']] : [], [['other', 'Other']])) : '') +
       '</div></div>';
     h += '<div class="f-summary"><span class="count" id="f-count" role="status" aria-live="polite"></span><div class="chips" id="f-chips"></div></div>';
     h += '<ol class="results" id="results"></ol></section>';
@@ -450,7 +460,7 @@
     if (F.sub) chips.push(['sub', 'Subtopic: ' + subById[F.sub].title]);
     if (F.status !== 'all') chips.push(['status', F.status === 'read' ? 'Read' : 'Unread']);
     if (F.notes !== 'all') chips.push(['notes', F.notes === 'with' ? 'Has notes' : 'No notes']);
-    if (F.type !== 'all') chips.push(['type', F.type === 'case' ? 'Case questions' : 'Other questions']);
+    if (F.type !== 'all') chips.push(['type', F.type === 'case' ? 'Case questions' : F.type === 'missing' ? 'Missing questions' : 'Other questions']);
     if (F.q) chips.push(['q', 'Search: “' + F.q + '”']);
     $('f-chips').innerHTML = chips.map(function (c) {
       return '<span class="chip">' + esc(c[1]) + '<button type="button" data-act="f-remove" data-key="' + c[0] + '" aria-label="Remove filter: ' + esc(c[1]) + '">×</button></span>';
@@ -464,9 +474,9 @@
     }
     var html = ids.map(function (id) {
       var q = Q[id], r = P.isRead(id);
-      return '<li class="res' + (r ? ' is-read' : '') + '" data-id="' + id + '">' +
-        '<button type="button" class="rowcheck" role="checkbox" aria-checked="' + r + '" aria-label="' + esc(q.label) + ' read" data-act="toggle-read" data-id="' + id + '"><span class="rdot' + (r ? ' on' : '') + '">' + ICON_CHECK + '</span></button>' +
-        '<a class="rowlink" href="#/q/' + enc(id) + '"><span class="row-head"><span class="qn">' + esc(q.label) + '</span>' + (q.tag ? '<span class="tag">' + esc(tagLabel(q.tag)) + '</span>' : '') +
+      return '<li class="res' + (r ? ' is-read' : '') + (q.missing ? ' is-missing' : '') + '" data-id="' + id + '">' +
+        (q.missing ? '<span class="rowcheck rowcheck-na" aria-hidden="true"><span class="rdot na"></span></span>' : '<button type="button" class="rowcheck" role="checkbox" aria-checked="' + r + '" aria-label="' + esc(q.label) + ' read" data-act="toggle-read" data-id="' + id + '"><span class="rdot' + (r ? ' on' : '') + '">' + ICON_CHECK + '</span></button>') +
+        '<a class="rowlink" href="#/q/' + enc(id) + '"><span class="row-head"><span class="qn">' + esc(q.label) + '</span>' + tagChips(q) +
         '<span>' + esc(F.sub ? '' : where(id)) + '</span></span><span class="row-q">' + hl(q.qText, tokens) + '</span>' +
         (tokens.length ? '<span class="row-snip">' + snippet(id, tokens) + '</span>' : '') + '</a><span class="marks">' + noteMark(id) + '</span></li>';
     }).join('');
@@ -483,6 +493,7 @@
 
   /* --------------------------------------------------------- question page */
   function readBox(id, compact) {
+    if (Q[id].missing) return '';
     var r = P.isRead(id);
     return '<button type="button" class="readbox' + (compact ? ' compact' : '') + '" role="checkbox" aria-checked="' + r + '" data-act="toggle-read" data-id="' + id + '" data-readbox>' +
       '<span class="box">' + ICON_CHECK + '</span><span class="lbl">' + (r ? 'Read' : 'Mark as read') + '</span><span class="undo">Mark unread</span></button>';
@@ -508,13 +519,13 @@
 
     var h = '<article class="q-page' + (r ? ' is-read' : '') + '" id="q-page"><div class="q-grid"><div class="q-col reading">';
     h += '<header class="q-head"><div class="q-meta"><span class="q-num">' + esc(q.label) + '</span>' +
-      (q.tag ? '<span class="tag">' + esc(tagLabel(q.tag)) + '</span>' : '') +
+      tagChips(q) +
       '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + readBox(id, false) + '</div></header>';
     h += '<div class="q-prog"><span class="bar" role="progressbar" aria-label="Position in list" aria-valuemin="1" aria-valuemax="' + ids.length + '" aria-valuenow="' + (i + 1) + '"><i style="width:' + pct(i + 1, ids.length) + '%"></i></span>' +
       '<div class="q-prog-note"><span class="q-pos">Question ' + (i + 1) + ' of ' + ids.length + '</span><span id="q-readcount">' + ov.done + ' of ' + ov.total + ' read</span></div></div>';
     h += '<div class="q-text prose" role="heading" aria-level="1">' + proseHtml(q.qHtml) + '</div>';
-    h += '<section class="answer" aria-label="Answer"><div class="answer-label">Answer</div><div class="prose">' + proseHtml(q.aHtml) + '</div></section>';
-    h += '<div class="q-actions">' + readBox(id, false) + '<span class="hint">Saved in this browser.</span></div>';
+    h += '<section class="answer' + (q.missing ? ' is-missing' : '') + '" aria-label="Answer"><div class="answer-label">Answer' + (q.missing ? ' <span class="tag tag-missing">Missing</span>' : '') + '</div><div class="prose">' + proseHtml(q.aHtml) + '</div></section>';
+    h += '<div class="q-actions">' + (q.missing ? '<span class="hint">This question cannot be marked as read until its answer is added. You can still keep a note.</span>' : readBox(id, false) + '<span class="hint">Saved in this browser.</span>') + '</div>';
     h += '<nav class="pager" aria-label="Question navigation">' + pg(prev, 'prev') + pg(next, 'next') + '</nav>';
     if (seq.ctx) {
       h += '<p class="ctx-line"><span>Stepping through: ' + esc(seq.ctx.label) + '</span><a href="' + esc(seq.ctx.hash) + '">Back to list</a><button type="button" class="linkbtn" data-act="ctx-clear">Step through all questions</button></p>';
@@ -621,8 +632,8 @@
   function qList(ids) {
     return '<ul class="qs">' + ids.map(function (id) {
       var q = Q[id], r = P.isRead(id), on = cur.type === 'question' && cur.id === id;
-      return '<li><a class="qrow' + (on ? ' is-active' : '') + '" href="#/q/' + enc(id) + '"' + (on ? ' aria-current="page"' : '') + '><span class="qn">' + esc(q.label.replace('Q.', '')) + '</span><span class="qt">' + esc(q.qText) +
-        '</span><span class="marks">' + noteMark(id) + '<span class="rdot' + (r ? ' on' : '') + '" role="img" aria-label="' + (r ? 'Read' : 'Unread') + '">' + ICON_CHECK + '</span></span></a></li>';
+      return '<li><a class="qrow' + (on ? ' is-active' : '') + '" href="#/q/' + enc(id) + '"' + (on ? ' aria-current="page"' : '') + '><span class="qn">' + esc(shortLabel(q)) + '</span><span class="qt">' + esc(q.qText) +
+        '</span><span class="marks">' + noteMark(id) + (q.missing ? '<span class="tag-mini">Missing</span>' : '<span class="rdot' + (r ? ' on' : '') + '" role="img" aria-label="' + (r ? 'Read' : 'Unread') + '">' + ICON_CHECK + '</span>') + '</span></a></li>';
     }).join('') + '</ul>';
   }
 
@@ -670,7 +681,7 @@
     if (!res.length) h += '<div class="sp-empty">No questions match “' + esc(text) + '”. Try fewer or different words.</div>';
     res.slice(0, 8).forEach(function (x, n) {
       var q = Q[x.id];
-      h += '<a class="sp-item" role="option" id="sp-' + n + '" href="#/q/' + enc(x.id) + '" aria-selected="false"><span class="sp-line"><span class="qn">' + esc(q.label) + '</span><span>' + esc(where(x.id)) + '</span><span>' + (P.isRead(x.id) ? 'Read' : 'Unread') + '</span>' + noteMark(x.id) + '</span>' +
+      h += '<a class="sp-item" role="option" id="sp-' + n + '" href="#/q/' + enc(x.id) + '" aria-selected="false"><span class="sp-line"><span class="qn">' + esc(q.label) + '</span><span>' + esc(where(x.id)) + '</span><span>' + (Q[x.id].missing ? 'Missing' : P.isRead(x.id) ? 'Read' : 'Unread') + '</span>' + noteMark(x.id) + '</span>' +
         '<span class="sp-title">' + hl(q.qText, tokens) + '</span><span class="sp-snip">' + snippet(x.id, tokens) + '</span></a>';
     });
     if (res.length > 8) h += '<a class="sp-foot" href="' + lastSeeAll + '">See all ' + res.length + ' results with filters</a>';
