@@ -211,6 +211,13 @@
       if (F.sub) crumbs.push([subById[F.sub].title, null]);
       if (!F.topic) crumbs.push(['All questions', null]);
       title = listTitle();
+    } else if (t === 'recall') {
+      cur = { type: 'recall', id: '', secId: '', subId: '' };
+      P.setCtx(null);
+      var rl = renderRecall(r.qs);
+      crumbs = [['Home', '#/'], ['Rapid Recall', rl ? '#/recall' : null]];
+      if (rl) crumbs.push([rl, null]);
+      title = 'Rapid Recall' + (rl ? ': ' + rl : '');
     } else if (t === 'about') {
       cur = { type: 'about', id: '', secId: '', subId: '' };
       P.setCtx(null);
@@ -274,6 +281,9 @@
       '<div><dt>With notes</dt><dd>' + withNotes + '</dd></div></dl>' +
       ((withNotes || nMarked) ? '<p class="link-row">' + (withNotes ? '<a href="#/all?notes=with">Questions with notes (' + withNotes + ')</a>' : '') + (withNotes && nMarked ? ' &nbsp;&middot;&nbsp; ' : '') + (nMarked ? '<a href="#/all?mark=on">Revise later (' + nMarked + ')</a>' : '') + '</p>' : '') + '</section></div>';
 
+    h += revisionHtml();
+    h += '<h2>Question map</h2>' + heatmapHtml();
+    h += weakSpotsHtml();
     h += '<h2>Topics and progress</h2><ul class="topics">';
     S.forEach(function (sec) {
       var st = P.stats(sec.allIds);
@@ -308,13 +318,167 @@
     main.innerHTML = h;
   }
 
+
+  /* ------------------------------------------------------ Rapid Recall (flashcards) */
+  var deck = null;
+  var SET_NAMES = { due: 'Due for review', weak: 'Mistake vault', gap: 'Weak or unread', unread: 'Unread questions', flag: 'Revise later', all: 'Everything' };
+  function scopeOf(t) {
+    if (t && subById[t]) return { ids: subById[t].questionIds, name: subById[t].title };
+    if (t && secById[t]) return { ids: secById[t].allIds, name: secById[t].title };
+    return { ids: order, name: '' };
+  }
+  function recallIds(set, t) {
+    return scopeOf(t).ids.filter(function (id) {
+      if (Q[id].missing) return false;
+      if (set === 'due') return P.isDue(id);
+      if (set === 'weak') return P.isWeak(id);
+      if (set === 'gap') return P.isWeak(id) || !P.isRead(id);
+      if (set === 'unread') return !P.isRead(id);
+      if (set === 'flag') return P.isMarked(id);
+      return set === 'all';
+    });
+  }
+  function shuffle(arr) {
+    var a2 = arr.slice(), i, j, tmp;
+    for (i = a2.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); tmp = a2[i]; a2[i] = a2[j]; a2[j] = tmp; }
+    return a2;
+  }
+  function buildDeck(set, t) {
+    var sc = scopeOf(t), ids = recallIds(set, t), cap = set === 'due' || set === 'weak' ? 40 : 20;
+    deck = { key: set + '|' + t, set: set, t: t, ids: shuffle(ids).slice(0, cap), total: ids.length, i: 0, shown: false, good: 0, again: [], done: false,
+             label: SET_NAMES[set] + (sc.name ? ', ' + sc.name : '') };
+  }
+  function renderRecall(qs) {
+    var set = SET_NAMES[qs.set] ? qs.set : '', t = qs.t || '';
+    if (!set) { deck = null; renderRecallHome(); return ''; }
+    if (!deck || deck.key !== set + '|' + t || deck.done) buildDeck(set, t);
+    renderDeck();
+    return deck.label;
+  }
+  function recallHome(set, t, label, hint) {
+    var n = recallIds(set, t).length;
+    return '<li><a class="rc-set' + (n ? '' : ' is-off') + '" href="' + (n ? '#/recall?set=' + set + (t ? '&t=' + enc(t) : '') : '#/recall') + '"><span class="rc-n">' + n + '</span><span><span class="rc-t">' + esc(label) + '</span><span class="rc-h">' + esc(hint) + '</span></span></a></li>';
+  }
+  function renderRecallHome() {
+    var h = '<section class="recall-home"><h1>Rapid Recall</h1><p class="lede">Flashcards from this question bank. Read the question, say your answer aloud, then reveal it and rate yourself. Cards you forget come back sooner; cards you know come back after longer gaps (1, 3, 7, 14, then 30 days).</p>' +
+      '<ul class="rc-sets">' + recallHome('due', '', 'Due for review', 'Questions you read earlier that are ready to be recalled again') +
+      recallHome('weak', '', 'Mistake vault', 'Cards you rated Forgot and have not yet got right twice') +
+      recallHome('gap', '', 'Weak or unread', 'Everything you have not studied yet, plus your mistakes') +
+      recallHome('unread', '', 'Unread questions', 'A random 20 you have not read') +
+      recallHome('flag', '', 'Revise later', 'Questions you flagged') +
+      recallHome('all', '', 'Everything', 'A random 20 from the whole bank') + '</ul>' +
+      '<h2>By topic</h2><ul class="rc-topics">' + S.map(function (s) {
+        var n = recallIds('all', s.id).length;
+        return '<li><span class="rc-tn">' + esc(s.heading) + '</span>' + (n ? '<a href="#/recall?set=gap&t=' + enc(s.id) + '">Weak or unread</a><a href="#/recall?set=all&t=' + enc(s.id) + '">All</a>' : '<span class="rc-none">no answered questions</span>') + '</li>';
+      }).join('') + '</ul>' +
+      '<p class="rc-keys">Keys: <kbd>Space</kbd> shows the answer, <kbd>1</kbd> Forgot, <kbd>2</kbd> Got it.</p></section>';
+    main.innerHTML = h;
+  }
+  function renderDeck() {
+    if (!deck.ids.length) {
+      main.innerHTML = '<section class="recall-home"><h1>Rapid Recall</h1><p class="lede">' + esc(deck.label) + ': nothing to practise here right now.</p><p><a class="btn btn-primary" href="#/recall">Choose another set</a> <a class="btn" href="#/">Dashboard</a></p></section>';
+      deck.done = true; return;
+    }
+    if (deck.i >= deck.ids.length) { deck.done = true; renderDeckSummary(); return; }
+    var id = deck.ids[deck.i], q = Q[id], n = deck.ids.length;
+    var h = '<section class="recall"><div class="rc-head"><span class="rc-set-name">' + esc(deck.label) + '</span><span>Card ' + (deck.i + 1) + ' of ' + n + '</span></div>' +
+      bar(deck.i, n, 'thin', 'Cards done') +
+      '<article class="rc-card"><p class="rc-where"><b>' + esc(q.label) + '</b> ' + esc(where(id)) + (P.isWeak(id) ? ' <span class="tag">Mistake</span>' : '') + '</p>' +
+      '<div class="rc-q prose">' + proseHtml(q.qHtml) + '</div>';
+    if (deck.shown) {
+      h += '<div class="rc-a answer' + (P.getLens() ? ' lens' : '') + '"><div class="answer-label">Answer</div><div class="prose">' + proseHtml(q.aHtml) + '</div></div></article>' +
+        '<div class="rc-rate"><button type="button" class="btn rc-again" data-act="rc-again">Forgot <kbd>1</kbd></button><button type="button" class="btn btn-primary rc-good" data-act="rc-good" data-focus>Got it <kbd>2</kbd></button></div>';
+    } else {
+      h += '</article><div class="rc-rate"><button type="button" class="btn btn-primary" data-act="rc-show" data-focus>Show answer <kbd>Space</kbd></button></div>';
+    }
+    h += '<p class="rc-foot"><a href="#/q/' + enc(id) + '">Open full page</a><button type="button" class="linkbtn" data-act="rc-skip">Skip this card</button><button type="button" class="linkbtn" data-act="toggle-lens">' + (P.getLens() ? 'Show full answers' : 'Key points only') + '</button></p></section>';
+    main.innerHTML = h;
+    var f = main.querySelector('[data-focus]'); if (f) f.focus({ preventScroll: true });
+  }
+  function recallRate(good) {
+    if (!deck || deck.done || !deck.shown) return;
+    var id = deck.ids[deck.i];
+    P.rate(id, good);
+    if (good) deck.good++; else deck.again.push(id);
+    deck.i++; deck.shown = false; renderDeck();
+    window.scrollTo(0, 0);
+  }
+  function renderDeckSummary() {
+    var n = deck.ids.length, nd = P.nextDueIn(), dueNow = P.dueIds().length;
+    var h = '<section class="recall-home"><h1>Round complete</h1><p class="lede">' + esc(deck.label) + ': you got <strong>' + deck.good + '</strong> of ' + n + ' right.' +
+      (nd !== null ? ' The next review of your answered cards is ' + (nd === 1 ? 'tomorrow' : 'in ' + nd + ' days') + '.' : '') + '</p>';
+    if (deck.again.length) {
+      h += '<h2>To look at again</h2><ul class="mini-list">' + deck.again.map(function (id) {
+        return '<li><a href="#/q/' + enc(id) + '"><span class="ml-n">' + esc(Q[id].label) + '</span><span><span class="ml-q">' + esc(Q[id].qText) + '</span><span class="ml-p">' + esc(where(id)) + '</span></span></a></li>';
+      }).join('') + '</ul>';
+    }
+    h += '<p class="rc-end"><button type="button" class="btn btn-primary" data-act="rc-restart">Another round</button> ' + (dueNow ? '<a class="btn" href="#/recall?set=due">Review due (' + dueNow + ')</a> ' : '') + '<a class="btn" href="#/recall">Choose another set</a> <a class="btn" href="#/">Dashboard</a></p></section>';
+    main.innerHTML = h;
+    window.scrollTo(0, 0);
+  }
+
+  /* -------------------------------------------- dashboard: revision, map, weak spots */
+  function cellState(id) {
+    var q = Q[id];
+    if (q.missing) return ['miss', 'missing from this bank'];
+    if (P.isWeak(id)) return ['weak', 'forgot, needs revision'];
+    if (P.isRead(id)) return [P.isDue(id) ? 'due' : 'read', P.isDue(id) ? 'read, due for review' : 'read'];
+    return ['un', 'unread'];
+  }
+  function heatmapHtml() {
+    var h = '<div class="hm-legend" aria-hidden="true"><span><i class="hm-c hm-un"></i>Unread</span><span><i class="hm-c hm-read"></i>Read</span><span><i class="hm-c hm-due"></i>Due for review</span><span><i class="hm-c hm-weak"></i>Forgot</span><span><i class="hm-c hm-miss"></i>Missing</span><span><i class="hm-c hm-un hm-flag"></i>Flagged</span></div><div class="heatmap">';
+    S.forEach(function (sec) {
+      h += '<div class="hm-row"><a class="hm-t" href="#/s/' + enc(sec.id) + '">' + esc(sec.heading) + '</a><span class="hm-cells">' +
+        sec.allIds.map(function (id) {
+          var st = cellState(id);
+          return '<a class="hm-c hm-' + st[0] + (P.isMarked(id) ? ' hm-flag' : '') + '" href="#/q/' + enc(id) + '" title="' + esc(Q[id].label + ': ' + st[1] + (P.isMarked(id) ? ', flagged' : '')) + '" aria-label="' + esc(Q[id].label + ', ' + st[1]) + '"></a>';
+        }).join('') + '</span></div>';
+    });
+    return h + '</div>';
+  }
+  function weakSpotsHtml() {
+    var groups = [];
+    S.forEach(function (sec) {
+      var add = function (title, ids, t) {
+        var real = ids.filter(function (id) { return !Q[id].missing; });
+        if (!real.length) return;
+        var weak = real.filter(P.isWeak).length, unread = real.filter(function (id) { return !P.isRead(id); }).length;
+        groups.push({ title: title, sec: sec.title, total: real.length, weak: weak, unread: unread, t: t });
+      };
+      if (sec.questionIds.length) add(sec.title, sec.questionIds, sec.id);
+      sec.subsections.forEach(function (s) { add(s.title, s.questionIds, s.id); });
+    });
+    var anyWeak = groups.some(function (g) { return g.weak > 0; }), list, head;
+    if (anyWeak) {
+      list = groups.filter(function (g) { return g.weak > 0; }).sort(function (x, y) { return y.weak - x.weak || y.unread - x.unread; });
+      head = 'Weak spots';
+    } else {
+      list = groups.filter(function (g) { return g.unread > 0; }).sort(function (x, y) { return y.unread / y.total - x.unread / x.total || y.unread - x.unread; });
+      head = 'Least studied';
+    }
+    var h = '<h2>' + head + '</h2>';
+    if (!list.length) return h + '<p class="empty-note">Nothing here. Everything is read and nothing is marked as forgotten.</p>';
+    h += '<ul class="ws-list">' + list.slice(0, 4).map(function (g) {
+      return '<li><span class="ws-t">' + esc(g.title) + '<small>' + esc(g.sec) + '</small></span><span class="ws-m">' + (g.weak ? '<b>' + g.weak + '</b> forgotten, ' : '') + '<b>' + g.unread + '</b> unread of ' + g.total + '</span>' +
+        '<a class="btn" href="#/recall?set=gap&t=' + enc(g.t) + '">Practise</a></li>';
+    }).join('') + '</ul>';
+    if (!anyWeak) h += '<p class="empty-note">Rate cards in Rapid Recall and the questions you forget will show up here as weak spots.</p>';
+    return h;
+  }
+  function revisionHtml() {
+    var due = P.dueIds().length, weak = P.weakIds().length, flagged = P.markedIds().length;
+    return '<section class="revision" aria-label="Revision"><div class="rev-figs"><div><b>' + due + '</b><span>Due for review</span></div><div><b>' + weak + '</b><span>In mistake vault</span></div><div><b>' + flagged + '</b><span>Revise later</span></div></div>' +
+      '<div class="rev-act">' + (due ? '<a class="btn btn-primary" href="#/recall?set=due">Review due (' + due + ')</a>' : '') + '<a class="btn' + (due ? '' : ' btn-primary') + '" href="#/recall">Rapid Recall</a></div></section>';
+  }
+
   /* ------------------------------------------------------------------ about */
   function renderAbout() {
     main.innerHTML = '<div class="about"><h1>About this question bank</h1>' +
       '<p>' + esc(QB.meta.title) + ' covers Preventive &amp; Social Medicine for MBBS students. The topics, subtopics, questions and answers are shown exactly as they appear in the source file, with bold, italics, lists and tables kept.</p>' +
       '<h2>Your progress</h2><p>Read marks, notes, reading size and recently studied questions are saved in this browser only. They are tied to each question, so they stay in place if the question bank is reordered. Clearing site data for this page also clears them.</p>' +
-      '<h2>Shortcuts</h2><ul><li><kbd>←</kbd> and <kbd>→</kbd> move to the previous or next question.</li><li><kbd>R</kbd> marks the open question as read or unread, and <kbd>F</kbd> flags it to revise later.</li><li><kbd>/</kbd> jumps to search.</li><li><kbd>A</kbd> shows or hides the answer when Hide answers is on.</li><li><kbd>Esc</kbd> exits Focus Mode or closes search.</li></ul>' +
+      '<h2>Shortcuts</h2><ul><li><kbd>←</kbd> and <kbd>→</kbd> move to the previous or next question.</li><li><kbd>R</kbd> marks the open question as read or unread, and <kbd>F</kbd> flags it to revise later.</li><li><kbd>/</kbd> jumps to search.</li><li><kbd>A</kbd> shows or hides the answer when Hide answers is on, and <kbd>L</kbd> turns the Key points view on or off.</li><li>In Rapid Recall: <kbd>Space</kbd> shows the answer, <kbd>1</kbd> means Forgot, <kbd>2</kbd> means Got it.</li><li><kbd>Esc</kbd> exits Focus Mode or closes search.</li></ul>' +
       '<h2>On a tablet or phone</h2><p>Swipe left or right on a question to move to the next or previous one. Use the Night button for a dark theme, and Hide answers on a question to test yourself before revealing the answer.</p>' +
+      '<h2>Revision tools</h2><p><strong>Rapid Recall</strong> turns questions into flashcards. Cards you read come back for review after 1, 3, 7, 14 and 30 days, and cards you forget go to the mistake vault. <strong>Key points</strong> dims everything except the bold terms in an answer, for fast last-minute reading. The question map and weak spots on the dashboard show where to spend your time.</p>' +
       '<h2>Use it offline</h2><p>After one visit online, the site keeps a copy so it opens without internet. On Android you can also add it to your home screen.</p><p class="backup-row"><button type="button" class="btn" id="install-btn"' + (installEvt ? '' : ' hidden') + '>Add to home screen</button></p>' +
       '<h2>Back up your progress</h2><p>Your read marks, notes and flags live only in this browser. Download a backup to keep a copy or move to another device. Restoring adds the backup to what is already here; nothing is deleted.</p>' +
       '<p class="backup-row"><button type="button" class="btn" data-act="backup-export">Download backup</button> <label class="btn filebtn" for="backup-file">Restore from backup</label><input type="file" id="backup-file" accept="application/json,.json" class="sr-only"></p><p class="backup-status" id="backup-status" role="status" aria-live="polite"></p>' +
@@ -514,6 +678,14 @@
     sec.classList.toggle('is-covered', P.getPractice() && !q.missing && revealedId !== cur.id);
     var b = document.querySelector('.pracbtn'); if (b) b.setAttribute('aria-pressed', String(P.getPractice()));
   }
+  function lensBtn() {
+    return '<button type="button" class="flagbtn lensbtn" data-act="toggle-lens" aria-pressed="' + P.getLens() + '" title="Dim everything except the bold key points (key L)">Key points</button>';
+  }
+  function applyLens() {
+    var sec = document.querySelector('.answer'); if (!sec || cur.type !== 'question') return;
+    sec.classList.toggle('lens', P.getLens() && !Q[cur.id].missing);
+    var b = document.querySelector('.lensbtn'); if (b) b.setAttribute('aria-pressed', String(P.getLens()));
+  }
   function flagBtn(id) {
     var on = P.isMarked(id);
     return '<button type="button" class="flagbtn" data-act="toggle-mark" data-id="' + id + '" data-flagbtn aria-pressed="' + on + '">' + ICON_FLAG + '<span>Revise later</span></button>';
@@ -551,11 +723,11 @@
     var h = '<article class="q-page' + (r ? ' is-read' : '') + '" id="q-page"><div class="q-grid"><div class="q-col reading">';
     h += '<header class="q-head"><div class="q-meta"><span class="q-num">' + esc(q.label) + '</span>' +
       tagChips(q) +
-      '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + (q.missing ? '' : pracBtn()) + flagBtn(id) + readBox(id, false) + '</div></header>';
+      '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + (q.missing ? '' : pracBtn() + lensBtn()) + flagBtn(id) + readBox(id, false) + '</div></header>';
     h += '<div class="q-prog"><span class="bar" role="progressbar" aria-label="Position in list" aria-valuemin="1" aria-valuemax="' + ids.length + '" aria-valuenow="' + (i + 1) + '"><i style="width:' + pct(i + 1, ids.length) + '%"></i></span>' +
       '<div class="q-prog-note"><span class="q-pos">Question ' + (i + 1) + ' of ' + ids.length + '</span><span id="q-readcount">' + ov.done + ' of ' + ov.total + ' read</span></div></div>';
     h += '<div class="q-text prose" role="heading" aria-level="1">' + proseHtml(q.qHtml) + '</div>';
-    h += '<section class="answer' + (q.missing ? ' is-missing' : '') + (P.getPractice() && !q.missing && revealedId !== id ? ' is-covered' : '') + '" aria-label="Answer"><div class="answer-label">Answer' + (q.missing ? ' <span class="tag tag-missing">Missing</span>' : '') + '</div><div class="prose">' + proseHtml(q.aHtml) + '</div><button type="button" class="reveal" data-act="reveal">Show answer</button></section>';
+    h += '<section class="answer' + (q.missing ? ' is-missing' : '') + (P.getPractice() && !q.missing && revealedId !== id ? ' is-covered' : '') + (P.getLens() && !q.missing ? ' lens' : '') + '" aria-label="Answer"><div class="answer-label">Answer' + (q.missing ? ' <span class="tag tag-missing">Missing</span>' : '') + '</div><div class="prose">' + proseHtml(q.aHtml) + '</div><button type="button" class="reveal" data-act="reveal">Show answer</button></section>';
     h += '<div class="q-actions">' + (q.missing ? '<span class="hint">This question cannot be marked as read until its answer is added. You can still keep a note.</span>' : readBox(id, false) + (next ? '<button type="button" class="btn btn-primary" data-act="read-next" data-id="' + id + '" data-next="' + next + '">Mark as read &amp; next →</button>' : '') + '<span class="hint">Saved in this browser. Keys: R read, F flag.</span>') + '</div>';
     h += '<nav class="pager" aria-label="Question navigation">' + pg(prev, 'prev') + pg(next, 'next') + '</nav>';
     if (seq.ctx) {
@@ -628,7 +800,7 @@
     var h = '<div class="sb-top"><div class="sb-head"><a class="sb-brand" href="#/"><span class="sb-eyebrow">Preventive &amp; Social Medicine</span><span class="sb-title">Viva Question Bank</span><span class="sb-sub">Second term, solved</span></a>' +
       '<button type="button" class="sb-hide" data-act="collapse-sb" aria-label="Hide contents" title="Hide contents"><svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M11.5 5L6.5 10l5 5M16 5l-5 5 5 5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>' +
       '<div class="sb-overall"><div class="row"><span>Overall</span><span><b>' + ov.done + '</b> / ' + ov.total + ' &middot; ' + ov.pct + '%</span></div>' + bar(ov.done, ov.total, 'thin', 'Overall progress') + '</div></div>' +
-      '<nav class="sb-nav" aria-label="Pages">' + nav('#/', 'Dashboard', cur.type === 'dash') + nav('#/all', 'All questions', cur.type === 'list' && !cur.secId) + nav('#/about', 'About', cur.type === 'about') + '</nav>' +
+      '<nav class="sb-nav" aria-label="Pages">' + nav('#/', 'Dashboard', cur.type === 'dash') + nav('#/all', 'All', cur.type === 'list' && !cur.secId) + nav('#/recall', 'Recall', cur.type === 'recall') + nav('#/about', 'About', cur.type === 'about') + '</nav>' +
       '<div class="sb-scroll"><ul class="tree">';
     S.forEach(function (sec) {
       var st = P.stats(sec.allIds), open = P.isOpen(sec.id);
@@ -771,8 +943,14 @@
     else if (act === 'f-mark') setF({ mark: el.getAttribute('data-v') });
     else if (act === 'toggle-mark') { toggleMark(id); }
     else if (act === 'toggle-practice') { P.setPractice(!P.getPractice()); revealedId = ''; applyPractice(); announce(P.getPractice() ? 'Answers hidden until you tap Show answer.' : 'Answers always shown.'); }
+    else if (act === 'toggle-lens') { P.setLens(!P.getLens()); applyLens(); announce(P.getLens() ? 'Key points view on.' : 'Key points view off.'); if (cur.type === 'recall' && deck && !deck.done) renderDeck(); }
     else if (act === 'reveal') { revealedId = cur.id; applyPractice(); announce('Answer shown.'); }
     else if (act === 'random') { randomUnread(); }
+    else if (act === 'rc-show') { if (deck) { deck.shown = true; renderDeck(); } }
+    else if (act === 'rc-good') { recallRate(true); }
+    else if (act === 'rc-again') { recallRate(false); }
+    else if (act === 'rc-skip') { if (deck) { deck.ids.push(deck.ids.splice(deck.i, 1)[0]); deck.shown = false; if (deck.ids.length === 1) { /* only card left */ } renderDeck(); } }
+    else if (act === 'rc-restart') { if (deck) { buildDeck(deck.set, deck.t); renderDeck(); window.scrollTo(0, 0); } }
     else if (act === 'read-next') {
       var nx = el.getAttribute('data-next');
       if (!P.isRead(id)) toggleRead(id);
@@ -919,8 +1097,15 @@
       if (tg && tg.offsetParent !== null && !$('topbar').classList.contains('search-open')) tg.click(); else sInput.focus();
       return;
     }
+    if (cur.type === 'recall' && deck && !deck.done && deck.ids.length) {
+      if ((e.key === ' ' || e.key === 'Enter') && !deck.shown) { e.preventDefault(); deck.shown = true; renderDeck(); }
+      else if (e.key === '1' && deck.shown) { e.preventDefault(); recallRate(false); }
+      else if (e.key === '2' && deck.shown) { e.preventDefault(); recallRate(true); }
+      return;
+    }
     if (cur.type !== 'question') return;
     if ((e.key === 'r' || e.key === 'R') && !Q[cur.id].missing) { e.preventDefault(); toggleRead(cur.id); return; }
+    if ((e.key === 'l' || e.key === 'L') && !Q[cur.id].missing) { e.preventDefault(); P.setLens(!P.getLens()); applyLens(); return; }
     if ((e.key === 'a' || e.key === 'A') && P.getPractice() && !Q[cur.id].missing) {
       e.preventDefault(); revealedId = revealedId === cur.id ? '' : cur.id; applyPractice(); return;
     }
@@ -965,7 +1150,7 @@
   P.on(function (type) {
     if (type === 'font') { applyFont(); return; }
     if (type === 'theme') { applyTheme(); return; }
-    if (type === 'practice') { return; }
+    if (type === 'practice' || type === 'lens') { return; }
     if (type === 'external') { applyFont(); applyTheme(); route(true); return; }
     renderSidebar();
     if (cur.type === 'question') updateQuestionUI();

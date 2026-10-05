@@ -11,6 +11,8 @@
  *   recent    [ { id, t } ]            most recent first
  *   last      { id, t }                last question opened
  *   font      number                   reading-size multiplier
+ *   recall    { [questionId]: { box, due, last, lapses, seen, weak } }   spaced revision (due = day number)
+ *   lens      bool                     Answer Lens: dim everything except the bold key points
  *   theme     "light" | "dark"
  *   practice  bool                     hide answers until tapped
  *   ui        { open: {[id]: true}, collapsed: bool }   sidebar state
@@ -73,6 +75,10 @@
   var recent = lget('recent', []);
   var last = lget('last', null);
   var font = lget('font', 1);
+  var recall = lget('recall', {});
+  var lens = lget('lens', false) === true;
+  var INTERVALS = [1, 3, 7, 14, 30];             // days until the next review after each correct answer
+  function dayNum(d) { var x = d ? new Date(d) : new Date(); return Math.floor((x.getTime() - x.getTimezoneOffset() * 60000) / 86400000); }
   var theme = lget('theme', 'light') === 'dark' ? 'dark' : 'light';
   var practice = lget('practice', false) === true;
   var ui = lget('ui', { open: {}, collapsed: false });
@@ -131,7 +137,7 @@
 
     /* backup / restore: everything the reader has created, keyed by question ID */
     exportData: function () {
-      return { app: 'psm-viva-question-bank', version: 1, exported: new Date().toISOString(), read: readMap, notes: notes, marks: marks };
+      return { app: 'psm-viva-question-bank', version: 1, exported: new Date().toISOString(), read: readMap, notes: notes, marks: marks, recall: recall };
     },
     importData: function (obj) {
       if (!obj || typeof obj !== 'object' || obj.app !== 'psm-viva-question-bank') throw new Error('This is not a backup file from this question bank.');
@@ -145,7 +151,12 @@
         }
       }
       for (id in inMarks) if (known(id) && !marks[id]) { marks[id] = String(inMarks[id]); added.marks++; }
-      lset('read', readMap); lset('notes', notes); lset('marks', marks);
+      var inRecall = obj.recall || {};
+      for (id in inRecall) {
+        var r = inRecall[id];
+        if (known(id) && r && typeof r.due === 'number' && (!recall[id] || String(r.last) > String(recall[id].last))) { recall[id] = r; added.recall = (added.recall || 0) + 1; }
+      }
+      lset('read', readMap); lset('notes', notes); lset('marks', marks); lset('recall', recall);
       emit('external', { key: 'import' });
       return added;
     },
@@ -194,6 +205,37 @@
       API.setFont(FONT_STEPS[i]);
     },
 
+    /* spaced revision (Recall Queue / Rapid Recall) */
+    today: function () { return dayNum(); },
+    dueOf: function (id) {
+      if (recall[id]) return recall[id].due;
+      return readMap[id] ? dayNum(readMap[id]) + 1 : null;      // a question you read is first due the next day
+    },
+    isDue: function (id) {
+      var q = QB.questions[id]; if (q && q.missing) return false;
+      var d = API.dueOf(id); return d !== null && d <= dayNum();
+    },
+    dueIds: function () { return order.filter(API.isDue); },
+    isWeak: function (id) { return !!(recall[id] && recall[id].weak); },
+    weakIds: function () { return order.filter(API.isWeak); },
+    ratedCount: function () { var n = 0; for (var k in recall) n++; return n; },
+    rate: function (id, good) {
+      var e = recall[id] || { box: 0, lapses: 0, seen: 0, due: 0, weak: false }, t = dayNum();
+      e.seen++; e.last = new Date().toISOString();
+      if (good) { e.box = Math.min(e.box + 1, INTERVALS.length); e.due = t + INTERVALS[e.box - 1]; if (e.box >= 2) e.weak = false; }
+      else { e.box = 0; e.lapses++; e.due = t; e.weak = true; }
+      recall[id] = e; lset('recall', recall);
+      emit('recall', { id: id, good: !!good });
+      return e;
+    },
+    nextDueIn: function () {
+      var t = dayNum(), best = null;
+      for (var k in recall) if (recall[k].due > t && (best === null || recall[k].due < best)) best = recall[k].due;
+      return best === null ? null : best - t;
+    },
+    getLens: function () { return lens; },
+    setLens: function (v) { lens = !!v; lset('lens', lens); emit('lens', { value: lens }); },
+
     /* night theme, practice mode */
     getTheme: function () { return theme; },
     setTheme: function (v) { theme = v === 'dark' ? 'dark' : 'light'; lset('theme', theme); emit('theme', { value: theme }); },
@@ -236,6 +278,8 @@
     readMap = lget('read', {});
     notes = lget('notes', {});
     marks = lget('marks', {});
+    recall = lget('recall', {});
+    lens = lget('lens', false) === true;
     recent = lget('recent', []);
     last = lget('last', null);
     font = lget('font', 1);
