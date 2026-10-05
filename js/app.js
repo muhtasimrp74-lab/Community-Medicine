@@ -720,7 +720,7 @@
       return '<a class="pg pg-' + dir + '" href="#/q/' + enc(target) + '" rel="' + dir + '"><span class="pg-dir">' + lab + '</span><span class="pg-label">' + esc(Q[target].label) + '</span><span class="pg-title">' + esc(Q[target].qText) + '</span></a>';
     }
 
-    var h = '<article class="q-page' + (r ? ' is-read' : '') + '" id="q-page"><div class="q-grid"><div class="q-col reading">';
+    var h = '<article class="q-page' + (r ? ' is-read' : '') + '" id="q-page"><div class="q-grid"><div class="q-col reading inkc" data-id="' + id + '">';
     h += '<header class="q-head"><div class="q-meta"><span class="q-num">' + esc(q.label) + '</span>' +
       tagChips(q) +
       '<span>' + esc(where(id)) + '</span><span id="q-notemark">' + noteMark(id) + '</span>' + (q.missing ? '' : pracBtn() + lensBtn()) + flagBtn(id) + readBox(id, false) + '</div></header>';
@@ -1036,7 +1036,7 @@
     }
     document.addEventListener('touchstart', function (e) {
       ok = false;
-      if (cur.type !== 'question' || e.touches.length !== 1) return;
+      if (cur.type !== 'question' || e.touches.length !== 1 || document.documentElement.classList.contains('ink')) return;
       var t = e.touches[0];
       if (t.clientX < 28 || t.clientX > window.innerWidth - 28) return;     // leave the system back-gesture edges alone
       if (blocked(e.target)) return;
@@ -1123,7 +1123,7 @@
     location.hash = '#/q/' + enc(pool[Math.floor(Math.random() * pool.length)]);
   }
   function exportBackup() {
-    var blob = new Blob([JSON.stringify(P.exportData(), null, 1)], { type: 'application/json' }), url = URL.createObjectURL(blob);
+    var blob = new Blob([JSON.stringify((function () { var d = P.exportData(); try { if (window.PSMINK) d.ink = PSMINK.read(); } catch (e) {} return d; })(), null, 1)], { type: 'application/json' }), url = URL.createObjectURL(blob);
     var link = document.createElement('a'), d = new Date(), z = function (n) { return (n < 10 ? '0' : '') + n; };
     link.href = url; link.download = 'psm-viva-backup-' + d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()) + '.json';
     document.body.appendChild(link); link.click(); link.remove();
@@ -1134,8 +1134,9 @@
     var s = $('backup-status'), fr = new FileReader();
     fr.onload = function () {
       try {
-        var r = P.importData(JSON.parse(String(fr.result)));
-        s = $('backup-status'); if (s) s.textContent = 'Restored: ' + r.read + ' read marks, ' + r.notes + ' notes and ' + r.marks + ' flags added.';
+        var raw = JSON.parse(String(fr.result)), r = P.importData(raw), inkN = 0;
+        try { if (window.PSMINK && raw && raw.ink) { var ci = PSMINK.clean(raw.ink); if (ci && ci.ok) inkN = PSMINK.merge(ci.ink); } } catch (e) {}
+        s = $('backup-status'); if (s) s.textContent = 'Restored: ' + r.read + ' read marks, ' + r.notes + ' notes and ' + r.marks + ' flags added' + (inkN ? ', plus ' + inkN + ' pen strokes' : '') + '.';
       } catch (err) { s = $('backup-status'); if (s) s.textContent = 'Could not restore: ' + (err && err.message ? err.message : 'the file could not be read.'); }
     };
     fr.onerror = function () { if (s) s.textContent = 'Could not read that file.'; };

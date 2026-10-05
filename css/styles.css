@@ -748,3 +748,54 @@ a.hm-c:hover { outline: 2px solid var(--ink); outline-offset: 1px; }
 @media (pointer: coarse) { .hm-c { width: 1.45rem; height: 1.45rem; } .hm-cells { gap: .3rem; } }
 html[data-theme="dark"] .hm-flag { box-shadow: 0 0 0 2px var(--parchment), 0 0 0 3.5px var(--copper-deep); }
 @media print { .recall, .recall-home { max-width: none; } }
+
+/* ===== Handwriting layer (ported from microqbank INK v2) ===== */
+
+.inkc{position:relative;isolation:isolate} /* isolate = card is its own stacking context, so a z-index:-1 child paints ABOVE the card background but BELOW its text */
+/* Ink overlay: a transparent canvas living INSIDE each .q card (position:absolute against the card's padding box).
+   Classes are namespaced (.mbi) because the app already owns .ab (= opaque 'action button': background:var(--card), border, padding,
+   display:inline-flex). The old canvas was class="al ab", so it inherited that button skin and painted a solid box over the card.
+   Every property that a generic rule could leak onto the canvas is reset explicitly here. */
+canvas.mbi{position:absolute;left:0;top:0;right:auto;bottom:auto;width:100%;height:100%;min-width:0;min-height:0;max-width:none;max-height:none;
+  display:block;margin:0;padding:0;border:0;border-radius:0;outline:0;box-shadow:none;
+  background:transparent!important;background-image:none!important;opacity:1;filter:none;mix-blend-mode:normal;
+  pointer-events:none!important;z-index:3;-webkit-user-select:none;user-select:none}
+/* Highlighter layers. Behind the content: canvas.mbi-hl (saved strokes) and canvas.mbi-hlive (stroke in progress) -> text is never tinted.
+   Some blocks paint their own opaque background (code/diagram <pre>, table headers, tags, notes) which would hide a behind-layer, so for those
+   rectangles ONLY a blended copy (mbi-hlx / mbi-hlivex) is drawn on top: multiply keeps dark text dark (light themes), lighten keeps light text light (dark themes). */
+canvas.mbi.mbi-hl,canvas.mbi.mbi-hlive{z-index:-1}
+canvas.mbi.mbi-hlx,canvas.mbi.mbi-hlivex{z-index:2;mix-blend-mode:multiply;mix-blend-mode:var(--mbi-blend)}
+canvas.mbi.mbi-live{z-index:4}
+:root{--mbi-blend:multiply;--mbi-hla:.5}
+html[data-theme="dark"]{--mbi-blend:lighten;--mbi-hla:.4}
+.inkc:has(>canvas.mbi-hl) tbody tr:hover{background:transparent} /* a hovered row (S Pen hover counts) must not cover the highlight */
+.ink .inkc{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;cursor:crosshair}
+
+/* ===== Handwriting toolbar, restyled to the site: parchment surface, ink hairline, copper accents ===== */
+:root { --ib: 1.25rem; }
+@media (max-width: 62rem) { :root { --ib: 4.5rem; } }
+body.focus { --ib: 5.5rem; }
+#inkfab { display: none; position: fixed; z-index: 36; right: max(1rem, env(safe-area-inset-right, 0px)); bottom: calc(var(--ib) + 2.9rem); width: 2.9rem; height: 2.9rem; border-radius: 50%; place-items: center; background: var(--copper-deep); color: var(--parchment); border: 1px solid var(--ink); box-shadow: 0 3px 10px rgba(23,23,25,.28); }
+#inkfab svg { width: 1.3rem; height: 1.3rem; }
+#inkfab:hover { background: var(--ink); }
+.hasq #inkfab { display: grid; } .ink #inkfab { display: none; }
+#ink { display: none; position: fixed; z-index: 48; left: 50%; bottom: var(--ib); transform: translateX(-50%); align-items: center; gap: .15rem; max-width: calc(100vw - .75rem); padding: .35rem .5rem; border-radius: 4px; background: var(--page); border: 1px solid var(--ink); box-shadow: 0 10px 30px rgba(23,23,25,.28), 3px 3px 0 var(--copper); overflow-x: auto; scrollbar-width: none; touch-action: pan-x; }
+#ink::-webkit-scrollbar { display: none; }
+.hasq.ink #ink { display: flex; }
+.ig { flex: none; width: 1.1rem; height: 2.25rem; margin-right: .1rem; background: radial-gradient(circle, var(--rule-strong) 1.6px, transparent 2px) 0 0/6px 8px; touch-action: none; cursor: grab; }
+.ik { flex: none; display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border-radius: 3px; color: var(--ink-soft); background: transparent; border: 1px solid transparent; }
+.ik svg { width: 1.2rem; height: 1.2rem; }
+.ik:hover { background: var(--bone); color: var(--ink); }
+.ik.on { background: var(--ink); color: var(--parchment); }
+.ik:disabled { opacity: .35; }
+.ic { flex: none; width: 1.55rem; height: 1.55rem; margin: 0 .12rem; border-radius: 50%; background: var(--c); border: 2px solid var(--page); box-shadow: 0 0 0 1px var(--rule-strong); }
+.ic.on { box-shadow: 0 0 0 2.5px var(--copper-deep); }
+.iv { flex: none; width: 1px; height: 1.6rem; margin: 0 .3rem; background: var(--rule-strong); }
+.is { flex: none; width: 5.5rem !important; margin: 0 .35rem !important; accent-color: var(--copper-deep); }
+#inkmenu { display: none; position: fixed; z-index: 49; min-width: 13rem; padding: .3rem; border-radius: 4px; background: var(--page); border: 1px solid var(--ink); box-shadow: 0 12px 32px rgba(23,23,25,.3); }
+#inkmenu.on { display: block; }
+#inkmenu button { display: block; width: 100%; padding: .65rem .85rem; border-radius: 3px; text-align: left; font-weight: 500; color: var(--ink); }
+#inkmenu button:hover { background: var(--bone); }
+#inkmenu .dg { color: var(--copper-deep); }
+.ink .inkc a, .ink .inkc button { cursor: crosshair; }
+@media print { #ink, #inkmenu, #inkfab, canvas.mbi { display: none !important; } }
