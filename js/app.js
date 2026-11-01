@@ -32,16 +32,46 @@
   var shown = 30;
   function route(keep) {
     var r = parse();
-    document.querySelectorAll('#bnav a').forEach(function (a) { var k = a.getAttribute('data-r'); a.classList.toggle('on', k === r.r || (r.r === 'q' && k === 'questions') || (r.r === 'chapter' && k === 'chapters') || (r.r === 'predict' && k === 'menu') || (['read','custom','run'].indexOf(r.r) >= 0 && k === 'mcqs')); });
-    var fn = { home: home, progress: progress, questions: questions, q: single, chapters: chapters, chapter: chapter, answers: answers, mcqs: mcqs, custom: custom, read: reading, run: run, menu: menu, predict: predict }[r.r] || home;
+    document.querySelectorAll('#bnav a').forEach(function (a) { var k = a.getAttribute('data-r'); a.classList.toggle('on', k === r.r || (r.r === 'q' && k === 'questions') || (r.r === 'chapter' && k === 'chapters') || (r.r === 'predict' && k === 'menu') || (r.r === 'firsts' && k === 'menu') || (['read','custom','run'].indexOf(r.r) >= 0 && k === 'mcqs')); });
+    var fn = { home: home, progress: progress, questions: questions, q: single, chapters: chapters, chapter: chapter, answers: answers, mcqs: mcqs, custom: custom, read: reading, run: run, menu: menu, predict: predict, firsts: firsts }[r.r] || home;
     if (!keep) shown = 30;
     var y = window.scrollY; stopTimer();
     fn(r);
     if (keep) window.scrollTo(0, y); else window.scrollTo(0, 0);
-    document.title = 'Community Medicine — ' + ({ home: 'Dashboard', questions: 'Questions', q: 'Question', progress: 'Progress', chapters: 'Chapters', chapter: 'Chapter', answers: 'Answers', mcqs: 'MCQs', custom: 'Custom practice', read: 'Reading mode', run: 'MCQ session', menu: 'Menu', predict: 'Prediction for Prof' }[r.r] || 'DU Question Bank');
+    document.title = 'Community Medicine — ' + ({ home: 'Dashboard', questions: 'Questions', q: 'Question', progress: 'Progress', chapters: 'Chapters', chapter: 'Chapter', answers: 'Answers', mcqs: 'MCQs', custom: 'Custom practice', read: 'Reading mode', run: 'MCQ session', menu: 'Menu', predict: 'Prediction for Prof', firsts: 'First-time questions' }[r.r] || 'DU Question Bank');
   }
   window.addEventListener('hashchange', function () { route(false); });
 
+
+
+  /* ------------------------------------------------------------ first-time questions per exam session */
+  var SEAS = { Ja: 1, M: 2, Ju: 3, S: 4, Nov: 5 };
+  function sk(c) { var m = String(c).replace(/\u2020/g, '').match(/^(\d{2})(Ja|M|Ju|S|Nov)/); return m ? { k: (2000 + +m[1]) * 10 + SEAS[m[2]], l: '20' + m[1] + m[2] } : null; }
+  function firsts(r) {
+    var FROM = 20171, part = +r.qs.part || 0, by = {}, tot = {};
+    DU.forEach(function (q) {
+      var ss = {}; (q.years || []).forEach(function (c) { var o = sk(c); if (o) ss[o.k] = o; });
+      var ks = Object.keys(ss).map(Number).sort(function (a, b) { return a - b; });
+      ks.forEach(function (k) { tot[k] = (tot[k] || 0) + 1; });
+      if (ks.length && ks[0] >= FROM) { (by[ks[0]] = by[ks[0]] || []).push({ q: q, later: ks.slice(1).map(function (k) { return ss[k].l; }), l: ss[ks[0]].l }); }
+    });
+    var keys = Object.keys(tot).map(Number).filter(function (k) { return k >= FROM; }).sort(function (a, b) { return b - a; });
+    var all = 0, allN = 0; keys.forEach(function (k) { all += (by[k] || []).length; allN += tot[k]; });
+    var opts = '<option value="">All parts</option>' + partIds.map(function (n) { return '<option value="' + n + '"' + (n === part ? ' selected' : '') + '>' + esc(pname(n)) + '</option>'; }).join('');
+    var h = hero({ title: 'First-time questions', desc: 'Questions that appeared in the bank for the first time in each exam session, from 2017 onward.' }) + '<div class="wrap" style="padding-top:1rem">' +
+      '<div class="card pbox"><div class="k">How to read this</div><div class="m">A question is \u201cfirst-time\u201d when its earliest exam-year tag in this bank is that session. Across ' + keys.length + ' sessions, ' + all + ' of ' + allN + ' question appearances (' + Math.round(all / allN * 100) + '%) were new. Questions with no exam-year tag (college scenarios) are not counted. Rewordings are merged, so a truly reworded old question is not shown as new.</div></div>' +
+      '<div class="row"><select id="f-part" class="sel" aria-label="Filter by part">' + opts + '</select></div>';
+    keys.forEach(function (k, i) {
+      var l = by[k] || [], lab = (l[0] && l[0].l) || String(Object.keys(SEAS).length && ''), shown = l.filter(function (x) { return !part || x.q.part === part; });
+      var code = (function () { var y = Math.floor(k / 10), s = k % 10, n = { 1: 'Ja', 2: 'M', 3: 'Ju', 4: 'S', 5: 'Nov' }[s]; return y + n; })();
+      h += '<details class="fst"' + (i === 0 ? ' open' : '') + '><summary><b>' + code + '</b><span>' + l.length + ' first-time of ' + tot[k] + ' (' + Math.round(l.length / tot[k] * 100) + '%)</span></summary>' +
+        (shown.length ? shown.sort(function (a, b) { return a.q.part - b.q.part || a.q.n - b.q.n; }).map(function (x) {
+          var q = x.q; return '<div class="pq"><div class="ph"><b>' + esc(q.id) + '</b><span class="pm">' + esc(q.topic) + '</span>' + (q.stars ? '<span class="pt">\u2605' + q.stars + '</span>' : '') + '</div><div class="pb">' + q.q + '</div><div class="pw">' + (x.later.length ? 'Asked again in ' + x.later.map(esc).join(', ') : 'Not asked again yet') + ' \u00b7 <a href="#/q/' + esc(q.id) + '">open in bank</a></div></div>';
+        }).join('') : '<p class="pm2" style="padding:.5rem 0">No first-time questions in this part for this session.</p>') + '</details>';
+    });
+    main.innerHTML = h + '</div>';
+    $('#f-part').onchange = function () { location.hash = url('#/firsts', { part: this.value }); };
+  }
 
   /* ------------------------------------------------------------ prediction papers */
 
@@ -102,6 +132,7 @@
       '<a class="card" href="#/mcqs"><div class="k">Practice</div><h3>MCQ practice</h3><div class="m">SBA and true/false with instant keys</div></a>' +
       '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">' + rd + ' read · ' + md + ' MCQs tried · streak, by part</div></a>' +
       '<a class="card" href="#/chapters"><div class="k">Chapter-wise</div><h3>Chapters</h3><div class="m">Every part, topic by topic</div></a>' +
+      '<a class="card" href="#/firsts"><div class="k">Patterns</div><h3>First-time questions</h3><div class="m">What appeared for the first time in each exam since 2017</div></a>' +
       '<a class="card ppred" href="#/predict"><div class="k">New · This year</div><h3>Prediction for Prof</h3><div class="m">4 full papers in the new MCQ + SAQ/SEQ format</div></a>' +
       '<a class="card" href="#/answers"><div class="k">Answers</div><h3>Model answers</h3><div class="m">' + DU.filter(function (q) { return q.a; }).length + ' added so far</div></a></div>';
     h += '<div class="sec"><h2>Browse by part</h2></div><div class="grid">' + partIds.map(function (n) {
@@ -650,6 +681,7 @@
     main.innerHTML = hero({ title: 'Menu', desc: 'Display, backup and the second-term archive.' }) + '<div class="wrap" style="padding-top:1rem"><div class="grid">' +
       '<div class="card"><div class="k">Display</div><h3>Reading</h3><div class="row"><button class="btn ghost sm" id="m-theme">' + (dark ? 'Day mode' : 'Night mode') + '</button><button class="btn ghost sm" id="m-fs-">A−</button><button class="btn ghost sm" id="m-fs+">A+</button></div></div>' +
       '<div class="card"><div class="k">Progress</div><h3>Backup</h3><div class="m">' + nRead() + ' read · ' + nDone() + ' MCQs tried · ' + Object.keys(S.notes).length + ' notes</div><div class="row"><button class="btn ghost sm" id="m-exp">Download backup</button><label class="btn ghost sm">Restore<input id="m-imp" type="file" accept="application/json" hidden></label><button class="btn ghost sm" id="m-reset">Reset</button></div></div>' +
+      '<a class="card" href="#/firsts"><div class="k">Patterns</div><h3>First-time questions</h3><div class="m">New questions in each exam session since 2017.</div></a>' +
       '<a class="card ppred" href="#/predict"><div class="k">Exam</div><h3>Prediction for Prof</h3><div class="m">Four predicted papers for this year\'s format.</div></a>' +
       '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">Streak, daily activity, progress by part.</div></a>' +
       '<a class="card archive" href="second-term/"><div class="k">Separate site</div><h3>Second-term viva bank</h3><div class="m">80 solved viva questions, kept apart from this bank.</div></a>' +
