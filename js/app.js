@@ -32,15 +32,49 @@
   var shown = 30;
   function route(keep) {
     var r = parse();
-    document.querySelectorAll('#bnav a').forEach(function (a) { var k = a.getAttribute('data-r'); a.classList.toggle('on', k === r.r || (r.r === 'q' && k === 'questions') || (r.r === 'chapter' && k === 'chapters') || (['read','custom','run'].indexOf(r.r) >= 0 && k === 'mcqs')); });
-    var fn = { home: home, progress: progress, questions: questions, q: single, chapters: chapters, chapter: chapter, answers: answers, mcqs: mcqs, custom: custom, read: reading, run: run, menu: menu }[r.r] || home;
+    document.querySelectorAll('#bnav a').forEach(function (a) { var k = a.getAttribute('data-r'); a.classList.toggle('on', k === r.r || (r.r === 'q' && k === 'questions') || (r.r === 'chapter' && k === 'chapters') || (r.r === 'predict' && k === 'menu') || (['read','custom','run'].indexOf(r.r) >= 0 && k === 'mcqs')); });
+    var fn = { home: home, progress: progress, questions: questions, q: single, chapters: chapters, chapter: chapter, answers: answers, mcqs: mcqs, custom: custom, read: reading, run: run, menu: menu, predict: predict }[r.r] || home;
     if (!keep) shown = 30;
     var y = window.scrollY; stopTimer();
     fn(r);
     if (keep) window.scrollTo(0, y); else window.scrollTo(0, 0);
-    document.title = 'Community Medicine — ' + ({ home: 'Dashboard', questions: 'Questions', q: 'Question', progress: 'Progress', chapters: 'Chapters', chapter: 'Chapter', answers: 'Answers', mcqs: 'MCQs', custom: 'Custom practice', read: 'Reading mode', run: 'MCQ session', menu: 'Menu' }[r.r] || 'DU Question Bank');
+    document.title = 'Community Medicine — ' + ({ home: 'Dashboard', questions: 'Questions', q: 'Question', progress: 'Progress', chapters: 'Chapters', chapter: 'Chapter', answers: 'Answers', mcqs: 'MCQs', custom: 'Custom practice', read: 'Reading mode', run: 'MCQ session', menu: 'Menu', predict: 'Prediction for Prof' }[r.r] || 'DU Question Bank');
   }
   window.addEventListener('hashchange', function () { route(false); });
+
+
+  /* ------------------------------------------------------------ prediction papers */
+  function predict(r) {
+    var P = CM.predict, n = +r.id, GN = { A: 'Group A \u00b7 Community medicine, PHC, behavioural science, entomology', B: 'Group B \u00b7 Epidemiology, biostatistics, nutrition, environment', C: 'Group C \u00b7 Administration, MCH-FP, demography, school and occupational health', D: 'Group D \u00b7 Communication, immunity, immunization, CD and NCD' };
+    var tabs = '<div class="ptabs"><a href="#/predict"' + (!n ? ' class="on"' : '') + '>Overview</a>' + P.papers.map(function (p) { return '<a href="#/predict/' + p.no + '"' + (n === p.no ? ' class="on"' : '') + '>' + p.name + '</a>'; }).join('') + '</div>';
+    if (!n || !P.papers[n - 1]) {
+      main.innerHTML = hero({ title: 'Prediction for Prof', desc: 'Three full written papers in this year\u2019s format, built from every exam session in the bank.' }) + '<div class="wrap" style="padding-top:1rem">' + tabs +
+        '<div class="card pbox"><div class="k">This year\u2019s format</div><h3>90 written marks + 10 formative</h3><div class="m">MCQ 20 (10 MTF + 10 SBA). Four groups A\u2013D of 17.5 marks each: SAQ Q1\u20134 (answer any 3 \u00d7 3.5) + compulsory SEQ Q5 (7). Group A is examined by the convener, Group B by an internal, C and D by externals.</div></div>' +
+        '<div class="card pbox"><div class="k">How it was built</div><h3>Method</h3><div class="m">Every DU question was scored by how often and how recently it was asked (2019\u20132026 sessions count most). Each group takes its heaviest topics first, one angle per topic (two for Communicable Diseases), and no question appears in more than one paper. SEQ slots use scenario-type questions. MCQs follow the same ranking. Paper 3 holds the \u201coverdue\u201d questions plus new scenarios from current events.</div></div>' +
+        '<div class="card pbox"><div class="k">Examiner watch-list (from news and programme changes)</div><div class="m"><ul class="pl"><li>Typhoid conjugate vaccine: nationwide campaign and routine EPI introduction, 2025\u201326.</li><li>Nipah (date-palm sap) and dengue: recurrent seasonal outbreaks in Bangladesh.</li><li>Health Sector Reform Commission: UHC, primary-care strengthening and budget share.</li><li>BDHS 2022 indicators: fertility, infant and under-5 mortality, caesarean rate, contraceptive use.</li></ul></div></div>' +
+        '<div class="grid">' + P.papers.map(function (p) { return '<a class="card" href="#/predict/' + p.no + '"><div class="k">' + p.name + '</div><h3>' + esc(p.title) + '</h3><div class="m">' + esc(p.blurb) + '</div></a>'; }).join('') + '</div>' +
+        '<p class="pnote">These are probability-based predictions from past patterns, not leaked papers. Use them to prioritise revision, and still read every chapter. Items marked New are AI-written scenarios; verify against Park or Matrix.</p></div>';
+      return;
+    }
+    var p = P.papers[n - 1], key = false;
+    function cl(t) { return esc(String(t).replace(/[\u2605\u2606]+\s*/g, '').trim()); }
+    function mtf(id) { var q = byId[id]; return '<li><b>' + cl(q.stem) + '</b><ul class="po">' + q.opts.map(function (o) { return '<li>' + esc(o.l) + ') ' + cl(o.t) + ' <span class="pk">' + (o.k === 'T' ? 'T' : 'F') + '</span></li>'; }).join('') + '</ul></li>'; }
+    function sba(id) { var q = byId[id]; return '<li><b>' + cl(q.stem) + '</b><ul class="po">' + q.opts.map(function (o) { return '<li' + (o.l === q.ans ? ' data-a="1"' : '') + '>' + esc(o.l) + ') ' + cl(o.t) + '</li>'; }).join('') + '</ul></li>'; }
+    function item(x, label, marks) {
+      var q = x.id ? byId[x.id] : null, html = q ? q.q : x.custom.q, w = x.id ? x.why : x.custom.why;
+      return '<div class="pq"><div class="ph"><b>' + label + '</b><span class="pm">' + marks + '</span><span class="pt t-' + esc((x.tier || 'New')) + '">' + esc(x.tier || 'New') + '</span></div><div class="pb">' + html + '</div><div class="pw">' + esc(w) + (q ? ' \u00b7 <a href="#/q/' + esc(q.id) + '">open in bank</a>' : '') + '</div></div>';
+    }
+    var h = hero({ title: p.name + ' \u00b7 ' + p.title, desc: p.blurb }) + '<div class="wrap" style="padding-top:1rem">' + tabs +
+      '<div class="row"><button class="btn ghost sm" id="p-key">Show MCQ key</button><button class="btn ghost sm" onclick="window.print()">Print</button></div>' +
+      '<div class="psec"><h2>Section A \u00b7 MCQ (20 marks)</h2><p class="pm2">MTF: 10 stems \u00d7 5 statements, mark each True or False. SBA: choose the single best answer.</p><h3>MTF</h3><ol class="pml" id="p-mtf">' + p.mtf.map(mtf).join('') + '</ol><h3>SBA</h3><ol class="pml" start="11" id="p-sba">' + p.sba.map(sba).join('') + '</ol></div>';
+    'ABCD'.split('').forEach(function (g) {
+      var v = p.groups[g];
+      h += '<div class="psec"><h2>' + esc(GN[g]) + ' \u00b7 17.5 marks</h2><p class="pm2">Answer any three of Q1\u20134 (3.5 each). Q5 is compulsory (7).</p>' + v.saq.map(function (x, i) { return item(x, 'Q' + (i + 1), '3.5'); }).join('') + item(v.seq, 'Q5', '7') + '</div>';
+    });
+    main.innerHTML = h + '<p class="pnote">Predictions are pattern-based. Items marked New are AI-written; verify answers with Park or Matrix.</p></div>';
+    $('#p-key').onclick = function () { key = !key; main.classList.toggle('showkey', key); this.textContent = key ? 'Hide MCQ key' : 'Show MCQ key'; };
+    main.classList.remove('showkey');
+  }
 
   /* ------------------------------------------------------------ home */
   function home() {
@@ -55,6 +89,7 @@
       '<a class="card" href="#/mcqs"><div class="k">Practice</div><h3>MCQ practice</h3><div class="m">SBA and true/false with instant keys</div></a>' +
       '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">' + rd + ' read · ' + md + ' MCQs tried · streak, by part</div></a>' +
       '<a class="card" href="#/chapters"><div class="k">Chapter-wise</div><h3>Chapters</h3><div class="m">Every part, topic by topic</div></a>' +
+      '<a class="card ppred" href="#/predict"><div class="k">New · This year</div><h3>Prediction for Prof</h3><div class="m">3 full papers in the new MCQ + SAQ/SEQ format</div></a>' +
       '<a class="card" href="#/answers"><div class="k">Answers</div><h3>Model answers</h3><div class="m">' + DU.filter(function (q) { return q.a; }).length + ' added so far</div></a></div>';
     h += '<div class="sec"><h2>Browse by part</h2></div><div class="grid">' + partIds.map(function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; });
@@ -602,6 +637,7 @@
     main.innerHTML = hero({ title: 'Menu', desc: 'Display, backup and the second-term archive.' }) + '<div class="wrap" style="padding-top:1rem"><div class="grid">' +
       '<div class="card"><div class="k">Display</div><h3>Reading</h3><div class="row"><button class="btn ghost sm" id="m-theme">' + (dark ? 'Day mode' : 'Night mode') + '</button><button class="btn ghost sm" id="m-fs-">A−</button><button class="btn ghost sm" id="m-fs+">A+</button></div></div>' +
       '<div class="card"><div class="k">Progress</div><h3>Backup</h3><div class="m">' + nRead() + ' read · ' + nDone() + ' MCQs tried · ' + Object.keys(S.notes).length + ' notes</div><div class="row"><button class="btn ghost sm" id="m-exp">Download backup</button><label class="btn ghost sm">Restore<input id="m-imp" type="file" accept="application/json" hidden></label><button class="btn ghost sm" id="m-reset">Reset</button></div></div>' +
+      '<a class="card ppred" href="#/predict"><div class="k">Exam</div><h3>Prediction for Prof</h3><div class="m">Three predicted papers for this year\'s format.</div></a>' +
       '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">Streak, daily activity, progress by part.</div></a>' +
       '<a class="card archive" href="second-term/"><div class="k">Separate site</div><h3>Second-term viva bank</h3><div class="m">80 solved viva questions, kept apart from this bank.</div></a>' +
       '<div class="card"><div class="k">About</div><h3>Source</h3><div class="m">Questions and MCQs come from Matrix 3rd Prof (18th Ed.) and college papers, merged and de-duplicated. Items tagged New are AI-written; check them against Park or Matrix. Model answers are being added.</div></div></div></div>';

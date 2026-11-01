@@ -239,3 +239,15 @@ a.prow:hover{border-color:var(--accent)}
 .sortseg{display:inline-flex;gap:0}.sortseg button{border:1px solid var(--line);background:var(--chip);color:var(--text);padding:.35rem .7rem;font:600 .78rem var(--body);cursor:pointer}
 .sortseg button:first-child{border-radius:.6rem 0 0 .6rem}.sortseg button:last-child{border-radius:0 .6rem .6rem 0;border-left:0}
 .sortseg button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* prediction papers */
+.ptabs{display:flex;gap:.4rem;flex-wrap:wrap;margin:0 0 1rem}.ptabs a{padding:.4rem .8rem;border:1px solid var(--line,#ccc);border-radius:99px;font-weight:600;font-size:.85rem;color:var(--text)}.ptabs a.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pbox{margin-bottom:.8rem}.pl{margin:.3rem 0 0 1.1rem;padding:0}.pnote{font-size:.8rem;opacity:.75;margin:1.2rem 0}
+.psec{margin:1.4rem 0}.psec h2{font-size:1.1rem;margin:0 0 .2rem}.pm2{font-size:.82rem;opacity:.75;margin:0 0 .6rem}
+.pq{border:1px solid var(--line,#ccc);border-left:4px solid var(--accent);border-radius:10px;padding:.7rem .85rem;margin:.55rem 0;background:var(--panel)}
+.ph{display:flex;gap:.5rem;align-items:center;margin-bottom:.3rem}.pm{font-size:.75rem;opacity:.7}.pt{margin-left:auto;font-size:.7rem;font-weight:700;padding:.1rem .5rem;border-radius:99px;border:1px solid var(--accent);color:var(--accent)}
+.pt.t-High{background:var(--accent);color:#fff}.pb p{margin:.2rem 0}.pw{font-size:.75rem;opacity:.7;margin-top:.35rem}
+.pml{padding-left:1.3rem}.pml>li{margin:.7rem 0}.po{list-style:none;padding-left:.3rem;margin:.25rem 0}.po li{margin:.1rem 0;font-size:.92rem}
+.pk{display:none;font-weight:700;color:var(--accent);margin-left:.3rem}.showkey .pk{display:inline}.showkey .po li[data-a]{font-weight:700;color:var(--accent)}
+.ppred{border-color:var(--accent)}
+@media print{.top,.bnav,.foot,.ptabs,.row{display:none!important}.pq{break-inside:avoid}}
