@@ -95,30 +95,71 @@
   var YEARS = yearList();
 
   /* ------------------------------------------------------------ question rows (Patholozzee-style) */
-  function filteredQ(qs) {
-    var tk = (qs.q || '').toLowerCase().split(/\s+/).filter(Boolean);
-    return DU.filter(function (q) {
-      if (qs.part && q.part != qs.part) return false;
-      if (qs.topic && q.topic !== qs.topic) return false;
-      if (qs.stars && q.stars < +qs.stars) return false;
-      if (qs.year && q.years.indexOf(qs.year) < 0) return false;
-      if (qs.kind && q.kind !== qs.kind) return false;
-      if (qs.status === 'unread' && S.read[q.id]) return false;
-      if (qs.status === 'read' && !S.read[q.id]) return false;
-      if (qs.status === 'flagged' && !S.flag[q.id]) return false;
-      if (qs.status === 'noted' && !S.notes[q.id]) return false;
-      if (tk.length) { var t = (strip(q.q) + ' ' + q.topic + ' ' + q.colleges + ' ' + q.asked).toLowerCase(); for (var i = 0; i < tk.length; i++) if (t.indexOf(tk[i]) < 0) return false; }
-      return true;
-    });
+  /* ---- exam tags: DU written years, session, college papers ---- */
+  var SESN = { Ja: 'Jan', M: 'May', Ju: 'Jun', S: 'Sep', Nov: 'Nov' };
+  function yparse(code) {
+    var m = String(code).match(/^(\d{2})(Ja|M|Ju|S|Nov)$/);
+    if (m) return { y: 2000 + +m[1], s: m[2], label: SESN[m[2]] + ' ' + (2000 + +m[1]) };
+    var n = String(code).match(/^(\d{2})/);
+    return { y: n ? 2000 + +n[1] : 0, s: '', label: n ? '20' + n[1] + ' (' + code.slice(2) + ')' : code };
   }
+  function ccol(q) {
+    if (q._c) return q._c; var out = [];
+    (q.colleges || '').split(';').forEach(function (s) {
+      var m = s.trim().match(/^([A-Za-z]+)\s*\((.*)\)$/); if (!m) return;
+      m[2].split(',').forEach(function (p) { var mm = p.trim().match(/^(.*?)\s+([A-Z]\d+)$/); out.push({ c: m[1], p: mm ? mm[1] : p.trim(), k: mm ? mm[2] : '' }); });
+    });
+    return (q._c = out);
+  }
+  function tagsHtml(q, lab) {
+    var h = '', c = ccol(q);
+    if (q.years.length) h += '<div class="tagrow"><span class="tg du">' + (lab || 'DU Written') + '</span>' + q.years.map(function (y) { return '<span class="tg yr" title="Exam code ' + esc(y) + '">' + esc(yparse(y).label) + '</span>'; }).join('') + '</div>';
+    if (c.length) h += '<div class="tagrow"><span class="tg lab">College</span>' + c.map(function (x) { return '<span class="tg col c-' + esc(x.c) + '"><b>' + esc(x.c) + '</b>' + esc(x.p) + (x.k ? '<i>' + esc(x.k) + '</i>' : '') + '</span>'; }).join('') + '</div>';
+    if (!lab && !q.years.length && !c.length) h += '<div class="tagrow"><span class="tg lab">No exam tag</span></div>';
+    return h;
+  }
+  var QSTAT = { unread: 'Not read', read: 'Read', flagged: 'Flagged', noted: 'Has my notes' };
+  var FACETS = [
+    ['stars', 'Importance', function (q) { return [q.stars]; }, function (v) { return v === 3 ? '★★★ High-yield' : v === 2 ? '★★ Often asked' : v === 1 ? '★ Repeated' : 'Unstarred'; }, [3, 2, 1, 0]],
+    ['kind', 'Question type', function (q) { return [q.kind || 'Standard']; }, function (v) { return v; }, ['Standard', 'SEQ', 'Case-based']],
+    ['yr', 'DU Written year', function (q) { return q.years.map(function (y) { return yparse(y).y; }); }, function (v) { return v; }, 'years'],
+    ['ses', 'DU Written session', function (q) { return q.years.map(function (y) { return yparse(y).s; }).filter(Boolean); }, function (v) { return { Ja: 'January', M: 'May', Ju: 'June', S: 'September', Nov: 'November' }[v]; }, ['Ja', 'M', 'Ju', 'S', 'Nov']],
+    ['col', 'Medical college paper', function (q) { return ccol(q).map(function (x) { return x.c; }); }, function (v) { return v; }, ['MMC', 'MuMC', 'ShSMC', 'SSMC', 'DMC']],
+    ['paper', 'College exam', function (q) { return ccol(q).map(function (x) { return x.p; }); }, function (v) { return v; }, 'papers'],
+    ['st', 'Your progress', function (q) { var a = []; a.push(S.read[q.id] ? 'read' : 'unread'); if (S.flag[q.id]) a.push('flagged'); if (S.notes[q.id]) a.push('noted'); return a; }, function (v) { return QSTAT[v]; }, ['unread', 'read', 'flagged', 'noted']],
+    ['ans', 'Model answer', function (q) { return [q.a ? 'yes' : 'no']; }, function (v) { return v === 'yes' ? 'Answer added' : 'Answer not added yet'; }, ['yes', 'no']]
+  ];
+  FACETS.forEach(function (f) {
+    if (f[4] === 'years') { var m = {}; DU.forEach(function (q) { q.years.forEach(function (y) { m[yparse(y).y] = 1; }); }); f[4] = Object.keys(m).map(Number).sort(function (a, b) { return b - a; }); }
+    if (f[4] === 'papers') { var p = {}; DU.forEach(function (q) { ccol(q).forEach(function (x) { p[x.p] = 1; }); }); f[4] = Object.keys(p).sort(); }
+  });
+  function emptyQF() { var o = { txt: '', part: [], topic: [] }; FACETS.forEach(function (f) { o[f[0]] = []; }); return o; }
+  function fromQs(qs) {
+    var f = emptyQF(); f.txt = qs.q || '';
+    if (qs.part) f.part = [+qs.part]; if (qs.topic) f.topic = [qs.topic];
+    if (qs.stars) for (var s = +qs.stars; s <= 3; s++) f.stars.push(s);
+    if (qs.kind) f.kind = [qs.kind]; if (qs.status) f.st = [qs.status];
+    return f;
+  }
+  function qMatch(q, f, skip) {
+    if (skip !== 'part' && f.part.length && f.part.indexOf(q.part) < 0) return false;
+    if (skip !== 'topic' && f.topic.length && f.topic.indexOf(q.topic) < 0) return false;
+    for (var i = 0; i < FACETS.length; i++) {
+      var k = FACETS[i][0]; if (k === skip || !f[k].length) continue;
+      var vals = FACETS[i][2](q); if (!vals.some(function (v) { return f[k].indexOf(v) >= 0; })) return false;
+    }
+    var tk = f.txt.toLowerCase().split(/\s+/).filter(Boolean);
+    if (tk.length) { var t = (strip(q.q) + ' ' + q.topic + ' ' + q.colleges + ' ' + q.asked + ' ' + q.years.map(function (y) { return yparse(y).label; }).join(' ')).toLowerCase(); for (var j = 0; j < tk.length; j++) if (t.indexOf(tk[j]) < 0) return false; }
+    return true;
+  }
+  var QF = null;
+  function nActive(f) { var n = f.part.length + f.topic.length + (f.txt ? 1 : 0); FACETS.forEach(function (x) { n += f[x[0]].length; }); return n; }
   function ansHtml(q) { return q.a ? '<div class="qb">' + q.a + '</div>' : '<p class="empty">The model answer for this question has not been added yet.</p>'; }
   function qRow(q, open) {
     var meta = '';
     if (q.kind) meta += '<span class="tpill">' + esc(q.kind) + '</span>';
-    if (q.years.length) meta += '<span class="yc"><b>Asked</b>' + q.years.map(esc).join(' · ') + '</span>';
-    if (q.colleges) meta += '<span class="yc">' + esc(q.colleges) + '</span>';
     return '<div class="qrow' + (S.read[q.id] ? ' read' : '') + (open ? ' open' : '') + '" data-id="' + q.id + '"><div class="qtop"><span class="qid">' + esc(q.id.replace('DU.', '')) + '</span><div class="qtx qb">' + q.q + '</div>' +
-      '<div class="qside">' + stars(q.stars) + '<a class="abtn" href="#/q/' + q.id + '">Answer</a></div></div>' + (meta ? '<div class="qmeta">' + meta + '</div>' : '') +
+      '<div class="qside">' + stars(q.stars) + '<a class="abtn" href="#/q/' + q.id + '">Answer</a></div></div>' + (meta ? '<div class="qmeta">' + meta + '</div>' : '') + tagsHtml(q) +
       '<div class="qexp"><div class="ansbox">' + ansHtml(q) + '</div>' + (q.asked ? '<p class="meta"><b>Also asked as:</b> ' + esc(q.asked) + '</p>' : '') +
       '<div class="acts"><button data-a="read" aria-pressed="' + !!S.read[q.id] + '">' + (S.read[q.id] ? '✓ Read' : 'Mark read') + '</button><button data-a="flag" aria-pressed="' + !!S.flag[q.id] + '">⚑ Flag</button><button data-a="note">Notes' + (S.notes[q.id] ? ' •' : '') + '</button></div><div class="slot"></div></div></div>';
   }
@@ -159,20 +200,50 @@
 
   /* ------------------------------------------------------------ questions */
   function questions(r) {
-    var qs = r.qs, list = filteredQ(qs), filtering = !!(qs.q || qs.topic || qs.stars || qs.year || qs.kind || qs.status || qs.part);
-    function tog(k, v) { var o = {}; Object.keys(qs).forEach(function (x) { o[x] = qs[x]; }); o[k] = o[k] === String(v) ? '' : String(v); return url('#/questions', o); }
-    var chip = function (k, v, label) { return '<a class="fchip' + (qs[k] === String(v) ? ' on' : '') + '" href="' + tog(k, v) + '">' + label + '</a>'; };
+    if (!QF || Object.keys(r.qs).length) QF = fromQs(r.qs);
     var h = hero({ crumb: '<a href="#/">Home</a> › Questions', title: 'Questions', desc: 'Tap a question to read its answer right here, or tap Answer to open it on its own page.',
-      btns: '<div class="btnrow"><button class="bigbtn fill" id="rnd">Random question</button><a class="bigbtn" href="#/chapters">Chapters</a></div>', pills: [DU.length + ' questions', 'Part by part', nRead() + ' of ' + DU.length + ' read'] });
-    h += '<div class="wrap"><div class="bar2"><input type="search" data-f="q" placeholder="Search questions, topics, colleges" value="' + esc(qs.q || '') + '" aria-label="Search"><button class="sbtn" id="ftog" aria-expanded="' + panelOpen + '">Filters</button></div>' +
-      '<div class="panel filters" id="fpanel"' + (panelOpen ? '' : ' hidden') + '>' + sel('part', 'All parts', partOpts(DU), qs.part) + sel('topic', 'All topics', topicsOf(DU, qs.part).map(function (t) { return [t, t]; }), qs.topic) + sel('stars', 'Any stars', [[3, '★★★ only'], [2, '★★ and above'], [1, '★ and above']], qs.stars) + sel('year', 'Any year', YEARS, qs.year) + '</div>' +
-      '<div class="chips">' + chip('stars', 3, '★★★ High-yield') + chip('status', 'unread', 'Not read') + chip('status', 'read', 'Read') + chip('status', 'flagged', 'Flagged') + chip('status', 'noted', 'My notes') + chip('kind', 'SEQ', 'SEQ') + chip('kind', 'Case-based', 'Case-based') + '</div>' +
-      progLine(nRead(), DU.length, 'read') + '<div class="toolrow"><span class="count">' + list.length + ' question' + (list.length === 1 ? '' : 's') + '</span><span><button class="lnk" data-x="open">Expand all</button><button class="lnk" data-x="close">Collapse all</button></span></div>';
-    h += list.length ? groupedRows(list, filtering && !!(qs.part || qs.topic || qs.q) || list.length < 25) : '<div class="empty-state"><h2>No questions match</h2><p>Try removing a filter.</p></div>';
-    main.innerHTML = h + '</div>';
-    bindFilters('#/questions');
-    $('#ftog').onclick = function () { panelOpen = !panelOpen; $('#fpanel').hidden = !panelOpen; this.setAttribute('aria-expanded', panelOpen); };
-    $('#rnd').onclick = function () { var q = (list.length ? list : DU)[Math.floor(Math.random() * (list.length || DU.length))]; location.hash = '#/q/' + q.id; };
+      btns: '<div class="btnrow"><button class="bigbtn fill" id="rnd">Random question</button><a class="bigbtn" href="#/chapters">Chapters</a></div>', pills: [DU.length + ' questions', 'DU Written years', 'College papers'] });
+    h += '<div class="wrap" id="qpage"><div class="bar2"><input type="search" id="qtxt" placeholder="Search questions, topics, colleges, years" aria-label="Search"><button class="sbtn" id="ftog" aria-expanded="false">Filters <span id="fbadge"></span></button></div>' +
+      '<div class="panel fpanel" id="fpanel" hidden></div><div class="chips" id="quick"></div><div id="active" class="chips"></div>' + progLine(nRead(), DU.length, 'read') +
+      '<div class="toolrow"><span class="count" id="qcount"></span><span><button class="lnk" data-x="open">Expand all</button><button class="lnk" data-x="close">Collapse all</button></span></div><div id="qlist"></div></div>';
+    main.innerHTML = h;
+    var txt = $('#qtxt'); txt.value = QF.txt;
+    var open = false, tg = {};
+    function fchip(k, v, label, cnt) { var on = QF[k].indexOf(v) >= 0; return '<button type="button" class="fchip' + (on ? ' on' : '') + (cnt === 0 && !on ? ' z' : '') + '" data-fq="' + k + '" data-v="' + esc(v) + '" aria-pressed="' + on + '">' + label + (cnt == null ? '' : '<em>' + cnt + '</em>') + '</button>'; }
+    function cnt(k, v) { return DU.filter(function (q) { return qMatch(q, QF, k) && (k === 'part' ? q.part === v : k === 'topic' ? q.topic === v : FACETS.filter(function (f) { return f[0] === k; })[0][2](q).indexOf(v) >= 0); }).length; }
+    function panel() {
+      var p = '<div class="fsec"><p class="fh">Part</p><div class="chips">' + partIds.map(function (n) { return fchip('part', n, 'P' + n + ' · ' + esc(PARTS[n]), cnt('part', n)); }).join('') + '</div></div>';
+      if (QF.part.length) {
+        p += '<div class="fsec"><p class="fh">Topic</p>' + QF.part.map(function (n) { return '<p class="fsub">' + esc(PARTS[n]) + '</p><div class="chips">' + topicsOf(DU, n).map(function (t) { return fchip('topic', t, esc(t), cnt('topic', t)); }).join('') + '</div>'; }).join('') + '</div>';
+      }
+      FACETS.forEach(function (f) { p += '<div class="fsec"><p class="fh">' + f[1] + '</p><div class="chips">' + f[4].map(function (v) { return fchip(f[0], v, esc(f[3](v)), cnt(f[0], v)); }).join('') + '</div></div>'; });
+      var tot = DU.filter(function (q) { return qMatch(q, QF); }).length;
+      return p + '<div class="fsum"><b>' + tot + '</b> questions match<span><button class="lnk" data-fa="clear">Clear all</button><button class="sbtn" data-fa="close">Show results</button></span></div>';
+    }
+    function activeChips() {
+      var a = [];
+      QF.part.forEach(function (n) { a.push(['part', n, 'P' + n + ' ' + PARTS[n]]); }); QF.topic.forEach(function (t) { a.push(['topic', t, t]); });
+      FACETS.forEach(function (f) { QF[f[0]].forEach(function (v) { a.push([f[0], v, f[3](v)]); }); });
+      return a.map(function (x) { return '<button type="button" class="fchip on" data-fq="' + x[0] + '" data-v="' + esc(x[1]) + '">' + esc(x[2]) + ' ✕</button>'; }).join('') + (QF.txt ? '<button type="button" class="fchip on" data-fa="txt">“' + esc(QF.txt) + '” ✕</button>' : '');
+    }
+    function paint() {
+      var list = DU.filter(function (q) { return qMatch(q, QF); }), n = nActive(QF);
+      $('#quick').innerHTML = fchip('stars', 3, '★★★ High-yield') + fchip('st', 'unread', 'Not read') + fchip('st', 'flagged', 'Flagged') + fchip('kind', 'SEQ', 'SEQ') + fchip('kind', 'Case-based', 'Case-based');
+      $('#active').innerHTML = activeChips();
+      $('#fbadge').textContent = n ? '(' + n + ')' : '';
+      $('#qcount').textContent = list.length + ' question' + (list.length === 1 ? '' : 's') + (n ? ' match' : '');
+      $('#fpanel').innerHTML = panel(); $('#fpanel').hidden = !open; $('#ftog').setAttribute('aria-expanded', open);
+      $('#qlist').innerHTML = list.length ? groupedRows(list, n > 0 && list.length < 120) : '<div class="empty-state"><h2>No questions match</h2><p>Remove a filter to see more.</p></div>';
+      $('#rnd').onclick = function () { var q = (list.length ? list : DU)[Math.floor(Math.random() * (list.length || DU.length))]; location.hash = '#/q/' + q.id; };
+    }
+    $('#qpage').addEventListener('click', function (e) {
+      var c = e.target.closest('[data-fq]'), a = e.target.closest('[data-fa]');
+      if (c) { var k = c.dataset.fq, v = (k === 'part' || k === 'stars' || k === 'yr') ? +c.dataset.v : c.dataset.v, i = QF[k].indexOf(v); if (i >= 0) QF[k].splice(i, 1); else QF[k].push(v); if (k === 'part') QF.topic = QF.topic.filter(function (t) { return QF.part.length === 0 || QF.part.some(function (pn) { return topicsOf(DU, pn).indexOf(t) >= 0; }); }); paint(); }
+      if (a) { var f = a.dataset.fa; if (f === 'clear') { QF = emptyQF(); txt.value = ''; } if (f === 'txt') { QF.txt = ''; txt.value = ''; } if (f === 'close') { open = false; window.scrollTo(0, $('#qpage').offsetTop); } paint(); }
+    });
+    var t; txt.oninput = function () { clearTimeout(t); t = setTimeout(function () { QF.txt = txt.value; paint(); }, 250); };
+    $('#ftog').onclick = function () { open = !open; paint(); };
+    paint();
   }
   function single(r) {
     var q = byId[r.id]; if (!q || q.id.indexOf('DU.') !== 0) { location.hash = '#/questions'; return; }
@@ -242,7 +313,7 @@
   function record(q, ok) { S.mcq[q.id] = { c: ok ? 1 : 0 }; save(); }
   function chips(q) {
     return '<div class="qh"><span class="chip id">' + q.id + '</span><span class="chip kind">' + (q.kind === 'SBA' ? 'SBA' : 'True / False') + '</span>' + (q.src === 'New' ? '<span class="chip">New (AI-written)</span>' : q.src === 'BCS' ? '<span class="chip">BCS</span>' : '') +
-      '<span class="chip">' + esc(q.topic) + '</span>' + q.years.map(function (y) { return '<span class="chip">' + esc(y) + '</span>'; }).join('') + '</div>';
+      '<span class="chip">' + esc(q.topic) + '</span></div>' + tagsHtml(q, 'DU MCQ');
   }
   /* answers shown: reading mode and review */
   function readCard(q, p) {
