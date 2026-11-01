@@ -1,53 +1,10 @@
-/* Offline support. Network first, so a reload always picks up the newest site when online;
-   the saved copy is used only when the network is unavailable. Nothing the reader wrote
-   (read marks, notes, flags) is stored here - that stays in localStorage. */
-const CACHE = 'psm-viva-v3';
-
-self.addEventListener('install', (event) => {
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE);
-    const base = self.registration.scope;
-    const res = await fetch(new Request(base + 'index.html', { cache: 'reload' }));
-    const html = await res.clone().text();
-    await cache.put(base, res.clone());
-    await cache.put(base + 'index.html', res);
-    const urls = new Set(['manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png']);
-    html.replace(/(?:src|href)="((?:css|js|topics)\/[^"?#]+)"/g, (_, u) => urls.add(u));
-    await Promise.all([...urls].map((u) => cache.add(new Request(base + u, { cache: 'reload' })).catch(() => {})));
-    await self.skipWaiting();
-  })());
-});
-
-self.addEventListener('activate', (event) => {
-  event.waitUntil((async () => {
-    const keys = await caches.keys();
-    await Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)));
-    await self.clients.claim();
-  })());
-});
-
-self.addEventListener('fetch', (event) => {
-  const req = event.request;
-  if (req.method !== 'GET') return;
-  const url = new URL(req.url);
-  const sameOrigin = url.origin === self.location.origin;
-  const fonts = url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
-  if (!sameOrigin && !fonts) return;
-
-  event.respondWith((async () => {
-    const cache = await caches.open(CACHE);
-    try {
-      const fresh = await fetch(req, { cache: 'no-cache' });
-      if (fresh && (fresh.ok || fresh.type === 'opaque')) cache.put(req, fresh.clone());
-      return fresh;
-    } catch (err) {
-      const hit = await cache.match(req, { ignoreSearch: true });
-      if (hit) return hit;
-      if (req.mode === 'navigate') {
-        const home = await cache.match(self.registration.scope + 'index.html');
-        if (home) return home;
-      }
-      throw err;
-    }
-  })());
+const CACHE = 'cm-bank-v1';
+const FILES = ['./', 'index.html', 'css/app.css', 'js/app.js', 'data/du.js', 'data/mcq.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
+  'fonts/dm-serif-display-latin-400-normal.woff2', 'fonts/hanken-grotesk-latin-400-normal.woff2', 'fonts/hanken-grotesk-latin-600-normal.woff2', 'fonts/hanken-grotesk-latin-700-normal.woff2'];
+self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(FILES.map(f => c.add(new Request(f, { cache: 'reload' })).catch(() => {})))).then(() => self.skipWaiting())); });
+self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(k => Promise.all(k.filter(x => x !== CACHE && x.startsWith('cm-bank')).map(x => caches.delete(x)))).then(() => self.clients.claim())); });
+self.addEventListener('fetch', e => {
+  const r = e.request, u = new URL(r.url);
+  if (r.method !== 'GET' || u.origin !== location.origin || u.pathname.includes('/second-term/')) return;
+  e.respondWith(fetch(r, { cache: 'no-cache' }).then(res => { if (res.ok) { const cp = res.clone(); caches.open(CACHE).then(c => c.put(r, cp)); } return res; }).catch(() => caches.match(r, { ignoreSearch: true }).then(h => h || caches.match('index.html'))));
 });

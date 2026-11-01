@@ -229,4 +229,5 @@ def main():
     (ROOT / "index.html").write_text(idx, encoding="utf-8")
     print(out, "total", meta["totalQuestions"])
 
-main()
+if __name__ == "__main__":
+    main()
