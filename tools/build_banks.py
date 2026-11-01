@@ -43,9 +43,19 @@ def build_du():
             stars = ""
             m = re.match(r"(★+)\s*", first)
             if m: stars, first = m.group(1), first[m.end():]
-            asked = ""
-            m = re.search(r"\s*\|\s*\*\(asked as: (.*?)\)\*\s*$", first)
-            if m: asked, first = m.group(1), first[:m.start()]
+            # Trailing annotations look like  *(also asked: ...)*, *(asked as: ...)*, *(also listed in ..., Part n)*
+            # and may sit after the colleges (with a "|" before them) or after the years (without one).
+            # Peel them all off first so they never leak into the colleges / years / question text.
+            asked, note, notes = "", [], []
+            while True:
+                m = re.search(r"\s*(?:\|\s*)?\*\((.*?)\)\*\s*$", first)
+                # keep "(no year given)" for the years parser, and never strip a line that is only a pointer
+                if not m or m.group(1).startswith("no year") or not first[:m.start()].strip(" —"): break
+                notes.insert(0, m.group(1).strip()); first = first[:m.start()]
+            for t_ in notes:
+                m = re.match(r"(?:also )?asked as: (.*)$|also asked: (.*)$", t_)
+                if m: asked = (asked + "; " if asked else "") + (m.group(1) or m.group(2))
+                else: note.append(t_[:1].upper() + t_[1:])
             colleges = ""
             m = re.search(r"\s*\|\s*\*\*Colleges:\*\*\s*(.*)$", first)
             if m: colleges, first = m.group(1).strip(), first[:m.start()]
@@ -59,7 +69,7 @@ def build_du():
             label = f"DU.{n}"
             out.append({"id": label, "n": n, "part": pn, "topic": t["title"], "stars": len(stars),
                         "years": [y.strip() for y in years.split(",") if y.strip() and "no year" not in y], "colleges": colleges,
-                        "asked": asked, "kind": kind, "sub": sub, "q": MD.render(body).strip(), "a": answers.get(label, "")})
+                        "asked": asked, "note": "; ".join(note), "kind": kind, "sub": sub, "q": MD.render(body).strip(), "a": answers.get(label, "")})
     return out
 
 def clean_opt(o):
