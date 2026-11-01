@@ -11,6 +11,7 @@
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <script>try{var s=JSON.parse(localStorage.getItem('cmb:v1')||'{}');if(s.theme==='dark')document.documentElement.dataset.theme='dark';if(s.fs)document.documentElement.style.fontSize=s.fs+'%'}catch(e){}</script>
 <link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/visuals.css">
 </head>
 <body>
 <header class="top" id="top">
@@ -24,17 +25,18 @@
 <main id="main" tabindex="-1"></main>
 <footer class="foot">Community Medicine · DU 3rd Prof MBBS · Created by Muhtasim Ahmed · <a href="second-term/">Second-term archive</a></footer>
 <nav class="bnav" id="bnav" aria-label="Main">
-  <a href="#/" data-r="home"><i>⌂</i>Home</a>
-  <a href="#/questions" data-r="questions"><i>?</i>Questions</a>
-  <a href="#/chapters" data-r="chapters"><i>▤</i>Chapters</a>
-  <a href="#/answers" data-r="answers"><i>✎</i>Answers</a>
-  <a href="#/mcqs" data-r="mcqs"><i>✓</i>MCQs</a>
-  <a href="#/menu" data-r="menu"><i>≡</i>Menu</a>
+  <a href="#/" data-r="home"><i aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 11 12 4l8.5 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-5h4v5"/></svg></i>Home</a>
+  <a href="#/questions" data-r="questions"><i aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></svg></i>Questions</a>
+  <a href="#/chapters" data-r="chapters"><i aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 6c-2-1.5-5-2-8-2v14c3 0 6 .5 8 2 2-1.5 5-2 8-2V4c-3 0-6 .5-8 2z"/><path d="M12 6v14"/></svg></i>Chapters</a>
+  <a href="#/answers" data-r="answers"><i aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 20l1-4L16.5 4.5a2 2 0 0 1 3 3L8 19z"/><path d="m14.5 6.5 3 3"/></svg></i>Answers</a>
+  <a href="#/mcqs" data-r="mcqs"><i aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.3 2.8 2.8 5.4-5.6"/></svg></i>MCQs</a>
+  <a href="#/menu" data-r="menu"><i aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg></i>Menu</a>
 </nav>
 <noscript><p style="padding:2rem">This site needs JavaScript.</p></noscript>
 <script src="data/du.js"></script>
 <script src="data/mcq.js"></script>
 <script src="data/predict.js"></script>
+<script src="js/visuals.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

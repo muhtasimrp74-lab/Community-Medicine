@@ -1,0 +1,54 @@
+/* Chapter / topic visuals. Pairs with js/visuals.js. Each part sets --h (hue); everything else derives from it. */
+
+/* ---- icon tile ---- */
+.vchip{--h:340;display:inline-grid;place-items:center;flex:none;width:2.6rem;height:2.6rem;border-radius:.8rem;color:#fff;
+  background:linear-gradient(135deg,hsl(var(--h) 58% 34%),hsl(calc(var(--h) + 24) 64% 46%));
+  box-shadow:0 .25rem .7rem -.3rem hsl(var(--h) 65% 28% / .7),inset 0 1px 0 rgba(255,255,255,.22)}
+.vchip svg,.vart svg,.vbn-art,.bnav i svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.vchip svg{width:58%;height:58%}
+.vchip.sm{width:2rem;height:2rem;border-radius:.6rem}
+.vchip.lg{width:3.2rem;height:3.2rem;border-radius:1rem}
+
+/* ---- banner strip on part cards ---- */
+.vcard{overflow:hidden;position:relative;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+a.vcard:hover{transform:translateY(-2px);box-shadow:0 .7rem 1.4rem -1rem hsl(var(--h) 60% 30% / .55)}
+.vcard .vbn{display:block;position:relative;height:4.7rem;margin:-1rem -1.1rem .85rem;overflow:hidden;
+  background:
+    radial-gradient(rgba(255,255,255,.17) 1.1px,transparent 1.6px) 0 0/13px 13px,
+    linear-gradient(120deg,hsl(var(--h) 56% 22%),hsl(calc(var(--h) + 22) 60% 38%))}
+.pcard.vcard .vbn{margin:-1.1rem -1.1rem .85rem}
+.vbn::after{content:"";position:absolute;inset:auto 0 0 0;height:.2rem;background:linear-gradient(90deg,hsl(var(--h) 80% 70% / .0),hsl(calc(var(--h) + 30) 85% 72% / .65),hsl(var(--h) 80% 70% / 0))}
+.vbn-art{position:absolute;right:-.5rem;bottom:-1.3rem;width:6.6rem;height:6.6rem;color:rgba(255,255,255,.2);stroke-width:1.1}
+.vbn .vchip{position:absolute;left:1.1rem;bottom:.65rem}
+.vbn-n{position:absolute;left:4.9rem;bottom:.85rem;font:700 .7rem/1 var(--body);letter-spacing:.14em;color:rgba(255,255,255,.82)}
+.vcard{--h:340}
+
+/* ---- hero banners (page + chapter headers) ---- */
+.phero.vhero,.hero.vhome{position:relative;overflow:hidden}
+.phero.vhero{background-image:
+    radial-gradient(rgba(255,255,255,.1) 1.1px,transparent 1.6px),
+    radial-gradient(70% 95% at 92% 0,hsl(var(--h) 72% 52% / .42),transparent 70%),
+    linear-gradient(135deg,hsl(var(--h) 46% 13%),hsl(calc(var(--h) + 18) 50% 19%));
+  background-size:14px 14px,auto,auto}
+.phero.vhero .wrap{position:relative;z-index:1}
+.phero.vhero .crumb{color:hsl(var(--h) 85% 82%)}
+.vart{position:absolute;right:-1.2rem;top:50%;transform:translateY(-50%) rotate(-8deg);width:min(13rem,46vw);height:min(13rem,46vw);color:rgba(255,255,255,.13);pointer-events:none;z-index:0}
+.vart svg{width:100%;height:100%;stroke-width:.9}
+.hero.vhome>*:not(.vart){position:relative;z-index:1}
+.hero.vhome .vart{top:auto;bottom:-1.5rem;transform:rotate(8deg);width:min(11rem,40vw);height:min(11rem,40vw);color:rgba(255,255,255,.12)}
+
+/* ---- topic icons in headings ---- */
+.tic{width:1.05em;height:1.05em;vertical-align:-.17em;margin-right:.4em;color:hsl(var(--h,340) 55% 38%);fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+[data-theme=dark] .tic{color:hsl(var(--h,340) 68% 70%)}
+
+/* ---- chips inside lists / rows / tiles ---- */
+.grp>button .vchip,.grp>summary .vchip{width:2.7rem;height:2.7rem}
+.prow .ph{align-items:center}.prow .vchip{width:2rem;height:2rem;border-radius:.6rem;align-self:center}
+.tile .vchip{float:right;margin:0 0 .4rem .6rem}
+.card .vchip.qi{float:right;margin:0 0 .4rem .7rem}
+
+/* ---- bottom nav: SVG icons replace text glyphs ---- */
+.bnav i svg{width:1.3rem;height:1.3rem;display:block;stroke-width:1.9}
+
+@media(prefers-reduced-motion:reduce){.vcard{transition:none}a.vcard:hover{transform:none}}
+@media print{.vart,.vbn-art{display:none}}
