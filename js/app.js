@@ -194,7 +194,7 @@
       }
       return;
     }
-    if (row && !e.target.closest('a,button,textarea,.slot')) { row.classList.toggle('open'); S.last = row.dataset.id; save(); }
+    if (row && !e.target.closest('a,button,textarea,.slot,.qexp')) { row.classList.toggle('open'); S.last = row.dataset.id; save(); }
   });
   document.addEventListener('click', function (e) {
     var x = e.target.closest('[data-x]'); if (!x) return;

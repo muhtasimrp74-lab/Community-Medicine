@@ -211,3 +211,6 @@ p,li{text-wrap:pretty}
 a.prow:hover{border-color:var(--accent)}
 .prow .ph{display:flex;align-items:baseline;gap:.7rem}.prow .num{font:400 1.3rem var(--disp);color:var(--accent);min-width:2.4rem}.prow .pt{flex:1;font-weight:600}.prow .pp{font:400 1.2rem var(--disp)}
 .prow small{display:block;color:var(--muted);font-size:.78rem;margin-top:.4rem}
+.tool svg{display:block;margin:auto}
+.rings{gap:.45rem}.ringbox{min-width:0;padding:.8rem .25rem}.ringbox svg{width:min(84px,100%);height:auto}.ringbox b,.ringbox small{overflow-wrap:anywhere}
+.tiles>*,.mx-dash>*,.pgrid>*{min-width:0}
