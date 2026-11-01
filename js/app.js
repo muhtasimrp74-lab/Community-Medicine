@@ -11,6 +11,8 @@
   function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { if (!warned) { warned = true; alert('Your progress could not be saved in this browser.'); } } }
   var byId = {}; DU.forEach(function (q) { byId[q.id] = q; }); MCQ.forEach(function (q) { byId[q.id] = q; });
   var partIds = Object.keys(PARTS).map(Number).sort(function (a, b) { return a - b; });
+  function dkey(d) { d = d || new Date(); return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
+  function bump(t) { S.act = S.act || {}; var k = dkey(), a = S.act[k] = S.act[k] || { r: 0, m: 0 }; a[t]++; }
   function pname(n) { return 'Part ' + n + ' · ' + PARTS[n]; }
   var nRead = function () { return DU.filter(function (q) { return S.read[q.id]; }).length; };
   var nDone = function () { return MCQ.filter(function (q) { return S.mcq[q.id]; }).length; };
@@ -30,12 +32,12 @@
   function route(keep) {
     var r = parse();
     document.querySelectorAll('#bnav a').forEach(function (a) { var k = a.getAttribute('data-r'); a.classList.toggle('on', k === r.r || (r.r === 'q' && k === 'questions') || (r.r === 'chapter' && k === 'chapters') || (['read','custom','run'].indexOf(r.r) >= 0 && k === 'mcqs')); });
-    var fn = { home: home, questions: questions, q: single, chapters: chapters, chapter: chapter, answers: answers, mcqs: mcqs, custom: custom, read: reading, run: run, menu: menu }[r.r] || home;
+    var fn = { home: home, progress: progress, questions: questions, q: single, chapters: chapters, chapter: chapter, answers: answers, mcqs: mcqs, custom: custom, read: reading, run: run, menu: menu }[r.r] || home;
     if (!keep) shown = 30;
     var y = window.scrollY; stopTimer();
     fn(r);
     if (keep) window.scrollTo(0, y); else window.scrollTo(0, 0);
-    document.title = 'Community Medicine — ' + ({ home: 'Dashboard', questions: 'Questions', q: 'Question', chapters: 'Chapters', chapter: 'Chapter', answers: 'Answers', mcqs: 'MCQs', custom: 'Custom practice', read: 'Reading mode', run: 'MCQ session', menu: 'Menu' }[r.r] || 'DU Question Bank');
+    document.title = 'Community Medicine — ' + ({ home: 'Dashboard', questions: 'Questions', q: 'Question', progress: 'Progress', chapters: 'Chapters', chapter: 'Chapter', answers: 'Answers', mcqs: 'MCQs', custom: 'Custom practice', read: 'Reading mode', run: 'MCQ session', menu: 'Menu' }[r.r] || 'DU Question Bank');
   }
   window.addEventListener('hashchange', function () { route(false); });
 
@@ -50,6 +52,7 @@
     h += '<div class="sec"><h2>Quick start</h2></div><div class="grid">' +
       '<a class="card" href="#/questions?stars=3"><div class="k">Most asked</div><h3>★★★ questions</h3><div class="m">' + DU.filter(function (q) { return q.stars === 3; }).length + ' high-yield questions</div></a>' +
       '<a class="card" href="#/mcqs"><div class="k">Practice</div><h3>MCQ practice</h3><div class="m">SBA and true/false with instant keys</div></a>' +
+      '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">' + rd + ' read · ' + md + ' MCQs tried · streak, by part</div></a>' +
       '<a class="card" href="#/chapters"><div class="k">Chapter-wise</div><h3>Chapters</h3><div class="m">Every part, topic by topic</div></a>' +
       '<a class="card" href="#/answers"><div class="k">Answers</div><h3>Model answers</h3><div class="m">' + DU.filter(function (q) { return q.a; }).length + ' added so far</div></a></div>';
     h += '<div class="sec"><h2>Browse by part</h2></div><div class="grid">' + partIds.map(function (n) {
@@ -181,7 +184,7 @@
     var b = e.target.closest('.qrow button[data-a]'), row = e.target.closest('.qrow');
     if (b && row) {
       var q = byId[row.dataset.id], a = b.dataset.a, slot = $('.slot', row);
-      if (a === 'read') { if (S.read[q.id]) delete S.read[q.id]; else S.read[q.id] = 1; S.last = q.id; save(); row.classList.toggle('read', !!S.read[q.id]); b.setAttribute('aria-pressed', !!S.read[q.id]); b.textContent = S.read[q.id] ? '✓ Read' : 'Mark read'; }
+      if (a === 'read') { if (S.read[q.id]) delete S.read[q.id]; else { S.read[q.id] = 1; bump('r'); } S.last = q.id; save(); row.classList.toggle('read', !!S.read[q.id]); b.setAttribute('aria-pressed', !!S.read[q.id]); b.textContent = S.read[q.id] ? '✓ Read' : 'Mark read'; }
       if (a === 'flag') { if (S.flag[q.id]) delete S.flag[q.id]; else S.flag[q.id] = 1; save(); b.setAttribute('aria-pressed', !!S.flag[q.id]); }
       if (a === 'note') {
         if (slot.dataset.v === 'note') { slot.dataset.v = ''; slot.innerHTML = ''; return; }
@@ -198,6 +201,48 @@
     var open = x.dataset.x === 'open'; main.querySelectorAll('.grp').forEach(function (gp) { gp.classList.toggle('open', open); });
   });
 
+
+  /* ------------------------------------------------------------ progress tracker */
+  function streaks() {
+    var act = S.act || {}, cur = 0, best = 0, run = 0, d = new Date(), i;
+    function on(x) { var a = act[dkey(x)]; return a && (a.r || a.m); }
+    if (!on(d)) d.setDate(d.getDate() - 1);
+    while (on(d)) { cur++; d.setDate(d.getDate() - 1); }
+    Object.keys(act).sort().forEach(function (k, j, arr) {
+      var a = act[k]; if (!(a.r || a.m)) return;
+      var prev = j ? new Date(arr[j - 1] + 'T00:00:00') : null, now = new Date(k + 'T00:00:00');
+      run = prev && Math.round((now - prev) / 864e5) === 1 && (act[arr[j - 1]].r || act[arr[j - 1]].m) ? run + 1 : 1; if (run > best) best = run;
+    });
+    return { cur: cur, best: best };
+  }
+  function ring(pct, label, sub, cls) {
+    var r = 34, c = 2 * Math.PI * r, o = c * (1 - Math.min(100, pct) / 100);
+    return '<div class="ringbox"><svg viewBox="0 0 80 80" width="84" height="84" role="img" aria-label="' + esc(label) + ' ' + pct + ' percent"><circle cx="40" cy="40" r="' + r + '" class="rbg"/><circle cx="40" cy="40" r="' + r + '" class="rfg ' + (cls || '') + '" stroke-dasharray="' + c.toFixed(1) + '" stroke-dashoffset="' + o.toFixed(1) + '" transform="rotate(-90 40 40)"/><text x="40" y="46" text-anchor="middle" class="rt">' + pct + '%</text></svg><b>' + esc(label) + '</b><small>' + sub + '</small></div>';
+  }
+  function progress() {
+    var nq = DU.length, rd = nRead(), nm = MCQ.length, md = nDone(), ok = MCQ.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length, st = streaks(), act = S.act || {};
+    var pc = function (a, b) { return b ? Math.max(a ? 1 : 0, Math.round(a / b * 100)) : 0; };
+    var h = hero({ crumb: '<a href="#/">Home</a> › Progress', title: 'Progress', desc: 'Your reading, MCQ practice and daily streak, all in one place. Saved on this device.', pills: [st.cur + '-day streak', rd + ' read', md + ' MCQs tried'] });
+    h += '<div class="wrap"><div class="rings">' + ring(pc(rd, nq), 'Questions read', rd + ' of ' + nq) + ring(pc(md, nm), 'MCQs tried', md + ' of ' + nm, 'b') + ring(pc(ok, md), 'MCQ accuracy', ok + ' of ' + md + ' right', 'c') + '</div>';
+    var days = [], i, mx = 1; for (i = 13; i >= 0; i--) { var d = new Date(); d.setDate(d.getDate() - i); var a = act[dkey(d)] || { r: 0, m: 0 }; days.push({ d: d, r: a.r, m: a.m }); mx = Math.max(mx, a.r + a.m); }
+    var week = days.slice(7).reduce(function (t, x) { return t + x.r + x.m; }, 0), today = days[13].r + days[13].m, goal = S.goal || 20;
+    h += '<div class="mx-dash"><div class="card big"><p class="k">Streak</p><div class="big0">' + st.cur + '<small> day' + (st.cur === 1 ? '' : 's') + ' in a row</small></div><p class="m">Best: ' + st.best + ' day' + (st.best === 1 ? '' : 's') + '. Mark a question read or answer an MCQ each day to keep it.</p></div>' +
+      '<div class="card big"><p class="k">Today · last 7 days</p><div class="big0">' + today + '<small> items · ' + week + ' this week</small></div><span class="mx-st g"><u class="r" style="width:' + Math.min(100, today / goal * 100) + '%"></u></span><p class="m">Daily goal ' + goal + ' (change it on the MCQs page).</p></div></div>';
+    h += '<p class="h2s">Last 14 days</p><div class="panel"><div class="bars" role="img" aria-label="Activity over the last 14 days">' + days.map(function (x) {
+      var tot = x.r + x.m; return '<div class="bcol" title="' + x.d.toDateString() + ': ' + x.r + ' read, ' + x.m + ' MCQs"><span class="bv">' + (tot || '') + '</span><div class="bstack"><i class="bm" style="height:' + (x.m / mx * 100) + '%"></i><i class="br" style="height:' + (x.r / mx * 100) + '%"></i></div><small>' + x.d.getDate() + '</small></div>';
+    }).join('') + '</div><div class="dots"><span class="g"><i style="background:var(--accent)"></i>Questions read</span><span><i style="background:var(--ok)"></i>MCQs answered</span></div></div>';
+    h += '<p class="h2s">By part</p>' + partIds.map(function (n) {
+      var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; }), r = qs.filter(function (q) { return S.read[q.id]; }).length, t = ms.filter(function (q) { return S.mcq[q.id]; }).length, c = ms.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length;
+      return '<a class="prow" href="#/chapter/' + n + '"><div class="ph"><span class="num">P' + n + '</span><span class="pt">' + esc(PARTS[n]) + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + '/' + qs.length + ' read · ' + t + '/' + ms.length + ' MCQs tried' + (t ? ' · ' + pc(c, t) + '% right' : '') + '</small></a>';
+    }).join('');
+    var tiers = [3, 2, 1].map(function (s) { var qs = DU.filter(function (q) { return q.stars === s; }), r = qs.filter(function (q) { return S.read[q.id]; }).length; return '<div class="prow"><div class="ph"><span class="pt">' + '★'.repeat(s) + (s === 3 ? ' High-yield' : s === 2 ? ' Often asked' : ' Repeated') + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + ' of ' + qs.length + ' read</small></div>'; }).join('');
+    h += '<p class="h2s">By importance</p>' + tiers;
+    var tm = {}; MCQ.forEach(function (q) { var d = S.mcq[q.id]; if (!d) return; var t = tm[q.topic] = tm[q.topic] || { a: 0, c: 0, p: q.part }; t.a++; t.c += d.c; });
+    var weak = Object.keys(tm).filter(function (k) { return tm[k].a >= 3 && tm[k].c / tm[k].a < .7; }).sort(function (a, b) { return tm[a].c / tm[a].a - tm[b].c / tm[b].a; }).slice(0, 6);
+    h += '<p class="h2s">Weak topics</p>' + (weak.length ? '<div class="hist">' + weak.map(function (k) { return '<div><span>' + esc(k) + '<small>' + tm[k].c + ' of ' + tm[k].a + ' right</small></span><b>' + Math.round(tm[k].c / tm[k].a * 100) + '%</b></div>'; }).join('') + '</div>' : '<p class="about">Answer at least 3 MCQs in a topic and any topic under 70% shows up here.</p>');
+    h += '<div class="tiles" style="margin-top:1rem"><a class="tile" href="#/questions"><b>' + Object.keys(S.flag).length + ' flagged</b><span>Review flagged questions</span></a><a class="tile" href="#/questions"><b>' + Object.keys(S.notes).length + ' notes</b><span>Questions with your notes</span></a></div></div>';
+    main.innerHTML = h;
+  }
   /* ------------------------------------------------------------ questions */
   function questions(r) {
     if (!QF || Object.keys(r.qs).length) QF = fromQs(r.qs);
@@ -310,7 +355,7 @@
     return { got: sc.filter(function (o) { return p[o.l] === o.k; }).length, of: sc.length };
   }
   var isOk = function (q, sc) { return q.kind === 'SBA' ? sc === true : !!sc && sc.got === sc.of; };
-  function record(q, ok) { S.mcq[q.id] = { c: ok ? 1 : 0 }; save(); }
+  function record(q, ok) { S.mcq[q.id] = { c: ok ? 1 : 0 }; bump('m'); save(); }
   function chips(q) {
     return '<div class="qh"><span class="chip id">' + q.id + '</span><span class="chip kind">' + (q.kind === 'SBA' ? 'SBA' : 'True / False') + '</span>' + (q.src === 'New' ? '<span class="chip">New (AI-written)</span>' : q.src === 'BCS' ? '<span class="chip">BCS</span>' : '') +
       '<span class="chip">' + esc(q.topic) + '</span></div>' + tagsHtml(q, 'DU MCQ');
@@ -503,6 +548,7 @@
     main.innerHTML = hero({ title: 'Menu', desc: 'Display, backup and the second-term archive.' }) + '<div class="wrap" style="padding-top:1rem"><div class="grid">' +
       '<div class="card"><div class="k">Display</div><h3>Reading</h3><div class="row"><button class="btn ghost sm" id="m-theme">' + (dark ? 'Day mode' : 'Night mode') + '</button><button class="btn ghost sm" id="m-fs-">A−</button><button class="btn ghost sm" id="m-fs+">A+</button></div></div>' +
       '<div class="card"><div class="k">Progress</div><h3>Backup</h3><div class="m">' + nRead() + ' read · ' + nDone() + ' MCQs tried · ' + Object.keys(S.notes).length + ' notes</div><div class="row"><button class="btn ghost sm" id="m-exp">Download backup</button><label class="btn ghost sm">Restore<input id="m-imp" type="file" accept="application/json" hidden></label><button class="btn ghost sm" id="m-reset">Reset</button></div></div>' +
+      '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">Streak, daily activity, progress by part.</div></a>' +
       '<a class="card archive" href="second-term/"><div class="k">Separate site</div><h3>Second-term viva bank</h3><div class="m">80 solved viva questions, kept apart from this bank.</div></a>' +
       '<div class="card"><div class="k">About</div><h3>Source</h3><div class="m">Questions and MCQs come from Matrix 3rd Prof (18th Ed.) and college papers, merged and de-duplicated. Items tagged New are AI-written; check them against Park or Matrix. Model answers are being added.</div></div></div></div>';
     $('#m-theme').onclick = function () { var d = document.documentElement.dataset.theme === 'dark'; if (d) delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = 'dark'; S.theme = d ? '' : 'dark'; save(); menu(); };

@@ -196,3 +196,18 @@ p,li{text-wrap:pretty}
 .fchip.z{opacity:.4}
 .fsum{position:sticky;bottom:5.2rem;display:flex;justify-content:space-between;align-items:center;gap:.6rem;flex-wrap:wrap;background:var(--hero);color:#fff;border-radius:1rem;padding:.7rem 1rem;box-shadow:0 6px 20px rgba(0,0,0,.25)}
 .fsum b{font:400 1.4rem var(--disp)}.fsum span{display:flex;gap:.5rem;align-items:center}.fsum .lnk{color:#f1a8c0}.fsum .sbtn{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:0}
+/* ===== Progress tracker ===== */
+.rings{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin:1.2rem 0}
+.ringbox{background:var(--panel);border:1px solid var(--line);border-radius:1.1rem;padding:.9rem .4rem;text-align:center}
+.ringbox b{display:block;font-size:.82rem;margin-top:.3rem;line-height:1.25}.ringbox small{display:block;color:var(--muted);font-size:.74rem}
+.rbg{fill:none;stroke:var(--line);stroke-width:8}.rfg{fill:none;stroke:var(--accent);stroke-width:8;stroke-linecap:round}.rfg.b{stroke:var(--accent2)}.rfg.c{stroke:var(--ok)}
+.rt{font:400 17px var(--disp);fill:var(--text)}
+.bars{display:flex;align-items:flex-end;gap:.3rem;height:9rem}
+.bcol{flex:1;display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end;min-width:0}
+.bstack{width:100%;max-width:1.6rem;flex:1;display:flex;flex-direction:column;justify-content:flex-end;background:color-mix(in srgb,var(--line) 50%,transparent);border-radius:.3rem;overflow:hidden}
+.bstack i{display:block;width:100%}.bstack .br{background:var(--accent)}.bstack .bm{background:var(--ok)}
+.bcol small{font-size:.68rem;color:var(--muted);margin-top:.2rem}.bv{font-size:.68rem;font-weight:700;height:1rem;color:var(--muted)}
+.prow{display:block;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:1rem;padding:.8rem 1rem;margin:0 0 .5rem}
+a.prow:hover{border-color:var(--accent)}
+.prow .ph{display:flex;align-items:baseline;gap:.7rem}.prow .num{font:400 1.3rem var(--disp);color:var(--accent);min-width:2.4rem}.prow .pt{flex:1;font-weight:600}.prow .pp{font:400 1.2rem var(--disp)}
+.prow small{display:block;color:var(--muted);font-size:.78rem;margin-top:.4rem}
