@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var DU = CM.du, MCQ = CM.mcq, PARTS = CM.parts, KEY = 'cmb:v1';
+  var CMV = window.CMV, DU = CM.du, MCQ = CM.mcq, PARTS = CM.parts, KEY = 'cmb:v1';
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var main = $('#main');
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
@@ -122,30 +122,31 @@
   /* ------------------------------------------------------------ home */
   function home() {
     var rd = nRead(), md = nDone(), last = S.last && byId[S.last];
-    var h = '<section class="hero"><p class="eyebrow">DU 3rd Prof MBBS · Matrix 18th Ed.</p><h1>Community Medicine for written and viva exams</h1>' +
+    var h = '<section class="hero vhome">' + CMV.art('heart') + '<p class="eyebrow">DU 3rd Prof MBBS · Matrix 18th Ed.</p><h1>Community Medicine for written and viva exams</h1>' +
       '<p>' + DU.length + ' merged DU and college questions and ' + MCQ.length + ' MCQs, sorted by topic with exam years and star ratings. Read, recall, practise.</p>' +
       '<a class="btn" href="#/questions">Explore questions</a></section>' +
       '<div class="stats"><span class="stat"><b>' + DU.length + '</b> questions</span><span class="stat"><b>' + MCQ.length + '</b> MCQs</span><span class="stat"><b>' + rd + '</b> read</span><span class="stat"><b>' + md + '</b> MCQs tried</span><span class="stat"><b>' + DU.filter(function (q) { return S.flag[q.id]; }).length + '</b> flagged</span></div>';
     if (last) h += '<a class="cont" href="#/q/' + esc(last.id) + '"><small>CONTINUE WHERE YOU STOPPED</small><div>' + esc(last.id) + ' · ' + esc(strip(last.q).slice(0, 110)) + '…</div></a>';
     h += '<div class="sec"><h2>Quick start</h2></div><div class="grid">' +
-      '<a class="card" href="#/questions?stars=3"><div class="k">Most asked</div><h3>★★★ questions</h3><div class="m">' + DU.filter(function (q) { return q.stars === 3; }).length + ' high-yield questions</div></a>' +
-      '<a class="card" href="#/mcqs"><div class="k">Practice</div><h3>MCQ practice</h3><div class="m">SBA and true/false with instant keys</div></a>' +
-      '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">' + rd + ' read · ' + md + ' MCQs tried · streak, by part</div></a>' +
-      '<a class="card" href="#/chapters"><div class="k">Chapter-wise</div><h3>Chapters</h3><div class="m">Every part, topic by topic</div></a>' +
-      '<a class="card" href="#/firsts"><div class="k">Patterns</div><h3>First-time questions</h3><div class="m">What appeared for the first time in each exam since 2017</div></a>' +
-      '<a class="card ppred" href="#/predict"><div class="k">New · This year</div><h3>Prediction for Prof</h3><div class="m">4 full papers in the new MCQ + SAQ/SEQ format</div></a>' +
-      '<a class="card" href="#/answers"><div class="k">Answers</div><h3>Model answers</h3><div class="m">' + DU.filter(function (q) { return q.a; }).length + ' added so far</div></a></div>';
+      '<a class="card" href="#/questions?stars=3">' + CMV.chip('star', 'sm').replace('vchip', 'vchip qi') + '<div class="k">Most asked</div><h3>★★★ questions</h3><div class="m">' + DU.filter(function (q) { return q.stars === 3; }).length + ' high-yield questions</div></a>' +
+      '<a class="card" href="#/mcqs">' + CMV.chip('check', 'sm').replace('vchip', 'vchip qi') + '<div class="k">Practice</div><h3>MCQ practice</h3><div class="m">SBA and true/false with instant keys</div></a>' +
+      '<a class="card" href="#/progress">' + CMV.chip('chart', 'sm').replace('vchip', 'vchip qi') + '<div class="k">Track</div><h3>Progress tracker</h3><div class="m">' + rd + ' read · ' + md + ' MCQs tried · streak, by part</div></a>' +
+      '<a class="card" href="#/chapters">' + CMV.chip('book', 'sm').replace('vchip', 'vchip qi') + '<div class="k">Chapter-wise</div><h3>Chapters</h3><div class="m">Every part, topic by topic</div></a>' +
+      '<a class="card" href="#/firsts">' + CMV.chip('search', 'sm').replace('vchip', 'vchip qi') + '<div class="k">Patterns</div><h3>First-time questions</h3><div class="m">What appeared for the first time in each exam since 2017</div></a>' +
+      '<a class="card ppred" href="#/predict">' + CMV.chip('target', 'sm').replace('vchip', 'vchip qi') + '<div class="k">New · This year</div><h3>Prediction for Prof</h3><div class="m">4 full papers in the new MCQ + SAQ/SEQ format</div></a>' +
+      '<a class="card" href="#/answers">' + CMV.chip('pen', 'sm').replace('vchip', 'vchip qi') + '<div class="k">Answers</div><h3>Model answers</h3><div class="m">' + DU.filter(function (q) { return q.a; }).length + ' added so far</div></a></div>';
     h += '<div class="sec"><h2>Browse by part</h2></div><div class="grid">' + partIds.map(function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; });
       var d = qs.filter(function (q) { return S.read[q.id]; }).length;
-      return '<a class="card" href="#/chapter/' + n + '"><div class="k">Part ' + n + '</div><h3>' + esc(PARTS[n]) + '</h3><div class="m">' + qs.length + ' questions · ' + ms.length + ' MCQs</div><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
+      return '<a class="card vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<div class="k">Part ' + n + '</div><h3>' + esc(PARTS[n]) + '</h3><div class="m">' + qs.length + ' questions · ' + ms.length + ' MCQs</div><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
     }).join('') + '</div>';
     h += '<div class="sec"><h2>Archive</h2></div><a class="card archive" href="second-term/"><div class="k">Separate site</div><h3>Second-term solved viva bank</h3><div class="m">80 fully solved viva questions (Environment, PHC, CD/NCD, MCH-FP, School and Occupational Health). Kept apart from this question bank.</div></a>';
     main.innerHTML = '<div class="wrap">' + h + '</div>';
   }
   function wrap(h, pad) { return '<div class="wrap"' + (pad ? ' style="padding-top:1rem"' : '') + '>' + h + '</div>'; }
   function hero(o) {
-    return '<section class="phero"><div class="wrap">' + (o.crumb ? '<p class="crumb">' + o.crumb + '</p>' : '') + '<h1>' + o.title + '</h1>' + (o.desc ? '<p class="d">' + o.desc + '</p>' : '') +
+    var t = CMV.theme(o);
+    return '<section class="phero' + (t ? ' vhero' : '') + '"' + (t ? ' style="--h:' + t.h + '"' : '') + '>' + (t ? CMV.art(t.icon) : '') + '<div class="wrap">' + (o.crumb ? '<p class="crumb">' + o.crumb + '</p>' : '') + '<h1>' + o.title + '</h1>' + (o.desc ? '<p class="d">' + o.desc + '</p>' : '') +
       (o.btns || '') + (o.pills ? '<div class="pills">' + o.pills.map(function (p) { return '<span>' + p + '</span>'; }).join('') + '</div>' : '') + '</div></section>';
   }
   function shuf(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -287,8 +288,8 @@
       var items = list.filter(function (q) { return q.part === n; }); if (!items.length) return;
       var done = items.filter(function (q) { return S.read[q.id]; }).length, byT = {}, order = [];
       items.forEach(function (q) { if (!byT[q.topic]) { byT[q.topic] = []; order.push(q.topic); } byT[q.topic].push(q); });
-      h += '<div class="grp' + (openAll ? ' open' : '') + '"><button type="button" data-a="grp"><span class="num">P' + n + '</span><span class="tt">' + esc(PARTS[n]) + '<span class="ct">' + items.length + ' question' + (items.length === 1 ? '' : 's') + ' · ' + done + ' read</span></span><span class="chev">›</span></button><div class="body">' +
-        order.map(function (t) { return '<p class="tlabel">' + esc(t) + ' <small>' + byT[t].length + '</small></p>' + subBlocks(n, t, byT[t]); }).join('') + '</div></div>';
+      h += '<div class="grp' + (openAll ? ' open' : '') + '"><button type="button" data-a="grp">' + CMV.chip(n) + '<span class="tt">' + esc(PARTS[n]) + '<span class="ct">Part ' + n + ' · ' + items.length + ' question' + (items.length === 1 ? '' : 's') + ' · ' + done + ' read</span></span><span class="chev">›</span></button><div class="body">' +
+        order.map(function (t) { return '<p class="tlabel">' + CMV.ticon(t, n) + esc(t) + ' <small>' + byT[t].length + '</small></p>' + subBlocks(n, t, byT[t]); }).join('') + '</div></div>';
     });
     return h;
   }
@@ -337,7 +338,7 @@
   function progress() {
     var nq = DU.length, rd = nRead(), nm = MCQ.length, md = nDone(), ok = MCQ.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length, st = streaks(), act = S.act || {};
     var pc = function (a, b) { return b ? Math.max(a ? 1 : 0, Math.round(a / b * 100)) : 0; };
-    var h = hero({ crumb: '<a href="#/">Home</a> › Progress', title: 'Progress', desc: 'Your reading, MCQ practice and daily streak, all in one place. Saved on this device.', pills: [st.cur + '-day streak', rd + ' read', md + ' MCQs tried'] });
+    var h = hero({ crumb: '<a href="#/">Home</a> › Progress', icon: 'chart', title: 'Progress', desc: 'Your reading, MCQ practice and daily streak, all in one place. Saved on this device.', pills: [st.cur + '-day streak', rd + ' read', md + ' MCQs tried'] });
     h += '<div class="wrap"><div class="rings">' + ring(pc(rd, nq), 'Questions read', rd + ' of ' + nq) + ring(pc(md, nm), 'MCQs tried', md + ' of ' + nm, 'b') + ring(pc(ok, md), 'MCQ accuracy', ok + ' of ' + md + ' right', 'c') + '</div>';
     var days = [], i, mx = 1; for (i = 13; i >= 0; i--) { var d = new Date(); d.setDate(d.getDate() - i); var a = act[dkey(d)] || { r: 0, m: 0 }; days.push({ d: d, r: a.r, m: a.m }); mx = Math.max(mx, a.r + a.m); }
     var week = days.slice(7).reduce(function (t, x) { return t + x.r + x.m; }, 0), today = days[13].r + days[13].m, goal = S.goal || 20;
@@ -348,7 +349,7 @@
     }).join('') + '</div><div class="dots"><span class="g"><i style="background:var(--accent)"></i>Questions read</span><span><i style="background:var(--ok)"></i>MCQs answered</span></div></div>';
     h += '<p class="h2s">By part</p>' + partIds.map(function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; }), r = qs.filter(function (q) { return S.read[q.id]; }).length, t = ms.filter(function (q) { return S.mcq[q.id]; }).length, c = ms.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length;
-      return '<a class="prow" href="#/chapter/' + n + '"><div class="ph"><span class="num">P' + n + '</span><span class="pt">' + esc(PARTS[n]) + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + '/' + qs.length + ' read · ' + t + '/' + ms.length + ' MCQs tried' + (t ? ' · ' + pc(c, t) + '% right' : '') + '</small></a>';
+      return '<a class="prow" href="#/chapter/' + n + '"><div class="ph">' + CMV.chip(n, 'sm') + '<span class="pt">' + esc(PARTS[n]) + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + '/' + qs.length + ' read · ' + t + '/' + ms.length + ' MCQs tried' + (t ? ' · ' + pc(c, t) + '% right' : '') + '</small></a>';
     }).join('');
     var tiers = [3, 2, 1].map(function (s) { var qs = DU.filter(function (q) { return q.stars === s; }), r = qs.filter(function (q) { return S.read[q.id]; }).length; return '<div class="prow"><div class="ph"><span class="pt">' + '★'.repeat(s) + (s === 3 ? ' High-yield' : s === 2 ? ' Often asked' : ' Repeated') + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + ' of ' + qs.length + ' read</small></div>'; }).join('');
     h += '<p class="h2s">By importance</p>' + tiers;
@@ -361,7 +362,7 @@
   /* ------------------------------------------------------------ questions */
   function questions(r) {
     if (!QF || Object.keys(r.qs).length) QF = fromQs(r.qs);
-    var h = hero({ crumb: '<a href="#/">Home</a> › Questions', title: 'Questions', desc: 'Tap a question to read its answer right here, or tap Answer to open it on its own page.',
+    var h = hero({ crumb: '<a href="#/">Home</a> › Questions', icon: 'list', title: 'Questions', desc: 'Tap a question to read its answer right here, or tap Answer to open it on its own page.',
       btns: '<div class="btnrow"><button class="bigbtn fill" id="rnd">Random question</button><a class="bigbtn" href="#/chapters">Chapters</a></div>', pills: [DU.length + ' questions', 'DU Written years', 'College papers'] });
     h += '<div class="wrap" id="qpage"><div class="bar2"><input type="search" id="qtxt" placeholder="Search words, &quot;exact phrase&quot;, -exclude" aria-label="Search"><button class="sbtn" id="ftog" aria-expanded="false">Filters <span id="fbadge"></span></button></div>' +
       '<div class="panel fpanel" id="fpanel" hidden></div><div class="chips" id="quick"></div><div id="active" class="chips"></div>' + progLine(nRead(), DU.length, 'read') +
@@ -430,18 +431,18 @@
 
   /* ------------------------------------------------------------ chapters */
   function chapters() {
-    var h = hero({ crumb: '<a href="#/">Home</a> › Chapters', title: 'Chapters', desc: 'Pick a part to study its questions topic by topic, and jump to the matching MCQs. For one flat list to drill, use Questions.',
+    var h = hero({ crumb: '<a href="#/">Home</a> › Chapters', icon: 'book', title: 'Chapters', desc: 'Pick a part to study its questions topic by topic, and jump to the matching MCQs. For one flat list to drill, use Questions.',
       btns: '<a class="bigbtn fill" href="#/questions">All questions</a>', pills: [partIds.length + ' parts', DU.length + ' questions', MCQ.length + ' MCQs'] });
     h += wrap('<div class="pgrid">' + partIds.map(function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; }), d = qs.filter(function (q) { return S.read[q.id]; }).length, tp = topicsOf(qs);
-      return '<a class="pcard" href="#/chapter/' + n + '"><span class="num">P' + n + '</span><h3>' + esc(PARTS[n]) + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span><span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topics · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
+      return '<a class="pcard vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<span class="num">P' + n + '</span><h3>' + esc(PARTS[n]) + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span><span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topics · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
     }).join('') + '</div>');
     main.innerHTML = h;
   }
   function chapter(r) {
     var n = +r.id; if (!PARTS[n]) { location.hash = '#/chapters'; return; }
     var list = DU.filter(function (q) { return q.part === n; }), tp = topicsOf(list), ms = MCQ.filter(function (q) { return q.part === n; });
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › Part ' + n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topics, ' + ms.length + ' MCQs.',
+    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › Part ' + n, part: n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topics, ' + ms.length + ' MCQs.',
       btns: '<div class="btnrow"><button class="bigbtn fill" data-go="practice">Practise MCQs</button><a class="bigbtn" href="#/read?part=' + n + '">Read MCQs</a></div>' });
     h += '<div class="wrap">' + progLine(list.filter(function (q) { return S.read[q.id]; }).length, list.length, 'read') + recLegend() + '<div class="toolrow"><span class="count">' + list.length + ' questions</span><span><button class="lnk" data-x="open">Expand all</button><button class="lnk" data-x="close">Collapse all</button></span></div>' +
       (n > 1 ? '' : '') + groupedRows(list, true) + '<div class="pager">' + (n > 1 ? '<a class="btn ghost sm" href="#/chapter/' + (n - 1) + '">← Part ' + (n - 1) + '</a>' : '<span></span>') + (PARTS[n + 1] ? '<a class="btn ghost sm" href="#/chapter/' + (n + 1) + '">Part ' + (n + 1) + ' →</a>' : '') + '</div></div>';
@@ -452,7 +453,7 @@
   /* ------------------------------------------------------------ answers */
   function answers(r) {
     var qs = r.qs, have = DU.filter(function (q) { return q.a && (!qs.part || q.part == qs.part); }), tot = DU.filter(function (q) { return q.a; }).length;
-    var h = hero({ crumb: '<a href="#/">Home</a> › Answers', title: 'Answers', desc: 'Model answers for the DU question bank. ' + tot + ' of ' + DU.length + ' added so far.' });
+    var h = hero({ crumb: '<a href="#/">Home</a> › Answers', icon: 'pen', title: 'Answers', desc: 'Model answers for the DU question bank. ' + tot + ' of ' + DU.length + ' added so far.' });
     if (!tot) h += wrap('<div class="panel empty-state"><h2>Answers are on their way</h2><p>No model answers have been added yet. They will appear here by part, and under each question\'s answer.</p><p>To add answers, put them in <code>source/du_answers.md</code> as <code>## DU.12</code> followed by the answer, then run <code>python3 tools/build_banks.py</code>.</p><a class="btn" href="#/questions">Go to questions</a></div>', true);
     else h += wrap('<div class="panel filters">' + sel('part', 'All parts', partOpts(DU), qs.part) + '</div>' + (have.length ? groupedRows(have, !!qs.part) : '<div class="empty-state"><h2>No answers in this part yet</h2><p>Pick another part or clear the filter.</p></div>'), true);
     main.innerHTML = h; bindFilters('#/answers');
@@ -512,8 +513,8 @@
     var nSba = MCQ.filter(function (q) { return q.kind === 'SBA'; }).length;
     var td = ((S.act || {})[dkey()] || {}).m || 0, goal = S.goal || 20;
     var seg = function (r, w) { return '<span class="mx-st"><u class="r" style="width:' + r + '%"></u><u class="w" style="width:' + w + '%"></u></span>'; };
-    var tile = function (a, t, sub, cls, off) { return '<button type="button" class="tile ' + (cls || '') + (off ? ' off' : '') + '" data-go="' + a + '"><b>' + t + '</b><span>' + sub + '</span></button>'; };
-    var h = hero({ crumb: '<a href="#/">Home</a> › MCQs', title: 'MCQs', desc: 'Practise by chapter, build your own set, sit a timed mock paper, or read every question with the answers shown.',
+    var tile = function (a, t, sub, cls, off) { return '<button type="button" class="tile ' + (cls || '') + (off ? ' off' : '') + '" data-go="' + a + '">' + CMV.chip(({ quick: 'bolt', custom: 'sliders', mock: 'clock', read: 'book', mist: 'warning', fresh: 'sparkle' })[a] || 'check', 'sm') + '<b>' + t + '</b><span>' + sub + '</span></button>'; };
+    var h = hero({ crumb: '<a href="#/">Home</a> › MCQs', icon: 'check', title: 'MCQs', desc: 'Practise by chapter, build your own set, sit a timed mock paper, or read every question with the answers shown.',
       btns: '<div class="btnrow"><button class="bigbtn fill" data-go="quick">Quick 10</button><a class="bigbtn" href="#/read">Reading mode</a></div>', pills: [n + ' MCQs', 'Single best answer + true/false'] });
     h += '<div class="wrap"><div class="mx-dash"><div class="card big"><p class="k">Your accuracy</p><div class="big0">' + (att ? acc + '<small>%</small>' : '–') + '</div>' + seg(att ? right / n * 100 : 0, att ? wrong / n * 100 : 0) +
       '<div class="dots"><span class="g"><i></i>' + right + ' right</span><span class="r"><i></i>' + wrong + ' missed</span><span><i></i>' + left + ' not tried</span></div></div>' +
@@ -525,7 +526,7 @@
       tile('read', 'Reading mode', 'Every question with the answers shown') + tile('mist', 'Mistake bank', mist + ' question' + (mist === 1 ? '' : 's') + ' you got wrong', '', !mist) + tile('fresh', 'Not tried yet', left + ' MCQs you have not attempted') + '</div>';
     h += '<p class="h2s">Browse by chapter</p>' + partIds.map(function (p) {
       var ms = MCQ.filter(function (q) { return q.part === p; }), a = ms.filter(function (q) { return S.mcq[q.id]; }).length, rt = ms.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length;
-      return '<details class="grp mxd"><summary><span class="num">P' + p + '</span><span class="tt">' + esc(PARTS[p]) + '<span class="ct">' + ms.length + ' MCQs · ' + (a ? Math.round(rt / a * 100) + '% right of ' + a + ' tried' : 'not started') + '</span></span><span class="chev">›</span></summary><div class="body">' +
+      return '<details class="grp mxd"><summary>' + CMV.chip(p) + '<span class="tt">' + esc(PARTS[p]) + '<span class="ct">' + ms.length + ' MCQs · ' + (a ? Math.round(rt / a * 100) + '% right of ' + a + ' tried' : 'not started') + '</span></span><span class="chev">›</span></summary><div class="body">' +
         topicsOf(ms).map(function (t) { var tm = ms.filter(function (q) { return q.topic === t; }), ta = tm.filter(function (q) { return S.mcq[q.id]; }).length; return '<div class="tp"><span>' + esc(t) + '<small>' + tm.length + ' MCQs' + (ta ? ' · ' + ta + ' tried' : '') + '</small></span><button class="sbtn" data-go="topic" data-p="' + p + '" data-t="' + esc(t) + '">Practise</button><a class="sbtn" href="' + url('#/read', { part: p, topic: t }) + '">Read</a></div>'; }).join('') +
         '<div class="tp all"><span>Whole part<small>' + ms.length + ' MCQs</small></span><button class="sbtn" data-go="part" data-p="' + p + '">Practise</button><a class="sbtn" href="#/read?part=' + p + '">Read</a></div></div></details>';
     }).join('');
@@ -557,7 +558,7 @@
     var tg = function (f, v, label) { return '<label class="fchip' + (F[f].indexOf(v) >= 0 ? ' on' : '') + '"><input type="checkbox" hidden data-f="' + f + '" data-v="' + esc(v) + '"' + (F[f].indexOf(v) >= 0 ? ' checked' : '') + '>' + label + '</label>'; };
     var seg = function (o, vals) { return '<div class="seg">' + vals.map(function (v) { return '<button type="button" data-o="' + o + '" data-v="' + v[0] + '" class="' + (String(F[o]) === String(v[0]) ? 'on' : '') + '">' + v[1] + '</button>'; }).join('') + '</div>'; };
     var tp = F.part.length ? F.part.reduce(function (a, p) { return a.concat(topicsOf(MCQ, p).map(function (t) { return [p, t]; })); }, []) : [];
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Custom', title: 'Custom practice', desc: 'Build your own set. Filters narrow the pool; the count updates as you choose.' });
+    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Custom', icon: 'sliders', title: 'Custom practice', desc: 'Build your own set. Filters narrow the pool; the count updates as you choose.' });
     h += '<div class="wrap"><div class="bar2"><input type="search" id="ftxt" placeholder="Search question text" value="' + esc(F.txt) + '"></div>' +
       '<div class="panel"><p class="slabel">Part</p><div class="chips">' + partIds.map(function (p) { return tg('part', p, 'P' + p + ' · ' + esc(PARTS[p])); }).join('') + '</div>' +
       (tp.length ? '<p class="slabel">Topic</p><div class="chips">' + tp.map(function (x) { return tg('topic', x[1], esc(x[1])); }).join('') + '</div>' : '') +
@@ -580,7 +581,7 @@
   /* ------------------------------------------------------------ reading mode */
   function reading(r) {
     var qs = r.qs, list = filteredM(qsToF(qs)), keyed = list.filter(scorable);
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Reading mode', title: 'Reading mode', desc: 'Every MCQ with its answer shown, for revision without pressure. Switch to practice when you are ready to test yourself.',
+    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Reading mode', icon: 'book', title: 'Reading mode', desc: 'Every MCQ with its answer shown, for revision without pressure. Switch to practice when you are ready to test yourself.',
       btns: '<div class="btnrow"><button class="bigbtn fill" id="rp"' + (keyed.length ? '' : ' disabled') + '>Practise these</button><a class="bigbtn" href="#/mcqs">MCQ home</a></div>', pills: [list.length + ' MCQs'] });
     h += '<div class="wrap"><div class="bar2"><input type="search" data-f="q" placeholder="Search MCQs" value="' + esc(qs.q || '') + '"></div><div class="panel filters">' +
       sel('part', 'All parts', partOpts(MCQ), qs.part) + sel('topic', 'All topics', topicsOf(MCQ, qs.part).map(function (t) { return [t, t]; }), qs.topic) + sel('kind', 'SBA and T/F', [['SBA', 'SBA only'], ['TF', 'True/False only']], qs.kind) + sel('src', 'All sources', [['DU', 'Past DU papers'], ['BCS', 'BCS'], ['New', 'New (AI-written)']], qs.src) + '</div>' +
@@ -670,7 +671,7 @@
   }
   function result() {
     var n = sess.ids.length, pc = Math.round(sess.ok / n * 100), un = sess.ids.filter(function (id) { return !sess.ans[id] || !Object.keys(sess.ans[id]).length; }).length;
-    main.innerHTML = hero({ crumb: '<a href="#/mcqs">← MCQs</a> · ' + esc(sess.scope), title: sess.ok + ' / ' + n + ' <small>correct</small>', desc: pc + '% fully correct · ' + fmt(sess.el) + (un ? ' · ' + un + ' not answered' : '') + '. Review every answer below.',
+    main.innerHTML = hero({ crumb: '<a href="#/mcqs">← MCQs</a> · ' + esc(sess.scope), icon: 'target', title: sess.ok + ' / ' + n + ' <small>correct</small>', desc: pc + '% fully correct · ' + fmt(sess.el) + (un ? ' · ' + un + ' not answered' : '') + '. Review every answer below.',
       btns: '<div class="btnrow"><button class="bigbtn fill" id="again">Try again</button><a class="bigbtn" href="#/mcqs">MCQ home</a></div>' }) +
       wrap(sess.ids.map(function (id) { var q = byId[id], p = sess.ans[id] || {}; return readCard(q, p).replace('<div class="rdq">', '<div class="rdq ' + (isOk(q, scoreOf(q, p)) ? 'good' : scoreOf(q, p) === null ? '' : 'miss') + '">'); }).join(''), true);
     $('#again').onclick = function () { var ids = shuf(sess.ids); start(ids, { scope: sess.scope, mode: sess.mode, limit: sess.limit }); };
@@ -678,7 +679,7 @@
 
   function menu() {
     var dark = document.documentElement.dataset.theme === 'dark';
-    main.innerHTML = hero({ title: 'Menu', desc: 'Display, backup and the second-term archive.' }) + '<div class="wrap" style="padding-top:1rem"><div class="grid">' +
+    main.innerHTML = hero({ icon: 'menu', title: 'Menu', desc: 'Display, backup and the second-term archive.' }) + '<div class="wrap" style="padding-top:1rem"><div class="grid">' +
       '<div class="card"><div class="k">Display</div><h3>Reading</h3><div class="row"><button class="btn ghost sm" id="m-theme">' + (dark ? 'Day mode' : 'Night mode') + '</button><button class="btn ghost sm" id="m-fs-">A−</button><button class="btn ghost sm" id="m-fs+">A+</button></div></div>' +
       '<div class="card"><div class="k">Progress</div><h3>Backup</h3><div class="m">' + nRead() + ' read · ' + nDone() + ' MCQs tried · ' + Object.keys(S.notes).length + ' notes</div><div class="row"><button class="btn ghost sm" id="m-exp">Download backup</button><label class="btn ghost sm">Restore<input id="m-imp" type="file" accept="application/json" hidden></label><button class="btn ghost sm" id="m-reset">Reset</button></div></div>' +
       '<a class="card" href="#/firsts"><div class="k">Patterns</div><h3>First-time questions</h3><div class="m">New questions in each exam session since 2017.</div></a>' +
