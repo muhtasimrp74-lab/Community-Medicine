@@ -44,13 +44,26 @@
 
 
   /* ------------------------------------------------------------ prediction papers */
+
+  function analysisCard() {
+    var a = CM.predict.analysis; if (!a) return '';
+    return '<div class="card pbox"><div class="k">Pattern analysis \u00b7 backtest on ' + a.sessions.length + ' real sessions (' + a.sessions[0] + '\u2013' + a.sessions[a.sessions.length - 1] + ')</div><h3>What the past papers actually show</h3>' +
+      '<div class="m">Each method ranked the whole bank using only earlier sessions, and its top ' + a.n + ' were checked against what was really asked. Chance would hit about ' + Math.round(a.chance * 100) + '%.</div>' +
+      '<table class="pt4"><tr><th>Method</th><th>Hit rate</th><th>Last 4</th></tr>' + a.rows.map(function (r) { return '<tr><td>' + esc(r.name) + '</td><td>' + Math.round(r.mean * 1000) / 10 + '%</td><td>' + Math.round(r.last4 * 1000) / 10 + '%</td></tr>'; }).join('') + '</table>' +
+      '<ul class="pl"><li>Every method is about 3\u00bd times better than chance, so past papers do predict future ones, but only moderately. Individual questions are hard to call; topics are safer.</li>' +
+      '<li>The chosen model (frequency + how hot the topic has been in the last two years) scored best, but its edge over plain frequency is small with only ' + a.sessions.length + ' test sessions.</li>' +
+      '<li>No March/November rhythm: the chance of a repeat is about ' + a.lagMin + '\u2013' + a.lagMax + '\u00d7 baseline at every gap from 1 to 10 half-years.</li>' +
+      '<li>No \u201cjust asked\u201d effect: ' + Math.round(a.repeatRecent * 1000) / 10 + '% return chance for questions from the last two sessions vs ' + Math.round(a.repeatFreq * 1000) / 10 + '% for frequent ones that were not. Do not skip a question because it came last time.</li>' +
+      '<li>Recent sessions drew questions from the four groups at about A ' + a.share.A + ' : B ' + a.share.B + ' : C ' + a.share.C + ' : D ' + a.share.D + ', which sets Paper 4\u2019s MCQ split (' + ['A', 'B', 'C', 'D'].map(function (g) { return g + a.split[g]; }).join(' ') + ').</li></ul></div>';
+  }
+
   function predict(r) {
     var P = CM.predict, n = +r.id, GN = { A: 'Group A \u00b7 Community medicine, PHC, behavioural science, entomology', B: 'Group B \u00b7 Epidemiology, biostatistics, nutrition, environment', C: 'Group C \u00b7 Administration, MCH-FP, demography, school and occupational health', D: 'Group D \u00b7 Communication, immunity, immunization, CD and NCD' };
     var tabs = '<div class="ptabs"><a href="#/predict"' + (!n ? ' class="on"' : '') + '>Overview</a>' + P.papers.map(function (p) { return '<a href="#/predict/' + p.no + '"' + (n === p.no ? ' class="on"' : '') + '>' + p.name + '</a>'; }).join('') + '</div>';
     if (!n || !P.papers[n - 1]) {
-      main.innerHTML = hero({ title: 'Prediction for Prof', desc: 'Three full written papers in this year\u2019s format, built from every exam session in the bank.' }) + '<div class="wrap" style="padding-top:1rem">' + tabs +
+      main.innerHTML = hero({ title: 'Prediction for Prof', desc: 'Four full written papers in this year\u2019s format, built from every exam session in the bank.' }) + '<div class="wrap" style="padding-top:1rem">' + tabs +
         '<div class="card pbox"><div class="k">This year\u2019s format</div><h3>90 written marks + 10 formative</h3><div class="m">MCQ 20 (10 MTF + 10 SBA). Four groups A\u2013D of 17.5 marks each: SAQ Q1\u20134 (answer any 3 \u00d7 3.5) + compulsory SEQ Q5 (7). Group A is examined by the convener, Group B by an internal, C and D by externals.</div></div>' +
-        '<div class="card pbox"><div class="k">How it was built</div><h3>Method</h3><div class="m">Every DU question was scored by how often and how recently it was asked (2019\u20132026 sessions count most). Each group takes its heaviest topics first, one angle per topic (two for Communicable Diseases), and no question appears in more than one paper. SEQ slots use scenario-type questions. MCQs follow the same ranking. Paper 3 holds the \u201coverdue\u201d questions plus new scenarios from current events.</div></div>' +
+        '<div class="card pbox"><div class="k">How it was built</div><h3>Method</h3><div class="m">Every DU question was scored by how often and how recently it was asked (2019\u20132026 sessions count most). Each group takes its heaviest topics first, one angle per topic (two for Communicable Diseases), and no question appears in more than one paper. SEQ slots use scenario-type questions. MCQs follow the same ranking. Paper 3 holds the \u201coverdue\u201d questions plus new scenarios from current events. Paper 4 is ranked only by a statistical model that was tested against past sessions (below).</div></div>' + analysisCard() + +
         '<div class="card pbox"><div class="k">Examiner watch-list (from news and programme changes)</div><div class="m"><ul class="pl"><li>Typhoid conjugate vaccine: nationwide campaign and routine EPI introduction, 2025\u201326.</li><li>Nipah (date-palm sap) and dengue: recurrent seasonal outbreaks in Bangladesh.</li><li>Health Sector Reform Commission: UHC, primary-care strengthening and budget share.</li><li>BDHS 2022 indicators: fertility, infant and under-5 mortality, caesarean rate, contraceptive use.</li></ul></div></div>' +
         '<div class="grid">' + P.papers.map(function (p) { return '<a class="card" href="#/predict/' + p.no + '"><div class="k">' + p.name + '</div><h3>' + esc(p.title) + '</h3><div class="m">' + esc(p.blurb) + '</div></a>'; }).join('') + '</div>' +
         '<p class="pnote">These are probability-based predictions from past patterns, not leaked papers. Use them to prioritise revision, and still read every chapter. Items marked New are AI-written scenarios; verify against Park or Matrix.</p></div>';
@@ -89,7 +102,7 @@
       '<a class="card" href="#/mcqs"><div class="k">Practice</div><h3>MCQ practice</h3><div class="m">SBA and true/false with instant keys</div></a>' +
       '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">' + rd + ' read · ' + md + ' MCQs tried · streak, by part</div></a>' +
       '<a class="card" href="#/chapters"><div class="k">Chapter-wise</div><h3>Chapters</h3><div class="m">Every part, topic by topic</div></a>' +
-      '<a class="card ppred" href="#/predict"><div class="k">New · This year</div><h3>Prediction for Prof</h3><div class="m">3 full papers in the new MCQ + SAQ/SEQ format</div></a>' +
+      '<a class="card ppred" href="#/predict"><div class="k">New · This year</div><h3>Prediction for Prof</h3><div class="m">4 full papers in the new MCQ + SAQ/SEQ format</div></a>' +
       '<a class="card" href="#/answers"><div class="k">Answers</div><h3>Model answers</h3><div class="m">' + DU.filter(function (q) { return q.a; }).length + ' added so far</div></a></div>';
     h += '<div class="sec"><h2>Browse by part</h2></div><div class="grid">' + partIds.map(function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; });
@@ -637,7 +650,7 @@
     main.innerHTML = hero({ title: 'Menu', desc: 'Display, backup and the second-term archive.' }) + '<div class="wrap" style="padding-top:1rem"><div class="grid">' +
       '<div class="card"><div class="k">Display</div><h3>Reading</h3><div class="row"><button class="btn ghost sm" id="m-theme">' + (dark ? 'Day mode' : 'Night mode') + '</button><button class="btn ghost sm" id="m-fs-">A−</button><button class="btn ghost sm" id="m-fs+">A+</button></div></div>' +
       '<div class="card"><div class="k">Progress</div><h3>Backup</h3><div class="m">' + nRead() + ' read · ' + nDone() + ' MCQs tried · ' + Object.keys(S.notes).length + ' notes</div><div class="row"><button class="btn ghost sm" id="m-exp">Download backup</button><label class="btn ghost sm">Restore<input id="m-imp" type="file" accept="application/json" hidden></label><button class="btn ghost sm" id="m-reset">Reset</button></div></div>' +
-      '<a class="card ppred" href="#/predict"><div class="k">Exam</div><h3>Prediction for Prof</h3><div class="m">Three predicted papers for this year\'s format.</div></a>' +
+      '<a class="card ppred" href="#/predict"><div class="k">Exam</div><h3>Prediction for Prof</h3><div class="m">Four predicted papers for this year\'s format.</div></a>' +
       '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">Streak, daily activity, progress by part.</div></a>' +
       '<a class="card archive" href="second-term/"><div class="k">Separate site</div><h3>Second-term viva bank</h3><div class="m">80 solved viva questions, kept apart from this bank.</div></a>' +
       '<div class="card"><div class="k">About</div><h3>Source</h3><div class="m">Questions and MCQs come from Matrix 3rd Prof (18th Ed.) and college papers, merged and de-duplicated. Items tagged New are AI-written; check them against Park or Matrix. Model answers are being added.</div></div></div></div>';

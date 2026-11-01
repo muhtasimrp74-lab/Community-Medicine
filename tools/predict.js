@@ -89,3 +89,5 @@ const ids = new Set(); let dup = 0;
 papers.forEach(p => { [].concat(p.mtf, p.sba).forEach(i => { if (ids.has(i)) dup++; ids.add(i); }); for (const g in p.groups) { p.groups[g].saq.forEach(s => { if (s.id) { if (ids.has(s.id)) dup++; ids.add(s.id); } }); const s = p.groups[g].seq; if (s.id) { if (ids.has(s.id)) dup++; ids.add(s.id); } } });
 papers.forEach(p => console.log(p.name, 'MTF', p.mtf.length, 'SBA', p.sba.length, Object.entries(p.groups).map(([g, v]) => g + ':' + v.saq.length + '+' + (v.seq.id || 'new')).join(' ')));
 console.log('items', ids.size, 'duplicates', dup);
+
+module.exports = { GM, TG, grp, strip, TW, saqPool, tier, norm, stat, papers, out };
