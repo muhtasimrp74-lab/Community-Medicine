@@ -261,7 +261,7 @@
     var h = '<div class="dash">';
     h += '<header class="masthead"><p class="eyebrow">' + esc(QB.meta.site) + ' &middot; MBBS</p>' +
       '<h1 class="dash-title">' + esc(main1) + (tail ? '<span class="solved">' + esc(tail) + '</span>' : '') + '</h1>' +
-      '<p class="lede">' + plural(ov.total, 'question') + ' across ' + plural(S.length, 'topic') + ', each with a complete answer. Mark what you have read, keep notes, and pick up where you left off.' +
+      '<p class="lede">' + plural(ov.total, 'question') + ' across ' + plural(S.length, 'topic') + ' (solved viva questions, DU question bank and MCQs; the DU bank has no model answers yet). Mark what you have read, keep notes, and pick up where you left off.' +
       (QB.meta.missingQuestions ? ' A further ' + QB.meta.missingQuestions + ' are listed with a Missing tag: they are in the master bank but have no answer here yet.' : '') + '</p></header>';
     h += storageWarn();
 

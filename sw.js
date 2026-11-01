@@ -1,7 +1,7 @@
 /* Offline support. Network first, so a reload always picks up the newest site when online;
    the saved copy is used only when the network is unavailable. Nothing the reader wrote
    (read marks, notes, flags) is stored here - that stays in localStorage. */
-const CACHE = 'psm-viva-v2';
+const CACHE = 'psm-viva-v3';
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {

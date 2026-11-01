@@ -5,8 +5,9 @@ QB.meta = {
  "title": "Second Term Viva Question Bank — Solved",
  "site": "Preventive & Social Medicine",
  "source": "second_term_viva_question_bank_solved.md",
- "totalQuestions": 80,
- "missingQuestions": 8
+ "totalQuestions": 1391,
+ "missingQuestions": 8,
+ "baseTotal": 80
 };
 QB.structure = [
  {
@@ -240,6 +241,2015 @@ QB.structure = [
    "q-3baba5b5"
   ],
   "subsections": []
+ },
+ {
+  "id": "du-question-bank",
+  "num": "7",
+  "title": "DU Question Bank (Matrix 3rd Prof)",
+  "heading": "7. DU Question Bank (Matrix 3rd Prof)",
+  "questionIds": [],
+  "subsections": [
+   {
+    "id": "du--part-1-introduction-to-community-medicine",
+    "title": "Introduction to Community Medicine  (Part 1)",
+    "questionIds": [
+     "d-fe77fa5c",
+     "d-8c77388f",
+     "d-c652b9f6",
+     "d-39a90f54",
+     "d-76398a91",
+     "d-2e7e64f0"
+    ]
+   },
+   {
+    "id": "du--part-1-public-health",
+    "title": "Public Health  (Part 1)",
+    "questionIds": [
+     "d-ea322a7b",
+     "d-904f7599",
+     "d-1aa6e93d",
+     "d-95cdbb79",
+     "d-ae6d1a93",
+     "d-89436643"
+    ]
+   },
+   {
+    "id": "du--part-1-concept-of-health",
+    "title": "Concept of Health  (Part 1)",
+    "questionIds": [
+     "d-3be02905",
+     "d-78ae3f2a",
+     "d-a0d9c539",
+     "d-cb6a9ecb",
+     "d-0f8e0f41",
+     "d-4b16ebe0",
+     "d-db757faa",
+     "d-e096b1b7",
+     "d-4d61cc1b",
+     "d-9e235994",
+     "d-5b9db3b0"
+    ]
+   },
+   {
+    "id": "du--part-1-determinants-of-health",
+    "title": "Determinants of Health  (Part 1)",
+    "questionIds": [
+     "d-0aea0b30",
+     "d-ca3ed0d5",
+     "d-b4acf9b9",
+     "d-268d7b4a"
+    ]
+   },
+   {
+    "id": "du--part-1-health-indicators-mdgs",
+    "title": "Health Indicators & MDGs  (Part 1)",
+    "questionIds": [
+     "d-93197829",
+     "d-61b66c1e",
+     "d-6775e12b",
+     "d-4e248c25",
+     "d-d9c819b3",
+     "d-633996c4",
+     "d-8510cf7e"
+    ]
+   },
+   {
+    "id": "du--part-1-health-care-of-the-community",
+    "title": "Health Care of the Community  (Part 1)",
+    "questionIds": [
+     "d-a30ba0db",
+     "d-bbf0ac4a",
+     "d-ff507be0",
+     "d-98674664",
+     "d-2109ece5",
+     "d-97f7e4bb"
+    ]
+   },
+   {
+    "id": "du--part-1-phc",
+    "title": "PHC  (Part 1)",
+    "questionIds": [
+     "d-52134812",
+     "d-e9bb2716",
+     "d-9d936b79",
+     "d-b20f1133",
+     "d-6f9feda4",
+     "d-f620bc2a",
+     "d-8a29c622",
+     "d-0ffe8b95",
+     "d-11ffa19d",
+     "d-a5111f38",
+     "d-85817cb1",
+     "d-aa9e5d29",
+     "d-4bc7af9f",
+     "d-81a12c2b",
+     "d-2d929685",
+     "d-449a2e37",
+     "d-8df67a28",
+     "d-b0ae37a6",
+     "d-9700bc0c",
+     "d-31f0fe3c"
+    ]
+   },
+   {
+    "id": "du--part-1-bhore-committee",
+    "title": "Bhore Committee  (Part 1)",
+    "questionIds": [
+     "d-271a18f3"
+    ]
+   },
+   {
+    "id": "du--part-1-concept-of-disease",
+    "title": "Concept of Disease  (Part 1)",
+    "questionIds": [
+     "d-dd63242c",
+     "d-172b0fb8",
+     "d-c1c8fd0b",
+     "d-31f38736",
+     "d-2df2dcd9",
+     "d-ea8d8ff9",
+     "d-19d442f4",
+     "d-8e75e681",
+     "d-3d2c627e",
+     "d-43c53496",
+     "d-e88b1c83",
+     "d-3a7609b4"
+    ]
+   },
+   {
+    "id": "du--part-1-disease-prevention-control-and-eradication",
+    "title": "Disease Prevention, Control and Eradication  (Part 1)",
+    "questionIds": [
+     "d-274eda58",
+     "d-6070324b",
+     "d-d99abb9f",
+     "d-73a3abe3",
+     "d-2a3bc3d9",
+     "d-c5612c00",
+     "d-f1525018"
+    ]
+   },
+   {
+    "id": "du--part-1-community-diagnosis-and-treatment",
+    "title": "Community Diagnosis and Treatment  (Part 1)",
+    "questionIds": [
+     "d-566ee862",
+     "d-497a9ba1",
+     "d-023d7e30",
+     "d-85e116ed"
+    ]
+   },
+   {
+    "id": "du--part-1-behavioral-science",
+    "title": "Behavioral Science  (Part 1)",
+    "questionIds": [
+     "d-db046c1f",
+     "d-fb59e141",
+     "d-9fda46ca",
+     "d-7720e08e",
+     "d-8f8f3651",
+     "d-6b09c48c",
+     "d-25734024",
+     "d-c13c7fb8",
+     "d-8d49a911"
+    ]
+   },
+   {
+    "id": "du--part-1-learning-and-personality",
+    "title": "Learning and Personality  (Part 1)",
+    "questionIds": [
+     "d-45ffccf2",
+     "d-af35e5ee",
+     "d-7c253bbf",
+     "d-28436f57",
+     "d-e6e8c94b",
+     "d-3963762a",
+     "d-5c812cd4",
+     "d-ba16ec07",
+     "d-75d20882"
+    ]
+   },
+   {
+    "id": "du--part-1-mental-health",
+    "title": "Mental Health  (Part 1)",
+    "questionIds": [
+     "d-f541be58"
+    ]
+   },
+   {
+    "id": "du--part-1-i-q",
+    "title": "I.Q.  (Part 1)",
+    "questionIds": [
+     "d-cd173b29",
+     "d-7644326b",
+     "d-e4b51cfc"
+    ]
+   },
+   {
+    "id": "du--part-1-family-and-leadership",
+    "title": "Family and Leadership  (Part 1)",
+    "questionIds": [
+     "d-251eb6d7",
+     "d-26496d02",
+     "d-0b2df004",
+     "d-2369164f",
+     "d-27c6d831",
+     "d-c0a86eca",
+     "d-64f1a80b",
+     "d-1513b527",
+     "d-4c3f83dd"
+    ]
+   },
+   {
+    "id": "du--part-2-biostatistics-and-data",
+    "title": "Biostatistics and Data  (Part 2)",
+    "questionIds": [
+     "d-39353b97",
+     "d-9a61d3fe",
+     "d-4334596a",
+     "d-2a90b03d",
+     "d-3168d723",
+     "d-4c50fd72",
+     "d-1a0db7d8",
+     "d-7b7685c1",
+     "d-699813f3",
+     "d-ff881485",
+     "d-7cd39e8c",
+     "d-db2aa7d3",
+     "d-7298bb52",
+     "d-24b59118",
+     "d-d0b6645f",
+     "d-c0c1d866",
+     "d-9af47100",
+     "d-47367644",
+     "d-74205bfa"
+    ]
+   },
+   {
+    "id": "du--part-2-research",
+    "title": "Research  (Part 2)",
+    "questionIds": [
+     "d-16c868fa",
+     "d-77759c2a",
+     "d-1078aebd",
+     "d-0993c582",
+     "d-ed9e6b9e",
+     "d-16dfea51",
+     "d-ca11390a"
+    ]
+   },
+   {
+    "id": "du--part-2-sample-and-sampling",
+    "title": "Sample and Sampling  (Part 2)",
+    "questionIds": [
+     "d-9c80570e",
+     "d-a1a3c6be",
+     "d-d49991d0",
+     "d-9f41809a",
+     "d-394f0c1b"
+    ]
+   },
+   {
+    "id": "du--part-2-central-tendency-measures-of-dispersion",
+    "title": "Central Tendency & Measures of Dispersion  (Part 2)",
+    "questionIds": [
+     "d-9a853985",
+     "d-d04114ca",
+     "d-b4d4b680",
+     "d-4ca908cb",
+     "d-2b82ca4d",
+     "d-12598c8d",
+     "d-dc8d7c0b",
+     "d-6385c32e",
+     "d-1b4af70d",
+     "d-246ea45a",
+     "d-090eca92",
+     "d-86bdd881",
+     "d-02d0269a",
+     "d-95cf7b7f",
+     "d-14a0f090",
+     "d-0e723e38",
+     "d-4f167d7d"
+    ]
+   },
+   {
+    "id": "du--part-3-communication",
+    "title": "Communication  (Part 3)",
+    "questionIds": [
+     "d-4b03315d",
+     "d-3acc2086",
+     "d-4d410549",
+     "d-bb14ef58",
+     "d-6a374879",
+     "d-fab48e3b",
+     "d-65c10376",
+     "d-db93aec8",
+     "d-cc6162ac",
+     "d-1016a0b8",
+     "d-f9121e66",
+     "d-fe2f935c",
+     "d-a9d72cf4",
+     "d-3a0176f9"
+    ]
+   },
+   {
+    "id": "du--part-3-health-education",
+    "title": "Health Education  (Part 3)",
+    "questionIds": [
+     "d-38968ea3",
+     "d-c997fc6a",
+     "d-54fd4057",
+     "d-d8a74f59",
+     "d-a94880b3",
+     "d-26986b2e",
+     "d-683cb865",
+     "d-9d7065a0",
+     "d-9deb3a3d",
+     "d-7b18172f",
+     "d-94985f5d",
+     "d-8d368eb8"
+    ]
+   },
+   {
+    "id": "du--part-4-environmental-health-general",
+    "title": "Environmental Health (General)  (Part 4)",
+    "questionIds": [
+     "d-c85e1370",
+     "d-1ead4256",
+     "d-535dd907",
+     "d-3a57dd20"
+    ]
+   },
+   {
+    "id": "du--part-4-water-arsenicosis",
+    "title": "Water & Arsenicosis  (Part 4)",
+    "questionIds": [
+     "d-dffdc494",
+     "d-2a6287e9",
+     "d-452cb7fb",
+     "d-4a54d70b",
+     "d-4be52f9b",
+     "d-05796471",
+     "d-b958b87f",
+     "d-edde8fbf",
+     "d-25fd10ea",
+     "d-9365e46b",
+     "d-ba41481c",
+     "d-d4628575",
+     "d-cc78026d",
+     "d-865abc60",
+     "d-3f8668c8",
+     "d-655c0c03",
+     "d-db1cfd6a",
+     "d-3692f189",
+     "d-3aa717b3",
+     "d-f4556ac7",
+     "d-6978fa65",
+     "d-69547930",
+     "d-b6f93610",
+     "d-c79e5c3f",
+     "d-33013b2d"
+    ]
+   },
+   {
+    "id": "du--part-4-air-pollution",
+    "title": "Air Pollution  (Part 4)",
+    "questionIds": [
+     "d-5fa40bed",
+     "d-5c8ff882",
+     "d-7bfad5d8",
+     "d-5674ec1d",
+     "d-d6a1b77b",
+     "d-d9198494",
+     "d-a7c08e58",
+     "d-40f11b43",
+     "d-e0834a76",
+     "d-7f41e19e"
+    ]
+   },
+   {
+    "id": "du--part-4-ventilation-noise",
+    "title": "Ventilation & Noise  (Part 4)",
+    "questionIds": [
+     "d-7a822f8d",
+     "d-03310d3b",
+     "d-224d75f5",
+     "d-44454ada",
+     "d-e4bd4086",
+     "d-115fd221",
+     "d-56ebe8f3"
+    ]
+   },
+   {
+    "id": "du--part-4-radiation",
+    "title": "Radiation  (Part 4)",
+    "questionIds": [
+     "d-7ceee55f",
+     "d-d4404027",
+     "d-14480213",
+     "d-db56c4cd"
+    ]
+   },
+   {
+    "id": "du--part-4-green-house-effect",
+    "title": "Green House Effect  (Part 4)",
+    "questionIds": [
+     "d-406a218e",
+     "d-56d4901c",
+     "d-d919c882",
+     "d-3772789f",
+     "d-d065f2c9",
+     "d-5f3d7adf"
+    ]
+   },
+   {
+    "id": "du--part-4-housing",
+    "title": "Housing  (Part 4)",
+    "questionIds": [
+     "d-cea0d82e",
+     "d-ac917c36",
+     "d-f792af88"
+    ]
+   },
+   {
+    "id": "du--part-4-disposal-of-wastes-excreta",
+    "title": "Disposal of Wastes & Excreta  (Part 4)",
+    "questionIds": [
+     "d-b8bfdc42",
+     "d-91601fbf",
+     "d-4ccf31cc",
+     "d-b0f34492",
+     "d-5266becd",
+     "d-0d48b506",
+     "d-351984ea",
+     "d-0f8ea111"
+    ]
+   },
+   {
+    "id": "du--part-5-school-health",
+    "title": "School Health  (Part 5)",
+    "questionIds": [
+     "d-c6998cf8",
+     "d-d5ae6b79",
+     "d-f1a0f29c",
+     "d-387980b3",
+     "d-770b4ee9",
+     "d-af126467",
+     "d-ff2618ff",
+     "d-7af17a9e",
+     "d-b39c9f73",
+     "d-3383e682",
+     "d-ffecabfa",
+     "d-b122a6db",
+     "d-365f1a08",
+     "d-04790c85",
+     "d-f211bbb5",
+     "d-56c60b0a"
+    ]
+   },
+   {
+    "id": "du--part-5-occupational-health",
+    "title": "Occupational Health  (Part 5)",
+    "questionIds": [
+     "d-3c8a0ac9",
+     "d-d2276b64",
+     "d-52128739",
+     "d-e2a98323",
+     "d-e06558af",
+     "d-99a0b252",
+     "d-cda759d5",
+     "d-1f2b2de4",
+     "d-e8601730",
+     "d-5e5a0ffc",
+     "d-d978ee3b",
+     "d-c0244d69",
+     "d-63f5d33f",
+     "d-7d0ded32",
+     "d-fc79f5f7",
+     "d-76fd3bc7",
+     "d-63848997",
+     "d-7fe552ab",
+     "d-60fbd44b",
+     "d-00e9c556",
+     "d-edd6a6c3",
+     "d-5364e8c3",
+     "d-9794390d",
+     "d-1b1dae52",
+     "d-bd60dd35",
+     "d-00bb6603",
+     "d-5b2cf940",
+     "d-b713dd7b"
+    ]
+   },
+   {
+    "id": "du--part-6-national-health-situations-programmes",
+    "title": "National Health Situations & Programmes  (Part 6)",
+    "questionIds": [
+     "d-e37c2855",
+     "d-24d9f192",
+     "d-ca236635",
+     "d-05a8fe2f",
+     "d-fd120d07"
+    ]
+   },
+   {
+    "id": "du--part-6-international-health",
+    "title": "International Health  (Part 6)",
+    "questionIds": [
+     "d-fbdc2851",
+     "d-3eda611d",
+     "d-536cfa4e",
+     "d-f84d1d32",
+     "d-2456c159",
+     "d-de92d9b1",
+     "d-054abad4",
+     "d-b5d1f7d7",
+     "d-da38818f",
+     "d-629dc264",
+     "d-c7c1da24",
+     "d-4f636877",
+     "d-974e1416",
+     "d-cb1f3fdd",
+     "d-905e07c2"
+    ]
+   },
+   {
+    "id": "du--part-7-arthropod-diseases-and-control",
+    "title": "Arthropod Diseases and Control  (Part 7)",
+    "questionIds": [
+     "d-9f331939",
+     "d-5aa7a68d",
+     "d-e6604467",
+     "d-5e65e990",
+     "d-a3c43ae9",
+     "d-8563bdb0",
+     "d-1c280efb",
+     "d-e8560918",
+     "d-dd01ccb5",
+     "d-e606acb2",
+     "d-9f01ea02",
+     "d-4011cb83",
+     "d-b2504d83",
+     "d-ddcd8f41",
+     "d-f9f9e236",
+     "d-092686de",
+     "d-374fd317",
+     "d-4fc00a95",
+     "d-6148d526",
+     "d-9cbb1dba",
+     "d-33c001b2",
+     "d-c9ad9c41",
+     "d-cf92e905",
+     "d-cf87b46b",
+     "d-72207945",
+     "d-d1213a45",
+     "d-9362a4f4",
+     "d-06c78ab5",
+     "d-153a2883",
+     "d-756c6536"
+    ]
+   },
+   {
+    "id": "du--part-7-sterilization-disinfection",
+    "title": "Sterilization & Disinfection  (Part 7)",
+    "questionIds": [
+     "d-0c318470",
+     "d-c618cbac",
+     "d-d076e2b3",
+     "d-7fbf5d67"
+    ]
+   },
+   {
+    "id": "du--part-7-immunity-immune-response",
+    "title": "Immunity & Immune Response  (Part 7)",
+    "questionIds": [
+     "d-6c842db9",
+     "d-cdf2ef9e",
+     "d-d2f30fe9",
+     "d-13fae92c",
+     "d-dd582baf",
+     "d-1d5f35be",
+     "d-a53b2c44",
+     "d-e479ed72",
+     "d-8fa35c4c",
+     "d-4f5d773f"
+    ]
+   },
+   {
+    "id": "du--part-7-herd-immunity",
+    "title": "Herd Immunity  (Part 7)",
+    "questionIds": [
+     "d-abacfc79",
+     "d-e73774f5",
+     "d-357a632d",
+     "d-03c3d173",
+     "d-61fa1e73"
+    ]
+   },
+   {
+    "id": "du--part-7-vaccine-immunization-nid",
+    "title": "Vaccine, Immunization & NID  (Part 7)",
+    "questionIds": [
+     "d-2128b2c4",
+     "d-3f01f53e",
+     "d-d19149bc",
+     "d-1240c875",
+     "d-77bd2973",
+     "d-685235c5",
+     "d-b7a7d9b2",
+     "d-a224a483",
+     "d-3788cfae",
+     "d-b7a538b6",
+     "d-71a0f1f9",
+     "d-43db0cfd",
+     "d-64323d41",
+     "d-4673c879",
+     "d-80183cb2",
+     "d-76148f10",
+     "d-0728caef"
+    ]
+   },
+   {
+    "id": "du--part-8-demography-fertility",
+    "title": "Demography & Fertility  (Part 8)",
+    "questionIds": [
+     "d-e9a1b441",
+     "d-ed473d6c",
+     "d-13678645",
+     "d-dbd47ce6",
+     "d-9a7ca42e",
+     "d-f8242c20",
+     "d-a95273ee",
+     "d-358d5b39",
+     "d-36dda64e",
+     "d-7967da4a",
+     "d-63200049",
+     "d-7a901e5c",
+     "d-20b45c8e",
+     "d-f54ea8c3",
+     "d-2469491d",
+     "d-4c5c6199"
+    ]
+   },
+   {
+    "id": "du--part-8-maternal-and-child-health",
+    "title": "Maternal and Child Health  (Part 8)",
+    "questionIds": [
+     "d-af85cc8b",
+     "d-04b2432d",
+     "d-eec700e9",
+     "d-de3e07f4",
+     "d-394f887e",
+     "d-177c25c9",
+     "d-a91e11d5",
+     "d-01834173",
+     "d-45ba7d93",
+     "d-e1e1382f",
+     "d-2008c696",
+     "d-f3b05a35",
+     "d-e9a85e96",
+     "d-112eeb52",
+     "d-e1def98d",
+     "d-b22cc8a3",
+     "d-e9a443de",
+     "d-19faf836",
+     "d-aa4fb9a8",
+     "d-e63771f2",
+     "d-63c81913",
+     "d-b6aa5ca5",
+     "d-bf118d47",
+     "d-c5664873",
+     "d-04740a3c",
+     "d-5c9a1078",
+     "d-137ad1a1",
+     "d-bacd551e",
+     "d-8b93e100",
+     "d-f3a1102f",
+     "d-277cc7fa",
+     "d-64b36396",
+     "d-427d4667",
+     "d-1633497b",
+     "d-1a9747c0",
+     "d-9813d1fd",
+     "d-b08b4c18",
+     "d-17828aeb",
+     "d-aed80a75",
+     "d-267bbd79",
+     "d-4ae6a92e",
+     "d-6ca7e117",
+     "d-0e7a2aa7",
+     "d-d32b9180",
+     "d-2a059029",
+     "d-69b2e608"
+    ]
+   },
+   {
+    "id": "du--part-8-family-planning",
+    "title": "Family Planning  (Part 8)",
+    "questionIds": [
+     "d-94bf60e8",
+     "d-8bf491dc",
+     "d-09cd2caa",
+     "d-0db0aae6",
+     "d-adebf270",
+     "d-218bbed9",
+     "d-42bc6ee8",
+     "d-bc3d90f2",
+     "d-93260e50",
+     "d-5203c32c",
+     "d-9dcb5059",
+     "d-d902e711",
+     "d-7dd46fe8",
+     "d-c29a1f7d"
+    ]
+   },
+   {
+    "id": "du--part-8-contraceptive-methods",
+    "title": "Contraceptive Methods  (Part 8)",
+    "questionIds": [
+     "d-7cf97130",
+     "d-a151ba0b",
+     "d-029e1ac2",
+     "d-f8a3f6eb",
+     "d-0087cc94",
+     "d-fa30acbf",
+     "d-b19a489e",
+     "d-b28941f0",
+     "d-d7e7f8d7",
+     "d-f2f911fb",
+     "d-909e49d3",
+     "d-cd9dd839",
+     "d-97ec9ac6",
+     "d-b953d68f",
+     "d-568d2ca1",
+     "d-46892263",
+     "d-71f7ecba",
+     "d-d7d1d576",
+     "d-4a9739c5"
+    ]
+   },
+   {
+    "id": "du--part-9-food-nutrition",
+    "title": "Food & Nutrition  (Part 9)",
+    "questionIds": [
+     "d-91493445",
+     "d-eddfff54",
+     "d-3e47d62c",
+     "d-3b1c1b5e",
+     "d-08b6f667",
+     "d-36cb2067",
+     "d-acaa478a",
+     "d-f3471a35",
+     "d-0c055c99",
+     "d-7a9c1c6d",
+     "d-a5b7a868",
+     "d-3d1721b6",
+     "d-5a572fb0",
+     "d-064174af",
+     "d-786f998e",
+     "d-6185255c",
+     "d-87263953",
+     "d-8a268121",
+     "d-260aec92",
+     "d-cf3d2360",
+     "d-a1a9615c",
+     "d-bd047c94",
+     "d-151cf1bf",
+     "d-3f90c9d3",
+     "d-860eef50",
+     "d-e1eb9ebe",
+     "d-9363f009",
+     "d-a9f7cb42",
+     "d-cd0c7857",
+     "d-285d71f3",
+     "d-c7f99103",
+     "d-9f9d8a4e",
+     "d-de175205",
+     "d-8d0ffa09",
+     "d-326bd887",
+     "d-02fc2602",
+     "d-2f673366",
+     "d-91ea722b",
+     "d-b97de6e3",
+     "d-0c3acba6",
+     "d-3707633d",
+     "d-71d8a4a1",
+     "d-f1e63d54",
+     "d-344d1250"
+    ]
+   },
+   {
+    "id": "du--part-10-accidents",
+    "title": "Accidents  (Part 10)",
+    "questionIds": [
+     "d-dd7dbc2d",
+     "d-a2665aac",
+     "d-f9ba14d4",
+     "d-910c927d",
+     "d-5956e7cf",
+     "d-92b381d4",
+     "d-ba4a0c92",
+     "d-d1955d2b",
+     "d-b120369b",
+     "d-3cb46401"
+    ]
+   },
+   {
+    "id": "du--part-10-disasters",
+    "title": "Disasters  (Part 10)",
+    "questionIds": [
+     "d-fc115b41",
+     "d-d0dd9393",
+     "d-e852820a",
+     "d-c78d5a3a",
+     "d-2569cdb9",
+     "d-5d83738a",
+     "d-f3d1fd9c",
+     "d-36b4b43b",
+     "d-080ea0b7"
+    ]
+   },
+   {
+    "id": "du--part-10-basic-principles-of-epidemiology",
+    "title": "Basic Principles of Epidemiology  (Part 10)",
+    "questionIds": [
+     "d-4c71d576",
+     "d-4b0d8543",
+     "d-1e6172f7",
+     "d-678e33af",
+     "d-c3b5e8c9",
+     "d-565d9f30",
+     "d-7de45358",
+     "d-d5a2cf00",
+     "d-624d0608",
+     "d-62b186e2",
+     "d-7b263309",
+     "d-24dd4830",
+     "d-6299c39c",
+     "d-0b1222b9",
+     "d-41730285",
+     "d-5475190e",
+     "d-fe0ed903",
+     "d-2aacde7d",
+     "d-d8b33917",
+     "d-4aa79912",
+     "d-e06d10fd",
+     "d-c6054308",
+     "d-5aa7eefe",
+     "d-63203fe9",
+     "d-bf437fd5",
+     "d-129d3dd7",
+     "d-07c74b62",
+     "d-3c95d7be",
+     "d-a74e4b28"
+    ]
+   },
+   {
+    "id": "du--part-10-infectious-disease-epidemiology",
+    "title": "Infectious Disease Epidemiology  (Part 10)",
+    "questionIds": [
+     "d-2fc6605b",
+     "d-983a29f3",
+     "d-f55a4521",
+     "d-4d90add3",
+     "d-5d6e8444",
+     "d-5b66f574",
+     "d-52356393",
+     "d-a8380b67",
+     "d-24e07284",
+     "d-03438de3",
+     "d-61e2c0e7",
+     "d-93e9227e",
+     "d-5db5d775"
+    ]
+   },
+   {
+    "id": "du--part-11-communicable-diseases",
+    "title": "Communicable Diseases  (Part 11)",
+    "questionIds": [
+     "d-5ec2a42c",
+     "d-0094b3c5",
+     "d-fbe8041b",
+     "d-a4b5777d",
+     "d-51c0266b",
+     "d-b909c4d0",
+     "d-f35a5b59",
+     "d-da9f14d9",
+     "d-fc62c18d",
+     "d-0c7623bd",
+     "d-09f8f3fe",
+     "d-f37411b9",
+     "d-afb8bcee",
+     "d-1784e845",
+     "d-a060a074",
+     "d-8e3d24fd",
+     "d-ca0b77de",
+     "d-d782ee9a",
+     "d-b180ceb6",
+     "d-89980520",
+     "d-73b059e1",
+     "d-9e41b4b0",
+     "d-b72e77f3",
+     "d-9e08a42a",
+     "d-b9467248",
+     "d-faf7d78c",
+     "d-fae78053",
+     "d-980ab934",
+     "d-9a62b15f",
+     "d-630d07db",
+     "d-aa0f00c8",
+     "d-86801138",
+     "d-e22d4b17",
+     "d-41dcb958",
+     "d-d199de07",
+     "d-c3e27a0d",
+     "d-9dc5f91f",
+     "d-24adcb32",
+     "d-fe471362",
+     "d-59bfe4e8",
+     "d-96698e8f",
+     "d-c546e64d",
+     "d-4dfcc1aa",
+     "d-6af08199",
+     "d-c7c444b5",
+     "d-25cb177f",
+     "d-ced780b8",
+     "d-7ec287d6",
+     "d-8e2a2b6b",
+     "d-92a9d6b5",
+     "d-6552c717",
+     "d-7620667b",
+     "d-97570fa2",
+     "d-9b028020",
+     "d-73ee1b1e",
+     "d-bda1a7c8",
+     "d-83e6453c",
+     "d-32626cca",
+     "d-cbbc5151",
+     "d-d34503eb",
+     "d-dc800579",
+     "d-2695d022",
+     "d-99532f80",
+     "d-28ec0b7f",
+     "d-b6459a8c",
+     "d-1c694995",
+     "d-7c2d1131",
+     "d-ea037642",
+     "d-7dd2479a",
+     "d-643d6fbe",
+     "d-43c4774c",
+     "d-5393dbff",
+     "d-ed6ea061",
+     "d-6748bdeb",
+     "d-ebeadee1",
+     "d-29087e52",
+     "d-d9559538",
+     "d-fec19f37",
+     "d-65886c11",
+     "d-bef35566",
+     "d-8c6e4911",
+     "d-eb525d34",
+     "d-a0db3520",
+     "d-cebc9868",
+     "d-579fed54",
+     "d-7d424001",
+     "d-e584fe26",
+     "d-9741920e",
+     "d-2eb1fd44",
+     "d-8f4acec6",
+     "d-eac1bb94",
+     "d-582dd8a3",
+     "d-126dfb9a",
+     "d-3eb04acd",
+     "d-909070a5",
+     "d-a5552e47",
+     "d-25f8abb4",
+     "d-d947f0e0",
+     "d-5e85fb56",
+     "d-f47b0b03",
+     "d-ca2cdcb6",
+     "d-cf28abad",
+     "d-7398cfd9",
+     "d-9118ff49",
+     "d-bae8ef3d",
+     "d-247502fd",
+     "d-c1623bf3",
+     "d-c39a073d",
+     "d-54c8597d",
+     "d-4e6a35ed",
+     "d-d38617fd",
+     "d-5350e48f",
+     "d-290652fc",
+     "d-46c14307",
+     "d-095ba379"
+    ]
+   },
+   {
+    "id": "du--part-11-non-communicable-diseases",
+    "title": "Non-Communicable Diseases  (Part 11)",
+    "questionIds": [
+     "d-71414f4d",
+     "d-078f4c12",
+     "d-f6dc4ebd",
+     "d-89379c3c",
+     "d-4cec1b6a",
+     "d-fbf754d2",
+     "d-154b9245",
+     "d-45fffd64",
+     "d-6aa45245",
+     "d-08e7a772",
+     "d-cd415426",
+     "d-97ca3f1d",
+     "d-833e7198",
+     "d-2bd64750",
+     "d-3fc584ee",
+     "d-579dee70",
+     "d-6fb6e24f",
+     "d-cebbe98e",
+     "d-19b7e60d",
+     "d-09336c29",
+     "d-e6774ad4",
+     "d-ad8bbc8a",
+     "d-2f8b778d",
+     "d-62b1a340",
+     "d-af64f348",
+     "d-099f3464",
+     "d-4cd2c8f0",
+     "d-66dddd2d",
+     "d-5cf7973f",
+     "d-2c9704c7",
+     "d-a8fe0a6f",
+     "d-433ee93a",
+     "d-0b700689",
+     "d-e192d0e5",
+     "d-3c3321cb",
+     "d-64de73da",
+     "d-e6389b26",
+     "d-d1042755",
+     "d-3d030efc",
+     "d-49ff511a",
+     "d-961a15be",
+     "d-e7da3e19",
+     "d-9db05915"
+    ]
+   },
+   {
+    "id": "du--part-11-health-administration",
+    "title": "Health Administration  (Part 11)",
+    "questionIds": [
+     "d-91488d08",
+     "d-a0a45e9c",
+     "d-96e2a988",
+     "d-13c0d66d",
+     "d-5ff483dd",
+     "d-757eef85",
+     "d-1d74c88d",
+     "d-babb7be3",
+     "d-ae5ab774",
+     "d-e256b5c8",
+     "d-d2216d92",
+     "d-59deba2d"
+    ]
+   },
+   {
+    "id": "du--part-11-others",
+    "title": "Others  (Part 11)",
+    "questionIds": [
+     "d-42f46982",
+     "d-ab7abbf1",
+     "d-b46e75ea",
+     "d-efbf2c52",
+     "d-14d8f549",
+     "d-75e11b83",
+     "d-540412c2",
+     "d-5f82bcfa",
+     "d-4a1c0179"
+    ]
+   }
+  ],
+  "noteHtml": "<p><em>765 merged, de-duplicated DU and college-paper questions from Matrix 3rd Prof (18th Ed.). Stars, exam sessions and college tags are shown with each question. Model answers are not in the source file.</em></p>"
+ },
+ {
+  "id": "mcq-bank",
+  "num": "8",
+  "title": "MCQ Bank (DU 3rd Prof, 2019–2026)",
+  "heading": "8. MCQ Bank (DU 3rd Prof, 2019–2026)",
+  "questionIds": [],
+  "subsections": [
+   {
+    "id": "mcq--part-1-introduction-to-community-medicine",
+    "title": "Introduction to Community Medicine  (Part 1)",
+    "questionIds": [
+     "m-9c488c7d",
+     "m-fbf3df79"
+    ]
+   },
+   {
+    "id": "mcq--part-1-public-health",
+    "title": "Public Health  (Part 1)",
+    "questionIds": [
+     "m-88fa94d1"
+    ]
+   },
+   {
+    "id": "mcq--part-1-concept-of-health",
+    "title": "Concept of Health  (Part 1)",
+    "questionIds": [
+     "m-62d7b8e5",
+     "m-ba58ef54",
+     "m-dd1a6085",
+     "m-36bca057"
+    ]
+   },
+   {
+    "id": "mcq--part-1-determinants-of-health",
+    "title": "Determinants of Health  (Part 1)",
+    "questionIds": [
+     "m-b7761c49",
+     "m-e64f490e",
+     "m-272ee72e",
+     "m-70e35808"
+    ]
+   },
+   {
+    "id": "mcq--part-1-health-indicators-mdgs",
+    "title": "Health Indicators & MDGs  (Part 1)",
+    "questionIds": [
+     "m-c405ae87",
+     "m-93f72e3d",
+     "m-20aed7f1",
+     "m-7f25d20f",
+     "m-309e3537",
+     "m-4005966e",
+     "m-c564c2dc",
+     "m-528d84ee",
+     "m-32e9e60c",
+     "m-af1b48c9",
+     "m-7386ffe2",
+     "m-80ea9514",
+     "m-e57a98c4",
+     "m-1953a6a8",
+     "m-098d2626"
+    ]
+   },
+   {
+    "id": "mcq--part-1-health-care-of-the-community",
+    "title": "Health Care of the Community  (Part 1)",
+    "questionIds": [
+     "m-db02f3b8",
+     "m-0590d7e6",
+     "m-b0548f4e",
+     "m-ebd12946",
+     "m-b11361e0"
+    ]
+   },
+   {
+    "id": "mcq--part-1-phc",
+    "title": "PHC  (Part 1)",
+    "questionIds": [
+     "m-3034c8ce",
+     "m-e9c4978c",
+     "m-f3fdf524",
+     "m-84dd1b55",
+     "m-557903ea",
+     "m-ddee3a48",
+     "m-b14894b6",
+     "m-c04ea198",
+     "m-6d48ad5c",
+     "m-5ca7d146",
+     "m-93c66f8c",
+     "m-963528ec",
+     "m-fef5f165",
+     "m-73d947ab"
+    ]
+   },
+   {
+    "id": "mcq--part-1-bhore-committee",
+    "title": "Bhore Committee  (Part 1)",
+    "questionIds": [],
+    "noteHtml": "<p><em>(No MCQs in the source file for this topic.)</em></p>"
+   },
+   {
+    "id": "mcq--part-1-concept-of-disease",
+    "title": "Concept of Disease  (Part 1)",
+    "questionIds": [
+     "m-ae1be5cd",
+     "m-b104352d",
+     "m-0955ec0f",
+     "m-980dcc11",
+     "m-264a9340",
+     "m-a3e88823",
+     "m-cd21686e",
+     "m-092b83e9",
+     "m-4b49bd97",
+     "m-2c0438a6",
+     "m-2a24babe",
+     "m-df86a249",
+     "m-0cd352b1",
+     "m-d2385205",
+     "m-53c254fd",
+     "m-cc44edd8",
+     "m-30341ddb",
+     "m-080f4b52",
+     "m-a0af24d5",
+     "m-7974f266",
+     "m-effdd8b2",
+     "m-651d31e4"
+    ]
+   },
+   {
+    "id": "mcq--part-1-disease-prevention-control-and-eradication",
+    "title": "Disease Prevention, Control and Eradication  (Part 1)",
+    "questionIds": [
+     "m-e29d5944",
+     "m-ba61395f",
+     "m-6c45a306",
+     "m-663af0c8",
+     "m-7aad0aa8",
+     "m-b24fc41d",
+     "m-168c7d18",
+     "m-8605bd56",
+     "m-12e2fbd9",
+     "m-eb2ae90b",
+     "m-26437920"
+    ]
+   },
+   {
+    "id": "mcq--part-1-community-diagnosis-and-treatment",
+    "title": "Community Diagnosis and Treatment  (Part 1)",
+    "questionIds": [
+     "m-f2d1d38d",
+     "m-1e144b23"
+    ]
+   },
+   {
+    "id": "mcq--part-1-behavioral-science",
+    "title": "Behavioral Science  (Part 1)",
+    "questionIds": [
+     "m-bdf2f495",
+     "m-1a96adce",
+     "m-3148420b",
+     "m-b0e7e82e",
+     "m-4b828048",
+     "m-4a58c81c",
+     "m-df338d19",
+     "m-cbd1c8d8",
+     "m-8b94a78d",
+     "m-462e9696",
+     "m-3edf2bb2",
+     "m-518f9ea2",
+     "m-4d908496",
+     "m-e00a3b57",
+     "m-deded606",
+     "m-06615488",
+     "m-51cda72b",
+     "m-5e0200e9",
+     "m-b3710724",
+     "m-337501a9"
+    ]
+   },
+   {
+    "id": "mcq--part-1-learning-and-personality",
+    "title": "Learning and Personality  (Part 1)",
+    "questionIds": [
+     "m-df5ee0c2",
+     "m-4384b0bf",
+     "m-8e3957be",
+     "m-69b7113c",
+     "m-3d9ab03f",
+     "m-51123324",
+     "m-10ccf332",
+     "m-d953f619"
+    ]
+   },
+   {
+    "id": "mcq--part-1-mental-health",
+    "title": "Mental Health  (Part 1)",
+    "questionIds": [
+     "m-a1123a35",
+     "m-62c39f39",
+     "m-99770181",
+     "m-d4b1d357"
+    ]
+   },
+   {
+    "id": "mcq--part-1-i-q",
+    "title": "I.Q.  (Part 1)",
+    "questionIds": [
+     "m-1072bab3",
+     "m-2d597cf4"
+    ]
+   },
+   {
+    "id": "mcq--part-1-family-and-leadership",
+    "title": "Family and Leadership  (Part 1)",
+    "questionIds": [
+     "m-11506f51",
+     "m-946a39b1",
+     "m-cba9d399"
+    ]
+   },
+   {
+    "id": "mcq--part-2-biostatistics-and-data",
+    "title": "Biostatistics and Data  (Part 2)",
+    "questionIds": [
+     "m-db0bb8e0",
+     "m-a1dfa4e2",
+     "m-453d11c5",
+     "m-df2b5360",
+     "m-20f40c4b",
+     "m-758458d3",
+     "m-454bb740",
+     "m-b1be90bb",
+     "m-00576fea",
+     "m-ce64c9dd",
+     "m-650e3784",
+     "m-02b54e73",
+     "m-5299465e",
+     "m-65740b44",
+     "m-e2588dde"
+    ]
+   },
+   {
+    "id": "mcq--part-2-research",
+    "title": "Research  (Part 2)",
+    "questionIds": [
+     "m-cb372ae2",
+     "m-2013c1c1",
+     "m-e9f8e03d"
+    ]
+   },
+   {
+    "id": "mcq--part-2-sample-and-sampling",
+    "title": "Sample and Sampling  (Part 2)",
+    "questionIds": [
+     "m-3ddc090f",
+     "m-088624b1",
+     "m-aa3e3183",
+     "m-6587afe8",
+     "m-659f20c4"
+    ]
+   },
+   {
+    "id": "mcq--part-2-central-tendency-measures-of-dispersion",
+    "title": "Central Tendency & Measures of Dispersion  (Part 2)",
+    "questionIds": [
+     "m-a935237d",
+     "m-aee80378",
+     "m-74ab21f8",
+     "m-1ef8ce99",
+     "m-a2a16aa8",
+     "m-e8da6e73",
+     "m-3d26dc93",
+     "m-515901c7",
+     "m-96b71eff"
+    ]
+   },
+   {
+    "id": "mcq--part-3-communication",
+    "title": "Communication  (Part 3)",
+    "questionIds": [
+     "m-32f00e78",
+     "m-0fd6aeee",
+     "m-f6674056",
+     "m-cab207b3",
+     "m-34935d38",
+     "m-da836b70",
+     "m-f97a2b2e",
+     "m-3bbac2d8",
+     "m-7df8df0a",
+     "m-7e7363b5",
+     "m-cd563819",
+     "m-c4d48142",
+     "m-1e845890",
+     "m-65788f14",
+     "m-e90589e2",
+     "m-7a9ba9b0"
+    ]
+   },
+   {
+    "id": "mcq--part-3-health-education",
+    "title": "Health Education  (Part 3)",
+    "questionIds": [
+     "m-59c80a2d",
+     "m-76aef181",
+     "m-60b5d076",
+     "m-5a1b030d",
+     "m-da462c43",
+     "m-91cd134f",
+     "m-1f6bc777",
+     "m-50ad0161",
+     "m-3ca8c986",
+     "m-989a860c"
+    ]
+   },
+   {
+    "id": "mcq--part-4-environmental-health-general",
+    "title": "Environmental Health (General)  (Part 4)",
+    "questionIds": [
+     "m-e63625cc",
+     "m-307d85ef",
+     "m-9bb391f2"
+    ]
+   },
+   {
+    "id": "mcq--part-4-water-arsenicosis",
+    "title": "Water & Arsenicosis  (Part 4)",
+    "questionIds": [
+     "m-12b580ac",
+     "m-0d92ea97",
+     "m-3193d1fa",
+     "m-26efd4e6",
+     "m-23cf643f",
+     "m-97d5ef01",
+     "m-d18e2da8",
+     "m-de13276d",
+     "m-bceb0788",
+     "m-e26b8410",
+     "m-3a27f7be",
+     "m-8618bf98",
+     "m-13c301af",
+     "m-ce3f90c1",
+     "m-f1bcff60"
+    ]
+   },
+   {
+    "id": "mcq--part-4-air-pollution",
+    "title": "Air Pollution  (Part 4)",
+    "questionIds": [
+     "m-6ffe2a2c",
+     "m-732d4a19"
+    ]
+   },
+   {
+    "id": "mcq--part-4-ventilation-noise",
+    "title": "Ventilation & Noise  (Part 4)",
+    "questionIds": [],
+    "noteHtml": "<p><em>(No MCQs in the source file for this topic.)</em></p>"
+   },
+   {
+    "id": "mcq--part-4-radiation",
+    "title": "Radiation  (Part 4)",
+    "questionIds": [
+     "m-9baede43",
+     "m-b3823bf6"
+    ]
+   },
+   {
+    "id": "mcq--part-4-green-house-effect",
+    "title": "Green House Effect  (Part 4)",
+    "questionIds": [
+     "m-8504c949",
+     "m-fe0dbd4e",
+     "m-8efa7831",
+     "m-d16acfe1"
+    ]
+   },
+   {
+    "id": "mcq--part-4-housing",
+    "title": "Housing  (Part 4)",
+    "questionIds": [],
+    "noteHtml": "<p><em>(No MCQs in the source file for this topic.)</em></p>"
+   },
+   {
+    "id": "mcq--part-4-disposal-of-wastes-excreta",
+    "title": "Disposal of Wastes & Excreta  (Part 4)",
+    "questionIds": [
+     "m-a46dd97a",
+     "m-77b6a371",
+     "m-026424f3",
+     "m-adf9d287",
+     "m-c0fd0e0a"
+    ]
+   },
+   {
+    "id": "mcq--part-5-school-health",
+    "title": "School Health  (Part 5)",
+    "questionIds": [
+     "m-1b9e5b17",
+     "m-2bf353f7",
+     "m-47ebe55b"
+    ]
+   },
+   {
+    "id": "mcq--part-5-occupational-health",
+    "title": "Occupational Health  (Part 5)",
+    "questionIds": [
+     "m-bbc841f6",
+     "m-bfdc61c6",
+     "m-acb87c27",
+     "m-bae9f57c",
+     "m-75cdcba5",
+     "m-b77a9550",
+     "m-c6d015af",
+     "m-5569567a",
+     "m-a75c4c9a",
+     "m-53d64260",
+     "m-2625ad7e",
+     "m-086fc9a0",
+     "m-301ad4eb",
+     "m-16fa83eb",
+     "m-c7151aa2",
+     "m-6ddc9a58",
+     "m-73c48149"
+    ]
+   },
+   {
+    "id": "mcq--part-6-national-health-situations-programmes",
+    "title": "National Health Situations & Programmes  (Part 6)",
+    "questionIds": [
+     "m-b72aa90d",
+     "m-9aba42a4",
+     "m-2d2f0b8b",
+     "m-23088ab0"
+    ]
+   },
+   {
+    "id": "mcq--part-6-international-health",
+    "title": "International Health  (Part 6)",
+    "questionIds": [
+     "m-fc1aa833",
+     "m-3da992a5",
+     "m-21c06e53",
+     "m-e76785db",
+     "m-ebdfa580",
+     "m-21691b34",
+     "m-be7d9ae4",
+     "m-e2302ba0",
+     "m-cd9d18fe",
+     "m-d8556e76",
+     "m-632cb43b",
+     "m-f9f7f15c",
+     "m-dbd206ea"
+    ]
+   },
+   {
+    "id": "mcq--part-7-arthropod-diseases-and-control",
+    "title": "Arthropod Diseases and Control  (Part 7)",
+    "questionIds": [
+     "m-1133dc17",
+     "m-661f0711",
+     "m-ed530514",
+     "m-2ebcb368",
+     "m-6896a754",
+     "m-390d0ce4",
+     "m-1dfc3e0f",
+     "m-5d988bf0",
+     "m-8ecc7c06",
+     "m-6c5ddc1e",
+     "m-5c358cd2"
+    ]
+   },
+   {
+    "id": "mcq--part-7-sterilization-disinfection",
+    "title": "Sterilization & Disinfection  (Part 7)",
+    "questionIds": [],
+    "noteHtml": "<p><em>(No MCQs in the source file for this topic.)</em></p>"
+   },
+   {
+    "id": "mcq--part-7-immunity-immune-response",
+    "title": "Immunity & Immune Response  (Part 7)",
+    "questionIds": [
+     "m-3826573c",
+     "m-07399b1a",
+     "m-b5823114",
+     "m-949818fd"
+    ]
+   },
+   {
+    "id": "mcq--part-7-herd-immunity",
+    "title": "Herd Immunity  (Part 7)",
+    "questionIds": [
+     "m-1cacc2fa"
+    ]
+   },
+   {
+    "id": "mcq--part-7-vaccine-immunization-nid",
+    "title": "Vaccine, Immunization & NID  (Part 7)",
+    "questionIds": [
+     "m-15c87c2b",
+     "m-6db06660",
+     "m-d2015f1b",
+     "m-dfac4836",
+     "m-1aeaf41b",
+     "m-8bdb1520",
+     "m-fb16c521",
+     "m-23090317",
+     "m-53e3b8ee",
+     "m-9ce575fc",
+     "m-fa0bb556",
+     "m-1b5a84a0",
+     "m-1fdf5e9a",
+     "m-b6a46505",
+     "m-d75b563b",
+     "m-5d393ef8",
+     "m-34792f1e",
+     "m-ed7fc0a6",
+     "m-e70fb51c",
+     "m-5c15303d",
+     "m-910922bc",
+     "m-6a61160b",
+     "m-1702b228",
+     "m-305acd6f",
+     "m-025a5ee3",
+     "m-46d03ebf"
+    ]
+   },
+   {
+    "id": "mcq--part-8-demography-fertility",
+    "title": "Demography & Fertility  (Part 8)",
+    "questionIds": [
+     "m-b70ac6eb",
+     "m-c82a42f9",
+     "m-859f430e",
+     "m-e2da2256",
+     "m-feeff304",
+     "m-02819152",
+     "m-67135223",
+     "m-5f2ded81",
+     "m-cfad13e8",
+     "m-d19c9242",
+     "m-49e261b8",
+     "m-061d3c22",
+     "m-ce94edf4",
+     "m-9d998305",
+     "m-9b61e4d3"
+    ]
+   },
+   {
+    "id": "mcq--part-8-maternal-and-child-health",
+    "title": "Maternal and Child Health  (Part 8)",
+    "questionIds": [
+     "m-a757f69e",
+     "m-9161f8f0",
+     "m-16f9898a",
+     "m-97b5d474",
+     "m-ea613a64",
+     "m-cd19a261",
+     "m-031a3e23",
+     "m-8aced14c",
+     "m-c19b5363",
+     "m-81ff8257",
+     "m-cbd9944a",
+     "m-c9e98488",
+     "m-9ba58ed3",
+     "m-868b0af9",
+     "m-31f885a7",
+     "m-d41fa20e",
+     "m-c1673371",
+     "m-a42590b6",
+     "m-075cba1b",
+     "m-de011b53",
+     "m-311fc7ea"
+    ]
+   },
+   {
+    "id": "mcq--part-8-family-planning",
+    "title": "Family Planning  (Part 8)",
+    "questionIds": [],
+    "noteHtml": "<p><em>(No MCQs in the source file for this topic.)</em></p>"
+   },
+   {
+    "id": "mcq--part-8-contraceptive-methods",
+    "title": "Contraceptive Methods  (Part 8)",
+    "questionIds": [
+     "m-b4bef2bf",
+     "m-cd64069c",
+     "m-cdf0af50",
+     "m-adace603",
+     "m-1542d808",
+     "m-0da9a8c8",
+     "m-e1282afc",
+     "m-c3c01b1c",
+     "m-7176d7ab",
+     "m-5ba713c9",
+     "m-74ec2173"
+    ]
+   },
+   {
+    "id": "mcq--part-9-food-nutrition",
+    "title": "Food & Nutrition  (Part 9)",
+    "questionIds": [
+     "m-a3784161",
+     "m-e8654bca",
+     "m-b92723cb",
+     "m-8fbe6416",
+     "m-6d1c9118",
+     "m-10605d25",
+     "m-de7d5241"
+    ]
+   },
+   {
+    "id": "mcq--part-9-vitamins",
+    "title": "Vitamins  (Part 9)",
+    "questionIds": [
+     "m-9ae0a39e",
+     "m-2e55cd48",
+     "m-3984280e",
+     "m-8b299bb7",
+     "m-d037a26e",
+     "m-9b8f5c21",
+     "m-e5580c35",
+     "m-1d8f19a9",
+     "m-028eb2aa",
+     "m-f8dd5e44"
+    ]
+   },
+   {
+    "id": "mcq--part-9-mineral-deficiency",
+    "title": "Mineral Deficiency  (Part 9)",
+    "questionIds": [
+     "m-04c4e722",
+     "m-bf538d6a",
+     "m-df92c7d0",
+     "m-58a3d479",
+     "m-11ab4170",
+     "m-14f1ae74",
+     "m-046fc5c1",
+     "m-fd6bdc50"
+    ]
+   },
+   {
+    "id": "mcq--part-9-malnutrition-pem",
+    "title": "Malnutrition & PEM  (Part 9)",
+    "questionIds": [
+     "m-c53f8892",
+     "m-abcb429d",
+     "m-83606a91",
+     "m-dacb3a20",
+     "m-b01c4cce",
+     "m-8da4c1b5",
+     "m-bfe3e4e1"
+    ]
+   },
+   {
+    "id": "mcq--part-9-lathyrism-food-adulteration",
+    "title": "Lathyrism & Food Adulteration  (Part 9)",
+    "questionIds": [],
+    "noteHtml": "<p><em>(No MCQs in the source file for this topic.)</em></p>"
+   },
+   {
+    "id": "mcq--part-9-milk-borne-diseases",
+    "title": "Milk Borne Diseases  (Part 9)",
+    "questionIds": [],
+    "noteHtml": "<p><em>(No MCQs in the source file for this topic.)</em></p>"
+   },
+   {
+    "id": "mcq--part-9-food-poisoning",
+    "title": "Food Poisoning  (Part 9)",
+    "questionIds": [
+     "m-e9976ae0",
+     "m-d8d66165",
+     "m-03056701"
+    ]
+   },
+   {
+    "id": "mcq--part-10-accidents",
+    "title": "Accidents  (Part 10)",
+    "questionIds": [
+     "m-3a786d73",
+     "m-8fc63099"
+    ]
+   },
+   {
+    "id": "mcq--part-10-disasters",
+    "title": "Disasters  (Part 10)",
+    "questionIds": [
+     "m-450565da"
+    ]
+   },
+   {
+    "id": "mcq--part-10-basic-principles-of-epidemiology",
+    "title": "Basic Principles of Epidemiology  (Part 10)",
+    "questionIds": [
+     "m-a14ab886",
+     "m-b648a6e7",
+     "m-b6bcb7f3",
+     "m-23ff0fed",
+     "m-afbfe361",
+     "m-8732eacc",
+     "m-f34c9436",
+     "m-9c1e70bf",
+     "m-a06553fd",
+     "m-caa97e24",
+     "m-317fc0c5",
+     "m-3f9d29d5"
+    ]
+   },
+   {
+    "id": "mcq--part-10-infectious-disease-epidemiology",
+    "title": "Infectious Disease Epidemiology  (Part 10)",
+    "questionIds": [
+     "m-152709ad",
+     "m-1a665f49",
+     "m-032e2769",
+     "m-376e8e80",
+     "m-bf195ba8",
+     "m-9b5156d5",
+     "m-8c3e9cea"
+    ]
+   },
+   {
+    "id": "mcq--part-11-communicable-diseases",
+    "title": "Communicable Diseases  (Part 11)",
+    "questionIds": [
+     "m-aa6d8aa2",
+     "m-cd47be77",
+     "m-e7d5aa88",
+     "m-fd6e6aa1",
+     "m-2d5f526f",
+     "m-8f8f88b6",
+     "m-e30c52ac",
+     "m-4bd7ae54",
+     "m-a41cab4e",
+     "m-e5645d23",
+     "m-891d4a57",
+     "m-bf894ae8",
+     "m-1f266785",
+     "m-b2ed720a",
+     "m-caf7ea39",
+     "m-7a0bc126",
+     "m-72a4b769",
+     "m-5c110d4c",
+     "m-c623fe64",
+     "m-5c5a9519",
+     "m-787739e7",
+     "m-fd21288c"
+    ]
+   },
+   {
+    "id": "mcq--part-11-non-communicable-diseases",
+    "title": "Non-Communicable Diseases  (Part 11)",
+    "questionIds": [
+     "m-3d23f959",
+     "m-5e84dea0",
+     "m-fed70462",
+     "m-d198260f",
+     "m-00364e39",
+     "m-474801ef",
+     "m-244e51d2",
+     "m-bee89536",
+     "m-cb28ad5c"
+    ]
+   },
+   {
+    "id": "mcq--part-11-health-administration",
+    "title": "Health Administration  (Part 11)",
+    "questionIds": [
+     "m-6389913b"
+    ]
+   },
+   {
+    "id": "mcq--part-10-other-topics-new-mcqs",
+    "title": "Other topics (new MCQs)  (PART 10)",
+    "questionIds": [
+     "m-c0210b43",
+     "m-0a487032",
+     "m-77dcf00e",
+     "m-06ec3537",
+     "m-ccdc3050",
+     "m-e1ea06ac",
+     "m-854a31fa",
+     "m-944d8374",
+     "m-8247b23f",
+     "m-e08b7e41",
+     "m-d5ef02a7",
+     "m-a5d0bd57",
+     "m-deb2b61e",
+     "m-8f8ea22a",
+     "m-b1b7661f",
+     "m-033202dd",
+     "m-70f145e0",
+     "m-63fbf3b8",
+     "m-ce2610a5",
+     "m-b864e372",
+     "m-52de3c26",
+     "m-a5f021e4",
+     "m-7fe05246",
+     "m-341d4658",
+     "m-b6d167b1",
+     "m-78ff4fdd",
+     "m-0f1b20f1",
+     "m-57a1d431",
+     "m-186d9133",
+     "m-6a5a256e",
+     "m-a39e2e2d",
+     "m-4bf48e70",
+     "m-d12b44dd",
+     "m-b2b8cc53",
+     "m-0d708845",
+     "m-b317049c",
+     "m-8379f433",
+     "m-95617efd"
+    ]
+   },
+   {
+    "id": "mcq--part-11-other-topics-new-mcqs",
+    "title": "Other topics (new MCQs)  (PART 11)",
+    "questionIds": [
+     "m-f50b8a0d",
+     "m-a1b7935a",
+     "m-8c9ef2e1",
+     "m-c2d7f33c",
+     "m-ca50dae5",
+     "m-7b79bee6",
+     "m-6bd72136",
+     "m-541f332c",
+     "m-78370d03",
+     "m-12783e18",
+     "m-aebaf6e2",
+     "m-ccafa9fa",
+     "m-7de47828",
+     "m-7e9d7d12",
+     "m-2289b07b",
+     "m-05a86388",
+     "m-f7888e7c",
+     "m-ed17e1c5",
+     "m-49607200",
+     "m-c2641109",
+     "m-48ba7a07",
+     "m-a2e62833",
+     "m-2fda1141",
+     "m-57034cb7",
+     "m-3510ae37",
+     "m-fdf8b0d1",
+     "m-60f08806",
+     "m-c131fea4",
+     "m-33206705",
+     "m-dc80cc2b",
+     "m-b788a179",
+     "m-194b571c",
+     "m-aee9f4b8",
+     "m-ee56819e",
+     "m-d32b15b2",
+     "m-c47ae4b4",
+     "m-6f6539c7",
+     "m-a02faaf3",
+     "m-d1c71938",
+     "m-2641cbb1",
+     "m-99f8e5c5",
+     "m-e8c283e8",
+     "m-617d06cd",
+     "m-bbcbeaf8",
+     "m-c91c9cc7",
+     "m-3e0f7e06",
+     "m-3a98145c",
+     "m-7a91b478",
+     "m-e0342078",
+     "m-3f61a26f",
+     "m-2cf1e514",
+     "m-000c1b11",
+     "m-77a182a3",
+     "m-44392c2a",
+     "m-b4d76666",
+     "m-ba5c9ce8",
+     "m-bf818eaf",
+     "m-3f06cc97",
+     "m-b0f73b4e",
+     "m-428fb629",
+     "m-640e5233",
+     "m-74589002",
+     "m-0d5f04e1",
+     "m-55b57df3"
+    ]
+   },
+   {
+    "id": "mcq--part-8-other-topics-new-mcqs",
+    "title": "Other topics (new MCQs)  (Part 8)",
+    "questionIds": [
+     "m-53ddaa50",
+     "m-7e013b1e",
+     "m-77d16480",
+     "m-328fb3cd",
+     "m-a253be6e",
+     "m-97acb1cd",
+     "m-a62069f0",
+     "m-126a2c65",
+     "m-886e49eb",
+     "m-956284e6",
+     "m-c11bc244",
+     "m-da6e7f0c",
+     "m-dd7a14f6",
+     "m-0d411e03",
+     "m-4f91dc87",
+     "m-b6feb068",
+     "m-1fffd276",
+     "m-eec66296"
+    ]
+   },
+   {
+    "id": "mcq--part-9-other-topics-new-mcqs",
+    "title": "Other topics (new MCQs)  (Part 9)",
+    "questionIds": [
+     "m-83c298cf",
+     "m-75a5d678",
+     "m-f3bc122a",
+     "m-a6d96813",
+     "m-6fc3ed25"
+    ]
+   }
+  ],
+  "noteHtml": "<p><em>SBA and True/False MCQs by topic. Items tagged <strong>New</strong> are AI-written from the source files and must be checked against Park/Matrix. Where the source gives no key or two papers disagree, the answer says so.</em></p>"
  }
 ];
 QB.questions = {};
