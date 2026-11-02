@@ -8653,3 +8653,473 @@ Approximate transmission risk after needle-stick: HBV ~6–30% (non-immune), HCV
 | Stannosis (tin), talcosis, baritosis | Tobacosis; occupational asthma (wood dust) |
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.301
+**Common health problems of Bangladesh**
+
+| Group | Problems |
+|---|---|
+| **Communicable diseases** | ARI and pneumonia; diarrhoeal diseases; tuberculosis; **dengue** (large urban outbreaks); typhoid; hepatitis B and E; malaria (hill tracts); measles and other vaccine-preventable diseases (outbreaks when coverage drops); STIs/HIV (low prevalence, key populations); emerging infections (Nipah, COVID-19) |
+| **Non-communicable diseases** (now the leading causes of death) | Hypertension, ischaemic heart disease, **stroke**, **diabetes**, COPD and asthma, cancers (lung, oral, cervical, breast), chronic kidney disease |
+| **Maternal and child health** | Maternal and neonatal deaths (birth asphyxia, prematurity, sepsis); home deliveries; child marriage and adolescent pregnancy |
+| **Nutrition** | Stunting (23.6% of under-5s, 2022), wasting, underweight; anaemia in women and children; micronutrient deficiencies; rising overweight and obesity |
+| **Mental health** | Depression, anxiety, substance use, suicide |
+| **Injuries** | Road traffic injuries, **drowning** (leading killer of children aged 1–4), burns, falls, occupational injuries |
+| **Environmental** | Arsenic in groundwater, air pollution, unsafe water and sanitation in slums, climate-related disasters |
+| **Others** | Snake bite, population ageing, disability, antimicrobial resistance, tobacco use |
+
+**Underlying factors**
+
+Poverty, illiteracy, high population density, rapid urbanisation, out-of-pocket health spending, shortage and maldistribution of health workers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Our World in Data, Bangladesh health profile, https://ourworldindata.org/profile/health/bangladesh
+
+## DU.302
+**Important national health programmes of Bangladesh**
+
+| Area | Programmes |
+|---|---|
+| **Immunisation** | **Expanded Programme on Immunization (EPI)** (since 1979) |
+| **Communicable diseases** | National Tuberculosis Control Programme; National Leprosy Programme; National Malaria Elimination Programme; Kala-azar Elimination Programme; Lymphatic Filariasis Elimination Programme; National AIDS/STD Programme; dengue control; hepatitis control; zoonotic disease control |
+| **Maternal, newborn, child and adolescent health** | MNC&AH programme; IMCI; safe motherhood; adolescent health |
+| **Family planning** | National Family Planning Programme (DGFP) |
+| **Nutrition** | National Nutrition Services (vitamin A, IYCF, micronutrients, SAM management); salt iodisation |
+| **Non-communicable diseases** | NCD Control programme (hypertension, diabetes, cancer, stroke, COPD screening); tobacco control; mental health; eye care |
+| **Primary health care** | Community Based Health Care (community clinics) |
+| **Environmental health** | Arsenic mitigation; WASH (with DPHE) |
+| **Others** | School health; occupational health; emergency preparedness; hospital services; health information (MIS) |
+
+These run as operational plans under the national Health, Population and Nutrition Sector Programme.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.303
+**Essential Service Package (ESP)**
+
+A set of cost-effective, high-priority primary-level services provided free or at low cost to all, especially women, children and the poor; introduced under the Health and Population Sector Programme (1998) and continued in later sector programmes.
+
+**Components**
+
+| Component | Services |
+|---|---|
+| **1. Reproductive health care** | Safe motherhood (ANC, delivery, PNC, EmOC referral); family planning; menstrual regulation and post-abortion care; adolescent reproductive health; RTI/STI management |
+| **2. Child health care** | EPI; IMCI (ARI, diarrhoea, malaria, measles, malnutrition); newborn care; vitamin A; growth monitoring |
+| **3. Communicable disease control** | TB (DOTS), leprosy, malaria, kala-azar, filariasis, HIV/AIDS, dengue |
+| **4. Limited curative care** | First aid, treatment of common illnesses and injuries; referral |
+| **5. Behaviour change communication (BCC)** | Health, nutrition and family planning messages |
+
+**Later additions (revised ESP)**
+
+Nutrition services; NCD screening (hypertension, diabetes); mental health; eye and oral health; elderly care.
+
+**Delivery points**
+
+Community clinics, union facilities, Upazila Health Complexes, urban PHC centres, outreach (satellite clinics, EPI sites).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.304
+**National NGOs working in health (Bangladesh)**
+
+1. **BRAC** (community health workers, TB, maternal and child health, WASH)
+2. **icddr,b** (International Centre for Diarrhoeal Disease Research, Bangladesh; research and hospital services)
+3. **Gonoshasthaya Kendra** (community health, low-cost drugs)
+4. **Diabetic Association of Bangladesh (BADAS)** / BIRDEM
+5. **Family Planning Association of Bangladesh (FPAB)**
+6. **Marie Stopes Bangladesh** (reproductive health)
+7. **Social Marketing Company (SMC)** (ORS, contraceptives, nutrition products)
+8. **Bangladesh Red Crescent Society**
+9. Sajida Foundation, Shimantik, Dhaka Ahsania Mission, Bangladesh Women's Health Coalition
+10. Surjer Hasi (Smiling Sun) clinic network
+
+**International NGOs**
+
+1. **Save the Children**
+2. **CARE**
+3. **Plan International**
+4. **World Vision**
+5. **Médecins Sans Frontières (MSF)**
+6. Helen Keller International
+7. WaterAid
+8. Concern Worldwide
+9. Pathfinder International, EngenderHealth
+10. Sightsavers, The Leprosy Mission, Islamic Relief, Oxfam
+
+**International organisations (UN and others)**
+
+WHO, UNICEF, UNFPA, UNDP, UNAIDS, WFP, FAO, UNHCR, IOM, World Bank, Asian Development Bank, Gavi, Global Fund, JICA, FCDO.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health; Health Care of the Community).
+
+## DU.305
+**Diabetic Association of Bangladesh (BADAS)**
+
+- Voluntary, non-profit social welfare organisation founded in **1956** by **Prof. Mohammad Ibrahim**.
+- Pioneer in comprehensive diabetes care in Bangladesh and South Asia.
+- Central institute: **BIRDEM** (Bangladesh Institute of Research and Rehabilitation in Diabetes, Endocrine and Metabolic Disorders), Dhaka; a WHO Collaborating Centre.
+- Network of affiliated associations and diabetes centres in districts and upazilas.
+
+**Activities**
+
+1. **Registration and care**: lifelong registration of diabetic patients (guide book); outpatient and inpatient care at low cost or free for the poor.
+2. **Health education**: patients, families, public; diet, exercise, foot care, insulin use.
+3. **Prevention**: screening campaigns; awareness on World Diabetes Day; primary prevention programmes.
+4. **Specialist services**: BIRDEM General Hospital (endocrinology, cardiology, nephrology, eye, foot care), maternal and child health in diabetes (gestational diabetes).
+5. **Rehabilitation**: vocational and social support for diabetic patients.
+6. **Training and education**: Ibrahim Medical College, Bangladesh University of Health Sciences, nursing and allied health institutes; postgraduate courses.
+7. **Research**: epidemiological and clinical research on diabetes and NCDs.
+8. **Supply** of insulin and drugs at fair prices.
+9. **Advocacy** and partnership with government on NCD policy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.306
+**UN organisations working in Bangladesh (health-related)**
+
+| Organisation | Main work |
+|---|---|
+| **WHO** (World Health Organization) | Technical support for health policy, disease control, EPI, emergencies, IHR |
+| **UNICEF** (United Nations Children's Fund) | Child health, immunisation (vaccine supply), nutrition, WASH, education, child protection |
+| **UNFPA** (United Nations Population Fund) | Reproductive health, family planning, midwifery, gender-based violence |
+| **UNDP** (United Nations Development Programme) | Development, poverty reduction, governance, climate |
+| **UNAIDS** | HIV/AIDS coordination |
+| **WFP** (World Food Programme) | Food assistance, school feeding, nutrition |
+| **FAO** (Food and Agriculture Organization) | Food security, agriculture, zoonoses (One Health) |
+| **UNHCR**, **IOM** | Refugees (Rohingya), migrants |
+| **ILO** | Labour standards, occupational safety |
+| **World Bank** | Financing of health sector programmes |
+
+**International health organisations (general)**
+
+WHO, UNICEF, UNFPA, UNDP, ILO, FAO, World Bank; International Red Cross and Red Crescent Movement; bilateral agencies (USAID, JICA, FCDO, SIDA); global partnerships (Gavi, Global Fund); international NGOs (Save the Children, CARE, MSF).
+
+**Four important (short answer)**
+
+WHO, UNICEF, UNFPA, UNDP (or WFP).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.307
+**WHO regions and regional headquarters**
+
+| Region | Regional office (headquarters) |
+|---|---|
+| **South-East Asia Region (SEARO)** | **New Delhi, India** (Bangladesh belongs here) |
+| African Region (AFRO) | Brazzaville, Republic of the Congo |
+| Region of the Americas (AMRO / PAHO) | Washington, DC, USA |
+| European Region (EURO) | Copenhagen, Denmark |
+| Eastern Mediterranean Region (EMRO) | Cairo, Egypt |
+| Western Pacific Region (WPRO) | Manila, Philippines |
+
+**WHO headquarters**: Geneva, Switzerland.
+**WHO founded**: 7 April 1948 (World Health Day).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.308
+**Functions of WHO (Constitution, Article 2: main points)**
+
+1. Act as the **directing and coordinating authority** on international health work.
+2. Collaborate with the UN, specialised agencies, governments and professional groups.
+3. **Assist governments** to strengthen health services.
+4. Provide **technical assistance** and, in emergencies, necessary aid.
+5. Stimulate work to **eradicate epidemic, endemic and other diseases**.
+6. Promote prevention of accidental injuries.
+7. Promote improved **nutrition, housing, sanitation**, working conditions and environmental hygiene.
+8. Promote **maternal and child health** and **mental health**.
+9. Promote and conduct **research**.
+10. Propose **conventions, agreements and regulations** (IHR 2005, Framework Convention on Tobacco Control).
+11. Set **international standards** for food, biological, pharmaceutical products; **international nomenclature** of diseases (ICD).
+12. Promote **training** of health personnel.
+13. Develop informed **public opinion** on health.
+
+**Main areas of work (Park)**
+
+Prevention and control of specific diseases; development of comprehensive health services; family health; environmental health; health statistics; biomedical research; health literature and information; cooperation with other organisations.
+
+**Organs**
+
+World Health Assembly (policy) → Executive Board (executive) → Secretariat (Director-General; administrative and technical).
+
+**Current strategic aim**
+
+Triple billion targets (GPW13): 1 billion more people benefiting from UHC, 1 billion better protected from health emergencies, 1 billion enjoying better health and well-being.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO Constitution, 1948.
+
+## DU.309
+**WHO's health-related activities in Bangladesh**
+
+1. **Immunisation**: technical support to EPI; polio and measles-rubella surveillance; vaccine safety; campaigns.
+2. **Communicable disease control and elimination**: TB, malaria, dengue, hepatitis, NTDs; supported elimination of **lymphatic filariasis** and **kala-azar** as public health problems (validated 2023).
+3. **Health emergencies**: Rohingya humanitarian response, disease outbreaks (dengue, cholera, COVID-19), floods and cyclones.
+4. **International Health Regulations**: strengthening surveillance and response (with IEDCR).
+5. **NCD prevention and control**: hypertension and diabetes management (HEARTS), tobacco control (FCTC), cancer, mental health.
+6. **Maternal, newborn, child and adolescent health**; nutrition.
+7. **Health systems and UHC**: health financing, workforce, primary health care, quality of care, health information (DHIS2).
+8. **Medicines and regulation**: essential medicines, drug regulation (DGDA), antimicrobial resistance.
+9. **Environmental health and climate**: air quality, WASH, climate-resilient health systems.
+10. **Policy advice, guidelines, research and training**.
+
+**Five WHO-supported programmes (short answer)**
+
+EPI; TB control; NTD elimination (kala-azar, filariasis); NCD/hypertension control; emergency and outbreak response.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
+
+## DU.310
+**World Health Day (7 April) themes**
+
+| Year | Theme (slogan) |
+|---|---|
+| **2024** | **"My health, my right"** |
+| 2025 | "Healthy beginnings, hopeful futures" (maternal and newborn health; year-long campaign) |
+
+**About World Health Day**
+
+- Marks WHO's founding on **7 April 1948**.
+- Each year WHO selects a priority theme to raise global awareness.
+
+**2024 theme meaning**
+
+Health is a **human right**: everyone, everywhere should have access to quality health services, education and information, safe water, clean air, good nutrition, decent housing and working conditions, free from discrimination.
+
+**Ref:** WHO, World Health Day.
+
+## DU.311
+**Two roles of WHO in global health**
+
+1. **Directing and coordinating authority on international health**: leads global responses (e.g., smallpox eradication, polio eradication, COVID-19 response) and coordinates countries and partners.
+2. **Setting norms and standards**: International Health Regulations (2005), Framework Convention on Tobacco Control, International Classification of Diseases (ICD), essential medicines list, treatment guidelines, drinking-water and air-quality guidelines.
+
+**Other roles**
+
+- Technical support to countries (health systems, UHC).
+- Monitoring global health trends (World Health Statistics).
+- Research promotion and prequalification of vaccines and medicines.
+- Emergency preparedness and response (declaring PHEIC).
+- Advocacy for health equity and health as a human right.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.312
+**Executive body of WHO: the Executive Board (EB)**
+
+**Composition**
+
+- **34 members**, technically qualified in the field of health, designated by Member States elected by the World Health Assembly.
+- Members serve **three-year terms**; seats distributed among WHO regions.
+
+**Meetings**
+
+At least twice a year: a main session in January–February and a short session after the World Health Assembly (May).
+
+**Functions**
+
+1. **Gives effect to the decisions and policies** of the World Health Assembly (executive organ).
+2. Prepares the **agenda** of the World Health Assembly.
+3. Advises the Assembly on questions referred to it.
+4. Submits the **programme of work** and budget proposals.
+5. Takes **emergency measures** within WHO's functions (e.g., outbreaks, disasters).
+6. Nominates the **Director-General** for appointment by the Assembly.
+
+**WHO organs (for context)**
+
+| Organ | Role |
+|---|---|
+| World Health Assembly | Supreme policy-making body; all Member States; meets annually in Geneva |
+| **Executive Board** | Executive body |
+| Secretariat | Director-General and staff; technical and administrative work |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.313
+**UNICEF (United Nations Children's Fund)**
+
+Founded 1946; works for the survival, development and protection of children; in Bangladesh since the early 1950s.
+
+**Activities in Bangladesh**
+
+| Area | Activities |
+|---|---|
+| **Child health** | Support to **EPI**: vaccine procurement, cold chain, campaigns (polio, measles-rubella, typhoid conjugate, HPV); newborn care (special care newborn units); IMCI |
+| **Communicable disease control** | Immunisation; ORS and zinc promotion; diarrhoea and pneumonia control; HIV prevention among adolescents; outbreak response (cholera vaccines, COVID-19 vaccine delivery) |
+| **Nutrition** | Vitamin A supplementation; IYCF and breastfeeding promotion; management of severe acute malnutrition; salt iodisation; micronutrients |
+| **Maternal health** | ANC, facility delivery, midwifery support (with UNFPA) |
+| **WASH** | Safe water (arsenic-safe options), sanitation, hygiene, WASH in schools |
+| **Education** | Primary and early childhood education; out-of-school children |
+| **Child protection** | Birth registration; prevention of child marriage, child labour and violence; Meena communication initiative |
+| **Adolescents** | Health, menstrual hygiene, life skills |
+| **Emergencies** | Rohingya response; floods and cyclones |
+| **Social policy** | Child-sensitive social protection; advocacy |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.314
+**USAID support to the health sector of Bangladesh: critical analysis**
+
+**A. Contributions (strengths)**
+
+1. **Family planning**: long-term support for contraceptive supply and social marketing (SMC); contributed to the fall in fertility.
+2. **Maternal, newborn and child health**: community-based newborn care, chlorhexidine cord care, safe delivery, nutrition.
+3. **Health surveys and data**: Bangladesh Demographic and Health Surveys (BDHS) and other surveys.
+4. **NGO service delivery**: urban and rural clinic networks (Smiling Sun / Surjer Hasi).
+5. **TB control**: case finding, MDR-TB management.
+6. **Research**: support to icddr,b (ORS, zinc, newborn care evidence).
+7. **Nutrition and food security**; humanitarian aid (Rohingya response).
+8. Health systems strengthening: supply chain, health information.
+
+**B. Limitations (criticisms)**
+
+1. **Donor dependence**; questions of sustainability after funding ends.
+2. **Vertical, project-based** programmes not always aligned with national sector priorities.
+3. Funding linked to US policy priorities and conditions (e.g., restrictions on abortion-related services under the Mexico City Policy).
+4. High administrative and consultancy costs; parallel systems.
+5. Uneven geographic coverage; limited capacity transfer in some projects.
+
+**C. Recent change**
+
+The **2025 US foreign-aid freeze and restructuring of USAID** abruptly stopped or cut many programmes (family planning, TB, nutrition, surveys, humanitarian support), showing the risk of dependence on a single donor.
+
+**Lesson**
+
+Strengthen government ownership and domestic financing; align donor support with the national sector programme; build sustainable systems.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.315
+**Role of international health agencies in Bangladesh's health services**
+
+| Role | Examples |
+|---|---|
+| **1. Policy and technical support** | WHO guidelines and technical advice on EPI, TB, NCDs, UHC |
+| **2. Financing** | World Bank and development partners through the Health, Population and Nutrition Sector Programme (pooled funds); Global Fund (TB, malaria, HIV); Gavi (vaccines) |
+| **3. Supplies and logistics** | UNICEF vaccine procurement and cold chain; UNFPA contraceptives and reproductive health supplies |
+| **4. Disease control and elimination** | WHO and partners: polio eradication, kala-azar and filariasis elimination, malaria, dengue response |
+| **5. Maternal and child health, nutrition** | UNICEF, UNFPA, WFP: newborn care, midwifery, vitamin A, school feeding |
+| **6. Emergencies** | WHO, UNICEF, UNHCR, IOM, WFP, MSF, Red Cross/Red Crescent: Rohingya crisis, floods, cyclones, COVID-19 |
+| **7. Research** | Support to icddr,b and universities |
+| **8. Human resources** | Training of health workers, midwifery education, fellowships |
+| **9. Health information** | Surveys (BDHS, MICS), DHIS2, surveillance |
+| **10. Advocacy** | Health rights, gender, tobacco control, SDGs |
+
+**Challenges**
+
+Dependence on external funds, fragmentation, alignment and coordination problems, sustainability; sudden aid cuts.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.316
+**Red Crescent**
+
+Part of the **International Red Cross and Red Crescent Movement** (ICRC, IFRC and national societies). In Bangladesh: **Bangladesh Red Crescent Society (BDRCS)**, a national voluntary humanitarian organisation (formerly Bangladesh Red Cross Society; renamed in 1988).
+
+**Fundamental principles**
+
+Humanity, impartiality, neutrality, independence, voluntary service, unity, universality.
+
+**Activities**
+
+| Area | Activities |
+|---|---|
+| **Disaster management** | **Cyclone Preparedness Programme** (with government): early warning, evacuation by volunteers; relief and recovery after floods, cyclones, fires |
+| **Health services** | Hospitals (Holy Family Red Crescent Medical College Hospital), maternity and child health centres, community health programmes |
+| **Blood services** | Voluntary blood donation and blood banks |
+| **First aid** | Training of volunteers, students and public; ambulance services |
+| **Refugee and humanitarian aid** | Rohingya response: health, WASH, shelter, psychosocial support |
+| **WASH** | Safe water, sanitation, hygiene in disasters |
+| **Restoring family links** | Tracing missing persons (with ICRC) |
+| **Youth** | Red Crescent Youth: volunteering, health awareness |
+| **Climate adaptation** | Community resilience, early action |
+| **Dissemination** | International humanitarian law, protection of the emblem |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.317
+**CARE in Bangladesh**
+
+CARE (Cooperative for Assistance and Relief Everywhere) is an international NGO working in Bangladesh for decades, focusing on poverty, women's empowerment and humanitarian response.
+
+**Health sector**
+
+1. **Maternal and newborn health**: community-based skilled birth attendants, ANC, safe delivery, postnatal care.
+2. **Nutrition**: food security and nutrition programmes for poor households (e.g., SHOUHARDO), growth monitoring, IYCF.
+3. **WASH**: safe water, sanitation, hygiene behaviour change.
+4. **Reproductive health and family planning**; adolescent health.
+5. **HIV prevention** among vulnerable groups (earlier programmes).
+6. **Health systems**: community engagement and accountability (community scorecards), support to local government health services.
+7. **Emergency health**: Rohingya response, disasters.
+
+**Agriculture sector**
+
+1. **Food security** and improved farming for poor and women farmers.
+2. **Climate-resilient agriculture**: saline- and flood-tolerant crops, homestead gardening.
+3. **Livestock and dairy** value chains; market linkages.
+4. Women's economic empowerment; savings groups.
+5. Disaster risk reduction for farming communities.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+
+## DU.318
+**Achievements of BIRDEM**
+
+BIRDEM (Bangladesh Institute of Research and Rehabilitation in Diabetes, Endocrine and Metabolic Disorders), Dhaka: central institute of the **Diabetic Association of Bangladesh**; a **WHO Collaborating Centre**.
+
+1. **Model of comprehensive diabetes care**: registration, treatment, education and rehabilitation under one roof, at low cost; free care for the poor.
+2. **Large tertiary hospital** (BIRDEM General Hospital) with endocrinology, cardiology, nephrology and dialysis, eye, foot care, surgery, ICU.
+3. **Nationwide network** of affiliated diabetic centres in districts and upazilas.
+4. **Health education** of patients (diet, insulin, foot care) and public awareness.
+5. **Research**: epidemiological and clinical research on diabetes, gestational diabetes, NCDs; publications.
+6. **Training and education**: postgraduate courses; Ibrahim Medical College; Bangladesh University of Health Sciences; nursing and allied health institutes.
+7. **Maternal and child health in diabetes**; childhood diabetes services.
+8. **Prevention programmes**: screening, primary prevention, World Diabetes Day activities.
+9. **Recognition**: WHO Collaborating Centre for research and training in diabetes; regional leader in diabetes care.
+10. **Rehabilitation**: social and vocational support for diabetic patients.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.319
+**International Health Regulations (IHR, 2005)**
+
+A **legally binding international instrument** adopted by the World Health Assembly in **2005**, in force since **2007**, binding on all WHO Member States (States Parties).
+
+**Purpose and scope**
+
+To prevent, protect against, control and provide a public health response to the **international spread of disease**, in ways that are proportionate to the public health risk and that avoid unnecessary interference with international traffic and trade.
+
+**Key features**
+
+1. **All-hazards**: covers infectious, chemical, radiological and other events, not a fixed list of diseases.
+2. **Notification** to WHO within **24 hours** of assessing an event that may constitute a **Public Health Emergency of International Concern (PHEIC)** (decision instrument, Annex 2).
+3. **National IHR Focal Point** in each country (Bangladesh: DGHS / IEDCR).
+4. **Core capacities**: surveillance, laboratory, response, risk communication, points of entry (airports, ports, land crossings).
+5. **PHEIC** declared by the WHO Director-General on advice of an **Emergency Committee**; temporary and standing recommendations.
+6. **Health measures at points of entry**: vaccination certificates (yellow fever), screening, isolation.
+7. Monitoring by annual reporting and joint external evaluation.
+8. **Amended in 2024** (in force 2025): adds a "pandemic emergency" level and strengthens equity and coordination.
+
+**Examples of PHEICs**
+
+H1N1 influenza (2009), polio (2014), Ebola (2014, 2019), Zika (2016), COVID-19 (2020), mpox (2022, 2024).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, International Health Regulations (2005).
+
+## DU.320
+**Importance of IHR in public health**
+
+1. **Global health security**: early detection and containment of outbreaks before they spread across borders.
+2. **Legal obligation**: binding on all States Parties; ensures timely **notification** and information sharing.
+3. **All-hazards approach**: covers infectious, chemical, radiological and food-safety events.
+4. **Builds national core capacities**: surveillance, laboratories, rapid response teams, risk communication, emergency preparedness.
+5. **Points of entry**: health measures at airports, ports and land crossings (screening, isolation, vaccination certificates).
+6. **Coordinated international response**: WHO can declare a **PHEIC** and issue recommendations to guide countries.
+7. **Balances health with trade and travel**: prevents unnecessary restrictions that harm economies.
+8. **Protects human rights** of travellers (dignity, privacy).
+9. **Accountability**: monitoring and evaluation of country capacities.
+10. **One Health** linkage: zoonotic and environmental threats.
+
+**Bangladesh examples**
+
+Surveillance and response for avian influenza, Nipah, MERS, COVID-19, mpox; IEDCR as national focal point; health screening at Hazrat Shahjalal International Airport and land ports.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, International Health Regulations (2005).
