@@ -17703,3 +17703,1046 @@ These cannot be changed but identify people for **regular screening** and strict
 Prevalence; **awareness**, **treatment** and **control** rates ("rule of halves"); risk-factor prevalence (salt, obesity, inactivity).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases; Principles of Epidemiology).
+
+## DU.716
+**Prevention and control of hypertension**
+
+**A. Primary prevention**
+
+| Strategy | Measures |
+|---|---|
+| **Population strategy** | **Salt** <5 g/day; more fruits and vegetables (potassium); less saturated fat; **weight control**; **regular physical activity** (≥150 min/week); **no tobacco**; limit **alcohol**; stress management; health education; food policies (salt reduction, labelling) |
+| **High-risk strategy** | Identify people with prehypertension, obesity, diabetes, family history; intensive lifestyle counselling; regular BP checks |
+
+**B. Secondary prevention**
+
+1. **Early detection**: BP screening of all adults (opportunistic and community; NCD corners at UHCs and community clinics).
+2. **Treatment**: lifestyle change + standard drug protocols (e.g., amlodipine, ACE inhibitor/ARB, thiazide); treat to target (<140/90; <130/80 for many high-risk patients).
+3. **Adherence** and follow-up; free/low-cost drugs; patient registers.
+4. Control of other risk factors (diabetes, lipids).
+
+**C. Tertiary prevention**
+
+Manage complications (stroke, heart failure, kidney disease); rehabilitation.
+
+**D. Health system (WHO HEARTS package)**
+
+Simple treatment protocols, team-based care, reliable drug supply, information systems, community services.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.717
+**Approach for prevention of hypertension (Park)**
+
+1. **Population (mass) strategy**: shift the whole population's BP distribution downward by lifestyle and policy measures (salt reduction, healthy diet, physical activity, weight control, no tobacco, limit alcohol); small falls in average BP prevent many strokes and heart attacks.
+2. **High-risk strategy**: find and manage individuals at high risk (raised BP, obesity, diabetes, family history) with counselling and drugs.
+3. **Secondary prevention**: early detection by screening, regular treatment, follow-up, adherence.
+4. **Self-care**: home BP monitoring, adherence.
+5. **Health education**, community participation, intersectoral action.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.718
+**Epidemiological features of hypertension**
+
+1. **Magnitude**: very common; about **1.3 billion adults (30–79 years)** worldwide, about one in three (WHO, 2023); leading risk factor for death (stroke, CHD, kidney disease).
+2. **Iceberg disease**: most cases asymptomatic and undiagnosed; **rule of halves**.
+3. **Age**: BP rises with age.
+4. **Sex**: more in men at younger ages; women after menopause.
+5. **Genetic factors**: family history; tracking of BP from childhood.
+6. **Environmental and lifestyle factors**: high salt, obesity, inactivity, alcohol, tobacco, stress, urbanisation.
+7. **Socio-economic**: rising in low- and middle-income countries; rural–urban transition.
+8. **Ethnicity**: higher in South Asians and Africans.
+9. Associated with diabetes, dyslipidaemia, CKD.
+10. Preventable and controllable.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Global report on hypertension, 2023.
+
+## DU.719
+**Rule of halves**
+
+In a community:
+1. **Half** of all people with hypertension are **not aware** of it.
+2. Of those aware, **half are not treated**.
+3. Of those treated, **half are not adequately controlled**.
+
+→ Only about **one in eight** hypertensives has controlled BP.
+
+**Why hypertension is an iceberg disease in Bangladesh**
+
+1. Usually **asymptomatic** → people do not seek care.
+2. **Little routine screening**; BP not checked at every contact.
+3. **Low awareness** in rural and poor populations.
+4. **Poor adherence**: drugs stopped when "feeling well"; cost.
+5. **Limited access** to doctors and drugs in rural areas; reliance on informal providers.
+6. Health system focused on acute care.
+7. Rising risk factors: salt intake, obesity, inactivity, saline water in coastal areas.
+
+Hence the visible tip (diagnosed, controlled) is small; the submerged part (undiagnosed, untreated, uncontrolled) is large → need for screening and primary care management.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.720
+**Clinical manifestations of diabetes mellitus**
+
+1. **Polyuria, polydipsia, polyphagia**.
+2. **Weight loss** (especially type 1), fatigue, weakness.
+3. **Blurred vision**.
+4. **Recurrent infections**: skin, boils, UTI, vaginal candidiasis; slow wound healing.
+5. Tingling and numbness of feet.
+6. Many type 2 patients are **asymptomatic** (found on screening).
+
+**Diagnosis (WHO)**: fasting plasma glucose ≥7.0 mmol/L (126 mg/dl), or 2-hour OGTT ≥11.1 mmol/L (200 mg/dl), or HbA1c ≥6.5%, or random ≥11.1 mmol/L with symptoms.
+
+**Complications**
+
+| Type | Complications |
+|---|---|
+| **Acute** | Diabetic ketoacidosis, hyperosmolar hyperglycaemic state, **hypoglycaemia**, infections |
+| **Microvascular** | **Retinopathy** (blindness), **nephropathy** (kidney failure), **neuropathy** |
+| **Macrovascular** | **CHD, stroke**, peripheral arterial disease |
+| **Diabetic foot** | Ulcers, infection, gangrene, **amputation** |
+| **Others** | Cataract, periodontitis, erectile dysfunction, depression; pregnancy complications (macrosomia, congenital anomalies, stillbirth) |
+
+**Preventive measures**
+
+1. **Primordial / primary**: healthy diet, physical activity, weight control, no tobacco; school and community programmes; screening and lifestyle intervention for prediabetes.
+2. **Secondary**: screening high-risk adults; early treatment; good control of glucose, BP and lipids.
+3. **Tertiary**: regular eye, foot and kidney checks; foot care; rehabilitation; patient education and self-care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.721
+**Preventive measures of diabetes**
+
+1. **Healthy diet**: less sugar and refined carbohydrates, more fibre, vegetables, whole grains; avoid sugary drinks.
+2. **Physical activity**: ≥150 minutes/week.
+3. **Weight control**; avoid central obesity.
+4. **No tobacco**; limit alcohol.
+5. **Screening** of high-risk groups; lifestyle intervention for prediabetes.
+6. Prevent **LBW** and promote **breastfeeding**.
+7. Screen and manage **gestational diabetes**.
+8. **Health education**; school and workplace programmes.
+9. **Early treatment** and control of glucose, BP, lipids to prevent complications.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.722
+**Risk groups for diabetes mellitus**
+
+1. Adults **≥40 years** (≥30 with other risk factors).
+2. **Overweight / obese** (BMI ≥23 in South Asians), central obesity.
+3. **Family history** of diabetes (first-degree relatives).
+4. **Physically inactive** people.
+5. Women with previous **gestational diabetes** or a baby **>4 kg**.
+6. **Prediabetes** (IFG, IGT, HbA1c 5.7–6.4%).
+7. **Hypertension**, dyslipidaemia, CVD.
+8. **Polycystic ovary syndrome**.
+9. People on long-term steroids, antipsychotics.
+10. South Asian ethnicity; urban dwellers; smokers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.723
+**Risk factors of type 2 diabetes mellitus**
+
+**A. Non-modifiable**
+
+1. **Age** (risk rises after 40).
+2. **Family history** / genetic factors.
+3. **Ethnicity** (South Asians develop diabetes at lower BMI and younger age).
+4. History of **gestational diabetes**.
+5. **Low birth weight** and early-life undernutrition (fetal programming).
+
+**B. Modifiable**
+
+1. **Obesity**, especially **central (abdominal) obesity**.
+2. **Physical inactivity**; sedentary jobs; screen time.
+3. **Unhealthy diet**: refined carbohydrates (white rice in large amounts), sugary drinks, fast food, low fibre.
+4. **Tobacco** use; heavy alcohol.
+5. **Hypertension**, dyslipidaemia.
+6. **Psychosocial stress**, poor sleep.
+7. Drugs (steroids, thiazides, antipsychotics).
+8. **Urbanisation** and lifestyle change.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.724
+**Host factors of diabetes mellitus (Park)**
+
+1. **Age**: type 1 in young; type 2 rises with age.
+2. **Sex**: varies by population.
+3. **Genetic factors**: strong in type 2 (family clustering); type 1 linked to **HLA** genes (DR3, DR4).
+4. **Genetic markers** and immune mechanisms (autoantibodies in type 1).
+5. **Obesity**.
+6. **Maternal diabetes** (offspring at higher risk).
+7. **Insulin resistance** and insulin levels.
+8. Ethnicity.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.725
+**Complications of diabetes mellitus**
+
+**A. Acute**
+
+1. **Hypoglycaemia** (insulin, sulphonylureas).
+2. **Diabetic ketoacidosis** (type 1).
+3. **Hyperosmolar hyperglycaemic state** (type 2, elderly).
+4. **Infections**: skin, UTI, TB, mucormycosis.
+
+**B. Chronic**
+
+| Type | Complications |
+|---|---|
+| **Microvascular** | **Retinopathy** (leading cause of blindness in adults), **nephropathy** (CKD, dialysis), **neuropathy** (peripheral, autonomic) |
+| **Macrovascular** | **Coronary heart disease**, **stroke**, peripheral arterial disease |
+| **Diabetic foot** | Neuropathic and ischaemic ulcers, infection, gangrene, **amputation** |
+| **Eye (others)** | Cataract, glaucoma |
+| **Others** | Periodontitis, erectile dysfunction, gastroparesis, fatty liver, depression, dementia |
+| **In pregnancy** | Miscarriage, congenital anomalies, macrosomia, pre-eclampsia, stillbirth, neonatal hypoglycaemia |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.726
+**Self-care in diabetes**
+
+Activities that a person with diabetes (and family) does daily to control the disease and prevent complications, with support from health workers.
+
+**Main self-care behaviours**
+
+1. **Healthy eating**: regular meals, portion control, less sugar and refined carbohydrates, more vegetables and fibre.
+2. **Being physically active**: walking ≥30 minutes most days.
+3. **Monitoring**: blood glucose (glucometer), BP, weight, feet; keep records (diabetic guide book).
+4. **Taking medicines** correctly: tablets, **insulin injection technique**, storage, timing.
+5. **Problem solving**: recognise and treat **hypoglycaemia** (take sugar); sick-day rules.
+6. **Healthy coping**: stress management, family support.
+7. **Reducing risks**: **daily foot care** (inspection, washing, proper footwear, nail care), stop smoking, annual eye and kidney checks, dental care, vaccinations.
+8. **Regular follow-up** with health workers.
+
+**Importance**: diabetes is lifelong; patient spends most time outside the clinic; self-care improves control, prevents complications and reduces costs.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.727
+**Discipline in life for managing NCDs, especially diabetes**
+
+The Diabetic Association of Bangladesh teaches the **"3 Ds": Diet, Discipline, Drugs** (with education).
+
+**Discipline means a regular, controlled daily routine:**
+
+1. **Regular meal times** and fixed portions; no skipping or overeating; avoid sweets.
+2. **Daily exercise** at a fixed time.
+3. **Taking drugs/insulin regularly** at the right time and dose.
+4. **Regular self-monitoring** of glucose, BP and weight; records.
+5. **Regular sleep**; stress control.
+6. **No smoking**, no alcohol.
+7. **Foot care** and hygiene every day.
+8. **Regular check-ups** (eye, kidney, heart, feet).
+
+**Why**: NCDs are lifelong; good control depends on steady habits more than on drugs alone; discipline prevents complications and improves quality of life.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.728
+**High-risk screening for diabetes in an upazila**
+
+1. **Planning**: form a team (UH&FPO, medical officers, nurses, CHCPs, HAs); decide target group, sites, schedule; arrange glucometers, strips, lancets, BP machines, weighing scales, registers.
+2. **Target group (high-risk)**: adults ≥40 years, or ≥30 years with obesity, family history, hypertension, previous GDM, inactivity.
+3. **Community mobilisation**: inform through CHCPs, HAs, imams, union parishad, miking.
+4. **Screening sites**: NCD corner at UHC, community clinics, workplaces, camps.
+5. **Risk assessment**: short questionnaire / risk score, BMI, waist, BP.
+6. **Blood glucose test**: capillary fasting or random glucose.
+7. **Confirmation** of positives at UHC: fasting plasma glucose, OGTT or HbA1c.
+8. **Counselling and management**: lifestyle advice for all; treatment and enrolment of diabetics; prediabetes follow-up.
+9. **Records and referral**: register, DHIS2 reporting; refer complicated cases.
+10. **Follow-up and evaluation**: coverage, yield, linkage to care.
+
+**World Health Day 2018 slogan**
+
+**"Universal health coverage: everyone, everywhere"** (WHO's 70th anniversary).
+
+**Explanation**
+
+UHC means **all people and communities receive the quality health services they need** (promotion, prevention, treatment, rehabilitation, palliative care) **without suffering financial hardship**. Three dimensions: **who is covered** (population), **which services** are covered, and **how much of the cost** is covered. It is SDG target **3.8**; achieved mainly through strong **primary health care**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, World Health Day 2018.
+
+## DU.729
+**Primordial prevention of type 2 diabetes**
+
+Preventing the emergence of risk factors (obesity, inactivity, unhealthy diet) in the population, especially children.
+
+1. **Healthy school environment**: daily physical education, playgrounds, healthy school meals; ban junk food and sugary drinks near schools.
+2. **Promote breastfeeding** and proper complementary feeding; prevent childhood obesity.
+3. **Maternal nutrition** to prevent LBW (fetal programming).
+4. **Food policies**: sugar-sweetened beverage taxes, front-of-pack labelling, limits on marketing unhealthy food to children, reduce trans fats.
+5. **Urban planning**: parks, walking and cycling paths, safe play spaces.
+6. **Tobacco control** laws.
+7. **Health education** through mass media, schools, families on traditional healthy diets and active living.
+8. Limit screen time; promote sports.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.730
+**Activities of the Diabetic Association of Bangladesh (BADAS)**
+
+1. Registration and lifelong care of diabetic patients at low cost; free for the poor.
+2. **BIRDEM** (central institute, WHO Collaborating Centre) and affiliated centres in districts and upazilas.
+3. **Health education** of patients and public (diet, discipline, drugs; foot care).
+4. **Prevention**: screening, awareness campaigns, World Diabetes Day.
+5. **Specialist services**: eye, foot, kidney, heart, maternal diabetes, childhood diabetes.
+6. **Rehabilitation** of diabetic patients.
+7. **Training and education**: medical college, university, nursing and allied institutes.
+8. **Research** on diabetes and NCDs.
+9. Supply of insulin and drugs at fair prices; advocacy.
+
+(Detailed answer: see DU.305.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.731
+**a) Suspected diagnosis and confirmation (2)**
+
+**Type 2 diabetes mellitus** (fasting plasma glucose 7.4 mmol/L ≥7.0).
+
+**Confirmation** (asymptomatic person needs a second abnormal test):
+1. Repeat **fasting plasma glucose** on another day (≥7.0 mmol/L), or
+2. **OGTT**: 2-hour glucose ≥11.1 mmol/L, or
+3. **HbA1c** ≥6.5%.
+
+**b) Four risk factors in this patient (2)**
+
+1. **Obesity** (BMI 30 kg/m²).
+2. **Strong family history** of diabetes.
+3. **Age 45 years**.
+4. **Sedentary office job** (physical inactivity); likely unhealthy diet and stress.
+
+**c) Three community strategies to prevent type 2 diabetes (3)**
+
+1. **Health promotion / lifestyle change for the whole population**: healthy diet, physical activity, weight control, no tobacco; mass media and school programmes; workplace wellness (healthy canteens, exercise breaks).
+2. **High-risk screening and early intervention**: screen adults ≥40 or with risk factors at community clinics, workplaces, NCD corners; structured lifestyle programmes for prediabetes.
+3. **Supportive environment and policy**: taxes on sugary drinks, food labelling, parks and walking paths, restricting junk food near schools; integration of NCD services into PHC.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.732
+**Major criteria of rheumatic fever (Jones)**
+
+1. **Carditis** (clinical or subclinical on echocardiography).
+2. **Polyarthritis** (migratory, large joints).
+3. **Sydenham's chorea**.
+4. **Erythema marginatum**.
+5. **Subcutaneous nodules**.
+
+(In moderate/high-risk populations such as Bangladesh, **monoarthritis** or **polyarthralgia** also counts as a major manifestation: Revised Jones Criteria, 2015.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.733
+**Revised Jones criteria (American Heart Association, 2015)**
+
+**Essential**: evidence of **preceding group A streptococcal infection**: raised or rising ASO / anti-DNase B titre, or positive throat culture / rapid antigen test.
+
+**Diagnosis**
+
+- **Initial attack**: **2 major**, or **1 major + 2 minor** manifestations.
+- **Recurrent attack**: 2 major, or 1 major + 2 minor, or **3 minor**.
+
+| | Low-risk populations | **Moderate/high-risk populations (e.g., Bangladesh)** |
+|---|---|---|
+| **Major** | Carditis (clinical/subclinical); **polyarthritis** only; chorea; erythema marginatum; subcutaneous nodules | Carditis; **monoarthritis or polyarthritis, or polyarthralgia**; chorea; erythema marginatum; subcutaneous nodules |
+| **Minor** | Polyarthralgia; fever ≥38.5 °C; ESR ≥60 mm/h and/or CRP ≥3 mg/dl; prolonged PR interval | **Monoarthralgia**; fever ≥38 °C; ESR ≥30 mm/h and/or CRP ≥3 mg/dl; prolonged PR interval |
+
+**Note**: chorea alone or indolent carditis may be enough for diagnosis once other causes are excluded.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); AHA Revised Jones Criteria, 2015.
+
+## DU.734
+**Prevention of rheumatic fever**
+
+**A. Primordial**: improve living conditions: less overcrowding, better housing, nutrition, access to care.
+
+**B. Primary prevention**: prompt treatment of **streptococcal sore throat**
+
+| Drug | Dose |
+|---|---|
+| **Benzathine penicillin G** IM, single dose | 1.2 million units (≥27 kg); 0.6 million units (<27 kg) |
+| Oral penicillin V / amoxicillin | 10 days |
+| Erythromycin / azithromycin | Penicillin allergy |
+
+**C. Secondary prophylaxis** (prevent recurrence in those who had RF)
+
+| Drug | Dose / interval |
+|---|---|
+| **Benzathine penicillin G** | 1.2 million units IM every **3–4 weeks** (0.6 MU if <27 kg) |
+| Oral penicillin V | 250 mg twice daily |
+| Erythromycin | 250 mg twice daily (allergy) |
+
+**Duration**
+
+| Category | Duration |
+|---|---|
+| RF without carditis | 5 years after last attack or until age 21 (whichever longer) |
+| RF with carditis, no residual valve disease | 10 years or until age 21 (whichever longer) |
+| RF with residual rheumatic heart disease | 10 years or until age 40 (whichever longer); sometimes lifelong |
+
+**D. Tertiary**: manage RHD; endocarditis prevention; surgery.
+
+**E. Programme**: school sore-throat clinics, RF/RHD registers, health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.735
+**Secondary prophylaxis for a 10-year-old boy with rheumatic fever**
+
+1. **Drug**: **benzathine penicillin G 1.2 million units IM** (0.6 MU if weight <27 kg) **every 3–4 weeks** (3-weekly in high-risk settings).
+2. Check for **penicillin allergy**; keep adrenaline ready.
+3. **Alternative**: oral penicillin V 250 mg twice daily; erythromycin 250 mg twice daily if allergic.
+4. **Duration**:
+   - No carditis: for 5 years or until age 21 (≥ age 21 here).
+   - With carditis, no residual disease: 10 years or until 21.
+   - With residual RHD: 10 years or until age 40, or longer.
+5. **Adherence**: card, register, reminders; involve family and school.
+6. **Regular follow-up**: clinical exam, echocardiography.
+7. Dental hygiene; antibiotic prophylaxis for endocarditis when indicated.
+8. Health education about sore throat and prompt treatment.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.736
+**a) Diagnosis (2)**
+
+**Acute rheumatic fever with carditis** (fever, migratory polyarthritis of knees and elbows after a throat infection, tachycardia, new murmur, breathlessness, fatigue → possible heart failure).
+
+**b) Diagnosis by criteria (3): Revised Jones criteria, 2015**
+
+1. **Evidence of preceding group A streptococcal infection**: raised ASO / anti-DNase B, or positive throat culture.
+2. **Major manifestations present**: **carditis** (murmur, tachycardia; confirm by echocardiography) and **migratory polyarthritis**.
+3. **Minor manifestations**: fever; raised ESR/CRP; prolonged PR interval on ECG.
+4. **2 major** (carditis + polyarthritis) + evidence of strep infection → **acute rheumatic fever**.
+
+Investigations: ASO, throat swab, CBC, ESR, CRP, ECG, chest X-ray, **echocardiography**.
+
+**c) Preventive measures (2)**
+
+1. **Primary**: early treatment of streptococcal sore throat (benzathine penicillin).
+2. **Secondary prophylaxis**: benzathine penicillin every 3–4 weeks for at least 10 years / until age 21 (longer if residual RHD).
+3. **Primordial**: better housing, less crowding, nutrition.
+4. Health education; school screening; RHD registers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.737
+**Definition of cancer**
+
+**Park**: a group of diseases characterised by:
+1. **Abnormal growth of cells**,
+2. Ability to **invade adjacent tissues** and even **distant organs** (metastasis),
+3. Eventual **death** of the patient if the tumour has progressed beyond the stage when it can be successfully removed.
+
+**WHO**: a large group of diseases in which abnormal cells grow beyond their usual boundaries, invade adjoining parts of the body and spread to other organs (metastasis).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.738
+**Warning signs (danger signals) of cancer (Park)**
+
+1. A **lump or hard area in the breast**.
+2. A **change in a wart or mole**.
+3. A **persistent change in digestive or bowel habits**.
+4. A **persistent cough or hoarseness**.
+5. **Excessive loss of blood at menstruation** or bleeding outside the usual dates.
+6. **Blood loss from any natural orifice**.
+7. A **swelling or sore that does not heal**.
+8. **Unexplained loss of weight**.
+
+**Mnemonic (CAUTION)**: Change in bowel/bladder habits; A sore that does not heal; Unusual bleeding or discharge; Thickening or lump; Indigestion or difficulty swallowing; Obvious change in wart or mole; Nagging cough or hoarseness.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.739
+**Environmental factors in cancer aetiology (Park)**
+
+| Factor | Cancers |
+|---|---|
+| **1. Tobacco** (smoking, chewing, betel quid) | Lung, oral, larynx, oesophagus, bladder, pancreas, cervix |
+| **2. Alcohol** | Mouth, pharynx, oesophagus, liver, breast |
+| **3. Dietary factors** | Smoked and salted foods, nitrosamines (stomach); aflatoxin (liver); low fibre, high fat, red/processed meat (colon) |
+| **4. Occupational exposures** | Asbestos (mesothelioma, lung), aromatic amines (bladder), benzene (leukaemia), vinyl chloride (liver), arsenic, chromium, nickel |
+| **5. Viruses** | HBV, HCV (liver), **HPV** (cervix, oral), EBV (nasopharynx, lymphoma), HTLV-1 |
+| **6. Parasites and bacteria** | Schistosoma (bladder), liver flukes (bile duct), *H. pylori* (stomach) |
+| **7. Radiation** | Ionising (leukaemia, thyroid), UV (skin) |
+| **8. Customs and habits** | Betel quid chewing, early marriage (cervix), reverse smoking |
+| **9. Others** | Air pollution, **arsenic in drinking water** (skin, lung, bladder), medicinal drugs (hormones, immunosuppressants), sexual behaviour |
+
+**Four (short answer)**: tobacco, alcohol, diet, occupational/chemical exposures (or viruses, radiation).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.740
+**Lifestyle as a determinant of cancer**
+
+About **one-third of cancer deaths** are due to tobacco use, high body mass index, alcohol, low fruit and vegetable intake and lack of physical activity (WHO).
+
+| Lifestyle factor | Cancers |
+|---|---|
+| **Tobacco smoking** | Lung (most), larynx, bladder, pancreas, kidney, cervix |
+| **Smokeless tobacco and betel quid** (zarda, gul, shada pata) | **Oral cancer** (very common in Bangladesh), oesophagus |
+| **Alcohol** | Mouth, throat, oesophagus, liver, breast |
+| **Unhealthy diet** | Colorectal (red/processed meat, low fibre), stomach (salted, smoked foods), liver (aflatoxin) |
+| **Obesity and physical inactivity** | Breast (post-menopausal), colon, endometrium, kidney, oesophagus |
+| **Sexual behaviour** | Cervical, anal, oral (HPV); Kaposi's sarcoma (HIV) |
+| **Reproductive pattern** | Breast (late first pregnancy, nulliparity, not breastfeeding); cervix (early marriage, many births) |
+| **Sun exposure** | Skin cancers |
+| **Unsafe injections** | Liver (HBV, HCV) |
+
+**Implications**
+
+Most of these are **modifiable** → 30–50% of cancers are preventable by lifestyle change, vaccination (HBV, HPV) and policy (tobacco taxes, smoke-free laws).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Cancer fact sheet.
+
+## DU.741
+**Control of cervical cancer in a rural setting**
+
+**A. Primary prevention**
+
+1. **HPV vaccination** of girls (Bangladesh introduced HPV vaccine for adolescent girls).
+2. **Health education**: delay marriage and first pregnancy, safe sex, condoms, genital hygiene, stop tobacco.
+3. Treat STIs; prevent HIV.
+
+**B. Secondary prevention: screening and early treatment**
+
+1. **VIA (visual inspection with acetic acid)** for women aged **30–60** at UHCs, union centres and camps (national screening programme); every 3–5 years.
+2. **HPV DNA testing** where available (WHO preferred).
+3. **Screen-and-treat**: thermal ablation or cryotherapy at the same visit for eligible lesions.
+4. Referral to colposcopy and LEEP for larger lesions.
+5. Mobilisation through CHCPs, FWAs.
+
+**C. Tertiary**
+
+Treatment (surgery, radiotherapy) at referral centres; **palliative care**.
+
+**WHO elimination targets (90-70-90 by 2030)**: 90% of girls vaccinated by 15; 70% of women screened by 35 and 45 with a high-performance test; 90% of identified women treated.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Global strategy to eliminate cervical cancer, 2020.
+
+## DU.742
+**a) Probable diagnosis (1)**
+
+**Carcinoma of the cervix** (irregular vaginal bleeding in a 52-year-old woman with early marriage and high parity).
+
+**b) Risk factors (2)**
+
+1. **Persistent high-risk HPV infection** (types 16, 18): the necessary cause.
+2. **Early marriage / early first intercourse**.
+3. **High parity** (4 children).
+4. **Low socio-economic status**, poor genital hygiene.
+5. **Multiple sexual partners** (of woman or husband); STIs; HIV.
+6. **Tobacco** use (smoking, smokeless).
+7. Long-term oral contraceptive use.
+8. **No previous screening**.
+
+**c) Primary and secondary prevention (4)**
+
+| Level | Measures |
+|---|---|
+| **Primary** | **HPV vaccination** of girls (9–14 years) before sexual debut; **delay marriage** and first pregnancy; health education on safe sex, condoms, genital hygiene; stop tobacco; treat STIs and prevent HIV; family planning (fewer pregnancies) |
+| **Secondary** | **Screening** of women 30–60 years: **VIA**, **HPV DNA test**, Pap smear; **screen-and-treat** (thermal ablation, cryotherapy); colposcopy and LEEP for larger lesions; awareness of warning signs (post-coital, inter-menstrual or post-menopausal bleeding) and prompt referral for biopsy |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.743
+**Common health problems of the elderly (Bangladesh)**
+
+**A. Due to ageing process (Park)**
+
+Senile **cataract**, glaucoma; **hearing loss** (presbycusis); **osteoporosis**; emphysema; failure of special senses; changes in mental outlook.
+
+**B. Long-term (chronic) illness**
+
+1. **Cardiovascular**: hypertension, CHD, **stroke**, heart failure.
+2. **Metabolic**: **diabetes**, gout.
+3. **Joints**: **osteoarthritis**, back pain.
+4. **Respiratory**: COPD, TB.
+5. **Cancers**.
+6. **Mental**: **dementia**, **depression**, delirium.
+7. **Genito-urinary**: prostate enlargement, incontinence, UTI.
+8. **Falls and fractures** (hip).
+9. **Malnutrition**, anaemia; oral problems (tooth loss).
+10. **Multimorbidity and polypharmacy**.
+
+**C. Psychological**
+
+Loneliness, anxiety, depression, insecurity, loss of purpose.
+
+**D. Social and economic (Bangladesh)**
+
+1. **Breakdown of joint families**; children migrate → **neglect**, lack of care.
+2. **Poverty**, dependence; limited pension (only government retirees); old-age allowance is small.
+3. **Elder abuse**.
+4. Few **geriatric services** and trained staff; long-term care facilities rare.
+5. Gender: widows most vulnerable.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.744
+**Healthy ageing through a healthy lifestyle**
+
+**Healthy ageing (WHO)**: the process of developing and maintaining the **functional ability** that enables well-being in older age.
+
+**Healthy lifestyle measures**
+
+1. **Balanced diet**: adequate protein, calcium, vitamin D, fibre, fruits and vegetables; less salt, sugar and fat; adequate water.
+2. **Regular physical activity**: ≥150 minutes/week of moderate activity + **muscle-strengthening and balance** exercises (prevents falls, keeps independence).
+3. **No tobacco**; avoid alcohol.
+4. **Healthy weight**.
+5. **Adequate sleep**; stress management.
+6. **Mental activity**: reading, learning, hobbies → delays cognitive decline.
+7. **Social engagement**: family, friends, community and religious activities; volunteering.
+8. **Preventive check-ups**: BP, glucose, lipids, eyes, hearing, teeth, cancer screening.
+9. **Vaccination**: influenza, pneumococcal, Td, zoster where available.
+10. **Fall prevention**: safe home, good lighting, proper footwear, vision correction.
+11. **Medicine review**: avoid unnecessary drugs.
+12. Oral and foot care; good personal hygiene.
+13. **Financial and life planning** for old age.
+
+**Life-course approach**: healthy habits started early give the best ageing.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.745
+**Definitions**
+
+| Term | Definition |
+|---|---|
+| **Management** | The process of **getting things done through people** by **planning, organising, staffing, directing and controlling** resources (men, money, materials, time) to achieve stated objectives efficiently |
+| **Administration** | The **top-level** function of determining **policies, objectives** and overall direction of an organisation, and coordinating its parts; concerned with "what" and "why" |
+| **Planning** | The process of **deciding in advance what to do, how, when and by whom**: selecting objectives and the best course of action among alternatives, with available resources |
+| **Health planning** (Park) | Planning concerned with **improving health**: a process of defining community health problems, identifying needs and resources, setting priorities and goals, and designing, implementing and evaluating action to meet those needs |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.746
+**Types (categories) of administration**
+
+| Basis | Types |
+|---|---|
+| **Sector** | **Public administration** (government: MOHFW, DGHS) / **Private administration** (private hospitals, NGOs) |
+| **Level** | **Top (policy)**: ministry, directorate; **Middle (executive)**: division, district (civil surgeon); **Lower (operational / supervisory)**: upazila (UH&FPO), union |
+| **Structure** | **Centralised** / **Decentralised** |
+| **Organisational form** | **Line** (direct chain of command), **Staff** (advisory), **Line and staff**, Functional, Committee |
+| **Function** | General, personnel, financial, material (logistics), health / hospital administration |
+| **Style** | Autocratic, democratic, bureaucratic, laissez-faire |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.747
+**Functions of management (POSDCORB, Gulick)**
+
+| Function | Meaning |
+|---|---|
+| **Planning** | Setting objectives and deciding how to achieve them |
+| **Organising** | Dividing work, setting structure, assigning authority and responsibility |
+| **Staffing** | Recruiting, training, placing and retaining personnel |
+| **Directing** | Leading, motivating, communicating, supervising |
+| **Coordinating** | Linking activities of different people and units |
+| **Reporting** | Keeping superiors and staff informed (records, MIS) |
+| **Budgeting** | Financial planning, accounting, control |
+
+**Control / evaluation**: monitoring performance against plans and correcting deviations (Fayol: plan, organise, command, coordinate, control).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.748
+**Management vs administration**
+
+| Point | Administration | Management |
+|---|---|---|
+| Nature | **Thinking**, policy-making function | **Doing**, executive function |
+| Concerned with | **Determining objectives, policies** | **Implementing** policies to achieve objectives |
+| Level | **Top level** (ministry, board) | Middle and lower levels |
+| Decisions | Broad, long-term | Operational, day-to-day |
+| Key question | "What" and "why" | "How", "when", "who" |
+| Skills | Conceptual, administrative | Technical, human |
+| Influence | Public opinion, government policy | Administration's policies |
+| Usage | Government, public offices | Business, projects, hospitals |
+| Example | MOHFW sets health policy | UH&FPO runs the UHC and programmes |
+
+Both overlap in practice; in health systems the terms are often used together.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.749
+**Plan**
+
+A **predetermined course of action** to achieve stated objectives, specifying what, how, when, by whom and with what resources.
+
+**Types of plans**
+
+| Basis | Types | Example (Bangladesh) |
+|---|---|---|
+| **Time** | Long-term (perspective, 15–20 years); medium-term (5 years); short-term (annual / operational) | Perspective Plan 2021–2041; Five-Year Plans; Annual Operational Plans |
+| **Scope** | Strategic, tactical, operational | National health strategy vs upazila work plan |
+| **Level** | National, divisional, district, upazila | District health plan |
+| **Coverage** | Comprehensive (multisectoral) / sectoral / programme or project | Health, Population and Nutrition Sector Programme; EPI plan |
+| **Use** | **Standing plans** (policies, procedures, rules) / **single-use plans** (programmes, projects, budgets) | Drug policy vs dengue campaign |
+| **Flexibility** | Rigid / flexible | — |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.750
+**Planning cycle (steps in health planning, Park)**
+
+Analysis of situation → Objectives → Resources → Priorities → Write-up → Programming and implementation → Monitoring → Evaluation → (back to analysis)
+
+| Step | Activities |
+|---|---|
+| **1. Analysis of the health situation** | Collect data on population, health status, determinants, services; identify problems and needs |
+| **2. Establishment of objectives and goals** | Clear, measurable, time-bound targets |
+| **3. Assessment of resources** | Manpower, money, materials, facilities, time |
+| **4. Fixing priorities** | By size, severity, feasibility, cost-effectiveness, community concern |
+| **5. Write-up of the formulated plan** | Activities, responsibilities, timeline, budget |
+| **6. Programming and implementation** | Organisation, staffing, training, logistics, execution |
+| **7. Monitoring** | Day-to-day follow-up of activities against plan |
+| **8. Evaluation** | Measure achievement of objectives, efficiency, impact → feedback for re-planning |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.751
+**Why planning is necessary**
+
+1. **Resources are limited**; needs are many → best use of resources.
+2. Sets **priorities** among competing problems.
+3. Gives **clear objectives and direction**.
+4. **Efficiency**: avoids waste and duplication.
+5. **Coordination** among sectors and agencies.
+6. Prepares for the **future** (population growth, epidemics, disasters).
+7. Provides a **basis for monitoring and evaluation**.
+8. **Accountability** and transparency.
+9. Helps **mobilise resources** (government, donors).
+10. Reduces uncertainty and crisis management.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.752
+**Organogram of an Upazila Health Complex**
+
+```
+                     Upazila Health & Family Planning Officer (UH&FPO)
+                                (administrative head)
+        ┌───────────────────────────┼───────────────────────────┐
+  Clinical services           Public health / field          Administration
+        │                           │                           │
+ Resident Medical Officer    Health Inspector (HI)        Head assistant, accountant,
+        │                           │                     storekeeper, statistician
+ Junior consultants          Assistant Health              (MIS), drivers, support staff
+ (medicine, surgery,          Inspectors (AHI)
+ gynae-obs, paediatrics,            │
+ anaesthesia, others)        Health Assistants (HA)
+        │                           │
+ Medical officers,           Community Health Care
+ dental surgeon                Providers (CHCPs) at
+        │                      community clinics
+ Nursing supervisor → nurses, midwives
+ SACMO, pharmacist, medical technologists
+ (lab, radiology, dental), EPI technician
+
+ Coordination: Upazila Family Planning Officer (UFPO) → FPI, FWV, FWA (DGFP)
+```
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.753
+**Auxiliary health workers at UHC**
+
+SACMO (sub-assistant community medical officer); nurses and midwives; pharmacist; medical technologists (laboratory, radiography, dental, physiotherapy); EPI technician; Health Inspector, Assistant Health Inspectors, **Health Assistants**; **CHCPs**; (from family planning) FWV, FPI, **FWA**; ward attendants, ayas, cleaners.
+
+**Functions of grass-root health workers (HA, FWA, CHCP)**
+
+1. **Immunisation** (EPI) and campaigns (vitamin A, deworming).
+2. **Family planning**: counselling, pills, condoms, injectables; referral for LARC/permanent methods.
+3. **MCH**: identify pregnant women, ANC and PNC advice, safe delivery, newborn care.
+4. **Health education**: hygiene, nutrition, safe water, sanitation.
+5. **Treatment of minor ailments**, first aid; ORS.
+6. **Surveillance**: report births, deaths, notifiable diseases (AFP, measles).
+7. **TB, leprosy, malaria** case finding and follow-up.
+8. **Registration** and record keeping (households, eligible couples).
+9. **Referral** to community clinic, union centre, UHC.
+10. **Community mobilisation**; support community clinics.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.754
+**Duties of the administrative head of UHC (UH&FPO)**
+
+1. **Overall administration** of the UHC and upazila health services; staff management, discipline, leave, posting.
+2. **Planning and budgeting**; annual work plans; financial management.
+3. **Supervision** of clinical services (OPD, indoor, emergency, OT, labour room) and quality of care.
+4. **Implementation of national programmes**: EPI, TB, leprosy, malaria, nutrition, NCD, MNCH.
+5. **Supervision of field staff** and **community clinics**.
+6. **Surveillance** and **outbreak response**; disaster management.
+7. **Logistics**: drugs, equipment, supplies, stores, transport.
+8. **Health information**: DHIS2 reporting, monthly reports to civil surgeon.
+9. **Coordination**: upazila parishad, UNO, UFPO, DPHE, education, NGOs.
+10. **Training** of staff; supervision of interns.
+11. **Medicolegal** duties and certificates.
+12. **Community participation**; health education; grievance handling.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community; Health Planning and Management).
+
+## DU.755
+**Health care set-up from upazila to grass-root level**
+
+| Level | Facility / workers | Services |
+|---|---|---|
+| **Upazila** | **Upazila Health Complex** (31/50 beds); UH&FPO; UFPO | First-referral hospital: indoor, outdoor, emergency, EmOC, lab, X-ray; MCH-FP; national programmes; supervision |
+| **Union** | **Union Health and Family Welfare Centre** (FWV, SACMO); **Union Sub-centre / Rural Dispensary** (MO/SACMO) | Outpatient care, ANC/PNC, normal delivery (selected), family planning, immunisation, referral |
+| **Ward** | **Community clinic** (CHCP), one per ~6,000 people | One-stop primary care: MCH, FP, EPI, nutrition, minor treatment, NCD screening, health education, referral |
+| **Village / household** | **Health Assistant**, **FWA**, NGO volunteers | Domiciliary services: EPI, FP supplies, health education, surveillance, registration |
+| **Outreach** | EPI outreach sites, satellite clinics | Immunisation, FP, ANC in hard-to-reach areas |
+
+**Flow (referral)**: Household → Community clinic → Union centre → Upazila Health Complex → District hospital.
+
+**Ideas for strengthening**: fill vacant posts, ensure drugs and equipment, functional referral and transport, community participation, digital records, quality improvement, urban PHC linkage.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.756
+**Responsibilities of UH&FPO**
+
+1. Administrative head of **UHC** and upazila health system.
+2. **Planning, budgeting** and logistics management.
+3. Ensuring quality **clinical services** (OPD, indoor, emergency, EmOC).
+4. Implementation and monitoring of **national health programmes**.
+5. **Supervision** of medical officers, nurses, field staff and **community clinics**.
+6. **Disease surveillance**, notification, outbreak and disaster response.
+7. **Health information** management and reporting.
+8. **Coordination** with upazila administration, family planning, other sectors and NGOs.
+9. **Training** and capacity building of staff.
+10. **Medicolegal** duties; certificates.
+11. **Health education** and community participation.
+12. Ensuring **equity** and access for vulnerable groups.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.757
+**Triage**
+
+The **rapid sorting of patients or casualties by severity and urgency of need**, so that limited resources save the greatest number of lives; used in emergency departments and mass-casualty events.
+
+**Colour codes**
+
+| Colour | Priority |
+|---|---|
+| **Red** | Immediate: life-threatening, treatable |
+| **Yellow** | Delayed: serious but stable |
+| **Green** | Minor (walking wounded) |
+| **Black** | Dead or expectant |
+
+**Principles**: quick, simple, repeated (re-triage), done by trained staff at the point of entry.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.758
+**Importance of integrity and accountability in medical practice**
+
+**Integrity** (honesty, consistency with ethical principles)
+
+1. Builds **patient trust**, the basis of the doctor–patient relationship.
+2. Ensures **honest diagnosis, documentation and certificates**.
+3. Prevents **exploitation**: unnecessary tests, procedures, kickbacks, conflicts of interest.
+4. Supports **evidence-based, rational** prescribing.
+5. Protects **research integrity** (no fabrication or plagiarism).
+6. Upholds the **reputation** of the profession.
+
+**Accountability** (answerability for decisions and outcomes)
+
+1. **Patient safety**: errors are reported, learned from and corrected.
+2. **Quality of care** through audit, peer review, clinical governance.
+3. **Legal and ethical compliance** (BMDC code, laws).
+4. **Responsible use of public resources**.
+5. **Public confidence** in health services.
+6. Encourages **continuous professional development**.
+
+Together they promote **ethical, safe, trusted** health care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
+
+## DU.759
+**Maternity benefits for a pregnant woman working at an Upazila Health Complex**
+
+**A. As a government employee**
+
+1. **Maternity leave of 6 months with full pay** (for up to two occasions in service).
+2. **Protection from dismissal** during pregnancy and maternity leave.
+3. Leave for **antenatal check-ups** as needed; light duties and avoiding hazardous work (heavy lifting, radiation, night duty where possible).
+
+**B. Health care benefits**
+
+Free **ANC**, delivery and PNC at government facilities; Td vaccination, IFA and calcium; screening for complications.
+
+**C. Workplace support**
+
+1. **Breastfeeding corner** and breaks for breastfeeding after return.
+2. **Day-care / crèche** facilities where available.
+3. Safe, clean toilets and rest area.
+4. Flexible duty roster during late pregnancy and early return.
+
+**D. Private-sector comparison (Bangladesh Labour Act 2006)**
+
+**16 weeks** of paid maternity leave (8 weeks before and 8 weeks after delivery) and maternity benefit payments; no heavy or hazardous work during that period.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.760
+**Period of communicability**
+
+The time during which an infectious agent may be transferred directly or indirectly from an infected person (or animal) to another person.
+
+**Examples**
+
+| Disease | Period of communicability |
+|---|---|
+| Measles | 4 days before to 4 days after rash |
+| Chickenpox | 1–2 days before rash until all lesions crusted |
+| Diphtheria | 2–4 weeks (untreated) |
+| TB | As long as sputum contains bacilli; falls quickly after effective treatment |
+| Cholera | While stools are positive (usually days); longer in carriers |
+
+**Importance**
+
+1. Decides the **duration of isolation** of cases.
+2. Decides **exclusion** from school, work, food handling.
+3. Defines the window for **contact tracing**.
+4. Guides **concurrent disinfection**.
+5. **Treatment shortens it** (TB, syphilis, diphtheria) → early treatment is a control measure.
+6. Explains spread by **carriers** and pre-symptomatic cases.
+7. Helps plan **outbreak control** and health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.761
+**Migration**
+
+The **movement of people from one geographical area to another**, involving a **change of usual residence** (permanent or semi-permanent).
+
+**Types**
+
+| Basis | Types |
+|---|---|
+| Place | **Internal** (rural → urban, rural → rural, urban → urban, urban → rural) / **International** (emigration, immigration) |
+| Will | **Voluntary** / **Forced** (refugees, displacement: Rohingya) |
+| Duration | Permanent / temporary / seasonal |
+
+**Common causes**
+
+| Push factors (from origin) | Pull factors (to destination) |
+|---|---|
+| **Poverty, unemployment**, landlessness | **Jobs** (garments, construction), higher wages |
+| **River erosion, floods, cyclones, salinity** (climate change) | **Education** opportunities |
+| Conflict, persecution, insecurity | Better **health and urban services** |
+| Lack of services in rural areas | Family reunion, **marriage** |
+| Social discrimination | Overseas work (Middle East, Malaysia) |
+
+**Health implications**
+
+Urban slums, overcrowding, infections (TB, diarrhoea), HIV/STIs among migrants, mental stress, occupational hazards, family separation; spread of disease; brain drain; remittances improve family health.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.762
+**GOBI-FFF: measures for child survival (UNICEF "child survival revolution", 1980s)**
+
+| Letter | Measure | Contribution to child survival |
+|---|---|---|
+| **G** | **Growth monitoring** | Early detection of growth faltering and malnutrition; guides feeding advice |
+| **O** | **Oral rehydration therapy** | Prevents deaths from diarrhoeal dehydration (simple, cheap) |
+| **B** | **Breastfeeding** | Nutrition and immunity; fewer infections and deaths |
+| **I** | **Immunisation** | Prevents measles, tetanus, pertussis, diphtheria, polio, TB deaths |
+| **F** | **Female education** | Better child care, hygiene, nutrition, use of services; lower IMR and fertility |
+| **F** | **Family spacing** | Fewer high-risk births; healthier mothers; more care per child |
+| **F** | **Food supplementation** | For pregnant women and young children; prevents LBW and PEM (vitamin A, iron) |
+
+**Discussion**
+
+1. Simple, **low-cost, high-impact** interventions deliverable through PHC and CHWs.
+2. Target the main killers (diarrhoea, measles, malnutrition, neonatal causes).
+3. Address **underlying social causes** (FFF) as well as medical (GOBI).
+4. Bangladesh's large fall in under-5 deaths reflects ORS, EPI, breastfeeding, female education and family planning.
+5. Later expanded into IMCI and newborn care packages.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.763
+**Offensive trades**
+
+Trades or industries that are **dangerous to health** or create a **nuisance** (offensive smell, smoke, dust, noise, effluents, flies) for the neighbourhood, and therefore need licensing and control.
+
+**Examples**
+
+Slaughter houses; tanneries and leather dressing; bone boiling and crushing; blood drying; fat melting; glue making; soap boiling; tripe cleaning; fish drying; brick kilns; lime burning; manure, rag and bone stores; dairy and poultry farms.
+
+**Classification**
+
+| By nuisance | Examples |
+|---|---|
+| Offensive smell | Tanneries, slaughter houses, fish drying, bone mills |
+| Smoke and fumes | Brick kilns, lime burning |
+| Dust | Stone crushing, rice mills, cement works |
+| Noise | Saw mills, metal workshops |
+| Water pollution | Tannery and dyeing effluents |
+| Flies and rodents | Manure stores, poultry farms, rag stores |
+
+**Control**: licensing; location away from homes (zoning); effluent treatment; waste disposal; inspection; Environment Conservation Act 1995.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.764
+**Early diagnosis and treatment is part of prevention: justification**
+
+1. It is the **secondary level of prevention** (Leavell and Clark): intervention in the **early pathogenesis** phase.
+2. **Halts the disease process** at an early stage → prevents progression to complications, disability and death.
+   - Example: treating hypertension prevents **stroke**; treating cervical precancer prevents **invasive cancer**.
+3. **Prevents spread** in communicable diseases: treating TB, leprosy, STIs and malaria **shortens the period of communicability** → protects others (acts as **primary prevention for the community**).
+4. **Detects the hidden iceberg** through **screening** (diabetes, cancers).
+5. **Cheaper** than treating advanced disease.
+6. For diseases without primary prevention (many cancers, diabetes), it is the **main preventive option**.
+7. Basis of programmes: DOTS, IMCI, cancer screening, NCD corners.
+
+**Limitations**: needs screening resources, accurate tests and access to treatment; less effective than primary prevention.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.765
+**Natural history of stroke**
+
+**A. Pre-pathogenesis phase (risk factors)**
+
+Agent–host–environment interaction: **hypertension** (most important), diabetes, smoking, dyslipidaemia, obesity, physical inactivity, atrial fibrillation, heart disease, alcohol, age, male sex, family history, high salt intake, stress.
+
+**B. Pathogenesis phase**
+
+| Stage | Features |
+|---|---|
+| **Early (subclinical)** | Atherosclerosis, small-vessel disease, arterial wall damage from hypertension; often silent |
+| **Warning** | **Transient ischaemic attack (TIA)**: deficits resolving within 24 hours; high short-term stroke risk |
+| **Onset (acute stroke)** | **Ischaemic** (~85%: thrombotic, embolic, lacunar) or **haemorrhagic** (~15%: intracerebral, subarachnoid); sudden weakness, facial droop, speech difficulty, vision loss |
+| **Acute phase** | Brain oedema, raised intracranial pressure, complications (aspiration pneumonia, DVT, bedsores) |
+| **Recovery** | Most recovery in first 3–6 months |
+
+**C. Outcomes**
+
+Full recovery; **residual disability** (hemiplegia, aphasia, dysphagia); **recurrent stroke**; vascular dementia; depression; **death** (high case fatality in the first month).
+
+**D. Levels of prevention along the natural history**
+
+| Stage | Prevention |
+|---|---|
+| Before risk factors | **Primordial**: healthy diet, activity, no tobacco |
+| Risk factors present | **Primary**: control BP, diabetes, lipids; stop smoking; anticoagulants for AF |
+| TIA / acute stroke | **Secondary**: urgent recognition (FAST), thrombolysis, stroke units, antiplatelets, statins |
+| After stroke | **Tertiary**: rehabilitation (physiotherapy, speech therapy), prevention of recurrence |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
