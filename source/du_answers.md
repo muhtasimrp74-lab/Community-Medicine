@@ -1338,3 +1338,648 @@ Also by urgency: **emergency** vs **routine (elective)** referral. A proper refe
 Weak enforcement, frequent self-referral, poor transport and ambulance services, little feedback, staff and drug shortages at lower levels.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 23; Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
+
+## DU.41
+**Definition (Alma-Ata Declaration, 1978)**
+
+"Primary health care is essential health care based on practical, scientifically sound and socially acceptable methods and technology made universally accessible to individuals and families in the community through their full participation and at a cost that the community and country can afford to maintain at every stage of their development in the spirit of self-reliance and self-determination."
+
+It is part of both the national health system (its central function and main focus) and overall socio-economic development; the **first level of contact** of people with the health system, bringing care as close as possible to where they live and work; the first element of a **continuing health care process**.
+
+**Updated concept (WHO and UNICEF, Astana 2018)**
+
+A whole-of-society approach that aims at the highest, most equitable level of health and well-being, focused on people's needs, from promotion and prevention to treatment, rehabilitation and palliative care, as close as possible to everyday life. Three components:
+1. Integrated health services (primary care + essential public health functions)
+2. Multisectoral policy and action
+3. Empowered people and communities
+
+**Key features**
+
+1. **Essential** care for common problems.
+2. **Accessible, acceptable, affordable**.
+3. **Community participation** and self-reliance.
+4. **Appropriate technology**.
+5. First contact; linked to referral.
+6. Part of socio-economic development (**intersectoral**).
+
+**Elements (8)**
+
+Health education; food and nutrition; safe water and sanitation; MCH including family planning; immunisation; control of local endemic diseases; treatment of common diseases and injuries; essential drugs.
+
+**Principles (4)**
+
+Equitable distribution; community participation; intersectoral coordination; appropriate technology.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); WHO/UNICEF, Declaration of Astana, 2018.
+
+## DU.42
+**Elements of PHC (Alma-Ata, 1978)**
+
+| No. | Element | Examples (Bangladesh) |
+|---|---|---|
+| 1 | **Education** concerning prevailing health problems and methods of preventing and controlling them | Hand-washing, ORS use, breastfeeding messages |
+| 2 | Promotion of **food supply and proper nutrition** | Vitamin A, iron-folic acid, growth monitoring, IYCF counselling |
+| 3 | Adequate supply of **safe water and basic sanitation** | Tube wells, arsenic testing, sanitary latrines |
+| 4 | **Maternal and child health**, including **family planning** | ANC, safe delivery, PNC, contraceptives |
+| 5 | **Immunisation** against major infectious diseases | EPI |
+| 6 | Prevention and control of **locally endemic diseases** | Malaria, kala-azar, filariasis, dengue control |
+| 7 | Appropriate **treatment of common diseases and injuries** | IMCI, first aid at community clinics |
+| 8 | Provision of **essential drugs** | Free essential drugs at CC and UHC |
+
+Mnemonic: **ELEMENTS** (Education, Locally endemic diseases, EPI, MCH-FP, Essential drugs, Nutrition, Treatment, Safe water).
+Later additions (India/Bangladesh practice): mental health, dental health, NCD screening, referral services.
+
+**Strategies of PHC (and in Bangladesh)**
+
+1. **Community participation**: community clinics on donated land; community groups.
+2. **Intersectoral coordination**: health with education, agriculture, local government (water, sanitation).
+3. **Appropriate technology**: ORS, MUAC tape, chlorhexidine, misoprostol.
+4. **Equitable distribution**: one community clinic per ~6,000 people; free services.
+5. **Decentralisation and referral**: CC → union → UHC → district → tertiary.
+6. **Human resources**: CHCPs, health assistants, FWAs, NGO volunteers.
+7. **Integration of services**: Essential Service Package (health, nutrition, FP).
+8. **Public–private–NGO partnership**: BRAC, icddr,b, urban PHC projects.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.43
+**Best element for immediate improvement: "Education concerning prevailing health problems and the methods of preventing and controlling them" (health education)**
+
+**Why**
+
+1. **Key to all other elements**: people use immunisation, ANC, family planning, sanitation and ORS only when they understand them.
+2. **Quick results**: messages spread fast through mass media, mobile phones, community clinics, schools, mosques, NGO workers.
+3. **Cheapest and most cost-effective** intervention; needs few resources.
+4. **Fits Bangladesh's problems**, which are largely behaviour-related: hand-washing, safe water, breastfeeding, child marriage, early ANC, tobacco, salt intake, dengue source reduction.
+5. **Creates demand** for services and reduces delay in seeking care (e.g., danger signs in pregnancy and childhood pneumonia).
+6. **Empowers communities**: promotes self-care, community participation and accountability.
+7. **Proven success**: home-made ORS (lobon-gur), family planning and EPI campaigns spread through health education.
+8. Addresses the **rising NCD burden**: diet, exercise, tobacco, BP and diabetes screening.
+
+**Other strong choices**
+
+- **Immunisation (EPI)**: rapid fall in child deaths; but coverage gaps remain.
+- **MCH and family planning**: targets the most vulnerable.
+
+**Conclusion line**
+
+Health education multiplies the effect of every other element at the lowest cost.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community; Communication for Health Education).
+
+## DU.44
+**PHC = essential health care: justification**
+
+1. **By definition (Alma-Ata, 1978)**: PHC is "essential health care" based on practical, scientifically sound and socially acceptable methods.
+2. **Meets basic health needs**: its 8 elements tackle the main causes of illness and death (infections, malnutrition, maternal and child problems, unsafe water).
+3. **First contact**: most health problems (common illnesses, ANC, immunisation, FP) can be managed at this level.
+4. **Universal accessibility**: brings care close to home, work and school.
+5. **Affordable**: low cost for people and the country; uses local resources.
+6. **Acceptable**: socially and culturally appropriate methods.
+7. **Equity**: priority to the poor, rural and vulnerable.
+8. **Comprehensive**: promotive, preventive, curative and rehabilitative.
+9. **Community participation and self-reliance**: makes care sustainable.
+10. **Cost-effective**: prevention is cheaper than hospital care.
+11. **Foundation of the health system**: links people to secondary and tertiary care through referral.
+12. **Route to UHC and SDG 3** (Astana Declaration, 2018).
+
+**Bangladesh examples**
+
+Community clinics; EPI; ORS and zinc; vitamin A; family planning; DOTS for TB. These essential services drove the large fall in child and maternal deaths since 1990.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.45
+**Principles of PHC (Park)**
+
+| Principle | Meaning | Example |
+|---|---|---|
+| 1. **Equitable distribution** | Health services shared by all, irrespective of ability to pay; rich or poor, urban or rural | One community clinic per ~6,000 rural people; free EPI |
+| 2. **Community participation** | People involved in planning, implementing and maintaining services; use of local resources | Land donated for community clinics; community groups |
+| 3. **Intersectoral coordination** | Health linked with agriculture, food, education, water, housing, communication, local government | Arsenic-safe water with DPHE; school health with education ministry |
+| 4. **Appropriate technology** | Scientifically sound, locally adaptable, acceptable, affordable, maintainable by people | Home-made ORS, MUAC tape, chlorhexidine for cord care |
+
+**Other principles / strategies often added**
+
+| Principle | Example |
+|---|---|
+| Focus on prevention and promotion | Health education, immunisation |
+| Decentralisation | Upazila and union-level planning |
+| Use of health manpower (CHWs) | CHCPs, health assistants, FWAs |
+| Integration of services | Essential Service Package |
+| Referral system | CC → UHC → district hospital |
+
+**Importance**
+
+These principles make care **essential, accessible, acceptable and affordable**, the basis for Health for All and UHC.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.46
+**Equitable distribution: meaning**
+
+- First principle of PHC: health services must be shared equally by all people irrespective of their ability to pay; all (rich or poor, urban or rural) must have access.
+- **Social equity**: equal access for equal need; more resources to those in greater need.
+
+**Why it is essential**
+
+1. Health services were concentrated in cities and hospitals, where a minority lives → **social injustice**.
+2. **Inverse care law** (Tudor Hart, 1971): availability of good care varies inversely with need.
+3. The poor and rural carry the **highest burden** of disease and death.
+4. Health is a **human right**; HFA and UHC are impossible without equity.
+5. Inequity wastes resources: costly tertiary care for few, no basic care for many.
+6. Equity improves national indicators fastest (IMR, MMR).
+
+**Implementation in Bangladesh**
+
+1. **Community clinics**: one per ~6,000 rural people, within 30 minutes' walk.
+2. **Union-level facilities** and **Upazila Health Complexes** in every upazila.
+3. **Free or low-cost services**: EPI, essential drugs, FP methods, TB and malaria treatment.
+4. **Outreach**: EPI outreach sites, satellite clinics, domiciliary visits by HA and FWA.
+5. **Pro-poor schemes**: maternal health voucher scheme; Shasthyo Surokhsha Karmasuchi (health card for the poor).
+6. **Urban PHC** for slum dwellers through city corporations and NGOs.
+7. **Special areas**: hill tracts, haor, char and coastal areas.
+8. **Gender equity**: women-friendly services, female health workers.
+
+**Problems**
+
+Vacant posts in rural facilities, high out-of-pocket spending, urban–rural gap.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.47
+**Equal vs equitable distribution**
+
+| Point | Equal distribution | Equitable distribution |
+|---|---|---|
+| Meaning | Same amount of resources to everyone | Resources according to **need** |
+| Basis | Sameness | Fairness / justice |
+| Assumption | Everyone starts with the same needs | Needs differ between people and areas |
+| Effect on gaps | Gaps persist or widen | Gaps narrow |
+| Concept | Equality | Equity |
+| PHC principle | Not sufficient | **First principle of PHC** |
+
+**Illustrations**
+
+1. **Doctors per upazila**: equal = same number for every upazila; equitable = more staff for remote haor, char and hill upazilas with worse indicators.
+2. **Iron-folic acid**: equal = same tablets for all women; equitable = extra supply to pregnant and anaemic women.
+3. **Food support**: equal = same ration to every child; equitable = therapeutic food to severely malnourished children.
+4. **Health budget**: equal per head ignores need; equitable gives more to districts with high IMR and MMR.
+5. **Hospital beds**: equal per city and village is unrealistic; equitable ensures every person can reach basic care (community clinic within 30 minutes' walk).
+
+**Key point**
+
+Equity = equal access for equal need + more for greater need → fair health outcomes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.48
+**Definition**
+
+**Appropriate technology**: technology that is scientifically sound, adaptable to local needs, and acceptable to those who apply it and to those for whom it is used, and that can be maintained by the people themselves, using resources the community and country can afford (Park).
+
+**Criteria**
+
+1. Scientifically sound and effective
+2. Simple; usable by community health workers or families
+3. Low cost, affordable
+4. Acceptable (social, cultural)
+5. Uses local resources; maintainable by people
+6. Safe
+
+**Examples**
+
+| Area | Appropriate technology |
+|---|---|
+| Diarrhoea | ORS, home-made salt–sugar (lobon-gur) solution, zinc |
+| Nutrition | Growth chart, MUAC tape, iodised salt |
+| Maternal health | Clean delivery kit, misoprostol for PPH, partograph |
+| Newborn care | Kangaroo mother care, chlorhexidine for cord care |
+| Water and sanitation | Tube well, chlorination, sanitary pit latrine |
+| Immunisation | Cold chain (ice-lined refrigerators, vaccine carriers), VVM |
+
+**Home-made ORS: a classic example**
+
+1. **Scientifically sound**: glucose-coupled sodium absorption replaces water and salt lost in diarrhoea.
+2. **Simple**: a pinch of salt, a fistful of gur or sugar, in about half a litre of clean water; any mother can make it.
+3. **Low cost**: uses salt, gur and water found in every home.
+4. **Acceptable**: familiar ingredients; given by the mother at home.
+5. **Available immediately**: no need to wait for packets or a health facility.
+6. **Effective**: prevents dehydration deaths; Bangladesh scaled it up nationally through mass teaching of mothers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.49
+**Organisation**
+
+Ministry of Health and Family Welfare (MOHFW): two divisions since 2017, Health Services Division; Medical Education and Family Welfare Division.
+Directorates: **DGHS** (health services), **DGFP** (family planning), DGME (medical education), DGNM (nursing and midwifery), DGDA (drugs).
+
+**Levels of public health care**
+
+| Level | Facility | Main services |
+|---|---|---|
+| National / tertiary | Medical college hospitals, specialised institutes | Specialist and super-specialist care, teaching, research |
+| District / secondary | District hospital, MCWC | Specialist care, referral |
+| Upazila / primary (first referral) | **Upazila Health Complex** (31/50 beds) | Indoor and outdoor care, emergency, EPI, MCH-FP, TB/leprosy, lab, supervision of field staff |
+| Union | Union Health and Family Welfare Centre (DGFP), Union Sub-centre / Rural Dispensary (DGHS) | Outpatient care, MCH-FP, normal delivery, immunisation |
+| Ward / grass root | **Community clinic** (one per ~6,000 people) | One-stop health, FP, nutrition services; referral |
+| Household | HA, FWA (domiciliary) | EPI, FP, health education, surveillance |
+
+Facility count (Bangladesh Health Facility Survey 2017): 420 Upazila Health Complexes; 1,275 union sub-centres; 3,924 UH&FWCs (DGFP); 13,442 community clinics.
+
+**Primary-level flow (upazila to grass root)**
+
+Upazila Health Complex → Union facilities → Community clinic → Household (HA, FWA, CHCP)
+
+**Urban PHC**: Local Government Division (city corporations, municipalities) with NGOs.
+
+**Other sectors**: private hospitals and clinics, NGOs (BRAC, icddr,b), informal providers (village doctors, drug sellers).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Bangladesh Health Facility Survey 2017 (PMC), https://pmc.ncbi.nlm.nih.gov/articles/PMC8424828/table/T2
+
+## DU.50
+**Types of health care services**
+
+**A. By level**
+
+| Level | Description | Example |
+|---|---|---|
+| Primary | First contact; essential care near home | Community clinic, union centres, UHC outpatient |
+| Secondary | Referral care; basic specialists | District hospital |
+| Tertiary | Specialised care, teaching, research | Medical college hospitals (e.g., Mugda Medical College Hospital), specialised institutes |
+
+**B. By nature of care**
+
+1. **Promotive**: health education, nutrition counselling.
+2. **Preventive**: immunisation, ANC, screening.
+3. **Curative**: outpatient, inpatient, emergency, surgery.
+4. **Rehabilitative**: physiotherapy, prosthesis, counselling.
+5. **Palliative**: pain relief, end-of-life care.
+
+**C. By setting**
+
+Hospital-based (OPD, IPD, emergency, ICU); community-based (outreach, satellite clinics, domiciliary visits); school, workplace and mobile services; telemedicine.
+
+**D. By provider**
+
+Public (MOHFW); private; NGO; informal (village doctors, drug sellers); traditional (Ayurvedic, Unani, homoeopathic).
+
+**E. Special services**
+
+MCH and family planning; school health; occupational health; geriatric care; mental health; diagnostic (lab, imaging); blood transfusion; ambulance and referral.
+
+**Mugda Medical College Hospital (tertiary)**: outpatient, inpatient and emergency care in major specialties, ICU, diagnostic and imaging services, EPI and MCH corner, referral care, teaching and training.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.51
+**Achievements (since Alma-Ata, 1978)**
+
+| Area | Achievement |
+|---|---|
+| Child survival | U5MR 146 (1990) → 46 (2014); MDG 4 met; U5MR 33 and IMR 27 per 1000 LB (SVRS 2023) |
+| Life expectancy | 72.3 years (SVRS 2023) |
+| Fertility | Fall to TFR 2.17 (SVRS 2023) through family planning |
+| Immunisation | EPI since 1979; smallpox gone (last case 1975); polio-free (SEAR certified 2014) |
+| Disease elimination | Lymphatic filariasis (May 2023) and kala-azar (Oct 2023; first country) eliminated as public health problems (WHO) |
+| Diarrhoea | ORS and home-made ORS; zinc scale-up |
+| Infrastructure | Community clinics, union centres and UHCs nationwide |
+| Workforce | CHCPs, HAs, FWAs, NGO volunteers |
+| Partnership | Strong NGO sector (BRAC, icddr,b) |
+
+**Constraints**
+
+1. **Human resources**: vacant posts, absenteeism, few specialists at upazila level.
+2. **Maldistribution**: urban concentration of doctors and facilities.
+3. **Financing**: low public spending; high **out-of-pocket** payment.
+4. **Weak referral** and frequent self-referral.
+5. **Quality gaps**: drugs, equipment, laboratory support.
+6. **Urban PHC** weak, especially for slum dwellers.
+7. **Double burden**: rising NCDs with remaining infections and malnutrition.
+8. **Coverage gaps**: measles-rubella first dose fell to 86% (CES 2023) → large measles outbreak in 2026.
+9. Weak intersectoral coordination and community participation in some areas.
+10. Unregulated private sector and informal providers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053; WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
+
+## DU.52
+**Community clinic (CC)**
+
+- Ward-level, first-contact government facility; one per ~6,000 rural people within 30 minutes' walk.
+- **One-stop** outlet for health, family planning and nutrition.
+- Run by a **Community Health Care Provider (CHCP)**, supported by the Health Assistant and Family Welfare Assistant; managed with the community (Community Group).
+
+**Services**
+
+1. **Maternal care**: ANC, PNC, danger-sign identification, iron-folic acid; normal delivery in selected CCs.
+2. **Family planning**: pills, condoms, injectables; counselling.
+3. **Child health**: IMCI, growth monitoring, IYCF counselling.
+4. **Immunisation**: EPI outreach site; vitamin A campaigns.
+5. **Nutrition**: counselling, MUAC screening, micronutrient supplements.
+6. **Treatment** of minor ailments and first aid; free essential drugs.
+7. **NCD screening**: blood pressure, diabetes.
+8. **Health education**: hygiene, sanitation, safe water, adolescent health.
+9. **Surveillance**: reporting of births, deaths, notifiable diseases.
+10. **Referral** of complicated cases to union, UHC and district hospital.
+11. **Record keeping** and online reporting.
+
+**Role at grass-root level**
+
+1. Brings PHC to the **doorstep** of rural people.
+2. Reduces distance, cost and delay.
+3. Serves mainly **women and children**.
+4. Model of **community participation** (donated land, community groups).
+5. Strengthens **referral** and continuity of care.
+6. Supports national programmes (EPI, FP, nutrition, TB) and progress toward UHC.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
+
+## DU.53
+**Upazila Health and Family Planning Officer (UH&FPO): community physician at upazila level**
+
+**A. Administrative**
+
+1. Head of the **Upazila Health Complex** and all upazila health services.
+2. Supervises doctors, nurses, SACMOs, HIs, AHIs, HAs, CHCPs and community clinics.
+3. Planning, budgeting, logistics, drugs and equipment management.
+4. Coordination with upazila parishad, UNO, Upazila Family Planning Officer, education, DPHE and NGOs (**intersectoral**).
+5. Chairs or joins upazila health committees.
+
+**B. Public health / preventive**
+
+1. Implements national programmes: EPI, TB, leprosy, malaria, dengue, nutrition, NCD, MNCH, school health.
+2. **Disease surveillance** and notification; outbreak investigation and control.
+3. Health education and community mobilisation.
+4. Environmental sanitation and safe water promotion (with DPHE).
+5. Disaster preparedness and emergency response.
+
+**C. Clinical**
+
+1. Ensures outpatient, inpatient, emergency and referral services.
+2. Quality of care, infection prevention, rational drug use.
+
+**D. Information and evaluation**
+
+1. Collection and reporting of health data (HMIS/DHIS2); monthly reports to the civil surgeon.
+2. Monitoring, supervision and evaluation of services.
+
+**E. Training and research**
+
+Training of staff; supervision of interns; operational research.
+
+**F. Legal**
+
+Medicolegal duties (injury and post-mortem reports where applicable), birth and death certificates, enforcement of public health laws.
+
+**Five main duties (short answer)**
+
+Administration of UHC; implementation of national programmes; surveillance and epidemic control; supervision of field staff and community clinics; health information and reporting.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community; Health Planning and Management).
+
+## DU.54
+**PHC elements in diarrhoeal disease control**
+
+| PHC element | Role in diarrhoea |
+|---|---|
+| Health education | Hand-washing with soap, food hygiene, safe disposal of child faeces, home-made ORS, danger signs |
+| Food and nutrition | Exclusive breastfeeding to 6 months, complementary feeding, continued feeding during diarrhoea, vitamin A |
+| Safe water and sanitation | Tube wells, water treatment, sanitary latrines, ending open defecation |
+| MCH | IMCI; care of young children; growth monitoring |
+| Immunisation | Measles vaccine (reduces post-measles diarrhoea); oral cholera vaccine in outbreaks and camps |
+| Local endemic disease control | Cholera surveillance, outbreak response |
+| Treatment of common diseases | **ORS + zinc** + continued feeding; antibiotics only for dysentery and cholera; IV fluids for severe dehydration |
+| Essential drugs | ORS packets, zinc tablets at community clinics and UHCs |
+
+**Prevention, control and treatment**
+
+1. **Prevention**: water, sanitation, hygiene (WASH), breastfeeding, nutrition, immunisation.
+2. **Control**: surveillance, early detection of outbreaks, chlorination, health education.
+3. **Treatment**: case management at home (ORS), community clinics (IMCI), UHC and hospitals (severe cases).
+
+**Principles applied**
+
+Community participation (mothers making ORS); appropriate technology (ORS, zinc); intersectoral coordination (DPHE, local government); equitable distribution (free ORS).
+
+**Bangladesh**
+
+ORS pioneered by icddr,b; by 2014 about 80% of children with diarrhoea received ORS and 34% ORS + zinc.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases; Health Care of the Community); J Glob Health, 2019, https://jogha.org/documents/issue201901/jogh-09-010503.htm
+
+## DU.55
+**Community clinic: excellent example of community participation**
+
+**1. Planning and establishment**
+- Built on **land donated** by the local community.
+- Site chosen with local people for easy access.
+
+**2. Management**
+- **Community Group (CG)**: local representatives (union parishad member, teachers, women, donors) manage the clinic, monitor attendance, solve problems.
+- Three **Community Support Groups (CSGs)**: create awareness, mobilise people, help referral, raise local funds.
+
+**3. Resource contribution**
+- Local donations (money, materials, labour) for repairs, furniture, water, electricity.
+- Volunteers support campaigns.
+
+**4. Use and demand**
+- Community mobilises women, children and the poor to use services.
+- Feedback improves service quality and timing.
+
+**5. Accountability**
+- Community monitors staff presence and drug supply.
+
+**6. Partnership model**
+- Government provides building, staff (CHCP), drugs, logistics; community provides land and management support → **public–community partnership**.
+
+**Why it fits the PHC principle**
+
+| Feature of community participation | Community clinic |
+|---|---|
+| Involvement in planning | Site selection, land donation |
+| Involvement in implementation | CG and CSGs |
+| Involvement in maintenance | Local funds and repairs |
+| Use of local resources | Land, money, volunteers |
+| Self-reliance | Community "owns" the clinic |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.56
+**Health team**
+
+A group of persons with different skills who share a common health goal, each contributing according to competence, working in coordination (doctor, nurse, health assistant, FWA, CHCP, SACMO, health inspector, lab technician, pharmacist, community volunteers).
+
+**Importance**
+
+1. **Comprehensive care**: no single person has all skills for promotive, preventive, curative and rehabilitative care.
+2. **Coverage**: reaches large populations, homes and remote areas.
+3. **Efficient use of manpower**: tasks delegated to the right level (task-sharing); doctor's time saved for complex cases.
+4. **Cost-effective**: lower-cost workers deliver routine services.
+5. **Continuity of care**: from home to community clinic to hospital, through referral.
+6. **Implements national programmes**: EPI, FP, TB, malaria, nutrition, NCDs.
+7. **Community participation**: field workers link people with health services.
+8. **Better quality and safety**: mutual support, supervision, shared decisions.
+9. **Intersectoral action**: includes teachers, sanitary workers, social workers.
+10. **Training and supervision**: senior members guide juniors.
+11. **Data and surveillance**: field staff collect information for planning.
+
+**Requirements for an effective team**
+
+Common goal; clear roles; good leadership; communication; mutual respect; supervision; training; adequate resources.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.57
+**Community health workers (CHWs)**
+
+Health workers chosen from and working in their own communities, with short training, providing promotive, preventive and basic curative care and linking people with the health system.
+Bangladesh: Health Assistants, Family Welfare Assistants, CHCPs, NGO volunteers (e.g., BRAC *shasthya shebika*).
+
+**Justification**
+
+1. **Reach**: deliver care to homes in remote, poor and hard-to-reach areas → **equity**.
+2. **First contact**: implement PHC at the grass root.
+3. **Trust and acceptability**: same language, culture and community.
+4. **Cost-effective**: low cost, high coverage; free scarce doctors for complex care.
+5. **Proven impact**: ORS, family planning, EPI, vitamin A, TB DOTS, malaria and kala-azar control.
+6. **Health education and behaviour change** in families.
+7. **Surveillance**: early reporting of outbreaks, births, deaths.
+8. **Community participation**: mobilise people and resources.
+9. **Referral**: identify danger signs and refer early.
+10. **Resilience**: maintain services during disasters and epidemics.
+11. **UHC**: essential for reaching everyone with essential services (WHO guideline on CHW programmes, 2018).
+
+**Conditions for success**
+
+Proper selection, training, supervision, supplies, fair pay, career path, integration into the health system.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); WHO guideline on health policy and system support to optimize CHW programmes, 2018.
+
+## DU.58
+**Why "complex"**
+
+The Upazila Health Complex is not just a hospital; it is a **combination (complex) of many health facilities, services and offices in one campus** serving the whole upazila.
+
+**Components**
+
+1. **Hospital**: indoor (31/50 beds), outpatient, emergency, operation theatre, labour room.
+2. **Diagnostic services**: laboratory, X-ray, ECG.
+3. **Preventive and public health units**: EPI, TB and leprosy, malaria, nutrition, surveillance.
+4. **MCH and family planning** services (with the Upazila Family Planning Office).
+5. **Dental, eye and other units** where staffed.
+6. **Administrative office** of the UH&FPO; stores; records and HMIS.
+7. **Training** facilities for staff and community workers.
+8. **Residential quarters** for doctors, nurses and staff.
+9. **Supervisory base** for field staff (HI, AHI, HA) and community clinics.
+10. **Ambulance and referral** services.
+
+**Functions combined**
+
+Curative + preventive + promotive + rehabilitative + administrative + training + supervision → **integrated, comprehensive care**.
+
+Hence it is a "complex" rather than a single hospital.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.59
+**Health Assistant (HA)**
+
+Male or female domiciliary field worker of DGHS at **ward level**; supervised by the Assistant Health Inspector → Health Inspector → UH&FPO.
+
+**Roles in the community**
+
+1. **Immunisation (EPI)**: registers eligible children and women; vaccinates at outreach sites; tracks defaulters.
+2. **Surveillance**: reports AFP, measles, neonatal tetanus, diarrhoea outbreaks and other notifiable diseases.
+3. **Health education**: hygiene, safe water, sanitation, breastfeeding, nutrition, danger signs.
+4. **Communicable disease control**: TB and leprosy case finding and treatment follow-up; malaria and kala-azar activities in endemic areas; dengue source reduction.
+5. **Vitamin A, deworming** and other campaigns.
+6. **MCH**: identifies pregnant women, encourages ANC and facility delivery.
+7. **School health**: health education and screening in schools.
+8. **Registration**: births, deaths, pregnancies; household records.
+9. **Community clinic support**: works at the CC on scheduled days.
+10. **Referral** of sick persons to CC, union centre or UHC.
+11. **Disaster and epidemic response**: chlorination, ORS distribution.
+
+**Importance**
+
+Main link between households and the health system; essential for EPI success and early outbreak detection.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.60
+**Answer**
+
+**Upazila Health Complex (UHC)** is the grass-root level (first-level) **hospital** of Bangladesh.
+
+**Reasons**
+
+1. Lowest level with **indoor (inpatient) beds** (31/50 beds) in every upazila.
+2. **First referral** level for community clinics and union facilities.
+3. Provides emergency care, normal and assisted delivery, minor surgery, laboratory and X-ray.
+4. Integrates curative, preventive and family planning services.
+
+**Note**
+
+- The **community clinic** (ward level, one per ~6,000 people) is the grass-root **health facility**, but it is outpatient only, not a hospital.
+- Union facilities (UH&FWC, union sub-centre) are mainly outpatient; a few have 10–20 beds.
+
+**Flow**
+
+Community clinic → Union facility → **Upazila Health Complex** → District hospital → Medical college hospital
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.61
+**What it is**
+
+**Health Survey and Development Committee** (India), 1943–1946, chaired by **Sir Joseph Bhore**; reviewed health conditions of undivided British India (including present Bangladesh) and planned future health services. Report: 1946.
+
+**Concept**
+
+Health services should be **comprehensive**, **integrated** (preventive + curative) and reach the **rural** population through health centres; doctors should be **social physicians**.
+
+**Objectives**
+
+1. Survey the existing health situation and organisation.
+2. Recommend future development of health services.
+
+**Recommendations**
+
+1. **Integration of preventive and curative services** at all administrative levels.
+2. **Primary health centres** in two stages:
+   - **Short-term**: one PHC per 40,000 population, with 2 doctors, 1 nurse, 4 public health nurses, 4 midwives, 4 trained dais, 2 sanitary inspectors, 2 health assistants, 1 pharmacist and 15 class IV staff; secondary health centres to support and supervise PHCs.
+   - **Long-term ("3 million plan")**: primary health units with 75-bed hospitals for 10,000–20,000 people; secondary units with 650-bed hospitals; district hospitals with 2,500 beds.
+3. **Medical education**: 3 months' training in preventive and social medicine to prepare "**social physicians**".
+
+**Significance**
+
+Basis of rural health centres and PHC in the subcontinent; precursor of thana (upazila) health complexes; introduced the idea of comprehensive health care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+
+## DU.62
+**Diseases of social origin**
+
+Diseases whose main causes are social conditions (poverty, illiteracy, overcrowding, unemployment, customs, lifestyle) rather than biology alone.
+
+| Social factor | Diseases |
+|---|---|
+| Poverty, overcrowding, malnutrition | Tuberculosis, leprosy, protein-energy malnutrition, anaemia |
+| Poor sanitation and unsafe water | Cholera, typhoid, diarrhoea, hepatitis A and E, worm infestations |
+| Sexual behaviour, migration | STIs, HIV/AIDS |
+| Substance use | Alcoholism, drug addiction, tobacco-related cancers and COPD |
+| Urban lifestyle, affluence | Obesity, diabetes, hypertension, coronary heart disease |
+| Social stress, family breakdown | Depression, anxiety, suicide, juvenile delinquency |
+| Industrialisation, traffic | Occupational diseases, road traffic accidents |
+| Customs and gender inequality | Child marriage → maternal deaths; female malnutrition; domestic violence |
+| Neglect and violence | Child abuse, battered baby syndrome |
+
+**Features**
+
+1. Social causes → social remedies (education, employment, housing, laws).
+2. Mostly **preventable**.
+3. Often cluster in the poor.
+4. Studied by **social medicine**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine; Medicine and Social Sciences).
