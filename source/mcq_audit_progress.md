@@ -10,9 +10,75 @@ Status
 - PDF pages read: all 21 (pp.188–208).
 - PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2); 23M, 22Nov-A, 22Nov-B (batch 3); 22M, 21M, 20M&Nov, 20Ju, 19Nov (batch 4). PDF pass COMPLETE: all 182 DU items now carry PDF refs, no † years left, every DU TF option keyed (20Ju and blank PDF keys supplied per Park and marked "key not given").
 - New-item audit: parts 1–5 done (batch 5); parts 6–9 done (batch 6); parts 10–11 done (batch 7). New-item audit COMPLETE (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
-- Next: final duplicate sweep across the whole bank (incl. BCS items).
+- Final duplicate sweep done (batch 8), incl. BCS review (no "all/none of the above" left).
+- AUDIT COMPLETE. Kept by design: an SBA and a TF on the same fact (different formats). Possible follow-ups: web-verify remaining time-sensitive New items (EPI cold-chain temperatures, MDT durations) and add New items to thin topics.
 
 ## Change log
+
+### Batch 8 — duplicate sweep, BCS review, refill thinned topics (cache v50)
+Retired 9; added M.547–M.550. Audit complete.
+- M.523: deleted (same fact as DU M.421 (functions of management), same topic)
+- M.190: deleted (same fact as DU M.180 (water-borne diseases))
+- M.451: deleted (same fact as DU M.370 (natural disasters))
+- M.265: deleted (same item as BCS M.270 (live attenuated vaccine))
+- M.462: deleted (same fact as M.485 (major manifestation of RF), negative stem)
+- M.36: deleted (same fact as BCS M.38 (Alma-Ata 1978))
+- M.267: deleted (same fact as BCS M.273 (measles vaccine at 9 months))
+- M.252: deleted (same fact as BCS M.249 (housefly and diarrhoea))
+- M.90: deleted (vague; more than one defensible answer (cognitive vs social theory))
+- M.11: distractor Gender removed (gender is also a social determinant)
+- M.91: "All of the above" removed; stem rewritten
+- M.92: "None" option replaced
+- M.170: "None" option replaced
+- M.271: "None" option replaced
+- M.294: "None" option replaced; answer worded precisely
+- M.295: answer worded precisely
+- M.204: stem specified (health-care waste)
+- M.470: stem made precise (infectious cause)
+- M.532: option made precise (28 days)
+- M.273: ref (kept over duplicate M.267)
+- M.2: checked (BCS), Park ref added
+- M.3: checked (BCS), Park ref added
+- M.4: checked (BCS), Park ref added
+- M.17: checked (BCS), Park ref added
+- M.18: checked (BCS), Park ref added
+- M.19: checked (BCS), Park ref added
+- M.37: checked (BCS), Park ref added
+- M.38: checked (BCS), Park ref added
+- M.39: checked (BCS), Park ref added
+- M.40: checked (BCS), Park ref added
+- M.57: checked (BCS), Park ref added
+- M.89: checked (BCS), Park ref added
+- M.93: checked (BCS), Park ref added
+- M.158: checked (BCS), Park ref added
+- M.159: checked (BCS), Park ref added
+- M.160: checked (BCS), Park ref added
+- M.171: checked (BCS), Park ref added
+- M.184: checked (BCS), Park ref added
+- M.185: checked (BCS), Park ref added
+- M.216: checked (BCS), Park ref added
+- M.249: checked (BCS), Park ref added
+- M.257: checked (BCS), Park ref added
+- M.259: checked (BCS), Park ref added
+- M.269: checked (BCS), Park ref added
+- M.270: checked (BCS), Park ref added
+- M.272: checked (BCS), Park ref added
+- M.274: checked (BCS), Park ref added
+- M.275: checked (BCS), Park ref added
+- M.276: checked (BCS), Park ref added
+- M.326: checked (BCS), Park ref added
+- M.530: checked (BCS), Park ref added
+- M.531: checked (BCS), Park ref added
+- M.533: checked (BCS), Park ref added
+- M.431: checked (BCS), Park ref added
+- M.432: checked (BCS), Park ref added
+- M.433: checked (BCS), Park ref added
+- M.434: checked (BCS), Park ref added
+- M.469: checked (BCS), Park ref added
+- M.547: added (topic thinned by duplicate deletions)
+- M.548: added (topic thinned by duplicate deletions)
+- M.549: added (topic thinned by duplicate deletions)
+- M.550: added (topic thinned by duplicate deletions)
 
 ### Batch 7 — New items, parts 10–11 (cache v49)
 Last New id checked: M.523. Retired 16 duplicates.
@@ -305,4 +371,4 @@ Last site id checked: SBA/TF of 25M (M.398). Retired: M.87→M.81, M.199→M.198
 - M.398: daggers removed; ref
 - M.413: ref verified (Bangladesh CBE programme)
 
-RETIRED: M.10, M.15, M.24, M.25, M.26, M.44, M.45, M.62, M.63, M.64, M.65, M.77, M.87, M.94, M.99, M.100, M.107, M.108, M.125, M.135, M.139, M.155, M.161, M.178, M.181, M.199, M.201, M.209, M.218, M.219, M.230, M.283, M.284, M.285, M.288, M.290, M.299, M.300, M.318, M.319, M.321, M.348, M.349, M.356, M.364, M.367, M.405, M.452, M.453, M.454, M.455, M.464, M.501, M.502, M.503, M.504, M.505, M.506, M.507, M.508, M.509, M.510, M.511, M.542
+RETIRED: M.10, M.15, M.24, M.25, M.26, M.36, M.44, M.45, M.62, M.63, M.64, M.65, M.77, M.87, M.90, M.94, M.99, M.100, M.107, M.108, M.125, M.135, M.139, M.155, M.161, M.178, M.181, M.190, M.199, M.201, M.209, M.218, M.219, M.230, M.252, M.265, M.267, M.283, M.284, M.285, M.288, M.290, M.299, M.300, M.318, M.319, M.321, M.348, M.349, M.356, M.364, M.367, M.405, M.451, M.452, M.453, M.454, M.455, M.462, M.464, M.501, M.502, M.503, M.504, M.505, M.506, M.507, M.508, M.509, M.510, M.511, M.523, M.542
