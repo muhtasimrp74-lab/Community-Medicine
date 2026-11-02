@@ -504,7 +504,7 @@ Health status indicators: CDR, IMR, U5MR, life expectancy, morbidity (incidence,
 | Under-5 mortality rate | 33 per 1000 live births (SVRS 2023) |
 | Crude death rate | 6.1 per 1000 population (SVRS 2023) |
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
 
 ## DU.20
 **Concept**
@@ -738,24 +738,24 @@ Health indicators: variables that help measure changes in the health situation, 
 
 | Indicator | Examples (Bangladesh figures where available) |
 |---|---|
-| 1. **Mortality** | CDR 6.1/1000; IMR 27 and U5MR 33/1000 LB; life expectancy 72.3 years (SVRS 2023); MMR 123/100,000 LB (UN estimate, 2020); disease-specific and proportional mortality |
+| 1. **Mortality** | CDR 6.1/1000; IMR 27 and U5MR 33/1000 LB; life expectancy 72.3 years (SVRS 2023); MMR 115/100,000 LB (UN MMEIG, 2023); disease-specific and proportional mortality |
 | 2. **Morbidity** | Incidence, prevalence; notification rates; OPD attendance; admissions; length of stay; sickness absence |
 | 3. **Disability** | Event-type (restricted-activity, bed-disability, work-loss days); person-type (limitation of mobility or activity); Sullivan's index; HALE; DALY |
-| 4. **Nutritional status** | Under-5 stunting 23.6% (2022), wasting, underweight; heights/weights at school entry; LBW |
+| 4. **Nutritional status** | Under-5 stunting 24%, wasting 11%, underweight 22% (BDHS 2022); heights/weights at school entry; LBW |
 | 5. **Health care delivery** | Doctor–population, doctor–nurse, population–bed ratios; population per health centre |
 | 6. **Utilisation rates** | Fully immunised children; ANC coverage; contraceptive prevalence; bed occupancy, average length of stay, bed turnover |
 | 7. **Social and mental health** | Suicide, homicide, violence, road traffic accidents, drug and alcohol abuse |
 | 8. **Environmental** | Access to safe water and sanitation; air pollution; arsenic exposure |
 | 9. **Socio-economic** | Population growth rate; per capita GNP; dependency ratio; unemployment; literacy (esp. female); persons per room; per capita calorie availability |
 | 10. **Health policy** | % of GNP spent on health; % spent on PHC |
-| 11. **Quality of life** | PQLI; HDI (Bangladesh 0.685, UNDP HDR 2025) |
+| 11. **Quality of life** | PQLI; HDI (Bangladesh 0.685, rank 130; UNDP HDR 2025) |
 | 12. **Other** | Social indicators; basic needs indicators; HFA indicators; SDG 3 indicators (e.g., UHC service coverage index) |
 
 **Health status indicators (narrow sense)**
 
 Mortality, morbidity, disability, nutritional status: they describe the health of people directly; the rest describe determinants and services.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053; Our World in Data, Bangladesh health profile, https://ourworldindata.org/profile/health/bangladesh
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053; UNICEF Bangladesh, Trends in maternal mortality 2000–2023 press release, 2025, https://www.unicef.org/bangladesh/en/press-releases/uncertainty-aid-commitments-threatens-bangladeshs-progress-maternal-health-unicef; NIPORT, BDHS 2022 key indicators (The Business Standard), 2023, https://www.tbsnews.net/node/615022; The Daily Star, Takeaways from Bangladesh's latest human development indicators, 2025, https://www.thedailystar.net/opinion/views/news/takeaways-bangladeshs-latest-human-development-indicators-3889946
 
 ## DU.29
 **Why mortality indicators are good indicators**
@@ -789,7 +789,7 @@ Mortality, morbidity, disability, nutritional status: they describe the health o
 So they are combined with morbidity, disability (DALY, HALE) and quality-of-life indicators.
 Example: Bangladesh IMR 27 per 1000 live births (SVRS 2023).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
 
 ## DU.30
 **Definition**
@@ -1354,11 +1354,11 @@ MCH and family planning; school health; occupational health; geriatric care; men
 5. **Quality gaps**: drugs, equipment, laboratory support.
 6. **Urban PHC** weak, especially for slum dwellers.
 7. **Double burden**: rising NCDs with remaining infections and malnutrition.
-8. **Coverage gaps**: measles-rubella first dose fell to 86% (CES 2023) → large measles outbreak in 2026.
+8. **Coverage gaps**: MR1 coverage fell to 86% and MR2 to 80.7% (CES 2023) → nationwide measles outbreak in 2026.
 9. Weak intersectoral coordination and community participation in some areas.
 10. Unregulated private sector and informal providers.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053; WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053; UNICEF Bangladesh, Frequently asked questions about measles in Bangladesh, 2026, https://www.unicef.org/bangladesh/en/stories/frequently-asked-questions-about-measles-bangladesh; WHO, Bangladesh eliminates kala-azar as a public health problem, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
 
 ## DU.52
 **Community clinic (CC)**
@@ -9126,13 +9126,13 @@ Smallpox eradication; Bangladesh polio-free status through high OPV coverage and
 5. **Almost all infections are clinical** (no large subclinical immune pool from silent infection in vaccinated era).
 6. **Vaccine efficacy**: one dose at 9 months protects ~85%, two doses ~95%+ → two doses and very high coverage needed.
 7. **Maternal antibody** interferes before 9 months → infants are an unprotected group.
-8. Rapid accumulation of susceptibles (births, missed doses) → outbreaks every few years when coverage falls (e.g., Bangladesh's large 2026 outbreak after first-dose coverage fell to 86% in 2023).
+8. Rapid accumulation of susceptibles (births, missed doses) → outbreaks when coverage falls (e.g., Bangladesh 2026: MR1 86% and MR2 80.7% in CES 2023 → 170,638 suspected and 20,006 confirmed cases, 15 March–13 September 2026; CDC EID, 2026).
 
 **Implication**
 
 Two doses (MR at 9 and 15 months) with **≥95% coverage** in every district, plus periodic campaigns.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); IANS, Sept 2026, https://ianslive.in/measles-outbreak-in-bangladesh-kills-over-1000-in-6-months-as-vaccination-gaps-persist-report--20260915143141
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); UNICEF Bangladesh, Frequently asked questions about measles in Bangladesh, 2026, https://www.unicef.org/bangladesh/en/stories/frequently-asked-questions-about-measles-bangladesh; CDC, The impermanence of public health gains: measles resurgence, Bangladesh, 2026 (Emerg Infect Dis 32(11)), 2026, https://wwwnc.cdc.gov/eid/article/32/11/26-1019_article
 
 ## DU.370
 **Classification of vaccines**
@@ -9267,16 +9267,17 @@ Vaccination of all **susceptible contacts around a case** (household, neighbours
 | **18 weeks** | **PCV-3** | 0.5 ml IM |
 | **9 months** | **MR-1** (measles-rubella) | 0.5 ml subcutaneous, right upper arm |
 | **15 months** | **MR-2** | 0.5 ml subcutaneous |
+| | **TCV** (typhoid conjugate), single dose (updated: EPI directive, from 1 Aug 2026) | 0.5 ml IM, left thigh |
 
 **Minimum interval** between doses of the same vaccine: 4 weeks.
 
 **Women (15–49 years)**: **TT/Td** 5 doses (1st at first contact; 2nd after ≥4 weeks; 3rd after ≥6 months; 4th after ≥1 year; 5th after ≥1 year) → lifelong protection against maternal and neonatal tetanus.
 
-**Adolescent girls**: **HPV** vaccine (cervical cancer prevention).
+**Adolescent girls**: **HPV** vaccine for girls in classes 5–9 or out-of-school girls aged 10–14 years (cervical cancer prevention).
 
-**Diseases covered**: tuberculosis, diphtheria, pertussis, tetanus, hepatitis B, *Haemophilus influenzae* type b, poliomyelitis, pneumococcal disease, measles, rubella (+ HPV).
+**Diseases covered**: tuberculosis, diphtheria, pertussis, tetanus, hepatitis B, *Haemophilus influenzae* type b, poliomyelitis, pneumococcal disease, measles, rubella, typhoid (+ HPV).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); icddr,b, EPI vaccinations, 2026, https://www.icddrb.org/epi-vaccinations; The Daily Star, Bangladesh to add typhoid vaccine to routine immunisation from Aug 1, 2026, https://www.thedailystar.net/news/healthcare/news/bangladesh-add-typhoid-vaccine-routine-immunisation-aug-1-4222881; Jagonews24, Child immunisation: when and which to give, 2026, https://www.jagonews24.com/en/national/news/91363
 
 ## DU.376
 **BCG plus**
@@ -9361,7 +9362,7 @@ A system of **storing and transporting vaccines at recommended temperatures** fr
 
 | Vaccine | Storage |
 |---|---|
-| Most EPI vaccines (BCG, pentavalent, PCV, IPV, MR, Td, HPV) | **+2 to +8 °C**; **do not freeze** (pentavalent, PCV, IPV, Td, HepB damaged by freezing) |
+| Most EPI vaccines (BCG, pentavalent, PCV, IPV, MR, TCV, Td, HPV) | **+2 to +8 °C**; **do not freeze** (pentavalent, PCV, IPV, Td, HepB damaged by freezing) |
 | OPV | Freezer (−15 to −25 °C) at central/regional stores; +2 to +8 °C at service level |
 
 **Cold chain at different levels (Bangladesh)**
@@ -9378,7 +9379,7 @@ A system of **storing and transporting vaccines at recommended temperatures** fr
 
 Twice-daily temperature recording; vaccine vial monitor (VVM) checks; shake test for freeze damage; "earliest expiry, first out"; open-vial policy; generator / solar back-up.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology); Dhaka Tribune, Govt to add typhoid vaccine to EPI from August 1, 2026, https://www.dhakatribune.com/bangladesh/health/415247/govt-to-add-typhoid-vaccine-to-epi-from-1-august
 
 ## DU.381
 **Importance of cold chain**
@@ -9575,10 +9576,10 @@ Shift from high birth and death rates to low birth and death rates with socio-ec
 1. Death rate has fallen sharply (CDR 6.1/1000; life expectancy 72.3 years, SVRS 2023).
 2. Fertility has fallen to near replacement (TFR 2.17, SVRS 2023) through family planning, female education and later marriage.
 3. Bangladesh is in the **late expanding stage**, moving toward low stationary.
-4. Large young working-age population → **demographic dividend**; ageing rising (65+ about 6% in 2023).
+4. Large young working-age population → **demographic dividend**; ageing rising (65+ 6.1% of population, SVRS 2023).
 5. Population still grows because of **population momentum** (many young people entering reproductive age).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
 
 ## DU.391
 **Developed vs developing countries: demographic characteristics**
@@ -9668,18 +9669,18 @@ r = [ln(Pₜ ÷ P₀) ÷ t] × 100, where P₀ and Pₜ are populations at two c
 
 Doubling time (years) ≈ 70 ÷ growth rate (%).
 
-**Calculation for Bangladesh (method, with illustrative values)**
+**Calculation for Bangladesh (SVRS 2023)**
 
-If CBR = 18 per 1,000 and CDR = 6 per 1,000:
-RNI = 18 − 6 = 12 per 1,000 = **1.2% per year**
-Doubling time ≈ 70 ÷ 1.2 ≈ **58 years**
-(Substitute the latest SVRS/census CBR and CDR in the same formula; Bangladesh's CDR was 6.1 per 1,000 in SVRS 2023.)
+CBR = 19.4 per 1,000; CDR = 6.1 per 1,000
+RNI = 19.4 − 6.1 = 13.3 per 1,000 = **1.33% per year**
+Doubling time ≈ 70 ÷ 1.33 ≈ **53 years**
+(SVRS 2023 also reports an overall annual growth rate of 0.69%.)
 
 **Interpretation**
 
 Growth has slowed with falling fertility, but the absolute increase is still large because of the big young population (population momentum).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://thefinancialexpress.com.bd/home/life-expectancy-in-bangladesh-drops-to-723-years-bbs-survey; UNB, BBS survey: population growth rate, 2024, https://unb.com.bd/news/tag/126893; BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
 
 ## DU.394
 **Factors influencing fertility (Park)**
@@ -10526,7 +10527,7 @@ IMR 27 per 1,000 live births (SVRS 2023); most infant deaths occur in the **neon
 9. Overcrowding, indoor air pollution.
 10. Weak health system: shortage of staff, special care newborn units.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express), 2024, https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
 
 ## DU.435
 **Measures to reduce IMR**
@@ -10918,7 +10919,7 @@ CPR = (Effectively protected eligible couples ÷ Total eligible couples) × 100
 
 Bangladesh uses **contraceptive prevalence rate**: modern methods 62.1% (SVRS 2023).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); The Daily Star, 2024, https://www.thedailystar.net/opinion/views/news/why-do-our-surveys-paint-different-pictures-about-our-progress-3583291
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS SVRS 2023 (The Daily Star), Why do our surveys paint different pictures about our progress?, 2024, https://www.thedailystar.net/opinion/views/news/why-do-our-surveys-paint-different-pictures-about-our-progress-3583291
 
 ## DU.456
 **Achievements of the family planning programme in Bangladesh**
@@ -10933,7 +10934,7 @@ Bangladesh uses **contraceptive prevalence rate**: modern methods 62.1% (SVRS 20
 
 **Remaining challenges**: high discontinuation, low LARC/permanent method use, unmet need, adolescent pregnancy, regional gaps (Chattogram, Sylhet).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS SVRS 2023 (The Daily Star, 2024), https://www.thedailystar.net/opinion/views/news/why-do-our-surveys-paint-different-pictures-about-our-progress-3583291
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS SVRS 2023 (The Daily Star), Why do our surveys paint different pictures about our progress?, 2024, https://www.thedailystar.net/opinion/views/news/why-do-our-surveys-paint-different-pictures-about-our-progress-3583291
 
 ## DU.457
 **Strategies of the family planning programme of Bangladesh**
@@ -11300,11 +11301,11 @@ Earlier = more effective; not a regular method; start a regular method afterward
 ## DU.476
 **Menstrual regulation (MR)**
 
-A procedure to **regulate (bring back) menstruation** in a woman whose period is **missed for a short time**, done **without confirming pregnancy**, by:
-1. **Manual vacuum aspiration (MVA)** of the uterine contents, or
-2. **Medication (MRM)**: mifepristone + misoprostol.
+Government definition: "the procedure of regulating the menstrual cycle when menstruation is absent for a short duration" (MOHFW, Bangladesh), done **without confirming pregnancy**, by:
+1. **Manual vacuum aspiration (MVA)**: up to **10 weeks** from LMP by trained FWVs, nurses, paramedics, SACMOs; up to **12 weeks** by doctors.
+2. **Medication (MRM)**: mifepristone + misoprostol; approved up to 9 weeks (2013), extended to **10 weeks** from LMP (updated: DGFP National Technical Committee, 2021).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); PubMed Central, Task-sharing of menstrual regulation services in Bangladesh, 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7540356; The Daily Star (Asia News Network), MRM without prescription: a violation risking the lives of women, 2024, https://asianews.network/?p=136200
 
 ## DU.477
 **Classification of IUCDs**
@@ -14090,15 +14091,15 @@ A patient who was **previously treated for TB**, was declared **cured or treatme
 **Leprosy elimination programme in Bangladesh**
 
 1. **National Leprosy Programme** under DGHS with NGO partners (The Leprosy Mission and others).
-2. Bangladesh reached **elimination as a public health problem** at national level (prevalence <1 per 10,000) by the late 1990s; pockets remain in some northern and hill districts.
+2. Bangladesh reached **elimination as a public health problem** at national level (prevalence <1 per 10,000) in **1998**; transmission continues: **3,558 new cases in 2025** (185 children, 208 with grade 2 disability); **13 high-burden districts**.
 3. **Free MDT** (WHO regimen) through UHCs and partner clinics.
 4. **Early case detection**: active case finding, **contact screening**, skin camps, school surveys.
 5. **Single-dose rifampicin PEP** for contacts.
 6. **Disability prevention and rehabilitation**: self-care groups, footwear, reconstructive surgery.
 7. **Stigma reduction**; health education; community participation.
-8. Surveillance, recording and reporting; aligned with WHO **"Towards zero leprosy" (2021–2030)**.
+8. Surveillance, recording and reporting; **National Strategic Plan for Leprosy 2023–2030** (zero leprosy by 2030; "leprosy-free upazilas"), aligned with WHO **"Towards zero leprosy" (2021–2030)**.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); UNB, Bangladesh renews push for a leprosy-free country (WHO joint monitoring mission), 2026, https://unb.com.bd/category/Bangladesh/bangladesh-renews-push-for-a-leprosy-free-country/196580; The Daily Star, 3,000 leprosy cases detected annually, 2026, https://online91.thedailystar.net/news/bangladesh/news/3000-leprosy-cases-detected-annually-4090561
 
 ## DU.625
 **Epidemiology of poliomyelitis**
@@ -14151,11 +14152,11 @@ A patient who was **previously treated for TB**, was declared **cured or treatme
 2. **National Immunisation Days** (since 1995) with OPV for all under-5s; often with vitamin A.
 3. **AFP surveillance** with laboratory confirmation (national polio laboratory, IPH) and WHO support.
 4. **Environmental surveillance** of sewage in selected sites.
-5. **Mop-up** and outbreak response plans; high-risk areas (border, hard-to-reach, Rohingya camps).
-6. Last wild polio case in **2006**; **SEAR certified polio-free in 2014**.
+5. **Mop-up** and outbreak response plans; high-risk areas (border, hard-to-reach, Rohingya camps): vaccine-related type 1 virus found in camp sewage (January 2024) → OPV campaign for about 144,000 children (WHO, 2024).
+6. Last indigenous case **2000**; last wild polio cases **2006** (18 imported cases); **SEAR certified polio-free on 27 March 2014**.
 7. Maintaining polio-free status: high coverage, surveillance, preparedness for importation and cVDPV.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO Bangladesh, Collaborative polio vaccination campaign in Rohingya camps, 2024, https://www.who.int/bangladesh/news/detail/12-09-2024-collaborative-polio-vaccination-campaign-in-rohingya-camps-a-lifeline-for-144-000-children; STRIPE (Johns Hopkins), Bangladesh polio fast facts, https://stripe.jhu.edu/partners/bangladesh
 
 ## DU.628
 **Why IPV has been introduced**
@@ -14282,7 +14283,7 @@ Early infection **before HBsAg becomes detectable** by tests, though the person 
 | Dose | Timing |
 |---|---|
 | **Birth dose** (WHO recommends for all) | Within **24 hours** of birth |
-| Doses 2–4 | With **pentavalent** (DPT-HepB-Hib) at **6, 10, 14 weeks** (Bangladesh EPI) |
+| Primary series | 3 doses with **pentavalent** (DPT-HepB-Hib) at **6, 10, 14 weeks** (Bangladesh EPI; birth dose not part of the national schedule) |
 
 Babies of HBsAg-positive mothers: birth dose **+ HBIG** within 12–24 hours.
 
@@ -14298,7 +14299,7 @@ Babies of HBsAg-positive mothers: birth dose **+ HBIG** within 12–24 hours.
 
 0.5 ml (children ≤19 years), 1 ml (adults), **intramuscular** (anterolateral thigh in infants, deltoid in adults); not in the buttock.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); icddr,b, EPI vaccinations, 2026, https://www.icddrb.org/epi-vaccinations
 
 ## DU.635
 **Assessment of dehydration (WHO / IMCI)**
@@ -14592,11 +14593,23 @@ Step-ladder fever, headache, malaise, abdominal pain, constipation or diarrhoea;
 
 **A. Situation**
 
-1. Dengue became a major problem from 2000; large outbreak in **2019** (over 100,000 hospitalised cases).
-2. **2023: the worst epidemic** so far, with about **321,000 hospitalised cases and over 1,700 deaths** (DGHS data); high transmission continued in following years.
-3. Spread from **Dhaka to all 64 districts**, including rural areas.
-4. Season lengthened; cases now occur almost **year-round**, peaking in **July–October**.
-5. Shift in **serotypes** (e.g., DENV-2, DENV-3) → more severe secondary infections; higher case fatality.
+| Year | Hospitalised cases | Deaths |
+|---|---|---|
+| 2019 | 101,354 | 179 |
+| 2020 | 1,405 | 7 |
+| 2021 | 28,429 | 105 |
+| 2022 | 62,382 | 281 |
+| **2023 (worst)** | **321,179** | **1,705** |
+| 2024 | 101,214 | 575 |
+| 2025 | 102,861 | 413 |
+| 2026 (to 1 Nov) | 136,929 | 427 |
+
+(DGHS data, as reported in national press)
+
+1. Recorded since 2000; over 100,000 hospitalisations in five of the eight years 2019–2026.
+2. Spread from **Dhaka to all 64 districts**, including rural areas.
+3. Season lengthened; cases now occur almost **year-round**, peaking in **September–October** (October 2026: 174 deaths, highest month of the year).
+4. Shift in **serotypes** (e.g., DENV-2, DENV-3) → more severe secondary infections; higher case fatality.
 
 **B. Causes**
 
@@ -14611,7 +14624,7 @@ Step-ladder fever, headache, malaise, abdominal pain, constipation or diarrhoea;
 
 Need for year-round **integrated vector management**, strong surveillance (Breteau index), early detection (NS1 testing), standard case management at all levels, decentralised care, coordination between city corporations, DGHS and communities, research (vaccines, *Wolbachia*).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); The Daily Star, Dengue scourge (DGHS yearly data), 2024, https://epfs.thedailystar.net/TDS/2024/01/01/Bangladesh/MAI/5_03/a2e0f53afd89f525_03.pdf; bdnews24.com, Dengue: 2024 total 101,214 cases and 575 deaths, 2026, https://bdnews24.com/health/cd97ccf4866e; Dhaka Tribune, Dengue: six more die (2025 total 102,861 cases, 413 deaths), 2026, https://www.dhakatribune.com/bangladesh/health/421313/dengue-six-more-die-2-089-hospitalized-in-24; bdnews24.com, Dengue toll reaches 427 this year, 2026, https://bdnews24.com/health/c98l7dczn1
 
 ## DU.649
 **Epidemiology of dengue**
@@ -14622,7 +14635,8 @@ Need for year-round **integrated vector management**, strong surveillance (Brete
 | **Vector** | ***Aedes aegypti*** (main, urban, day-biter); *Ae. albopictus* (peri-urban, rural) |
 | **Reservoir** | Man and mosquito (transovarial transmission in mosquitoes) |
 | **Host** | All ages; **secondary infection with a different serotype** → higher risk of **severe dengue** (antibody-dependent enhancement); infants, elderly, pregnant women, people with comorbidities at risk |
-| **Environment** | **Monsoon (June–October)**, warm, humid; urban containers holding clean water; construction sites |
+| **Magnitude (Bangladesh)** | Worst year 2023: 321,179 hospitalised, 1,705 deaths; 2026 (to 1 Nov): 136,929 hospitalised, 427 deaths (DGHS) |
+| **Environment** | **Monsoon and post-monsoon** (peak September–October), now near year-round; warm, humid; urban containers holding clean water; construction sites |
 | **Transmission** | Bite of infected female *Aedes* |
 | **Extrinsic incubation** | 8–12 days in mosquito |
 | **Incubation period** | **4–10 days** (3–14) |
@@ -14639,7 +14653,7 @@ Need for year-round **integrated vector management**, strong surveillance (Brete
 7. **Early diagnosis (NS1)** and **standard case management** (fluids, avoid NSAIDs) at all levels to prevent deaths.
 8. Intersectoral coordination (city corporations, local government, DGHS).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); bdnews24.com, Dengue toll reaches 427 this year, 2026, https://bdnews24.com/health/c98l7dczn1
 
 ## DU.650
 **Control and prevention of dengue (DF / DHF)**
@@ -14869,14 +14883,14 @@ Now called the **RBM Partnership to End Malaria**, supporting the WHO Global Tec
 ## DU.659
 **Malaria control (elimination) measures in Bangladesh**
 
-**Programme**: **National Malaria Elimination Programme (NMEP)**, DGHS, with **BRAC**-led NGO consortium; Global Fund support; aim: **elimination by 2030**.
+**Programme**: **National Malaria Elimination Programme (NMEP)**, DGHS, with **BRAC**-led NGO consortium; Global Fund support. **13 endemic districts** (3 CHT districts, Chattogram, Cox's Bazar, 4 in Sylhet and 4 in Mymensingh division). Target: **malaria-free Bangladesh by 2034** (updated: revised national strategic plan, 2026; earlier 2030). 2025: 10,162 cases, 16 deaths (NMEP).
 
 **A. Early diagnosis and prompt treatment**
 
 1. **RDT and microscopy** for all fever cases in endemic areas; community health workers test at village level.
 2. Treatment (national guideline):
    - *P. falciparum*: **artemether–lumefantrine** (ACT) + single low-dose primaquine (blocks transmission).
-   - *P. vivax*: chloroquine + **primaquine** (14 days) for radical cure.
+   - *P. vivax*: chloroquine (3 days) + **primaquine** (14 days) for radical cure; mixed infection: ACT + 14-day primaquine.
    - **Severe malaria**: injectable **artesunate**; referral.
 
 **B. Vector control**
@@ -14897,7 +14911,7 @@ Forest workers, migrants, ethnic communities, border areas, Rohingya camps; **cr
 
 Health education (BCC), community participation, epidemic preparedness, research, quality-assured drugs and diagnostics.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); The Daily Star, Malaria-free goal pushed back four years, 2026, https://www.thedailystar.net/news/healthcare/news/malaria-free-goal-pushed-back-four-years-4254401; Ley B et al., G6PD deficiency and antimalarial efficacy for uncomplicated malaria in Bangladesh (PLoS One), 2016, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4851315/
 
 ## DU.660
 **Stages of lymphatic filariasis (Park)**
@@ -14941,8 +14955,8 @@ Health education (BCC), community participation, epidemic preparedness, research
 **Filariasis elimination programme in Bangladesh**
 
 1. **National programme** started in **2001**; filariasis was endemic in **19 of 64 districts** (mainly northern and north-western).
-2. **Mass drug administration** (DEC + albendazole) in endemic districts until targets were met.
-3. **Transmission assessment surveys** to confirm interruption.
+2. **Mass drug administration** (DEC + albendazole) in all endemic districts, **2001–2015**.
+3. **Transmission assessment surveys** (2011–2021) to confirm interruption.
 4. **Morbidity management**: lymphoedema care, hydrocele surgery, support through community clinics.
 5. **WHO validated elimination as a public health problem in May 2023**.
 6. Current focus (national strategic plan 2018–2025): **post-validation surveillance**, response to any recrudescence, continued MMDP.
@@ -15047,7 +15061,7 @@ Index-case-based search, house-to-house surveys, camps.
 
 **F. Research**: new drugs, diagnostics, vector control.
 
-**G. Regional cooperation**: **Regional Kala-azar Elimination Initiative** (Bangladesh, India, Nepal, 2005); target <1 case per 10,000 at upazila level.
+**G. Regional cooperation**: **Regional Kala-azar Elimination Initiative** (Bangladesh, India, Nepal, 2005); target <1 case per 10,000 at upazila level. Bangladesh was the **first country validated by WHO (October 2023)** for eliminating kala-azar as a public health problem.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
 
@@ -15287,17 +15301,17 @@ Within about 1–2 weeks of onset; **almost 100% fatal** once symptoms appear.
 | **Intradermal** (0.1 ml at 2 sites) | Days **0, 3, 7** |
 | **Intramuscular** (1 vial) | Days **0, 3, 7, 14–28** (4 doses) or 2-1-1 (2 doses day 0, 1 on day 7, 1 on day 21) |
 
-Bangladesh provides free intradermal vaccine at rabies prevention centres in district hospitals and UHCs.
+Bangladesh (National Guideline for Animal Bite Management, 2021) uses the WHO **2-site ID regimen on days 0, 3, 7**, free at rabies prevention centres (NRPCC at IDH Dhaka, district hospitals, UHCs).
 
 **4. RIG (category III)**
 
 Equine RIG 40 IU/kg or human RIG 20 IU/kg, **infiltrated into and around the wound**, as early as possible (up to day 7 after first vaccine dose).
 
-**5. Previously vaccinated person**: 2 doses (days 0 and 3); no RIG.
+**5. Previously vaccinated person**: 1-site ID (or 1 IM dose) on days 0 and 3; no RIG.
 
 **6. Observe the dog** for 10 days if possible; report the bite; counselling.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO position paper on rabies vaccines, 2018.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO position paper on rabies vaccines, 2018; Tamanna S et al., Evaluating adherence to government recommendations for post-exposure rabies vaccine among animal-bite victims in Bangladesh (PLOS Glob Public Health), 2023, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10645289/; WHO, Rabies PEP recommendations, https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/pep-recommendations
 
 ## DU.681
 **Control of rabies**
@@ -15372,10 +15386,10 @@ Equine RIG, human RIG, rabies monoclonal antibodies.
 3. **Vaccine** (category II and III): cell-culture vaccine, **intradermal 0.1 ml at 2 sites on days 0, 3, 7** (Bangladesh uses ID regimen at rabies centres), or IM schedules.
 4. **RIG** (category III, and category II in immunocompromised): infiltrate into and around the wound.
 5. **Tetanus** prophylaxis; antibiotics if needed.
-6. **Previously vaccinated**: 2 booster doses (days 0, 3), no RIG.
+6. **Previously vaccinated**: 1-site ID (or 1 IM dose) on days 0 and 3, no RIG.
 7. Observe the animal for 10 days; complete the course regardless of the animal's status if it cannot be observed.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO position paper on rabies vaccines, 2018.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO position paper on rabies vaccines, 2018; Tamanna S et al., Evaluating adherence to government recommendations for post-exposure rabies vaccine among animal-bite victims in Bangladesh (PLOS Glob Public Health), 2023, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10645289/; WHO, Rabies PEP recommendations, https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/pep-recommendations
 
 ## DU.685
 **Rabies is preventable, not curable**
@@ -15434,7 +15448,7 @@ So the strategy is prevention: animal control, PEP, education.
 
 Cat, jackal, fox, mongoose, monkey (also bat, wolf).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); Tamanna S et al., Evaluating adherence to government recommendations for post-exposure rabies vaccine among animal-bite victims in Bangladesh (PLOS Glob Public Health), 2023, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10645289/
 
 ## DU.688
 **Prevention and control of avian influenza (bird flu: H7N9, H5N1)**
@@ -15596,18 +15610,26 @@ Antenatal HIV and syphilis testing; ART for mothers; safe delivery; infant proph
 ## DU.696
 **HIV/AIDS: an emerging public health problem in Bangladesh**
 
-1. First case detected in **1989**; overall prevalence remains **low** in the general population, but new infections and AIDS deaths have been **rising**.
-2. **Concentrated epidemic** among key populations: **people who inject drugs** (especially in Dhaka), sex workers, MSM, hijra.
+1. First case detected in **1989**; prevalence still **<0.01%** in the general population, but new infections are **rising**.
+
+| Indicator (NASP, World AIDS Day 2025) | Value |
+|---|---|
+| Estimated PLHIV (2025) | 17,480 |
+| New HIV cases, Nov 2024–Oct 2025 | 1,891 (highest annual rise; 217 among Rohingya) |
+| AIDS-related deaths, same period | 254 (2,666 cumulative since 1989) |
+| Cascade (diagnosed / on ART / virally suppressed) | 82% / 74% / 91% vs target 95-95-95 |
+
+2. **Concentrated epidemic** among key populations: **MSM** (rising share of new cases), **people who inject drugs**, sex workers, hijra.
 3. **Returning migrant workers** and their spouses form a large share of detected cases.
 4. **Rohingya refugees** add new cases and vulnerability.
 5. **Risk factors**: unprotected commercial sex, low condom use, sharing needles, mobility, poverty, low awareness.
 6. **Low testing and late diagnosis**; stigma and discrimination.
-7. Many PLHIV not on ART; TB–HIV co-infection.
+7. About one in four diagnosed PLHIV not on ART; TB–HIV co-infection.
 8. Proximity to high-prevalence neighbours; cross-border movement.
 
 **Response needed**: expanded testing, ART for all, harm reduction, targeted interventions, migrant programmes, stigma reduction.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); Dhaka Tribune, Bangladesh reports 1,891 new HIV cases in a year (NASP data), 2025, https://www.dhakatribune.com/bangladesh/health/397729/bangladesh%C2%A0reports-1-891%C2%A0new%C2%A0hiv%C2%A0cases-in-a%C2%A0year; Waseqa T et al., The HIV/AIDS landscape in Bangladesh (Ther Adv Infect Dis), 2026, https://pubmed.ncbi.nlm.nih.gov/42416803/
 
 ## DU.697
 **Interventions by the National AIDS/STD Programme (NASP / ASP), Bangladesh**
