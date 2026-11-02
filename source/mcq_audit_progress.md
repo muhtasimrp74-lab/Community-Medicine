@@ -9,10 +9,35 @@ Rules in force: conflict:true = PDF key (or one paper) disagrees with Park/curre
 Status
 - PDF pages read: all 21 (pp.188–208).
 - PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2); 23M, 22Nov-A, 22Nov-B (batch 3); 22M, 21M, 20M&Nov, 20Ju, 19Nov (batch 4). PDF pass COMPLETE: all 182 DU items now carry PDF refs, no † years left, every DU TF option keyed (20Ju and blank PDF keys supplied per Park and marked "key not given").
-- New-item audit: parts 1–5 done (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
-- Next: New items parts 6 → 11; then duplicate sweep (incl. BCS).
+- New-item audit: parts 1–5 done (batch 5); parts 6–9 done (batch 6) (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
+- Next: New items parts 10 → 11; then duplicate sweep (incl. BCS).
 
 ## Change log
+
+### Batch 6 — New items, parts 6–9 (cache v48)
+Last New id checked: M.546. Retired 15 duplicates.
+- M.230: deleted (duplicate of M.35)
+- M.283: deleted (duplicate of M.261)
+- M.284: deleted (duplicate of M.263)
+- M.285: deleted (duplicate of M.262)
+- M.299: deleted (duplicate of M.286)
+- M.300: deleted (duplicate of M.287)
+- M.318: deleted (duplicate of M.304; keyed 750 ml/day T against DU key and Park)
+- M.319: deleted (duplicate of M.302)
+- M.321: deleted (duplicate of M.310)
+- M.238: answer USAID replaced by DANIDA (USAID dismantled 2025)
+- M.268: stem wording ("vaccination prevalence" -> coverage)
+- M.315: key 750 ml contradicted DU key and Park; options rebuilt
+- M.526: moved to topic Contraceptive Methods; ref
+- M.529: stem rewritten (referred to "the written question")
+- checked: no content change, Park ref added: M.229, M.237, M.239, M.240, M.241, M.242, M.243, M.250, M.251, M.252, M.253, M.254, M.258, M.265, M.266, M.267, M.277, M.278, M.279, M.280, M.281, M.282, M.291, M.292, M.293, M.296, M.297, M.298, M.313, M.314, M.316, M.317, M.325, M.327, M.328, M.329, M.330, M.331, M.332, M.524, M.525, M.527, M.528, M.534, M.535, M.536, M.537, M.538, M.539, M.540, M.541; no content change, Park ref added: M.336, M.337, M.338, M.339, M.345, M.346, M.347, M.353, M.354, M.355, M.357, M.360, M.362, M.363, M.366, M.543, M.544, M.545, M.546
+- M.348: deleted (duplicate of M.341)
+- M.349: deleted (duplicate of M.340)
+- M.356: deleted (duplicate of M.350)
+- M.364: deleted (duplicate of M.359; keyed monkey face T (a marasmus sign))
+- M.367: deleted (duplicate of M.365)
+- M.542: deleted (duplicate of M.347)
+- M.361: key was monkey face (a marasmus sign); options rebuilt, answer oedema
 
 ### Batch 5 — New items, parts 1–5 (cache v47)
 Last New id checked: M.226. Retired 25 duplicates (see deleted lines).
@@ -255,4 +280,4 @@ Last site id checked: SBA/TF of 25M (M.398). Retired: M.87→M.81, M.199→M.198
 - M.398: daggers removed; ref
 - M.413: ref verified (Bangladesh CBE programme)
 
-RETIRED: M.10, M.15, M.24, M.25, M.26, M.44, M.45, M.62, M.63, M.64, M.65, M.77, M.87, M.94, M.99, M.100, M.107, M.108, M.125, M.135, M.139, M.155, M.161, M.178, M.181, M.199, M.201, M.209, M.218, M.219, M.288, M.290, M.405
+RETIRED: M.10, M.15, M.24, M.25, M.26, M.44, M.45, M.62, M.63, M.64, M.65, M.77, M.87, M.94, M.99, M.100, M.107, M.108, M.125, M.135, M.139, M.155, M.161, M.178, M.181, M.199, M.201, M.209, M.218, M.219, M.230, M.283, M.284, M.285, M.288, M.290, M.299, M.300, M.318, M.319, M.321, M.348, M.349, M.356, M.364, M.367, M.405, M.542
