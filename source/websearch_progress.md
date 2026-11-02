@@ -1,8 +1,8 @@
 # Web-search pass: progress log
 
 Last DU checked (sequential pass): none yet (priority list in progress)
-Priority items done: 1–9 (vital statistics, EPI/measles, dengue, malaria, TB, HIV, leprosy/kala-azar/LF/polio, rabies, MR)
-Next: priority 10 (DU.49, 52, 755), then 11, 12, then DU.1 → DU.765 skipping DUs already checked below.
+Priority items done: 1–12 (all)
+Next: sequential pass DU.1 → DU.765, skipping DUs already checked below.
 
 Key current facts (reuse across answers):
 - BBS SVRS 2023 still latest (no SVRS 2024 by Oct 2026): LE 72.3; IMR 27; U5MR 33; CDR 6.1; CBR 19.4; TFR 2.17; modern CPR 62.1%; MMR 136; growth rate 0.69% (overall), RNI 1.33%; 65+ 6.1%.
@@ -16,6 +16,14 @@ Key current facts (reuse across answers):
 - Polio: last indigenous 2000, last WPV 2006; SEAR certified 27 Mar 2014.
 - Rabies: national ID 2-site days 0,3,7 (Animal Bite Management Guideline 2021).
 - MR: MVA ≤10 wk (FWV/nurse/paramedic), ≤12 wk (doctor); MRM ≤10 wk since 2021 (was 9).
+- Community clinics 14,460 (MOHFW Jun 2026); 429 UHCs, 5,245 union facilities (DGHS 2019 data).
+- Noise Pollution (Control) Rules 2025 (gazette 24 Nov 2025): silent 50/40, residential 55/45, commercial 70/60, industrial 75/70 dB(A).
+- Air: APCR 2022 PM2.5 35 annual/65 24-h; Dhaka 2025 annual 68.0 (IQAir), Bangladesh 66.1 (2nd worst country).
+- Arsenic: Bangladesh 50 µg/L, WHO 10; MICS 2025 9.9% >50, 15.8% >10.
+- Labour Act maternity 120 days (60+60) via 2025 Ordinance/2026 Act; govt employees 6 months ×2.
+- WHD 2024 My health, my right; 2025 Healthy beginnings, hopeful futures; 2026 Together for health. Stand with science.
+- IHR 2024 amendments in force 19 Sep 2025. Hypertension 1.4 bn (2024), <1 in 5 controlled. NCD 43 m deaths 2021 = 75%.
+- HPV: single dose; routine class 5 girls + out-of-school 10-year-olds. VIA 30–60 every 5 y.
 
 ## Batch 1 (priorities 1–9) — pushed, cache v38
 - DU.19: ref tidied (SVRS 2023 confirmed latest).
@@ -42,3 +50,24 @@ Key current facts (reuse across answers):
 - DU.687: ref added.
 - DU.696: NASP 2025 table (PLHIV, new cases, deaths, cascade); MSM rising.
 - Confirmed, no change: DU.396, 399, 437, 443, 598, 611, 614, 615, 617, 619, 623, 625, 628, 650, 651, 655, 672, 673, 693, 697.
+
+## Batch 2 (priorities 10–12) — pushed, cache v39
+- DU.49: facility counts updated (429 UHCs, 5,245 union facilities, 14,460 CCs); refs.
+- DU.52: 14,460 CCs, 22 free medicines, CC Health Support Trust; refs.
+- DU.755: CC count; ref.
+- DU.224: Dhaka PM2.5 table (IQAir 2025: 68.0; national 66.1); APCR 2022 standards.
+- DU.225: APCR 2022 standard values added.
+- DU.234: Noise Rules 2006 → 2025 (zone limits, spot fines, silent zones, 90 dB events).
+- DU.235: c)1 updated to 2025 rules.
+- DU.213: arsenic standard 50 µg/L vs WHO 10 µg/L.
+- DU.214: red/green marking threshold 50 µg/L; MICS 2025 figures.
+- DU.297: Labour Act amendment 2025/2026; maternity 120 days; pregnant/lactating protections.
+- DU.759: govt maternity leave 6 months ×2 (2011 gazette) verified; ref.
+- DU.310: WHD 2026 theme added; refs.
+- DU.314: USAID 2025 freeze/dissolution, 55/59 projects closed, DHS terminated.
+- DU.319: IHR 2024 amendments detail, in force 19 Sep 2025.
+- DU.375: HPV routine target corrected (class 5 / out-of-school 10-year-olds).
+- DU.706: NCD 43 m deaths (75%), 18 m <70 (WHO 2025).
+- DU.718: hypertension 1.4 bn, <1 in 5 controlled, 46% unaware (WHO 2025).
+- DU.741: HPV single-dose campaigns and routine; VIA every 5 y, NCCBCST; thermal ablation.
+- Confirmed, no change: DU.395 (Child Marriage Restraint Act 2017 ages 18/21).

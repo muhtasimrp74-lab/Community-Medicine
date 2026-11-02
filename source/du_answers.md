@@ -1283,7 +1283,7 @@ Directorates: **DGHS** (health services), **DGFP** (family planning), DGME (medi
 | Ward / grass root | **Community clinic** (one per ~6,000 people) | One-stop health, FP, nutrition services; referral |
 | Household | HA, FWA (domiciliary) | EPI, FP, health education, surveillance |
 
-Facility count (Bangladesh Health Facility Survey 2017): 420 Upazila Health Complexes; 1,275 union sub-centres; 3,924 UH&FWCs (DGFP); 13,442 community clinics.
+Facility count: 429 Upazila Health Complexes and 5,245 union-level facilities (UH&FWCs, union health centres/sub-centres) (DGHS, 2019 data); **14,460 community clinics** operational (MOHFW, June 2026).
 
 **Primary-level flow (upazila to grass root)**
 
@@ -1293,7 +1293,7 @@ Upazila Health Complex → Union facilities → Community clinic → Household (
 
 **Other sectors**: private hospitals and clinics, NGOs (BRAC, icddr,b), informal providers (village doctors, drug sellers).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Bangladesh Health Facility Survey 2017 (PMC), https://pmc.ncbi.nlm.nih.gov/articles/PMC8424828/table/T2
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Hasan MZ et al., Proximity to healthcare centres and service use: community clinics in Bangladesh (Econ Transit Inst Change), 2023, https://onlinelibrary.wiley.com/doi/10.1111/ecot.12357; The Daily Star (Asia News Network), Over 23,000 doctor, nurse, health worker posts vacant in public hospitals (14,460 community clinics), 2026, https://asianews.network/?p=279940
 
 ## DU.50
 **Types of health care services**
@@ -1363,9 +1363,9 @@ MCH and family planning; school health; occupational health; geriatric care; men
 ## DU.52
 **Community clinic (CC)**
 
-- Ward-level, first-contact government facility; one per ~6,000 rural people within 30 minutes' walk.
+- Ward-level, first-contact government facility; one per ~6,000 rural people within 30 minutes' walk; **14,460 operational** (MOHFW, June 2026); 22 types of medicine free.
 - **One-stop** outlet for health, family planning and nutrition.
-- Run by a **Community Health Care Provider (CHCP)**, supported by the Health Assistant and Family Welfare Assistant; managed with the community (Community Group).
+- Run by a **Community Health Care Provider (CHCP)**, supported by the Health Assistant and Family Welfare Assistant; managed with the community (Community Group); run through the **Community Clinic Health Support Trust** since 2018.
 
 **Services**
 
@@ -1390,7 +1390,7 @@ MCH and family planning; school health; occupational health; geriatric care; men
 5. Strengthens **referral** and continuity of care.
 6. Supports national programmes (EPI, FP, nutrition, TB) and progress toward UHC.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Prothom Alo, Community clinics in dire state, 2025, https://en.prothomalo.com/bangladesh/4hl7utcv6p; The Daily Star (Asia News Network), Over 23,000 doctor, nurse, health worker posts vacant in public hospitals (14,460 community clinics), 2026, https://asianews.network/?p=279940
 
 ## DU.53
 **Upazila Health and Family Planning Officer (UH&FPO): community physician at upazila level**
@@ -5386,7 +5386,7 @@ Saves soap and fuel; prevents scaling in pipes and boilers; better cooking and w
 ## DU.213
 **Arsenicosis**
 
-A chronic health condition caused by prolonged ingestion (usually ≥6 months) of arsenic above the safe level, usually shown by **characteristic skin lesions**, with or without involvement of internal organs and malignancies (WHO).
+A chronic health condition caused by prolonged ingestion (usually ≥6 months) of arsenic above the safe level (Bangladesh standard 50 µg/L; WHO guideline 10 µg/L), usually shown by **characteristic skin lesions**, with or without involvement of internal organs and malignancies (WHO).
 
 **Characteristic skin manifestations**
 
@@ -5397,7 +5397,7 @@ A chronic health condition caused by prolonged ingestion (usually ≥6 months) o
 | **Keratosis** | Thickening and nodules of **palms and soles** (hyperkeratosis) |
 | Later | Bowen's disease, squamous and basal cell carcinoma of skin |
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Occupational Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Occupational Health); UNU, Removing arsenic from groundwater: we have the tools, https://ourworld.unu.edu/en/removing-arsenic-from-groundwater-we-have-the-tools-lets-use-them
 
 ## DU.214
 **Provision of safe water in an arsenic-affected community**
@@ -5405,7 +5405,7 @@ A chronic health condition caused by prolonged ingestion (usually ≥6 months) o
 **A. Identify safe and unsafe sources**
 
 1. **Test every tube well** (field kits / laboratory).
-2. **Mark** tube wells: **red** = unsafe (above standard), **green** = safe.
+2. **Mark** tube wells: **red** = unsafe (above the Bangladesh standard of **50 µg/L**), **green** = safe; WHO guideline is 10 µg/L. MICS 2025: 9.9% of households' sources exceed 50 µg/L, 15.8% exceed 10 µg/L.
 3. Encourage **well-switching** to nearby green (safe) wells.
 
 **B. Alternative safe water options**
@@ -5428,7 +5428,7 @@ A chronic health condition caused by prolonged ingestion (usually ≥6 months) o
 4. Nutrition support; no stigma for patients.
 5. Regular water-quality monitoring; ban on installing new shallow wells in contaminated areas.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); UNICEF (UNGM tender notice citing MICS 2025 arsenic data), 2026, https://www.ungm.org/Public/Notice/299036
 
 ## DU.215
 **Daily water requirement**
@@ -5676,7 +5676,14 @@ Compare with standards (WHO AQG 2021, national standards); warn the public; eval
 ## DU.224
 **Air pollution in Dhaka city**
 
-Dhaka is among the most polluted cities in the world; levels of **PM₂.₅** many times the WHO guideline (annual 5 µg/m³), worst in the **dry season (November–March)**.
+Dhaka is among the most polluted cities in the world, worst in the **dry season (November–March)**.
+
+| Measure | Value |
+|---|---|
+| Dhaka annual PM₂.₅, 2025 | **68.0 µg/m³** (13.6 × WHO guideline; 2nd most polluted capital after New Delhi) (IQAir, 2026) |
+| Bangladesh national average, 2025 | 66.1 µg/m³; 2nd most polluted country |
+| WHO guideline (2021) | 5 µg/m³ annual |
+| National standard (Air Pollution (Control) Rules 2022) | 35 µg/m³ annual; 65 µg/m³ 24-hour |
 
 **Main sources**
 
@@ -5696,7 +5703,7 @@ Rapid unplanned urbanisation; high population density; weak enforcement; tempera
 
 Respiratory infections, asthma, COPD, lung cancer, heart disease, stroke; reduced life expectancy; worst in children, elderly and outdoor workers.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021; The Business Standard, Bangladesh's air remains the second-worst globally in 2025 (IQAir World Air Quality Report 2025), 2026, https://www.tbsnews.net/bangladesh/environment/bangladesh-2nd-most-polluted-globally-only-14-cities-meet-who-air-quality; Ajker Patrika, Air pollution breaches safety limits nationwide (Air Pollution Control Rules 2022 standards), 2026, https://www.ajkerpatrika.com/en/environment/ajp3zcl8dbeh1
 
 ## DU.225
 **Prevention and control of air pollution (Park)**
@@ -5718,7 +5725,7 @@ Respiratory infections, asthma, COPD, lung cancer, heart disease, stroke; reduce
 5. **No open burning** of waste; proper solid waste management.
 6. **Urban greening**: trees, parks.
 7. **Monitoring**: CAMS, public AQI alerts; health advisories (masks, limit outdoor activity).
-8. **Laws**: Environment Conservation Act 1995; Air Pollution (Control) Rules 2022.
+8. **Laws**: Environment Conservation Act 1995; **Air Pollution (Control) Rules 2022** (PM₂.₅ standard 35 µg/m³ annual, 65 µg/m³ 24-hour; national air quality management plan).
 9. **Household**: clean cooking fuels.
 10. **Regional cooperation** on trans-boundary pollution.
 
@@ -5726,7 +5733,7 @@ Respiratory infections, asthma, COPD, lung cancer, heart disease, stroke; reduce
 
 Global Air Quality Guidelines (2021); WHO road map on health and air pollution; promote clean household energy, sustainable transport, monitoring and health-sector advocacy.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021; Ajker Patrika, Air pollution breaches safety limits nationwide (Air Pollution Control Rules 2022 standards), 2026, https://www.ajkerpatrika.com/en/environment/ajp3zcl8dbeh1
 
 ## DU.226
 **Components of air quality**
@@ -5954,10 +5961,10 @@ Traffic police, drivers, factory and construction workers, children, elderly, pa
 
 **A. Legislation and enforcement**
 
-1. **Noise Pollution (Control) Rules 2006**: zone-wise day and night limits (silent, residential, mixed, commercial, industrial zones).
-2. **Silent zones** around hospitals, schools, offices and courts; no horns.
-3. **Ban on hydraulic horns**; mobile courts and fines.
-4. Permits and time limits for loudspeakers and construction at night.
+1. **Noise Pollution (Control) Rules 2025** (gazette 24 November 2025; replaced the 2006 rules) (updated): day/night limits in dB(A): silent 50/40, residential 55/45, commercial 70/60, industrial 75/70.
+2. **Silent zones** (100 m around hospitals, educational institutions, offices; also airports and protected areas): horns, fireworks banned; no honking in residential areas 9 pm–6 am.
+3. **Ban on hydraulic and high-noise horns**; traffic sergeants can fine on the spot (up to Tk 10,000); mobile courts.
+4. Written permission for loudspeakers in public places; social events limited to 90 dB; construction not at night.
 
 **B. At the source**
 
@@ -5984,7 +5991,7 @@ Campaigns against unnecessary honking; driver training; community participation;
 
 Regular noise measurement by Department of Environment; mapping noise hotspots.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); Dhaka Tribune, Silent zones declared, but can Dhaka ever be quiet? (Noise Pollution (Control) Rules 2025), 2025, https://www.dhakatribune.com/bangladesh/dhaka/398150/silent-zones-declared-but-can-dhaka-ever-be; Prothom Alo, Police to fine offenders for noise pollution, 2025, https://en.prothomalo.com/bangladesh/z9d9an05ej; The Daily Star, Noise pollution: now traffic police can fine offenders, 2025, https://www.thedailystar.net/news/bangladesh/news/noise-pollution-now-traffic-police-can-fine-offenders-4043711
 
 ## DU.235
 **a) Common sources of noise in Chawkbazar (2)**
@@ -6006,7 +6013,7 @@ Regular noise measurement by Department of Environment; mapping noise hotspots.
 
 **c) Control measures by the local authority (3)**
 
-1. **Enforce Noise Pollution (Control) Rules 2006**: zone limits; fines by mobile courts.
+1. **Enforce Noise Pollution (Control) Rules 2025** (replaced 2006 rules): zone limits (e.g., commercial 70 dB day, 60 dB night); spot fines by traffic sergeants and mobile courts.
 2. **Ban hydraulic horns**; declare no-horn zones near schools, hospitals and mosques.
 3. **Traffic management**: one-way routes, fixed loading/unloading hours, rickshaw lanes.
 4. **Relocate or zone** noisy factories and workshops away from residential areas; require sound-proof enclosures for generators and machines.
@@ -6015,7 +6022,7 @@ Regular noise measurement by Department of Environment; mapping noise hotspots.
 7. **Regular noise monitoring** and public display of levels.
 8. **Awareness campaigns** for drivers, traders and residents; ear protection for exposed workers.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); Dhaka Tribune, Silent zones declared, but can Dhaka ever be quiet? (Noise Pollution (Control) Rules 2025), 2025, https://www.dhakatribune.com/bangladesh/dhaka/398150/silent-zones-declared-but-can-dhaka-ever-be; Prothom Alo, Police to fine offenders for noise pollution, 2025, https://en.prothomalo.com/bangladesh/z9d9an05ej
 
 ## DU.236
 **Sources of radiation exposure**
@@ -7490,7 +7497,7 @@ Labour and factory laws; permissible exposure limits; inspection; compensation; 
 ## DU.297
 **Legislative measures to prevent industrial health hazards (Bangladesh)**
 
-**Bangladesh Labour Act 2006 (amended) and Labour Rules 2015** provide for:
+**Bangladesh Labour Act 2006** (latest: Labour (Amendment) Ordinance 2025, enacted as Labour (Amendment) Act 2026) and **Labour Rules 2015** provide for:
 
 | Area | Provisions |
 |---|---|
@@ -7498,7 +7505,7 @@ Labour and factory laws; permissible exposure limits; inspection; compensation; 
 | **Safety** | Fire precautions, exits and drills; fencing of machinery; safety of buildings and machinery; pressure plant; protection of eyes; dangerous fumes; restriction on lifting excessive weights; safety committees |
 | **Welfare** | First aid; canteen; rest rooms; **crèche** for children of women workers; washing facilities |
 | **Working hours** | Limits on daily and weekly hours; rest intervals; weekly holiday; limited overtime |
-| **Women** | **Maternity benefit** (16 weeks); restrictions on dangerous work |
+| **Women** | **Maternity benefit 120 days** (60 days before + 60 after delivery) (updated: 2025–2026 amendment; was 16 weeks); non-hazardous work for pregnant and lactating workers without wage loss; breastfeeding space |
 | **Children and adolescents** | Prohibition of employment of children; restrictions and fitness certificates for adolescents |
 | **Notification** | Accidents, dangerous occurrences and occupational diseases |
 | **Compensation** | For injury, occupational disease and death |
@@ -7508,7 +7515,7 @@ Labour and factory laws; permissible exposure limits; inspection; compensation; 
 
 National Occupational Health and Safety Policy (2013); Environment Conservation Act 1995; building codes; post-Rana Plaza factory safety inspections (fire, electrical, structural); ratification of ILO conventions; permissible exposure limits; licensing of hazardous industries.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health); The Business Standard, Parliament passes labour bill, 2026, https://www.tbsnews.net/bangladesh/parliament-passes-labour-bill-layoff-compensation-trade-union-rights-among-key-reforms; Kazi Law Chamber, Bangladesh Labour Act 2025 amendments: a brief overview, 2026, https://www.kazilawchamber.com/blog-details/bangladesh-labour-act-2025-amendments-a-brief-overview
 
 ## DU.298
 **Anthracosis (coal workers' pneumoconiosis)**
@@ -7821,8 +7828,9 @@ World Health Assembly (policy) → Executive Board (executive) → Secretariat (
 |---|---|
 | **2024** | **"My health, my right"** |
 | 2025 | "Healthy beginnings, hopeful futures" (maternal and newborn health; year-long campaign) |
+| 2026 | "Together for health. Stand with science" |
 
-**Ref:** WHO, World Health Day.
+**Ref:** WHO, World Health Day 2026: Together for health. Stand with science, 2026, https://www.who.int/europe/event/world-health-day-2026-together-for-health-stand-with-science; Awareness Days, World Health Day themes 2024–2026, 2026, https://www.awarenessdays.com/awareness-days-calendar/world-health-day/
 
 ## DU.311
 **Two roles of WHO in global health**
@@ -7897,13 +7905,16 @@ Founded 1946; works for the survival, development and protection of children; in
 
 **C. Recent change**
 
-The **2025 US foreign-aid freeze and restructuring of USAID** abruptly stopped or cut many programmes (family planning, TB, nutrition, surveys, humanitarian support), showing the risk of dependence on a single donor.
+1. **January 2025**: US executive order paused almost all foreign aid; USAID's Bangladesh programme (its largest in Asia) was suspended.
+2. By April 2025, **55 of 59** ongoing USAID projects in Bangladesh were shut (only some emergency food and humanitarian work continued); about US$700 million in aid lost.
+3. USAID was **dissolved**; remaining global health work moved to the **State Department** (from 1 July 2025). Family planning awards were cancelled and the **DHS programme** (source of BDHS) was terminated.
+4. Effects: closed NGO clinics, job losses, supply gaps in family planning, TB and Rohingya health services; shows the risk of dependence on a single donor.
 
 **Lesson**
 
 Strengthen government ownership and domestic financing; align donor support with the national sector programme; build sustainable systems.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); The Daily Star, Bangladesh lost $700m in aid as USAID halted most projects, 2025, https://epfs.thedailystar.net/TDS/2025/05/28/Bangladesh/MAI/5_04/19f8a32af2ab9347_04.pdf; KFF, The Trump administration's foreign aid review: status of U.S. family planning efforts, 2026, https://www.kff.org/global-health-policy/fact-sheet/the-trump-administrations-foreign-aid-review-status-of-u-s-family-planning-and-reproductive-health-efforts/; Dhaka Tribune, When the funding stops, 2025, https://www.dhakatribune.com/opinion/op-ed/386126/when-the-funding-stops
 
 ## DU.315
 **Role of international health agencies in Bangladesh's health services**
@@ -8014,9 +8025,9 @@ To prevent, protect against, control and provide a public health response to the
 5. **PHEIC** declared by the WHO Director-General on advice of an **Emergency Committee**; temporary and standing recommendations.
 6. **Health measures at points of entry**: vaccination certificates (yellow fever), screening, isolation.
 7. Monitoring by annual reporting and joint external evaluation.
-8. **Amended in 2024** (in force 2025): adds a "pandemic emergency" level and strengthens equity and coordination.
+8. **2024 amendments** (WHA77.17; **in force 19 September 2025**): new alert level **"pandemic emergency"** above PHEIC; each country to designate a **National IHR Authority**; a States Parties Committee for implementation; provisions for equitable access to health products.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, International Health Regulations (2005).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, Amended International Health Regulations enter into force, 2025, https://www.who.int/news/item/19-09-2025-amended-international-health-regulations-enter-into-force; O'Neill Institute, India and the IHR amendments, 2025, https://oneill.law.georgetown.edu/india-and-the-ihr-amendments-strengthening-legal-preparedness-for-global-health-security/
 
 ## DU.320
 **Importance of IHR in public health**
@@ -9273,11 +9284,11 @@ Vaccination of all **susceptible contacts around a case** (household, neighbours
 
 **Women (15–49 years)**: **TT/Td** 5 doses (1st at first contact; 2nd after ≥4 weeks; 3rd after ≥6 months; 4th after ≥1 year; 5th after ≥1 year) → lifelong protection against maternal and neonatal tetanus.
 
-**Adolescent girls**: **HPV** vaccine for girls in classes 5–9 or out-of-school girls aged 10–14 years (cervical cancer prevention).
+**Adolescent girls**: **HPV** vaccine, single dose: routine for girls in class 5 and out-of-school girls aged 10 (after the 2023–2024 campaigns for girls 10–14 years).
 
 **Diseases covered**: tuberculosis, diphtheria, pertussis, tetanus, hepatitis B, *Haemophilus influenzae* type b, poliomyelitis, pneumococcal disease, measles, rubella, typhoid (+ HPV).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); icddr,b, EPI vaccinations, 2026, https://www.icddrb.org/epi-vaccinations; The Daily Star, Bangladesh to add typhoid vaccine to routine immunisation from Aug 1, 2026, https://www.thedailystar.net/news/healthcare/news/bangladesh-add-typhoid-vaccine-routine-immunisation-aug-1-4222881; Jagonews24, Child immunisation: when and which to give, 2026, https://www.jagonews24.com/en/national/news/91363
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); icddr,b, EPI vaccinations, 2026, https://www.icddrb.org/epi-vaccinations; The Daily Star, Bangladesh to add typhoid vaccine to routine immunisation from Aug 1, 2026, https://www.thedailystar.net/news/healthcare/news/bangladesh-add-typhoid-vaccine-routine-immunisation-aug-1-4222881; The Daily Star, Cervical cancer: govt launches HPV vaccination campaign in 7 divisions, 2024, https://www.thedailystar.net/health/news/cervical-cancer-govt-launches-hpv-vaccination-campaign-7-divisions-3735791
 
 ## DU.376
 **BCG plus**
@@ -15852,7 +15863,7 @@ Bangladesh NCD Control Programme and multisectoral action plan; WHO "**best buys
 ## DU.706
 **Behaviours associated with NCDs and their impact**
 
-NCDs cause about **74% of all deaths globally** (WHO); four behaviours drive most of them.
+NCDs killed **43 million people in 2021, 75% of non-pandemic deaths**; 18 million died before age 70 (WHO, 2025); four behaviours drive most of them.
 
 | Behaviour | Pathway | Health outcomes |
 |---|---|---|
@@ -15873,7 +15884,7 @@ NCDs cause about **74% of all deaths globally** (WHO); four behaviours drive mos
 4. Impact: **premature deaths (30–70 years)**, disability, poverty from health costs, lost productivity.
 5. Changing behaviours reduces risk quickly (e.g., stopping smoking halves CHD risk within a few years).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Noncommunicable diseases fact sheet.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Noncommunicable diseases fact sheet, 2025, https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases
 
 ## DU.707
 **a) Major NCDs to address (2)**
@@ -16117,8 +16128,8 @@ Simple treatment protocols, team-based care, reliable drug supply, information s
 ## DU.718
 **Epidemiological features of hypertension**
 
-1. **Magnitude**: very common; about **1.3 billion adults (30–79 years)** worldwide, about one in three (WHO, 2023); leading risk factor for death (stroke, CHD, kidney disease).
-2. **Iceberg disease**: most cases asymptomatic and undiagnosed; **rule of halves**.
+1. **Magnitude**: about **1.4 billion adults (30–79 years)** in 2024; **fewer than 1 in 5** (≈320 million) controlled (WHO Global report on hypertension, 2025); leading risk factor for death (stroke, CHD, kidney disease).
+2. **Iceberg disease**: most cases asymptomatic; about **46% unaware** of their condition; **rule of halves**.
 3. **Age**: BP rises with age.
 4. **Sex**: more in men at younger ages; women after menopause.
 5. **Genetic factors**: family history; tracking of BP from childhood.
@@ -16128,7 +16139,7 @@ Simple treatment protocols, team-based care, reliable drug supply, information s
 9. Associated with diabetes, dyslipidaemia, CKD.
 10. Preventable and controllable.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Global report on hypertension, 2023.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Uncontrolled high blood pressure puts over a billion people at risk (Global report on hypertension 2025), 2025, https://www.who.int/news/item/23-09-2025-uncontrolled-high-blood-pressure-puts-over-a-billion-people-at-risk; HIFA, WHO Global report on hypertension 2025 extracts, 2025, https://hifa.org/node/96856099
 
 ## DU.719
 **Rule of halves**
@@ -16576,15 +16587,15 @@ Most of these are **modifiable** → 30–50% of cancers are preventable by life
 
 **A. Primary prevention**
 
-1. **HPV vaccination** of girls (Bangladesh introduced HPV vaccine for adolescent girls).
+1. **HPV vaccination**: Bangladesh gave a **single dose** to girls 10–14 years (class 5–9) in campaigns (Dhaka division 2023, >1.5 million girls; other 7 divisions 2024, target 6.2 million); now routine for **class 5 girls and out-of-school 10-year-olds**.
 2. **Health education**: delay marriage and first pregnancy, safe sex, condoms, genital hygiene, stop tobacco.
 3. Treat STIs; prevent HIV.
 
 **B. Secondary prevention: screening and early treatment**
 
-1. **VIA (visual inspection with acetic acid)** for women aged **30–60** at UHCs, union centres and camps (national screening programme); every 3–5 years.
+1. **VIA (visual inspection with acetic acid)** for women aged **30–60**, every **5 years** (national programme since 2005; about 600 facilities from UHC upward; women enrolled at community clinics; coordinated by NCCBCST, BSMMU).
 2. **HPV DNA testing** where available (WHO preferred).
-3. **Screen-and-treat**: thermal ablation or cryotherapy at the same visit for eligible lesions.
+3. **See-and-treat** at colposcopy clinics: **thermal ablation** (most used) or cryotherapy for eligible lesions.
 4. Referral to colposcopy and LEEP for larger lesions.
 5. Mobilisation through CHCPs, FWAs.
 
@@ -16594,7 +16605,7 @@ Treatment (surgery, radiotherapy) at referral centres; **palliative care**.
 
 **WHO elimination targets (90-70-90 by 2030)**: 90% of girls vaccinated by 15; 70% of women screened by 35 and 45 with a high-performance test; 90% of identified women treated.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Global strategy to eliminate cervical cancer, 2020.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Global strategy to eliminate cervical cancer, 2020; The Daily Star, Cervical cancer: govt launches HPV vaccination campaign in 7 divisions, 2024, https://www.thedailystar.net/health/news/cervical-cancer-govt-launches-hpv-vaccination-campaign-7-divisions-3735791; Nessa A et al., Cervical cancer screening data from the case-based national electronic registry in Bangladesh (BMC Glob Public Health), 2025, https://doaj.org/article/7bdbe5924d054ce4846488bef1fcb280
 
 ## DU.742
 **a) Probable diagnosis (1)**
@@ -16867,7 +16878,7 @@ SACMO (sub-assistant community medical officer); nurses and midwives; pharmacist
 |---|---|---|
 | **Upazila** | **Upazila Health Complex** (31/50 beds); UH&FPO; UFPO | First-referral hospital: indoor, outdoor, emergency, EmOC, lab, X-ray; MCH-FP; national programmes; supervision |
 | **Union** | **Union Health and Family Welfare Centre** (FWV, SACMO); **Union Sub-centre / Rural Dispensary** (MO/SACMO) | Outpatient care, ANC/PNC, normal delivery (selected), family planning, immunisation, referral |
-| **Ward** | **Community clinic** (CHCP), one per ~6,000 people | One-stop primary care: MCH, FP, EPI, nutrition, minor treatment, NCD screening, health education, referral |
+| **Ward** | **Community clinic** (CHCP), one per ~6,000 people; 14,460 operational (2026) | One-stop primary care: MCH, FP, EPI, nutrition, minor treatment, NCD screening, health education, referral |
 | **Village / household** | **Health Assistant**, **FWA**, NGO volunteers | Domiciliary services: EPI, FP supplies, health education, surveillance, registration |
 | **Outreach** | EPI outreach sites, satellite clinics | Immunisation, FP, ANC in hard-to-reach areas |
 
@@ -16875,7 +16886,7 @@ SACMO (sub-assistant community medical officer); nurses and midwives; pharmacist
 
 **Ideas for strengthening**: fill vacant posts, ensure drugs and equipment, functional referral and transport, community participation, digital records, quality improvement, urban PHC linkage.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); The Daily Star (Asia News Network), Over 23,000 doctor, nurse, health worker posts vacant in public hospitals (14,460 community clinics), 2026, https://asianews.network/?p=279940
 
 ## DU.756
 **Responsibilities of UH&FPO**
@@ -16943,7 +16954,7 @@ Together they promote **ethical, safe, trusted** health care.
 
 **A. As a government employee**
 
-1. **Maternity leave of 6 months with full pay** (for up to two occasions in service).
+1. **Maternity leave of 6 months with full pay**, twice in service (government gazette, effective 9 January 2011); temporary employees need ≥9 months' service before delivery.
 2. **Protection from dismissal** during pregnancy and maternity leave.
 3. Leave for **antenatal check-ups** as needed; light duties and avoiding hazardous work (heavy lifting, radiation, night duty where possible).
 
@@ -16958,7 +16969,7 @@ Free **ANC**, delivery and PNC at government facilities; Td vaccination, IFA and
 3. Safe, clean toilets and rest area.
 4. Flexible duty roster during late pregnancy and early return.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); The Daily Star, Maternity leave now 6 months, 2011, https://www.thedailystar.net/node/731179
 
 ## DU.760
 **Period of communicability**
