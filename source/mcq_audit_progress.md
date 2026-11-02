@@ -9,10 +9,35 @@ Rules in force: conflict:true = PDF key (or one paper) disagrees with Park/curre
 Status
 - PDF pages read: all 21 (pp.188–208).
 - PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2); 23M, 22Nov-A, 22Nov-B (batch 3); 22M, 21M, 20M&Nov, 20Ju, 19Nov (batch 4). PDF pass COMPLETE: all 182 DU items now carry PDF refs, no † years left, every DU TF option keyed (20Ju and blank PDF keys supplied per Park and marked "key not given").
-- New-item audit: parts 1–5 done (batch 5); parts 6–9 done (batch 6) (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
-- Next: New items parts 10 → 11; then duplicate sweep (incl. BCS).
+- New-item audit: parts 1–5 done (batch 5); parts 6–9 done (batch 6); parts 10–11 done (batch 7). New-item audit COMPLETE (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
+- Next: final duplicate sweep across the whole bank (incl. BCS items).
 
 ## Change log
+
+### Batch 7 — New items, parts 10–11 (cache v49)
+Last New id checked: M.523. Retired 16 duplicates.
+- M.452: deleted (duplicate of M.384)
+- M.453: deleted (duplicate of M.386)
+- M.454: deleted (duplicate of M.387)
+- M.455: deleted (duplicate of M.379)
+- M.464: deleted (duplicate of M.480 (same fact, negative stem))
+- M.501: deleted (duplicate of M.394)
+- M.502: deleted (duplicate of M.407)
+- M.503: deleted (duplicate of M.406)
+- M.504: deleted (duplicate of M.396)
+- M.505: deleted (duplicate of M.395)
+- M.506: deleted (duplicate of M.403)
+- M.507: deleted (duplicate of M.400)
+- M.508: deleted (duplicate of M.415)
+- M.509: deleted (duplicate of M.416)
+- M.510: deleted (duplicate of M.420)
+- M.511: deleted (duplicate of M.421; keyed monitoring F against the DU key)
+- M.424: old distractors chickenpox and hepatitis E are also vertically transmissible; rebuilt
+- M.440: distractor rubella removed (also direct, two defensible answers)
+- M.486: distractor monitoring removed (DU 23Nov keys it T)
+- M.458: "is descriptive" replaced (Park classes cross-sectional studies as analytical too)
+- M.514: "PB needs clofazimine = F" was wrong under WHO 2018 uniform 3-drug MDT; statement replaced
+- checked: no content change, Park ref added: M.422, M.423, M.425, M.426, M.427, M.428, M.429, M.430, M.435, M.436, M.437, M.438, M.439, M.441, M.442, M.443, M.444, M.445, M.446, M.447, M.448, M.449, M.450, M.451, M.456, M.457, M.459, M.460, M.461, M.462, M.463, M.465, M.466, M.467, M.468, M.471, M.472, M.473, M.474, M.475, M.476, M.477, M.478, M.479, M.480, M.481, M.482, M.483, M.484, M.485, M.487, M.488, M.489, M.490, M.491, M.492, M.493, M.494, M.495, M.496, M.497, M.498, M.499, M.500, M.512, M.513, M.515, M.516, M.517, M.518, M.519, M.520, M.521, M.522, M.523
 
 ### Batch 6 — New items, parts 6–9 (cache v48)
 Last New id checked: M.546. Retired 15 duplicates.
@@ -280,4 +305,4 @@ Last site id checked: SBA/TF of 25M (M.398). Retired: M.87→M.81, M.199→M.198
 - M.398: daggers removed; ref
 - M.413: ref verified (Bangladesh CBE programme)
 
-RETIRED: M.10, M.15, M.24, M.25, M.26, M.44, M.45, M.62, M.63, M.64, M.65, M.77, M.87, M.94, M.99, M.100, M.107, M.108, M.125, M.135, M.139, M.155, M.161, M.178, M.181, M.199, M.201, M.209, M.218, M.219, M.230, M.283, M.284, M.285, M.288, M.290, M.299, M.300, M.318, M.319, M.321, M.348, M.349, M.356, M.364, M.367, M.405, M.542
+RETIRED: M.10, M.15, M.24, M.25, M.26, M.44, M.45, M.62, M.63, M.64, M.65, M.77, M.87, M.94, M.99, M.100, M.107, M.108, M.125, M.135, M.139, M.155, M.161, M.178, M.181, M.199, M.201, M.209, M.218, M.219, M.230, M.283, M.284, M.285, M.288, M.290, M.299, M.300, M.318, M.319, M.321, M.348, M.349, M.356, M.364, M.367, M.405, M.452, M.453, M.454, M.455, M.464, M.501, M.502, M.503, M.504, M.505, M.506, M.507, M.508, M.509, M.510, M.511, M.542
