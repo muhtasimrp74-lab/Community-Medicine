@@ -14763,3 +14763,980 @@ The odds of exposure (e.g., smoking) among CHD cases are **twice** those among c
 | Fewer ethical problems | Ethical limits |
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.574
+**Epidemic**
+
+The occurrence in a community or region of cases of an illness (or other health-related events) **clearly in excess of normal expectancy**.
+
+**Types of epidemics (Park)**
+
+| Type | Features | Examples | Epidemic curve |
+|---|---|---|---|
+| **1. Common-source epidemic** | | | |
+| (a) Single exposure ("point source") | All exposed at one time; cases within one incubation period; no secondary cases | Food poisoning, Bhopal gas leak | Sharp rise and fall (single peak) |
+| (b) Continuous or multiple exposure | Exposure continues over time | Contaminated well, Legionnaires' disease | Rises, plateau, falls when source removed |
+| **2. Propagated epidemic** | Person-to-person spread; gradual rise; continues until susceptibles exhausted | Hepatitis A, polio, measles; vector-borne (dengue); animal reservoir | Several successive peaks, longer duration |
+| **3. Slow (modern) epidemics** | Gradual rise over years | CHD, lung cancer, diabetes | Long secular trend |
+
+**Figure (epidemic curves)**
+
+```
+Point source:       Propagated:          Continuous:
+   ▁▃█▆▃▁            ▁▂▃▅▆▇▆▅▃▂▁▁         ▁▃▆██████▆▃▁
+ (one IP)          (successive waves)    (plateau)
+```
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.575
+**Endemic, epidemic and pandemic**
+
+| Point | Endemic | Epidemic | Pandemic |
+|---|---|---|---|
+| Meaning | **Constant presence** (usual level) of a disease in a geographic area or population without importation | Cases **clearly in excess of normal expectancy** in a community or region | An epidemic spreading over **several countries or continents**, affecting large numbers |
+| Frequency | Usual, expected | Unusual rise | Unusual, worldwide |
+| Area | Localised | Community / region | Global / multi-country |
+| Duration | Continuous | Limited period | Variable (months–years) |
+| Examples (Bangladesh) | Kala-azar (previously), typhoid, hepatitis E, TB | Dengue outbreaks, cholera, measles (2026) | COVID-19 (2020), influenza H1N1 (2009) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.576
+**Infection chain (chain of infection)**
+
+The sequence of links needed for transmission of an infection:
+
+Infectious agent → Reservoir / source → Portal of exit → Mode of transmission → Portal of entry → Susceptible host
+
+Simplified (Park): **Source or reservoir → Mode of transmission → Susceptible host**.
+
+**Use**: breaking any link (treat cases, purify water, vaccinate) stops transmission.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.577
+**Nosocomial (hospital-acquired / health care-associated) infection**
+
+An infection **acquired in a hospital or health-care facility** that was **not present or incubating at admission**; usually appears **≥48 hours after admission** (or after discharge, e.g., within 30 days of surgery). Also affects staff.
+
+**Common types**
+
+1. **Urinary tract infection** (catheters) — commonest.
+2. **Surgical site infection**.
+3. **Hospital-acquired / ventilator-associated pneumonia**.
+4. **Bloodstream infection** (IV lines).
+5. Diarrhoea (*C. difficile*), skin infections, hepatitis B/C (unsafe injections).
+
+**Organisms**: MRSA, *Klebsiella*, *Pseudomonas*, *Acinetobacter*, *E. coli* (often multidrug-resistant).
+
+**Sources / routes**: hands of staff, contaminated equipment, invasive devices, air, water, other patients.
+
+**Prevention**
+
+**Hand hygiene** (most important); aseptic technique; sterilisation and disinfection; safe injection practices; isolation; environmental cleaning; antibiotic stewardship; device care bundles; infection control committee and surveillance; immunisation of staff (hepatitis B).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.578
+**Carrier**
+
+An infected person (or animal) who **harbours a specific infectious agent without discernible clinical disease** and serves as a **potential source of infection** to others.
+
+**Classification (Park)**
+
+| Basis | Types | Examples |
+|---|---|---|
+| **Type** | **Incubatory** (shed during incubation period) | Measles, mumps, polio, diphtheria |
+| | **Convalescent** (shed during convalescence) | Typhoid, cholera, diphtheria, dysentery |
+| | **Healthy** (subclinical infection, no illness) | Polio, meningococcus, cholera, diphtheria |
+| **Duration** | **Temporary** (short time) | Most |
+| | **Chronic** (long time) | Typhoid, hepatitis B, malaria |
+| **Portal of exit** | Urinary, intestinal, respiratory, nasal, skin | Typhoid (urinary, intestinal), staphylococci (nasal) |
+
+**Importance**: carriers are dangerous because they are not recognised and move freely.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.579
+**Modes of transmission of infectious diseases (Park)**
+
+**A. Direct transmission**
+
+| Mode | Examples |
+|---|---|
+| **1. Direct contact** (skin-to-skin, mucosa-to-mucosa, kissing, sexual contact) | STIs, HIV, scabies, leprosy, skin infections |
+| **2. Droplet infection** (spray of droplets during coughing, sneezing, talking; within ~1 m) | Measles, influenza, COVID-19, diphtheria, pertussis, TB (also airborne) |
+| **3. Contact with soil** | Hookworm, tetanus, mycoses |
+| **4. Inoculation into skin or mucosa** | Rabies (bite), hepatitis B (needle) |
+| **5. Transplacental (vertical)** | Rubella, syphilis, HIV, toxoplasmosis, hepatitis B |
+
+**B. Indirect transmission**
+
+| Mode | Examples |
+|---|---|
+| **1. Vehicle-borne** (water, food, milk, blood, ice) | Cholera, typhoid, hepatitis A/E, hepatitis B (blood) |
+| **2. Vector-borne** (mechanical, biological) | Malaria, dengue, kala-azar, plague |
+| **3. Airborne** (droplet nuclei, dust) | TB, measles, chickenpox, influenza |
+| **4. Fomite-borne** (towels, utensils, toys, clothes) | Diphtheria, typhoid, skin infections, trachoma |
+| **5. Unclean hands and fingers** | Shigellosis, typhoid, hepatitis A, threadworm |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.580
+**Isolation vs quarantine**
+
+| Point | Isolation | Quarantine |
+|---|---|---|
+| Who | **Infected** (sick) persons or animals | **Well (healthy) persons** or animals **exposed** to a communicable disease |
+| Definition (Park) | Separation, for the **period of communicability**, of infected persons from others, to prevent or limit transmission | Limitation of freedom of movement of exposed well persons for a period **not longer than the longest usual incubation period** |
+| Duration | Period of communicability | Longest incubation period of the disease |
+| Purpose | Prevent spread from a known case | Prevent spread if the exposed person becomes infected |
+| Types | Standard, contact, droplet, airborne isolation; strict isolation; home isolation; cohort isolation | **Absolute (complete)** quarantine; **modified** quarantine (selective restriction, e.g., exclusion of children from school); **segregation** (separating a group) |
+| Examples | TB patient in a negative-pressure room; COVID-19 patient | Contacts of COVID-19 or Ebola cases; travellers from yellow-fever areas without vaccination (6 days) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.581
+**Case terms in an outbreak**
+
+| Term | Meaning |
+|---|---|
+| **Primary case** | The **first case** of a communicable disease introduced into a population unit (family, school, community) |
+| **Index case** ("first contact case") | The first case to **come to the attention of the investigator / health system**; not always the primary case |
+| **Secondary cases** | Cases that develop from **contact with the primary case** within the range of one incubation period |
+
+**Use**: index and primary cases help trace the source and calculate the **secondary attack rate** (communicability).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.582
+**Emergency preparedness and response for outbreaks and pandemics in Bangladesh**
+
+**A. Institutions and coordination**
+
+1. **MOHFW / DGHS**: Disease Control Division; **Health Emergency Operations Centre and Control Room**.
+2. **IEDCR**: national surveillance, outbreak investigation, laboratory, IHR focal point.
+3. National, divisional, district and upazila **rapid response teams (RRTs)**.
+4. Multisectoral committees (health, livestock, environment: **One Health**); Disaster Management Act 2012.
+5. Partners: WHO, UNICEF, icddr,b, NGOs.
+
+**B. Preparedness**
+
+1. **Surveillance**: indicator-based (DHIS2), event-based, sentinel (influenza, Nipah), laboratory networks, genomic surveillance.
+2. **Preparedness plans** (pandemic influenza, COVID-19 response plan); simulation exercises.
+3. **Stockpiles**: PPE, drugs, vaccines, test kits, oxygen.
+4. **Points of entry** screening (airports, land ports, seaports) under IHR.
+5. Hospital preparedness: isolation wards, ICU, infection control.
+6. Training of health workers; risk communication plans.
+
+**C. Response**
+
+1. Early detection and **verification**; outbreak investigation.
+2. **Case management**; isolation, quarantine, contact tracing.
+3. **Risk communication** and community engagement (hotlines, media).
+4. **Mass vaccination** (COVID-19, OCV, MR campaigns).
+5. Vector control (dengue); WASH (cholera).
+6. Coordination, logistics, data dashboards.
+
+**D. Recovery and learning**
+
+After-action reviews; strengthening health systems; research.
+
+**Challenges**
+
+Workforce gaps, lab capacity outside Dhaka, private-sector coordination, funding, misinformation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; International Health).
+
+## DU.583
+**Interruption of transmission (by mode)**
+
+| Mode | Measures |
+|---|---|
+| Water-borne | Purification (chlorination), safe sources |
+| Food-borne | Food hygiene, pasteurisation, cooking, healthy food handlers |
+| Air-borne / droplet | Ventilation, masks, cough etiquette, avoiding crowding |
+| Vector-borne | Vector control, bed nets, repellents |
+| Contact / sexual | Personal hygiene, condoms, safe practices |
+| Fomites | Disinfection, sterilisation |
+| Hands | Hand-washing with soap |
+| Blood / needles | Safe blood, sterile and AD syringes |
+| Mother-to-child | PMTCT, screening in pregnancy |
+
+**General**: environmental sanitation, health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.584
+**Importance of incubation period**
+
+1. **Tracing the source** of infection and contacts.
+2. **Period of surveillance / quarantine** of contacts = maximum incubation period.
+3. **Immunisation**: passive or active immunisation during the IP can prevent or modify disease (measles vaccine within 72 hours, rabies PEP).
+4. **Identifying point-source epidemics**: all cases within one IP → common source.
+5. **Prognosis**: short IP often means severe disease (tetanus, rabies).
+6. Planning isolation and control measures; estimating time of exposure.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.585
+**Outbreak vs epidemic**
+
+| Point | Outbreak | Epidemic |
+|---|---|---|
+| Extent | **Localised** increase (village, school, hospital) | Larger area or population |
+| Size | Usually small number of cases | Larger numbers |
+| Onset | Sudden | May be sudden or gradual |
+| Use of term | Often used for a limited epidemic (less alarming) | Wider public health event |
+| Example | Food poisoning at a wedding | Dengue epidemic in Dhaka |
+
+Both mean cases in excess of normal expectancy; terms often used interchangeably.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.586
+**Three factors responsible for emergence of infectious diseases**
+
+1. **Microbial adaptation and change**: mutation, genetic reassortment (influenza), antimicrobial resistance.
+2. **Ecological and environmental change**: deforestation, climate change, urbanisation, closer human–animal contact (Nipah, avian influenza).
+3. **Human demographics, travel and trade**: population growth, crowding, international travel, food trade.
+
+**Others**: breakdown of public health measures, war and famine, poverty, new technology (blood transfusion, organ transplant).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.587
+**Prevention and control of communicable diseases (Park)**
+
+**1. Controlling the reservoir**
+
+| Measure | Details |
+|---|---|
+| Early diagnosis | Clinical and laboratory; screening |
+| **Notification** | To health authority |
+| Epidemiological investigation | Source, spread |
+| **Isolation** | Of cases during communicability |
+| **Treatment** | Cure cases and carriers (e.g., TB, malaria) |
+| **Quarantine** | Of exposed contacts |
+| Disinfection | Concurrent and terminal |
+| Animal reservoir control | Vaccinating dogs, rodent control, slaughter of infected animals |
+
+**2. Interruption of transmission**
+
+Water purification, food hygiene, environmental sanitation, vector control, personal hygiene, safe sex, disinfection, hand-washing.
+
+**3. Protection of susceptible host**
+
+1. **Active immunisation** (vaccines).
+2. **Passive immunisation** (immunoglobulins).
+3. Combined active and passive (rabies, tetanus).
+4. **Chemoprophylaxis** (cholera contacts, malaria travellers, TB preventive therapy).
+5. Non-specific measures: nutrition, health education, better housing.
+
+**4. Surveillance and health education** (throughout)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.588
+**Aspects of infectious disease control in Bangladesh**
+
+1. **Surveillance**: IEDCR, DHIS2, AFP/measles, dengue, Nipah, influenza sentinel sites.
+2. **Immunisation (EPI)**; supplementary campaigns.
+3. **Disease programmes**: TB (DOTS, GeneXpert), malaria (hill tracts), kala-azar and filariasis (eliminated as PH problems, 2023), leprosy, HIV.
+4. **WASH**: safe water, arsenic-safe options, sanitation, hygiene.
+5. **Vector control**: dengue (city corporations), malaria (nets).
+6. **Case management**: ORS, zinc, IMCI, antibiotics.
+7. **Outbreak response** and IHR; One Health.
+8. **Research** (icddr,b).
+9. Health education and community participation.
+
+**Challenges**: AMR, urban dengue, measles coverage gaps (2026 outbreak), Rohingya camps, workforce and lab gaps.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.589
+**Communicable vs non-communicable diseases**
+
+| Point | Communicable diseases | Non-communicable diseases |
+|---|---|---|
+| Cause | **Specific infectious agent** (or its toxins) | Usually **multifactorial**; no single agent |
+| Transmission | From person, animal or environment to person | **Not transmitted** |
+| Onset | Usually **acute** | Usually **gradual, chronic** |
+| Incubation / latency | Incubation period (days–weeks) | Long latent period (years) |
+| Duration | Usually short | Long, lifelong |
+| Epidemiological model | Agent–host–environment triad | **Web of causation**; risk factors |
+| Prevention | Vaccines, sanitation, vector control, treatment | Lifestyle change, screening, risk-factor control |
+| Iceberg | Large subclinical part in many | Large undiagnosed part (hypertension, diabetes) |
+| Disease pattern | Common in poorer settings | Rising with ageing, urbanisation |
+| Examples | TB, cholera, dengue, measles | Hypertension, diabetes, CHD, cancer, COPD |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases; Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.590
+**Emerging vs re-emerging diseases**
+
+| Point | Emerging | Re-emerging |
+|---|---|---|
+| Definition (WHO) | **Newly appeared** in a population, or existed before but **rapidly increasing** in incidence or geographic range | Diseases that were **once declining or controlled** but are **increasing again** |
+| Causes | New pathogens, spill-over from animals, ecological change | Drug resistance, vector resistance, breakdown of control programmes, falling vaccine coverage, war, climate change |
+| Examples (global) | HIV/AIDS, SARS, MERS, **COVID-19**, avian influenza H5N1, Zika, Ebola (new areas), mpox | **TB (MDR-TB)**, malaria, cholera, dengue, diphtheria, measles |
+| Examples (Bangladesh) | **Nipah** (first outbreak 2001), avian influenza, COVID-19, chikungunya (2017) | **Dengue** (large urban epidemics), **measles** (2026 outbreak), diphtheria (Rohingya camps, 2017), MDR-TB |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.591
+**Epidemiology of chickenpox (varicella)**
+
+**A. Agent factors**
+
+| Factor | Details |
+|---|---|
+| Agent | **Varicella-zoster virus** (VZV, human herpesvirus 3); same virus causes herpes zoster |
+| Source of infection | **Case** of chickenpox (or herpes zoster); no carriers |
+| Infective material | **Respiratory secretions** and fluid of skin lesions; scabs are not infective |
+| Communicability | **1–2 days before** rash until **all lesions are crusted** (~5–6 days after rash) |
+| Secondary attack rate | Very high (~90% in susceptible household contacts) |
+
+**B. Host factors**
+
+1. **Age**: mainly children <10 years; more severe in adults, neonates, immunocompromised.
+2. **Immunity**: one attack gives lifelong immunity; virus stays **latent** in dorsal root ganglia → may reactivate as **herpes zoster**.
+3. Pregnancy: risk of congenital varicella and severe maternal disease.
+
+**C. Environmental factors**
+
+Winter and spring; crowding (schools, hostels).
+
+**Mode of transmission**: **droplet and airborne** spread; direct contact with lesions; transplacental.
+
+**Incubation period**: **14–16 days** (range 10–21).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.592
+**Distinctive features of chickenpox rash**
+
+1. **Centripetal distribution**: most dense on trunk; less on face and limbs; **axillae involved**.
+2. Palms and soles usually **spared**.
+3. **Rapid evolution**: macule → papule → vesicle → crust within 24–48 hours.
+4. **Pleomorphism**: lesions at **different stages** in the same area (successive **crops** over 3–4 days).
+5. **Superficial, unilocular vesicles** ("dew drops on a rose petal"); collapse on puncture.
+6. Little surrounding inflammation; **itchy**.
+7. **Mucous membranes** (mouth, conjunctiva) may be involved.
+8. Fever accompanies each crop.
+9. Scabs fall off in 1–2 weeks; usually **no scar** unless infected.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.593
+**Clinical manifestations of chickenpox**
+
+1. **Prodromal stage**: mild or absent in children; adults: fever, malaise, headache, anorexia for 1–2 days.
+2. **Eruptive stage**:
+   - Rash appears on day 1 of fever, first on the trunk.
+   - Successive crops of macules → papules → **vesicles** → crusts (pleomorphic).
+   - **Centripetal** distribution; itching.
+   - Mucosal lesions in mouth.
+3. Fever lasts as long as new crops appear (3–5 days).
+4. Crusts fall in 1–2 weeks.
+5. Severe in adults, neonates and immunocompromised (pneumonia, haemorrhagic lesions).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.594
+**Complications of chickenpox**
+
+1. **Secondary bacterial skin infection** (commonest): impetigo, cellulitis, abscess, necrotising fasciitis; scarring.
+2. **Varicella pneumonia**: adults, pregnant women, immunocompromised; serious.
+3. **Neurological**: encephalitis, **cerebellar ataxia**, Guillain–Barré syndrome.
+4. **Reye's syndrome** (with aspirin use).
+5. **Haemorrhagic chickenpox** (thrombocytopenia, DIC).
+6. Hepatitis, myocarditis, nephritis, arthritis.
+7. **Congenital varicella syndrome** (maternal infection in first half of pregnancy): limb hypoplasia, skin scarring, eye and brain defects.
+8. **Neonatal varicella** (mother's rash 5 days before to 2 days after delivery): severe, fatal.
+9. Later **herpes zoster** (reactivation).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.595
+**Prevention of chickenpox**
+
+1. **Varicella vaccine** (live attenuated): 2 doses (12–15 months and 4–6 years); susceptible adolescents and adults; post-exposure within 3–5 days.
+2. **Varicella-zoster immunoglobulin (VZIG)** for high-risk exposed persons: immunocompromised, pregnant women without immunity, newborns of mothers with peripartum varicella.
+3. **Isolation** of cases until all lesions are crusted; exclude from school.
+4. Avoid contact of cases with pregnant and immunocompromised people.
+5. **Acyclovir** for high-risk patients; avoid aspirin.
+6. Health education; hygiene to prevent secondary infection.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.596
+**Complications of varicella-zoster virus infection**
+
+**A. Chickenpox (primary infection)**
+
+Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; Reye's syndrome; haemorrhagic varicella; hepatitis; congenital varicella syndrome; neonatal varicella.
+
+**B. Herpes zoster (reactivation)**
+
+| Complication | Features |
+|---|---|
+| **Post-herpetic neuralgia** | Pain persisting >3 months; commonest, especially elderly |
+| **Herpes zoster ophthalmicus** | Ophthalmic division of trigeminal nerve: keratitis, uveitis, vision loss |
+| **Ramsay Hunt syndrome** | Facial palsy, ear vesicles, hearing loss, vertigo |
+| Disseminated zoster | Immunocompromised (HIV, cancer) |
+| Motor neuropathy | Limb or bladder weakness |
+| Encephalitis, myelitis, stroke (vasculopathy) | Rare |
+| Secondary bacterial infection, scarring | |
+
+**Prevention**: varicella vaccine; zoster vaccine (recombinant) for older adults; early antivirals.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.597
+**Complications of measles**
+
+| System | Complications |
+|---|---|
+| **Respiratory** | **Pneumonia** (viral or bacterial; commonest cause of death), laryngotracheobronchitis (croup), otitis media (commonest overall), bronchiolitis |
+| **Gastrointestinal** | **Diarrhoea** (persistent), stomatitis, appendicitis |
+| **Nutritional** | Precipitates **PEM / kwashiorkor**; weight loss |
+| **Eye** | **Xerophthalmia and keratitis → blindness** (with vitamin A deficiency), conjunctivitis |
+| **Neurological** | Febrile convulsions, **encephalitis** (~1/1,000), **SSPE** (years later) |
+| **Immunological** | Immune suppression → flare-up of **TB**, secondary infections |
+| Others | Myocarditis, thrombocytopenia; abortion and preterm birth in pregnancy |
+
+**High-risk groups**: malnourished, vitamin A-deficient, infants, immunocompromised.
+
+**Prevention of complications**: **vitamin A** to all measles cases; nutrition; early antibiotics for pneumonia; MR vaccination.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.598
+**Public health significance of a single measles case**
+
+1. **Extremely contagious** (R₀ 12–18): one case can start an outbreak.
+2. Signals an **immunity gap** (missed vaccination, low coverage, vaccine failure).
+3. **Notifiable**; case-based **surveillance** with lab confirmation (IgM) for measles–rubella elimination.
+4. Triggers **outbreak response**: case investigation, contact tracing, isolation (4 days after rash), **vitamin A** to the case, vaccination of susceptibles in the area.
+5. High risk of death and complications in malnourished children.
+6. Indicator of **EPI performance**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.599
+**Complications of mumps**
+
+| Complication | Features |
+|---|---|
+| **Orchitis** | Post-pubertal males (~20–30%); usually unilateral; rarely sterility |
+| **Oophoritis**, mastitis | Post-pubertal females |
+| **Aseptic meningitis** / **encephalitis** | Headache, neck stiffness; usually benign |
+| **Pancreatitis** | Abdominal pain, vomiting |
+| **Sensorineural deafness** | Usually unilateral, may be permanent |
+| Others | Myocarditis, thyroiditis, arthritis, nephritis; first-trimester abortion |
+
+**Three common**: orchitis, meningitis (meningoencephalitis), pancreatitis.
+
+**Prevention**: MMR vaccine.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.600
+**Epidemiology of diphtheria**
+
+| Factor | Details |
+|---|---|
+| Agent | *Corynebacterium diphtheriae* (toxigenic strains: gravis, mitis, intermedius); exotoxin causes disease |
+| Source | **Cases and carriers** (carriers far more numerous; nasal carriers most dangerous) |
+| Infective material | Nasopharyngeal secretions, discharges from skin lesions, contaminated fomites |
+| Communicability | ~2–4 weeks; carriers longer (until treated) |
+| Age | Mainly **1–5 years** in unimmunised populations; shifts to older children and adults when coverage is high |
+| Immunity | Antitoxic immunity from vaccination or infection; waning without boosters |
+| Environment | Winter; overcrowding; poor hygiene; refugee camps |
+| Transmission | **Droplet infection**; direct contact; fomites |
+| Incubation period | **2–6 days** |
+
+**Bangladesh**: outbreak among Rohingya refugees (2017–18) due to low immunisation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.601
+**Control of diphtheria in cases and carriers**
+
+**Cases**
+
+1. Early diagnosis; **notification**.
+2. **Isolation** until two cultures (24 hours apart) are negative after antibiotics stop.
+3. **Diphtheria antitoxin** (DAT) immediately on clinical suspicion (after sensitivity test).
+4. **Antibiotics**: penicillin or erythromycin for 14 days (eradicates organism).
+5. **Active immunisation** after recovery (illness does not always give immunity).
+6. Concurrent disinfection of discharges and articles.
+
+**Carriers**
+
+1. **Detection** by throat and nasal swabs of contacts.
+2. **Treatment**: erythromycin 7–10 days (or single benzathine penicillin); repeat swabs.
+3. Immunisation; exclusion from school or food handling until negative.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.602
+**Control and prevention of diphtheria in a community**
+
+**A. Cases and carriers** (see above): notification, isolation, antitoxin, antibiotics, detection and treatment of carriers.
+
+**B. Contacts**
+
+1. List all close contacts; **throat swabs** for culture.
+2. **Chemoprophylaxis**: erythromycin 7–10 days or single IM benzathine penicillin.
+3. **Immunisation**: booster (Td/DPT) if immunised before; start primary course if not.
+4. **Daily observation** for 7 days.
+
+**C. Community**
+
+1. **Immunisation (most important)**: pentavalent (DPT-HepB-Hib) at 6, 10, 14 weeks; boosters (Td) in school age and adults; **mass vaccination campaigns** in outbreaks.
+2. **Surveillance**: early detection and lab confirmation.
+3. Reduce **overcrowding**; improve hygiene.
+4. **Health education**.
+5. Ensure availability of **antitoxin** and antibiotics.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.603
+**Complications of diphtheria**
+
+1. **Toxic myocarditis** (1st–2nd week): arrhythmias, heart block, heart failure; commonest cause of death.
+2. **Neurological (toxic neuritis)**: palatal palsy (3rd week; nasal regurgitation), ocular palsy (squint, blurred vision), limb and diaphragmatic paralysis.
+3. **Airway obstruction** (laryngeal diphtheria) → asphyxia.
+4. Renal: nephritis.
+5. Secondary infection: bronchopneumonia, otitis media.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.604
+**Complications of pertussis (whooping cough)**
+
+1. **Respiratory**: **bronchopneumonia** (commonest cause of death), atelectasis, emphysema, pneumothorax, otitis media, later bronchiectasis.
+2. **Due to raised pressure during coughing**: subconjunctival haemorrhage, epistaxis, ulcer of tongue frenum, hernia, rectal prolapse.
+3. **Neurological**: convulsions, **encephalopathy** (hypoxia).
+4. **Nutritional**: malnutrition, dehydration (post-tussive vomiting).
+5. Apnoea in young infants; flare-up of TB.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.605
+**Clinical stages of whooping cough (pertussis)**
+
+| Stage | Duration | Features |
+|---|---|---|
+| **1. Catarrhal** | 1–2 weeks | Runny nose, mild cough, low fever; **most infectious** stage; hard to diagnose |
+| **2. Paroxysmal** | 2–4 weeks | Bouts of rapid coughs followed by a **whoop** (deep inspiration), **post-tussive vomiting**, cyanosis, exhaustion; infants may have apnoea instead of whoop |
+| **3. Convalescent** | Weeks to months | Gradual decrease in cough; may recur with later respiratory infections |
+
+**Complications**: bronchopneumonia, otitis media, convulsions, encephalopathy, subconjunctival haemorrhage, hernia, rectal prolapse, malnutrition.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.606
+**WHO / IMCI classification of cough or difficult breathing (child 2 months–5 years)**
+
+**Assess**: general danger signs (unable to drink or breastfeed, vomits everything, convulsions, lethargic or unconscious), **respiratory rate**, **chest indrawing**, **stridor** in a calm child, SpO₂ where available.
+
+**Fast breathing**: 2–12 months ≥**50/min**; 12 months–5 years ≥**40/min**.
+
+| Classification | Signs | Management |
+|---|---|---|
+| **Severe pneumonia or very severe disease** | Any **general danger sign** or **stridor** in calm child (or SpO₂ <90%) | First dose of injectable antibiotic; **refer urgently**; keep warm, prevent hypoglycaemia |
+| **Pneumonia** | **Fast breathing** and/or **chest indrawing** | **Oral amoxicillin** (5 days for chest indrawing; 3–5 days for fast breathing); home care; follow-up in 2–3 days |
+| **Cough or cold (no pneumonia)** | No signs of pneumonia | Home care; soothe throat; follow-up if not better in 5 days; return if fast breathing or danger signs; cough >14 days → assess for TB, asthma |
+
+(Earlier Park classification: very severe disease; severe pneumonia (chest indrawing); pneumonia (fast breathing); no pneumonia: cough or cold. WHO revised in 2014 so that chest indrawing pneumonia is treated with oral amoxicillin.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO, Revised classification and treatment of pneumonia in children, 2014.
+
+## DU.607
+**Young infant (<2 months): classification and management**
+
+**Signs of serious illness (possible serious bacterial infection, PSBI)**
+
+Not feeding well; convulsions; **fast breathing ≥60/min**; **severe chest indrawing**; fever ≥37.5 °C or low temperature <35.5 °C; movement only when stimulated or no movement.
+
+| Classification | Signs | Management |
+|---|---|---|
+| **Very severe disease (PSBI / severe pneumonia)** | Any sign above (fast breathing ≥60 is pneumonia in 7–59 days) | **Refer urgently** after first dose of **injectable ampicillin + gentamicin**; keep warm (KMC), breastfeed or give expressed milk, prevent hypoglycaemia |
+| If referral not possible (WHO 2015 PSBI guideline) | Fast breathing alone (7–59 days) | Oral amoxicillin for 7 days |
+| | Clinical severe infection | IM gentamicin + oral amoxicillin (7 days) |
+| **No pneumonia: cough or cold** | No danger signs, no fast breathing | Home care: keep warm, breastfeed frequently, clear nose; return immediately if danger signs |
+
+**Note**: In young infants chest indrawing is normal unless **severe**; any sign of illness needs urgent attention because of rapid deterioration.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.608
+**Prevention of ARI**
+
+**A. Specific protection: immunisation**
+
+Pentavalent (pertussis, Hib), **PCV** (pneumococcus), **measles-rubella**, BCG; influenza and COVID-19 vaccines for high-risk groups.
+
+**B. Nutrition**
+
+**Exclusive breastfeeding** 6 months; adequate complementary feeding; **vitamin A**; **zinc**; treat malnutrition; prevent LBW.
+
+**C. Environment**
+
+1. **Reduce indoor air pollution**: clean fuel, improved stoves, ventilation, separate kitchen.
+2. **No smoking** at home.
+3. Reduce **overcrowding**; better housing.
+4. Reduce outdoor air pollution.
+
+**D. Hygiene**
+
+Hand-washing; cough etiquette; masks during outbreaks.
+
+**E. Early diagnosis and treatment**
+
+**IMCI** and **community case management** (CHWs count breaths, give amoxicillin); teach mothers danger signs (fast breathing, chest indrawing); timely referral.
+
+**F. Health education** and keeping infants warm.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.609
+**Social factors predisposing to tuberculosis (Park)**
+
+1. **Poverty**.
+2. **Overcrowding** and poor housing (poor ventilation).
+3. **Malnutrition**.
+4. **Illiteracy** and lack of awareness.
+5. **Large families**; population explosion.
+6. **Migration**, urbanisation, urban slums.
+7. Smoking, alcohol, drug use.
+8. Stigma and delayed care-seeking.
+9. Occupational exposure (silica, mining).
+10. HIV and diabetes (medical, often linked with poverty).
+
+**Six (short answer)**: poverty, overcrowding, malnutrition, illiteracy, large family size, migration/urban slums.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.610
+**Open vs closed case of tuberculosis**
+
+| Point | Open case | Closed case |
+|---|---|---|
+| Meaning | **Pulmonary TB** patient whose **sputum contains bacilli** (smear- or culture-positive; bacteriologically confirmed) | TB patient **not discharging bacilli**: smear-negative pulmonary TB or **extrapulmonary TB** (lymph node, bone, pleura) |
+| Infectivity | **Infectious**: main source of spread (droplet nuclei) | Not (or much less) infectious |
+| Public health priority | **Highest**: early detection and treatment | Treat to prevent progression |
+| Example | Sputum smear-positive cavitary TB | TB lymphadenitis |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.611
+**Diagnosis of tuberculosis**
+
+**A. Presumptive TB**
+
+Cough ≥2 weeks, fever, night sweats, weight loss, haemoptysis, chest pain; contacts of TB cases; PLHIV.
+
+**B. Tests**
+
+| Test | Use |
+|---|---|
+| **Xpert MTB/RIF (GeneXpert)** | WHO-recommended **initial test**: detects TB and rifampicin resistance in ~2 hours |
+| **Sputum smear microscopy** (Ziehl–Neelsen / fluorescence) | Detects AFB; monitoring treatment |
+| **Culture** (LJ, liquid MGIT) and **drug-susceptibility testing** | Confirmation; resistance |
+| **Chest X-ray** | Screening and supportive diagnosis |
+| Line probe assay | Resistance to INH, rifampicin, fluoroquinolones |
+| Tuberculin skin test / IGRA | TB **infection** (not disease) |
+| Extrapulmonary | FNAC, biopsy (histopathology), fluid analysis (ADA), Xpert on samples |
+| Children | Clinical features, contact history, CXR, Xpert on sputum / gastric aspirate / stool |
+
+**C. Treatment (drug-susceptible TB; WHO / NTP)**
+
+| Phase | Drugs | Duration |
+|---|---|---|
+| **Intensive** | **H**isoniazid + **R**ifampicin + **P**yrazinamide (**Z**) + **E**thambutol (daily FDC, by weight band) | **2 months** |
+| **Continuation** | Isoniazid + Rifampicin | **4 months** |
+
+Regimen: **2HRZE / 4HR** (6 months), under **DOT / patient-centred support**.
+- Children: 2HRZ(E)/4HR with child-friendly FDCs; shorter 4-month regimen for non-severe childhood TB (WHO, 2022).
+- Monitoring: sputum at end of month 2, 5 and 6; side effects (hepatitis, neuropathy, visual).
+- **Drug-resistant TB**: shorter all-oral regimens (e.g., 6-month BPaLM: bedaquiline, pretomanid, linezolid, moxifloxacin) at DR-TB centres (WHO, 2022).
+- Add pyridoxine for INH neuropathy prevention in at-risk groups; treat HIV (ART).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO consolidated guidelines on tuberculosis, 2022.
+
+## DU.612
+**Approaches / measures for TB control**
+
+**A. Case finding**
+
+Passive (symptomatic patients at facilities); **active case finding** (contacts, PLHIV, prisons, slums, diabetics); rapid diagnosis with **GeneXpert**.
+
+**B. Treatment**
+
+Standardised short-course chemotherapy with **FDCs**; **DOTS** / patient support; management of DR-TB; treatment outcome monitoring.
+
+**C. Prevention**
+
+**BCG** at birth; **TB preventive therapy** (isoniazid 6 months, 3HP) for contacts and PLHIV; infection control (ventilation, cough etiquette, masks, triage).
+
+**D. Address risk factors**
+
+Nutrition, HIV, diabetes, smoking, alcohol; social protection; housing.
+
+**E. Health system**
+
+Drug supply, laboratory network, recording and reporting, trained staff, public–private mix, community DOTS (BRAC).
+
+**F. Strategy: WHO End TB Strategy (2015)**
+
+Three pillars: (1) integrated, patient-centred care and prevention; (2) bold policies and supportive systems (UHC, social protection); (3) research and innovation. Targets for 2035 (vs 2015): **95% fewer TB deaths, 90% lower incidence**; no families facing catastrophic costs.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.613
+**Preventive measures for tuberculosis**
+
+1. **Early detection and treatment of infectious cases** (most important: cuts transmission).
+2. **BCG vaccination** at birth (protects children from severe forms: TB meningitis, miliary TB).
+3. **TB preventive therapy**: household contacts (especially children <5), PLHIV, other high-risk groups.
+4. **Infection control**: ventilation, sunlight, cough etiquette, masks, separate waiting areas; N95 for health workers.
+5. **Contact tracing** and screening.
+6. **Improve living conditions**: nutrition, housing, less overcrowding.
+7. **Control of HIV, diabetes**, smoking and alcohol.
+8. **Health education**: symptoms, early care-seeking, treatment adherence, reducing stigma.
+9. Pasteurisation of milk (bovine TB).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.614
+**National TB Control Programme (NTP), Bangladesh**
+
+1. Run by **DGHS**; DOTS adopted in **1993**, expanded nationwide.
+2. **Free diagnosis and treatment** at UHCs, chest disease clinics, hospitals, NGO centres.
+3. **Partnership with NGOs** (BRAC and others) for community DOTS and case finding.
+4. **GeneXpert** network for rapid diagnosis and rifampicin resistance.
+5. **DR-TB management** at specialised centres (NIDCH) and decentralised sites.
+6. **Childhood TB**, TB–HIV, TB–diabetes activities.
+7. **Public–private mix** (private doctors, pharmacies).
+8. Urban DOTS; prison and Rohingya camp programmes.
+9. Advocacy, communication and social mobilisation; World TB Day.
+10. Recording and reporting; aligned with **End TB Strategy**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.615
+**DOTS**
+
+**Directly Observed Treatment, Short-course**: WHO's recommended TB control strategy, in which a trained person **watches the patient swallow every dose** of standardised short-course drugs.
+
+**Five components**
+
+1. **Political commitment** with increased and sustained financing.
+2. **Case detection** through quality-assured **bacteriology** (sputum microscopy, Xpert).
+3. **Standardised treatment** with supervision and patient support (DOT).
+4. Effective **drug supply** and management system.
+5. **Monitoring and evaluation** system and impact measurement (recording and reporting).
+
+**FDC (fixed-dose combination)**
+
+Two or more anti-TB drugs combined in **one tablet in fixed proportions**: e.g., 4-FDC (HRZE) for intensive phase, 2-FDC (HR) for continuation; dispersible paediatric FDCs.
+
+**Importance of DOTS**
+
+1. Ensures **adherence** → high cure rates.
+2. Prevents **drug resistance** (MDR-TB).
+3. Cuts **transmission** by curing infectious cases.
+4. **Cost-effective**.
+5. Systematic **monitoring** of outcomes (cure, completion, failure, default).
+6. Builds a **health system** for TB control.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.616
+**Five advantages of FDCs in TB treatment**
+
+1. **Fewer tablets** → better **adherence**.
+2. **Prevents monotherapy** (patient cannot take just one drug) → less **drug resistance**.
+3. **Simpler prescribing** by weight bands → fewer **dosing errors**.
+4. **Easier drug management**: procurement, storage, distribution.
+5. **Lower cost** and easier **DOT**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.617
+**DOTS strategies and activities in Bangladesh**
+
+1. **Political commitment**: NTP under DGHS; operational plan in health sector programme; donor support (Global Fund).
+2. **Case detection**: sputum microscopy and **GeneXpert** labs; contact screening; active case finding in slums, prisons, garment factories.
+3. **Standardised treatment** with **DOT** by health workers, NGO volunteers (BRAC *shasthya shebika*), family members; FDCs.
+4. **Drug supply**: free, uninterrupted supply of FDCs.
+5. **Monitoring and evaluation**: TB registers, quarterly reports, cohort analysis of outcomes; e-TB manager.
+6. Supporting activities: public–private mix, childhood TB, TB–HIV, DR-TB management, community awareness.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.618
+**Link between tuberculosis and HIV**
+
+**Why TB is more common in HIV-infected people**
+
+1. HIV destroys **CD4 T cells** → loss of **cell-mediated immunity**, the main defence against *M. tuberculosis*.
+2. **Reactivation of latent TB**: risk ~5–10% per year in HIV-infected (vs ~5–10% lifetime in HIV-negative).
+3. **Rapid progression** of new infection to disease.
+4. **Re-infection** more likely.
+5. High exposure in shared settings (poverty, prisons, hospitals).
+
+**Effects of co-infection**
+
+1. More **smear-negative and extrapulmonary** TB (harder to diagnose).
+2. Higher **mortality**; TB is the **leading cause of death among PLHIV**.
+3. TB **accelerates HIV progression** (immune activation).
+4. Drug interactions (rifampicin with ART); IRIS.
+5. More **drug-resistant TB** in some settings.
+
+**Collaborative TB–HIV activities**
+
+HIV testing of all TB patients; TB screening of PLHIV; **TB preventive therapy**; infection control; early **ART**; **cotrimoxazole** preventive therapy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.619
+**Why TB becomes drug-resistant**
+
+**A. Acquired (secondary) resistance: inadequate treatment**
+
+1. **Monotherapy** or adding a single drug to a failing regimen.
+2. **Wrong regimen or doses**; poor prescribing (unregulated private sector).
+3. **Irregular intake / non-adherence**: side effects, long treatment, poverty, ignorance, stigma.
+4. **Premature discontinuation** (patient feels better).
+5. **Drug stock-outs** and poor-quality drugs.
+6. Poor **DOT** and follow-up.
+7. **Malabsorption**, HIV, diabetes.
+
+**Mechanism**: spontaneous chromosomal mutations exist in large bacillary populations; inadequate therapy kills sensitive bacilli and **selects resistant mutants**.
+
+**B. Primary resistance**: transmission of resistant strains to new patients (crowded settings, poor infection control).
+
+**Types**
+
+| Type | Resistance |
+|---|---|
+| Rifampicin-resistant (RR-TB) | Rifampicin |
+| **MDR-TB** | At least **isoniazid + rifampicin** |
+| Pre-XDR-TB | MDR/RR + a fluoroquinolone |
+| **XDR-TB** | MDR/RR + fluoroquinolone + bedaquiline and/or linezolid |
+
+**Prevention**: DOTS, FDCs, patient support, quality drugs, rapid DST (Xpert), infection control.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.620
+**Relapse case of tuberculosis (WHO)**
+
+A patient who was **previously treated for TB**, was declared **cured or treatment completed** at the end of the last course, and is **now diagnosed with a recurrent episode of TB** (either true relapse or a new infection).
+
+**Other previously treated categories**
+
+Treatment after failure; treatment after loss to follow-up; other previously treated patients.
+
+**Management**: Xpert / DST to rule out resistance; treat according to susceptibility.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.621
+**Classification of leprosy**
+
+| Classification | Groups |
+|---|---|
+| **Madrid (1953)** | Lepromatous (L), Tuberculoid (T), Borderline / dimorphous (B), Indeterminate (I) |
+| **Indian (IAL, 1981)** | Indeterminate, Tuberculoid, Borderline, Lepromatous, **Pure neuritic** |
+| **Ridley–Jopling (1966)** (immunological spectrum) | **TT** (tuberculoid) – **BT** (borderline tuberculoid) – **BB** (mid-borderline) – **BL** (borderline lepromatous) – **LL** (lepromatous); plus indeterminate |
+| **WHO operational (for treatment)** | **Paucibacillary (PB)**: 1–5 skin lesions, no nerve involvement, smear-negative. **Multibacillary (MB)**: >5 skin lesions, or nerve involvement, or smear-positive |
+
+**Spectrum**
+
+TT → BT → BB → BL → LL
+Strong cell-mediated immunity, few bacilli ⟶ weak immunity, many bacilli
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.622
+**Multibacillary (MB) vs paucibacillary (PB) leprosy**
+
+| Point | Paucibacillary (PB) | Multibacillary (MB) |
+|---|---|---|
+| Skin lesions | **1–5** | **More than 5** |
+| Nerve involvement | None | Present (one or more nerves) |
+| Slit-skin smear | **Negative** | **Positive** (any lesion count) |
+| Ridley–Jopling | TT, BT (few lesions), indeterminate | BB, BL, LL (and BT with many lesions) |
+| Cell-mediated immunity | Good | Poor |
+| Lepromin test | Positive | Negative |
+| Infectiousness | Low | **High** (main source of infection) |
+| Lesions | Few, asymmetrical, well-defined, anaesthetic | Many, symmetrical, ill-defined; nodules |
+| WHO MDT duration | **6 months** | **12 months** |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO Guidelines for the diagnosis, treatment and prevention of leprosy, 2018.
+
+## DU.623
+**Treatment of leprosy (WHO, 2018: uniform three-drug MDT)**
+
+| Drug (adult) | Dose |
+|---|---|
+| **Rifampicin** | 600 mg once a month (supervised) |
+| **Clofazimine** | 300 mg once a month (supervised) + **50 mg daily** |
+| **Dapsone** | **100 mg daily** |
+
+| Type | Duration |
+|---|---|
+| **Paucibacillary** | **6 months** |
+| **Multibacillary** | **12 months** |
+
+**Children (10–14 years)**: rifampicin 450 mg monthly; clofazimine 150 mg monthly + 50 mg alternate days; dapsone 50 mg daily (lower weight-based doses for younger children).
+
+**Other points**
+
+- Monthly blister packs; free of cost.
+- Manage **reactions** (steroids) and **neuritis**; prevent disability (self-care, footwear).
+- **Single-dose rifampicin** post-exposure prophylaxis for contacts.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO Guidelines for the diagnosis, treatment and prevention of leprosy, 2018.
+
+## DU.624
+**Leprosy elimination programme in Bangladesh**
+
+1. **National Leprosy Programme** under DGHS with NGO partners (The Leprosy Mission and others).
+2. Bangladesh reached **elimination as a public health problem** at national level (prevalence <1 per 10,000) by the late 1990s; pockets remain in some northern and hill districts.
+3. **Free MDT** (WHO regimen) through UHCs and partner clinics.
+4. **Early case detection**: active case finding, **contact screening**, skin camps, school surveys.
+5. **Single-dose rifampicin PEP** for contacts.
+6. **Disability prevention and rehabilitation**: self-care groups, footwear, reconstructive surgery.
+7. **Stigma reduction**; health education; community participation.
+8. Surveillance, recording and reporting; aligned with WHO **"Towards zero leprosy" (2021–2030)**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.625
+**Epidemiology of poliomyelitis**
+
+| Factor | Details |
+|---|---|
+| **Agent** | Poliovirus types 1, 2, 3 (enterovirus); wild type 2 and 3 eradicated; wild type 1 persists in a few countries; vaccine-derived poliovirus (cVDPV) also causes outbreaks |
+| **Reservoir** | **Man only**; most infections **subclinical** (many inapparent infections for every paralytic case); no chronic carriers |
+| **Infective material** | **Faeces** (for weeks) and **oropharyngeal secretions** (first week) |
+| **Communicability** | Most infectious 7–10 days before and after onset of symptoms |
+| **Age** | Mainly **under 5 years** ("infantile paralysis") |
+| **Sex** | Paralysis more in males |
+| **Risk factors for paralysis** | Fatigue, trauma, **IM injections**, tonsillectomy (provocation paralysis), pregnancy, immunodeficiency |
+| **Immunity** | Type-specific, long-lasting; maternal antibodies protect for a few months |
+| **Environment** | Rainy season; poor sanitation, crowding |
+| **Transmission** | **Faecal–oral** (main); droplet in early phase |
+| **Incubation period** | **7–14 days** (range 3–35) |
+
+**Bangladesh**: polio-free (SEAR certified 2014) through EPI, NIDs and AFP surveillance; risk of importation and cVDPV remains.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
