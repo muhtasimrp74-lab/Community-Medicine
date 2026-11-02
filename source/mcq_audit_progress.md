@@ -9,9 +9,48 @@ Rules in force: conflict:true = PDF key (or one paper) disagrees with Park/curre
 Status
 - PDF pages read: all 21 (pp.188–208).
 - PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2); 23M, 22Nov-A, 22Nov-B (batch 3); 22M, 21M, 20M&Nov, 20Ju, 19Nov (batch 4). PDF pass COMPLETE: all 182 DU items now carry PDF refs, no † years left, every DU TF option keyed (20Ju and blank PDF keys supplied per Park and marked "key not given").
-- Next: New items part 1 → 11; then duplicate sweep.
+- New-item audit: parts 1–5 done (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
+- Next: New items parts 6 → 11; then duplicate sweep (incl. BCS).
 
 ## Change log
+
+### Batch 5 — New items, parts 1–5 (cache v47)
+Last New id checked: M.226. Retired 25 duplicates (see deleted lines).
+- M.24: deleted (duplicate of M.12)
+- M.25: deleted (duplicate of M.13)
+- M.26: deleted (duplicate of M.16; also keyed bed turnover ratio T (utilization rate))
+- M.44: deleted (duplicate of M.32; only 4 options)
+- M.45: deleted (duplicate of M.34)
+- M.62: deleted (duplicate of M.47)
+- M.63: deleted (duplicate of M.49)
+- M.64: deleted (duplicate of M.51)
+- M.65: deleted (duplicate of M.48; keyed defervescence F)
+- M.77: deleted (duplicate of M.69)
+- M.94: deleted (duplicate of M.88)
+- M.99: deleted (duplicate of M.81)
+- M.100: deleted (duplicate of M.86)
+- M.107: deleted (duplicate of M.103; keyed dynamic T against all DU keys)
+- M.108: deleted (duplicate of M.104)
+- M.125: deleted (duplicate of M.123)
+- M.135: deleted (duplicate of M.119)
+- M.139: deleted (duplicate of M.136)
+- M.161: deleted (duplicate of M.150)
+- M.178: deleted (duplicate of M.176)
+- M.181: deleted (duplicate of M.179)
+- M.201: deleted (duplicate of M.198)
+- M.209: deleted (duplicate of M.207)
+- M.218: deleted (duplicate of M.214)
+- M.219: deleted (duplicate of M.213)
+- M.5: stem fixed: definition was adopted 1946, in force 1948; distractor 1946 added
+- M.22: key was bed turnover ratio (a utilization rate); replaced by doctor-population ratio
+- M.23: negative stem made positive; old options had two defensible answers (LE at birth is not in PQLI)
+- M.60: defervescence removed from distractors (it is also a stage)
+- M.132: fifth statement added (had only 4)
+- M.320: fifth statement added (had only 4)
+- M.147: moved from Central Tendency (part 2) to Basic Principles of Epidemiology (part 10); ref
+- M.148: moved from Central Tendency (part 2) to Basic Principles of Epidemiology (part 10); ref
+- M.205: composting distractor replaced (also a correct answer)
+- checked: no content change, Park ref added: M.6, M.7, M.20, M.21, M.31, M.35, M.36, M.41, M.42, M.43, M.55, M.56, M.58, M.59, M.61, M.66, M.67, M.75, M.76, M.78, M.80, M.88, M.95, M.96, M.97, M.98, M.105, M.106, M.112, M.113, M.114, M.116, M.117, M.123, M.124, M.126, M.127, M.128, M.129, M.130, M.131, M.138, M.140, M.142, M.143, M.144, M.145, M.146, M.149, M.162, M.163, M.164, M.165, M.172, M.173, M.174, M.175, M.177, M.182, M.183, M.186, M.187, M.188, M.189, M.190, M.191, M.192, M.193, M.195, M.197, M.200, M.203, M.206, M.208, M.213, M.214, M.215, M.217, M.220, M.221, M.222, M.223, M.224, M.225, M.226
 
 ### Batch 4 — 22M, 21M, 20M&Nov, 20Ju, 19Nov (cache v46)
 Last site item checked: M.324 (19Nov Q18). PDF pass complete. No retirements.
@@ -216,4 +255,4 @@ Last site id checked: SBA/TF of 25M (M.398). Retired: M.87→M.81, M.199→M.198
 - M.398: daggers removed; ref
 - M.413: ref verified (Bangladesh CBE programme)
 
-RETIRED: M.10, M.15, M.87, M.155, M.199, M.288, M.290, M.405
+RETIRED: M.10, M.15, M.24, M.25, M.26, M.44, M.45, M.62, M.63, M.64, M.65, M.77, M.87, M.94, M.99, M.100, M.107, M.108, M.125, M.135, M.139, M.155, M.161, M.178, M.181, M.199, M.201, M.209, M.218, M.219, M.288, M.290, M.405
