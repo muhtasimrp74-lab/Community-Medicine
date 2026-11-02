@@ -1983,3 +1983,704 @@ Diseases whose main causes are social conditions (poverty, illiteracy, overcrowd
 4. Studied by **social medicine**.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine; Medicine and Social Sciences).
+
+## DU.63
+**Meaning**
+
+**Natural history of disease**: the way a disease evolves over time in a person, from the earliest stage of its pre-pathogenesis to its termination as recovery, disability or death, **without any treatment or intervention**.
+
+**Phases**
+
+| Phase | Features |
+|---|---|
+| **1. Pre-pathogenesis** | Before man is involved; disease agent present in the environment; interaction of **agent, host and environment** creates the stimulus; person is "at risk" |
+| **2. Pathogenesis** | Begins with entry of the agent into the host; agent multiplies, tissue changes occur |
+
+**Stages of pathogenesis**
+
+Stimulus → Early pathogenesis (incubation / pre-symptomatic) → Early discernible lesions → Advanced disease → Convalescence → Outcome (recovery, disability, defect, chronic state, death)
+
+- **Clinical horizon**: line separating subclinical from clinical disease.
+- Infectious diseases: incubation period; chronic diseases: latent period.
+
+**Levels of prevention along natural history (Leavell and Clark)**
+
+| Stage | Level | Mode of intervention |
+|---|---|---|
+| Pre-pathogenesis | Primary prevention | Health promotion; specific protection |
+| Early pathogenesis | Secondary prevention | Early diagnosis and treatment |
+| Late pathogenesis | Tertiary prevention | Disability limitation; rehabilitation |
+
+**Implications / uses**
+
+1. Basis of the **levels of prevention**.
+2. Helps plan **screening** (detect early, pre-symptomatic disease).
+3. Shows where the **iceberg** (hidden disease) lies.
+4. Natural history of chronic diseases is best studied by **cohort studies**.
+5. Helps predict prognosis and evaluate interventions.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.64
+**Definition**
+
+**Miasmatic theory**: the belief that disease is caused by **"miasma"** (bad air), foul-smelling, poisonous vapours rising from decaying organic matter, filth, sewage, marshes and swamps.
+
+**Features**
+
+1. Prevailed from ancient times to the late 19th century (before the germ theory).
+2. Disease attributed to environment and smell, not to specific organisms.
+3. Name **malaria** comes from Italian *mal aria*, "bad air".
+4. Cholera, plague and typhus were blamed on miasma.
+
+**Contribution**
+
+1. Led to the **sanitary movement**: cleaning streets, drainage, sewage disposal, safe water (Chadwick, Public Health Act 1848; Florence Nightingale).
+2. These measures reduced disease even though the theory was wrong.
+
+**Decline**
+
+Disproved by John Snow (cholera via water, 1854) and the **germ theory** (Pasteur, Koch).
+
+**Theories of disease causation (sequence)**
+
+Supernatural → Theory of humours → **Miasmatic** → Germ theory → Epidemiological triad → Multifactorial causation (web of causation)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.65
+**Multifactorial causation**
+
+- Disease results from the **interaction of many factors** (agent, host, environment, lifestyle), not a single cause.
+- Early proponent: **Pettenkofer** of Munich (19th century).
+- **Web of causation** (MacMahon and Pugh): a chain of interlinked factors; removing some links can prevent disease.
+- Especially relevant to **non-communicable diseases**; also explains infections (agent is necessary but not sufficient).
+
+**Examples**
+
+| Disease | Factors |
+|---|---|
+| Coronary heart disease | Hyperlipidaemia, smoking, hypertension, diabetes, obesity, physical inactivity, stress, family history |
+| Tuberculosis | *M. tuberculosis* + poverty, malnutrition, overcrowding, HIV, diabetes, smoking |
+| Road traffic accident | Driver (alcohol, fatigue), vehicle, road, weather, law enforcement |
+| Lung cancer | Smoking, air pollution, occupational exposures, genetic factors |
+
+**Implications**
+
+Prevention can act on any modifiable factor; multiple interventions together give best results.
+
+**Self-care**
+
+- **Definition (WHO, 2019)**: the ability of individuals, families and communities to promote health, prevent disease, maintain health, and cope with illness and disability with or without the support of a health worker.
+- Park: activities people undertake to promote their own health, prevent disease, limit illness and restore health, using their own knowledge and skills.
+
+**Examples**
+
+1. Observing symptoms and signs (fever, lump in breast).
+2. Self-medication for minor illness (paracetamol, ORS).
+3. Self-monitoring: blood pressure, blood glucose, weight.
+4. Self-tests: pregnancy test, HIV self-test.
+5. Dressing minor wounds; first aid.
+6. Healthy lifestyle: diet, exercise, no tobacco.
+7. Adherence to treatment in chronic diseases (insulin self-injection).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.66
+**Epidemiological (ecological) triad**
+
+Disease results from interaction of three components:
+
+Agent ↔ Host ↔ Environment
+
+| Component | Meaning | Examples |
+|---|---|---|
+| **Agent** | Factor whose presence (or absence) is needed for disease | Biological (bacteria, viruses), nutrient, physical, chemical, mechanical, social agents |
+| **Host** | Human (or animal) who harbours the disease | Age, sex, genetics, immunity, nutrition, behaviour, occupation |
+| **Environment** | All external conditions influencing agent and host | Physical (climate, water), biological (vectors, animals), psychosocial (poverty, customs) |
+
+**Role in disease causation**
+
+1. Health = **equilibrium** among agent, host and environment.
+2. Disease = **imbalance**: more virulent agent, more susceptible host, or environment favouring agent.
+3. Environment links agent and host (e.g., stagnant water → mosquitoes → malaria).
+4. Model suits **communicable diseases**; for NCDs the **web of causation** is preferred.
+5. Prevention can act on any arm: kill agent, protect host, modify environment.
+
+**Example: cholera**
+
+Agent: *Vibrio cholerae* | Host: low gastric acidity, malnutrition, blood group O | Environment: contaminated water, poor sanitation, floods.
+
+**Modes of transmission**
+
+| Direct | Indirect |
+|---|---|
+| Direct contact (STIs, skin infections) | Vehicle-borne (water, food, blood) |
+| Droplet infection (measles, influenza) | Vector-borne: mechanical, biological (propagative, cyclo-propagative, cyclo-developmental) |
+| Contact with soil (tetanus, hookworm) | Airborne (droplet nuclei, dust) |
+| Inoculation into skin or mucosa (rabies) | Fomite-borne (towels, utensils) |
+| Transplacental (rubella, HIV, syphilis) | Unclean hands and fingers |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Principles of Epidemiology).
+
+## DU.67
+**Definition**
+
+**Disease agent**: a substance, living or non-living, or a force, tangible or intangible, whose excessive presence or relative lack may initiate or perpetuate a disease process.
+
+**Classification of agents (Park)**
+
+| Agent | Examples |
+|---|---|
+| 1. **Biological** | Viruses (measles), rickettsiae (typhus), bacteria (TB), fungi (candida), protozoa (malaria), metazoa (hookworm) |
+| 2. **Nutrient** | Deficiency or excess of protein, fat, carbohydrate, vitamins, minerals, water (kwashiorkor, rickets, obesity) |
+| 3. **Physical** | Heat, cold, humidity, pressure, radiation, electricity, sound (heat stroke, deafness) |
+| 4. **Chemical: endogenous** | Accumulated urea (uraemia), bilirubin (jaundice), ketones, uric acid (gout), calcium carbonate (stones) |
+| 4. **Chemical: exogenous** | Allergens, metals (arsenic, lead), fumes, dust, gases, pesticides |
+| 5. **Mechanical** | Chronic friction, injuries, fractures, sprains, accidents |
+| 6. **Absence or insufficiency or excess of a factor necessary to health** | Hormones (insulin → diabetes), enzymes, chromosomal factors (Down syndrome), immunological factors (agammaglobulinaemia), structure (congenital heart defect) |
+| 7. **Social** | Poverty, smoking, alcohol and drug abuse, unhealthy lifestyle, social isolation, maternal deprivation |
+
+**Responsible agent vs sufficient cause**
+
+An agent is usually **necessary but not sufficient**; host and environment decide whether disease develops.
+
+**Clinical vs community medicine (brief)**
+
+Clinical medicine finds the agent in a patient and treats it; community medicine studies agents, host and environment in populations and controls their spread.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.68
+**Definition**
+
+**Risk factor**: an attribute or exposure that is significantly associated with the development of a disease (Park). Its presence increases the probability of disease; its removal reduces it.
+
+**Features**
+
+1. Shows **association**, not always proof of cause.
+2. Detected by **epidemiological studies** (case-control, cohort).
+3. Usually several risk factors act together (multifactorial causation).
+4. Many are **modifiable** → basis of prevention.
+
+**Types**
+
+| Type | Examples |
+|---|---|
+| Modifiable | Smoking, high BP, high cholesterol, obesity, physical inactivity, unhealthy diet, alcohol |
+| Non-modifiable | Age, sex, family history, genetic make-up, ethnicity |
+
+**Related terms**
+
+- **Risk**: probability that an event (disease) will occur.
+- **Risk marker / indicator**: attribute linked with increased risk but not causal (e.g., low social class).
+- **Risk group**: group of people at higher risk (e.g., pregnant women, under-fives, elderly, health workers for hepatitis B).
+- **Risk factor vs cause**: a cause is shown to produce disease; a risk factor may be causal or only associated.
+
+**Uses**
+
+1. Predict who will get disease (**risk prediction**).
+2. Target **high-risk** groups for screening and prevention.
+3. **Primordial and primary prevention** (tobacco control, salt reduction).
+4. Plan health services and education.
+
+**Examples by disease**
+
+CHD: smoking, hypertension, hyperlipidaemia | Cervical cancer: HPV, early marriage, multiparity | TB: HIV, malnutrition, diabetes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.69
+**Concept**
+
+The **disease cycle (chain of infection)**: the sequence of links by which an infectious agent leaves one host and infects another. Infection continues only if every link is present; **breaking any link stops transmission**.
+
+**Six stages (links)**
+
+Infectious agent → Reservoir / source → Portal of exit → Mode of transmission → Portal of entry → Susceptible host → (back to agent/reservoir)
+
+| Stage | Meaning | Example (TB) | Control measure |
+|---|---|---|---|
+| 1. Infectious agent | Organism causing disease | *M. tuberculosis* | Early diagnosis, treatment (DOTS) |
+| 2. Reservoir / source | Where the agent lives and multiplies | Sputum-positive patient | Case finding, isolation, treatment |
+| 3. Portal of exit | Route by which agent leaves | Respiratory tract (cough) | Cough etiquette, masks |
+| 4. Mode of transmission | How agent reaches new host | Droplet nuclei (airborne) | Ventilation, sunlight, UV |
+| 5. Portal of entry | Route into new host | Respiratory tract | Masks (N95) for health workers |
+| 6. Susceptible host | Person who can be infected | Malnourished, HIV-positive | BCG, nutrition, TB preventive therapy |
+
+**Uses**
+
+1. Explains how infection spreads.
+2. Identifies the **weakest link** to target control.
+3. Guides **infection prevention** in hospitals (hand hygiene, sterilisation, isolation).
+4. Basis of the three control approaches: **control of reservoir, interruption of transmission, protection of susceptible**.
+5. Helps outbreak investigation and health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Concept of Health and Disease).
+
+## DU.70
+**Iceberg of disease**
+
+A concept comparing disease in a community to an iceberg:
+
+| Part | Represents |
+|---|---|
+| **Floating tip** (visible) | Clinical cases seen by doctors |
+| **Waterline** | Line between apparent and inapparent disease |
+| **Submerged mass** (hidden, larger) | Undiagnosed cases, subclinical (inapparent) infections, carriers, latent and pre-symptomatic disease |
+
+**Examples**
+
+Hypertension, diabetes, anaemia, malnutrition, mental illness, TB, polio, hepatitis B; hidden cases far outnumber diagnosed ones.
+Iceberg is absent or small in rabies, measles and tetanus (almost all infections are clinical).
+
+**Epidemiological importance**
+
+1. Clinicians see only the tip; the true **burden** is much larger.
+2. The hidden part is a major **source of infection** (carriers, subclinical cases) → spread continues unnoticed.
+3. Justifies **screening** and **active case finding** to detect hidden cases early (secondary prevention).
+4. Hospital data alone **underestimate** disease; community surveys are needed (**community diagnosis**).
+5. Guides **planning and resource allocation**.
+6. Explains why disease **control is difficult** for diseases with large submerged parts.
+7. Underlines community medicine's focus on the **whole population**, not only patients.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.71
+**Definition**
+
+**Opportunistic infection**: infection by an organism that usually does not cause disease (or causes only mild disease) in a healthy person, but causes disease when the host's defences are weakened, i.e., it takes the "opportunity" of lowered immunity.
+
+**Conditions that lower immunity**
+
+HIV/AIDS; cancer chemotherapy; organ transplant (immunosuppressants); long-term steroids; diabetes; severe malnutrition; extremes of age; congenital immunodeficiency.
+
+**Examples**
+
+| Group | Organism / disease |
+|---|---|
+| Bacterial | Tuberculosis, *Mycobacterium avium* complex, recurrent bacterial pneumonia |
+| Fungal | Oral and oesophageal candidiasis, *Pneumocystis jirovecii* pneumonia, cryptococcal meningitis, histoplasmosis |
+| Viral | CMV retinitis, herpes zoster, HSV ulcers, HHV-8 (Kaposi's sarcoma) |
+| Protozoal | Cerebral toxoplasmosis, cryptosporidiosis |
+
+**Importance**
+
+1. Main cause of illness and death in **AIDS**; some are AIDS-defining.
+2. **TB** is the commonest opportunistic infection in people with HIV in South Asia.
+
+**Prevention**
+
+Antiretroviral therapy; cotrimoxazole prophylaxis; TB preventive therapy; vaccination; good nutrition; infection control in hospitals.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.72
+**Host factors (intrinsic factors)**
+
+| Group | Factors | Examples |
+|---|---|---|
+| 1. **Demographic** | Age, sex, ethnicity | Measles in children; breast cancer in women; thalassaemia in certain groups |
+| 2. **Biological** | Genetic factors; biochemical levels (cholesterol); blood groups; physiological state (pregnancy, puberty, stress, fatigue); immunity and previous disease; nutrition | Sickle-cell trait protects against malaria; blood group O and cholera; pregnancy and anaemia |
+| 3. **Social and economic** | Socio-economic status, education, occupation, stress, marital status, housing | Silicosis in stone crushers; TB with poverty and overcrowding |
+| 4. **Lifestyle** | Personality traits, living habits, nutrition, physical exercise, use of alcohol, drugs, smoking, behaviour | CHD with smoking and inactivity; HIV with risky sexual behaviour |
+
+**Other host factors**
+
+- **Immune status**: vaccination, natural immunity.
+- **Personal hygiene**: scabies, worm infestation.
+- **Psychological factors**: personality type A and CHD.
+
+**Importance**
+
+Host factors decide **susceptibility**; they explain why only some exposed persons fall ill and help identify **high-risk groups** for prevention.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.73
+**Definitions**
+
+1. **Webster**: a condition in which body health is impaired; a departure from a state of health; an alteration of the body that interrupts performance of vital functions.
+2. **Oxford English Dictionary**: a condition of the body, or of some part or organ, in which its functions are disturbed or deranged.
+3. **Ecological view**: maladjustment of the human organism to its environment.
+
+**Disease, illness, sickness**
+
+| Term | Meaning | Perspective |
+|---|---|---|
+| **Disease** | Physiological or psychological dysfunction | Doctor's (objective) |
+| **Illness** | Subjective state of feeling unwell | Patient's (subjective) |
+| **Sickness** | State of social dysfunction; role the person takes when ill ("sick role") | Society's |
+
+A person may have disease without illness (hypertension) or illness without disease (anxiety).
+
+**Features**
+
+- Has a cause (agent, host, environment interaction).
+- Follows a **natural history**.
+- Has a spectrum: inapparent → mild → severe → fatal.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.74
+**Definition**
+
+**Disease control**: ongoing operations aimed at reducing:
+1. the **incidence** of disease,
+2. the **duration** of disease and so the risk of transmission,
+3. the **effects** of infection, including physical and psychosocial complications,
+4. the **financial burden** to the community.
+
+The aim is to reduce the disease to a level where it is **no longer a public health problem**; the agent continues to exist in the community.
+
+**Spectrum**
+
+Control → Elimination → Eradication
+
+**Measures**
+
+| Approach | Examples |
+|---|---|
+| Control of reservoir | Early diagnosis, treatment, isolation, quarantine, notification |
+| Interruption of transmission | Water purification, sanitation, vector control, hand hygiene, safe sex |
+| Protection of susceptible | Immunisation, chemoprophylaxis, nutrition, personal protection |
+| Surveillance | Notification, case detection, outbreak response, monitoring of trends |
+
+Supported by health education, intersectoral action and community participation.
+
+**Examples (Bangladesh)**
+
+TB (DOTS), malaria (bed nets, rapid tests), dengue (source reduction, case management), diarrhoea (ORS, WASH).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.75
+**Levels of prevention and modes of intervention**
+
+| Level | Phase of natural history | Mode of intervention | Examples |
+|---|---|---|---|
+| **Primordial** | Before risk factors appear | Prevent emergence of risk factors (individual and mass education, policy) | Discourage children from smoking; promote healthy diet and play; tobacco laws |
+| **Primary** | Pre-pathogenesis | 1. **Health promotion** | Health education, nutrition, sanitation, housing, lifestyle change |
+| | | 2. **Specific protection** | Immunisation, chemoprophylaxis, iodised salt, vitamin A, helmets, protective gear, condom use |
+| **Secondary** | Early pathogenesis | 3. **Early diagnosis and treatment** | Screening (BP, diabetes, VIA), case finding (TB), treatment of malaria, IMCI |
+| **Tertiary** | Late pathogenesis | 4. **Disability limitation** | Good diabetes control to prevent amputation; treatment of stroke; leprosy MDT and care |
+| | | 5. **Rehabilitation** | Medical, vocational, social, psychological: physiotherapy, artificial limb, job training |
+
+**Key points**
+
+1. Levels follow the **natural history of disease** (Leavell and Clark).
+2. Five modes of intervention: health promotion, specific protection, early diagnosis and treatment, disability limitation, rehabilitation.
+3. Earlier prevention is cheaper and more effective.
+4. Secondary prevention is often the main option for diseases without primary prevention.
+
+**Example: diabetes at all levels**
+
+Primordial: healthy school food | Primary: weight control, exercise | Secondary: blood glucose screening | Tertiary: foot care, eye laser, rehabilitation after amputation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.76
+**Definition**
+
+**Primordial prevention**: prevention of the emergence or development of **risk factors** in countries or population groups in which they have not yet appeared.
+
+**Features**
+
+1. Newest level; acts **before** risk factors appear.
+2. Especially for **chronic NCDs** (CHD, hypertension, diabetes, cancers).
+3. Targets **children and young people**, before harmful habits form.
+4. Works mainly through **individual and mass education** and healthy public policy.
+5. Population-wide; not disease-specific.
+
+**Examples**
+
+| Risk factor prevented | Measure |
+|---|---|
+| Smoking | Tobacco control law, school education, ban on advertising, taxes |
+| Unhealthy diet | School nutrition, limits on trans fat, salt and sugar; healthy food labelling |
+| Physical inactivity | Playgrounds, parks, safe walking and cycling paths |
+| Obesity | Breastfeeding promotion, healthy lifestyle education |
+| Alcohol and drugs | Laws, awareness, family support |
+| Air pollution | Clean fuel, emission control |
+
+**Primordial vs primary prevention**
+
+| Primordial | Primary |
+|---|---|
+| Prevents risk factors | Prevents disease in those with/without risk factors |
+| Before risk factors appear | Pre-pathogenesis phase |
+| Mainly policy and education | Health promotion + specific protection |
+
+**Bangladesh examples**
+
+Smoking and Tobacco Products Usage (Control) Act 2005 (amended 2013); school health education; anti-tobacco campaigns.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.77
+**Definition**
+
+**Primary prevention**: action taken **before the onset of disease** that removes the possibility that the disease will ever occur; intervention in the **pre-pathogenesis** phase.
+
+**Modes of intervention**
+
+**1. Health promotion** (not disease-specific)
+- Health education
+- Environmental modifications (safe water, sanitation, housing)
+- Nutritional interventions (food fortification, supplementation)
+- Lifestyle and behavioural changes
+
+**2. Specific protection** (disease-specific)
+- Immunisation (EPI: BCG, pentavalent, MR, PCV)
+- Use of specific nutrients (iodised salt, vitamin A, iron-folic acid)
+- Chemoprophylaxis (antimalarials for travellers, cotrimoxazole in HIV)
+- Protection against occupational hazards (masks, earplugs)
+- Protection against accidents (helmets, seat belts)
+- Protection from carcinogens (HPV vaccine, no tobacco)
+- Avoidance of allergens
+- Control of specific environmental hazards (air pollution)
+- Quality control of food, drugs and cosmetics
+
+**Approaches**
+
+| Approach | Meaning | Example |
+|---|---|---|
+| **Population (mass) strategy** | Lower the risk factor level in the whole population | Salt reduction for all |
+| **High-risk strategy** | Target persons at special risk | Statins and counselling for high-risk adults |
+
+**Importance**
+
+Most effective and cheapest level; "prevention is better than cure"; WHO and Alma-Ata stress it.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.78
+**Definitions**
+
+| Term | Meaning | Measures needed after achievement | Example |
+|---|---|---|---|
+| **Control** | Reduction of incidence, prevalence, morbidity or mortality to an acceptable level | Continued | TB, malaria |
+| **Elimination as a public health problem** (WHO) | Achievement of defined measurable targets (e.g., below a threshold rate) in an area | Continued | Kala-azar: <1 case/10,000 at upazila level |
+| **Elimination of disease** | Reduction to **zero incidence** of disease in a defined geographical area | Continued | Neonatal tetanus in a country |
+| **Elimination of infection** | Reduction to **zero incidence of infection** in a defined area | Continued | Polio in a region |
+| **Eradication** | Permanent reduction to **zero worldwide incidence of infection**; termination of all transmission by extermination of the agent | **Not needed** | Smallpox |
+| **Extinction** | Agent no longer exists in nature or laboratory | None | None yet |
+
+**Eradication: smallpox**
+
+- Last natural case worldwide: Somalia, 1977; Bangladesh's last case: 1975.
+- WHO declared global eradication in **1980**.
+- Candidates: poliomyelitis, dracunculiasis (guinea worm), yaws.
+
+**Elimination: Bangladesh**
+
+1. **Lymphatic filariasis**: eliminated as a public health problem (WHO validated, May 2023).
+2. **Kala-azar**: eliminated as a public health problem (WHO validated, October 2023); first country in the world.
+3. **Polio**: free, with SEAR certified polio-free in 2014.
+
+**Key difference**
+
+Elimination = regional, control measures must continue; eradication = global, measures can stop.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
+
+## DU.79
+**Definitions**
+
+1. **Park**: the continuous scrutiny of the factors that determine the occurrence and distribution of disease and other conditions of ill health.
+2. **CDC / WHO (public health surveillance)**: the ongoing, systematic collection, analysis and interpretation of health-related data essential to planning, implementation and evaluation of public health practice, with timely dissemination to those who need to know, linked to action.
+
+Short form: **"information for action"**.
+
+**Objectives**
+
+1. Provide information on new and changing trends of disease.
+2. Detect outbreaks early and start control.
+3. Monitor progress of control programmes.
+4. Evaluate interventions.
+5. Help planning and resource allocation.
+
+**Types**
+
+| Type | Example |
+|---|---|
+| Passive | Routine reports from health facilities (HMIS) |
+| Active | Health workers search for cases (AFP, measles) |
+| Sentinel | Selected sites (influenza, HIV) |
+| Syndromic | Fever, diarrhoea, respiratory syndromes |
+| Event-based | Media reports, rumours |
+| Laboratory-based | Isolates, antimicrobial resistance |
+
+**Components**
+
+Data collection → Compilation and analysis → Interpretation → Dissemination → Action (feedback)
+
+**Bangladesh**
+
+IEDCR (national surveillance, outbreak response); AFP, measles, dengue surveillance; DHIS2; International Health Regulations (2005).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.80
+**Definitions**
+
+1. The goals of medicine: to **promote** health, **preserve** health, **restore** health when impaired, and **minimise suffering**; these goals are summed up in the word **prevention**.
+2. **Prevention**: actions aimed at eradicating, eliminating or minimising the impact of disease and disability, or, if none is feasible, slowing their progress (Last, Dictionary of Epidemiology).
+
+**Concept**
+
+- Based on knowledge of the **natural history of disease**.
+- Acts at every stage, not only before disease.
+
+**Levels**
+
+Primordial → Primary → Secondary → Tertiary
+
+**Modes of intervention**
+
+Health promotion; specific protection; early diagnosis and treatment; disability limitation; rehabilitation.
+
+**Examples**
+
+| Level | Example |
+|---|---|
+| Primordial | Preventing children from starting smoking |
+| Primary | Measles vaccination |
+| Secondary | Screening for cervical cancer (VIA) |
+| Tertiary | Physiotherapy after stroke |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
+
+## DU.81
+**Definition**
+
+**Community diagnosis**: identification and quantification of the health problems of a community in terms of mortality and morbidity rates and ratios, and identification of their correlates (determinants), in order to define those at risk or in need of health care.
+
+It is to the community what clinical diagnosis is to the patient.
+
+**Steps**
+
+Collect data (census, records, surveys) → Calculate rates and ratios → Identify main problems and at-risk groups → Find causes / correlates → Set priorities → Plan action (community treatment)
+
+**Data used**
+
+Demographic (age-sex structure), vital statistics (births, deaths), morbidity, nutritional status, environment (water, sanitation), socio-economic status, health services and their use.
+
+**Example**
+
+A village survey shows high diarrhoea and stunting among under-fives, linked with unsafe water, open defecation and poor feeding → diagnosis: "diarrhoea and undernutrition due to poor WASH and feeding practices".
+
+**Importance in prevention of disease**
+
+1. **Identifies priority problems and their causes** → targets prevention where it is needed most.
+2. **Defines high-risk groups** (mothers, under-fives, elderly, workers) → selective protection and screening.
+3. **Basis for planning and resource allocation** of preventive programmes (immunisation, WASH, nutrition).
+4. **Baseline for evaluation**: later surveys show whether prevention worked.
+5. Detects the **hidden iceberg** of disease missed by hospital data.
+6. Promotes **community participation** in solving local problems.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine; Principles of Epidemiology).
+
+## DU.82
+**Definition**
+
+**Community treatment**: organised, collective health action taken by the health system and the community to deal with the health problems identified by **community diagnosis**; it includes promotive, preventive, curative and rehabilitative measures applied to the whole population or groups.
+
+Community diagnosis → Community treatment → Evaluation
+
+**Methods**
+
+1. Health education and behaviour change.
+2. Environmental measures: safe water, sanitation, vector control.
+3. Mass immunisation campaigns.
+4. **Mass drug administration** and chemoprophylaxis.
+5. Nutrition programmes: supplementation, fortification.
+6. Screening and case finding.
+7. Legislation: food safety, tobacco control.
+8. Organisation of health services and referral.
+
+**Role in controlling disease**
+
+| Disease | Community treatment |
+|---|---|
+| Lymphatic filariasis | Annual MDA with DEC + albendazole → eliminated in Bangladesh (2023) |
+| Polio | National Immunisation Days |
+| Cholera | Chlorination, ORS, oral cholera vaccine campaigns |
+| Worm infestation | Mass deworming of school children |
+| Vitamin A deficiency | Biannual vitamin A campaigns |
+| Dengue | Community source reduction |
+| Iodine deficiency | Universal salt iodisation |
+
+**Clinical vs community treatment**
+
+| Clinical | Community |
+|---|---|
+| Individual patient | Whole population |
+| Drugs, surgery | Programmes, policy, environment |
+| Cure | Prevention and control |
+| Evaluated by recovery | Evaluated by fall in incidence |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
+
+## DU.83
+**Definition**
+
+**Screening**: the search for unrecognised disease or defect by means of rapidly applied tests, examinations or other procedures in apparently healthy individuals. It sorts out those who **probably have** the disease from those who probably do not; it is **not diagnostic** (positives need diagnostic confirmation) (US Commission on Chronic Illness).
+
+**Classification (types of screening)**
+
+| Type | Meaning | Example |
+|---|---|---|
+| **Mass screening** | Whole population or large group, regardless of risk | Hypertension screening of all adults in a community |
+| **High-risk / selective screening** | Only groups at higher risk | Diabetes in obese adults; cervical cancer screening in women 30–60 years |
+| **Multiphasic screening** | Several tests at one time | Health check-up: BP, glucose, lipids, Hb, urine |
+| **Opportunistic (case finding)** | Testing patients who come for other reasons | Checking BP of every OPD patient |
+
+**By purpose (uses)**
+
+1. **Case detection** (prescriptive screening): for the person's benefit (neonatal hypothyroidism, breast cancer).
+2. **Control of disease** (prospective screening): to protect others (TB, STIs in sex workers, HBsAg in blood donors).
+3. **Research**: natural history of chronic disease.
+4. **Educational opportunity**: raising awareness.
+
+**Criteria of a good screening test**
+
+Acceptability; repeatability (reliability); validity (sensitivity, specificity); yield; simplicity; safety; rapidity; ease of administration; low cost.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Screening for Disease).
+
+## DU.84
+**2 × 2 table**
+
+| Screening test | Disease present | Disease absent | Total |
+|---|---|---|---|
+| Positive | a (true positive) | b (false positive) | a + b |
+| Negative | c (false negative) | d (true negative) | c + d |
+| Total | a + c | b + d | N |
+
+**Sensitivity vs specificity**
+
+| Point | Sensitivity | Specificity |
+|---|---|---|
+| Definition | Ability of a test to identify correctly those **who have** the disease | Ability of a test to identify correctly those **who do not have** the disease |
+| Formula | a / (a + c) × 100 | d / (b + d) × 100 |
+| Also called | True positive rate | True negative rate |
+| Linked error | Low sensitivity → more **false negatives** | Low specificity → more **false positives** |
+| Effect of error | Cases missed; false reassurance; disease spreads | Healthy people investigated, anxious, extra cost |
+| Preferred when | Disease serious, treatable, missing it is costly (e.g., blood donor HIV, PKU) | False positives are harmful or costly (e.g., before surgery or toxic treatment); disease rare |
+| Effect of moving cut-off (e.g., lowering glucose cut-off) | Increases | Decreases |
+
+**Relationship**
+
+- Sensitivity and specificity are **inversely related** when the cut-off changes; both are inherent properties of the test, not affected by prevalence.
+- Two tests in **series** raise specificity; in **parallel** raise sensitivity.
+
+**Related measures**
+
+Positive predictive value = a / (a + b); negative predictive value = d / (c + d); these depend on prevalence.
+
+**Example**
+
+100 diseased, 900 healthy; test positive in 90 diseased and 45 healthy → sensitivity = 90/100 = 90%; specificity = 855/900 = 95%.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Screening for Disease).
