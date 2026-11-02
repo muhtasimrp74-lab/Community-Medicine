@@ -8,10 +8,55 @@ Rules in force: conflict:true = PDF key (or one paper) disagrees with Park/curre
 
 Status
 - PDF pages read: all 21 (pp.188–208).
-- PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2).
-- Next: 23M, 22Nov-A/B; then 22M, 21M, 20M&Nov, 20Ju, 19Nov. Then New items part 1 → 11; then duplicate sweep.
+- PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2); 23M, 22Nov-A, 22Nov-B (batch 3).
+- Next: 22M, 21M, 20M&Nov, 20Ju, 19Nov. Then New items part 1 → 11; then duplicate sweep.
 
 ## Change log
+
+### Batch 3 — 23M, 22Nov-A, 22Nov-B (cache v45)
+Last site item checked: M.307 (22Nov-B Q20). Retired: M.10→M.9, M.155→M.154, M.405→M.403.
+- M.376: morbidity indicator set T with conflict; options made self-contained; 19Nov year on d
+- M.8: rebuilt: duplicate age/housing rows removed, poor nutrition and sex restored; all five keys set per Park and flagged
+- M.377: stem clarified (PDF: "Cohort study means")
+- M.10: deleted (merged into M.9)
+- M.9: merged M.10 (19Nov "life style may be influenced by"); 23M negative stem turned positive; merged 19Nov item; emotion flagged
+- M.103: rebuilt: duplicate dynamic rows removed (21M key is F, was misread T)
+- M.228: typos; 19Nov year on FWA
+- M.28: ref
+- M.234: ref
+- M.304: keys set to PDF (750 ml F); protein statement F with conflict
+- M.194: ref
+- M.235: dagger removed
+- M.397: dagger removed
+- M.212: ref
+- M.322: wording; ref
+- M.71: keys fixed: sanitation T (PDF), occupational protection F with conflict
+- M.400: wording; ref
+- M.155: deleted (merged into M.154)
+- M.154: merged M.155 ("printed media includes", 22Nov-B and 22M); 22Nov-A stem/key mismatch resolved (keys were wrong on site); merged M.155
+- M.121: keys a-d set per standard definition and flagged; dagger removed
+- M.419: key fixed to PDF: low vegetable intake T; dagger removed
+- M.85: ref
+- M.405: deleted (merged into M.403)
+- M.403: merged M.405 (22Nov-B "AIDS spreads by"); rebuilt: conflicting duplicate rows removed; negative stems turned positive; merged M.405
+- M.72: 22Nov-B statements merged in
+- M.49: ref
+- M.246: 21M KFD key is F (flagged); trachoma 21M/22Nov-A T, 22M F flagged
+- M.335: ref
+- M.418: key fixed: weight loss T, conflict flagged; dagger removed
+- M.255: dagger removed
+- M.305: rebuilt: duplicate rows removed; IUGR restored; conflicts flagged
+- M.359: key fixed to PDF: monkey face F; muscle wasting T with conflict
+- M.236: board-meeting statement flagged (PDF T)
+- M.73: ref
+- M.169: ref
+- M.104: ref
+- M.306: dagger removed; wording
+- M.343: ref
+- M.404: wording; ref
+- M.344: all keys F per ICMR-NIN 2020, flagged; dagger removed
+- M.156: ref
+- M.307: ref; 20M&Nov note
 
 ### Batch 2 — 24Nov, 24M, 23Nov (cache v44)
 Last site item checked: M.417 (23Nov Q20). Retired: M.15→M.14.
@@ -120,4 +165,4 @@ Last site id checked: SBA/TF of 25M (M.398). Retired: M.87→M.81, M.199→M.198
 - M.398: daggers removed; ref
 - M.413: ref verified (Bangladesh CBE programme)
 
-RETIRED: M.15, M.87, M.199, M.288, M.290
+RETIRED: M.10, M.15, M.87, M.155, M.199, M.288, M.290, M.405
