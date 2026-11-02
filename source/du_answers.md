@@ -16300,3 +16300,1406 @@ Health education; community clean-up drives; school involvement; legislation; co
 Dengue vaccines exist (e.g., TAK-003, recommended by WHO for some high-transmission settings) but are not part of Bangladesh's routine programme.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.651
+**Critical phase of dengue**
+
+The period around **defervescence** (usually days **3–7** of illness), lasting **24–48 hours**, when **plasma leakage** (increased capillary permeability) may occur → haemoconcentration, fluid in pleura and abdomen, **shock**, bleeding and organ damage. Falling fever here does not mean recovery.
+
+**Three warning signs of severe dengue (WHO)**
+
+1. **Abdominal pain** or tenderness.
+2. **Persistent vomiting**.
+3. **Mucosal bleeding**; also clinical fluid accumulation, lethargy or restlessness, liver enlargement >2 cm, **rising haematocrit with rapid fall in platelets**.
+
+**Why source reduction matters more than insecticides alone**
+
+1. *Aedes* breeds in **containers in and around homes**; removing them stops new mosquitoes at the source.
+2. Insecticides (fogging) kill only **adults present at that time**; effect is **temporary**; indoor-resting *Aedes* often escape.
+3. **Eggs survive drying for months** → only container removal or cleaning breaks the cycle.
+4. **Insecticide resistance** develops with repeated use.
+5. Insecticides harm the **environment**, non-target species and health; give false sense of safety.
+6. Source reduction is **cheap, sustainable** and builds **community participation**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.652
+**WHO classification of dengue (2009)**
+
+| Category | Features |
+|---|---|
+| **Dengue without warning signs** | Fever with two of: nausea/vomiting, rash, aches and pains, positive tourniquet test, leucopenia |
+| **Dengue with warning signs** | Abdominal pain, persistent vomiting, fluid accumulation, mucosal bleeding, lethargy/restlessness, liver >2 cm, rising haematocrit with falling platelets |
+| **Severe dengue** | **Severe plasma leakage** → shock (dengue shock syndrome) or fluid accumulation with respiratory distress; **severe bleeding**; **severe organ involvement** (AST/ALT ≥1,000, impaired consciousness, heart or other organs) |
+
+**Older WHO grading (1997): DHF grades**
+
+| Grade | Features |
+|---|---|
+| I | Fever + positive tourniquet test (no spontaneous bleeding) |
+| II | Grade I + **spontaneous bleeding** |
+| III | **Circulatory failure**: rapid weak pulse, narrow pulse pressure (≤20 mmHg), hypotension |
+| IV | **Profound shock**: undetectable pulse and BP |
+
+Grades III and IV = **dengue shock syndrome**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.653
+**a) Environmental factors (2)**
+
+1. **Stagnant water** around houses and in containers (pots, drums, tyres, tins, plastic waste).
+2. **Water storage** in uncovered containers (irregular piped supply in slums).
+3. **Poor solid-waste disposal** and blocked drains.
+4. **Crowded housing**, poor housing with dark indoor resting places.
+5. Warm, humid **monsoon** climate; construction sites nearby.
+
+**b) Vector control measures (2)**
+
+1. **Source reduction**: empty, clean, cover or destroy containers weekly; remove solid waste; fill pits.
+2. **Larviciding** (temephos, Bti) in containers that cannot be removed.
+3. **Biological control**: larvivorous fish in water tanks.
+4. **Space spraying** (fogging) around cases during outbreaks.
+5. **Entomological surveillance** (Breteau index); regular inspection by city corporation.
+
+**c) Personal protection (1.5)**
+
+Bed nets (also for daytime naps), repellents, long-sleeved clothes, window and door screens, coils/vaporisers.
+
+**d) Role of community awareness (1.5)**
+
+1. People **find and remove breeding sites** in their own homes (weekly "search and destroy").
+2. **Early recognition** of fever and warning signs → early care, fewer deaths.
+3. Use of **personal protection**.
+4. **Cooperation** with city corporation teams; community clean-up drives.
+5. Sustains control between outbreaks.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.654
+**a) Disease and warning signs (3)**
+
+**Probable dengue fever** (high fever, headache, rash, abdominal pain, vomiting; day 5 = critical phase). Confirm with NS1 antigen / IgM; CBC (platelets, haematocrit).
+
+**Warning signs**: abdominal pain or tenderness; persistent vomiting; mucosal bleeding; fluid accumulation (ascites, pleural effusion); lethargy, restlessness; liver enlargement >2 cm; rising haematocrit with rapidly falling platelets.
+
+**b) Public health preventive measures (4)**
+
+1. **Vector control**: source reduction, larviciding, targeted fogging; integrated vector management.
+2. **Surveillance**: case reporting, larval indices (Breteau), early warning.
+3. **Personal protection**: nets, repellents, clothing, screens.
+4. **Community mobilisation** and health education; school programmes.
+5. **Legislation**: city corporation inspection; fines for breeding sites.
+6. **Case management**: standard guidelines at all levels; early referral; avoid NSAIDs → reduces deaths.
+7. **Intersectoral coordination**: city corporations, DGHS, local government, construction regulators.
+8. Research and vaccines when suitable.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.655
+**Epidemiology of malaria**
+
+**A. Agent**
+
+*Plasmodium falciparum* (most dangerous; predominant in Bangladesh), *P. vivax*, *P. malariae*, *P. ovale* (and *P. knowlesi*).
+
+**B. Reservoir**: man (cases and asymptomatic carriers with gametocytes).
+
+**C. Vector**
+
+**Female *Anopheles*** mosquito; in Bangladesh *An. dirus*, *An. minimus*, *An. philippinensis*, *An. sundaicus* (coastal); night biters.
+
+**D. Host factors**
+
+1. Age: children under 5 and non-immune adults most affected.
+2. **Pregnancy**: severe malaria, anaemia, LBW, abortion.
+3. Immunity: partial immunity after repeated infections.
+4. Genetic protection: sickle-cell trait, G6PD deficiency, thalassaemia, Duffy-negative (vivax).
+5. Occupation and behaviour: forest workers, migrants, soldiers, sleeping outdoors.
+
+**E. Environmental factors**
+
+Temperature 20–30 °C, humidity >60%, **rainfall** (breeding), forested hilly areas, irrigation, deforestation, population movement.
+
+**F. Transmission**
+
+Bite of infected female *Anopheles*; also blood transfusion, congenital, shared needles.
+
+**G. Incubation period**
+
+*P. falciparum* ~12 days; *P. vivax* ~14 days; *P. malariae* ~28 days; *P. ovale* ~17 days.
+
+**Bangladesh**
+
+Endemic in **13 districts**, mainly the **Chattogram Hill Tracts** (Bandarban, Rangamati, Khagrachari) and border districts; peak in the monsoon; national goal of **malaria elimination by 2030**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.656
+**Detection of a malaria case**
+
+**A. Clinical suspicion**
+
+Fever (with chills, rigors, sweating; periodicity), headache, body ache, anaemia, splenomegaly; residence in or travel to an endemic area.
+
+**B. Laboratory confirmation (test all suspected cases before treatment)**
+
+| Test | Remarks |
+|---|---|
+| **Microscopy** (thick and thin blood smears, Giemsa) | Gold standard; species, parasite density |
+| **Rapid diagnostic test (RDT)** | Detects HRP-2 (Pf) and pLDH (Pv/pan); quick; used by CHWs |
+| PCR | Low-density infections; research; elimination |
+
+**C. Methods of case detection**
+
+| Method | Description |
+|---|---|
+| **Passive case detection** | Fever patients tested at health facilities |
+| **Active case detection** | Health workers visit households regularly in endemic areas to test fever cases |
+| **Reactive case detection** | Testing household members and neighbours of each confirmed case (elimination phase) |
+| Mass blood surveys | In outbreaks or high-risk groups |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.657
+**Community diagnosis of a falciparum malaria outbreak**
+
+1. **Verify diagnosis** (RDT / microscopy) and **confirm outbreak** (compare with previous weeks and years).
+2. **Define area and population** at risk; map villages.
+3. **Active case search**: house-to-house fever survey with RDTs; line list (time, place, person).
+4. **Calculate indices**:
+   - Annual parasite incidence (API) = confirmed cases ÷ population × 1,000
+   - Slide positivity rate, slide falciparum rate
+   - Annual blood examination rate
+   - Spleen rate and parasite rate in children 2–9 years
+5. **Entomological survey**: vector species, density, breeding sites, man-biting rate, sporozoite rate, insecticide susceptibility.
+6. **Identify risk groups and factors**: forest workers, migrants, rainfall, new construction, low LLIN use, drug stock-outs.
+7. **Plan control**: treatment, LLINs/IRS, health education; monitor.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.658
+**Roll Back Malaria (RBM)**
+
+A **global partnership** launched in **1998** by WHO, UNICEF, UNDP and the World Bank (with countries, donors, NGOs, private sector) to **reduce the malaria burden** (initial target: halve malaria deaths by 2010).
+
+**Core strategies**
+
+1. **Early detection and prompt, effective treatment**.
+2. **Multiple prevention**: insecticide-treated nets, IRS, intermittent preventive treatment in pregnancy.
+3. **Well-coordinated action** and health system strengthening.
+4. **Dynamic global movement**: advocacy, funding.
+5. **Focused research** (drugs, vaccines, insecticides).
+6. Epidemic preparedness.
+
+Now called the **RBM Partnership to End Malaria**, supporting the WHO Global Technical Strategy 2016–2030.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.659
+**Malaria control (elimination) measures in Bangladesh**
+
+**Programme**: **National Malaria Elimination Programme (NMEP)**, DGHS, with **BRAC**-led NGO consortium; Global Fund support; aim: **elimination by 2030**.
+
+**A. Early diagnosis and prompt treatment**
+
+1. **RDT and microscopy** for all fever cases in endemic areas; community health workers test at village level.
+2. Treatment (national guideline):
+   - *P. falciparum*: **artemether–lumefantrine** (ACT) + single low-dose primaquine (blocks transmission).
+   - *P. vivax*: chloroquine + **primaquine** (14 days) for radical cure.
+   - **Severe malaria**: injectable **artesunate**; referral.
+
+**B. Vector control**
+
+1. **Long-lasting insecticidal nets** (mass and continuous distribution) in high-risk areas.
+2. **Indoor residual spraying** in selected foci.
+3. Larval source management where feasible.
+
+**C. Surveillance**
+
+Case-based surveillance; case and focus investigation; reactive case detection; DHIS2 reporting; entomological surveillance.
+
+**D. Special groups**
+
+Forest workers, migrants, ethnic communities, border areas, Rohingya camps; **cross-border collaboration** with India and Myanmar.
+
+**E. Supporting**
+
+Health education (BCC), community participation, epidemic preparedness, research, quality-assured drugs and diagnostics.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.660
+**Stages of lymphatic filariasis (Park)**
+
+| Stage | Features |
+|---|---|
+| **1. Asymptomatic amicrofilaraemia** | Exposed people, no microfilariae, no symptoms |
+| **2. Asymptomatic microfilaraemia** | Microfilariae in blood, no symptoms; important reservoir |
+| **3. Acute manifestations** | **Filarial fever**, retrograde **lymphangitis**, **lymphadenitis**, funiculitis, **epididymo-orchitis** (recurrent attacks) |
+| **4. Chronic obstructive lesions** | **Hydrocele**, **lymphoedema**, **elephantiasis** (legs, scrotum, arms, breast, vulva), **chyluria** |
+
+**Occult filariasis**: tropical pulmonary eosinophilia (cough, wheeze, high eosinophils, no microfilariae in blood).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.661
+**Signs of lymphatic filariasis**
+
+1. **Filarial fever** with chills (recurrent).
+2. **Lymphangitis**: red, tender streak spreading **downward** (retrograde) along limbs.
+3. **Lymphadenitis**: tender enlarged inguinal / axillary nodes.
+4. **Funiculitis, epididymo-orchitis**.
+5. **Hydrocele** (commonest chronic sign in men).
+6. **Lymphoedema** → **elephantiasis**: pitting then non-pitting swelling, thickened skin, folds, warts.
+7. **Chyluria** (milky urine).
+8. Tropical pulmonary eosinophilia (occult).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.662
+**Twin pillars of the Global Programme to Eliminate Lymphatic Filariasis (WHO)**
+
+| Pillar | Aim | Strategy |
+|---|---|---|
+| **1. Interrupt transmission** | Stop spread of infection | **Mass drug administration (MDA)**: annual single dose to the whole at-risk population (≥2 years, excluding pregnant women and the very sick) of **DEC + albendazole** (or ivermectin + DEC + albendazole: IDA), for at least **5 years** with **≥65% coverage of the total population**; plus vector control support |
+| **2. Alleviate suffering** | Reduce disability in affected people | **Morbidity management and disability prevention (MMDP)**: lymphoedema care (washing, skin care, elevation, exercise, footwear, treating entry lesions), management of acute attacks, **hydrocele surgery** |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.663
+**Filariasis elimination programme in Bangladesh**
+
+1. **National programme** started in **2001**; filariasis was endemic in **19 of 64 districts** (mainly northern and north-western).
+2. **Mass drug administration** (DEC + albendazole) in endemic districts until targets were met.
+3. **Transmission assessment surveys** to confirm interruption.
+4. **Morbidity management**: lymphoedema care, hydrocele surgery, support through community clinics.
+5. **WHO validated elimination as a public health problem in May 2023**.
+6. Current focus (national strategic plan 2018–2025): **post-validation surveillance**, response to any recrudescence, continued MMDP.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO SEARO, 2023, https://www.who.int/southeastasia/news/detail/13-05-2023-bangladesh-eliminates-lymphatic-filariasis
+
+## DU.664
+**a) Four clinical manifestations (2)**
+
+Recurrent filarial fever; lymphangitis and lymphadenitis; lymphoedema / elephantiasis of the limb; hydrocele and epididymo-orchitis (also chyluria).
+
+**b) Three methods of diagnosis (2)**
+
+1. **Night blood smear** (10 pm–2 am) for microfilariae: thick film, concentration (Knott's), membrane filtration.
+2. **Circulating filarial antigen test** (rapid immunochromatographic card / test strip) for *W. bancrofti*: any time of day.
+3. **Ultrasound** of scrotum / lymphatics: "filarial dance sign" (moving adult worms).
+(Also antibody tests, PCR, eosinophil count, lymphoscintigraphy.)
+
+**c) Five prevention and control measures (3)**
+
+1. **Mass drug administration** (DEC + albendazole ± ivermectin), annually.
+2. **Vector control** of *Culex*: clean drains, larvicides, polystyrene beads in pits and cesspools, environmental sanitation.
+3. **Personal protection**: bed nets, repellents, screens.
+4. **Morbidity management and disability prevention**: lymphoedema care, hydrocele surgery.
+5. **Surveillance** (transmission assessment surveys), **health education** and community participation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.665
+**Clinical diagnosis of kala-azar**
+
+**Clinical case definition (WHO)**: a person from an **endemic area** with **fever for more than 2 weeks** and **splenomegaly**, not responding to antimalarials/antibiotics.
+
+**Features**
+
+1. Long-standing irregular fever (sometimes double rise in 24 hours).
+2. **Marked splenomegaly** (soft, non-tender); hepatomegaly.
+3. **Weight loss**, wasting with good appetite.
+4. **Anaemia** (pallor); bleeding (epistaxis).
+5. **Darkening of skin** ("black fever") of face, hands, abdomen.
+6. Lymphadenopathy (some).
+7. History of previous kala-azar, living near cases.
+
+Confirm with **rK39 rapid test**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.666
+**Laboratory diagnosis of visceral leishmaniasis**
+
+| Test | Remarks |
+|---|---|
+| **rK39 rapid diagnostic test** (antibody) | Main field test in South Asia; high sensitivity and specificity; used with clinical case definition |
+| **Parasitological**: aspirate for LD bodies (amastigotes) | **Splenic** (most sensitive, ~95%), bone marrow, lymph node; Giemsa stain |
+| Culture (NNN medium) | Promastigotes |
+| Direct agglutination test (DAT) | Serology |
+| **PCR** | Sensitive; PKDL, relapse |
+| CBC | **Pancytopenia** |
+| Serum proteins | Hypergammaglobulinaemia, reversed albumin–globulin ratio (aldehyde test: old) |
+
+**Note**: rK39 stays positive for years after cure → relapse needs parasitological confirmation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.667
+**Treatment of kala-azar (South Asia / Bangladesh national guideline)**
+
+**A. Specific treatment**
+
+| Regimen | Details |
+|---|---|
+| **First line: single-dose liposomal amphotericin B** (AmBisome) | **10 mg/kg IV once**, in hospital |
+| Combination regimens | Liposomal amphotericin B + miltefosine; paromomycin + miltefosine |
+| Miltefosine monotherapy | Oral, 28 days (not in pregnancy; contraception needed) |
+| Conventional amphotericin B deoxycholate | Alternative (more toxic) |
+| Sodium stibogluconate | Older; resistance in South Asia |
+
+**B. PKDL**
+
+Miltefosine for 12 weeks (or liposomal amphotericin B courses).
+
+**C. Supportive**
+
+Nutrition, treat anaemia (transfusion if severe), treat infections, rest.
+
+**D. Follow-up**
+
+At 6 and 12 months for relapse and **PKDL**; HIV testing in relapsing cases.
+
+**E. Public health**
+
+Notification, active case detection around the case, IRS and nets, health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.668
+**Control of kala-azar**
+
+**A. Early diagnosis and complete treatment**
+
+rK39 test; **single-dose liposomal amphotericin B**; treat **PKDL** (reservoir in anthroponotic kala-azar).
+
+**B. Integrated vector management (sandfly)**
+
+1. **Indoor residual spraying** (pyrethroids) of houses and cattle sheds.
+2. **Long-lasting insecticidal nets**.
+3. Environmental management: plaster cracks, clean surroundings, keep cattle away.
+
+**C. Active case detection**
+
+Index-case-based search, house-to-house surveys, camps.
+
+**D. Surveillance** of cases, vectors, treatment outcomes.
+
+**E. Social mobilisation** and health education.
+
+**F. Research**: new drugs, diagnostics, vector control.
+
+**G. Regional cooperation**: **Regional Kala-azar Elimination Initiative** (Bangladesh, India, Nepal, 2005); target <1 case per 10,000 at upazila level.
+
+**Bangladesh**: first country validated by WHO for eliminating kala-azar as a public health problem (**October 2023**); now **post-validation surveillance**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
+
+## DU.669
+**Three epidemiological factors in kala-azar transmission**
+
+1. **Vector**: *Phlebotomus argentipes* sandflies breeding in cracks of mud walls, damp soil and cattle sheds near houses.
+2. **Human reservoir**: untreated kala-azar and **PKDL** cases (anthroponotic transmission in South Asia).
+3. **Socio-economic and housing factors**: poverty, mud houses, sleeping on the floor without nets, malnutrition, HIV co-infection, migration, low awareness.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.670
+**Types of tetanus**
+
+**A. Clinical types**
+
+| Type | Features |
+|---|---|
+| **Generalised** | Commonest: trismus, rigidity, spasms of whole body |
+| **Localised** | Rigidity and spasms near the wound only; may progress |
+| **Cephalic** | After head/face injury or otitis media; cranial nerve palsies (facial) |
+| **Neonatal (tetanus neonatorum)** | Newborns, from unclean cord care; generalised form |
+
+**B. By portal of entry**
+
+Traumatic (wounds, burns), post-surgical, **puerperal / post-abortal** (maternal tetanus), otogenic, after injections, idiopathic (no wound found).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.671
+**Clinical manifestations of tetanus**
+
+**Incubation period**: usually 6–10 days (3–21); shorter → more severe.
+
+1. **Trismus (lockjaw)**: often the first sign.
+2. **Risus sardonicus** (sardonic smile).
+3. **Stiffness** of neck, back, abdomen (board-like); **opisthotonus**.
+4. **Painful reflex spasms** triggered by noise, light, touch.
+5. **Dysphagia**; **laryngospasm** → asphyxia.
+6. **Autonomic dysfunction**: tachycardia, labile BP, sweating, fever.
+7. Patient remains **fully conscious**.
+
+**Neonatal tetanus**
+
+Normal baby for the first 2 days → **inability to suck** (usually day 3–10), excessive crying, stiffness, spasms, trismus, opisthotonus; very high mortality.
+
+**Complications**: aspiration pneumonia, fractures, respiratory failure, death.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.672
+**TT/Td schedule for women of reproductive age (15–49 years)**
+
+| Dose | Timing | Protection |
+|---|---|---|
+| **TT1** | First contact / age 15 years | None |
+| **TT2** | At least **4 weeks** after TT1 | ~3 years |
+| **TT3** | At least **6 months** after TT2 | ~5 years |
+| **TT4** | At least **1 year** after TT3 | ~10 years |
+| **TT5** | At least **1 year** after TT4 | **Lifelong** (reproductive years) |
+
+0.5 ml IM (deltoid). Bangladesh now uses **Td** (tetanus-diphtheria) in place of TT.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.673
+**Prevention of neonatal tetanus**
+
+**A. Immunisation of mothers**
+
+1. **Td/TT to all women of reproductive age** (5-dose schedule).
+2. Pregnant woman without previous doses: **2 doses** 4 weeks apart, the second at least 2 weeks before delivery → baby "protected at birth".
+
+**B. Clean delivery practices: "six cleans"**
+
+1. Clean **hands** of the birth attendant.
+2. Clean **delivery surface**.
+3. Clean **blade** to cut the cord.
+4. Clean **cord tie**.
+5. Clean **cord care**: **7.1% chlorhexidine** to the stump; **nothing harmful** (cow dung, ash, oil).
+6. Clean **perineum**.
+
+**C. Skilled birth attendance** / facility delivery; clean delivery kits; training of TBAs.
+
+**D. Surveillance**: every NT case reported and investigated; high-risk districts targeted.
+
+**E. Health education**: hygiene, cord care, immunisation.
+
+Bangladesh achieved **maternal and neonatal tetanus elimination** (<1 NT case per 1,000 live births in every district) through these measures.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.674
+**Prevention and control of anthrax**
+
+**A. In animals (source)**
+
+1. **Vaccination of livestock** (cattle, goats) in endemic areas (e.g., Sirajganj, Pabna, Meherpur).
+2. **No slaughter of sick animals**; meat inspection.
+3. **Safe disposal of carcasses**: deep burial with lime or burning; **do not open** carcasses (spores form on exposure to air).
+4. Disinfection of contaminated areas; decontamination of hides, wool, bones.
+
+**B. In humans**
+
+1. **Health education**: do not handle, slaughter or eat sick or dead animals.
+2. **Protective clothing** for butchers, tannery and wool workers.
+3. **Early diagnosis and treatment** (ciprofloxacin, doxycycline, penicillin).
+4. **Post-exposure prophylaxis**: antibiotics for exposed people.
+5. Vaccination of high-risk workers (where available).
+6. Notification, outbreak investigation.
+
+**C. One Health**: coordination of health, livestock and environment departments; joint surveillance.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.675
+**Transmission cycles of plague**
+
+```
+1. Wild (sylvatic) plague:
+   Wild rodents (gerbil, marmot) ⇄ wild rodent fleas
+          ↓ (man enters natural focus: hunters, farmers)
+          Man (bubonic plague)
+
+2. Domestic (urban / murine) plague:
+   Wild rodents → peri-domestic rodents → domestic rats (Rattus rattus)
+   Domestic rats ⇄ rat flea (Xenopsylla cheopis)
+          ↓ (rats die → fleas bite man)
+          Man → bubonic plague → septicaemic plague
+
+3. Pneumonic plague:
+   Bubonic / septicaemic case → secondary pneumonia
+          ↓ droplets
+   Man → man (primary pneumonic plague)
+```
+
+**Key points**
+
+- Plague is primarily a disease of **wild rodents**; man is an accidental host.
+- **Rat fall** (dying rats) precedes human epidemics.
+- **Blocked flea** transmits bacilli by regurgitation.
+- **Pneumonic plague** spreads person to person and is the most fatal.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.676
+**Epidemiological determinants of plague**
+
+1. **Agent**: *Yersinia pestis*.
+2. **Reservoir**: wild rodents in natural foci (*Tatera indica*); domestic rats.
+3. **Vector**: rat flea *Xenopsylla cheopis*; **cheopis index >1** indicates danger.
+4. **Host**: man has no natural immunity; risk in hunters, farmers, people near rat-infested houses and grain stores.
+5. **Environment**: temperature 20–25 °C, high humidity, rainfall; poor housing and sanitation, grain storage (rat harbourage); rat population density.
+6. **Human factors**: travel and trade, overcrowding, poverty.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.677
+**Rabid animals (animals that can transmit rabies)**
+
+1. **Dog** (source of most human rabies)
+2. **Cat**
+3. **Jackal**
+4. **Fox**
+5. **Wolf**
+6. **Mongoose**
+7. **Monkey**
+8. **Bat** (vampire and other bats)
+9. Cattle, horse, goat, pig (rarely transmit)
+10. Skunk, raccoon (Americas)
+
+Rodents (rats, mice, squirrels) and rabbits rarely transmit rabies.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.678
+**Street virus vs fixed virus**
+
+| Point | Street virus | Fixed virus |
+|---|---|---|
+| Source | Naturally occurring, from infected animals | Laboratory strain obtained by **serial intracerebral passage** (Pasteur, in rabbits) |
+| Incubation period (in animals) | **Long and variable** (1–12 weeks) | **Short and fixed** (4–6 days) |
+| **Negri bodies** | **Formed** | Usually **not formed** |
+| Invasion of salivary glands | Yes | No |
+| Pathogenicity by peripheral routes | High | Low (does not readily spread from periphery) |
+| Use | Causes natural rabies | Used for **vaccine production** |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.679
+**Clinical features of rabies**
+
+**Incubation period**: usually 1–3 months (from days to years); shorter with bites on face, head, hands and severe bites.
+
+**1. Prodromal stage (2–10 days)**
+
+Fever, headache, malaise, sore throat; **pain, tingling or numbness at the bite site** (characteristic); anxiety.
+
+**2. Acute neurological stage**
+
+| Furious (encephalitic) form (~80%) | Paralytic (dumb) form (~20%) |
+|---|---|
+| **Hydrophobia**: painful spasms of throat on trying to drink or even seeing water | **Ascending flaccid paralysis** |
+| **Aerophobia** (spasms with air blown on face) | Less agitation; hydrophobia may be absent |
+| Hyperexcitability, agitation, hallucinations, aggression | Often misdiagnosed (GBS) |
+| Excess salivation, sweating; autonomic instability | |
+| Lucid intervals | |
+
+**3. Coma and death**
+
+Within about 1–2 weeks of onset; **almost 100% fatal** once symptoms appear.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.680
+**Management of a street-dog bite**
+
+**1. Assess category of exposure (WHO)**
+
+| Category | Exposure | Action |
+|---|---|---|
+| **I** | Touching/feeding animal, licks on **intact** skin | Wash; no PEP |
+| **II** | Nibbling of uncovered skin; minor scratches/abrasions **without bleeding** | Wound care + **vaccine** |
+| **III** | **Transdermal bites or scratches** (bleeding), licks on broken skin, saliva on mucosa, any bat exposure | Wound care + **vaccine** + **rabies immunoglobulin (RIG)** |
+
+**2. Wound care (immediately; most important first step)**
+
+1. **Wash with soap and running water for 15 minutes**.
+2. Apply **antiseptic** (povidone-iodine, alcohol).
+3. **Do not suture** immediately; if needed, after RIG infiltration and with loose stitches.
+4. Do not apply chilli, oil, herbs.
+5. **Tetanus** prophylaxis; antibiotics if infected.
+
+**3. Rabies vaccine (cell-culture)**
+
+| Route (WHO 2018) | Schedule |
+|---|---|
+| **Intradermal** (0.1 ml at 2 sites) | Days **0, 3, 7** |
+| **Intramuscular** (1 vial) | Days **0, 3, 7, 14–28** (4 doses) or 2-1-1 (2 doses day 0, 1 on day 7, 1 on day 21) |
+
+Bangladesh provides free intradermal vaccine at rabies prevention centres in district hospitals and UHCs.
+
+**4. RIG (category III)**
+
+Equine RIG 40 IU/kg or human RIG 20 IU/kg, **infiltrated into and around the wound**, as early as possible (up to day 7 after first vaccine dose).
+
+**5. Previously vaccinated person**: 2 doses (days 0 and 3); no RIG.
+
+**6. Observe the dog** for 10 days if possible; report the bite; counselling.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO position paper on rabies vaccines, 2018.
+
+## DU.681
+**Control of rabies**
+
+**A. In animals (source: most important)**
+
+1. **Mass dog vaccination** (≥70% coverage of dogs).
+2. **Dog population management**: animal birth control (sterilisation) rather than culling; garbage control.
+3. Responsible pet ownership; registration and vaccination of pets.
+4. Stray dog surveillance; quarantine of biting animals.
+
+**B. In humans**
+
+1. **Post-exposure prophylaxis**: wound care, vaccine, RIG, available free at all district and upazila centres.
+2. **Pre-exposure prophylaxis** for high-risk groups (veterinarians, animal handlers, lab staff, children in high-risk areas).
+3. **Health education**: avoid provoking dogs, wash wounds, seek PEP early.
+
+**C. Surveillance and One Health**
+
+Reporting of bites and rabies cases; laboratory diagnosis in animals; coordination of health, livestock and local government.
+
+**Goal**: "**Zero by 30**" (end dog-mediated human rabies deaths by 2030); Bangladesh national rabies elimination programme (mass dog vaccination + free PEP).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.682
+**Dog bite: a year-round public health problem**
+
+1. **Large stray dog population** in cities and villages (fed by garbage) → bites occur in all seasons.
+2. **Rabies is endemic**; dogs are the source of most human rabies.
+3. Rabies is **almost 100% fatal** → every bite is a potential emergency.
+4. **Children** are most often bitten, often on the **face and head** (high-risk, category III).
+5. **Large numbers of bite victims** need PEP all year → heavy demand on vaccine and RIG; shortages.
+6. **Cost** to families (travel, lost work) and health system.
+7. **Fear and psychological stress**; injuries and infections (tetanus, sepsis).
+8. Low dog vaccination coverage in some areas; poor awareness of wound washing.
+9. Requires **continuous** services, surveillance and dog vaccination.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.683
+**Types of anti-rabies vaccines**
+
+**A. Nerve tissue vaccines (old; discontinued by WHO)**
+
+Semple vaccine (sheep brain), suckling mouse brain vaccine: reactogenic (neuroparalytic reactions), less potent.
+
+**B. Cell-culture vaccines (CCVs; current)**
+
+1. **Human diploid cell vaccine (HDCV)**.
+2. **Purified chick embryo cell vaccine (PCECV)**.
+3. **Purified Vero cell rabies vaccine (PVRV)**.
+4. Purified duck embryo vaccine (PDEV).
+
+Used intradermally (0.1 ml) or intramuscularly (1 vial).
+
+**C. Animal vaccines**
+
+For dogs and cats (inactivated); oral bait vaccines for wildlife.
+
+**D. Passive agents (not vaccines)**
+
+Equine RIG, human RIG, rabies monoclonal antibodies.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.684
+**Post-exposure prophylaxis (PEP) for a bite by a rabid animal**
+
+1. **Wound care**: wash with soap and running water for 15 minutes; antiseptic; avoid immediate suturing.
+2. **Categorise exposure** (WHO I, II, III).
+3. **Vaccine** (category II and III): cell-culture vaccine, **intradermal 0.1 ml at 2 sites on days 0, 3, 7** (Bangladesh uses ID regimen at rabies centres), or IM schedules.
+4. **RIG** (category III, and category II in immunocompromised): infiltrate into and around the wound.
+5. **Tetanus** prophylaxis; antibiotics if needed.
+6. **Previously vaccinated**: 2 booster doses (days 0, 3), no RIG.
+7. Observe the animal for 10 days; complete the course regardless of the animal's status if it cannot be observed.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO position paper on rabies vaccines, 2018.
+
+## DU.685
+**Rabies is preventable, not curable**
+
+1. Once symptoms appear, rabies is **almost always fatal**; there is **no effective treatment** (only palliative care).
+2. The **long incubation period** gives time for **post-exposure prophylaxis**.
+3. **PEP** (wound washing + vaccine + RIG) is nearly **100% effective** if given promptly and correctly.
+4. **Pre-exposure vaccination** protects high-risk people.
+5. **Dog vaccination** stops transmission at the source.
+
+So the strategy is prevention: animal control, PEP, education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.686
+**Three categories of rabies exposure (WHO)**
+
+| Category | Exposure |
+|---|---|
+| **I** | Touching or feeding animals; licks on intact skin |
+| **II** | Nibbling of uncovered skin; minor scratches or abrasions without bleeding |
+| **III** | Single or multiple transdermal bites or scratches; licks on broken skin; saliva on mucous membranes; contact with bats |
+
+**Two immediate measures for a rabies-prone wound**
+
+1. **Wash the wound thoroughly with soap and running water for 15 minutes**.
+2. **Apply antiseptic** (povidone-iodine or alcohol); avoid suturing.
+
+**Indication of rabies immunoglobulin (RIG)**
+
+1. All **category III** exposures.
+2. **Category II** exposures in **immunocompromised** persons.
+(Not needed for previously fully vaccinated persons.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.687
+**(a) Wound category and management (3)**
+
+**Category III** exposure (transdermal bite with severe bleeding by a rabid dog).
+
+1. **Control bleeding** with pressure.
+2. **Wash with soap and running water for 15 minutes**; irrigate deeply.
+3. **Antiseptic** (povidone-iodine).
+4. **Do not suture** immediately; if essential, after RIG infiltration, loose stitches.
+5. **RIG infiltration** into and around the wound.
+6. **Tetanus** toxoid/TIG as needed; antibiotics for deep wounds; analgesics.
+
+**(b) PEP in Bangladesh (2.5)**
+
+1. **Free cell-culture rabies vaccine**, **intradermal 0.1 ml at two sites** on days **0, 3, 7** at district/upazila rabies prevention centres.
+2. **Rabies immunoglobulin** (equine 40 IU/kg or human 20 IU/kg) infiltrated in the wound on day 0 (up to day 7).
+3. Complete the course; counselling; report the bite; dog control by local authority.
+
+**(c) Five other rabid animals (1.5)**
+
+Cat, jackal, fox, mongoose, monkey (also bat, wolf).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.688
+**Prevention and control of avian influenza (bird flu: H7N9, H5N1)**
+
+**A. Animal sector**
+
+1. **Surveillance** in poultry and wild birds; early reporting of sick or dead birds.
+2. **Culling** of infected flocks; safe disposal; compensation to farmers.
+3. **Biosecurity** in farms; separate poultry from humans and wild birds.
+4. **Live bird market** hygiene: cleaning, disinfection, rest days, closure in outbreaks.
+5. Poultry vaccination where recommended.
+
+**B. Human sector**
+
+1. Avoid contact with sick or dead birds; **cook poultry and eggs thoroughly**; hand hygiene.
+2. **PPE** for cullers and market workers; oseltamivir prophylaxis for exposed workers.
+3. Early diagnosis, **isolation** and treatment of cases with **oseltamivir**.
+4. **Contact tracing** and monitoring.
+5. Seasonal flu vaccination of poultry workers (reduces reassortment risk).
+6. Notification under **IHR**.
+
+**C. One Health coordination**, risk communication, research.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.689
+**Sexually transmitted diseases (STDs / STIs)**
+
+| Group | Diseases |
+|---|---|
+| **Bacterial** | Syphilis, gonorrhoea, chancroid, chlamydia (including lymphogranuloma venereum), granuloma inguinale (donovanosis), *Mycoplasma genitalium* |
+| **Viral** | HIV/AIDS, genital herpes (HSV), genital warts (HPV), hepatitis B, molluscum contagiosum |
+| **Protozoal** | Trichomoniasis |
+| **Fungal** | Candidiasis |
+| **Ectoparasitic** | Scabies, pubic lice |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.690
+**STDs of viral origin**
+
+1. **HIV/AIDS**
+2. **Genital herpes** (HSV-2, HSV-1)
+3. **Genital warts** (HPV; also cervical cancer)
+4. **Hepatitis B** (and less often hepatitis C)
+5. Molluscum contagiosum
+6. Cytomegalovirus, HTLV-1
+7. Mpox (sexual contact in recent outbreaks)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.691
+**Investigation strategies for STD control**
+
+1. **Screening**: pregnant women (syphilis, HIV, HBsAg), blood donors, high-risk groups (sex workers, MSM, PWID).
+2. **Contact tracing / partner notification**: find, test and treat sexual partners.
+3. **Cluster testing**: test associates of cases who may be at risk.
+4. **Laboratory diagnosis**: VDRL/RPR, TPHA, Gram stain, NAAT, HIV tests.
+5. **Surveillance**: case reporting, sentinel surveillance in key populations, behavioural surveys.
+6. **Prevalence surveys** to estimate burden.
+7. **Epidemiological treatment** of contacts.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.692
+**Epidemiological determinants of STDs**
+
+**A. Agent**
+
+Bacteria, viruses, protozoa, fungi, ectoparasites; asymptomatic infections and drug resistance (gonorrhoea) help spread.
+
+**B. Host factors**
+
+1. **Age**: 15–29 years most affected.
+2. **Sex**: women more prone to complications; often asymptomatic.
+3. **Marital status**: single, separated, divorced.
+4. **Occupation / mobility**: sex workers, truck drivers, migrant workers, seafarers.
+5. **Behaviour**: multiple partners, unprotected sex, MSM, injecting drug use, early sexual debut.
+6. Existing STI increases HIV risk.
+
+**C. Social and environmental factors**
+
+1. Poverty, unemployment.
+2. **Commercial sex**, trafficking.
+3. **Urbanisation and migration** (separation from families).
+4. Alcohol and drug use.
+5. Lack of sex education; illiteracy.
+6. **Stigma** → delayed care; self-medication.
+7. Gender inequality; sexual violence.
+8. Changing sexual norms; travel and tourism.
+
+**D. Health services**
+
+Limited access to confidential STI services, syndromic care, condoms.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.693
+**Sources of HIV**
+
+1. **Infected persons** (symptomatic or asymptomatic, including in the window period).
+2. **Infective materials**: **blood**, **semen**, **vaginal secretions**, **breast milk**; less in other body fluids with blood.
+3. **Key populations** at higher risk: sex workers and clients, men who have sex with men, people who inject drugs, transgender (hijra) people, returning migrant workers.
+4. **Routes**: unprotected sex, contaminated blood and needles, mother-to-child (pregnancy, delivery, breastfeeding).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.694
+**AIDS-related complex (ARC)**
+
+An older term for **symptomatic HIV infection before full AIDS**, with chronic signs of immune damage but without AIDS-defining opportunistic infections or cancers.
+
+**Features**
+
+1. **Persistent generalised lymphadenopathy**.
+2. Prolonged fever, night sweats.
+3. **Weight loss** >10%; chronic diarrhoea >1 month.
+4. Oral **candidiasis**, oral hairy leukoplakia.
+5. Herpes zoster, recurrent bacterial infections.
+6. Laboratory: low CD4 count, anaemia, leucopenia.
+
+Now included in **WHO clinical stages 2–3**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.695
+**Prevention and control of STDs and HIV/AIDS**
+
+**A. Prevent sexual transmission**
+
+1. **Health education / BCC**: abstinence, faithfulness, partner reduction, **condom** use (ABC).
+2. Free condom distribution; **targeted interventions** for sex workers, MSM, hijra.
+3. **Pre-exposure prophylaxis (PrEP)** for high-risk people.
+
+**B. Prevent blood-borne transmission**
+
+1. **Safe blood**: screening all donations; voluntary donors.
+2. Sterile needles; safe injections.
+3. **Harm reduction**: needle-syringe exchange, opioid substitution therapy for PWID.
+4. **Post-exposure prophylaxis** for health workers and sexual assault.
+
+**C. Prevent mother-to-child transmission (PMTCT)**
+
+Antenatal HIV and syphilis testing; ART for mothers; safe delivery; infant prophylaxis; infant feeding counselling.
+
+**D. Early diagnosis and treatment**
+
+1. **HIV testing and counselling**; partner testing.
+2. **ART for all** ("treat all"); viral suppression prevents transmission (U = U).
+3. **Syndromic management** of STIs; treat partners.
+4. **Contact tracing**.
+
+**E. Vaccines**: hepatitis B, HPV.
+
+**F. Surveillance, research, stigma reduction**, legal protection, involvement of PLHIV.
+
+**Bangladesh**: AIDS/STD Programme (ASP) under DGHS with NGOs.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.696
+**HIV/AIDS: an emerging public health problem in Bangladesh**
+
+1. First case detected in **1989**; overall prevalence remains **low** in the general population, but new infections and AIDS deaths have been **rising**.
+2. **Concentrated epidemic** among key populations: **people who inject drugs** (especially in Dhaka), sex workers, MSM, hijra.
+3. **Returning migrant workers** and their spouses form a large share of detected cases.
+4. **Rohingya refugees** add new cases and vulnerability.
+5. **Risk factors**: unprotected commercial sex, low condom use, sharing needles, mobility, poverty, low awareness.
+6. **Low testing and late diagnosis**; stigma and discrimination.
+7. Many PLHIV not on ART; TB–HIV co-infection.
+8. Proximity to high-prevalence neighbours; cross-border movement.
+
+**Response needed**: expanded testing, ART for all, harm reduction, targeted interventions, migrant programmes, stigma reduction.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.697
+**Interventions by the National AIDS/STD Programme (NASP / ASP), Bangladesh**
+
+1. **Targeted interventions** for key populations: drop-in centres for sex workers, MSM, hijra and PWID; outreach, condoms, STI care.
+2. **Harm reduction**: needle-syringe programmes, **opioid substitution therapy** (methadone).
+3. **HIV testing services** (HTC) and linkage to care.
+4. **Free ART** at designated hospitals; treat-all policy; viral load monitoring.
+5. **PMTCT** services.
+6. **STI management** (syndromic).
+7. **Blood safety** (with Safe Blood Transfusion Programme).
+8. **BCC / awareness**: mass media, youth, workplaces; pre-departure orientation for migrant workers.
+9. **Surveillance**: serological and behavioural surveillance.
+10. Stigma reduction; partnership with NGOs and UN agencies; Global Fund support.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.698
+**Management of vaginal discharge at PHC level (syndromic approach)**
+
+1. **History**: discharge (colour, odour, itching), lower abdominal pain, partner symptoms; **risk assessment** (new or multiple partners, partner with urethral discharge).
+2. **Examination**: abdomen; speculum if possible (cervical discharge, mucopus).
+3. **Treat according to findings (WHO flowchart)**:
+
+| Finding | Treat for |
+|---|---|
+| Risk assessment **positive** or cervical discharge | **Cervicitis** (gonorrhoea + chlamydia: e.g., ceftriaxone + azithromycin/doxycycline) **and vaginitis** |
+| Risk assessment negative | **Vaginitis** only: bacterial vaginosis + trichomoniasis (**metronidazole**) |
+| Curd-like discharge, itching | Add **candidiasis** treatment (clotrimazole pessary / fluconazole) |
+| Lower abdominal pain, fever, cervical motion tenderness | Manage as **PID**; refer if severe |
+
+4. **4 Cs**: **Counselling**, **Condoms**, **Compliance**, **Contact (partner) treatment**.
+5. Offer **HIV and syphilis testing**.
+6. **Follow-up** in 7 days; refer if not improving.
+7. Pregnancy: avoid doxycycline and oral fluconazole.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.699
+**Social and behavioural factors in the spread of STDs**
+
+1. **Multiple sexual partners**; unprotected sex.
+2. **Commercial sex** and trafficking.
+3. **Migration and mobility** (migrant workers, truck drivers).
+4. **Urbanisation**; breakdown of family ties.
+5. **Alcohol and drugs**; injecting drug use.
+6. **Poverty**, unemployment.
+7. **Lack of sex education**; ignorance; early sexual debut.
+8. **Stigma** → hiding symptoms, delayed treatment, self-medication.
+9. **Gender inequality**; sexual violence; inability of women to negotiate condom use.
+10. Male–male sex in hidden settings; changing sexual norms.
+
+**Common STI syndromes**
+
+1. **Urethral discharge** (men)
+2. **Vaginal discharge**
+3. **Genital ulcer**
+4. **Lower abdominal pain** (PID)
+5. **Scrotal swelling**
+6. **Inguinal bubo**
+7. **Neonatal conjunctivitis** (ophthalmia neonatorum)
+
+**Sequelae**
+
+| Women | Men | Newborn | General |
+|---|---|---|---|
+| PID → **infertility**, **ectopic pregnancy**, chronic pelvic pain; **cervical cancer** (HPV); adverse pregnancy outcomes | Epididymitis, **infertility**, urethral stricture | **Congenital syphilis**, stillbirth, LBW, ophthalmia neonatorum (blindness), neonatal herpes, perinatal HIV/HBV | **Increased HIV transmission**; neurosyphilis, cardiovascular syphilis; liver cirrhosis and cancer (HBV) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.700
+**Syndromic approach to STI management**
+
+Classification of STIs into **syndromes** (groups of easily recognised symptoms and signs) and **treatment at the first visit for all major organisms likely to cause that syndrome**, using standard flowcharts, **without waiting for laboratory confirmation**; plus counselling, condoms and partner management.
+
+**Four major syndromes**
+
+1. **Urethral discharge**.
+2. **Vaginal discharge**.
+3. **Genital ulcer**.
+4. **Lower abdominal pain** (PID).
+(Others: scrotal swelling, inguinal bubo, neonatal conjunctivitis.)
+
+**Advantages**
+
+1. **Same-day treatment** → fewer complications, less spread.
+2. **No laboratory** needed; usable at PHC.
+3. **Cheap**, simple, standardised; trained non-specialists can use it.
+4. Covers **mixed infections**.
+5. Opportunity for counselling and condoms.
+
+**Problems**
+
+1. **Over-treatment** → cost, side effects, **antimicrobial resistance** (gonorrhoea).
+2. **Misses asymptomatic infections** (most chlamydia and gonorrhoea in women).
+3. Poor accuracy for **cervical infection** in vaginal discharge (often due to non-STI vaginitis) → mislabelling women as having STIs, partner conflict, stigma.
+4. Does not identify the specific organism (no surveillance data).
+5. Partner management difficult.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.701
+**Bangladesh government's initiatives against COVID-19**
+
+**A. Preparedness and coordination**
+
+1. **National Preparedness and Response Plan**; national and local committees; DGHS control room; IEDCR as focal point (first cases confirmed on **8 March 2020**).
+2. Coordination with WHO, UNICEF and partners; armed forces support.
+
+**B. Surveillance and testing**
+
+1. Rapid expansion of **RT-PCR laboratories** across divisions, then GeneXpert and **rapid antigen tests**.
+2. Contact tracing; airport and land-port screening.
+
+**C. Public health and social measures**
+
+1. **General holiday / lockdown** from **26 March 2020**; restrictions on movement, gatherings; school closures.
+2. **Quarantine** (home and institutional) and **isolation**.
+3. **Mask mandates**, hand-washing stations, physical distancing.
+4. Risk communication: **333** and other hotlines, media campaigns, religious leaders.
+
+**D. Case management**
+
+1. Designated COVID-19 hospitals; expansion of beds, **ICU** and **oxygen** (central oxygen, high-flow nasal cannula).
+2. National treatment guidelines; training of health workers; PPE.
+3. **Telemedicine** services.
+
+**E. Vaccination**
+
+Mass vaccination began on **7 February 2021**; online registration through the **Surokkha** platform; vaccines from bilateral deals and **COVAX**; campaigns reached rural areas and Rohingya camps.
+
+**F. Social and economic support**
+
+Stimulus packages, food and cash support for the poor, support to workers.
+
+**Challenges**
+
+Testing capacity outside Dhaka, oxygen shortages during surges, private-sector regulation, misinformation, adherence to restrictions.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.702
+**Criteria of chronic disease (US Commission on Chronic Illness)**
+
+Impairments or deviations from normal that have **one or more** of the following characteristics:
+
+1. **Permanent**.
+2. **Leave residual disability**.
+3. Caused by **non-reversible pathological alteration**.
+4. Require **special training of the patient for rehabilitation**.
+5. May be expected to require a **long period of supervision, observation or care**.
+
+**Examples**: diabetes, hypertension, CHD, COPD, chronic kidney disease, arthritis, cancers, stroke.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.703
+**Cardinal characteristics of NCDs (Park)**
+
+1. **Absence of a known agent** (single specific cause).
+2. **Multifactorial causation** (risk factors).
+3. **Long latent period**.
+4. **Indefinite onset**; insidious.
+5. **Differential effect of factors on incidence** (same factor causes several diseases).
+6. Long duration (chronic); often permanent disability.
+7. Not transmitted from person to person.
+8. Largely related to **lifestyle** and ageing.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.704
+**Common risk factors of NCDs (WHO)**
+
+| Group | Risk factors |
+|---|---|
+| **Behavioural (modifiable)** | **Tobacco use**, **unhealthy diet** (high salt, sugar, fat; low fruit and vegetables), **physical inactivity**, **harmful use of alcohol** |
+| **Metabolic** | **Raised blood pressure**, **overweight/obesity**, **raised blood glucose**, **raised blood lipids** |
+| **Environmental** | Air pollution (outdoor and household) |
+| **Non-modifiable** | Age, sex, genetics, family history |
+| **Others** | Stress, poverty, urbanisation |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.705
+**Major NCDs**
+
+1. **Cardiovascular diseases**: CHD, stroke, hypertension, rheumatic heart disease.
+2. **Cancers**: lung, oral, cervical, breast, liver, stomach.
+3. **Chronic respiratory diseases**: COPD, asthma.
+4. **Diabetes mellitus**.
+5. Others: chronic kidney disease, mental disorders, obesity, blindness, accidents and injuries, dental disease.
+
+**Measures to prevent and control NCDs**
+
+**A. Primordial prevention**: healthy public policy: tobacco taxes and smoke-free laws, salt and trans-fat regulation, sugar taxes, urban planning for activity.
+
+**B. Primary prevention**
+
+1. **Population strategy**: reduce risk factors in the whole population (health education, healthy diet, physical activity, no tobacco, limit alcohol).
+2. **High-risk strategy**: identify and manage people at high risk (raised BP, glucose, lipids, smokers).
+
+**C. Secondary prevention: screening and early treatment**
+
+BP and blood glucose screening (adults ≥40 years), cervical (VIA) and breast cancer screening, oral cancer examination; standard treatment protocols (WHO PEN, HEARTS).
+
+**D. Tertiary prevention**
+
+Rehabilitation (cardiac, stroke), palliative care, disability limitation.
+
+**E. Health system**
+
+NCD corners at UHCs and community clinics; essential NCD drugs; trained staff; referral; surveillance (STEPS surveys).
+
+**F. Multisectoral action**
+
+Bangladesh NCD Control Programme and multisectoral action plan; WHO "**best buys**".
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.706
+**Behaviours associated with NCDs and their impact**
+
+NCDs cause about **74% of all deaths globally** (WHO); four behaviours drive most of them.
+
+| Behaviour | Pathway | Health outcomes |
+|---|---|---|
+| **Tobacco** (smoking, smokeless) | Atherosclerosis, carcinogens, airway damage | CHD, stroke, lung and oral cancers, COPD, TB, low birth weight |
+| **Unhealthy diet**: high salt | Raised BP | Hypertension, stroke, kidney disease |
+| High sugar, refined carbohydrates | Obesity, insulin resistance | Diabetes, dental caries, CHD |
+| Saturated and trans fats | Raised LDL | CHD, stroke |
+| Low fruit and vegetable intake | Low fibre, antioxidants | CHD, cancers, constipation |
+| **Physical inactivity** | Weight gain, poor glucose control | Obesity, diabetes, CHD, depression, some cancers |
+| **Harmful alcohol use** | Liver and cardiac toxicity | Cirrhosis, cancers, hypertension, injuries, violence |
+| Poor sleep, chronic stress | Hormonal and BP changes | Hypertension, depression |
+
+**Key points**
+
+1. Behaviours **cluster** and act **synergistically** (smoking + hypertension + diabetes multiply CHD risk).
+2. They begin in **childhood and adolescence** → primordial prevention.
+3. They are shaped by **environment** (marketing, urban design, prices) → policy measures needed.
+4. Impact: **premature deaths (30–70 years)**, disability, poverty from health costs, lost productivity.
+5. Changing behaviours reduces risk quickly (e.g., stopping smoking halves CHD risk within a few years).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); WHO, Noncommunicable diseases fact sheet.
+
+## DU.707
+**a) Major NCDs to address (2)**
+
+Hypertension; diabetes; cardiovascular disease and stroke (CVD risk); chronic respiratory disease (COPD, asthma); common cancers (oral, cervical, breast); also obesity, chronic kidney disease, depression.
+
+**b) Role of screening (2)**
+
+1. **Detects hidden disease and risk** (iceberg: many with hypertension and diabetes are unaware).
+2. **Early treatment** prevents complications (stroke, MI, kidney failure, blindness).
+3. **Total CVD risk assessment** (WHO risk charts) targets high-risk people.
+4. Opportunity for **lifestyle counselling**.
+5. Provides **data** for planning and monitoring.
+
+Methods: BP measurement, blood glucose, BMI and waist, tobacco use history, VIA for cervical cancer, clinical breast and oral examination.
+
+**c) Primordial and primary prevention with examples (3)**
+
+| Level | Aim | Examples |
+|---|---|---|
+| **Primordial** | Prevent emergence of risk factors in the population | Tobacco-free school and community campaigns; ban on tobacco advertising; healthy school food; safe spaces for walking and play; salt reduction policies; promoting traditional healthy diets among youth |
+| **Primary** | Reduce risk factors before disease | Health education on diet (<5 g salt, fruits and vegetables), physical activity (≥150 minutes/week), quitting tobacco, avoiding alcohol; weight control; managing stress; treating raised BP and glucose in high-risk people |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.708
+**Manifestations of ischaemic heart disease (Park)**
+
+1. **Angina pectoris** (stable, unstable).
+2. **Myocardial infarction**.
+3. **Heart failure**.
+4. **Arrhythmias**.
+5. **Sudden death**.
+
+**Prevention**
+
+| Strategy | Measures |
+|---|---|
+| **Population strategy** | Healthy diet (less saturated fat, salt), no tobacco, physical activity, weight control; policy support |
+| **High-risk strategy** | Screen and treat hypertension, diabetes, dyslipidaemia; smoking cessation |
+| **Secondary prevention** | Aspirin, statins, beta-blockers, ACE inhibitors after MI; cardiac rehabilitation; lifestyle change |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.709
+**Measuring the burden of CHD**
+
+1. **Mortality data**: CHD death rates, proportional mortality, case-fatality.
+2. **Morbidity**: incidence (cohort studies, MI registers) and prevalence surveys (Rose angina questionnaire, ECG).
+3. **Hospital data**: admissions, outpatient attendance.
+4. **Risk factor surveys** (STEPS): smoking, BP, lipids, diabetes, obesity.
+5. **Disability**: DALYs, years of life lost.
+6. **Economic cost**: treatment costs, lost productivity.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.710
+**Risk factors of coronary heart disease**
+
+**A. Non-modifiable**
+
+1. **Age** (increases with age).
+2. **Sex** (men earlier; women after menopause).
+3. **Family history** of premature CHD; genetic factors.
+4. Ethnicity (South Asians at higher risk).
+
+**B. Modifiable (major)**
+
+1. **Cigarette smoking** and smokeless tobacco.
+2. **Hypertension**.
+3. **Dyslipidaemia**: high LDL cholesterol, low HDL, high triglycerides.
+4. **Diabetes mellitus**.
+5. **Obesity**, especially **central (abdominal) obesity**.
+6. **Physical inactivity**.
+7. **Unhealthy diet**: saturated and trans fats, high salt, low fruit and vegetables.
+
+**C. Other contributing factors**
+
+Alcohol excess; **psychosocial stress**, type A personality; oral contraceptives (older high-dose, with smoking); air pollution; chronic kidney disease; metabolic syndrome.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.711
+**Preventive measures of CHD (Park)**
+
+**1. Population strategy** (prevention in the whole population)
+
+- Primordial: prevent emergence of risk factors (healthy policies, school education).
+- Change lifestyle and environment: reduce fat and salt, increase fruits and vegetables; **stop smoking**; regular physical activity; weight control; limit alcohol.
+- Legislation: tobacco control, food labelling.
+
+**2. High-risk strategy**
+
+Identify and manage people with high BP, high cholesterol, diabetes, smokers, obesity, family history; total CVD risk assessment; drugs (antihypertensives, statins).
+
+**3. Secondary prevention**
+
+Prevent recurrence and progression in those with CHD: aspirin, beta-blockers, ACE inhibitors, statins; cardiac rehabilitation; lifestyle change; surgery or angioplasty when needed.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.712
+**Spectrum of diseases he may have**
+
+1. **Coronary heart disease**: recurrent MI, angina, heart failure, arrhythmias, sudden cardiac death.
+2. **Associated risk-factor diseases**: hypertension, diabetes, dyslipidaemia, obesity, metabolic syndrome.
+3. **Other atherosclerotic diseases**: stroke / TIA, peripheral arterial disease, chronic kidney disease.
+4. **Psychological**: depression, anxiety; sexual dysfunction.
+5. Lifestyle-related: smoking-related lung disease, fatty liver.
+
+**Preventive measures and advice (secondary prevention)**
+
+**A. Drugs (lifelong unless contraindicated)**
+
+1. **Aspirin** (+ second antiplatelet such as clopidogrel / ticagrelor for 12 months after MI).
+2. **High-intensity statin** (LDL target <70 mg/dl or lower).
+3. **Beta-blocker**.
+4. **ACE inhibitor / ARB** (especially with LV dysfunction, diabetes, hypertension).
+5. Treat **hypertension** (<130/80 mmHg) and **diabetes** (HbA1c ~7%).
+6. Adherence; regular follow-up.
+
+**B. Lifestyle advice**
+
+1. **Stop smoking** and tobacco completely; avoid second-hand smoke.
+2. **Diet**: low salt (<5 g/day), less saturated fat, no trans fat, more fruits, vegetables, whole grains, fish; avoid sweets.
+3. **Physical activity**: start with supervised **cardiac rehabilitation**; then ≥150 minutes/week of moderate activity (brisk walking).
+4. **Weight control** (BMI <23 for South Asians; waist <90 cm).
+5. **Limit alcohol**.
+6. **Stress management**; balance business work, adequate sleep.
+7. Gradual return to work and normal activity, including sexual activity, as advised.
+
+**C. Other**
+
+Influenza vaccination; recognise warning symptoms (chest pain, breathlessness) and seek urgent care; keep emergency medicines (sublingual nitrate); periodic check of lipids, glucose, ECG, echo.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.713
+**Risk factors for hypertension**
+
+**A. Modifiable**
+
+1. **Obesity / overweight** (central obesity).
+2. **High salt (sodium) intake**; low potassium intake (few fruits and vegetables).
+3. **Physical inactivity**.
+4. **Alcohol** excess.
+5. **Tobacco** use.
+6. **Psychosocial stress**.
+7. **Diabetes**, dyslipidaemia.
+8. Unhealthy diet (high saturated fat).
+9. **Oral contraceptives**; certain drugs (NSAIDs, steroids).
+10. Obstructive sleep apnoea.
+11. **Environmental**: noise, air pollution; **saline drinking water** in coastal Bangladesh.
+12. Socio-economic factors, urbanisation.
+
+**B. Non-modifiable**
+
+Age, family history and genetics, sex, ethnicity, low birth weight.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.714
+**Non-modifiable risk factors for hypertension**
+
+1. **Age**: BP rises with age (arterial stiffness); systolic hypertension common in elderly.
+2. **Sex**: more in men in young and middle age; in women after menopause.
+3. **Genetic factors / family history**: risk higher if one or both parents are hypertensive; polygenic inheritance.
+4. **Ethnicity**: higher in people of African and South Asian origin.
+5. **Low birth weight** (fetal programming).
+
+These cannot be changed but identify people for **regular screening** and stricter control of modifiable risks.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.715
+**Measuring morbidity in a community**
+
+**A. Measures (Park)**
+
+1. **Incidence rate** (new cases over time).
+2. **Prevalence rate** (point and period).
+3. Notification rates.
+4. Hospital data: admissions, OPD attendance, length of stay.
+5. Sickness absence from work or school.
+6. Disease registers.
+
+**B. Methods**
+
+| Method | Example for hypertension |
+|---|---|
+| **Cross-sectional prevalence survey** (household health examination survey) | Random sample of adults; **standardised BP measurement** (validated device, correct cuff, rest 5 minutes, 2–3 readings); WHO **STEPS** approach (questionnaire + physical measures + biochemistry) |
+| **Cohort study** | Follow normotensive adults to measure incidence |
+| **Screening camps** | Opportunistic detection at community clinics, NCD corners |
+| **Health interview surveys** | Self-reported diagnosis and treatment |
+| **Routine records** | DHIS2, hospital data, NCD registers |
+
+**C. Indicators for hypertension**
+
+Prevalence; **awareness**, **treatment** and **control** rates ("rule of halves"); risk-factor prevalence (salt, obesity, inactivity).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases; Principles of Epidemiology).
