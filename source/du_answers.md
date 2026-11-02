@@ -7313,3 +7313,617 @@ Juvenile delinquency, alcoholism, drug abuse, crime, prostitution, family breakd
 Higher morbidity and mortality, especially **infant mortality** and TB deaths, in slums.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.249
+**Methods of refuse disposal (Park)**
+
+| Method | Description | Remarks |
+|---|---|---|
+| **1. Dumping** | Refuse dumped in low-lying land; open dumps | Cheap but attracts flies, rats, odour, fires, leachate; unsanitary |
+| **2. Controlled tipping / sanitary landfill** | Refuse placed in layers, compacted, covered daily with ~20–30 cm earth; final cover ~60 cm | Most satisfactory for cities where land is available |
+| **3. Incineration** | Burning in a furnace | Best for hospital (infectious) waste; costly; air pollution if poorly run |
+| **4. Composting** | Refuse + night soil decomposed by bacteria into humus (manure); **Bangalore method** (anaerobic, in trenches) or mechanical composting | Gives manure; suits Indian/Bangladeshi refuse rich in organic matter |
+| **5. Manure pits** | Rural households throw refuse and cattle dung into pits; covered with earth after each day | Manure ready in 5–6 months |
+| **6. Burial** | Small amounts buried in trenches and covered | Small camps, villages |
+
+**Sanitary disposal at a rural setting**
+
+1. **Manure pits** near the house (away from water sources).
+2. **Composting** of organic waste with cattle dung and night soil.
+3. **Burial** of small quantities.
+4. **Biogas plants** using cattle dung and organic waste.
+5. Segregation; reuse and recycling (paper, plastic, metal).
+6. Health education; no throwing waste into ponds, canals or roadsides.
+
+**Modern principles**
+
+3R (reduce, reuse, recycle); source segregation; waste-to-energy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.250
+**Health hazards of improper disposal of solid waste**
+
+1. **Fly breeding** → diarrhoea, dysentery, typhoid, cholera, trachoma.
+2. **Rat harbourage** → plague, leptospirosis, murine typhus, rat-bite fever; food loss.
+3. **Mosquito breeding** in discarded containers and tyres → **dengue**, chikungunya.
+4. **Water and soil pollution** by leachate (heavy metals, pathogens, chemicals).
+5. **Air pollution and odour** from decomposition and open burning (dioxins, smoke).
+6. **Drain blockage** (plastics) → waterlogging, urban flooding.
+7. **Injuries and infections** for waste pickers (cuts, needle-stick → HBV, HCV, HIV; tetanus).
+8. Fire hazard and methane explosions at dumps.
+9. Aesthetic nuisance; lower quality of life.
+10. Stray animals; spread of zoonoses.
+
+**Health hazards of improper excreta disposal**
+
+1. **Faeco-oral diseases**: cholera, typhoid, paratyphoid, bacillary and amoebic dysentery, giardiasis, hepatitis A and E, poliomyelitis, rotavirus diarrhoea.
+2. **Worm infestations**: hookworm (through soil), roundworm, whipworm, threadworm, tapeworm.
+3. **Pollution** of water and soil; fly breeding; odour.
+
+**Extent of the problem**
+
+Diarrhoeal diseases and worm infestations remain major causes of child illness and malnutrition; one gram of faeces may carry millions of viruses and bacteria and many parasite eggs; unsafe excreta disposal is a leading environmental cause of disease, especially in slums and flood-prone areas.
+
+**Three hazards (short answer)**
+
+Fly-borne diarrhoeal diseases; rat-borne diseases; mosquito breeding (dengue).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.251
+**Transmission of disease from excreta ("F-diagram")**
+
+Faeces contain pathogens; they reach a new host through the "**5 Fs**":
+
+| Route | Example |
+|---|---|
+| **Fluids (water)** | Contaminated wells and ponds → cholera, typhoid, hepatitis |
+| **Fingers (hands)** | Unwashed hands after defecation → shigellosis, threadworm |
+| **Flies** | Carry faecal matter to food → diarrhoea, typhoid |
+| **Fields (soil)** | Hookworm larvae penetrate bare feet; roundworm eggs on vegetables |
+| **Food** | Contaminated by the above → food poisoning, hepatitis A |
+
+Faeces → (Fluids, Fingers, Flies, Fields) → Food / mouth → New host
+
+**Diseases spread by excreta**
+
+Cholera, typhoid and paratyphoid, bacillary and amoebic dysentery, giardiasis, hepatitis A and E, poliomyelitis, rotavirus diarrhoea, ascariasis, hookworm, trichuriasis, threadworm, taeniasis, schistosomiasis (urine and faeces).
+
+**Prevention**
+
+**Sanitation barrier** (sanitary latrine) blocks faeces at source; plus safe water, hand-washing, fly control, food hygiene, wearing footwear.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.252
+**Sanitation barrier**
+
+**Segregation of faeces** so that they cannot reach water, hands, flies, soil or food; achieved by a **sanitary latrine**. It breaks the chain of faeco-oral transmission at its **source**.
+
+**Diagram (Park)**
+
+```
+                Water ──┐
+                Hands ──┤
+ Faeces ═║ BARRIER ║    Flies ──┼──→ Food → New host → Death / disease
+       (sanitary   ║    Soil  ──┘
+        latrine)   ║
+```
+
+Without the barrier: Faeces → water, fingers, flies, soil → food / mouth → new host.
+With the barrier: faeces are isolated; all routes are blocked at once.
+
+**How it prevents disease transmission**
+
+1. Excreta confined in a pit or sealed system → **no access for flies** (water seal).
+2. **No contamination of soil** → no hookworm larvae or worm eggs.
+3. **No contamination of ground and surface water** (latrine ≥15 m from and downhill of water source).
+4. Reduces **hand contamination** when combined with hand-washing.
+5. Prevents **food** contamination indirectly.
+
+**Importance in rural Bangladesh**
+
+1. Diarrhoea, typhoid, hepatitis E and worm infestations remain common, especially after floods.
+2. High water table and floods make proper latrines vital.
+3. Large reductions in open defecation have occurred; maintaining and upgrading latrines (hygienic, water-sealed, flood-resilient) is the next step.
+4. Low-cost **ring-slab water-seal latrines** are available.
+5. Prevents child stunting linked to repeated infections.
+6. Combined with safe water and hand-washing (WASH), it is the most effective prevention of faeco-oral disease.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.253
+**Methods of excreta disposal (Park)**
+
+**A. Unsewered areas**
+
+1. **Service-type latrines (conservancy system)**: excreta removed manually by sweepers (unsanitary; being abolished).
+2. **Non-service type (sanitary latrines)**:
+   - (a) **Bore-hole latrine**
+   - (b) **Dug-well (pit) latrine**
+   - (c) **Water-seal type latrine**: PRAI type, RCA type (Bangladesh: ring-slab latrine, twin-pit pour-flush)
+   - (d) **Septic tank**
+   - (e) **Aqua privy**
+3. **Latrines for camps and temporary use**:
+   - Shallow trench latrine
+   - Deep trench latrine
+   - Pit latrine
+   - Bore-hole latrine
+
+**B. Sewered areas**
+
+**Water-carriage system** → sewers → **sewage treatment** (primary: screening, grit chamber, sedimentation; secondary: trickling filter or activated sludge; sludge digestion) → safe disposal.
+
+**Other methods**
+
+Composting (night soil with refuse), biogas plants, ecological sanitation (urine-diverting toilets), faecal sludge management for pit and septic-tank contents.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.254
+**Water-seal latrine**
+
+Pit latrine with a squatting pan connected to a **trap holding water** (water seal ~2 cm deep) that separates the pan from the pit; flushed by pouring water. Bangladesh: **ring-slab latrine**, twin-pit pour-flush.
+
+**Components**
+
+Location (≥15 m from and downhill of water source) → squatting slab → pan → trap (water seal) → connecting pipe → pit (rings) → superstructure.
+
+**Advantages in rural areas**
+
+1. **Fly-proof**: water seal prevents flies reaching excreta → fewer fly-borne diseases.
+2. **Odour-free**: seal blocks smell → people accept and use it.
+3. **Prevents mosquito breeding** in the pit.
+4. **Low cost**: simple materials (concrete rings, slab), locally made.
+5. **Simple to build and maintain**; no daily handling of excreta; no sweeper needed.
+6. **Little water needed**: 1–2 litres per flush (pour-flush).
+7. **Long life** of pit; **twin-pit** design allows alternate use and safe manure.
+8. Protects **ground water** and soil when properly sited.
+9. **Privacy, dignity and safety** for women and girls.
+10. Culturally acceptable (squatting, use of water for anal cleansing).
+
+**Limitations**
+
+Needs water; blocked by solid materials; pits may overflow in floods if not raised.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.255
+**Criteria of a sanitary latrine (Park)**
+
+1. Excreta should **not contaminate ground water**.
+2. Excreta should **not contaminate surface soil**.
+3. Excreta should **not contaminate surface water**.
+4. Excreta should **not be accessible to flies or animals**.
+5. **No handling of fresh excreta**; or, when unavoidable, kept to the minimum.
+6. Should be **free from odours** and unsightly conditions.
+7. Method should be **simple and inexpensive** in construction and operation.
+
+**Location criteria**
+
+- At least **15 m (50 feet)** from any water source.
+- **Downhill** or on a lower level than wells.
+- Pit bottom above the ground-water level where possible.
+- Easily accessible, with privacy and light.
+
+**Other desirable features**
+
+Water seal; easy to clean; hand-washing facility with soap nearby; superstructure for privacy; raised plinth in flood-prone areas.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.256
+**Sanitary landfill vs open dumping**
+
+| Point | Open dumping | Sanitary landfill (controlled tipping) |
+|---|---|---|
+| Method | Waste thrown in open low-lying land | Waste spread in layers, compacted and **covered daily with earth** |
+| Flies, rats, mosquitoes | Breed freely | Controlled by cover |
+| Odour | Strong | Minimal |
+| Open burning, fires | Common | Prevented |
+| Leachate | Pollutes ground and surface water | Controlled by lining, drainage and treatment |
+| Gas (methane) | Uncontrolled; fire and explosion risk | Collected or vented; can generate energy |
+| Scavenging | Waste pickers exposed to injury and infection | Restricted |
+| Appearance | Unsightly | Acceptable; site reclaimed later |
+| Land use | Land wasted | Land reclaimed for parks, playgrounds |
+| Spread of disease | High | Low |
+
+**Advantages of sanitary landfill**
+
+1. Hygienic; prevents vector breeding.
+2. Protects water and air.
+3. Relatively cheap and simple where land is available.
+4. Handles all kinds of non-hazardous waste.
+5. Reclaims low-lying land.
+6. Landfill gas can be used as energy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.257
+**Objectives of school health services (Park)**
+
+1. **Promotion of positive health**.
+2. **Prevention of diseases**.
+3. **Early diagnosis, treatment and follow-up** of defects and diseases.
+4. **Awakening health consciousness** in children.
+5. **Provision of a healthful school environment**.
+
+**Aspects (components) of school health services**
+
+1. Health appraisal of school children and school personnel.
+2. Remedial measures and follow-up.
+3. Prevention of communicable diseases (immunisation, deworming).
+4. Healthful school environment.
+5. Nutritional services (school feeding, IFA).
+6. First aid and emergency care.
+7. Mental health.
+8. Dental health.
+9. Eye health.
+10. Health education.
+11. Education of handicapped children.
+12. Proper maintenance and use of school health records.
+
+**Importance**
+
+School children form a large, accessible, receptive group; healthy habits formed at school last for life and spread to families (child-to-child).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.258
+**Role (priority) of school health services in rural areas**
+
+1. **Large, accessible group**: most rural children attend primary school → easy to reach for screening, immunisation, deworming.
+2. **High burden of preventable problems**: malnutrition, anaemia, worm infestations, skin and eye infections, dental caries, diarrhoea.
+3. **Few health facilities** nearby → school is a key service point.
+4. **Early detection** of defects (vision, hearing, learning problems) that affect schooling.
+5. **Health education** reaches families through children (child-to-child, child-to-parent).
+6. **Healthy habits** (hand-washing, latrine use, safe water, nutrition) are formed early.
+7. **Adolescent girls**: menstrual hygiene, IFA, Td and HPV vaccination; prevention of child marriage.
+8. **Improves attendance and learning**; reduces dropout.
+9. Supports **national programmes**: EPI catch-up, deworming, nutrition, vaccination campaigns (MR, TCV, HPV).
+10. Cost-effective, community-centred.
+
+**Risks / challenges in rural settings**
+
+Shortage of trained staff; poor school WASH facilities; weak follow-up and referral; poverty; lack of teacher training; poor records; low priority in budgets.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.259
+**Criteria of an ideal classroom (Park)**
+
+| Item | Standard |
+|---|---|
+| Number of students | Not more than **40** per class |
+| Floor space | At least **10 sq ft (≈1 m²) per student** |
+| Ceiling / wall height | At least 10 feet |
+| Windows | Window area at least **25% of floor area**; good cross-ventilation |
+| Lighting | Natural light, preferably from the **left side** (for right-handed writers); no glare |
+| Colour | Ceilings white; walls light colour; low reflectance for desks and floors |
+| Floor | Impervious, easy to clean, non-slippery |
+| Furniture | **Individual desks and chairs**; **minus-type desks**; chairs with backrest; size suited to age |
+| Blackboard | Non-glare, at suitable height and distance |
+| Doors | Open outward; adequate exits for emergencies |
+| Noise | Away from busy roads, markets |
+| Temperature | Comfortable; fans |
+| Cleanliness | Clean, free from dust; dustbins |
+
+**School environment links**
+
+Safe drinking water; separate latrines for boys and girls (Park: 1 urinal per 60 and 1 latrine per 100 students); hand-washing facilities; playground.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.260
+**Health appraisal**
+
+Assessment of the physical and mental health status of school children (and school personnel) by **periodic medical examination** and **daily observation by teachers**.
+
+**Components**
+
+**1. Periodic medical examination**
+
+- At school entry, then every 4 years (Park); yearly where possible.
+- **History**: past illness, immunisation, family history.
+- **General examination**: anthropometry (height, weight, BMI-for-age), nutritional status, pallor, skin, hair.
+- **Systemic examination**: heart (murmurs, rheumatic heart disease), lungs, abdomen.
+- **Special senses**: vision (Snellen's chart), hearing (whisper test, tuning fork), dental check.
+- **Investigations** as needed: Hb, stool for ova, urine.
+- **Immunisation status** checked and updated.
+- **Mental and behavioural** problems, learning difficulties.
+
+**2. Daily morning inspection by the teacher**
+
+Look for: unusual pallor, red or watery eyes, running nose, rash, cough, fever, sores, lice, dirty clothes, drowsiness, unusual behaviour; refer if needed.
+
+**3. Health appraisal of school personnel**
+
+Teachers and staff examined (especially for TB) because they can infect children and affect their mental health.
+
+**4. Records**
+
+Cumulative health record card for each child; follow-up of defects.
+
+**Purpose**
+
+Early detection, treatment and follow-up of defects; prevention of spread of infection; planning school health services; health education opportunity.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.261
+**Healthful school environment**
+
+The physical, social and emotional conditions of the school that promote the health, safety and learning of children and staff.
+
+**Criteria (Park)**
+
+| Item | Criteria |
+|---|---|
+| **1. Location** | Central, away from busy roads, markets, factories, noise, smoke |
+| **2. Site** | Elevated, well drained, fenced; enough open space |
+| **3. Structure** | Safe, strong; nursery schools single-storey; walls ≥10 ft high; impervious floor |
+| **4. Classroom** | ≤40 students; ≥10 sq ft per student |
+| **5. Furniture** | Individual minus-type desks; chairs with backrest; suited to age |
+| **6. Doors and windows** | Window area ≥25% of floor area; cross-ventilation |
+| **7. Colour** | White ceilings, light-coloured walls |
+| **8. Lighting** | Adequate natural light from the left |
+| **9. Water supply** | Safe, adequate drinking water |
+| **10. Eating facilities** | Clean place for meals; food hygiene |
+| **11. Latrines and urinals** | Separate for boys and girls; 1 urinal per 60 and 1 latrine per 100 students; hand-washing with soap; menstrual hygiene facilities |
+| **12. Playground** | Safe, adequate for physical activity |
+
+**Psychosocial environment**
+
+No corporal punishment or bullying; supportive teachers; no tobacco; inclusive of disabled children.
+
+**How to ensure it**
+
+School health committee; regular inspection by school health team; funds for WASH and maintenance; teacher training; student health clubs; community and parent involvement.
+
+**Five criteria (short answer)**
+
+Proper location and site; adequate classroom space and furniture; good lighting and ventilation; safe water and sanitary latrines; playground.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.262
+**School desks: classification (by horizontal distance between the edge of the seat and the edge of the desk)**
+
+| Type | Arrangement | Effect |
+|---|---|---|
+| **Plus desk** | Edge of desk is **behind** (away from) the front edge of the seat → a gap | Child must bend forward to write → poor posture, fatigue, backache, spinal curvature (kyphosis, scoliosis), eye strain (book too near) |
+| **Zero desk** | Edge of desk is **vertically above** the edge of the seat | Better than plus, but child still leans |
+| **Minus desk** | Edge of desk **projects over** the seat | Child sits erect while writing → **best (recommended)** |
+
+**Diagram (side view)**
+
+```
+ Plus:   desk ▁▁▁        (gap)    ▁▁▁ seat
+ Zero:   desk ▁▁▁|▁▁▁ seat  (edges in line)
+ Minus:  desk ▁▁▁▁▁▁           (desk overlaps seat)
+              ▁▁▁▁ seat
+```
+
+**Desirable features**
+
+1. **Minus** type; **individual** (one seat per child).
+2. Height matched to child's height (adjustable or graded by class).
+3. Chair with **backrest** supporting lower back; feet flat on floor.
+4. Writing surface sloped (~15°) for reading; flat portion for pens.
+5. Smooth, rounded edges; sturdy.
+
+**Uses / importance**
+
+Correct posture; prevents spinal deformities and backache; reduces eye strain and fatigue; improves attention and learning.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.263
+**Medical (and medicolegal) importance of the school desk**
+
+1. **Posture**: wrong desk (plus type, wrong height) forces stooping → **kyphosis, scoliosis, lordosis**, round shoulders.
+2. **Backache and neck pain**; musculoskeletal strain.
+3. **Eye strain** and possible **myopia** (book held too close).
+4. **Fatigue** and poor concentration → poor learning.
+5. **Respiratory and digestive** discomfort from cramped chest and abdomen.
+6. **Injuries** from broken desks or sharp edges.
+7. **Crowding** on shared benches → spread of infections (scabies, lice, respiratory infections).
+
+**Legal / administrative aspects**
+
+- Schools are responsible for a **safe and healthful environment**; unsafe furniture causing injury or deformity may lead to complaints or liability.
+- Furniture should follow approved **standards** (minus type, individual, size by age) during school inspection and registration.
+- School health medical officers record deformities linked to furniture and recommend correction.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.264
+**Criteria of an ideal (school) table / desk**
+
+1. **Minus type**: front edge projects slightly over the seat, so the child sits erect.
+2. **Height** suited to the child: top at about elbow level when seated; graded by age or adjustable.
+3. **Writing surface sloped** about 15° (flat strip at top for pens and inkpot).
+4. **Width and depth** enough for a book and notebook (individual table).
+5. **Individual** (one child per table) to avoid crowding and spread of infections.
+6. **Knee room** and foot space under the table.
+7. **Smooth, rounded edges**; no splinters or sharp corners.
+8. **Strong, stable**, easy to clean.
+9. **Non-glare, light-coloured** surface.
+10. Proper **distance from eyes** (~30–35 cm) when writing.
+11. Placed so that **light comes from the left**.
+12. Matched with a **chair with backrest**, feet resting flat on the floor.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.265
+**Plus desk**
+
+A desk in which the **front edge of the desk is behind the front edge of the seat** (positive horizontal distance) → the child must **bend forward** to write.
+
+Effects: stooping posture, backache, kyphosis/scoliosis, eye strain, fatigue.
+
+**Minus desk**
+
+The **front edge of the desk projects over the seat** (negative horizontal distance).
+
+**Importance of the minus desk**
+
+1. Child can **sit erect** while reading and writing.
+2. **Prevents spinal deformities**: kyphosis, scoliosis, round shoulders.
+3. **Prevents backache** and neck strain.
+4. Keeps book at proper **distance from eyes** → less eye strain and myopia risk.
+5. **Less fatigue**, better concentration and learning.
+6. Allows free chest expansion and comfortable breathing.
+7. Recommended standard for school furniture (with individual seat and backrest).
+
+**Comparison**
+
+| Plus | Zero | Minus |
+|---|---|---|
+| Gap between desk and seat | Edges in one vertical line | Desk overlaps seat |
+| Worst posture | Intermediate | **Best posture** |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.266
+**Common health problems of school children (Bangladesh)**
+
+| Group | Problems |
+|---|---|
+| **Nutritional** | Stunting, underweight, thinness; **anaemia** (iron deficiency); vitamin A and iodine deficiency; rising overweight and obesity in urban schools |
+| **Infections** | **Worm infestations** (roundworm, hookworm); diarrhoea, typhoid, hepatitis A and E; ARI, TB; dengue; measles and other vaccine-preventable diseases |
+| **Skin** | Scabies, pediculosis (lice), impetigo, fungal infections |
+| **Eye** | **Refractive errors** (myopia), conjunctivitis, squint, vitamin A deficiency signs |
+| **Ear, nose, throat** | Otitis media, wax, hearing loss, tonsillitis |
+| **Dental** | **Dental caries**, gum disease, malocclusion |
+| **Heart** | Rheumatic fever and rheumatic heart disease, congenital heart disease |
+| **Injuries** | **Drowning**, road traffic injuries, falls, burns, snake bite |
+| **Mental and behavioural** | Learning disability, ADHD, anxiety, depression, exam stress, bullying, screen addiction |
+| **Adolescent** | Menstrual hygiene problems, child marriage and early pregnancy, substance use (smoking), sexual and reproductive health issues |
+| **Disability** | Visual, hearing, physical and intellectual disabilities |
+
+**Commonest in primary schools**
+
+Malnutrition and anaemia, worm infestation, dental caries, skin infections, eye and ear problems, diarrhoea and ARI, injuries.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.267
+**Role of school teachers in school health services**
+
+1. **Daily morning inspection** of children: pallor, red eyes, rash, cough, fever, lice, scabies, unusual behaviour → refer.
+2. **Health education**: hygiene, hand-washing, nutrition, dental care, safe water, road safety, menstrual hygiene; integrate into lessons.
+3. **Role model** of healthy behaviour (no smoking, cleanliness, punctuality).
+4. **Healthful school environment**: clean classrooms, latrines, water supply, seating, lighting.
+5. **First aid** and emergency care; keep first-aid box.
+6. **Assist health appraisal**: weigh and measure children, test vision (Snellen's chart), keep records.
+7. **Follow-up** of children with defects; inform parents.
+8. **Immunisation and campaigns**: mobilise children for vaccination (Td, HPV, MR, TCV), deworming, IFA.
+9. **School feeding / nutrition** supervision.
+10. **Mental health**: identify learning, emotional and behavioural problems; prevent bullying; supportive atmosphere.
+11. **Inclusive education** for disabled children.
+12. **Link** between school health team, parents and community; run health clubs.
+13. **Exclusion and readmission** of children with communicable diseases as advised.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.268
+**Duties of a school health medical officer**
+
+1. **Health appraisal**: periodic medical examination of children (at entry and at intervals) and of school staff.
+2. **Treatment and referral** of minor ailments and defects; follow-up (remedial measures).
+3. **Immunisation**: check and complete schedules; school vaccination campaigns.
+4. **Prevention and control of communicable diseases**: surveillance, exclusion and readmission, outbreak control.
+5. **Inspection of the school environment**: buildings, classrooms, furniture, lighting, water, latrines, canteen.
+6. **Nutrition services**: assess nutritional status; supervise school feeding; IFA, deworming.
+7. **Health education** of children, teachers and parents.
+8. **Training of teachers** in daily inspection, first aid and health education.
+9. **First aid and emergency care** arrangements.
+10. **Mental health**: identify behavioural and learning problems; counselling; referral.
+11. **Special services**: dental, eye (vision screening, spectacles), ear.
+12. **Care of handicapped children**; advise on special education.
+13. **Records and reports**: maintain cumulative health records; report to authorities.
+14. **Coordination**: school health committee, parents, local health services.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.269
+**School health programmes / activities in Bangladesh**
+
+1. **School health clinics** under DGHS in selected districts: health appraisal, treatment, referral, health education.
+2. **School deworming**: periodic mass deworming of school children (albendazole/mebendazole).
+3. **Immunisation in schools**: Td for adolescent girls; **HPV vaccine** for girls; school-based campaigns (measles-rubella, **typhoid conjugate vaccine**).
+4. **Weekly iron-folic acid** supplementation for adolescent girls.
+5. **School feeding programme** in poverty-prone areas (fortified biscuits / midday meal).
+6. **WASH in schools**: safe water, separate latrines, hand-washing, menstrual hygiene management.
+7. **Health education** in the national curriculum (physical education and health, life skills, adolescent health).
+8. **Vision and dental screening** programmes (with NGOs).
+9. **Adolescent health**: adolescent-friendly health services; school health corners; anti-child-marriage awareness.
+10. **Tobacco-free and drug-free school** initiatives.
+11. **Disaster preparedness** and drowning prevention (swimming lessons by NGOs).
+12. **School mental health** awareness.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.270
+**Responsibilities of the Health Assistant (in school health and community)**
+
+**Three main responsibilities**
+
+1. **Immunisation**: vaccinate children and adolescent girls (Td, HPV, campaign vaccines); register and track defaulters.
+2. **Health education**: personal hygiene, hand-washing, safe water, sanitation, nutrition, prevention of communicable diseases.
+3. **Surveillance and reporting**: detect and report communicable diseases (measles, AFP, diarrhoea outbreaks) and refer sick children.
+
+**Other responsibilities**
+
+4. Help **school health appraisal**: weight, height, vision screening; record keeping.
+5. **Deworming** and IFA distribution campaigns.
+6. **Inspection** of school sanitation and water supply; advise on improvement.
+7. **TB and leprosy** case finding; follow-up.
+8. **First aid** and referral to community clinic or UHC.
+9. Coordinate with teachers and school health committee.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services; Health Care of the Community).
+
+## DU.271
+**Appliances needed by a school health medical officer**
+
+| Purpose | Appliances |
+|---|---|
+| **Anthropometry** | Weighing scale, height-measuring rod (stadiometer), measuring tape, MUAC tape, growth / BMI-for-age charts |
+| **General examination** | Stethoscope, BP instrument (paediatric cuffs), thermometer, torch, tongue depressors, magnifying glass |
+| **Eye** | **Snellen's chart** (or E-chart), pinhole, colour vision (Ishihara) chart |
+| **Ear** | Otoscope, tuning fork (512 Hz), (portable audiometer) |
+| **Dental** | Mouth mirror, probe, gloves |
+| **Laboratory** | Haemoglobinometer (Sahli / digital), urine dipsticks, stool containers |
+| **Immunisation** (if given) | Vaccine carrier with ice packs, AD syringes, safety box, AEFI kit (adrenaline) |
+| **Drugs** | Deworming tablets, IFA, ORS, paracetamol, antiseptics, skin ointments |
+| **First aid** | First-aid box: bandages, gauze, splints, antiseptic, scissors, gloves |
+| **Records** | Cumulative health record cards, referral slips, registers |
+| **Health education** | Flip charts, posters, models, leaflets |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.272
+**School health emergencies**
+
+| Group | Emergencies |
+|---|---|
+| **Injuries** | Falls, fractures, sprains, cuts and bleeding, head injury, dental injuries |
+| **Burns and scalds** | Laboratory, kitchen, fireworks |
+| **Fainting (syncope)** | Prolonged standing at assembly, heat, hunger |
+| **Medical** | Convulsions (epilepsy, febrile), **asthma attack**, anaphylaxis (insect sting, food allergy), hypoglycaemia (diabetic child), heat stroke, acute abdominal pain, high fever |
+| **Bites and stings** | **Dog bite**, **snake bite**, bee sting |
+| **Foreign bodies** | In eye, ear, nose; choking (airway obstruction) |
+| **Nose bleed (epistaxis)** | |
+| **Drowning** | Ponds near schools, during excursions |
+| **Poisoning** | Food poisoning, accidental chemical ingestion |
+| **Electric shock** | Faulty wiring |
+| **Mass events** | Mass psychogenic illness, AEFI after school vaccination, fire, earthquake, building collapse |
+
+**Preparedness**
+
+Trained teachers in first aid; first-aid box; emergency contact numbers; referral to nearest health facility; safety drills.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
