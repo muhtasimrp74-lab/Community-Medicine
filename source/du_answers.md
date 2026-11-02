@@ -323,17 +323,6 @@ Current form of HFA = **UHC through PHC** under **SDG 3** by 2030.
 4. **Ottawa Charter (1986)**: health is a **resource for everyday life**, not the objective of living.
 5. **Huber et al. (BMJ, 2011)**: health as the ability to **adapt and self-manage** in face of social, physical and emotional challenges.
 
-**New philosophy of health (Park)**
-
-1. Health is a **fundamental human right**.
-2. Health is the essence of productive life, not the result of ever-rising spending on medical care.
-3. Health is **intersectoral**.
-4. Health is an integral part of **development**.
-5. Health is central to **quality of life**.
-6. Health involves individual, state and international responsibility.
-7. Health and its maintenance is a major **social investment**.
-8. Health is a **world-wide social goal**.
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); WHO Constitution, 1948.
 
 ## DU.14
@@ -524,14 +513,6 @@ Positive health = perfect functioning of body and mind, beyond mere freedom from
 - **Biologically**: every cell and organ works at optimum capacity, in perfect harmony with the rest.
 - **Psychologically**: the person feels perfect well-being and mastery over his environment.
 - **Socially**: optimum capacity to take part in the social system.
-
-**Moving towards positive health**
-
-1. Health promotion: balanced diet, exercise, sleep, no tobacco or alcohol, stress control.
-2. Specific protection: immunisation, safe water, sanitation.
-3. Periodic health check-up and screening.
-4. Mental and social well-being: family, social support, meaningful work.
-5. Healthy public policy and supportive environment.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
@@ -949,18 +930,6 @@ A variable that measures changes in health status, directly or indirectly, and s
 - Broader than medical care: includes promotive, preventive, curative, rehabilitative and palliative services.
 - **Health system (WHO, 2000)**: all organisations, people and actions whose primary intent is to promote, restore or maintain health.
 
-**Levels of health care**
-
-| Level | Description | Bangladesh facility |
-|---|---|---|
-| **Primary** | First contact with the health system; essential care close to where people live | Community clinic, union-level centres, Upazila Health Complex |
-| **Secondary** | More complex problems; referral from primary level; basic specialist care | District hospital |
-| **Tertiary** | Highly specialised care, super-specialists, advanced technology | Medical college hospitals, specialised institutes |
-
-**Ideal health care**
-
-Appropriate, comprehensive, adequate, available, accessible, affordable, feasible.
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Health Care of the Community); WHO, World Health Report 2000.
 
 ## DU.36
@@ -1141,8 +1110,6 @@ Later additions (India/Bangladesh practice): mental health, dental health, NCD s
 
 ## DU.43
 **Best element for immediate improvement: "Education concerning prevailing health problems and the methods of preventing and controlling them" (health education)**
-
-
 
 **Why**
 
@@ -1331,8 +1298,6 @@ Upazila Health Complex → Union facilities → Community clinic → Household (
 ## DU.50
 **Types of health care services**
 
-
-
 **A. By level**
 
 | Level | Description | Example |
@@ -1430,8 +1395,6 @@ MCH and family planning; school health; occupational health; geriatric care; men
 ## DU.53
 **Upazila Health and Family Planning Officer (UH&FPO): community physician at upazila level**
 
-
-
 **A. Administrative**
 
 1. Head of the **Upazila Health Complex** and all upazila health services.
@@ -1500,8 +1463,6 @@ ORS pioneered by icddr,b; by 2014 about 80% of children with diarrhoea received 
 
 ## DU.55
 **Community clinic: excellent example of community participation**
-
-
 
 **1. Planning and establishment**
 
@@ -1744,10 +1705,6 @@ Stimulus → Early pathogenesis (incubation / pre-symptomatic) → Early discern
 
 **Miasmatic theory**: the belief that disease is caused by **"miasma"** (bad air), foul-smelling, poisonous vapours rising from decaying organic matter, filth, sewage, marshes and swamps.
 
-**Theories of disease causation (sequence)**
-
-Supernatural → Theory of humours → **Miasmatic** → Germ theory → Epidemiological triad → Multifactorial causation (web of causation)
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.65
@@ -1924,16 +1881,6 @@ Iceberg is absent or small in rabies, measles and tetanus (almost all infections
 1. **Webster**: a condition in which body health is impaired; a departure from a state of health; an alteration of the body that interrupts performance of vital functions.
 2. **Oxford English Dictionary**: a condition of the body, or of some part or organ, in which its functions are disturbed or deranged.
 3. **Ecological view**: maladjustment of the human organism to its environment.
-
-**Disease, illness, sickness**
-
-| Term | Meaning | Perspective |
-|---|---|---|
-| **Disease** | Physiological or psychological dysfunction | Doctor's (objective) |
-| **Illness** | Subjective state of feeling unwell | Patient's (subjective) |
-| **Sickness** | State of social dysfunction; role the person takes when ill ("sick role") | Society's |
-
-A person may have disease without illness (hypertension) or illness without disease (anxiety).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
@@ -2250,8 +2197,6 @@ Acceptability; repeatability (reliability); validity (sensitivity, specificity);
 ## DU.88
 **Strategies to enhance doctor–patient relationship (Bangladesh)**
 
-
-
 **A. Doctor-level**
 
 1. **Communication skills** training (undergraduate and in-service): listening, explaining, breaking bad news.
@@ -2513,8 +2458,6 @@ Health education, patient counselling, training of CHWs and students.
 
 **Classification**
 
-
-
 **A. Type theories**
 
 | Theory | Types | Example features |
@@ -2742,13 +2685,6 @@ Ratio IQ is used for children; for adults, deviation IQ is used (chronological a
 - **Park**: a group of biologically related individuals living together and eating from a common kitchen.
 - **Sociological (Burgess and Locke)**: a group of persons united by marriage, blood or adoption, forming a single household, interacting in their social roles (husband, wife, parents, children, siblings) and sharing a common culture.
 
-**Family as a unit of health care**
-
-- First line of care for the sick.
-- Shapes health habits, diet and hygiene.
-- Decides use of health services.
-- Family health is the basis of community health.
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
 
 ## DU.108
@@ -2781,8 +2717,6 @@ Ratio IQ is used for children; for adults, deviation IQ is used (chronological a
 
 ## DU.109
 **Role of family in health and disease**
-
-
 
 **A. In causation of disease**
 
@@ -2839,8 +2773,6 @@ The family is the **basic unit of health care**; family-centred care improves ou
 ## DU.111
 **Types of leadership**
 
-
-
 **A. By style (Lewin)**
 
 | Type | Features | Health example |
@@ -2895,8 +2827,6 @@ A good leader (e.g., UH&FPO) coordinates the team, community and other sectors, 
 
 ## DU.113
 **Ideal leadership: democratic (participative), adapted to the situation**
-
-
 
 **Why democratic is generally ideal in health care**
 
@@ -2991,8 +2921,6 @@ Crude birth rate, crude death rate, IMR, NMR, MMR, life expectancy, fertility ra
 Application of statistical methods to biological, medical and health data.
 
 **Uses**
-
-
 
 **A. Medicine and research**
 
@@ -3430,8 +3358,6 @@ Equal bar width and spacing; scale from zero; title, labels, legend.
 ## DU.133
 **Importance (uses) of vital statistics**
 
-
-
 **A. Health**
 
 1. **Measure health status** of a population: CBR, CDR, IMR, MMR, life expectancy.
@@ -3593,8 +3519,6 @@ Problem → Literature review → Objectives / hypothesis → Design → Samplin
 
 ## DU.140
 **Rules of writing an abstract**
-
-
 
 **A. Structure (structured abstract)**
 
@@ -4648,7 +4572,6 @@ Awareness → Interest → Evaluation → Trial → Adoption
 
 People = soil; health facts = seed; communicator = sower. All three must be favourable for results.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
 
 ## DU.183
@@ -4977,8 +4900,6 @@ Algae and vegetation growth; tastes and odours; contamination from catchment (gr
 ## DU.197
 **Classification of water-borne diseases (Park)**
 
-
-
 **A. Biological**
 
 | Group | Diseases |
@@ -5014,8 +4935,6 @@ Water-washed (scabies, trachoma); water-related insect vectors (malaria, dengue,
 
 ## DU.198
 **Prevention of water-borne diseases**
-
-
 
 **A. Safe water supply**
 
@@ -5148,8 +5067,6 @@ Intake → Screening → Aeration → Coagulation and flocculation → Sedimenta
 
 ## DU.202
 **Purification of water at household (small-scale) level**
-
-
 
 **1. Boiling**
 
@@ -5341,8 +5258,6 @@ Chlorine added → demand met → combined residual ↑ → destroyed ↓ → **
 ## DU.208
 **Steps in disinfection of a well (with bleaching powder)**
 
-
-
 **1. Find the volume of water in the well**
 
 Measure diameter (d, metres) and depth of water column (h, metres).
@@ -5378,8 +5293,6 @@ Bleaching powder = 15.7 × 2.5 g ≈ **39 g**
 
 ## DU.209
 **Chemicals in excess that make public water supply unacceptable (grounds for rejection)**
-
-
 
 **A. Toxic substances (health hazard)**
 
@@ -5446,8 +5359,6 @@ The **soap-destroying power** of water; caused mainly by dissolved **calcium and
 ## DU.212
 **Removal of hardness**
 
-
-
 **A. Temporary hardness**
 
 | Method | Reaction / description |
@@ -5490,8 +5401,6 @@ A chronic health condition caused by prolonged ingestion (usually ≥6 months) o
 
 ## DU.214
 **Provision of safe water in an arsenic-affected community**
-
-
 
 **A. Identify safe and unsafe sources**
 
@@ -5653,14 +5562,6 @@ Storage → Filtration → Disinfection
 
 **Air pollution**: the presence in the outdoor (or indoor) air of one or more contaminants (gases, particles, biological agents) in such quantity and for such duration as to be harmful to human, animal or plant life or property, or to interfere unreasonably with the comfortable enjoyment of life or property (WHO concept).
 
-**Major pollutants**
-
-Particulate matter (PM₂.₅, PM₁₀), carbon monoxide, sulphur dioxide, nitrogen oxides, ozone, lead, hydrocarbons.
-
-**WHO air quality guidelines (2021)**
-
-PM₂.₅: annual 5 µg/m³, 24-hour 15 µg/m³; PM₁₀: annual 15 µg/m³, 24-hour 45 µg/m³.
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021.
 
 ## DU.220
@@ -5691,8 +5592,6 @@ Emission of primary pollutants → dispersion (affected by wind, temperature inv
 
 ## DU.221
 **Effects of air pollution**
-
-
 
 **A. Health effects**
 
@@ -5746,8 +5645,6 @@ Biomass fuels (wood, crop residue, cow dung), coal, kerosene; tobacco smoke; mos
 
 ## DU.223
 **Tools for monitoring air pollution**
-
-
 
 **A. Classical methods (Park)**
 
@@ -5833,8 +5730,6 @@ Global Air Quality Guidelines (2021); WHO road map on health and air pollution; 
 
 ## DU.226
 **Components of air quality**
-
-
 
 **A. Normal composition of air (dry, by volume)**
 
@@ -6028,8 +5923,6 @@ Whisper ~30 dB; conversation ~60 dB; heavy traffic ~85–90 dB; hydraulic horn 1
 ## DU.233
 **Effects of noise pollution on health**
 
-
-
 **A. Auditory effects**
 
 1. **Auditory fatigue** (temporary threshold shift): above ~90 dB, recovers with rest.
@@ -6058,8 +5951,6 @@ Traffic police, drivers, factory and construction workers, children, elderly, pa
 
 ## DU.234
 **Noise control measures in Dhaka city**
-
-
 
 **A. Legislation and enforcement**
 
@@ -6161,8 +6052,6 @@ Absorbed dose: gray (Gy); effective dose: sievert (Sv).
 
 ## DU.237
 **Radiation hazards**
-
-
 
 **A. Ionising radiation**
 
@@ -6409,8 +6298,6 @@ Good housing prevents infections (TB, diarrhoea, scabies), accidents and mental 
 ## DU.248
 **Effects of poor housing**
 
-
-
 **A. Physical health**
 
 | Housing defect | Health effect |
@@ -6555,8 +6442,6 @@ With the barrier: faeces are isolated; all routes are blocked at once.
 
 ## DU.253
 **Methods of excreta disposal (Park)**
-
-
 
 **A. Unsewered areas**
 
@@ -6739,8 +6624,6 @@ Safe drinking water; separate latrines for boys and girls (Park: 1 urinal per 60
 Assessment of the physical and mental health status of school children (and school personnel) by **periodic medical examination** and **daily observation by teachers**.
 
 **Components**
-
-
 
 **1. Periodic medical examination**
 
@@ -6978,8 +6861,6 @@ Malnutrition and anaemia, worm infestation, dental caries, skin infections, eye 
 ## DU.270
 **Responsibilities of the Health Assistant (in school health and community)**
 
-
-
 **Three main responsibilities**
 
 1. **Immunisation**: vaccinate children and adolescent girls (Td, HPV, campaign vaccines); register and track defaulters.
@@ -7210,8 +7091,6 @@ Planned industrialisation; zoning; effluent treatment; enforcement of environmen
 ## DU.282
 **Psychological hazards of female garment workers**
 
-
-
 **Causes (stressors)**
 
 | Stressor | Examples |
@@ -7286,8 +7165,6 @@ Reasonable hours and targets; fair wages; anti-harassment committees and policie
 
 ## DU.285
 **Protective measures for garment / textile workers against cotton dust (byssinosis)**
-
-
 
 **A. Engineering (environmental) control**
 
@@ -7455,8 +7332,6 @@ Mainly **inhalation** of fumes and dust; also ingestion (eating, smoking with di
 ## DU.291
 **Features of plumbism (lead poisoning)**
 
-
-
 **A. Symptoms and signs (Park)**
 
 1. **Facial pallor**, especially around the mouth: earliest and most consistent sign.
@@ -7544,8 +7419,6 @@ Substitution; exhaust ventilation; wet methods; personal hygiene (wash before ea
 ## DU.295
 **Protection of agricultural workers**
 
-
-
 **A. Against biological hazards**
 
 1. **Tetanus immunisation** (Td) for all farmers.
@@ -7581,8 +7454,6 @@ Primary health care in rural areas; periodic health check-ups; health education;
 
 ## DU.296
 **General measures for prevention of occupational hazards (Park)**
-
-
 
 **A. Medical measures**
 
@@ -7645,8 +7516,6 @@ National Occupational Health and Safety Policy (2013); Environment Conservation 
 Pneumoconiosis caused by inhalation of **coal dust** in coal mines (Bangladesh: Barapukuria).
 
 **Prevention**
-
-
 
 **A. Dust control (engineering)**
 
@@ -7953,11 +7822,6 @@ World Health Assembly (policy) → Executive Board (executive) → Secretariat (
 | **2024** | **"My health, my right"** |
 | 2025 | "Healthy beginnings, hopeful futures" (maternal and newborn health; year-long campaign) |
 
-**About World Health Day**
-
-- Marks WHO's founding on **7 April 1948**.
-- Each year WHO selects a priority theme to raise global awareness.
-
 **Ref:** WHO, World Health Day.
 
 ## DU.311
@@ -7970,8 +7834,6 @@ World Health Assembly (policy) → Executive Board (executive) → Secretariat (
 
 ## DU.312
 **Executive body of WHO: the Executive Board (EB)**
-
-
 
 **Composition**
 
@@ -8013,8 +7875,6 @@ Founded 1946; works for the survival, development and protection of children; in
 
 ## DU.314
 **USAID support to the health sector of Bangladesh: critical analysis**
-
-
 
 **A. Contributions (strengths)**
 
@@ -8453,8 +8313,6 @@ Yellow fever, Rift Valley fever, brugian filariasis (*Mansonia*).
 ## DU.335
 **General principles of mosquito control**
 
-
-
 **A. Anti-larval measures**
 
 1. **Environmental control (source reduction)**: drain, fill or clean breeding places; remove containers; proper water storage; clean drains.
@@ -8516,8 +8374,6 @@ Night-time biting nuisance mosquitoes in hostels and urban buildings are usually
 
 **Control measures**
 
-
-
 **A. Anti-larval**
 
 1. **Environmental**: clean and repair drains; remove stagnant polluted water; fill ditches and cesspits; cover septic tanks and manholes; proper sewage disposal; mosquito-proof soak pits.
@@ -8565,8 +8421,6 @@ Regular hostel sanitation inspections; student and staff involvement in cleaning
 
 ## DU.339
 **Control of housefly (Park)**
-
-
 
 **1. Environmental control (most important and permanent)**
 
@@ -8685,8 +8539,6 @@ Personal hygiene; washing clothes in hot water; ironing seams; combing with fine
 
 ## DU.344
 **Control of sandfly in a rural community**
-
-
 
 **1. Insecticidal control (main method)**
 
@@ -8811,8 +8663,6 @@ Skin scraping from burrow under microscope (mite, eggs, faecal pellets); burrow 
 ## DU.349
 **Prevention and control of scabies**
 
-
-
 **A. Treatment of cases and contacts**
 
 1. Treat the patient and **all household and close contacts at the same time**, even without symptoms.
@@ -8858,8 +8708,6 @@ Typhoid: reservoir = case or carrier; source = faeces, urine, contaminated food 
 
 **Reservoirs of infection**
 
-
-
 **1. Human reservoir**
 
 (a) **Cases**: clinical (mild, moderate, severe), subclinical (inapparent), latent infections.
@@ -8883,8 +8731,6 @@ Human reservoirs (especially carriers and subclinical cases) are dangerous becau
 
 ## DU.351
 **Disinfection of hospital bedding (mattresses, linen, clothes)**
-
-
 
 **A. Linen and clothes (bed sheets, pillow covers, patient gowns)**
 
@@ -8941,8 +8787,6 @@ TB (bovine), brucellosis, typhoid, Q fever, streptococcal infections, diphtheria
 ## DU.353
 **Sterilisation of surgical instruments at a rural satellite clinic**
 
-
-
 **Step 1: Decontamination**
 
 Soak used instruments in **0.5% chlorine (hypochlorite) solution for 10 minutes** immediately after use → kills HBV, HIV; makes handling safer.
@@ -8981,8 +8825,6 @@ Use disposable (auto-disable) syringes; safe sharps disposal (safety box); keep 
 
 **Benefits for prevention of transmission**
 
-
-
 **Concurrent disinfection**
 
 1. Destroys agents **at the source**, as soon as they leave the body.
@@ -9008,8 +8850,6 @@ The resistance of the body to infections and harmful foreign substances, provide
 
 ## DU.356
 **Host defence against infection**
-
-
 
 **A. Non-specific (innate) defences**
 
@@ -9078,8 +8918,6 @@ Immunity
 
 ## DU.359
 **Ways of acquiring active immunity**
-
-
 
 **A. Naturally acquired**
 
@@ -9168,8 +9006,6 @@ Antitetanus serum, antidiphtheritic serum, anti-rabies serum, anti-snake venom, 
 
 ## DU.363
 **Types of immune response**
-
-
 
 **A. By mechanism**
 
@@ -9320,8 +9156,6 @@ Two doses (MR at 9 and 15 months) with **≥95% coverage** in every district, pl
 
 ## DU.371
 **Live (attenuated) vaccines**
-
-
 
 **Bacterial**
 
@@ -9619,8 +9453,6 @@ Heat-sensitive plastics, oils, powders.
 ## DU.384
 **Management of a 5-month pregnant woman with no previous TT/Td**
 
-
-
 **A. Tetanus immunisation**
 
 1. Give **TT/Td-1 now** (0.5 ml IM, deltoid).
@@ -9686,10 +9518,6 @@ During **outbreaks**, in humanitarian settings or for HIV-exposed infants, an ex
 **Definition**
 
 **Demography**: the scientific study of **human population**, focusing on (1) **changes in population size** (growth or decline), (2) the **composition** of the population (age, sex, marital status, education, occupation) and (3) the **distribution** of population in space (Park).
-
-**Demographic processes**
-
-Fertility, mortality, marriage, migration and social mobility; these change population size, structure and distribution.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
 
@@ -9823,8 +9651,6 @@ A graphic presentation of the age and sex composition of a population: horizonta
 ## DU.393
 **Growth rate**
 
-
-
 **1. Rate of natural increase (RNI)**
 
 RNI = Crude birth rate − Crude death rate (per 1,000 population)
@@ -9886,8 +9712,6 @@ Growth has slowed with falling fertility, but the absolute increase is still lar
 
 ## DU.395
 **Reducing fertility in Bangladesh**
-
-
 
 **A. Family planning services**
 
@@ -10224,20 +10048,10 @@ Diet, rest, hygiene, danger signs, avoid harmful drugs and tobacco, birth prepar
 
 A visit by a health worker (FWA, HA, CHCP, nurse, doctor) to a family's home to provide **health care, education and follow-up** in the home setting.
 
-**Purposes (in MCH)**
-
-1. **Antenatal**: register pregnant women; motivate for ANC and facility delivery; check danger signs; IFA, Td follow-up; birth preparedness.
-2. **Postnatal**: check mother and newborn (bleeding, fever, breastfeeding, cord, temperature, jaundice); refer danger signs; counsel on family planning.
-3. **Child care**: immunisation defaulter tracing, growth monitoring, diarrhoea and pneumonia management, nutrition counselling.
-4. **Family planning**: supply of pills, condoms, injectables; counselling.
-5. **Chronic and special care**: TB treatment support, elderly and disabled.
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
 
 ## DU.411
 **Prenatal services for a 40-year-old multipara (high-risk pregnancy)**
-
-
 
 **A. Risks to anticipate**
 
@@ -10325,8 +10139,6 @@ The period from the **onset of true labour** to the **complete expulsion of the 
 
 ## DU.416
 **Complications / danger signals during the intranatal period**
-
-
 
 **A. Maternal**
 
@@ -10442,16 +10254,6 @@ The period from the **delivery of the placenta** to **6 weeks (42 days)** after 
 | Immediate | First 24 hours | Highest risk: PPH, eclampsia; most maternal and neonatal deaths |
 | Early | Days 2–7 | Infection, breastfeeding problems, neonatal jaundice |
 | Late | Weeks 2–6 | Recovery, family planning, postpartum depression |
-
-**Objectives of postnatal care (Park)**
-
-1. Prevent complications of the postnatal period.
-2. Restore the mother to optimum health.
-3. Check adequacy of breastfeeding.
-4. Provide family planning services.
-5. Provide basic health education to mother and family.
-
-**Recommended contacts (WHO)**: within 24 hours, day 3, days 7–14, and 6 weeks.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
 
@@ -10609,8 +10411,6 @@ The infant receives **only breast milk** (including expressed breast milk) and *
 ## DU.428
 **Benefits of exclusive breastfeeding**
 
-
-
 **A. For the baby**
 
 1. **Ideal nutrition**: right proportion of protein, fat, lactose, vitamins; easily digested.
@@ -10669,8 +10469,6 @@ Thick, **yellowish** milk secreted during the **first 2–3 days** (up to ~5 day
 
 ## DU.432
 **Contraindications of breastfeeding (very few)**
-
-
 
 **A. Infant conditions**
 
@@ -10732,8 +10530,6 @@ IMR 27 per 1,000 live births (SVRS 2023); most infant deaths occur in the **neon
 
 ## DU.435
 **Measures to reduce IMR**
-
-
 
 **A. Before and during pregnancy**
 
@@ -10803,7 +10599,6 @@ IMR = (Infant deaths in a year ÷ Live births in that year) × 1,000
 5. Responds quickly to improvements → good for **comparing** areas and monitoring programmes.
 6. Neonatal deaths reflect mainly **biological / obstetric** factors; post-neonatal deaths reflect **environmental and social** factors.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
 
 ## DU.438
@@ -10821,7 +10616,6 @@ NMR = (Deaths of infants under 28 days in a year ÷ Live births in the same year
 | Late neonatal | 7–27 days |
 
 **Main causes**: prematurity / LBW, birth asphyxia, neonatal sepsis and pneumonia, congenital anomalies, hypothermia.
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
 
@@ -10891,8 +10685,6 @@ The death of a woman **while pregnant or within 42 days of termination of pregna
 
 ## DU.443
 **Causes of high maternal mortality in Bangladesh**
-
-
 
 **A. Medical causes**
 
@@ -11124,7 +10916,6 @@ The **percentage of eligible couples effectively protected** against childbirth 
 
 CPR = (Effectively protected eligible couples ÷ Total eligible couples) × 100
 
-
 Bangladesh uses **contraceptive prevalence rate**: modern methods 62.1% (SVRS 2023).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); The Daily Star, 2024, https://www.thedailystar.net/opinion/views/news/why-do-our-surveys-paint-different-pictures-about-our-progress-3583291
@@ -11225,8 +11016,6 @@ Bangladesh uses **contraceptive prevalence rate**: modern methods 62.1% (SVRS 20
 ## DU.463
 **Classification of contraceptive methods (Park)**
 
-
-
 **A. Spacing (temporary) methods**
 
 | Group | Methods |
@@ -11250,8 +11039,6 @@ Bangladesh uses **contraceptive prevalence rate**: modern methods 62.1% (SVRS 20
 
 ## DU.464
 **Mode of action of IUDs**
-
-
 
 **Copper IUD (Cu-T 380A, medicated)**
 
@@ -11288,8 +11075,6 @@ Women wanting long-acting, reversible, non-hormonal contraception; breastfeeding
 
 ## DU.466
 **Contraindications of IUD**
-
-
 
 **A. Absolute**
 
@@ -11350,8 +11135,6 @@ Needs trained provider for insertion and removal; pelvic examination; no protect
 ## DU.469
 **Combined oral contraceptive pill (OCP)**
 
-
-
 **Advantages**
 
 1. **Highly effective** (>99% with perfect use); reversible.
@@ -11393,8 +11176,6 @@ Nausea, breast tenderness, headache, spotting / breakthrough bleeding, weight ga
 5. Emergency contraception (Yuzpe regimen).
 
 **Contraindications**
-
-
 
 **Absolute**
 
@@ -11443,8 +11224,6 @@ Pearl index = (Total accidental pregnancies × 1,200) ÷ Total months of exposur
 
 ## DU.473
 **Safe period (rhythm / calendar method)**
-
-
 
 **Merits**
 
@@ -11541,8 +11320,6 @@ A procedure to **regulate (bring back) menstruation** in a woman whose period is
 ## DU.478
 **Non-contraceptive uses**
 
-
-
 **Condom**
 
 1. Prevention of **STIs and HIV**.
@@ -11637,8 +11414,6 @@ A procedure to **regulate (bring back) menstruation** in a woman whose period is
 **Approach**: exclude pregnancy; speculum and thread retriever; **ultrasound**; X-ray if not seen in uterus; back-up contraception until resolved.
 
 **(b) Aims and schedule of follow-up after IUCD insertion (3)**
-
-
 
 **Aims**
 
@@ -11935,7 +11710,6 @@ Non-nutritive substances **intentionally added** to food in small amounts to imp
 
 **Hazards**: allergy, hyperactivity, possible carcinogenicity when misused; illegal agents (formalin, carbide, textile dyes) are **adulterants**, not additives.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
 
 ## DU.498
@@ -12005,8 +11779,6 @@ Non-nutritive substances **intentionally added** to food in small amounts to imp
 ## DU.501
 **Sources of vitamin A**
 
-
-
 **A. Preformed vitamin A (retinol): animal sources**
 
 Liver, **fish liver oils** (cod, shark), egg yolk, milk, butter, ghee, cheese, **small fish eaten whole** (mola), **fortified edible oil**.
@@ -12022,13 +11794,10 @@ Liver, **fish liver oils** (cod, shark), egg yolk, milk, butter, ghee, cheese, *
 
 **Requirement**: about 600 µg retinol/day for adults (higher in lactation).
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
 
 ## DU.502
 **Manifestations of vitamin A deficiency**
-
-
 
 **A. Ocular (xerophthalmia; WHO classification)**
 
@@ -12074,8 +11843,6 @@ XN → X1 reversible; X2–X3 are emergencies (blinding); X3 lesions cause perma
 ## DU.504
 **Prevention and control of nutritional blindness (vitamin A deficiency)**
 
-
-
 **A. Short-term: supplementation**
 
 **High-dose vitamin A capsules** (Bangladesh: national vitamin A campaigns, twice a year):
@@ -12112,8 +11879,6 @@ Monitor coverage of capsules, serum retinol surveys.
 
 ## DU.505
 **Management of a 5-year-old boy with night blindness**
-
-
 
 **1. Assessment**
 
@@ -12164,8 +11929,6 @@ Check improvement of night vision (in a few days); ensure regular **6-monthly vi
 
 ## DU.507
 **Manifestations of vitamin D deficiency**
-
-
 
 **A. Rickets (children)**
 
@@ -12299,8 +12062,6 @@ Bone pain and tenderness, **proximal muscle weakness** (waddling gait), pseudo-f
 
 ## DU.516
 **Malnutrition ⇄ infection: a vicious cycle**
-
-
 
 **Malnutrition predisposes to infection**
 
@@ -12445,8 +12206,6 @@ Lowering the quality of food by **adding inferior, harmful or unwanted substance
 ## DU.524
 **Milk-borne diseases**
 
-
-
 **A. From infected animals**
 
 1. **Tuberculosis** (bovine, *M. bovis*)
@@ -12463,8 +12222,6 @@ Lowering the quality of food by **adding inferior, harmful or unwanted substance
 3. Shigellosis
 4. Diphtheria, streptococcal sore throat (scarlet fever)
 5. Hepatitis A, *E. coli* infections, staphylococcal food poisoning
-
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
 
@@ -12549,8 +12306,6 @@ Plan prevention at each arm (Haddon matrix): educate drivers, maintain vehicles,
 ## DU.529
 **Industrial accidents**
 
-
-
 **A. Underlying causes**
 
 | Group | Factors |
@@ -12626,8 +12381,6 @@ Plan prevention at each arm (Haddon matrix): educate drivers, maintain vehicles,
 ## DU.533
 **Prevention and control of fire accidents in urban areas**
 
-
-
 **A. Prevention**
 
 1. **Building codes**: fire-resistant materials, **adequate exits**, fire escapes, wide stairs; no locked exits.
@@ -12651,8 +12404,6 @@ Plan prevention at each arm (Haddon matrix): educate drivers, maintain vehicles,
 
 ## DU.534
 **Snake bite: prevention and control**
-
-
 
 **A. Prevention**
 
@@ -12730,8 +12481,6 @@ Antivenom and trained staff at Upazila Health Complexes; referral; data collecti
 
 ## DU.538
 **Public health impact of disasters**
-
-
 
 **A. Common effects**
 
@@ -13044,8 +12793,6 @@ Odds ratio = ad ÷ bc
 ## DU.553
 **Case-control study**
 
-
-
 **Advantages**
 
 1. **Quick and cheap**; relatively easy.
@@ -13071,8 +12818,6 @@ Odds ratio = ad ÷ bc
 
 ## DU.554
 **Cohort study**
-
-
 
 **Advantages / importance**
 
@@ -13179,7 +12924,6 @@ Cannot establish temporal sequence or causation; not suited to rare or short dis
 4. Study **growth and development** of children, ageing.
 5. Assess **prognosis** and outcomes.
 6. Evaluate long-term effects of interventions and exposures.
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13290,7 +13034,6 @@ Prevalence (≈86) is about 6 times incidence (≈14) because TB is a chronic di
 - Common cold: high incidence, short duration → low prevalence.
 - Diabetes, TB: moderate incidence, long duration → high prevalence.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
 ## DU.567
@@ -13326,7 +13069,6 @@ Studying **alcohol and lung cancer**: alcohol drinkers are more often **smokers*
 Alcohol → (associated with) Smoking → Lung cancer
 
 **Other examples**: age in the relation between grey hair and CHD; coffee and CHD confounded by smoking.
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13500,7 +13242,6 @@ Infectious agent → Reservoir / source → Portal of exit → Mode of transmiss
 
 Simplified (Park): **Source or reservoir → Mode of transmission → Susceptible host**.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
 ## DU.577
@@ -13526,13 +13267,10 @@ An infected person (or animal) who **harbours a specific infectious agent withou
 | | **Chronic** (long time) | Typhoid, hepatitis B, malaria |
 | **Portal of exit** | Urinary, intestinal, respiratory, nasal, skin | Typhoid (urinary, intestinal), staphylococci (nasal) |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
 ## DU.579
 **Modes of transmission of infectious diseases (Park)**
-
-
 
 **A. Direct transmission**
 
@@ -13579,13 +13317,10 @@ An infected person (or animal) who **harbours a specific infectious agent withou
 | **Index case** ("first contact case") | The first case to **come to the attention of the investigator / health system**; not always the primary case |
 | **Secondary cases** | Cases that develop from **contact with the primary case** within the range of one incubation period |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
 ## DU.582
 **Emergency preparedness and response for outbreaks and pandemics in Bangladesh**
-
-
 
 **A. Institutions and coordination**
 
@@ -13683,8 +13418,6 @@ Both mean cases in excess of normal expectancy; terms often used interchangeably
 ## DU.587
 **Prevention and control of communicable diseases (Park)**
 
-
-
 **1. Controlling the reservoir**
 
 | Measure | Details |
@@ -13763,8 +13496,6 @@ Water purification, food hygiene, environmental sanitation, vector control, pers
 
 ## DU.591
 **Epidemiology of chickenpox (varicella)**
-
-
 
 **A. Agent factors**
 
@@ -13852,8 +13583,6 @@ Winter and spring; crowding (schools, hostels).
 ## DU.596
 **Complications of varicella-zoster virus infection**
 
-
-
 **A. Chickenpox (primary infection)**
 
 Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; Reye's syndrome; haemorrhagic varicella; hepatitis; congenital varicella syndrome; neonatal varicella.
@@ -13869,7 +13598,6 @@ Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; 
 | Motor neuropathy | Limb or bladder weakness |
 | Encephalitis, myelitis, stroke (vasculopathy) | Rare |
 | Secondary bacterial infection, scarring | |
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -13918,7 +13646,6 @@ Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; 
 
 **Three common**: orchitis, meningitis (meningoencephalitis), pancreatitis.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
 ## DU.600
@@ -13936,13 +13663,10 @@ Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; 
 | Transmission | **Droplet infection**; direct contact; fomites |
 | Incubation period | **2–6 days** |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
 ## DU.601
 **Control of diphtheria in cases and carriers**
-
-
 
 **Cases**
 
@@ -14038,8 +13762,6 @@ Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; 
 ## DU.607
 **Young infant (<2 months): classification and management**
 
-
-
 **Signs of serious illness (possible serious bacterial infection, PSBI)**
 
 Not feeding well; convulsions; **fast breathing ≥60/min**; **severe chest indrawing**; fever ≥37.5 °C or low temperature <35.5 °C; movement only when stimulated or no movement.
@@ -14051,13 +13773,10 @@ Not feeding well; convulsions; **fast breathing ≥60/min**; **severe chest indr
 | | Clinical severe infection | IM gentamicin + oral amoxicillin (7 days) |
 | **No pneumonia: cough or cold** | No danger signs, no fast breathing | Home care: keep warm, breastfeed frequently, clear nose; return immediately if danger signs |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
 ## DU.608
 **Prevention of ARI**
-
-
 
 **A. Specific protection: immunisation**
 
@@ -14100,7 +13819,6 @@ Hand-washing; cough etiquette; masks during outbreaks.
 9. Occupational exposure (silica, mining).
 10. HIV and diabetes (medical, often linked with poverty).
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
 ## DU.610
@@ -14117,8 +13835,6 @@ Hand-washing; cough etiquette; masks during outbreaks.
 
 ## DU.611
 **Diagnosis of tuberculosis**
-
-
 
 **A. Presumptive TB**
 
@@ -14154,8 +13870,6 @@ Regimen: **2HRZE / 4HR** (6 months), under **DOT / patient-centred support**.
 
 ## DU.612
 **Approaches / measures for TB control**
-
-
 
 **A. Case finding**
 
@@ -14268,8 +13982,6 @@ Two or more anti-TB drugs combined in **one tablet in fixed proportions**: e.g.,
 ## DU.618
 **Link between tuberculosis and HIV**
 
-
-
 **Why TB is more common in HIV-infected people**
 
 1. HIV destroys **CD4 T cells** → loss of **cell-mediated immunity**, the main defence against *M. tuberculosis*.
@@ -14295,8 +14007,6 @@ HIV testing of all TB patients; TB screening of PLHIV; **TB preventive therapy**
 ## DU.619
 **Why TB becomes drug-resistant**
 
-
-
 **A. Acquired (secondary) resistance: inadequate treatment**
 
 1. **Monotherapy** or adding a single drug to a failing regimen.
@@ -14319,7 +14029,6 @@ HIV testing of all TB patients; TB screening of PLHIV; **TB preventive therapy**
 | **MDR-TB** | At least **isoniazid + rifampicin** |
 | Pre-XDR-TB | MDR/RR + a fluoroquinolone |
 | **XDR-TB** | MDR/RR + fluoroquinolone + bedaquiline and/or linezolid |
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -14408,7 +14117,6 @@ A patient who was **previously treated for TB**, was declared **cured or treatme
 | **Transmission** | **Faecal–oral** (main); droplet in early phase |
 | **Incubation period** | **7–14 days** (range 3–35) |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
 ## DU.626
@@ -14464,8 +14172,6 @@ A patient who was **previously treated for TB**, was declared **cured or treatme
 
 ## DU.629
 **Modes of transmission of hepatitis B virus (HBV)**
-
-
 
 **A. Parenteral (blood-borne)**
 
@@ -14550,8 +14256,6 @@ Close contact among children through cuts, sores, shared items.
 ## DU.633
 **Window period in hepatitis B**
 
-
-
 **1. Serological ("core") window**
 
 Period during recovery from acute HBV after **HBsAg has disappeared** but **before anti-HBs appears**; only **IgM anti-HBc** is detectable.
@@ -14572,8 +14276,6 @@ Early infection **before HBsAg becomes detectable** by tests, though the person 
 
 ## DU.634
 **Hepatitis B vaccine schedule**
-
-
 
 **A. Infants**
 
@@ -14676,8 +14378,6 @@ ORS + zinc for all cases; WASH; breastfeeding; vaccines (measles; cholera and ro
 ## DU.638
 **Management of severe dehydration (Plan C)**
 
-
-
 **1. Start IV fluid immediately**
 
 **Ringer's lactate** (or normal saline / cholera saline) **100 ml/kg**:
@@ -14717,8 +14417,6 @@ Severe → repeat Plan C; some → Plan B; none → Plan A.
 
 ## DU.639
 **Prevention and control of diarrhoea**
-
-
 
 **A. Treatment (reduces deaths)**
 
@@ -14824,8 +14522,6 @@ icddr,b (International Centre for Diarrhoeal Disease Research, Bangladesh), Dhak
 ## DU.645
 **Diagnosis of enteric (typhoid) fever**
 
-
-
 **A. Clinical**
 
 Step-ladder fever, headache, malaise, abdominal pain, constipation or diarrhoea; coated tongue, relative bradycardia, tender abdomen, hepatosplenomegaly, rose spots; history of unsafe food or water.
@@ -14873,8 +14569,6 @@ Step-ladder fever, headache, malaise, abdominal pain, constipation or diarrhoea;
 ## DU.647
 **Environmental and behavioural factors in typhoid transmission**
 
-
-
 **Environmental**
 
 1. **Unsafe drinking water**: contaminated piped supply (leaking pipes near sewers), wells.
@@ -14895,8 +14589,6 @@ Step-ladder fever, headache, malaise, abdominal pain, constipation or diarrhoea;
 
 ## DU.648
 **Recent dengue crisis in Bangladesh**
-
-
 
 **A. Situation**
 
@@ -14951,8 +14643,6 @@ Need for year-round **integrated vector management**, strong surveillance (Brete
 
 ## DU.650
 **Control and prevention of dengue (DF / DHF)**
-
-
 
 **A. Vector control (main measure)**
 
@@ -15083,8 +14773,6 @@ Bed nets (also for daytime naps), repellents, long-sleeved clothes, window and d
 ## DU.655
 **Epidemiology of malaria**
 
-
-
 **A. Agent**
 
 *Plasmodium falciparum* (most dangerous; predominant in Bangladesh), *P. vivax*, *P. malariae*, *P. ovale* (and *P. knowlesi*).
@@ -15119,8 +14807,6 @@ Bite of infected female *Anopheles*; also blood transfusion, congenital, shared 
 
 ## DU.656
 **Detection of a malaria case**
-
-
 
 **A. Clinical suspicion**
 
@@ -15305,13 +14991,10 @@ Recurrent filarial fever; lymphangitis and lymphadenitis; lymphoedema / elephant
 | CBC | **Pancytopenia** |
 | Serum proteins | Hypergammaglobulinaemia, reversed albumin–globulin ratio (aldehyde test: old) |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
 ## DU.667
 **Treatment of kala-azar (South Asia / Bangladesh national guideline)**
-
-
 
 **A. Specific treatment**
 
@@ -15344,8 +15027,6 @@ Notification, active case detection around the case, IRS and nets, health educat
 ## DU.668
 **Control of kala-azar**
 
-
-
 **A. Early diagnosis and complete treatment**
 
 rK39 test; **single-dose liposomal amphotericin B**; treat **PKDL** (reservoir in anthroponotic kala-azar).
@@ -15368,7 +15049,6 @@ Index-case-based search, house-to-house surveys, camps.
 
 **G. Regional cooperation**: **Regional Kala-azar Elimination Initiative** (Bangladesh, India, Nepal, 2005); target <1 case per 10,000 at upazila level.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
 
 ## DU.669
@@ -15382,8 +15062,6 @@ Index-case-based search, house-to-house surveys, camps.
 
 ## DU.670
 **Types of tetanus**
-
-
 
 **A. Clinical types**
 
@@ -15417,7 +15095,6 @@ Traumatic (wounds, burns), post-surgical, **puerperal / post-abortal** (maternal
 
 Normal baby for the first 2 days → **inability to suck** (usually day 3–10), excessive crying, stiffness, spasms, trismus, opisthotonus; very high mortality.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
 ## DU.672
@@ -15437,8 +15114,6 @@ Normal baby for the first 2 days → **inability to suck** (usually day 3–10),
 
 ## DU.673
 **Prevention of neonatal tetanus**
-
-
 
 **A. Immunisation of mothers**
 
@@ -15466,8 +15141,6 @@ Bangladesh achieved **maternal and neonatal tetanus elimination** (<1 NT case pe
 
 ## DU.674
 **Prevention and control of anthrax**
-
-
 
 **A. In animals (source)**
 
@@ -15591,8 +15264,6 @@ Within about 1–2 weeks of onset; **almost 100% fatal** once symptoms appear.
 ## DU.680
 **Management of a street-dog bite**
 
-
-
 **1. Assess category of exposure (WHO)**
 
 | Category | Exposure | Action |
@@ -15630,8 +15301,6 @@ Equine RIG 40 IU/kg or human RIG 20 IU/kg, **infiltrated into and around the wou
 
 ## DU.681
 **Control of rabies**
-
-
 
 **A. In animals (source: most important)**
 
@@ -15671,8 +15340,6 @@ Reporting of bites and rabies cases; laboratory diagnosis in animals; coordinati
 
 ## DU.683
 **Types of anti-rabies vaccines**
-
-
 
 **A. Nerve tissue vaccines (old; discontinued by WHO)**
 
@@ -15772,8 +15439,6 @@ Cat, jackal, fox, mongoose, monkey (also bat, wolf).
 ## DU.688
 **Prevention and control of avian influenza (bird flu: H7N9, H5N1)**
 
-
-
 **A. Animal sector**
 
 1. **Surveillance** in poultry and wild birds; early reporting of sick or dead birds.
@@ -15837,8 +15502,6 @@ Cat, jackal, fox, mongoose, monkey (also bat, wolf).
 ## DU.692
 **Epidemiological determinants of STDs**
 
-
-
 **A. Agent**
 
 Bacteria, viruses, protozoa, fungi, ectoparasites; asymptomatic infections and drug resistance (gonorrhoea) help spread.
@@ -15900,8 +15563,6 @@ Now included in **WHO clinical stages 2–3**.
 ## DU.695
 **Prevention and control of STDs and HIV/AIDS**
 
-
-
 **A. Prevent sexual transmission**
 
 1. **Health education / BCC**: abstinence, faithfulness, partner reduction, **condom** use (ABC).
@@ -15929,7 +15590,6 @@ Antenatal HIV and syphilis testing; ART for mothers; safe delivery; infant proph
 **E. Vaccines**: hepatitis B, HPV.
 
 **F. Surveillance, research, stigma reduction**, legal protection, involvement of PLHIV.
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -16051,8 +15711,6 @@ Classification of STIs into **syndromes** (groups of easily recognised symptoms 
 
 ## DU.701
 **Bangladesh government's initiatives against COVID-19**
-
-
 
 **A. Preparedness and coordination**
 
@@ -16253,8 +15911,6 @@ Methods: BP measurement, blood glucose, BMI and waist, tobacco use history, VIA 
 ## DU.710
 **Risk factors of coronary heart disease**
 
-
-
 **A. Non-modifiable**
 
 1. **Age** (increases with age).
@@ -16308,8 +15964,6 @@ Prevent recurrence and progression in those with CHD: aspirin, beta-blockers, AC
 
 **Preventive measures and advice (secondary prevention)**
 
-
-
 **A. Drugs (lifelong unless contraindicated)**
 
 1. **Aspirin** (+ second antiplatelet such as clopidogrel / ticagrelor for 12 months after MI).
@@ -16337,8 +15991,6 @@ Influenza vaccination; recognise warning symptoms (chest pain, breathlessness) a
 
 ## DU.713
 **Risk factors for hypertension**
-
-
 
 **A. Modifiable**
 
@@ -16377,8 +16029,6 @@ These cannot be changed but identify people for **regular screening** and strict
 ## DU.715
 **Measuring morbidity in a community**
 
-
-
 **A. Measures (Park)**
 
 1. **Incidence rate** (new cases over time).
@@ -16406,8 +16056,6 @@ Prevalence; **awareness**, **treatment** and **control** rates ("rule of halves"
 
 ## DU.716
 **Prevention and control of hypertension**
-
-
 
 **A. Primary prevention**
 
@@ -16548,8 +16196,6 @@ Hence the visible tip (diagnosed, controlled) is small; the submerged part (undi
 ## DU.723
 **Risk factors of type 2 diabetes mellitus**
 
-
-
 **A. Non-modifiable**
 
 1. **Age** (risk rises after 40).
@@ -16588,8 +16234,6 @@ Hence the visible tip (diagnosed, controlled) is small; the submerged part (undi
 ## DU.725
 **Complications of diabetes mellitus**
 
-
-
 **A. Acute**
 
 1. **Hypoglycaemia** (insulin, sulphonylureas).
@@ -16625,7 +16269,6 @@ Activities that a person with diabetes (and family) does daily to control the di
 6. **Healthy coping**: stress management, family support.
 7. **Reducing risks**: **daily foot care** (inspection, washing, proper footwear, nail care), stop smoking, annual eye and kidney checks, dental care, vaccinations.
 8. **Regular follow-up** with health workers.
-
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
 
@@ -16881,7 +16524,6 @@ Investigations: ASO, throat swab, CBC, ESR, CRP, ECG, chest X-ray, **echocardiog
 | **8. Customs and habits** | Betel quid chewing, early marriage (cervix), reverse smoking |
 | **9. Others** | Air pollution, **arsenic in drinking water** (skin, lung, bladder), medicinal drugs (hormones, immunosuppressants), sexual behaviour |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
 
 ## DU.740
@@ -16909,8 +16551,6 @@ Most of these are **modifiable** → 30–50% of cancers are preventable by life
 
 ## DU.741
 **Control of cervical cancer in a rural setting**
-
-
 
 **A. Primary prevention**
 
@@ -16961,8 +16601,6 @@ Treatment (surgery, radiotherapy) at referral centres; **palliative care**.
 
 ## DU.743
 **Common health problems of the elderly (Bangladesh)**
-
-
 
 **A. Due to ageing process (Park)**
 
@@ -17281,8 +16919,6 @@ Together they promote **ethical, safe, trusted** health care.
 ## DU.759
 **Maternity benefits for a pregnant woman working at an Upazila Health Complex**
 
-
-
 **A. As a government employee**
 
 1. **Maternity leave of 6 months with full pay** (for up to two occasions in service).
@@ -17379,7 +17015,6 @@ Slaughter houses; tanneries and leather dressing; bone boiling and crushing; blo
 | Water pollution | Tannery and dyeing effluents |
 | Flies and rodents | Manure stores, poultry farms, rag stores |
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
 
 ## DU.764
@@ -17394,13 +17029,10 @@ Slaughter houses; tanneries and leather dressing; bone boiling and crushing; blo
 6. For diseases without primary prevention (many cancers, diabetes), it is the **main preventive option**.
 7. Basis of programmes: DOTS, IMCI, cancer screening, NCD corners.
 
-
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.765
 **Natural history of stroke**
-
-
 
 **A. Pre-pathogenesis phase (risk factors)**
 
