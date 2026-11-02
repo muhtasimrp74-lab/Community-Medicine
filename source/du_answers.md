@@ -9851,3 +9851,872 @@ Typhoid: reservoir = case or carrier; source = faeces, urine, contaminated food 
 Human reservoirs (especially carriers and subclinical cases) are dangerous because they are hidden and move freely; control of reservoir is the first line of communicable disease control.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.351
+**Disinfection of hospital bedding (mattresses, linen, clothes)**
+
+**A. Linen and clothes (bed sheets, pillow covers, patient gowns)**
+
+1. **Handle carefully**: collect in bags at the bedside without shaking; soiled linen in separate, leak-proof, colour-coded bags.
+2. **Steam (autoclave) or boiling**: boil for 30 minutes or steam at 100 °C for 30 minutes.
+3. **Hot-water washing** in a laundry machine: ≥70 °C for at least 25 minutes with detergent.
+4. **Chemical disinfection** (heat-sensitive fabrics): soak in 1% sodium hypochlorite (bleaching solution) or 2% Lysol / phenolic for 30–60 minutes, then wash.
+5. **Sun-drying** and ironing (heat kills remaining organisms).
+6. Linen soiled with blood or body fluids: wash with cold water first, then disinfect.
+
+**B. Mattresses and pillows**
+
+1. Use **waterproof (plastic) covers**; wipe with detergent and then 0.5–1% hypochlorite or 70% alcohol after each patient.
+2. Uncovered mattresses: **steam disinfection** (autoclave chamber) or exposure to sunlight; **formalin vapour** in a closed chamber (older method).
+3. Heavily contaminated mattresses (e.g., anthrax, plague): **burn**.
+
+**C. Blankets**
+
+Wash with detergent in warm water; or formaldehyde vapour / steam.
+
+**Principles**
+
+Concurrent disinfection during illness; terminal disinfection after discharge or death; protect laundry staff (gloves, aprons, hepatitis B vaccination).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disinfection).
+
+## DU.352
+**Disinfection of milk on a large scale: pasteurisation**
+
+Heating milk to a temperature and for a time that **destroys all pathogenic organisms** (without boiling), followed by rapid cooling. Named after Louis Pasteur.
+
+**Methods**
+
+| Method | Temperature and time | Notes |
+|---|---|---|
+| **1. Holder (vat) method** | **63–66 °C for 30 minutes**, then rapid cooling to ≤5 °C | Older; small dairies |
+| **2. HTST (high temperature short time; flash) method** | **72 °C for at least 15 seconds**, then rapid cooling to ≤4 °C | Most widely used in large dairies |
+| **3. UHT (ultra-high temperature) method** | **125 °C for a few seconds** (often 135–150 °C for 1–2 s), then aseptic packing | Long shelf life without refrigeration |
+
+**Tests for efficiency**
+
+1. **Phosphatase test**: alkaline phosphatase (destroyed by proper pasteurisation) should be absent.
+2. **Standard plate count** and **coliform count** (bacteriological quality).
+3. Methylene blue reduction test (keeping quality).
+
+**Diseases prevented**
+
+TB (bovine), brucellosis, typhoid, Q fever, streptococcal infections, diphtheria, salmonellosis, *E. coli* infections.
+
+**Domestic method**: boiling.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health; Disinfection).
+
+## DU.353
+**Sterilisation of surgical instruments at a rural satellite clinic**
+
+**Step 1: Decontamination**
+
+Soak used instruments in **0.5% chlorine (hypochlorite) solution for 10 minutes** immediately after use → kills HBV, HIV; makes handling safer.
+
+**Step 2: Cleaning**
+
+Scrub with a brush, detergent and water (wear gloves); rinse; dry.
+
+**Step 3: Sterilisation or high-level disinfection (HLD)**
+
+| Method | Procedure | Use |
+|---|---|---|
+| **Portable autoclave / pressure cooker** (best) | **121 °C, 15 lb/in² (1 atm) for 20–30 minutes** (wrapped items 30 min) | Metal instruments, linen, gloves |
+| **Dry heat** (if electricity: hot-air oven) | 160 °C for 2 hours or 170 °C for 1 hour | Glass, sharp instruments |
+| **Boiling (HLD)** | Boil fully immersed for **20 minutes** from the time water boils, lid closed | Where no autoclave; kills vegetative bacteria and viruses, not all spores |
+| **Chemical (HLD)** | 2% glutaraldehyde for 20 minutes (sterilisation needs 8–10 hours), or 8% formaldehyde | Heat-sensitive items |
+
+**Step 4: Storage**
+
+Dry, covered, sterile container or wrapped packs; use within a week; label with date.
+
+**Additional points**
+
+Use disposable (auto-disable) syringes; safe sharps disposal (safety box); keep a register; train staff; check autoclave with indicator tapes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disinfection).
+
+## DU.354
+**Types of disinfection (Park)**
+
+| Type | Meaning | Example |
+|---|---|---|
+| **1. Concurrent disinfection** | Immediate disinfection of infectious discharges (faeces, urine, sputum, vomit) and articles soiled by them, **during the course of illness** | Disinfecting a cholera patient's stools and linen daily |
+| **2. Terminal disinfection** | Disinfection of the patient's room, furniture, bedding and articles **after the patient has been removed** (recovery, transfer, death) or isolation ends | Cleaning a TB or COVID-19 isolation room after discharge |
+| **3. Precurrent (prophylactic) disinfection** | Disinfection done in advance to prevent infection | Chlorination of water, pasteurisation of milk, hand-washing |
+
+**Benefits for prevention of transmission**
+
+**Concurrent disinfection**
+
+1. Destroys agents **at the source**, as soon as they leave the body.
+2. Prevents spread to attendants, family and other patients.
+3. Reduces environmental contamination (water, flies, fomites).
+4. Most important type in communicable disease control.
+
+**Terminal disinfection**
+
+1. Makes the room and articles safe for the **next occupant**.
+2. Removes residual contamination of surfaces and objects.
+3. Important for organisms that survive long in the environment (spores, *C. difficile*, MRSA).
+4. Today less emphasised than concurrent disinfection; thorough cleaning, airing and sunlight are often enough for most diseases.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disinfection).
+
+## DU.355
+**Immunity**
+
+The resistance of the body to infections and harmful foreign substances, provided by **specific (adaptive)** and **non-specific (innate)** defence mechanisms, mediated by antibodies and immune cells.
+
+**Key features**
+
+1. **Specificity**: adaptive immunity acts against a particular antigen.
+2. **Memory**: faster, stronger response on re-exposure (basis of vaccination).
+3. **Self vs non-self** discrimination.
+
+**Types (brief)**
+
+| Type | Meaning |
+|---|---|
+| Innate (non-specific) | Present from birth: skin, mucous membranes, phagocytes, complement, fever, inflammation |
+| Acquired (specific) | Developed after exposure: active (infection, vaccine) or passive (maternal antibodies, immunoglobulins) |
+| Humoral | Antibody-mediated (B cells) |
+| Cell-mediated | T-cell mediated |
+| Herd immunity | Group-level resistance |
+
+**Importance**
+
+Basis of vaccination and herd immunity; explains susceptibility of groups (infants, elderly, malnourished, HIV-infected).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.356
+**Host defence against infection**
+
+**A. Non-specific (innate) defences**
+
+| Line | Mechanisms |
+|---|---|
+| **First line (barriers)** | Intact skin; mucous membranes and mucus; cilia; cough and sneeze reflexes; tears, saliva (lysozyme); gastric acid; normal flora; urinary flow; vaginal acidity |
+| **Second line** | Phagocytes (neutrophils, macrophages); natural killer cells; complement; interferons; inflammation; fever |
+
+**B. Specific (adaptive) defences**
+
+| Type | Mechanism | Examples |
+|---|---|---|
+| **Humoral immunity** | B cells → plasma cells → antibodies (IgG, IgM, IgA, IgE, IgD): neutralise toxins and viruses, opsonise bacteria, activate complement | Protection against tetanus toxin, measles |
+| **Cell-mediated immunity** | T cells: helper (CD4) coordinate; cytotoxic (CD8) kill infected cells; macrophage activation | Protection against TB, viruses, fungi |
+
+**C. Factors affecting host defence**
+
+Age, nutrition (protein, vitamin A, zinc), genetic factors, hormones, pregnancy, chronic diseases (diabetes, HIV), drugs (steroids, chemotherapy), stress.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.357
+**Classification of immunity (Park)**
+
+```
+Immunity
+├── Innate (non-specific): species, racial, individual
+└── Acquired (specific)
+     ├── Active
+     │    ├── Natural: after clinical or subclinical infection (measles)
+     │    └── Artificial: vaccination (BCG, MR, pentavalent)
+     └── Passive
+          ├── Natural: maternal antibodies via placenta (IgG) and breast milk (IgA)
+          └── Artificial: immunoglobulins / antisera (tetanus immunoglobulin, rabies immunoglobulin, antivenom)
+```
+
+**Examples**
+
+| Type | Example |
+|---|---|
+| Innate | Humans do not get canine distemper; sickle-cell trait resists falciparum malaria |
+| Natural active | Lifelong immunity after measles |
+| Artificial active | Hepatitis B vaccine |
+| Natural passive | Newborn protected against measles by maternal IgG for ~6–9 months |
+| Artificial passive | HBIG after needle-stick; anti-tetanus serum |
+
+**Other**
+
+Humoral vs cell-mediated; individual vs **herd immunity**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.358
+**Active vs passive immunity**
+
+| Point | Active immunity | Passive immunity |
+|---|---|---|
+| Production | Body produces its own antibodies / cells in response to antigen | Ready-made antibodies given from outside |
+| Induced by | Infection (natural) or vaccine (artificial) | Maternal antibodies (natural) or immunoglobulin / antiserum (artificial) |
+| Onset | **Slow** (latent period 1–2 weeks or more) | **Immediate** |
+| Duration | **Long-lasting** (years, often lifelong) | **Short** (weeks to months) |
+| Memory | Present: booster gives secondary response | Absent |
+| Cell-mediated immunity | Produced | Not produced |
+| Negative phase | May occur | No |
+| Adverse reactions | Usually mild | Risk of serum sickness, anaphylaxis (animal sera) |
+| Use | **Prevention** (prophylaxis) | **Immediate protection** (post-exposure, treatment); immunodeficiency |
+| Example | BCG, MR, Td vaccines | Tetanus immunoglobulin, rabies immunoglobulin, HBIG, maternal IgG |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.359
+**Ways of acquiring active immunity**
+
+**A. Naturally acquired**
+
+1. **Following clinical infection**: measles, chickenpox, mumps, smallpox → long-lasting immunity.
+2. **Following subclinical (inapparent) infection**: polio, diphtheria, hepatitis A in childhood → immunity without illness.
+
+**B. Artificially acquired (immunisation)**
+
+| Antigen type | Examples |
+|---|---|
+| **Live attenuated vaccines** | BCG, OPV, measles-rubella, MMR, varicella, yellow fever, rotavirus |
+| **Inactivated (killed) vaccines** | IPV, rabies, hepatitis A, typhoid (whole-cell), pertussis (whole-cell) |
+| **Toxoids** | Tetanus, diphtheria |
+| **Subunit / recombinant / conjugate vaccines** | Hepatitis B, HPV, Hib, pneumococcal (PCV), typhoid conjugate (TCV) |
+| **Newer platforms** | mRNA and viral-vector vaccines (COVID-19) |
+
+**Mechanism**
+
+Antigen → presented by antigen-presenting cells → activation of B and T cells → antibodies and effector cells → **memory cells** → rapid secondary response on later exposure.
+
+**Factors affecting response**
+
+Age, nutrition, dose and number of doses, route, adjuvants, immune status, cold chain (vaccine potency).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.360
+**Why active immunity is superior to passive immunity**
+
+1. **Long-lasting**: years or lifelong, vs weeks to months for passive.
+2. **Immunological memory**: re-exposure or booster produces a rapid, strong secondary response; passive has no memory.
+3. **Both humoral and cell-mediated immunity** are produced; passive gives only antibodies.
+4. **Wider protection**: local (IgA) and systemic immunity; some vaccines (OPV) also block transmission.
+5. **Contributes to herd immunity**.
+6. **Fewer serious reactions**; passive animal sera can cause serum sickness and anaphylaxis.
+7. **Cheaper and practical** for mass prevention programmes (EPI).
+8. Not destroyed quickly; passive antibodies are catabolised (half-life of IgG ~3 weeks).
+
+**Limitation of active immunity**
+
+Slow onset → in emergencies passive immunity is used first (e.g., rabies, tetanus-prone wounds), often combined with active immunisation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.361
+**Classification of immunising agents (Park)**
+
+**A. Vaccines** (active immunity)
+
+| Type | Examples |
+|---|---|
+| Live attenuated | BCG, OPV, measles, MR, MMR, yellow fever, varicella, rotavirus, live typhoid (Ty21a) |
+| Inactivated (killed) | IPV, rabies, hepatitis A, Japanese encephalitis, whole-cell pertussis |
+| Subunit / fractions | Hepatitis B (recombinant), HPV, acellular pertussis, influenza split |
+| Polysaccharide and conjugate | Pneumococcal, meningococcal, Hib, typhoid Vi and conjugate |
+| Toxoids | Tetanus, diphtheria |
+| Newer | mRNA, viral-vector vaccines |
+
+**B. Immunoglobulins** (passive immunity)
+
+| Type | Examples |
+|---|---|
+| **Normal human immunoglobulin** | Hepatitis A, measles prophylaxis |
+| **Specific (hyperimmune) human immunoglobulins** | Hepatitis B (HBIG), rabies (RIG), tetanus (TIG), varicella-zoster (VZIG), anti-D |
+
+**C. Antisera / antitoxins** (from animals, usually horse)
+
+Antitetanus serum, antidiphtheritic serum, anti-rabies serum, anti-snake venom, anti-gas gangrene serum.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.362
+**Five types of immunoglobulins**
+
+| Ig | Main features | Function |
+|---|---|---|
+| **IgG** | Most abundant in serum (~75%); monomer; **crosses the placenta** | Long-term immunity; neutralises toxins and viruses; newborn protection; secondary response |
+| **IgM** | Pentamer; largest; first produced | **Primary (early) response**; indicates recent infection; activates complement |
+| **IgA** | In secretions (**breast milk**, saliva, tears, gut and respiratory mucus) as secretory dimer | **Mucosal (local) immunity** |
+| **IgE** | Binds mast cells and basophils | **Allergy** (type I hypersensitivity); defence against parasites (helminths) |
+| **IgD** | On surface of B cells | B-cell activation (antigen receptor) |
+
+**Mnemonic**: GAMED (G, A, M, E, D).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.363
+**Types of immune response**
+
+**A. By mechanism**
+
+| Type | Mediated by | Effective against |
+|---|---|---|
+| **Humoral** | B lymphocytes → antibodies | Bacteria, toxins, viruses in blood (tetanus, diphtheria, polio) |
+| **Cell-mediated** | T lymphocytes (CD4 helper, CD8 cytotoxic), macrophages | Intracellular pathogens (TB, leprosy, viruses), fungi, tumours, graft rejection |
+
+**B. By exposure (sequence)**
+
+| Point | Primary response | Secondary (booster / anamnestic) response |
+|---|---|---|
+| Occurs | First exposure to antigen | Re-exposure |
+| Latent period | Long (5–10 days or more) | Short (1–3 days) |
+| Antibody level | Low | High (often 10× or more) |
+| Main antibody | IgM, then IgG | IgG |
+| Duration | Short | Long |
+| Affinity | Low | High |
+
+**C. Innate vs adaptive**
+
+Innate: immediate, non-specific, no memory. Adaptive: delayed, specific, memory.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.364
+**Mechanism of immune response after vaccination (first exposure)**
+
+Vaccine antigen → uptake by antigen-presenting cells → presentation to T cells → B-cell activation → antibodies + memory
+
+**Steps**
+
+1. **Antigen entry**: vaccine given (IM, SC, ID, oral); local inflammation (adjuvant helps).
+2. **Uptake and processing**: dendritic cells and macrophages take up antigen and carry it to regional lymph nodes.
+3. **Presentation**: antigen displayed on MHC molecules to **T-helper (CD4) cells**.
+4. **T-cell activation**: helper cells release cytokines; cytotoxic T cells (CD8) activated (live vaccines).
+5. **B-cell activation**: B cells recognise antigen, receive T-cell help → proliferate → **plasma cells** produce antibodies.
+6. **Primary response**:
+   - Latent (lag) phase: 5–10 days, no detectable antibody.
+   - **IgM** appears first, then **IgG** rises.
+   - Antibody level peaks in ~2–3 weeks, then declines.
+7. **Memory cells** (B and T) formed; persist for years.
+8. **Negative phase**: brief fall in antibody immediately after antigen (combines with existing antibody).
+
+**On later exposure or booster (secondary response)**
+
+Memory cells → rapid, strong, long-lasting IgG response with high affinity → protection.
+
+**Practical implications**
+
+Multiple doses (primary series) and boosters; minimum interval between doses (4 weeks); protection begins after 2–3 weeks; live vaccines give stronger cell-mediated immunity.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.365
+**Herd immunity**
+
+**Definition**: the level of resistance of a **community or group** to the attack of a disease, resulting from the immunity of a large proportion of its members, which **reduces the chance of an infected person meeting a susceptible one**; it protects even non-immune individuals.
+
+**Concept**
+
+- Immune persons act as a **barrier** to the spread of infection.
+- When the proportion immune exceeds the **herd immunity threshold**, transmission stops.
+- Threshold = 1 − 1/R₀ (R₀ = basic reproduction number).
+
+| Disease | R₀ (approx.) | Threshold |
+|---|---|---|
+| Measles | 12–18 | ~92–95% |
+| Pertussis | 12–17 | ~92–94% |
+| Polio | 5–7 | ~80–86% |
+| Diphtheria | 6–7 | ~83–85% |
+
+**Note**
+
+Herd immunity does not apply to **tetanus** (not person-to-person); every individual must be immunised.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.366
+**Merits (advantages) of herd immunity**
+
+1. **Protects non-immune persons**: newborns too young for vaccination, people with contraindications (immunodeficiency, cancer chemotherapy), vaccine non-responders.
+2. **Interrupts transmission**: epidemics do not occur or are small.
+3. **Makes elimination and eradication possible** (smallpox eradicated without vaccinating everyone; polio eradication).
+4. **Cost-effective**: full coverage of every individual is not required (except tetanus).
+5. **Reduces disease burden** and deaths in the whole community.
+6. **Indirect protection of high-risk groups** (elderly protected by vaccinating children against pneumococcus and influenza).
+7. **Reduces antibiotic use** and resistance.
+8. Basis for planning **coverage targets** in immunisation programmes.
+
+**Limitation**
+
+Can be lost if coverage falls (e.g., measles outbreaks after coverage drops); pockets of low coverage allow outbreaks.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.367
+**Elements of herd immunity (herd structure) (Park)**
+
+Herd immunity depends on:
+
+1. **Occurrence of clinical and subclinical infections** in the herd (natural immunity).
+2. **Immunisation** of the herd (vaccination coverage).
+3. **Herd structure**, which is constantly changing:
+   - **Births**: new susceptibles enter.
+   - **Deaths**: immune persons leave.
+   - **Migration**: entry or exit of susceptible or immune persons.
+
+Also influenced by: presence and distribution of **alternative animal hosts**; environmental factors favouring spread (crowding); social factors.
+
+**Equation (concept)**
+
+Herd immunity level = immune by infection + immune by vaccination − loss through births, deaths, migration and waning immunity
+
+**Implication**
+
+Immunisation must be **continuous** to keep pace with births and migration; outbreaks follow build-up of susceptibles.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.368
+**How herd immunity is attained (developed)**
+
+1. **Natural infection**: clinical and subclinical infections in the community give immunity (e.g., polio, hepatitis A in childhood); but with illness and deaths.
+2. **Immunisation (best and safest)**:
+   - High, sustained **routine coverage** (EPI) above the threshold (e.g., ≥95% for measles with two doses).
+   - **Supplementary campaigns** (NIDs, MR campaigns) to close immunity gaps.
+   - Reaching **all areas and groups** equally (no pockets of unvaccinated).
+   - Vaccines that block **transmission** (OPV, MR, PCV).
+3. **Maintaining herd structure**: vaccinate newborns promptly; vaccinate migrants and catch-up for missed children.
+4. **Good cold chain and vaccine quality** for real protection.
+5. **Surveillance** to detect immunity gaps and outbreaks.
+
+**Example**
+
+Smallpox eradication; Bangladesh polio-free status through high OPV coverage and NIDs.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.369
+**Why measles needs higher population immunity**
+
+1. **Extremely contagious**: basic reproduction number (R₀) about **12–18** (one case infects 12–18 susceptibles), among the highest of all infections.
+2. Herd immunity threshold = 1 − 1/R₀ → about **92–95%** immunity needed (vs ~80–86% for polio).
+3. **Airborne spread**: virus stays in air and on surfaces for up to 2 hours; spreads in rooms after the patient leaves.
+4. **Infectious before rash** (4 days before to 4 days after rash) → spread before diagnosis.
+5. **Almost all infections are clinical** (no large subclinical immune pool from silent infection in vaccinated era).
+6. **Vaccine efficacy**: one dose at 9 months protects ~85%, two doses ~95%+ → two doses and very high coverage needed.
+7. **Maternal antibody** interferes before 9 months → infants are an unprotected group.
+8. Rapid accumulation of susceptibles (births, missed doses) → outbreaks every few years when coverage falls (e.g., Bangladesh's large 2026 outbreak after first-dose coverage fell to 86% in 2023).
+
+**Implication**
+
+Two doses (MR at 9 and 15 months) with **≥95% coverage** in every district, plus periodic campaigns.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); IANS, Sept 2026, https://ianslive.in/measles-outbreak-in-bangladesh-kills-over-1000-in-6-months-as-vaccination-gaps-persist-report--20260915143141
+
+## DU.370
+**Classification of vaccines**
+
+| Type | Nature | Examples |
+|---|---|---|
+| **1. Live attenuated** | Weakened live organisms | BCG, OPV, measles, MR, MMR, yellow fever, varicella, rotavirus, oral typhoid (Ty21a) |
+| **2. Inactivated (killed)** | Whole organisms killed by heat or chemicals | IPV (Salk), rabies (cell culture), hepatitis A, whole-cell pertussis, Japanese encephalitis, cholera (oral killed) |
+| **3. Toxoids** | Inactivated toxins | Tetanus toxoid, diphtheria toxoid (Td) |
+| **4. Subunit / recombinant** | Purified antigens or proteins | Hepatitis B (recombinant), HPV, acellular pertussis, influenza split |
+| **5. Polysaccharide** | Capsular polysaccharide | Pneumococcal PPSV23, meningococcal, typhoid Vi |
+| **6. Conjugate** | Polysaccharide linked to protein carrier (works in infants) | Hib, PCV10/13, meningococcal conjugate, typhoid conjugate (TCV) |
+| **7. Newer** | Nucleic acid / vector | mRNA (COVID-19), viral-vector (COVID-19, Ebola) |
+
+**Other classifications**
+
+- By number of antigens: monovalent (BCG), combined (pentavalent: DPT-HepB-Hib; MR).
+- By route: oral (OPV), intradermal (BCG, fIPV), subcutaneous (MR), intramuscular (pentavalent, PCV).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.371
+**Live (attenuated) vaccines**
+
+**Bacterial**
+
+1. **BCG** (tuberculosis)
+2. Oral typhoid vaccine (Ty21a)
+3. Oral cholera (live, CVD 103-HgR; not used in Bangladesh EPI)
+
+**Viral**
+
+1. **Oral polio vaccine (OPV / bOPV)**
+2. **Measles**, **measles-rubella (MR)**, MMR
+3. Mumps, rubella
+4. **Yellow fever** (17D)
+5. **Varicella** (chickenpox), zoster (live)
+6. **Rotavirus**
+7. Live Japanese encephalitis (SA 14-14-2)
+8. Live influenza (nasal)
+9. Dengue (some live attenuated vaccines)
+
+**In Bangladesh EPI**: BCG, bOPV, MR.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.372
+**Live vaccines are superior to inactivated vaccines: justification**
+
+| Point | Live vaccine | Inactivated vaccine |
+|---|---|---|
+| Multiplication in host | Yes → natural-like infection | No |
+| Number of doses | Usually **one** (or few) | Several doses + boosters |
+| Duration of immunity | **Long-lasting**, often lifelong | Shorter; boosters needed |
+| Type of immunity | **Humoral + cell-mediated** + local (IgA) | Mainly humoral |
+| Local / mucosal immunity | Yes (OPV gives gut IgA; blocks transmission) | Little |
+| Herd effect | Strong (OPV spreads to contacts) | Weaker |
+| Dose of antigen | Small | Large |
+| Adjuvant | Not needed | Often needed |
+| Cost | Usually cheaper | Often costlier |
+| Route | Natural route possible (oral, nasal) | Injection |
+
+**Limitations of live vaccines (to be balanced)**
+
+Need strict **cold chain**; risk in **immunocompromised** and pregnancy; rare reversion to virulence (vaccine-derived poliovirus); interference by maternal antibodies.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.373
+**Complications of live vaccines**
+
+1. **Vaccine-induced disease** in immunocompromised persons (disseminated BCG; vaccine measles).
+2. **Reversion to virulence**: vaccine-associated paralytic polio (VAPP) and circulating vaccine-derived poliovirus (cVDPV) with OPV.
+3. **Mild disease-like reactions**: fever and rash 5–12 days after measles vaccine; mild parotitis after mumps; arthralgia after rubella (adult women).
+4. **Local reactions**: BCG ulcer, abscess, regional lymphadenitis.
+5. **Contamination** with other agents (rare; quality failures).
+6. **Fetal risk** (theoretical) in pregnancy (rubella, yellow fever).
+7. Toxic shock syndrome from contaminated reconstituted vial used beyond 6 hours (measles: programme error).
+8. Allergy (gelatin, egg in some vaccines).
+
+**Adverse events following immunisation (AEFI): types (WHO)**
+
+| Type | Examples |
+|---|---|
+| 1. Vaccine product-related reaction | Fever, local pain, BCG lymphadenitis, febrile seizure, anaphylaxis |
+| 2. Vaccine quality defect-related | Due to manufacturing defect |
+| 3. **Immunisation error-related** (programme error) | Abscess (unsterile injection), toxic shock (contaminated reconstituted vaccine), wrong vaccine or diluent |
+| 4. Immunisation anxiety-related | Fainting, hyperventilation |
+| 5. Coincidental event | Illness unrelated to vaccine |
+
+**Common minor reactions**: pain, swelling, redness, fever, irritability.
+**Serious**: anaphylaxis, encephalopathy, seizures, death (rare) → report and investigate.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.374
+**Contraindications of live vaccines**
+
+1. **Immunodeficiency**: congenital immunodeficiency, symptomatic HIV/AIDS (BCG not given to symptomatic HIV-infected infants), leukaemia, lymphoma, other malignancies.
+2. **Immunosuppressive therapy**: high-dose corticosteroids, anti-cancer drugs, radiotherapy, transplant drugs.
+3. **Pregnancy** (rubella, MMR, varicella, yellow fever; theoretical fetal risk).
+4. **Severe allergic reaction** (anaphylaxis) to a previous dose or vaccine component.
+5. **Severe acute illness** with high fever: postpone (minor illness is not a contraindication).
+6. Recent **blood transfusion or immunoglobulin** (interferes with measles, MR): delay by 3 months or more.
+7. Another live injectable vaccine within the past 4 weeks (unless given on the same day).
+
+**Not contraindications (false contraindications)**
+
+Mild fever, cold, diarrhoea, malnutrition, prematurity, breastfeeding, mild local reaction after previous dose.
+
+**Ring immunisation**
+
+Vaccination of all **susceptible contacts around a case** (household, neighbours, the surrounding "ring") to create a barrier of immune people and stop spread of an outbreak.
+- Used in **smallpox eradication** (surveillance–containment strategy).
+- Also used in Ebola outbreaks and some measles and polio outbreak responses.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Epidemiology of Communicable Diseases).
+
+## DU.375
+**EPI schedule for infants in Bangladesh (under 1 year and second year)**
+
+| Age | Vaccine | Dose and route |
+|---|---|---|
+| **At birth (as early as possible)** | **BCG** | 0.05 ml intradermal, left upper arm |
+| **6 weeks** | **Pentavalent-1** (DPT-HepB-Hib) | 0.5 ml IM, anterolateral thigh |
+| | **bOPV-1** | 2 drops oral |
+| | **PCV-1** (pneumococcal conjugate) | 0.5 ml IM, thigh |
+| | **fIPV-1** (fractional inactivated polio) | 0.1 ml intradermal, right upper arm |
+| **10 weeks** | Pentavalent-2, bOPV-2, PCV-2 | As above |
+| **14 weeks** | Pentavalent-3, bOPV-3 | As above |
+| | **fIPV-2** | 0.1 ml intradermal |
+| **18 weeks** | **PCV-3** | 0.5 ml IM |
+| **9 months** | **MR-1** (measles-rubella) | 0.5 ml subcutaneous, right upper arm |
+| **15 months** | **MR-2** | 0.5 ml subcutaneous |
+
+**Minimum interval** between doses of the same vaccine: 4 weeks.
+
+**Women (15–49 years)**: **TT/Td** 5 doses (1st at first contact; 2nd after ≥4 weeks; 3rd after ≥6 months; 4th after ≥1 year; 5th after ≥1 year) → lifelong protection against maternal and neonatal tetanus.
+
+**Adolescent girls**: **HPV** vaccine (cervical cancer prevention).
+
+**Diseases covered**: tuberculosis, diphtheria, pertussis, tetanus, hepatitis B, *Haemophilus influenzae* type b, poliomyelitis, pneumococcal disease, measles, rubella (+ HPV).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.376
+**BCG plus**
+
+BCG vaccination given **without prior tuberculin (Mantoux) testing** to all eligible children; any child who develops an **accelerated (Koch's) reaction** is then investigated for tuberculosis.
+
+**Basis**
+
+- **Direct BCG vaccination** (without tuberculin test) is safe and cheap; pre-testing is costly and delays coverage.
+- In a person already infected with TB, BCG produces an **accelerated reaction**: induration within 2–3 days and ulceration within about a week (instead of 2–3 weeks).
+- So BCG acts as a **diagnostic aid** ("plus") for detecting TB infection.
+
+**Steps**
+
+BCG given → watch site → accelerated reaction appears → investigate for TB (history, examination, X-ray, sputum) → treat if TB disease found.
+
+**Advantages**
+
+Saves cost and time; increases coverage; helps case-finding in children.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.377
+**Normal reaction after BCG**
+
+2–3 weeks: small papule → enlarges (4–8 mm) → **ulcerates** at about 5–6 weeks → heals in 6–12 weeks leaving a small **scar** (evidence of vaccination). No dressing or antiseptic needed.
+
+**Side effects / complications**
+
+| Type | Features |
+|---|---|
+| **Prolonged severe ulceration** | Large ulcer persisting >3 months |
+| **Suppurative (BCG) lymphadenitis** | Enlarged, sometimes discharging, axillary or cervical nodes (more with excess dose or subcutaneous injection) |
+| **Abscess** | Cold abscess at the site (usually from deep / subcutaneous injection: programme error) |
+| **Keloid** | Overgrown scar, more if injected higher on the shoulder |
+| **Lupoid reaction** | Rare skin reaction |
+| **Disseminated BCG infection (BCG-osis)** | Very rare; in immunodeficient children (SCID, symptomatic HIV) |
+| **Osteitis / osteomyelitis** | Very rare |
+| **Accelerated (Koch's) reaction** | In already infected children (basis of BCG plus) |
+
+**Prevention**
+
+Correct dose (0.05 ml infants), strict intradermal technique on the left upper arm, sterile equipment, avoid in immunocompromised.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.378
+**NID (National Immunisation Day)**
+
+A supplementary immunisation activity in which **all children of a target age group** (usually **under 5 years**) are given an extra dose of **oral polio vaccine (OPV)** across the whole country **on the same day(s)**, **regardless of previous vaccination status**; usually two rounds 4–6 weeks apart in the low-transmission (cool, dry) season.
+
+**Features**
+
+1. Massive, simultaneous, nationwide campaign.
+2. Fixed and mobile booths (schools, markets, bus and rail stations, ferry ghats), house-to-house mop-up for missed children.
+3. Large community mobilisation and volunteers.
+4. Often combined with **vitamin A** supplementation (Bangladesh).
+
+**Purpose**
+
+Interrupt wild poliovirus transmission by rapidly raising gut immunity in all young children; part of the polio eradication strategy.
+
+**Bangladesh**
+
+NIDs began in 1995; contributed to the country becoming polio-free (last wild case 2006; SEAR certified polio-free in 2014).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.379
+**Epidemiological basis of polio eradication**
+
+1. **Man is the only reservoir**; no animal or environmental reservoir.
+2. **No long-term carrier state**; virus survives in environment only for short periods.
+3. **Effective, cheap, oral vaccine (OPV)** that induces **gut (mucosal) immunity** → blocks transmission; easy to give (drops) by volunteers.
+4. OPV virus spreads to contacts → **indirect immunisation** (herd effect).
+5. Immunity after infection or vaccination is long-lasting.
+6. **Seasonal** transmission → campaigns timed in low season.
+7. Good diagnostic tools (stool culture) and **AFP surveillance** to find every case.
+
+**Strategies (WHO) and how NIDs contribute**
+
+| Strategy | Contribution |
+|---|---|
+| **1. High routine immunisation coverage** (OPV/IPV) | Builds baseline immunity |
+| **2. Supplementary immunisation: NIDs and sub-NIDs** | Extra OPV doses to all under-5s on the same day → closes immunity gaps, displaces wild virus in gut with vaccine virus, **interrupts transmission** simultaneously across the country |
+| **3. AFP surveillance** with lab confirmation | Detects any circulating virus; target non-polio AFP rate ≥2/100,000 under-15s |
+| **4. Mop-up campaigns** | House-to-house OPV in areas where virus is found |
+| **Environmental surveillance** (sewage testing) | Detects silent circulation |
+| **Switch from tOPV to bOPV + IPV** | Reduces vaccine-derived polio risk |
+
+**Result**
+
+Wild polio type 2 and type 3 eradicated globally; Bangladesh polio-free.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.380
+**Cold chain**
+
+A system of **storing and transporting vaccines at recommended temperatures** from the point of manufacture to the point of use (child).
+
+**Components**
+
+1. **Personnel**: trained staff to manage vaccines and equipment.
+2. **Equipment**: walk-in coolers and freezers, ice-lined refrigerators (ILR), deep freezers, solar refrigerators, cold boxes, **vaccine carriers**, ice packs, thermometers, temperature loggers, freeze indicators.
+3. **Procedures**: correct storage, handling, transport, monitoring, maintenance, stock management.
+
+**Temperature requirements**
+
+| Vaccine | Storage |
+|---|---|
+| Most EPI vaccines (BCG, pentavalent, PCV, IPV, MR, Td, HPV) | **+2 to +8 °C**; **do not freeze** (pentavalent, PCV, IPV, Td, HepB damaged by freezing) |
+| OPV | Freezer (−15 to −25 °C) at central/regional stores; +2 to +8 °C at service level |
+
+**Cold chain at different levels (Bangladesh)**
+
+| Level | Equipment |
+|---|---|
+| National (central) store (EPI HQ, Dhaka) | Walk-in coolers and freezers |
+| Divisional / district stores | Walk-in coolers, ILRs, deep freezers |
+| Upazila (UHC) | ILRs, deep freezers (ice packs), cold boxes |
+| Union / outreach sites | **Vaccine carriers** with conditioned ice packs |
+| Session | Vaccine carrier; opened vials on a foam pad |
+
+**Maintenance**
+
+Twice-daily temperature recording; vaccine vial monitor (VVM) checks; shake test for freeze damage; "earliest expiry, first out"; open-vial policy; generator / solar back-up.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.381
+**Importance of cold chain**
+
+1. Vaccines are **biological products** that lose **potency** when exposed to heat (live vaccines: BCG, OPV, MR) or **freezing** (pentavalent, PCV, IPV, Td, hepatitis B).
+2. **Loss of potency is irreversible**; once lost, it cannot be restored by cooling again.
+3. Damaged vaccines **look normal** → children receive impotent vaccine → **vaccine failure** and outbreaks, loss of trust.
+4. Ensures **effectiveness** of the immunisation programme and herd immunity.
+5. Prevents **wastage** of costly vaccines.
+6. Frozen adsorbed vaccines can cause **sterile abscesses**.
+7. Needed to reach remote areas safely (vaccine carriers, ice packs).
+
+**Monitoring tools**
+
+Thermometers, data loggers, **vaccine vial monitor (VVM)**, freeze indicators, **shake test**.
+
+**Sensitivity**
+
+| Most heat-sensitive | Most freeze-sensitive |
+|---|---|
+| OPV, MR (reconstituted), BCG | Hepatitis B, pentavalent, Td, PCV, IPV |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.382
+**Calculation**
+
+Prevalence (proportion) of TT vaccination among slum infants
+= (number of infants vaccinated ÷ total infants) × 100
+
+**Given**
+
+Infants (0–12 months) = 500; infants vaccinated against tetanus = 50; total population 5,000 (not needed).
+
+**Result**
+
+(50 ÷ 500) × 100 = **10%**
+
+**Interpretation**
+
+Only 1 in 10 infants is protected; coverage is very low. (Note: infants are protected against tetanus through the **pentavalent** vaccine; TT/Td is given to women of childbearing age to prevent neonatal tetanus. The low figure calls for urgent catch-up vaccination and strengthening of EPI in the slum.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.383
+**Autoclaving**
+
+Sterilisation by **steam under pressure**; the most reliable method for sterilising instruments, linen, dressings and culture media.
+
+**Principles**
+
+1. **Raised boiling point under pressure**: at 15 lb/in² (1 atmosphere above normal), water boils at **121 °C**.
+2. **Moist heat kills by coagulation and denaturation of proteins**, more efficient than dry heat at lower temperature.
+3. **Latent heat**: when steam condenses on cooler articles, it releases a large amount of heat → rapid heating.
+4. **Contraction in volume** on condensation draws more steam into the load → penetration into porous materials.
+5. **Removal of air** is essential: air–steam mixtures have lower temperature; air pockets prevent sterilisation.
+6. **Time–temperature relationship**:
+
+| Temperature | Pressure | Holding time |
+|---|---|---|
+| 121 °C | 15 lb/in² | 15–20 minutes (wrapped loads ~30 minutes) |
+| 134 °C | 30 lb/in² | 3–4 minutes |
+
+7. Kills **all** microorganisms including **bacterial spores**.
+
+**Controls**
+
+Chemical indicator tapes; biological indicator (*Geobacillus stearothermophilus* spores); recording thermometers.
+
+**Not suitable for**
+
+Heat-sensitive plastics, oils, powders.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disinfection).
+
+## DU.384
+**Management of a 5-month pregnant woman with no previous TT/Td**
+
+**A. Tetanus immunisation**
+
+1. Give **TT/Td-1 now** (0.5 ml IM, deltoid).
+2. Give **TT/Td-2 at least 4 weeks later**, ideally **at least 2 weeks before delivery** → protects mother and newborn against tetanus.
+3. Complete the **5-dose schedule** after delivery: TT3 ≥6 months after TT2; TT4 ≥1 year after TT3; TT5 ≥1 year after TT4 → lifelong protection.
+4. Record on the TT card; explain the importance.
+
+**B. Antenatal care (same visit)**
+
+1. Full history and examination: weight, BP, pallor, oedema, fundal height, fetal heart.
+2. Investigations: Hb, blood group and Rh, urine for protein and sugar, blood sugar, HBsAg, syphilis test; ultrasound.
+3. **Iron-folic acid** and **calcium** supplements; **deworming** (after first trimester).
+4. Nutrition counselling: extra meal, iodised salt.
+5. Plan **at least 8 ANC contacts** (WHO); identify danger signs (bleeding, headache, convulsions, fever, reduced fetal movement).
+6. **Birth preparedness**: facility delivery with skilled attendant; transport and money plan.
+7. Clean delivery and **cord care** (chlorhexidine), early breastfeeding.
+8. Health education on family planning after delivery.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.385
+**Why measles vaccine is not given before 9 months**
+
+1. **Maternal antibodies** (IgG) transferred across the placenta persist in the infant for about 6–9 months.
+2. These antibodies **neutralise the live attenuated vaccine virus** → vaccine virus cannot multiply → **poor seroconversion** (vaccine failure).
+3. At 9 months most infants have lost maternal antibody → seroconversion ~85%; at 12–15 months ~95% → hence a **second dose at 15 months** (MR-2).
+4. The **immune system** of young infants is also less mature, giving weaker responses.
+5. 9 months is a **compromise** in developing countries: early enough to protect before the high-risk age of measles (many cases occur in the second half of infancy), late enough for good response.
+
+**Exception**
+
+During **outbreaks**, in humanitarian settings or for HIV-exposed infants, an extra dose may be given from **6 months**; this dose is not counted, and routine doses at 9 and 15 months are still given.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.386
+**a) Name of the situation**
+
+**Adverse event following immunisation (AEFI)**: a **vaccine product-related reaction** (common, minor systemic reaction) after pentavalent (DPT-HepB-Hib) vaccine: high fever and persistent crying.
+
+**b) Cause**
+
+1. **Pertussis (whole-cell) component** of pentavalent vaccine is the main cause of fever, irritability and **persistent inconsolable crying** (≥3 hours) within 24–48 hours.
+2. Local inflammation at injection site (pain, swelling).
+3. Rule out **immunisation error** (wrong dose, wrong route, contamination → abscess, toxic shock) and **coincidental illness** (infection, meningitis).
+
+**c) Management**
+
+1. **Reassure** the mother: usually mild, self-limiting within 1–2 days.
+2. **Examine** the child: temperature, injection site, hydration, signs of serious illness (convulsion, hypotonia, bulging fontanelle, rash).
+3. **Paracetamol** (10–15 mg/kg/dose, 6-hourly as needed).
+4. **Tepid sponging**; light clothing; adequate fluids.
+5. **Continue breastfeeding**.
+6. Cold compress at the injection site if painful; do not massage.
+7. **Watch for danger signs**: convulsions, high-pitched cry, unresponsiveness, hypotonic–hyporesponsive episode, anaphylaxis → urgent referral.
+8. **Record and report** the AEFI (AEFI form) to the EPI supervisor / UH&FPO; investigate if serious or clustered.
+9. **Next dose**: continue the schedule; whole-cell pertussis is contraindicated only after encephalopathy within 7 days or anaphylaxis.
+10. Advise the mother to return if symptoms persist beyond 48 hours.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
