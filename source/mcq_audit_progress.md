@@ -8,10 +8,58 @@ Rules in force: conflict:true = PDF key (or one paper) disagrees with Park/curre
 
 Status
 - PDF pages read: all 21 (pp.188–208).
-- PDF pass applied: 26M, 25Nov, 25M (batch 1).
-- Next: 24Nov, 24M, 23Nov items; then 23M, 22Nov-A/B; then 22M, 21M, 20M&Nov, 20Ju, 19Nov. Then New items part 1 → 11; then duplicate sweep.
+- PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2).
+- Next: 23M, 22Nov-A/B; then 22M, 21M, 20M&Nov, 20Ju, 19Nov. Then New items part 1 → 11; then duplicate sweep.
 
 ## Change log
+
+### Batch 2 — 24Nov, 24M, 23Nov (cache v44)
+Last site item checked: M.417 (23Nov Q20). Retired: M.15→M.14.
+- M.407: rebuilt: duplicate pancreatitis rows removed (24Nov key is T); conflicts flagged
+- M.82: site key evaluation T was not the PDF key (F); both evaluation and reinforcement flagged against Park
+- M.227: ref; 20Ju note
+- M.176: rebuilt from 3 papers (old item mixed 24Nov statements with 3 years)
+- M.341: ref
+- M.47: 23Nov year on hepatitis B
+- M.13: ref
+- M.69: ref
+- M.373: key fixed: decreased recovery rate T, conflict flagged
+- M.385: key fixed: rubella T, conflict flagged; dagger removed
+- M.374: wording; dagger removed
+- M.102: ref
+- M.211: ref
+- M.33: keys fixed to PDF: community participation F, equitable distribution F
+- M.83: dagger removed
+- M.168: daggers removed
+- M.120: typo; years
+- M.386: ref
+- M.416: 22M OCP key (F) flagged; multiparity 22M year
+- M.263: ref
+- M.15: deleted (merged into M.14)
+- M.14: merged M.15 (22Nov-A "PQLI excludes"); rebuilt from 3 papers; LE at age one vs at birth separated
+- M.202: key fixed to PDF: composting T
+- M.375: 23M F statements replace all-true 24M ones
+- M.388: rebuilt: duplicate age rows removed, sex added; 24M all-T key flagged
+- M.152: key fixed: comprehension F, conflict flagged; dagger removed
+- M.387: rebuilt: 24M gonorrhoea key is T (was misread F); conflict removed; syphilis restored
+- M.334: starch (22M, 21M) replaces dextrose; 21M year added
+- M.396: conflict flagged on drinks eagerly (PDF T)
+- M.48: rebuilt from 2 papers; defervescence conflict flagged
+- M.207: rebuilt: duplicate rheumatic fever rows merged into one flagged row; scabies restored
+- M.302: ref
+- M.365: ref
+- M.70: stem clarified; dagger removed
+- M.84: typo jealously; dagger removed
+- M.153: ref
+- M.233: ref incl. USAID 2025 note
+- M.115: ref
+- M.399: ref
+- M.421: key fixed to PDF: monitoring T
+- M.342: key fixed to PDF: xerophthalmia T; dagger removed
+- M.402: key fixed to PDF: candidiasis F; fever 1 wk-1 mo flagged (major sign is >1 month)
+- M.303: key fixed: elderly grand multipara T, conflict flagged
+- M.287: dagger removed
+- M.417: dagger removed
 
 ### Batch 1 — 26M, 25Nov, 25M (cache v43)
 Last site id checked: SBA/TF of 25M (M.398). Retired: M.87→M.81, M.199→M.198, M.288/M.290→M.286.
@@ -72,4 +120,4 @@ Last site id checked: SBA/TF of 25M (M.398). Retired: M.87→M.81, M.199→M.198
 - M.398: daggers removed; ref
 - M.413: ref verified (Bangladesh CBE programme)
 
-RETIRED: M.87, M.199, M.288, M.290
+RETIRED: M.15, M.87, M.199, M.288, M.290
