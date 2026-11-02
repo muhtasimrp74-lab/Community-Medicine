@@ -1,8 +1,8 @@
 # Web-search pass: progress log
 
-Last DU checked (sequential pass): none yet (priority list in progress)
+Last DU checked (sequential pass): DU.765 (first triage pass complete)
 Priority items done: 1–12 (all)
-Next: sequential pass DU.1 → DU.765, skipping DUs already checked below.
+Next: second, deeper pass on answers flagged 'not re-verified' below (DU.408 ANC schedule, DU.54 ORS/zinc 2014, DU.611/614 NTP DR-TB regimen, DU.650 dengue vaccine status), if wanted.
 
 Key current facts (reuse across answers):
 - BBS SVRS 2023 still latest (no SVRS 2024 by Oct 2026): LE 72.3; IMR 27; U5MR 33; CDR 6.1; CBR 19.4; TFR 2.17; modern CPR 62.1%; MMR 136; growth rate 0.69% (overall), RNI 1.33%; 65+ 6.1%.
@@ -71,3 +71,15 @@ Key current facts (reuse across answers):
 - DU.718: hypertension 1.4 bn, <1 in 5 controlled, 46% unaware (WHO 2025).
 - DU.741: HPV single-dose campaigns and routine; VIA every 5 y, NCCBCST; thermal ablation.
 - Confirmed, no change: DU.395 (Child Marriage Restraint Act 2017 ages 18/21).
+
+## Batch 3 (sequential triage DU.1–765) — pushed, cache v40
+Method: every remaining answer screened for time-sensitive content; Park-only concept/definition/calculation answers confirmed without search.
+- DU.27: CC count added; Observer ref label corrected.
+- DU.223: WHO AQG and APCR 2022 PM2.5 values added.
+- DU.285: Labour Act amendment noted.
+- DU.301, 420, 493: stunting 23.6% → BDHS 2022 24/11/22; OWID refs replaced.
+- DU.309: WHO activities updated (HPV, TCV, 2026 MR campaign; HEARTS control 15→56%).
+- DU.513: Iodised Salt Act 2021 replaces IDD Prevention Act 1989.
+- DU.719: Bangladesh hypertension prevalence (BDHS 2022) and cascade (BDHS 2017–18).
+- Screened, no change needed: all other DUs 1–765 not listed in batches 1–3 (historical facts, Park content, worked calculations).
+- Not re-verified (kept, dated in text): DU.54 ORS 80%/ORS+zinc 34% (2014); DU.408 Bangladesh 4-visit ANC schedule; DU.611 BPaLM described as WHO 2022 (NTP adoption not confirmed); DU.650 dengue vaccine not in Bangladesh programme.

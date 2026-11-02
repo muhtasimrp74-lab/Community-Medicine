@@ -724,10 +724,10 @@ Principles of PHC: equitable distribution; **community participation**; intersec
 
 - Built on **land donated by the community**; government provides building, staff (CHCP), drugs and logistics.
 - Managed by a **Community Group (CG)**, helped by three **Community Support Groups (CSGs)** for awareness, referral and local funds.
-- Planned as one clinic per ~6,000 people within 30 minutes' walk (CCHST, 2025).
+- Planned as one clinic per ~6,000 people within 30 minutes' walk (Community Clinic Health Support Trust, 2025); 14,460 operational (MOHFW, June 2026).
 - Others: NGO volunteers (e.g., BRAC *shasthya shebika*), union parishad health committees.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); The Daily Observer, 516 new community clinics planned across BD, 2025, https://www.observerbd.com/news/540274; The Daily Star (Asia News Network), Over 23,000 doctor, nurse, health worker posts vacant (14,460 community clinics), 2026, https://asianews.network/?p=279940
 
 ## DU.28
 **Definition**
@@ -5669,9 +5669,9 @@ Biomass fuels (wood, crop residue, cow dung), coal, kerosene; tobacco smoke; mos
 
 **Uses**
 
-Compare with standards (WHO AQG 2021, national standards); warn the public; evaluate control measures.
+Compare with standards (WHO AQG 2021: PM₂.₅ 5 µg/m³ annual; Bangladesh Air Pollution (Control) Rules 2022: PM₂.₅ 35 µg/m³ annual, 65 µg/m³ 24-hour); warn the public; evaluate control measures.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); Ajker Patrika, Air pollution breaches safety limits nationwide (Air Pollution Control Rules standards), 2026, https://www.ajkerpatrika.com/en/environment/ajp3zcl8dbeh1
 
 ## DU.224
 **Air pollution in Dhaka city**
@@ -7199,7 +7199,7 @@ Job rotation; limited exposure time; training and health education; record keepi
 
 **E. Legislation**
 
-Bangladesh Labour Act 2006: dust and fume control, ventilation, PPE; notification and compensation of occupational disease; factory inspection.
+Bangladesh Labour Act 2006 (amended 2025–2026) and Labour Rules 2015: dust and fume control, ventilation, PPE; notification and compensation of occupational disease; factory inspection.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
 
@@ -7628,7 +7628,7 @@ Approximate transmission risk after needle-stick: HBV ~6–30% (non-immune), HCV
 | **Communicable diseases** | ARI and pneumonia; diarrhoeal diseases; tuberculosis; **dengue** (large urban outbreaks); typhoid; hepatitis B and E; malaria (hill tracts); measles and other vaccine-preventable diseases (outbreaks when coverage drops); STIs/HIV (low prevalence, key populations); emerging infections (Nipah, COVID-19) |
 | **Non-communicable diseases** (now the leading causes of death) | Hypertension, ischaemic heart disease, **stroke**, **diabetes**, COPD and asthma, cancers (lung, oral, cervical, breast), chronic kidney disease |
 | **Maternal and child health** | Maternal and neonatal deaths (birth asphyxia, prematurity, sepsis); home deliveries; child marriage and adolescent pregnancy |
-| **Nutrition** | Stunting (23.6% of under-5s, 2022), wasting, underweight; anaemia in women and children; micronutrient deficiencies; rising overweight and obesity |
+| **Nutrition** | Stunting 24%, wasting 11%, underweight 22% of under-5s (BDHS 2022); anaemia in women and children; micronutrient deficiencies; rising overweight and obesity |
 | **Mental health** | Depression, anxiety, substance use, suicide |
 | **Injuries** | Road traffic injuries, **drowning** (leading killer of children aged 1–4), burns, falls, occupational injuries |
 | **Environmental** | Arsenic in groundwater, air pollution, unsafe water and sanitation in slums, climate-related disasters |
@@ -7638,7 +7638,7 @@ Approximate transmission risk after needle-stick: HBV ~6–30% (non-immune), HCV
 
 Poverty, illiteracy, high population density, rapid urbanisation, out-of-pocket health spending, shortage and maldistribution of health workers.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Our World in Data, Bangladesh health profile, https://ourworldindata.org/profile/health/bangladesh
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); NIPORT, BDHS 2022 key indicators (The Business Standard), 2023, https://www.tbsnews.net/node/615022
 
 ## DU.302
 **Important national health programmes of Bangladesh**
@@ -7808,18 +7808,18 @@ World Health Assembly (policy) → Executive Board (executive) → Secretariat (
 ## DU.309
 **WHO's health-related activities in Bangladesh**
 
-1. **Immunisation**: technical support to EPI; polio and measles-rubella surveillance; vaccine safety; campaigns.
+1. **Immunisation**: technical support to EPI; polio and measles-rubella surveillance; vaccine safety; campaigns (HPV 2023–2024, TCV 2025, emergency MR campaign in the 2026 measles outbreak).
 2. **Communicable disease control and elimination**: TB, malaria, dengue, hepatitis, NTDs; supported elimination of **lymphatic filariasis** and **kala-azar** as public health problems (validated 2023).
 3. **Health emergencies**: Rohingya humanitarian response, disease outbreaks (dengue, cholera, COVID-19), floods and cyclones.
 4. **International Health Regulations**: strengthening surveillance and response (with IEDCR).
-5. **NCD prevention and control**: hypertension and diabetes management (HEARTS), tobacco control (FCTC), cancer, mental health.
+5. **NCD prevention and control**: hypertension and diabetes management (HEARTS; hypertension control rose from 15% to 56% in some regions, 2019–2025), tobacco control (FCTC), cancer, mental health.
 6. **Maternal, newborn, child and adolescent health**; nutrition.
 7. **Health systems and UHC**: health financing, workforce, primary health care, quality of care, health information (DHIS2).
 8. **Medicines and regulation**: essential medicines, drug regulation (DGDA), antimicrobial resistance.
 9. **Environmental health and climate**: air quality, WASH, climate-resilient health systems.
 10. **Policy advice, guidelines, research and training**.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, Uncontrolled high blood pressure puts over a billion people at risk, 2025, https://www.who.int/news/item/23-09-2025-uncontrolled-high-blood-pressure-puts-over-a-billion-people-at-risk; WHO, Measles – Bangladesh (Disease Outbreak News), 2026, https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON598; WHO, Bangladesh eliminates kala-azar, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
 
 ## DU.310
 **World Health Day (7 April) themes**
@@ -10245,14 +10245,14 @@ Hypothermia, sepsis, jaundice, feeding problems, cord infection.
 | Age group | Problems |
 |---|---|
 | **Newborn** | **Prematurity and LBW**, **birth asphyxia**, **neonatal sepsis**, hypothermia, neonatal jaundice, congenital anomalies (neonatal deaths form a large share of under-5 deaths) |
-| **Infancy and childhood** | **Pneumonia / ARI**, **diarrhoea**, **malnutrition** (stunting 23.6% in 2022, wasting, underweight), **anaemia**, micronutrient deficiencies |
+| **Infancy and childhood** | **Pneumonia / ARI**, **diarrhoea**, **malnutrition** (stunting 24%, wasting 11%, underweight 22%; BDHS 2022), **anaemia**, micronutrient deficiencies |
 | **Infections** | Measles and other vaccine-preventable diseases (outbreak in 2026), dengue, typhoid, TB, worm infestations, skin infections (scabies) |
 | **Injuries** | **Drowning** (leading cause of death in children aged 1–4), road traffic injuries, burns, falls, poisoning |
 | **Developmental** | Cerebral palsy, autism, intellectual disability, hearing and vision problems |
 | **Others** | Childhood cancers, rheumatic heart disease, thalassaemia, child abuse and neglect, child labour |
 | **Adolescents** | Child marriage, adolescent pregnancy, anaemia, mental health problems, substance use |
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); Our World in Data, https://ourworldindata.org/profile/health/bangladesh
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); NIPORT, BDHS 2022 key indicators (The Business Standard), 2023, https://www.tbsnews.net/node/615022
 
 ## DU.421
 **Postnatal period (puerperium)**
@@ -11642,7 +11642,7 @@ Sample survey of households → anthropometry and Hb of women → dietary recall
 
 **Common nutritional problems in Bangladesh**
 
-1. **Stunting** (23.6% of under-5s, 2022), **wasting**, **underweight**.
+1. **Stunting** 24%, **wasting** 11%, **underweight** 22% of under-5s (BDHS 2022).
 2. **Low birth weight**.
 3. **Anaemia** in children, adolescent girls and women.
 4. **Subclinical vitamin A deficiency**; **iodine deficiency** (improved by iodised salt).
@@ -11652,7 +11652,7 @@ Sample survey of households → anthropometry and Hb of women → dietary recall
 
 **Among under-5 children**: stunting, wasting, underweight, anaemia, vitamin A and zinc deficiency.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health); Our World in Data, https://ourworldindata.org/profile/health/bangladesh
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health); NIPORT, BDHS 2022 key indicators (The Business Standard), 2023, https://www.tbsnews.net/node/615022
 
 ## DU.494
 **Improving nutritional status of the community**
@@ -12033,14 +12033,14 @@ Bone pain and tenderness, **proximal muscle weakness** (waddling gait), pseudo-f
 ## DU.513
 **Prevention of IDD (Park)**
 
-1. **Iodised salt**: universal salt iodisation (Bangladesh law since 1989); adequate iodine at household level.
+1. **Iodised salt**: universal salt iodisation (Bangladesh: **Iodised Salt Act 2021**, replacing the IDD Prevention Act 1989; covers edible salt and salt used in processed food and animal feed); adequate iodine at household level.
 2. **Iodised oil** (oral capsules or injections) for high-risk groups in severely deficient areas.
 3. **Monitoring and surveillance**: salt iodine at production, retail and household; **urinary iodine** surveys; goitre surveys; neonatal TSH.
 4. **Manpower training**.
 5. **Mass communication**: use only iodised salt; store salt covered, add after cooking.
 6. Legislation and enforcement (ban non-iodised edible salt).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health); UNEP LEAP, Iodized Salt Act 2021 (Act No. 08 of 2021), https://leap.unep.org/en/countries/bd/national-legislation/iodized-salt-act-2021-act-no-08-2021; The Daily Star, Parliament passes bill to ensure proportionate use of iodine in salt, 2021, https://thedailystar.net/node/2110737
 
 ## DU.514
 **Five uses / functions of zinc**
@@ -16153,6 +16153,8 @@ In a community:
 
 **Why hypertension is an iceberg disease in Bangladesh**
 
+Prevalence 23% in women, 17% in men (BDHS 2022); of adults with hypertension only 36.7% were aware, 31.1% treated and **12.7% controlled** (BDHS 2017–18 analysis).
+
 1. Usually **asymptomatic** → people do not seek care.
 2. **Little routine screening**; BP not checked at every contact.
 3. **Low awareness** in rural and poor populations.
@@ -16163,7 +16165,7 @@ In a community:
 
 Hence the visible tip (diagnosed, controlled) is small; the submerged part (undiagnosed, untreated, uncontrolled) is large → need for screening and primary care management.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases); Rahman MA et al., Prevalence, awareness, treatment and control of hypertension in Bangladesh: BDHS 2017–2018 (J Clin Hypertens), 2021, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8678656/; Cascade of care for type 2 diabetes and hypertension in rural Bangladesh (citing BDHS 2022), https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583752/
 
 ## DU.720
 **Clinical manifestations of diabetes mellitus**
