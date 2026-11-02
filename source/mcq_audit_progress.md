@@ -8,10 +8,61 @@ Rules in force: conflict:true = PDF key (or one paper) disagrees with Park/curre
 
 Status
 - PDF pages read: all 21 (pp.188–208).
-- PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2); 23M, 22Nov-A, 22Nov-B (batch 3).
-- Next: 22M, 21M, 20M&Nov, 20Ju, 19Nov. Then New items part 1 → 11; then duplicate sweep.
+- PDF pass applied: 26M, 25Nov, 25M (batch 1); 24Nov, 24M, 23Nov (batch 2); 23M, 22Nov-A, 22Nov-B (batch 3); 22M, 21M, 20M&Nov, 20Ju, 19Nov (batch 4). PDF pass COMPLETE: all 182 DU items now carry PDF refs, no † years left, every DU TF option keyed (20Ju and blank PDF keys supplied per Park and marked "key not given").
+- Next: New items part 1 → 11; then duplicate sweep.
 
 ## Change log
+
+### Batch 4 — 22M, 21M, 20M&Nov, 20Ju, 19Nov (cache v46)
+Last site item checked: M.324 (19Nov Q18). PDF pass complete. No retirements.
+- M.256: keys fixed: clinical/subclinical infection T, conflict flagged
+- M.1: ref
+- M.323: rebuilt: duplicate rows removed, temperamental changes and repression restored; daggers removed
+- M.408: ref
+- M.401: cold sensation T, conflict flagged
+- M.86: ref
+- M.351: ref
+- M.134: stem turned positive to match the printed key; dagger removed
+- M.308: option text fixed; ref
+- M.409: ref
+- M.309: ref
+- M.29: ref
+- M.50: missing key supplied (latent cases T, PDF blank)
+- M.310: ref
+- M.137: ref
+- M.378: wording; ref
+- M.16: bed turnover flagged; option b typo
+- M.51: wording; ref
+- M.34: blank PDF key noted on d
+- M.379: wording; ref
+- M.247: missing key supplied (rat flea T)
+- M.196: ref
+- M.369: site key b was not the PDF key; flagged; chemicals key supplied
+- M.395: ref
+- M.380: ref
+- M.389: German measles key fixed (T), conflict flagged; daggers removed
+- M.352: sesame T, conflict flagged; dagger removed
+- M.410: split garbled option into d/e (now 5 options); key supplied for d
+- M.411: key supplied per Park (20Ju has no key in PDF)
+- M.264: key supplied per Park (20Ju has no key in PDF)
+- M.381: key supplied per Park (20Ju has no key in PDF)
+- M.414: key supplied per Park (20Ju has no key in PDF)
+- M.289: key supplied per Park (20Ju has no key in PDF)
+- M.382: key supplied per Park (20Ju has no key in PDF)
+- M.157: key supplied per Park (20Ju has no key in PDF)
+- M.311: key supplied per Park (20Ju has no key in PDF)
+- M.312: key supplied per Park (20Ju has no key in PDF)
+- M.52: key supplied per Park (20Ju has no key in PDF)
+- M.122: key supplied per Park (20Ju has no key in PDF)
+- M.30: key supplied per Park (20Ju has no key in PDF)
+- M.180: key supplied per Park (20Ju has no key in PDF)
+- M.74: key supplied per Park (20Ju has no key in PDF)
+- M.111: stem turned positive to match key; hypertension key fixed to PDF (T); dagger removed
+- M.53: ref
+- M.54: missing key supplied (pathogenicity T)
+- M.420: ref
+- M.248: missing key supplied (enteric fever T)
+- M.324: wording; ref
 
 ### Batch 3 — 23M, 22Nov-A, 22Nov-B (cache v45)
 Last site item checked: M.307 (22Nov-B Q20). Retired: M.10→M.9, M.155→M.154, M.405→M.403.
