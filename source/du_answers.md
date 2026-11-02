@@ -9123,3 +9123,731 @@ H1N1 influenza (2009), polio (2014), Ebola (2014, 2019), Zika (2016), COVID-19 (
 Surveillance and response for avian influenza, Nipah, MERS, COVID-19, mpox; IEDCR as national focal point; health screening at Hazrat Shahjalal International Airport and land ports.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (International Health); WHO, International Health Regulations (2005).
+
+## DU.321
+**Common insects in Bangladesh and diseases transmitted**
+
+| Insect | Diseases |
+|---|---|
+| **Mosquito** | *Aedes*: **dengue**, chikungunya, Zika; *Anopheles*: **malaria**; *Culex*: **lymphatic filariasis**, Japanese encephalitis |
+| **Sandfly** (*Phlebotomus argentipes*) | **Kala-azar** (visceral leishmaniasis), PKDL |
+| **Housefly** (*Musca domestica*) | Diarrhoea, dysentery, cholera, typhoid, hepatitis A, trachoma, conjunctivitis, worm eggs, myiasis |
+| **Louse** | Pediculosis; epidemic typhus, relapsing fever, trench fever (body louse) |
+| **Rat flea** (*Xenopsylla cheopis*) | Plague, murine typhus |
+| Cockroach | Mechanical carrier of enteric pathogens; allergy |
+| Bed bug | Nuisance, sleep loss, anaemia (heavy infestation) |
+
+**Other arthropods (non-insects)**
+
+Itch mite → **scabies**; trombiculid mite → **scrub typhus**; ticks → tick-borne fevers; cyclops → guinea worm (not in Bangladesh).
+
+**Three insects (short answer)**
+
+Mosquito (dengue, malaria, filariasis), sandfly (kala-azar), housefly (diarrhoeal diseases, typhoid).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.322
+**Definition**
+
+**Medically important arthropods**: invertebrate animals with jointed legs, segmented body and chitinous exoskeleton (phylum **Arthropoda**) that cause disease directly or transmit infectious agents to man.
+
+**Classification (Park)**
+
+| Class | Main features | Examples and importance |
+|---|---|---|
+| **1. Insecta** | Body: head, thorax, abdomen; **3 pairs of legs**; 1 pair of antennae; usually wings | Mosquito, housefly, sandfly, tsetse fly, blackfly, louse, flea, reduviid bug, cockroach |
+| **2. Arachnida** | Body: cephalothorax + abdomen; **4 pairs of legs**; no antennae, no wings | Ticks (tick fevers), mites (scabies, scrub typhus), spiders, scorpions (venom) |
+| **3. Crustacea** | Two pairs of antennae; mostly aquatic; gills | Cyclops (guinea worm, fish tapeworm), crabs and crayfish (paragonimiasis) |
+| **4. Chilopoda** | Centipedes: one pair of legs per segment | Venomous bites |
+| **5. Diplopoda** | Millipedes: two pairs of legs per segment | Irritant secretions |
+
+**Illustration (body plans)**
+
+```
+Insect:     [Head]-[Thorax: 3 pairs legs, wings]-[Abdomen]
+Arachnid:   [Cephalothorax: 4 pairs legs]-[Abdomen]
+Crustacean: [Cephalothorax: 2 pairs antennae]-[Abdomen]
+```
+
+**Ways arthropods harm man**
+
+1. **Transmit disease** (vectors): malaria, dengue, kala-azar, plague.
+2. **Cause disease directly**: scabies, pediculosis, myiasis.
+3. **Bites and stings**: venom, allergy.
+4. **Nuisance** and psychological stress.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.323
+**Personal protective measures against arthropod-borne diseases**
+
+1. **Bed nets**: insecticide-treated / long-lasting insecticidal nets (LLIN); use also for daytime naps (dengue).
+2. **Repellents**: DEET, picaridin, IR3535 or plant-based (citronella) on exposed skin.
+3. **Protective clothing**: long-sleeved shirts, full trousers, socks; light colours; insecticide-treated clothing.
+4. **Screening** of doors and windows with wire mesh; fine mesh against sandflies.
+5. **Mosquito coils, vaporisers, mats**, electric bats (for nuisance relief).
+6. **Avoid exposure** at peak biting times (dusk and dawn for *Anopheles* and *Culex*; early morning and late afternoon for *Aedes*).
+7. **Personal hygiene**: regular bathing, clean clothes and bedding → prevents lice and scabies; avoid sharing combs and clothes.
+8. **Footwear** and avoiding rodent-infested areas (fleas, mites); insect repellent on legs in scrub areas (scrub typhus).
+9. **Chemoprophylaxis** for travellers to malaria-endemic areas.
+10. **Vaccination** where available (Japanese encephalitis).
+11. Removing breeding sites around one's own home (water containers, flower vases).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.324
+**Modes of transmission of arthropod-borne (vector-borne) diseases (Park)**
+
+| Mode | Mechanism | Examples |
+|---|---|---|
+| **1. Direct contact** | Arthropod transferred by close contact; causes disease itself | Scabies (itch mite), pediculosis (lice) |
+| **2. Mechanical transmission** | Agent carried on body, legs, mouthparts or in gut without multiplication or development | Housefly: typhoid, cholera, dysentery, trachoma |
+| **3. Biological transmission** | Agent multiplies and/or develops in the vector before it can be transmitted (extrinsic incubation period) | |
+| (a) Propagative | Multiplication only, no change in form | Plague bacilli in rat flea; dengue virus in *Aedes* |
+| (b) Cyclo-propagative | Change in form + multiplication | Malaria parasite in *Anopheles* |
+| (c) Cyclo-developmental | Change in form, no multiplication | Filarial worm in *Culex*; guinea worm in cyclops |
+| **4. Transovarial transmission** | Agent passes from infected female to her eggs and next generation | Scrub typhus in mites; some arboviruses in mosquitoes and ticks |
+
+**Routes from vector to man**
+
+Bite (inoculation of saliva: malaria, dengue); regurgitation (blocked flea in plague); contamination of bite wound with vector faeces (murine typhus, Chagas disease); crushing of vector on skin (louse in relapsing fever); ingestion (cyclops in water).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.325
+**Biological transmission**
+
+The infectious agent undergoes **multiplication and/or developmental changes inside the vector** before it becomes infective; there is an **extrinsic incubation period** before the vector can transmit.
+
+**Types (Park)**
+
+| Type | What happens in the vector | Examples |
+|---|---|---|
+| **Propagative** | Agent **multiplies** but does not change form | Plague bacillus in rat flea; dengue, chikungunya, Japanese encephalitis viruses in mosquitoes; yellow fever virus in *Aedes* |
+| **Cyclo-propagative** | Agent **changes form (cycle) and multiplies** | **Malaria**: gametocytes → gametes → zygote → ookinete → oocyst → thousands of sporozoites in salivary glands of *Anopheles* |
+| **Cyclo-developmental** | Agent **develops (changes form) but does not multiply** | **Filariasis**: microfilaria → L1 → L2 → L3 (infective larva) in *Culex*; one microfilaria gives at most one L3; guinea worm in cyclops |
+
+**Modes of biological transmission in mosquitoes**
+
+| Mosquito | Disease | Type |
+|---|---|---|
+| *Anopheles* | Malaria | Cyclo-propagative |
+| *Culex* | Filariasis | Cyclo-developmental |
+| *Culex* | Japanese encephalitis | Propagative |
+| *Aedes* | Dengue, chikungunya, Zika, yellow fever | Propagative (also transovarial for some viruses) |
+
+**Importance**
+
+Extrinsic incubation period depends on temperature; control can target vector longevity (adult control) so that it dies before becoming infective.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.326
+**Principles of arthropod control (Park)**
+
+| Principle | Methods | Examples |
+|---|---|---|
+| **1. Environmental control** (most permanent) | Source reduction: eliminate breeding and resting places; drainage, filling, cleaning; sanitation; improved housing | Emptying water containers (*Aedes*); clearing drains (*Culex*); plastering cracks (sandfly); refuse disposal (flies) |
+| **2. Chemical control** | Insecticides: residual sprays (indoor residual spraying), space sprays (fogging), larvicides; repellents | Pyrethroids for IRS; malathion fogging; temephos larvicide |
+| **3. Biological control** | Living organisms or their products that kill vectors | Larvivorous fish (*Gambusia*, guppy); *Bacillus thuringiensis israelensis* (Bti), *B. sphaericus* |
+| **4. Genetic control** | Altering vector reproduction | Sterile male technique; *Wolbachia*-infected mosquitoes |
+| **5. Personal protection** | Nets, repellents, screens, clothing | LLINs |
+| **6. Integrated vector management (IVM)** | Rational combination of the above, based on local ecology, with community participation and intersectoral action | Dengue control in cities |
+
+**Supporting measures**
+
+Entomological surveillance (larval indices); monitoring insecticide resistance; legislation (fines for breeding sites); health education and community participation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.327
+**Class Insecta**
+
+The largest class of the phylum Arthropoda.
+
+**Characteristic features**
+
+1. Body divided into **three parts**: head, thorax, abdomen.
+2. **Head**: one pair of **antennae**, compound eyes, mouthparts (piercing-sucking in mosquito, sponging in housefly, biting).
+3. **Thorax**: **three pairs of jointed legs**; usually **two pairs of wings** (one pair in flies and mosquitoes; none in lice and fleas).
+4. **Abdomen**: segmented; no legs.
+5. Chitinous exoskeleton; breathe through tracheae and spiracles.
+6. Sexes separate.
+
+**Metamorphosis**
+
+| Type | Stages | Examples |
+|---|---|---|
+| **Complete (holometabolous)** | Egg → Larva → Pupa → Adult | Mosquito, housefly, sandfly, flea |
+| **Incomplete (hemimetabolous)** | Egg → Nymph → Adult | Louse, bed bug, reduviid bug, cockroach |
+
+**Medically important insects**
+
+Mosquitoes, flies (housefly, sandfly, tsetse, blackfly), lice, fleas, bugs (reduviid, bed bug), cockroaches.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.328
+**Importance of knowing medical entomology**
+
+1. **Identify vectors** of important diseases (malaria, dengue, kala-azar, filariasis, plague).
+2. Understand **modes of transmission** (mechanical, biological) and the extrinsic incubation period.
+3. Know **life cycle, breeding, biting and resting habits** → choose the right control method and timing (e.g., daytime protection against *Aedes*).
+4. **Plan and evaluate vector control** programmes (IRS, larviciding, source reduction).
+5. **Entomological surveillance**: larval indices, vector density, infection rates → predict outbreaks.
+6. **Epidemiological investigation** of outbreaks.
+7. **Monitor insecticide resistance** and choose effective insecticides.
+8. Recognise **emerging and re-emerging** vector-borne diseases (Zika, chikungunya) and effects of climate change on vectors.
+9. **Health education** of the community on prevention.
+10. Diagnose and manage diseases caused directly by arthropods (scabies, pediculosis, myiasis).
+11. Support elimination programmes (kala-azar, filariasis, malaria in Bangladesh).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.329
+**Definition**
+
+**Medical entomology**: the branch of science that deals with the study of **arthropods of medical importance** (insects and related arthropods): their identification, structure, life cycle, habits, role in causing and transmitting disease to man, and their control.
+
+**Scope**
+
+1. **Vectors** of disease: mosquitoes, sandflies, fleas, lice, ticks, mites.
+2. Arthropods causing disease directly: itch mite (scabies), lice, myiasis-producing flies.
+3. Venomous arthropods: scorpions, spiders, bees, wasps.
+4. Nuisance pests: bed bugs, cockroaches.
+5. **Control** methods: environmental, chemical, biological, genetic, personal protection, integrated vector management.
+
+**Related term**
+
+Vector biology / public health entomology; essential in community medicine for control of vector-borne diseases.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.330
+**Definition**
+
+**Vector**: an arthropod or other living carrier that transports an infectious agent from an infected individual (or its wastes) to a susceptible individual, or to its food or immediate surroundings (Park).
+
+**Types**
+
+| Type | Meaning | Example |
+|---|---|---|
+| **Mechanical vector** | Carries agent on body or in gut without multiplication or development | Housefly → typhoid, cholera |
+| **Biological vector** | Agent multiplies and/or develops in the vector before transmission | *Anopheles* → malaria; *Aedes* → dengue; sandfly → kala-azar; rat flea → plague |
+
+**Related terms**
+
+- **Extrinsic incubation period**: time for the agent to develop in the vector until it becomes infective.
+- **Vector-borne disease**: disease transmitted by a vector.
+- **Vectorial capacity**: efficiency of a vector population in transmitting disease (density, biting rate, longevity).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.331
+**Aedes vs Anopheles mosquitoes**
+
+| Feature | *Aedes* | *Anopheles* |
+|---|---|---|
+| **Eggs** | Laid singly; cigar-shaped; no floats; resist drying for months | Laid singly; boat-shaped with **lateral floats** |
+| **Larva** | Short, stout **siphon tube**; hangs head-down at an angle to water surface | **No siphon**; lies **parallel** to water surface; palmate hairs |
+| **Adult colour** | Black with **white stripes** on body and legs ("tiger mosquito") | Dark; **spotted wings** (dark and pale scales) |
+| **Resting position** | Body **parallel** to surface (humped) | Body at an **angle** (~45°) to surface; proboscis and body in one line |
+| **Palps (female)** | Short | As long as proboscis |
+| **Biting time** | **Daytime** (early morning, late afternoon) | **Night** (dusk to dawn) |
+| **Breeding** | **Clean water in artificial containers**: tyres, flower pots, water tanks, coconut shells, construction sites | Clean water: ponds, streams, rice fields, wells; some in brackish water |
+| **Habitat** | Urban, domestic; rests indoors in dark places | Rural, forest, foothills (Bangladesh: hill tracts) |
+| **Flight range** | Short | Longer |
+| **Diseases** | **Dengue**, chikungunya, Zika, yellow fever | **Malaria** (also filariasis in some areas) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.332
+**Anopheles vs Culex mosquitoes**
+
+| Feature | *Anopheles* | *Culex* |
+|---|---|---|
+| **Eggs** | Laid **singly**; boat-shaped with **lateral floats** | Laid in **rafts** (clusters); cigar-shaped; no floats |
+| **Larva** | **No siphon tube**; rests **parallel** to water surface | **Long, narrow siphon tube**; hangs **at an angle** with head down |
+| **Pupa** | Short, broad respiratory trumpets | Long, narrow respiratory trumpets |
+| **Adult resting position** | Body at an **angle** to the surface | Body **parallel** to the surface (humped back) |
+| **Wings** | **Spotted** | **Unspotted** |
+| **Palps (female)** | **As long as** proboscis | **Much shorter** than proboscis |
+| **Colour** | Dark, spotted | Dull brown |
+| **Breeding** | **Clean** water: ponds, streams, rice fields | **Dirty, polluted** water: drains, cesspools, septic tanks, ditches |
+| **Biting time** | Night | Night (major urban nuisance) |
+| **Diseases** | **Malaria** | **Lymphatic filariasis** (*C. quinquefasciatus*), **Japanese encephalitis** (*C. tritaeniorhynchus*), West Nile fever |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.333
+**Breeding habits of mosquitoes (general)**
+
+| Genus | Breeding places |
+|---|---|
+| *Anopheles* | Clean, unpolluted water: ponds, streams, rice fields, wells, hill streams; some in brackish water |
+| *Culex* | Dirty, polluted water: drains, cesspits, septic tanks, ditches, burrow pits |
+| *Aedes* | Clean water in **artificial and natural containers** |
+| *Mansonia* | Ponds with aquatic plants (larvae attach to roots) |
+
+Life cycle: Egg → Larva → Pupa → Adult (aquatic stages ~7–10 days in warm weather).
+
+**Aedes aegypti: breeding habits**
+
+1. Breeds in **clean, stagnant water** in **artificial containers**: water tanks and drums, flower vases and pots, discarded tyres, tins, bottles, coconut shells, refrigerator trays, air-cooler trays, construction sites, roof gutters.
+2. **Eggs laid singly** just above the water line on container walls; **withstand drying for months** → hatch when flooded (rain).
+3. Small amounts of water are enough (bottle caps).
+4. *Aedes albopictus* also breeds in natural containers: tree holes, leaf axils, bamboo stumps.
+
+**Aedes aegypti: biting habits**
+
+1. **Day-biter**: peaks in early morning and late afternoon.
+2. **Anthropophilic** (prefers human blood); bites mainly around ankles and legs.
+3. **Domestic and endophilic**: rests indoors in dark, cool places (under furniture, behind curtains).
+4. **Multiple feeding**: bites several people in one blood meal cycle → efficient epidemic spread.
+5. Short flight range (around the house).
+6. Nervous feeder: disturbed easily, then bites again.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.334
+**Mosquito-borne diseases (prevailing in Bangladesh)**
+
+| Mosquito | Disease | Agent |
+|---|---|---|
+| ***Aedes aegypti*, *Ae. albopictus*** | **Dengue** (and severe dengue) | Dengue virus (4 serotypes) |
+| | **Chikungunya** | Chikungunya virus |
+| | Zika (sporadic) | Zika virus |
+| ***Anopheles*** | **Malaria** (mainly Chattogram Hill Tracts and border districts) | *Plasmodium falciparum*, *P. vivax* |
+| ***Culex quinquefasciatus*** | **Lymphatic filariasis** (eliminated as public health problem, 2023) | *Wuchereria bancrofti* |
+| ***Culex tritaeniorhynchus*** / *Culex vishnui* group | **Japanese encephalitis** | JE virus |
+| *Culex* | West Nile fever (risk) | West Nile virus |
+
+**Other mosquito-borne diseases (global)**
+
+Yellow fever, Rift Valley fever, brugian filariasis (*Mansonia*).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology; Epidemiology of Communicable Diseases).
+
+## DU.335
+**General principles of mosquito control**
+
+**A. Anti-larval measures**
+
+1. **Environmental control (source reduction)**: drain, fill or clean breeding places; remove containers; proper water storage; clean drains.
+2. **Chemical larvicides**: temephos (Abate), fenthion, mineral oil (MLO), insect growth regulators (pyriproxyfen).
+3. **Biological control**: larvivorous fish (*Gambusia*, guppy) in ponds and tanks; *Bacillus thuringiensis israelensis* (Bti).
+
+**B. Anti-adult measures**
+
+1. **Indoor residual spraying** (malaria vectors).
+2. **Space spraying / fogging** (malathion, pyrethroids) in outbreaks.
+3. Genetic control (sterile males, *Wolbachia*).
+
+**C. Personal protection**
+
+Bed nets (LLIN), repellents, screening, protective clothing, coils and vaporisers.
+
+**D. Supporting**
+
+Surveillance (larval and adult indices), insecticide-resistance monitoring, health education, community participation, legislation, **integrated vector management**.
+
+**Control of Aedes (tiger mosquito) in Dhaka city / urban areas**
+
+| Measure | Actions |
+|---|---|
+| **Source reduction (most important)** | Empty, clean and cover water containers every week; remove tyres, tins, bottles, coconut shells; clean roof gardens, flower pots, air-cooler and fridge trays; manage water at construction sites; clean gutters |
+| **Community action** | Weekly "search and destroy" campaigns in homes, offices, schools; volunteer and ward-level drives |
+| **Larviciding** | Temephos or Bti in containers that cannot be emptied |
+| **Adult control** | Targeted fogging around dengue cases during outbreaks (not routine) |
+| **Surveillance** | Larval indices: house index, container index, **Breteau index** (positive containers per 100 houses; >20 = high risk); case reporting |
+| **Legislation** | City corporation inspection; fines for breeding sites on premises (mobile courts) |
+| **Personal protection** | Daytime nets for children and patients, repellents, long clothes, screens |
+| **Health education** | Mass media, schools, mosques before and during monsoon |
+| **Intersectoral** | City corporations, DGHS, housing, education, construction regulators |
+| **Research** | *Wolbachia*, insecticide resistance |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology; Epidemiology of Communicable Diseases).
+
+## DU.336
+**Why organochlorine compounds (DDT, BHC/lindane, dieldrin) are not suitable for larvicidal operations**
+
+1. **Very persistent** in the environment; do not break down easily.
+2. **Bio-accumulation and bio-magnification** in the food chain (water → plankton → fish → birds and man).
+3. **Highly toxic to fish** and other aquatic non-target organisms, including larvivorous fish used for biological control.
+4. **Contaminate water** sources used for drinking, bathing and fishing; poorly soluble in water.
+5. **Widespread resistance** in mosquito larvae (e.g., *Culex*, *Anopheles*).
+6. **Health hazards** in man: neurotoxic; stored in body fat; possible carcinogenic and endocrine effects.
+7. **Banned or restricted** under the Stockholm Convention (2001); DDT allowed only for limited indoor residual spraying.
+
+**Preferred larvicides**
+
+Temephos (Abate; low mammalian toxicity, safe for drinking water at recommended dose), fenthion, mineral oils, *Bacillus thuringiensis israelensis* (Bti), insect growth regulators (pyriproxyfen, methoprene).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.337
+**Genus**
+
+Night-time biting nuisance mosquitoes in hostels and urban buildings are usually ***Culex*** (*Culex quinquefasciatus*): breeds in dirty, polluted water (drains, septic tanks, cesspits), bites at night, vector of **lymphatic filariasis**.
+
+**Control measures**
+
+**A. Anti-larval**
+
+1. **Environmental**: clean and repair drains; remove stagnant polluted water; fill ditches and cesspits; cover septic tanks and manholes; proper sewage disposal; mosquito-proof soak pits.
+2. **Polystyrene beads** floated in pit latrines, cesspools and soak pits (block larval breathing).
+3. **Chemical larvicides**: temephos, fenthion, mineral oil in drains.
+4. **Biological**: larvivorous fish in ponds; *Bacillus sphaericus*.
+
+**B. Anti-adult**
+
+1. Space spraying (fogging) with pyrethroids or malathion in heavy infestation.
+2. Indoor residual spraying where needed.
+
+**C. Personal protection in the hostel**
+
+Bed nets (LLIN), wire-mesh screens on windows and doors, repellent creams, mosquito coils or vaporisers, electric mosquito bats, long-sleeved clothes in the evening.
+
+**D. Administrative and community**
+
+Regular hostel sanitation inspections; student and staff involvement in cleaning drains; coordination with city corporation; health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.338
+**Diseases and hazards transmitted by housefly (*Musca domestica*)**
+
+| Group | Diseases |
+|---|---|
+| **Enteric (faeco-oral)** | Typhoid and paratyphoid, cholera, bacillary dysentery, amoebic dysentery, infantile diarrhoea, gastroenteritis, hepatitis A, poliomyelitis (possible) |
+| **Eye** | Trachoma, conjunctivitis |
+| **Parasitic** | Eggs of roundworm, whipworm, tapeworm; protozoal cysts |
+| **Skin** | Yaws, cutaneous infections; anthrax (rare) |
+| **Myiasis** | Maggots in wounds, nose, ear |
+| **Others** | Tuberculosis bacilli carried; nuisance; food spoilage |
+
+**How the housefly acts as a vector (mechanical transmission)**
+
+1. **Habits**: breeds and feeds on filth (faeces, garbage, manure) and then visits human food indiscriminately.
+2. **Carries pathogens on body**: legs, sticky foot pads (pulvilli) and body hairs pick up germs from filth and deposit them on food.
+3. **Vomit drop**: liquefies food by regurgitating saliva and gut contents (containing germs) onto food.
+4. **Faeces**: defecates frequently on food; pathogens survive in its gut.
+5. **Flight**: moves between latrines, garbage and kitchens; large numbers in summer.
+6. Fast breeding: life cycle (egg → larva → pupa → adult) in about a week in hot weather.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.339
+**Control of housefly (Park)**
+
+**1. Environmental control (most important and permanent)**
+
+- Proper **storage, collection and disposal of refuse** (covered bins, daily removal, sanitary landfill, composting).
+- **Sanitary excreta disposal**; stop open defecation; fly-proof latrines (water seal).
+- Sanitary disposal of animal manure; clean cattle sheds.
+- Clean markets, slaughter houses and food establishments; general cleanliness.
+
+**2. Insecticidal control**
+
+- **Residual sprays** on resting surfaces (organophosphates: malathion, diazinon; pyrethroids).
+- **Space sprays** (pyrethrum, pyrethroids) for quick kill.
+- **Baits**: sugar or syrup with insecticide.
+- Insecticide-impregnated cords and strips.
+- Larvicides on breeding material.
+(Flies develop resistance quickly → rotate insecticides.)
+
+**3. Mechanical / physical**
+
+Fly papers, fly traps, electric fly killers.
+
+**4. Protection against flies**
+
+**Screening** of kitchens, dining areas, hospitals and food shops; food covers; mosquito-net cupboards.
+
+**5. Health education**
+
+Covering food, cleanliness, safe disposal of waste and faeces, hand-washing.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.340
+**Identification**
+
+Small insects moving in **short hops** in a village house, especially at night near mud walls and cattle sheds → **sandfly** (*Phlebotomus argentipes*), vector of **kala-azar**.
+(If the insects jump on people, rats or pets and are wingless, they are **fleas**.)
+
+**Habits of sandfly**
+
+| Habit | Features |
+|---|---|
+| **Appearance** | Very small (1.5–3.5 mm), hairy, yellowish or sandy-coloured; wings held **erect in a V-shape** at rest |
+| **Flight** | Weak fliers; move in **short hops**; short flight range; cannot fly in wind |
+| **Breeding** | **Not in water**: moist soil rich in organic matter in **cracks and crevices of mud walls and floors**, cattle sheds, termite hills, rubbish |
+| **Resting** | Dark, humid places: cracks in walls, under furniture, cattle sheds, usually low (below ~2 m) |
+| **Biting** | **Night-biters**; only females suck blood; bite exposed skin; silent (no buzzing) |
+| **Host preference** | *P. argentipes* feeds on cattle and humans |
+| **Life cycle** | Egg → larva → pupa → adult (complete metamorphosis; ~1–2 months) |
+| **Season** | More numerous in warm, humid months |
+| **Passage** | Small enough to pass through ordinary mosquito nets |
+
+**Diseases**: kala-azar, PKDL (Bangladesh); elsewhere cutaneous leishmaniasis, sandfly fever, Oroya fever.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.341
+**Mosquito vs sandfly**
+
+| Feature | Mosquito | Sandfly |
+|---|---|---|
+| Size | Larger (4–10 mm) | Very small (1.5–3.5 mm) |
+| Body covering | Scales | Dense **hairs** |
+| Wings at rest | Lie **flat** over the body | Held **erect, V-shaped** |
+| Flight | Strong fliers | Weak; move in **hops** |
+| Sound | Buzzing | Silent |
+| Proboscis | Long | Short |
+| Breeding | **Water** (aquatic larvae and pupae) | **Moist soil**, cracks and crevices (terrestrial larvae) |
+| Larva | Aquatic; breathes at surface | Caterpillar-like, on land |
+| Biting time | Varies by genus (day: *Aedes*; night: *Anopheles*, *Culex*) | Night |
+| Net | Stopped by ordinary nets | Passes through ordinary nets (needs fine mesh or treated nets) |
+| Diseases | Malaria, dengue, chikungunya, filariasis, Japanese encephalitis | Kala-azar, PKDL, cutaneous leishmaniasis, sandfly fever, Oroya fever |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.342
+**Diseases transmitted by sandflies**
+
+| Disease | Agent | Sandfly |
+|---|---|---|
+| **Kala-azar** (visceral leishmaniasis) | *Leishmania donovani* | *Phlebotomus argentipes* (Bangladesh, India) |
+| **Post-kala-azar dermal leishmaniasis (PKDL)** | *L. donovani* (sequel) | Reservoir for further spread |
+| **Cutaneous leishmaniasis** (oriental sore) | *L. tropica*, *L. major* | *Phlebotomus* spp. |
+| **Mucocutaneous leishmaniasis** (espundia) | *L. braziliensis* | *Lutzomyia* (Americas) |
+| **Sandfly fever** (phlebotomus / pappataci fever) | Phlebovirus | *P. papatasi* |
+| **Oroya fever / Carrion's disease** (bartonellosis) | *Bartonella bacilliformis* | *Lutzomyia* (South America) |
+| Chandipura encephalitis | Chandipura virus | Sandflies (India) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.343
+**Life history of lice**
+
+Lice undergo **incomplete metamorphosis**: Egg (nit) → Nymph (3 moults) → Adult
+
+| Stage | Features |
+|---|---|
+| **Egg (nit)** | Oval, white; firmly **cemented to hair** (head louse) or to **seams of clothing** (body louse); hatches in about a week |
+| **Nymph** | Resembles a small adult; sucks blood from the start; moults **three times** over about 1–2 weeks |
+| **Adult** | Wingless, flattened dorso-ventrally; 3 pairs of legs with claws for gripping hair or fibres; both sexes suck blood several times a day; lives about a month; female lays a few hundred eggs in her life |
+
+Whole cycle (egg to egg-laying adult): about 2–3 weeks.
+
+**Types of human lice**
+
+| Louse | Site | Importance |
+|---|---|---|
+| Head louse (*Pediculus humanus capitis*) | Scalp hair | Pediculosis capitis; school children |
+| Body louse (*P. h. corporis*) | Clothing seams | **Epidemic typhus**, **relapsing fever**, **trench fever** |
+| Crab louse (*Phthirus pubis*) | Pubic hair | Pediculosis pubis (sexual contact) |
+
+**Control**
+
+Personal hygiene; washing clothes in hot water; ironing seams; combing with fine-toothed comb; permethrin 1% lotion or other pediculicides; delousing in camps; avoid sharing combs, caps, clothes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.344
+**Control of sandfly in a rural community**
+
+**1. Insecticidal control (main method)**
+
+- **Indoor residual spraying (IRS)** of houses and **cattle sheds** with synthetic pyrethroids (deltamethrin, alpha-cypermethrin); earlier DDT.
+- Spray walls up to about 2 m height (sandflies rest low), cracks, crevices, under furniture.
+- Two rounds a year in endemic areas, timed before peak season.
+
+**2. Environmental control (source reduction)**
+
+- **Plaster cracks and crevices** of mud walls and floors with mud, lime or cement.
+- Remove rubbish, vegetation and damp organic matter near houses.
+- Keep **cattle sheds away** from human dwellings; improve housing (brick, cement).
+- Proper drainage; reduce dampness.
+
+**3. Personal protection**
+
+- **Insecticide-treated / long-lasting insecticidal nets**; fine-mesh nets.
+- Repellents; covering the body at night; sleeping on raised beds (sandflies fly low).
+
+**4. Control of the reservoir (anthroponotic kala-azar)**
+
+Active case detection and prompt treatment of kala-azar and **PKDL** cases.
+
+**5. Community participation and health education**
+
+Awareness of sandfly habits; cooperation with spraying teams; early reporting of fever and splenomegaly.
+
+**6. Surveillance**
+
+Entomological monitoring of sandfly density and insecticide resistance.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.345
+**Fleas of public health importance**
+
+| Group | Species | Diseases / importance |
+|---|---|---|
+| **1. Rat fleas** | ***Xenopsylla cheopis*** (oriental rat flea: most important) | **Plague**, **murine (endemic) typhus**, *Hymenolepis diminuta* |
+| | *X. astia*, *X. brasiliensis* | Plague (less efficient vectors) |
+| | *Nosopsyllus fasciatus* (northern rat flea) | Plague, murine typhus |
+| **2. Human flea** | *Pulex irritans* | Nuisance, dermatitis; plague (minor role) |
+| **3. Cat and dog fleas** | *Ctenocephalides felis*, *C. canis* | Dog tapeworm (*Dipylidium caninum*), cat-scratch disease (*Bartonella*), dermatitis |
+| **4. Sand flea (chigoe)** | *Tunga penetrans* | **Tungiasis** (burrows in skin of feet) |
+
+**Features of fleas**
+
+Wingless, laterally compressed, strong hind legs for **jumping**; both sexes suck blood; complete metamorphosis (egg → larva → pupa → adult).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.346
+**Habits of the rat flea (*Xenopsylla cheopis*)**
+
+1. **Both sexes are blood feeders**; feed on rats, and on man when rats are not available.
+2. **Leave a dead or dying host** quickly and seek a new one → when rats die of plague, fleas move to humans.
+3. **Jump** onto hosts; live in rat burrows and nests.
+4. **Favourable conditions**: moderate temperature (about 20–25 °C) and high humidity → seasonal plague.
+5. **Survive** for weeks without feeding.
+6. **Eggs** laid in rat nests and burrows; larvae feed on organic debris; complete metamorphosis.
+
+**Disease transmission**
+
+| Disease | Mechanism |
+|---|---|
+| **Plague** (*Yersinia pestis*) | Bacilli multiply in the flea's proventriculus and form a **block** → "**blocked flea**" cannot swallow blood, becomes hungry, bites repeatedly and **regurgitates** infected blood into the bite wound (biological, propagative transmission) |
+| **Murine typhus** (*Rickettsia typhi*) | Infected **flea faeces** rubbed into bite wounds or abrasions |
+| *Hymenolepis diminuta* | Accidental ingestion of infected fleas |
+
+**Flea indices (plague surveillance)**
+
+- **Total flea index**: average number of fleas per rat.
+- **Specific flea (cheopis) index**: average number of *X. cheopis* per rat; **>1 indicates danger** of plague outbreak.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.347
+**Distinguishing features of rodents (order Rodentia)**
+
+1. **One pair of chisel-shaped incisors** in each jaw that **grow continuously**; worn down by gnawing.
+2. **No canine teeth**; gap (**diastema**) between incisors and molars.
+3. **Gnawing habit**: damage food, buildings, cables.
+4. **High fertility**: breed rapidly, many litters a year.
+5. Mostly **nocturnal**; omnivorous; can climb, burrow or swim.
+6. Live close to man (commensal).
+
+**Types of rodents**
+
+| Type | Species | Habits |
+|---|---|---|
+| **Domestic (commensal)** | *Rattus rattus* (black / house / roof rat) | Slender, pointed snout, large ears, **tail longer than head + body**; good climber; lives in roofs |
+| | *Rattus norvegicus* (brown / Norway / sewer rat) | Heavy, blunt snout, small ears, **tail shorter than head + body**; burrows; sewers, drains |
+| | *Mus musculus* (house mouse) | Small; in houses and stores |
+| | *Bandicota bengalensis* (lesser bandicoot) | Field and urban; burrows; common in Bangladesh |
+| | *Bandicota indica* (greater bandicoot) | Large; fields, markets |
+| **Wild (field)** | *Tatera indica* (Indian gerbil) | Natural reservoir of plague (wild cycle) |
+| | Squirrels, field mice | Field reservoirs |
+
+**Public health importance**
+
+Diseases: plague, murine typhus, leptospirosis, rat-bite fever, salmonellosis, scrub typhus (host of mites), hantavirus; food loss; damage to property.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.348
+**Scabies**
+
+Contagious skin infestation by the **itch mite *Sarcoptes scabiei* var. *hominis***; spread by prolonged skin-to-skin contact (family, hostels, madrasas, prisons); fomites in crusted scabies.
+
+**Main diagnostic features**
+
+1. **Intense itching, worse at night** (and after a hot bath).
+2. **Burrows**: thin, greyish, wavy lines 5–15 mm long, with a tiny papule at the end (**pathognomonic**).
+3. **Typical sites**: finger webs, sides of fingers, flexor wrists, elbows, axillary folds, waist, umbilicus, buttocks, around nipples (women), genitalia (penile and scrotal nodules in men). Head and face spared in adults.
+4. **Infants**: palms, soles, face and scalp involved; vesicles and pustules.
+5. **Lesions**: papules, vesicles, excoriations; **secondary bacterial infection** (impetigo, boils) → risk of post-streptococcal glomerulonephritis.
+6. **Several family members** or close contacts itching at the same time.
+7. **Crusted (Norwegian) scabies**: thick crusts with huge mite load in immunocompromised, elderly; little itching.
+
+**Confirmation**
+
+Skin scraping from burrow under microscope (mite, eggs, faecal pellets); burrow ink test; dermoscopy ("delta-wing jet" sign).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.349
+**Prevention and control of scabies**
+
+**A. Treatment of cases and contacts**
+
+1. Treat the patient and **all household and close contacts at the same time**, even without symptoms.
+2. Scabicides:
+
+| Drug | Use |
+|---|---|
+| **Permethrin 5% cream** | First choice; apply from neck to toes (including scalp and face in infants), wash off after 8–12 hours; repeat after 7 days |
+| Benzyl benzoate 25% | Adults (diluted for children); apply twice |
+| **Oral ivermectin** (200 µg/kg, two doses 1–2 weeks apart) | Crusted scabies, mass treatment; not under 15 kg or in pregnancy |
+| Sulphur ointment (5–10%) | Infants and pregnant women |
+
+3. Treat **secondary infection** (antibiotics) and itching (antihistamines).
+
+**B. Measures against re-infestation**
+
+1. **Wash clothes, towels and bedding** in hot water (≥50 °C) and dry in the sun, or seal in a plastic bag for 3 days.
+2. Do not share clothes, beds, towels.
+3. Personal hygiene: daily bath, clean clothes.
+
+**C. Community / institutional control**
+
+1. **Mass treatment** in hostels, madrasas, prisons, refugee camps (ivermectin mass drug administration where prevalence is high).
+2. **Health education**: early recognition, treatment of all contacts, hygiene.
+3. Reduce overcrowding; adequate water supply for washing.
+4. Screening of new entrants in institutions.
+5. Avoid stigma; school exclusion only until the day after treatment.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medical Entomology).
+
+## DU.350
+**Definitions (Park)**
+
+| Term | Definition | Example |
+|---|---|---|
+| **Reservoir** | Any person, animal, arthropod, plant, soil or substance (or combination) in which an infectious agent normally **lives and multiplies**, on which it depends for survival, and from which it can be transmitted to a susceptible host | Man for typhoid; dog for rabies; soil for tetanus |
+| **Source** | The person, animal, object or substance **from which the infectious agent passes** to the host (immediate source) | Contaminated water or food for typhoid |
+
+**Difference (example: hookworm)**
+
+Reservoir = **man** (infected person); source = **soil** contaminated with faeces containing larvae.
+Typhoid: reservoir = case or carrier; source = faeces, urine, contaminated food or water.
+
+**Reservoirs of infection**
+
+**1. Human reservoir**
+
+(a) **Cases**: clinical (mild, moderate, severe), subclinical (inapparent), latent infections.
+(b) **Carriers**: infected persons without symptoms who shed the agent.
+
+| Classification of carriers | Types |
+|---|---|
+| By type | Incubatory (measles, diphtheria), convalescent (typhoid, cholera), healthy (polio, meningococcus) |
+| By duration | Temporary; chronic (typhoid, hepatitis B) |
+| By portal of exit | Urinary, intestinal, respiratory, nasal, skin |
+
+**2. Animal reservoir (zoonoses)**: rabies (dog), plague (rat), Nipah (bat), anthrax (cattle), avian influenza (poultry).
+
+**3. Non-living reservoir**: soil (tetanus, anthrax spores), water, inanimate matter.
+
+**Importance**
+
+Human reservoirs (especially carriers and subclinical cases) are dangerous because they are hidden and move freely; control of reservoir is the first line of communicable disease control.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
