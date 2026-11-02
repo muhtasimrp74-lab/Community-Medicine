@@ -52,7 +52,7 @@ const BLK='p,li,td,th,h1,h2,h3,h4,h5,h6,pre,blockquote,summary,dt,dd,figcaption,
 const sigC=e=>e.tagName+'.'+[...e.classList].filter(c=>!FLAG.test(c)).join('.');
 function blkKey(a,e){const p=[];for(;e&&e!==a;e=e.parentElement){const s=sigC(e);let i=0;for(let x=e.previousElementSibling;x;x=x.previousElementSibling)if(sigC(x)===s)i++;p.push(s+'#'+i)}return p.reverse().join('>')}
 function frags(a){const b=box(a),items=[],map=new Map(),blocks=new Map(),w=document.createTreeWalker(a,NodeFilter.SHOW_TEXT),rg=document.createRange();let n;
-  while(n=w.nextNode()){const p=n.parentElement;if(!p||p.closest('canvas,textarea,script,style'))continue;
+  while(n=w.nextNode()){const p=n.parentElement;if(!p||p.closest('canvas,textarea,script,style,.cmws,.cmws-add'))continue;
     let o=p.closest(BLK);if(!o||o===a||!a.contains(o))o=a;
     let bi=blocks.get(o);if(!bi){bi={k:o===a?'':blkKey(a,o),off:0};blocks.set(o,bi)}
     const t=n.data;for(let i=0;i<t.length;i++){const ch=t.charCodeAt(i);if(ch<=32||ch===160)continue;rg.setStart(n,i);rg.setEnd(n,i+1);const r=rg.getClientRects()[0];if(!r||(!r.width&&!r.height))continue;
@@ -190,7 +190,7 @@ function finish(e){if(e.pointerType==='pen'){penT=now();penDown=false}if(!cur||e
   redraw(q);persist(q);tb()}
 document.addEventListener('pointerdown',e=>{if(e.pointerType==='pen'){penT=now();penDown=true;if(U.finger&&!U.fu){U.finger=false;fing();uiSave();tb()}}
   if(!ink||cur||(e.pointerType!=='pen'&&!(e.pointerType==='mouse'&&e.button===0)&&!(e.pointerType==='touch'&&U.finger)))return;
-  if(e.target.closest('#ink,#inkmenu,#inkfab,textarea,input,select'))return;const a=e.target.closest('.inkc');if(!a)return;e.preventDefault();begin(e,a)},true);
+  if(e.target.closest('#ink,#inkmenu,#inkfab,.cmws-bar,.cmws-add,textarea,input,select'))return;const a=e.target.closest('.inkc');if(!a)return;e.preventDefault();begin(e,a)},true);
 document.addEventListener('pointermove',e=>{if(e.pointerType==='pen')penT=now();const c=cur;if(!c||e.pointerId!==c.id)return;c.r=box(c.a); /* card may have moved under the pen (scroll / viewport pan): map each move with its CURRENT box */
   (((e.getCoalescedEvents&&e.getCoalescedEvents())||[]).length?e.getCoalescedEvents():[e]).forEach(ev=>{const p=pt(ev,c.r);if(c.tool==='eraser')erase(p);else if(c.mode==='move'){OFF.dx=p[0]-c.o[0];OFF.dy=p[1]-c.o[1]}else{const l=c.pts[c.pts.length-1];if(Math.hypot(p[0]-l[0],p[1]-l[1])>.3)c.pts.push(p)}});
   c.pred=c.tool==='pen'||c.tool==='h'?(e.getPredictedEvents?e.getPredictedEvents():[]).slice(0,3).map(ev=>pt(ev,c.r)):[];sched()},true);
@@ -198,7 +198,7 @@ document.addEventListener('pointerup',e=>{if(cur&&e.pointerId===cur.id){swallow=
 document.addEventListener('pointercancel',finish,true);
 document.addEventListener('click',e=>{if(swallow){swallow=false;e.stopPropagation();e.preventDefault()}},true);
 /* palm rejection: stylus touches never scroll inside cards; finger/palm touches are ignored while the pen is down or hovering */
-const tpre=e=>{if(!ink||!e.cancelable)return;const t=e.changedTouches[0],T=e.target.closest?e.target:e.target.parentElement;if(!T||T.closest('#ink,#inkmenu,#inkfab,textarea,input,select'))return;
+const tpre=e=>{if(!ink||!e.cancelable)return;const t=e.changedTouches[0],T=e.target.closest?e.target:e.target.parentElement;if(!T||T.closest('#ink,#inkmenu,#inkfab,.cmws-bar,.cmws-add,textarea,input,select'))return;
   if(t&&t.touchType==='stylus'){if(T.closest('.inkc'))e.preventDefault();return}
   if(penDown||now()-penT<1500)e.preventDefault()};
 ['touchstart','touchmove'].forEach(n=>document.addEventListener(n,tpre,{passive:false,capture:true}));

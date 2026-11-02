@@ -39,3 +39,19 @@ html[data-theme="dark"]{--mbi-blend:lighten;--mbi-hla:.4}
 #inkmenu button:hover{background:var(--line)}
 #inkmenu .dg{color:var(--bad)}
 @media print{#ink,#inkmenu,#inkfab,canvas.mbi{display:none!important}}
+/* ---- writing space (js/ws.js) ---- */
+.cmws{position:relative;margin:1rem 0 .5rem;border-radius:.9rem;border:1px dashed color-mix(in srgb,var(--accent) 45%,transparent);background:color-mix(in srgb,var(--panel) 80%,transparent);overflow:hidden;cursor:inherit}
+.cmws-a{height:var(--wsh,220px)}
+.cmws[data-t=ruled] .cmws-a{background-image:repeating-linear-gradient(to bottom,transparent 0 1.9rem,color-mix(in srgb,var(--text) 24%,transparent) 1.9rem calc(1.9rem + 1px));background-position:0 .5rem}
+.cmws[data-t=grid] .cmws-a{background-image:linear-gradient(color-mix(in srgb,var(--text) 16%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,var(--text) 16%,transparent) 1px,transparent 1px);background-size:1.5rem 1.5rem}
+.cmws[data-t=dot] .cmws-a{background-image:radial-gradient(circle,color-mix(in srgb,var(--text) 38%,transparent) 1.3px,transparent 1.7px);background-size:1.5rem 1.5rem;background-position:.75rem .75rem}
+/* the toolbar keeps its height outside ink mode (just invisible) so the writing area never moves when you start or stop annotating */
+.cmws-bar{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;padding:.35rem .5rem;border-bottom:1px dashed color-mix(in srgb,var(--accent) 35%,transparent);visibility:hidden;font-size:.8rem;font-weight:600}
+.ink .cmws-bar{visibility:visible}
+.cmws-bar button{min-width:2.4rem;min-height:2.4rem;padding:0 .7rem;border:1px solid var(--line);border-radius:.7rem;background:var(--panel);color:var(--text);font:inherit;cursor:pointer}
+.cmws-seg{display:inline-flex;gap:.25rem;flex-wrap:wrap}
+.cmws-bar button[aria-pressed=true]{background:var(--accent);border-color:transparent;color:#fff}
+.cmws-bar .cmws-x{margin-left:auto;color:var(--accent)}
+.cmws-add{display:none;align-items:center;justify-content:center;width:100%;min-height:2.6rem;margin:.9rem 0 .3rem;border:1px dashed color-mix(in srgb,var(--accent) 55%,transparent);border-radius:.9rem;background:none;color:var(--accent);font:inherit;font-weight:600;font-size:.85rem;cursor:pointer}
+.ink .cmws-add{display:flex}
+@media print{.cmws-bar,.cmws-add{display:none!important}.cmws{break-inside:avoid}}
