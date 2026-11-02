@@ -4648,7 +4648,6 @@ Awareness → Interest → Evaluation → Trial → Adoption
 
 People = soil; health facts = seed; communicator = sower. All three must be favourable for results.
 
-**Important 10 (short answer)**: interest, participation, motivation, comprehension, reinforcement, learning by doing, known to unknown, setting example, good human relations, feedback.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
 
@@ -10804,7 +10803,6 @@ IMR = (Infant deaths in a year ÷ Live births in that year) × 1,000
 5. Responds quickly to improvements → good for **comparing** areas and monitoring programmes.
 6. Neonatal deaths reflect mainly **biological / obstetric** factors; post-neonatal deaths reflect **environmental and social** factors.
 
-**Bangladesh**: 27 per 1,000 live births (SVRS 2023).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
 
@@ -10824,7 +10822,6 @@ NMR = (Deaths of infants under 28 days in a year ÷ Live births in the same year
 
 **Main causes**: prematurity / LBW, birth asphyxia, neonatal sepsis and pneumonia, congenital anomalies, hypothermia.
 
-**Significance**: reflects quality of maternal care, delivery care and newborn care; forms the largest part of infant deaths. SDG target: NMR ≤12 per 1,000 live births by 2030.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
 
@@ -11127,7 +11124,6 @@ The **percentage of eligible couples effectively protected** against childbirth 
 
 CPR = (Effectively protected eligible couples ÷ Total eligible couples) × 100
 
-**Significance**: indicator of FP programme performance; CPR above ~60% is needed to reach replacement fertility (NRR = 1).
 
 Bangladesh uses **contraceptive prevalence rate**: modern methods 62.1% (SVRS 2023).
 
@@ -11939,7 +11935,6 @@ Non-nutritive substances **intentionally added** to food in small amounts to imp
 
 **Hazards**: allergy, hyperactivity, possible carcinogenicity when misused; illegal agents (formalin, carbide, textile dyes) are **adulterants**, not additives.
 
-**Control**: permitted lists and limits (Codex Alimentarius; Bangladesh Food Safety Authority).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
 
@@ -12027,7 +12022,6 @@ Liver, **fish liver oils** (cod, shark), egg yolk, milk, butter, ghee, cheese, *
 
 **Requirement**: about 600 µg retinol/day for adults (higher in lactation).
 
-**Note**: carotenes need fat in the meal for absorption; plant sources are cheapest for the poor.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
 
@@ -12470,9 +12464,7 @@ Lowering the quality of food by **adding inferior, harmful or unwanted substance
 4. Diphtheria, streptococcal sore throat (scarlet fever)
 5. Hepatitis A, *E. coli* infections, staphylococcal food poisoning
 
-**Five (short answer)**: tuberculosis, brucellosis, typhoid, salmonellosis, Q fever.
 
-**Prevention**: healthy animals; clean milking; **pasteurisation** or boiling; hygienic handling and storage.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
 
@@ -13188,7 +13180,6 @@ Cannot establish temporal sequence or causation; not suited to rare or short dis
 5. Assess **prognosis** and outcomes.
 6. Evaluate long-term effects of interventions and exposures.
 
-**Limitations**: time, cost, attrition.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13299,7 +13290,6 @@ Prevalence (≈86) is about 6 times incidence (≈14) because TB is a chronic di
 - Common cold: high incidence, short duration → low prevalence.
 - Diabetes, TB: moderate incidence, long duration → high prevalence.
 
-**Use**: estimate duration (D = P ÷ I) or incidence from prevalence.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13337,7 +13327,6 @@ Alcohol → (associated with) Smoking → Lung cancer
 
 **Other examples**: age in the relation between grey hair and CHD; coffee and CHD confounded by smoking.
 
-**Control**: randomisation, matching, restriction, stratified and multivariate analysis.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13511,7 +13500,6 @@ Infectious agent → Reservoir / source → Portal of exit → Mode of transmiss
 
 Simplified (Park): **Source or reservoir → Mode of transmission → Susceptible host**.
 
-**Use**: breaking any link (treat cases, purify water, vaccinate) stops transmission.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13538,7 +13526,6 @@ An infected person (or animal) who **harbours a specific infectious agent withou
 | | **Chronic** (long time) | Typhoid, hepatitis B, malaria |
 | **Portal of exit** | Urinary, intestinal, respiratory, nasal, skin | Typhoid (urinary, intestinal), staphylococci (nasal) |
 
-**Importance**: carriers are dangerous because they are not recognised and move freely.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13592,7 +13579,6 @@ An infected person (or animal) who **harbours a specific infectious agent withou
 | **Index case** ("first contact case") | The first case to **come to the attention of the investigator / health system**; not always the primary case |
 | **Secondary cases** | Cases that develop from **contact with the primary case** within the range of one incubation period |
 
-**Use**: index and primary cases help trace the source and calculate the **secondary attack rate** (communicability).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
 
@@ -13884,7 +13870,6 @@ Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; 
 | Encephalitis, myelitis, stroke (vasculopathy) | Rare |
 | Secondary bacterial infection, scarring | |
 
-**Prevention**: varicella vaccine; zoster vaccine (recombinant) for older adults; early antivirals.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -13933,7 +13918,6 @@ Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; 
 
 **Three common**: orchitis, meningitis (meningoencephalitis), pancreatitis.
 
-**Prevention**: MMR vaccine.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -13952,7 +13936,6 @@ Secondary bacterial skin infection; pneumonia; encephalitis, cerebellar ataxia; 
 | Transmission | **Droplet infection**; direct contact; fomites |
 | Incubation period | **2–6 days** |
 
-**Bangladesh**: outbreak among Rohingya refugees (2017–18) due to low immunisation.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -14068,7 +14051,6 @@ Not feeding well; convulsions; **fast breathing ≥60/min**; **severe chest indr
 | | Clinical severe infection | IM gentamicin + oral amoxicillin (7 days) |
 | **No pneumonia: cough or cold** | No danger signs, no fast breathing | Home care: keep warm, breastfeed frequently, clear nose; return immediately if danger signs |
 
-**Note**: In young infants chest indrawing is normal unless **severe**; any sign of illness needs urgent attention because of rapid deterioration.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -14118,7 +14100,6 @@ Hand-washing; cough etiquette; masks during outbreaks.
 9. Occupational exposure (silica, mining).
 10. HIV and diabetes (medical, often linked with poverty).
 
-**Six (short answer)**: poverty, overcrowding, malnutrition, illiteracy, large family size, migration/urban slums.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -14339,7 +14320,6 @@ HIV testing of all TB patients; TB screening of PLHIV; **TB preventive therapy**
 | Pre-XDR-TB | MDR/RR + a fluoroquinolone |
 | **XDR-TB** | MDR/RR + fluoroquinolone + bedaquiline and/or linezolid |
 
-**Prevention**: DOTS, FDCs, patient support, quality drugs, rapid DST (Xpert), infection control.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -14428,7 +14408,6 @@ A patient who was **previously treated for TB**, was declared **cured or treatme
 | **Transmission** | **Faecal–oral** (main); droplet in early phase |
 | **Incubation period** | **7–14 days** (range 3–35) |
 
-**Bangladesh**: polio-free (SEAR certified 2014) through EPI, NIDs and AFP surveillance; risk of importation and cVDPV remains.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -15326,7 +15305,6 @@ Recurrent filarial fever; lymphangitis and lymphadenitis; lymphoedema / elephant
 | CBC | **Pancytopenia** |
 | Serum proteins | Hypergammaglobulinaemia, reversed albumin–globulin ratio (aldehyde test: old) |
 
-**Note**: rK39 stays positive for years after cure → relapse needs parasitological confirmation.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -15390,7 +15368,6 @@ Index-case-based search, house-to-house surveys, camps.
 
 **G. Regional cooperation**: **Regional Kala-azar Elimination Initiative** (Bangladesh, India, Nepal, 2005); target <1 case per 10,000 at upazila level.
 
-**Bangladesh**: first country validated by WHO for eliminating kala-azar as a public health problem (**October 2023**); now **post-validation surveillance**.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases); WHO, 2023, https://www.who.int/news/item/31-10-2023-bangladesh-achieves-historic-milestone-by-eliminating-kala-azar-as-a-public-health-problem
 
@@ -15440,7 +15417,6 @@ Traumatic (wounds, burns), post-surgical, **puerperal / post-abortal** (maternal
 
 Normal baby for the first 2 days → **inability to suck** (usually day 3–10), excessive crying, stiffness, spasms, trismus, opisthotonus; very high mortality.
 
-**Complications**: aspiration pneumonia, fractures, respiratory failure, death.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -15954,7 +15930,6 @@ Antenatal HIV and syphilis testing; ART for mothers; safe delivery; infant proph
 
 **F. Surveillance, research, stigma reduction**, legal protection, involvement of PLHIV.
 
-**Bangladesh**: AIDS/STD Programme (ASP) under DGHS with NGOs.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
 
@@ -16651,7 +16626,6 @@ Activities that a person with diabetes (and family) does daily to control the di
 7. **Reducing risks**: **daily foot care** (inspection, washing, proper footwear, nail care), stop smoking, annual eye and kidney checks, dental care, vaccinations.
 8. **Regular follow-up** with health workers.
 
-**Importance**: diabetes is lifelong; patient spends most time outside the clinic; self-care improves control, prevents complications and reduces costs.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
 
@@ -16907,7 +16881,6 @@ Investigations: ASO, throat swab, CBC, ESR, CRP, ECG, chest X-ray, **echocardiog
 | **8. Customs and habits** | Betel quid chewing, early marriage (cervix), reverse smoking |
 | **9. Others** | Air pollution, **arsenic in drinking water** (skin, lung, bladder), medicinal drugs (hormones, immunosuppressants), sexual behaviour |
 
-**Four (short answer)**: tobacco, alcohol, diet, occupational/chemical exposures (or viruses, radiation).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Chronic Non-communicable Diseases).
 
@@ -17406,7 +17379,6 @@ Slaughter houses; tanneries and leather dressing; bone boiling and crushing; blo
 | Water pollution | Tannery and dyeing effluents |
 | Flies and rodents | Manure stores, poultry farms, rag stores |
 
-**Control**: licensing; location away from homes (zoning); effluent treatment; waste disposal; inspection; Environment Conservation Act 1995.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
 
@@ -17422,7 +17394,6 @@ Slaughter houses; tanneries and leather dressing; bone boiling and crushing; blo
 6. For diseases without primary prevention (many cancers, diabetes), it is the **main preventive option**.
 7. Basis of programmes: DOTS, IMCI, cancer screening, NCD corners.
 
-**Limitations**: needs screening resources, accurate tests and access to treatment; less effective than primary prevention.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
