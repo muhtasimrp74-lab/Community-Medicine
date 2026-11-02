@@ -5545,3 +5545,809 @@ Existing knowledge → link → new idea → understanding → acceptance
 - Explaining **vaccination**: start from known experience that a person who once had measles does not get it again → vaccine gives the same protection safely.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.190
+**Classification of environment (Park)**
+
+| Component | Includes | Examples |
+|---|---|---|
+| **1. Physical** | Non-living things and physical forces | Air, water, soil, housing, climate, geography, heat, light, noise, radiation, debris |
+| **2. Biological** | Living things around man, including other humans | Plants, animals, insects (vectors), rodents, microbes, other people |
+| **3. Psychosocial** | Social and cultural surroundings | Cultural values, customs, beliefs, habits, attitudes, religion, morals, education, lifestyle, community life, health services, social and political organisation |
+
+**Other classification**
+
+- **Internal environment**: inside the body (tissues, organs, homeostasis).
+- **External (macro) environment**: physical + biological + psychosocial.
+- **Micro (domestic) environment**: home, family, personal way of living.
+
+**Role of biological environment in disease causation**
+
+1. **Source of disease agents**: bacteria, viruses, parasites, fungi in water, food, soil, air.
+2. **Animal reservoirs (zoonoses)**: dog (rabies), cattle (anthrax, TB), rats (plague, leptospirosis), birds (avian influenza), bats (Nipah).
+3. **Vectors**: Anopheles (malaria), Aedes (dengue, chikungunya), Culex (filariasis, Japanese encephalitis), sandfly (kala-azar), rat flea (plague), housefly (mechanical carrier of diarrhoeal diseases).
+4. **Intermediate hosts**: snail (schistosomiasis), cyclops (guinea worm), pig (taeniasis), fish (fish tapeworm).
+5. **Other humans**: cases and carriers spread TB, typhoid, HIV, COVID-19.
+6. **Plants**: pollen allergens (asthma), poisonous plants, mycotoxins (aflatoxin → liver cancer).
+7. **Food chain**: contaminated food; biological magnification.
+8. Ecological imbalance (deforestation, urbanisation) brings humans close to vectors and wildlife → emerging diseases.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.191
+**Macro-environment (external environment)**
+
+Everything external to the individual human host; classified into three components.
+
+| Component | Examples | Health relevance |
+|---|---|---|
+| **Physical** | Air, water, soil, housing, climate, geography, heat, light, noise, radiation | Air pollution → COPD, asthma; arsenic water → arsenicosis; heat → heat stroke |
+| **Biological** | Plants, animals, insects, rodents, microorganisms, other humans | Mosquitoes → dengue, malaria; dogs → rabies; microbes → infections |
+| **Psychosocial** | Customs, culture, beliefs, habits, religion, education, lifestyle, social organisation, health services | Child marriage → maternal deaths; smoking culture → cancer |
+
+**Contrast**
+
+- **Micro-environment (domestic)**: individual's immediate surroundings and way of living at home (housing, kitchen smoke, family habits).
+- **Internal environment**: within the body.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.192
+**Definition**
+
+**Environment**: all that which is **external to the individual human host** (Park); the sum total of all physical, biological and psychosocial factors and conditions surrounding man that influence his health and life.
+
+**Components**
+
+1. **Physical**: air, water, soil, housing, climate, noise, radiation.
+2. **Biological**: plants, animals, microbes, insects, other humans.
+3. **Psychosocial**: culture, customs, beliefs, social and political organisation.
+
+**Related concepts**
+
+- **Internal environment**: body's own tissues and systems.
+- **Ecology**: study of the relationship between living organisms and their environment.
+- **Environmental health**: control of all factors in man's physical environment that may harm his physical development, health or survival (WHO).
+
+**Importance**
+
+Environment is one of the three arms of the epidemiological triad; a large share of disease (diarrhoea, respiratory infections, vector-borne diseases, cancers) is environment-related and preventable.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.193
+**Definition**
+
+**Offensive trades**: trades or industries that are **injurious to health** or create a **nuisance** to the neighbourhood by offensive smell, smoke, dust, noise, effluents or flies; they need licensing and control under public health law.
+
+**Examples**
+
+Slaughter houses; blood boiling and blood drying; bone boiling and bone crushing; fat melting; tripe cleaning; gut scraping; glue and size making; soap boiling; tanning and leather dressing; fellmongering (hide and skin storing); fish drying and fish markets; manure, rag and bone dealing; lime burning; brick kilns; cattle sheds and dairies; poultry farms.
+
+**Classification**
+
+| By nuisance | Examples (Bangladesh) |
+|---|---|
+| Offensive smell | Tanneries, slaughter houses, bone mills, fish drying (*shutki*) |
+| Smoke and fumes | Brick kilns, lime burning |
+| Dust | Stone crushing, rice mills, cement works |
+| Noise | Saw mills, metal workshops |
+| Water pollution (effluents) | Tanneries, textile dyeing, slaughter houses |
+| Flies and rodents | Manure stores, poultry and dairy farms, rag and bone shops |
+
+**Control**
+
+Licensing and inspection; location away from residential areas (zoning); effluent treatment; proper waste disposal; ventilation and chimneys; legislation (Environment Conservation Act 1995; brick kiln control law).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.194
+**Safe and wholesome water**
+
+Water that is:
+1. **Free from pathogenic agents** (bacteria, viruses, protozoa, helminths).
+2. **Free from harmful chemical substances** (arsenic, lead, excess fluoride, nitrate).
+3. **Pleasant to taste**: free from colour, odour, turbidity.
+4. **Usable for domestic purposes** (drinking, cooking, washing).
+
+**Criteria (quality standards)**
+
+| Aspect | Criteria |
+|---|---|
+| **Physical** | Clear (low turbidity; <1 NTU desirable for disinfection), colourless, odourless, pleasant taste, cool |
+| **Chemical** | Toxic chemicals within guideline values (arsenic ≤0.01 mg/L, lead ≤0.01 mg/L, fluoride ≤1.5 mg/L, nitrate ≤50 mg/L; WHO); pH 6.5–8.5; acceptable hardness and iron |
+| **Bacteriological** | **E. coli / thermotolerant coliforms not detectable in any 100 ml sample** (WHO) |
+| **Virological / parasitological** | Free from viruses, protozoal cysts, helminth ova |
+| **Radiological** | Below WHO screening levels |
+| **Disinfection** | Free residual chlorine ≥0.5 mg/L after 30–60 minutes' contact; ≥0.2 mg/L at point of delivery |
+
+**Note**
+
+**Safe** = no health hazard; **wholesome** = also palatable and acceptable; "potable" water.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO, Guidelines for Drinking-water Quality.
+
+## DU.195
+**Impounding reservoir**
+
+An **artificial lake** formed by building a **dam across a river or valley**, to store water for public supply.
+
+**Features**
+
+1. Usually fed by streams from upland catchment areas.
+2. Water is **soft**, pleasant to taste and relatively free from pathogens because of storage.
+3. Quality depends on protection of the **catchment area**.
+
+**Self-purification by storage**
+
+| Type | Change | Result |
+|---|---|---|
+| Physical | Sedimentation | Most suspended matter settles within 24 hours; water clears |
+| Chemical | Oxidation of organic matter by aerobic bacteria | Free ammonia falls; nitrates rise |
+| Biological | Pathogens die (unfavourable conditions) | Large fall in bacteria within the first week |
+
+Optimum storage period: about **10–14 days**; longer storage favours algae growth (bad taste and odour).
+
+**Drawbacks**
+
+Algae and vegetation growth; tastes and odours; contamination from catchment (grazing, human habitation); stratification and low oxygen in deep water.
+
+**Protective measures**
+
+1. Catchment area free of human habitation, cultivation and grazing.
+2. Fence and patrol the area; no bathing or washing.
+3. Control algae (copper sulphate).
+4. Further treatment: filtration and **chlorination** before supply.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.196
+**Sources of water (Park)**
+
+| Source | Types | Features |
+|---|---|---|
+| **1. Rain** | Rainwater (directly collected) | **Prime (ultimate) source** of all water; purest natural water; soft; may pick up dust and gases; storage needed |
+| **2. Surface water** | (a) Impounding reservoirs (b) Rivers and streams (c) Tanks, ponds and lakes | Easily contaminated by sewage, industrial and agricultural waste; needs treatment |
+| **3. Ground water** | (a) Shallow wells (b) Deep wells (c) Springs | Filtered through soil: usually free of pathogens; may contain dissolved minerals (hardness, iron, arsenic, fluoride) |
+
+**Wells**
+
+- **Shallow well**: taps water above the first impervious layer; easily polluted.
+- **Deep well / deep tube well**: taps water below the first impervious layer; safer.
+- **Sanitary well**: properly located (at least 15 m from sources of contamination), lined, covered, with parapet, platform and drain, and a hand pump.
+
+**Bangladesh**
+
+Groundwater (shallow and deep tube wells) is the main drinking source in rural areas; problems: arsenic, iron, salinity (coast), falling water table. Rainwater harvesting and pond sand filters are used in coastal and arsenic areas.
+
+**Prime source**: **rain**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.197
+**Classification of water-borne diseases (Park)**
+
+**A. Biological**
+
+| Group | Diseases |
+|---|---|
+| (i) Caused by presence of infective agent in water | |
+| Viral | Hepatitis A, hepatitis E, poliomyelitis, rotavirus diarrhoea |
+| Bacterial | Cholera, typhoid and paratyphoid, bacillary dysentery (shigellosis), *E. coli* diarrhoea |
+| Protozoal | Amoebiasis, giardiasis, cryptosporidiosis |
+| Helminthic | Roundworm (ascariasis), threadworm, hydatid disease |
+| Leptospiral | Weil's disease (leptospirosis) |
+| (ii) Due to presence of an aquatic host | Snail → schistosomiasis; cyclops → guinea worm (dracunculiasis), fish tapeworm |
+
+**B. Chemical (water-related)**
+
+Arsenicosis (arsenic), fluorosis (fluoride), methaemoglobinaemia (nitrate), lead poisoning.
+
+**Other water-related groups (Bradley)**
+
+Water-washed (scabies, trachoma); water-related insect vectors (malaria, dengue, filariasis).
+
+**Five major water-borne diseases of Bangladesh**
+
+1. Cholera / acute watery diarrhoea
+2. Typhoid (enteric) fever
+3. Hepatitis E and A
+4. Bacillary dysentery (shigellosis)
+5. Amoebiasis / giardiasis
+(+ arsenicosis from groundwater)
+
+**Among slum dwellers**: diarrhoea, cholera, typhoid, hepatitis E, worm infestation, skin infections (water-washed), dengue.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.198
+**Prevention of water-borne diseases**
+
+**A. Safe water supply**
+
+1. Protected sources: sanitary tube wells, deep tube wells, piped supply.
+2. **Purification**: large scale (storage → filtration → chlorination); household (boiling, chlorine tablets, filters).
+3. Maintain **residual chlorine** in distribution; repair leaking pipes; avoid cross-connection with sewers.
+4. Safe storage at home: covered containers, use of a ladle.
+
+**B. Sanitation**
+
+1. Sanitary latrines; end open defecation.
+2. Safe disposal of sewage, sullage and refuse.
+3. Protect water sources from contamination (distance from latrines ≥15 m).
+
+**C. Personal and food hygiene**
+
+Hand-washing with soap (after toilet, before eating and feeding); safe food handling.
+
+**D. Water quality surveillance**
+
+Regular bacteriological (E. coli) and chemical (arsenic) testing; sanitary inspection.
+
+**E. Specific protection**
+
+Vaccines: typhoid conjugate vaccine, oral cholera vaccine (outbreaks, camps), hepatitis A.
+
+**F. Health education**
+
+Safe water use, hygiene, ORS, early care-seeking.
+
+**G. Case management and outbreak control**
+
+Early diagnosis and treatment (ORS, zinc, antibiotics where indicated); notification; outbreak investigation; chlorination of sources during floods.
+
+**H. Control of aquatic hosts and chemical hazards**
+
+Snail and cyclops control; arsenic-safe water options.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.199
+**Sources of water pollution (Park)**
+
+| Source | Examples |
+|---|---|
+| **1. Sewage** | Domestic waste water: faeces, urine, sullage; decomposable organic matter and pathogens |
+| **2. Industrial and trade wastes** | Toxic chemicals, heavy metals (chromium, lead, mercury), acids, alkalis, dyes, oils |
+| **3. Agricultural pollutants** | Fertilisers (nitrates, phosphates → eutrophication), pesticides, animal waste |
+| **4. Physical pollutants** | Heat (thermal pollution), radioactive substances |
+| **5. Others** | Solid waste dumping, hospital waste, oil spills, plastics, natural arsenic and fluoride |
+
+**Sources of pollution of the river Buriganga**
+
+1. **Untreated domestic sewage** of Dhaka city through drains and canals.
+2. **Tannery effluents** (historically from Hazaribagh: chromium, sulphides, organic matter).
+3. **Industrial effluents**: textile dyeing, washing, chemical and pharmaceutical units.
+4. **Solid waste and plastics** dumped along banks.
+5. **Hospital and clinical waste**.
+6. **Waste, oil and fuel from launches and boats** at Sadarghat.
+7. **Kitchen-market waste** and slaughter waste.
+8. **Encroachment** and silting, which reduce flow and self-purification.
+
+**Effects**
+
+Low dissolved oxygen, foul smell, fish death, health hazards for riverside people (diarrhoea, skin disease), unsuitable for drinking water treatment.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.200
+**Coliform organisms**
+
+Aerobic and facultatively anaerobic, Gram-negative, non-sporing, rod-shaped bacilli that grow in the presence of bile salts and ferment lactose at 35–37 °C with acid and gas production within 48 hours.
+
+**Indicators of faecal pollution**
+
+| Indicator | Significance |
+|---|---|
+| **Total coliforms** | Include faecal and non-faecal (soil) types; indicate treatment efficiency and integrity of distribution |
+| **Faecal (thermotolerant) coliforms**: ***Escherichia coli*** | Grow at 44 °C; definite faecal origin; **best indicator** |
+| Faecal streptococci (enterococci) | Supportive evidence of faecal pollution |
+| *Clostridium perfringens* (sulphite-reducing clostridia) | Spores survive long; indicate remote or intermittent pollution |
+
+**Two important indicators of bacteriological quality**
+
+E. coli (thermotolerant coliforms) and total coliforms.
+
+**Why E. coli is an important tool**
+
+1. **Always present in large numbers** in human and animal faeces.
+2. **Exclusively faecal origin**; not found in unpolluted water or soil.
+3. Presence = **recent faecal contamination** → possible presence of pathogens.
+4. **Easily detected and counted** by simple, cheap methods (multiple tube / MPN, membrane filtration).
+5. **Survives in water at least as long as most bacterial pathogens**; more resistant to chlorination than some pathogens.
+6. **Absence** indicates water is bacteriologically safe (for bacterial pathogens).
+7. WHO standard: **E. coli not detectable in any 100 ml sample** of drinking water.
+
+**Limitation**
+
+Not a perfect indicator for viruses and protozoal cysts, which resist chlorine more.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO, Guidelines for Drinking-water Quality.
+
+## DU.201
+**Purification of water on a large scale**
+
+Storage → Filtration → Disinfection
+
+**1. Storage**
+
+Water stored in reservoirs: physical (sedimentation), chemical (oxidation) and biological (pathogens die) self-purification; optimum 10–14 days.
+
+**2. Filtration**
+
+| Type | Basis | Key points |
+|---|---|---|
+| **Slow sand (biological) filter** | Vital (biological) layer | Sand bed ~1 m; rate 0.1–0.4 m³/m²/hour; removes 99.9% of bacteria; large area |
+| **Rapid sand (mechanical) filter** | Coagulation and mechanical straining | Preceded by coagulation (alum), rapid mixing, flocculation and sedimentation; rate 5–15 m³/m²/hour; cleaned by backwashing |
+
+**3. Disinfection**
+
+- **Chlorination** (most common): chlorine gas, chloramine, perchloron / high-test hypochlorite.
+- Others: ozonation, UV irradiation.
+- Aim: free residual chlorine **0.5 mg/L after 1 hour contact**.
+
+**Additional treatment as needed**
+
+Aeration (removes iron, gases, odours); softening; fluoridation or defluoridation; arsenic and iron removal.
+
+**Typical modern plant flow**
+
+Intake → Screening → Aeration → Coagulation and flocculation → Sedimentation → Rapid sand filtration → Chlorination → Storage → Distribution
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.202
+**Purification of water at household (small-scale) level**
+
+**1. Boiling**
+
+- Rolling boil for 5–10 minutes.
+- Kills bacteria, viruses, spores, cysts and ova; removes temporary hardness and dissolved gases.
+- Drawbacks: fuel cost; no residual protection; can be recontaminated; flat taste.
+
+**2. Chemical disinfection**
+
+| Agent | Features |
+|---|---|
+| **Bleaching powder** (chlorinated lime, ~33% available chlorine) | Cheap; used as 1% stock solution or for wells |
+| **Chlorine solution** | Prepared from bleaching powder |
+| **High-test hypochlorite (HTH / perchloron)** | 60–70% available chlorine; stable |
+| **Chlorine tablets** (sodium dichloroisocyanurate, halazone) | Convenient for emergencies and floods; 30 minutes' contact |
+| **Iodine** | 2 drops of 2% tincture per litre; short-term use |
+| Potassium permanganate | Not recommended (weak against coliforms) |
+
+**3. Filtration**
+
+Ceramic filters (Pasteur–Chamberland, Berkefeld, Katadyn); candle filters; cloth filtration (reduces cholera by removing plankton); bio-sand filters.
+
+**4. Solar disinfection (SODIS)**
+
+Clear plastic bottles exposed to sunlight for 6 hours.
+
+**5. Combined methods**
+
+Flocculant + chlorine sachets (for turbid water); alum settling followed by chlorination.
+
+**6. Special (Bangladesh)**
+
+Household arsenic removal filters (e.g., SONO), pond sand filters.
+
+**Safe storage**
+
+Narrow-mouthed, covered container; pour or use a long-handled ladle.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.203
+**Slow sand (biological) filter: elements**
+
+| Element | Description |
+|---|---|
+| **1. Supernatant (raw) water** | Depth 1–1.5 m above the sand; provides constant head to drive water through; waiting period 3–12 hours allows sedimentation, oxidation and agglutination of particles |
+| **2. Bed of graded sand** | About 1 m thick; effective size 0.2–0.3 mm; supported by about 0.3 m of graded gravel; the **vital layer** forms on its surface |
+| **3. Under-drainage system** | Porous or perforated pipes at the bottom; collects filtered water and supports the bed |
+| **4. System of filter control valves** | Regulate and maintain a constant rate of filtration (0.1–0.4 m³/m²/hour); venturi meter measures resistance (loss of head) |
+
+**Diagram (vertical section)**
+
+```
+        Raw water inlet →
+  ┌─────────────────────────────────┐
+  │  Supernatant water (1–1.5 m)    │
+  │.................................│ ← Vital layer (schmutzdecke)
+  │  Sand bed (~1 m; 0.2–0.3 mm)    │
+  │  Graded gravel (~0.3 m)         │
+  │═══ Under-drainage pipes ════════│ → Filter control valve → Filtered water
+  └─────────────────────────────────┘
+```
+
+**Mechanism**
+
+Mechanical straining, sedimentation, adsorption, oxidation and **biological action** of the vital layer.
+
+**Cleaning**
+
+When resistance becomes too high (loss of head about 1.3 m), the top 1–2 cm of sand (with vital layer) is scraped off; after repeated scrapings the bed is re-sanded.
+
+**Advantages**
+
+Simple to build and operate; cheap; excellent quality: bacterial removal 99.9–99.99%, E. coli 99–99.9%.
+
+**Disadvantages**
+
+Needs large area; slow; cannot handle very turbid water; affected by algae; not suitable for big cities.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.204
+**Vital layer (biological layer)**
+
+Also called **schmutzdecke**, zoogleal layer, dirty skin or biological layer: a slimy, gelatinous film that forms on the **surface of the sand bed** of a slow sand filter within a few days of starting.
+
+**Formation**
+
+New filter → raw water passes → organisms and particles collect on the sand surface → layer grows in several days → filter is "**ripened**". Until then, filtered water is run to waste.
+
+**Constituents**
+
+1. Thread-like **algae**
+2. **Plankton**
+3. **Diatoms**
+4. **Bacteria**
+5. Other micro-organisms and trapped organic matter
+
+**Role (functions)**
+
+1. The **"heart" of the slow sand filter**.
+2. **Removes organic matter**.
+3. **Holds back bacteria** and destroys them.
+4. **Oxidises ammoniacal nitrogen into nitrates**.
+5. Helps yield **bacteria-free water** (99.9% removal).
+6. Acts as a fine strainer for suspended particles.
+
+**Practical point**
+
+As the layer thickens, resistance rises; it is scraped off during cleaning and re-forms naturally.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.205
+**Rapid sand (mechanical) filtration: steps**
+
+| Step | Process |
+|---|---|
+| 1. **Coagulation** | Alum (5–40 mg/L, by turbidity) added to raw water |
+| 2. **Rapid mixing** | Violent agitation for a few minutes to disperse alum |
+| 3. **Flocculation** | Slow, gentle stirring (~30 minutes) → thick, white flocs of aluminium hydroxide form |
+| 4. **Sedimentation** | Water held in settling tanks for 2–6 hours; flocs carry down impurities and bacteria |
+| 5. **Filtration** | Partly clarified water passes through rapid sand filters: sand bed ~1 m, effective size 0.4–0.7 mm, rate 5–15 m³/m²/hour; remaining floc forms a layer that removes bacteria |
+| 6. **Backwashing** | When resistance (loss of head) becomes high, flow is reversed with water (and compressed air) to clean the sand; takes about 15 minutes |
+| 7. **Chlorination** | Final disinfection before distribution |
+
+Raw water → Alum → Rapid mix → Flocculation → Sedimentation → Rapid sand filter → Chlorination → Supply
+
+**Advantages**
+
+Less space; fast; deals with raw, turbid water; easy and quick cleaning; plant can be compact.
+
+**Disadvantages**
+
+Costly to build and run; needs skilled staff and chemicals; bacterial removal (98–99%) lower than slow sand filter, so chlorination is essential.
+
+**Slow vs rapid sand filter**
+
+| Point | Slow sand | Rapid sand |
+|---|---|---|
+| Space | Large | Small |
+| Rate | 0.1–0.4 m³/m²/hour | 5–15 m³/m²/hour |
+| Sand size | 0.2–0.3 mm | 0.4–0.7 mm |
+| Pre-treatment | Plain sedimentation | Coagulation and flocculation |
+| Main action | Biological (vital layer) | Mechanical |
+| Cleaning | Scraping | Backwashing |
+| Bacterial removal | 99.9–99.99% | 98–99% |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.206
+**Action of chlorine**
+
+Cl₂ + H₂O → HOCl (hypochlorous acid) + HCl; HOCl ⇌ H⁺ + OCl⁻ (hypochlorite ion). **HOCl** is the main germicidal agent (stronger at low pH); chlorine also oxidises iron, manganese, hydrogen sulphide and organic matter, and controls algae.
+
+**Principles of chlorination (Park)**
+
+1. Water must be **clear**, free from turbidity (turbidity shields organisms).
+2. **Chlorine demand** must be estimated: the amount of chlorine needed to destroy bacteria and oxidise organic matter and ammonia; the point where free residual chlorine begins to appear is the **break point**.
+3. **Contact period**: free residual chlorine must be present for **at least 1 hour** to kill bacteria and viruses.
+4. **Minimum free residual chlorine: 0.5 mg/L** for 1 hour.
+5. **Dose = chlorine demand + free residual chlorine**.
+
+**Methods of chlorination (large scale)**
+
+| Method | Features |
+|---|---|
+| **Chlorine gas** | First choice: cheap, quick, efficient, easy to apply; needs special equipment (chlorinator) |
+| **Chloramine** | Chlorine + ammonia; slow action; less taste; longer-lasting residual in distribution |
+| **Perchloron (high-test hypochlorite)** | Calcium hypochlorite, 60–70% available chlorine; used where gas is not available |
+
+**Other**
+
+- **Super-chlorination** followed by dechlorination for heavily polluted water.
+- Testing residual chlorine: **orthotoluidine (OT) test**; OTA test separates free and combined chlorine.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.207
+**Break-point chlorination**
+
+Adding chlorine to water **beyond the break point**, so that a **free residual chlorine** is present after the chlorine demand is fully met.
+
+**What happens as chlorine is added (chlorine demand curve)**
+
+| Stage | Event |
+|---|---|
+| 1 | Chlorine first used up by reducing substances (iron, H₂S, organic matter) → no residual |
+| 2 | Chlorine combines with ammonia → **combined chlorine (chloramines)**; residual rises |
+| 3 | More chlorine **oxidises chloramines** → residual falls |
+| 4 | **Break point**: lowest point; all ammonia and organic matter oxidised |
+| 5 | Beyond break point, **free residual chlorine** rises in direct proportion to chlorine added |
+
+Chlorine added → demand met → combined residual ↑ → destroyed ↓ → **break point** → free residual ↑
+
+**Significance**
+
+1. Free chlorine (HOCl) is far more bactericidal than combined chlorine.
+2. Removes tastes and odours caused by ammonia compounds.
+3. Ensures reliable disinfection with free residual ≥0.5 mg/L after 1 hour.
+4. **Dose = chlorine demand + free residual chlorine**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.208
+**Steps in disinfection of a well (with bleaching powder)**
+
+**1. Find the volume of water in the well**
+
+Measure diameter (d, metres) and depth of water column (h, metres).
+Volume (litres) = (3.14 × d² × h ÷ 4) × 1000
+
+**2. Find the amount of bleaching powder required**
+
+Estimate chlorine demand with **Horrock's apparatus**; as a rule of thumb about **2.5 g of good bleaching powder per 1,000 litres** gives 1 mg/L chlorine with 0.5 mg/L free residual after 1 hour.
+
+**3. Dissolve the bleaching powder**
+
+Make a thin paste in a bucket with a little water; add more water to fill, stir, let settle for ~10 minutes; use the clear supernatant (chlorine solution); discard sediment (lime).
+
+**4. Deliver the chlorine solution into the well**
+
+Lower the bucket deep into the well water; jerk it up and down several times to mix thoroughly.
+
+**5. Contact period**
+
+Allow **1 hour** before water is drawn.
+
+**6. Test for residual chlorine (OT test)**
+
+Free residual chlorine should be **≥0.5 mg/L** after 1 hour; if less, repeat the process.
+
+**Example**
+
+Well diameter 2 m, water depth 5 m:
+Volume = 3.14 × 2² × 5 ÷ 4 × 1000 = **15,700 litres**
+Bleaching powder = 15.7 × 2.5 g ≈ **39 g**
+
+**Note**
+
+Disinfect wells **every week** during epidemics (cholera, floods), preferably at night so contact time is long.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.209
+**Chemicals in excess that make public water supply unacceptable (grounds for rejection)**
+
+**A. Toxic substances (health hazard)**
+
+| Chemical | WHO guideline value (mg/L) | Health effect |
+|---|---|---|
+| **Arsenic** | 0.01 | Arsenicosis, skin, lung, bladder cancers |
+| **Lead** | 0.01 | Neurotoxicity in children, anaemia |
+| **Cadmium** | 0.003 | Kidney damage |
+| **Mercury** (inorganic) | 0.006 | Kidney and nervous system damage |
+| **Chromium** | 0.05 | Carcinogen (Cr VI) |
+| **Selenium** | 0.04 | Hair and nail loss, neuropathy |
+| **Cyanide** | — | Acute poisoning |
+| **Barium**, **antimony**, **nickel**, **uranium** | Low guideline values | Various organ toxicity |
+
+**B. Chemicals affecting health in excess**
+
+| Chemical | WHO guideline value (mg/L) | Effect |
+|---|---|---|
+| **Fluoride** | 1.5 | Dental and skeletal fluorosis |
+| **Nitrate** (as NO₃⁻) | 50 | Methaemoglobinaemia (blue baby) |
+| **Nitrite** | 3 | Methaemoglobinaemia |
+| Boron, manganese | Guideline values set | Toxicity |
+| Pesticides, organic chemicals (benzene, vinyl chloride) | Very low values | Cancers, organ toxicity |
+
+**C. Substances affecting acceptability (aesthetic)**
+
+Iron, manganese, high hardness, chloride, sulphate, total dissolved solids, zinc, copper, hydrogen sulphide; colour, taste, odour, turbidity.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO, Guidelines for Drinking-water Quality (4th ed.).
+
+## DU.210
+**Microbiological parameters of drinking water (WHO Guidelines for Drinking-water Quality)**
+
+| Water | Parameter | Guideline |
+|---|---|---|
+| **All water directly intended for drinking** | ***E. coli*** or thermotolerant coliform bacteria | **Not detectable in any 100 ml sample** |
+| **Treated water entering the distribution system** | *E. coli* or thermotolerant coliforms | Not detectable in any 100 ml sample |
+| **Treated water in the distribution system** | *E. coli* or thermotolerant coliforms | Not detectable in any 100 ml sample |
+
+**Supporting criteria**
+
+1. **Total coliforms**: should not be detectable in treated water entering distribution; their presence indicates inadequate treatment or post-treatment contamination.
+2. **No pathogenic organisms** (bacteria, viruses, protozoa, helminths).
+3. **Turbidity** below 1 NTU (ideally lower) for effective disinfection.
+4. **Free residual chlorine**: ≥0.5 mg/L after at least 30 minutes' contact (pH <8); ≥0.2 mg/L at the point of delivery.
+5. Regular **sanitary inspection** and monitoring (Water Safety Plans).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO, Guidelines for Drinking-water Quality (4th ed.).
+
+## DU.211
+**Hardness of water**
+
+The **soap-destroying power** of water; caused mainly by dissolved **calcium and magnesium** salts (bicarbonates, sulphates, chlorides, nitrates). Hard water needs more soap to lather.
+
+**Types**
+
+| Type | Caused by | Removed by boiling? |
+|---|---|---|
+| **Temporary (carbonate) hardness** | Bicarbonates of Ca and Mg | Yes |
+| **Permanent (non-carbonate) hardness** | Sulphates, chlorides, nitrates of Ca and Mg | No |
+
+**Classification (Park)**
+
+| Classification | Level of hardness (mEq/L) |
+|---|---|
+| Soft water | <1 (<50 mg/L as CaCO₃) |
+| Moderately hard | 1–3 (50–150 mg/L) |
+| Hard water | 3–6 (150–300 mg/L) |
+| Very hard | >6 (>300 mg/L) |
+
+(1 mEq/L = 50 mg/L CaCO₃.) Desirable level: 1–3 mEq/L.
+
+**Disadvantages of hard water**
+
+1. More **soap** consumption.
+2. **Scale** in boilers, kettles, pipes → fuel waste, blockage, boiler explosion risk.
+3. Food (pulses, meat) cooks poorly.
+4. Fabrics wear out faster.
+5. Unpleasant taste when very hard.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.212
+**Removal of hardness**
+
+**A. Temporary hardness**
+
+| Method | Reaction / description |
+|---|---|
+| **1. Boiling** | Ca(HCO₃)₂ → CaCO₃↓ + H₂O + CO₂↑ (calcium carbonate precipitates) |
+| **2. Addition of lime (Clark's method)** | Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃↓ + 2H₂O; lime removes CO₂ and precipitates carbonate; used on a large scale |
+
+**B. Permanent hardness**
+
+| Method | Reaction / description |
+|---|---|
+| **1. Addition of sodium carbonate (washing soda)** | CaSO₄ + Na₂CO₃ → CaCO₃↓ + Na₂SO₄ (also removes temporary hardness) |
+| **2. Base exchange process (permutit / zeolite)** | Water passed through sodium permutit: Na₂-Z + Ca²⁺ / Mg²⁺ → Ca-Z / Mg-Z + 2Na⁺; removes both types (can give zero hardness); permutit regenerated with strong brine (NaCl) |
+
+**C. Modern methods**
+
+Ion-exchange resins (demineralisation); reverse osmosis; nanofiltration.
+
+**Advantages of softening**
+
+Saves soap and fuel; prevents scaling in pipes and boilers; better cooking and washing.
+
+**Note**
+
+Base exchange adds sodium: not ideal for people on salt-restricted diets.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.213
+**Arsenicosis**
+
+A chronic health condition caused by prolonged ingestion (usually ≥6 months) of arsenic above the safe level, usually shown by **characteristic skin lesions**, with or without involvement of internal organs and malignancies (WHO).
+
+**Source in Bangladesh**
+
+Naturally occurring arsenic in **groundwater** drawn by shallow tube wells; first detected in Bangladesh in 1993 (Chapai Nawabganj). WHO guideline value: **0.01 mg/L (10 µg/L)**.
+
+**Characteristic skin manifestations**
+
+| Lesion | Description |
+|---|---|
+| **Melanosis** | Diffuse or spotted ("raindrop") dark pigmentation, mainly on trunk and limbs |
+| **Leucomelanosis** | Mixed white (depigmented) and dark spots |
+| **Keratosis** | Thickening and nodules of **palms and soles** (hyperkeratosis) |
+| Later | Bowen's disease, squamous and basal cell carcinoma of skin |
+
+**Stages**
+
+Pre-clinical (no symptoms; arsenic in urine, hair, nails) → Clinical (skin lesions) → Complications (internal organ disease, cancers)
+
+**Three important health effects (beyond skin)**
+
+1. **Cancers**: skin, lung, urinary bladder, kidney, liver.
+2. **Cardiovascular**: hypertension, peripheral vascular disease (blackfoot disease, gangrene).
+3. **Others**: chronic lung disease, peripheral neuropathy, diabetes, liver enlargement, adverse pregnancy outcomes, impaired child development.
+
+**Diagnosis**
+
+History of tube-well water use; skin lesions; arsenic in hair, nails, urine; water testing.
+
+**Management**
+
+Stop exposure (arsenic-safe water: most important); good nutrition; keratolytic ointment (salicylic acid) for keratosis; treat complications and cancers; screen family members.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Occupational Health).
+
+## DU.214
+**Provision of safe water in an arsenic-affected community**
+
+**A. Identify safe and unsafe sources**
+
+1. **Test every tube well** (field kits / laboratory).
+2. **Mark** tube wells: **red** = unsafe (above standard), **green** = safe.
+3. Encourage **well-switching** to nearby green (safe) wells.
+
+**B. Alternative safe water options**
+
+| Option | Description |
+|---|---|
+| **Deep tube wells** | Tap deeper, usually arsenic-free aquifers (below the first impervious layer) |
+| **Rainwater harvesting** | Collect roof rainwater in clean tanks; arsenic-free |
+| **Pond sand filter (PSF)** | Pond water filtered through a sand filter for community use |
+| **Dug (ring) wells** | Shallow, well-aerated; usually low arsenic; need protection and disinfection |
+| **Piped water supply** | Treated surface or deep groundwater supplied through pipes |
+| **Arsenic removal technologies** | Household filters (e.g., SONO, three-pitcher); community arsenic-iron removal plants |
+| **Treated surface water** | River or pond water with filtration and chlorination |
+
+**C. Supporting measures**
+
+1. Health education on arsenic risk and use of safe sources.
+2. Community participation in maintaining shared safe sources.
+3. Screening and management of arsenicosis patients.
+4. Nutrition support; no stigma for patients.
+5. Regular water-quality monitoring; ban on installing new shallow wells in contaminated areas.
+
+**Two community-level preventive measures (short answer)**
+
+1. Install **deep tube wells** / piped supply.
+2. **Test and mark** all tube wells and switch to safe (green) wells.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.215
+**Daily water requirement**
+
+| Use | Requirement (per person per day) |
+|---|---|
+| **Physiological (drinking)** | About 2–3 litres (more in hot climate and heavy work) |
+| **Basic access (WHO)** | At least **20 litres** for drinking, cooking and basic hygiene |
+| **All domestic needs (UN / WHO)** | **50–100 litres** |
+| **Urban: all purposes (Park)** | **150–200 litres** (drinking, cooking, bathing, washing, flushing, plus public, trade and industrial uses) |
+| **Rural (Park; Indian norm)** | About **40 litres** for domestic needs |
+
+**Breakdown of domestic use (example)**
+
+Drinking and cooking; bathing; washing clothes and utensils; flushing latrines; house cleaning; animals (rural).
+
+**Factors affecting requirement**
+
+Climate; standard of living; habits; type of sanitation (flush vs pit); industry and trade; cost and availability; leakage and waste.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO / UN, right to water.
