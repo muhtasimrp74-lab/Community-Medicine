@@ -12900,3 +12900,879 @@ Incomplete evacuation, bleeding, infection, perforation (rare).
 4. Shows need for **better insertion skills, counselling and follow-up** → opportunity to improve quality of services.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.482
+**Classification of foods by predominant function (Park)**
+
+| Group | Foods | Main nutrients |
+|---|---|---|
+| **1. Energy-yielding foods** | Cereals (rice, wheat), roots and tubers (potato), dried fruits, **sugars and fats/oils** | Carbohydrate, fat |
+| **2. Body-building foods** | **Milk, meat, fish, poultry, eggs**; **pulses**, groundnuts, oilseeds | Protein |
+| **3. Protective foods** | **Vegetables, fruits** (green leafy, yellow-orange), milk | Vitamins, minerals |
+
+**Other classifications**
+
+| Basis | Groups |
+|---|---|
+| Origin | Animal / plant foods |
+| Chemical composition | Proteins, fats, carbohydrates, vitamins, minerals |
+| Nutritive value | Cereals and millets; pulses; vegetables; nuts and oilseeds; fruits; animal foods; fats and oils; sugar and jaggery; condiments and spices; miscellaneous |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.483
+**Dietary goals (WHO; Park)**
+
+1. **Energy balance**: maintain healthy body weight (BMI 18.5–24.9); reduce intake if overweight; regular physical activity.
+2. **Total fat**: 15–30% of total energy.
+3. **Saturated fat** <10% of energy; **trans fat** <1%; replace with unsaturated oils.
+4. **Cholesterol** <300 mg/day.
+5. **Free sugars** <10% of energy (ideally <5%).
+6. **Salt** <5 g/day (sodium <2 g); use **iodised** salt.
+7. **Fruits and vegetables** ≥400 g/day (5 portions).
+8. **Complex carbohydrates and dietary fibre**: whole grains, pulses; fibre ≥25 g/day.
+9. **Protein** 10–15% of energy; mix of plant and animal sources.
+10. **Avoid alcohol** and tobacco.
+
+**Balanced diet**
+
+A diet containing all nutrients in adequate amounts and proper proportion to meet requirements, with a small margin for lean periods.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health); WHO, Healthy diet fact sheet.
+
+## DU.484
+**Dietary fibre**
+
+Non-digestible plant carbohydrates (cellulose, hemicellulose, pectin, gums, lignin); soluble and insoluble.
+
+**Functions / role in health and disease**
+
+1. **Adds bulk** to stool; speeds transit → prevents **constipation**.
+2. Reduces risk of **diverticular disease, haemorrhoids, appendicitis**.
+3. Lower risk of **colorectal cancer** (dilutes and removes carcinogens; short-chain fatty acids).
+4. **Lowers blood cholesterol** (soluble fibre binds bile acids) → less CHD.
+5. **Slows glucose absorption** → better glycaemic control; less type 2 diabetes.
+6. **Satiety** → weight control, prevents obesity.
+7. **Prebiotic**: feeds healthy gut flora.
+8. May lower blood pressure.
+
+**Sources**: whole grains, pulses, vegetables, fruits, nuts; recommended ≥25 g/day.
+
+**Excess**: may reduce absorption of iron, zinc, calcium (phytates); flatulence.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.485
+**Classification of proteins**
+
+| Basis | Types | Examples |
+|---|---|---|
+| **Source** | Animal / vegetable | Egg, milk, meat, fish / pulses, cereals, nuts |
+| **Nutritive value** | **Complete** (first class: all essential amino acids) | Egg, milk, meat, fish |
+| | **Partially complete** | Cereal proteins (low lysine), pulse proteins (low methionine) |
+| | **Incomplete** | Gelatin, zein (maize) |
+| **Chemical composition** | **Simple** | Albumins, globulins, glutelins, prolamines, histones, scleroproteins (keratin, collagen) |
+| | **Conjugated** | Nucleoproteins, glycoproteins, lipoproteins, chromoproteins (haemoglobin), phosphoproteins (casein), metalloproteins |
+| | **Derived** | Peptones, peptides (from protein breakdown) |
+| **Shape** | Fibrous / globular | Collagen, keratin / albumin, haemoglobin |
+| **Function** | Structural, enzymes, hormones, transport, defence, contractile | Collagen, amylase, insulin, haemoglobin, antibodies, actin |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.486
+**Functions of protein**
+
+1. **Body building**: growth and formation of new tissues (childhood, pregnancy, lactation).
+2. **Repair and maintenance** of tissues (wound healing, cell turnover).
+3. **Enzymes** (digestive and metabolic) and **hormones** (insulin, growth hormone).
+4. **Antibodies**: immunity against infection.
+5. **Transport**: haemoglobin (oxygen), albumin, transferrin, lipoproteins.
+6. **Osmotic pressure**: plasma albumin keeps fluid in vessels (low protein → oedema).
+7. **Acid–base buffering**.
+8. **Energy**: 4 kcal/g when energy intake is inadequate.
+9. **Blood clotting** (fibrinogen, clotting factors).
+10. **Muscle contraction** (actin, myosin).
+11. Precursors of neurotransmitters and other compounds (tryptophan → niacin, serotonin).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.487
+**Diseases associated with high fat intake**
+
+1. **Obesity**.
+2. **Coronary heart disease** and atherosclerosis (saturated and trans fats, cholesterol).
+3. **Hypertension**, **stroke**.
+4. **Type 2 diabetes**, metabolic syndrome.
+5. **Cancers**: colon, breast, prostate.
+6. **Gallstones**.
+7. **Non-alcoholic fatty liver disease**.
+8. Dyslipidaemia.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.488
+**Dietary antioxidants: sources and daily requirements (approx., adult)**
+
+| Antioxidant | Sources | Requirement |
+|---|---|---|
+| **Vitamin C** | Amla, guava, citrus, lemon, green leafy vegetables, tomato | ~40 mg/day (more in pregnancy, lactation) |
+| **Vitamin E** | Vegetable oils, nuts, seeds, whole grains, green leafy vegetables | ~8–10 mg/day |
+| **β-carotene / vitamin A** | Carrot, pumpkin, mango, papaya, green leafy vegetables | ~600 µg retinol (or 4,800 µg β-carotene)/day |
+| **Selenium** | Seafood, meat, cereals, nuts | ~40 µg/day |
+| Zinc, copper, manganese | Meat, pulses, nuts, whole grains | Zinc ~10–12 mg/day |
+| Polyphenols, flavonoids, lycopene | Tea, fruits, tomato, onion | No set requirement |
+
+**Role**: neutralise free radicals → protect against CHD, cancers, cataract, ageing.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.489
+**Reference protein**
+
+A protein with an **ideal pattern of essential amino acids**, which is fully used by the body, taken as the **standard** to evaluate the quality of other proteins.
+
+- **Egg protein** (whole egg) is used as the reference protein (human milk protein also used for infants).
+- Its biological value and net protein utilisation are taken as ~100.
+- **Amino acid score** of a food = (mg of the limiting amino acid per g of test protein ÷ mg of the same amino acid per g of reference protein) × 100.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.490
+**Supplementary action of proteins**
+
+When two proteins **deficient in different essential amino acids** are eaten **together**, each supplies the amino acid the other lacks, so the **mixture has a higher biological value** than either alone.
+
+**Examples**
+
+| Combination | How it works |
+|---|---|
+| **Rice + dal** (khichuri, dal-bhat) | Cereals lack **lysine** but have methionine; pulses rich in lysine but low in **methionine** → together nearly complete |
+| Wheat (roti) + dal | Same principle |
+| Cereal + milk | Milk lysine supplements cereal |
+| Cereal + small quantity of fish, egg or meat | Raises quality of whole meal |
+
+**Conditions**
+
+Both proteins must be eaten at the **same meal**; best ratio about 4–5 parts cereal to 1 part pulse.
+
+**Importance**
+
+Allows good-quality protein from cheap vegetarian diets; basis of low-cost weaning foods.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.491
+**Health problems due to protein deficiency**
+
+1. **Protein-energy malnutrition**: **kwashiorkor**, marasmus, marasmic kwashiorkor.
+2. **Growth retardation**: stunting, underweight; delayed puberty.
+3. **Oedema** (hypoalbuminaemia).
+4. **Fatty liver**.
+5. **Anaemia**.
+6. **Impaired immunity** → frequent, severe infections (diarrhoea, pneumonia, TB, measles).
+7. **Muscle wasting**, weakness; low work capacity.
+8. **Skin and hair changes**: flaky-paint dermatosis, sparse, depigmented hair (flag sign).
+9. **Poor wound healing**.
+10. **Impaired mental development** and learning.
+11. In pregnancy: **LBW** babies; poor lactation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.492
+**Assessment of nutritional status (Park)**
+
+| Method | Details (rural women) |
+|---|---|
+| **1. Clinical examination** | Signs of deficiency: pallor (anaemia), goitre, angular stomatitis, Bitot's spots, oedema, hair and skin changes |
+| **2. Anthropometry** | Weight, height, **BMI** (<18.5 = chronic energy deficiency; ≥25 overweight), **MUAC** (low MUAC in pregnant women indicates undernutrition), waist circumference |
+| **3. Biochemical / laboratory tests** | **Haemoglobin** (anaemia: <12 g/dl non-pregnant, <11 g/dl pregnant), serum ferritin, urinary iodine, serum retinol, stool for ova |
+| **4. Functional assessment** | Work capacity, dark adaptation (night blindness) |
+| **5. Dietary assessment** | 24-hour recall, food frequency questionnaire, **women's dietary diversity** (minimum 5 of 10 food groups), household food consumption survey, food security scales |
+| **6. Vital and health statistics** | LBW rate, maternal mortality, anaemia prevalence, IMR |
+| **7. Ecological factors** | Food production and prices, income, cultural practices, sanitation, infections |
+
+**Practical community approach**
+
+Sample survey of households → anthropometry and Hb of women → dietary recall → identify vulnerable groups (pregnant, lactating, adolescent girls) → plan nutrition interventions.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.493
+**Classification of nutritional problems**
+
+| Group | Disorders |
+|---|---|
+| **A. Undernutrition: macronutrient** | Protein-energy malnutrition (stunting, wasting, underweight, kwashiorkor, marasmus); LBW; chronic energy deficiency in women |
+| **B. Undernutrition: micronutrient** | **Iron-deficiency anaemia**; **vitamin A deficiency** (night blindness, xerophthalmia); **iodine deficiency disorders** (goitre, cretinism); zinc deficiency; vitamin D deficiency (rickets, osteomalacia); B-vitamin deficiencies (angular stomatitis, beriberi, pellagra); folate deficiency (neural tube defects); calcium deficiency |
+| **C. Overnutrition** | Obesity, overweight; diet-related NCDs (diabetes, hypertension, CHD) |
+| **D. Toxic / food-related** | Lathyrism, aflatoxicosis, food adulteration, fluorosis |
+
+**Common nutritional problems in Bangladesh**
+
+1. **Stunting** (23.6% of under-5s, 2022), **wasting**, **underweight**.
+2. **Low birth weight**.
+3. **Anaemia** in children, adolescent girls and women.
+4. **Subclinical vitamin A deficiency**; **iodine deficiency** (improved by iodised salt).
+5. **Zinc deficiency**; vitamin D deficiency.
+6. Chronic energy deficiency in women.
+7. **Rising overweight and obesity** in urban areas → **double burden of malnutrition**.
+
+**Among under-5 children**: stunting, wasting, underweight, anaemia, vitamin A and zinc deficiency.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health); Our World in Data, https://ourworldindata.org/profile/health/bangladesh
+
+## DU.494
+**Improving nutritional status of the community**
+
+1. **Nutrition education**: balanced diet, local foods, hygiene.
+2. **Breastfeeding and IYCF** promotion.
+3. **Supplementation**: vitamin A, iron-folic acid, calcium, zinc (diarrhoea).
+4. **Fortification**: iodised salt, vitamin A-fortified edible oil, fortified rice and flour.
+5. **Food security**: homestead gardening, poultry, fish ponds, agricultural diversification.
+6. **Social safety nets** and school feeding.
+7. **WASH**, deworming, immunisation, treatment of infections.
+8. **Growth monitoring**; community management of acute malnutrition.
+9. **Women's empowerment**, education; family planning.
+10. **Food safety** and regulation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.495
+**Diseases due to deficiency and excess of nutrients**
+
+| Nutrient | Deficiency | Excess |
+|---|---|---|
+| Energy / protein | Kwashiorkor, marasmus | Obesity |
+| Vitamin A | Night blindness, xerophthalmia | Hypervitaminosis A (raised ICP, liver damage, teratogenic) |
+| Vitamin D | Rickets, osteomalacia | Hypercalcaemia, kidney stones |
+| Iodine | Goitre, cretinism | Iodine-induced hyperthyroidism |
+| Fluoride | Dental caries | **Fluorosis** (dental, skeletal) |
+| Iron | Anaemia | Haemosiderosis |
+| Sodium | Hyponatraemia | Hypertension |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.496
+**Food fortification**
+
+The **addition of one or more essential nutrients to a food**, whether or not normally contained in it, to **prevent or correct a demonstrated deficiency** in the population or specific groups (WHO/FAO).
+
+**Examples**
+
+| Food vehicle | Nutrient | Target |
+|---|---|---|
+| **Salt** | Iodine (iodised salt); iron + iodine (double-fortified salt) | IDD, anaemia |
+| **Edible oil** | Vitamin A (mandatory in Bangladesh) | Vitamin A deficiency |
+| Wheat flour, rice | Iron, folic acid, zinc, vitamins | Anaemia, neural tube defects |
+| Milk | Vitamins A and D | Rickets, VAD |
+| Micronutrient powders | Multiple micronutrients (home fortification) | Child anaemia |
+| **Biofortification** | Zinc-rich rice, vitamin A-rich crops (bred into plants) | Zinc, VAD |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.497
+**Food additives**
+
+Non-nutritive substances **intentionally added** to food in small amounts to improve its **appearance, flavour, texture or keeping quality**.
+
+**Examples**
+
+| Type | Examples |
+|---|---|
+| **Preservatives** | Sodium benzoate, sorbic acid, sulphites, nitrites; salt, sugar, vinegar |
+| **Colours** | Natural: turmeric, saffron; synthetic permitted: tartrazine, sunset yellow |
+| **Flavouring agents** | Monosodium glutamate (MSG), vanillin |
+| **Antioxidants** | BHA, BHT, vitamin E (prevent rancidity) |
+| Emulsifiers, stabilisers, thickeners | Lecithin, gums, pectin, starch |
+| Sweeteners | Saccharin, aspartame |
+| Acidulants | Citric acid |
+
+**Hazards**: allergy, hyperactivity, possible carcinogenicity when misused; illegal agents (formalin, carbide, textile dyes) are **adulterants**, not additives.
+
+**Control**: permitted lists and limits (Codex Alimentarius; Bangladesh Food Safety Authority).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.498
+**Major minerals vs trace elements**
+
+| Point | Major (macro) minerals | Trace elements |
+|---|---|---|
+| Daily need | **>100 mg/day** | **<100 mg/day** (often micrograms) |
+| Amount in body | Large | Very small |
+| Examples | Calcium, phosphorus, magnesium, sodium, potassium, chloride, sulphur | Iron, iodine, zinc, copper, fluoride, selenium, manganese, chromium, cobalt, molybdenum |
+| Main roles | Bone structure, fluid balance, nerve and muscle function | Enzyme cofactors, hormones (iodine), haemoglobin (iron) |
+| Deficiency examples | Rickets/osteoporosis (Ca), hypokalaemia | Anaemia (Fe), goitre (I), growth failure (Zn) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.499
+**Classification of vitamins**
+
+**A. Fat-soluble**: **A** (retinol), **D** (calciferol), **E** (tocopherol), **K** (phylloquinone).
+
+**B. Water-soluble**
+
+| Vitamin | Name |
+|---|---|
+| B₁ | Thiamine |
+| B₂ | Riboflavin |
+| B₃ | Niacin (nicotinic acid) |
+| B₅ | Pantothenic acid |
+| B₆ | Pyridoxine |
+| B₇ | Biotin |
+| B₉ | Folic acid (folate) |
+| B₁₂ | Cobalamin |
+| C | Ascorbic acid |
+
+**Fat- vs water-soluble**
+
+| Point | Fat-soluble | Water-soluble |
+|---|---|---|
+| Absorption | With dietary fat, bile | Directly |
+| Storage | Stored (liver, fat) | Little storage (except B₁₂) |
+| Excretion | Not easily excreted | In urine |
+| Toxicity | Possible (A, D) | Rare |
+| Deficiency | Develops slowly | Develops quickly |
+| Daily intake | Not essential daily | Needed regularly |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.500
+**Vitamin deficiency disorders**
+
+| Vitamin | Deficiency disorders |
+|---|---|
+| **A** | Night blindness, conjunctival xerosis, Bitot's spots, keratomalacia, follicular hyperkeratosis, more infections and child deaths |
+| **D** | **Rickets** (children), **osteomalacia** (adults), hypocalcaemic tetany |
+| **E** | Haemolytic anaemia in preterm babies, neuropathy |
+| **K** | **Haemorrhagic disease of the newborn**, bleeding |
+| **B₁ (thiamine)** | **Beriberi** (dry, wet, infantile), Wernicke–Korsakoff syndrome |
+| **B₂ (riboflavin)** | **Angular stomatitis**, cheilosis, glossitis, corneal vascularisation |
+| **Niacin** | **Pellagra**: dermatitis, diarrhoea, dementia (death) |
+| **B₆** | Peripheral neuropathy, infant convulsions, anaemia |
+| **Folate** | **Megaloblastic anaemia**; **neural tube defects** in the fetus |
+| **B₁₂** | Megaloblastic (pernicious) anaemia, subacute combined degeneration of the cord |
+| **C** | **Scurvy**: bleeding gums, perifollicular haemorrhages, poor wound healing |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.501
+**Sources of vitamin A**
+
+**A. Preformed vitamin A (retinol): animal sources**
+
+Liver, **fish liver oils** (cod, shark), egg yolk, milk, butter, ghee, cheese, **small fish eaten whole** (mola), **fortified edible oil**.
+
+**B. Provitamin A (β-carotene): plant sources**
+
+1. **Dark green leafy vegetables**: spinach, red amaranth (lal shak), kalmi shak, drumstick leaves, pui shak.
+2. **Yellow-orange vegetables**: carrot, pumpkin, sweet potato.
+3. **Yellow-orange fruits**: ripe **mango**, papaya, jackfruit.
+4. Red palm oil.
+
+**C. Breast milk** (especially colostrum) for infants.
+
+**Requirement**: about 600 µg retinol/day for adults (higher in lactation).
+
+**Note**: carotenes need fat in the meal for absorption; plant sources are cheapest for the poor.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.502
+**Manifestations of vitamin A deficiency**
+
+**A. Ocular (xerophthalmia; WHO classification)**
+
+| Code | Sign |
+|---|---|
+| **XN** | **Night blindness** (earliest symptom) |
+| **X1A** | Conjunctival xerosis |
+| **X1B** | **Bitot's spots** |
+| **X2** | Corneal xerosis |
+| **X3A** | Corneal ulceration / keratomalacia <⅓ of cornea |
+| **X3B** | Corneal ulceration / keratomalacia ≥⅓ of cornea |
+| **XS** | Corneal scar |
+| **XF** | Xerophthalmic fundus |
+
+**B. Extra-ocular**
+
+1. **Increased susceptibility to infections**: diarrhoea, ARI, severe measles.
+2. **Increased child mortality**.
+3. **Follicular hyperkeratosis** (dry, rough "toad skin").
+4. Growth retardation; anaemia.
+5. Keratinisation of respiratory, urinary and gut epithelium.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.503
+**Stages of xerophthalmia (WHO, 1982)**
+
+| Stage | Code | Features |
+|---|---|---|
+| 1 | **XN: Night blindness** | Cannot see in dim light; earliest, reversible |
+| 2 | **X1A: Conjunctival xerosis** | Dry, wrinkled, lustreless bulbar conjunctiva |
+| 3 | **X1B: Bitot's spots** | Triangular, foamy, silvery-white spots on temporal conjunctiva |
+| 4 | **X2: Corneal xerosis** | Dull, hazy, dry cornea |
+| 5 | **X3A: Corneal ulceration / keratomalacia** (<⅓ of corneal surface) | Ulcer, melting of cornea |
+| 6 | **X3B: Corneal ulceration / keratomalacia** (≥⅓ of corneal surface) | Extensive melting; perforation → blindness |
+| Sequelae | **XS: Corneal scar** | Permanent opacity |
+| | **XF: Xerophthalmic fundus** | White retinal spots |
+
+XN → X1 reversible; X2–X3 are emergencies (blinding); X3 lesions cause permanent damage.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.504
+**Prevention and control of nutritional blindness (vitamin A deficiency)**
+
+**A. Short-term: supplementation**
+
+**High-dose vitamin A capsules** (Bangladesh: national vitamin A campaigns, twice a year):
+
+| Age | Dose |
+|---|---|
+| 6–11 months | 100,000 IU once |
+| 12–59 months | 200,000 IU every 6 months |
+
+Also to sick children: measles, persistent diarrhoea, severe malnutrition (as treatment).
+
+**B. Medium-term: fortification**
+
+**Vitamin A-fortified edible oil** (mandatory in Bangladesh); other fortified foods.
+
+**C. Long-term: dietary approach**
+
+1. **Dietary diversification**: dark green leafy vegetables, yellow fruits, small fish, eggs.
+2. **Homestead gardening**; nutrition education.
+3. **Breastfeeding** (give colostrum).
+
+**D. Public health measures**
+
+1. **Measles immunisation**.
+2. Treatment and prevention of **diarrhoea, ARI, worms**.
+3. Treatment of severe malnutrition.
+4. Early detection (night blindness, Bitot's spots) and treatment.
+
+**E. Surveillance**
+
+Monitor coverage of capsules, serum retinol surveys.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.505
+**Management of a 5-year-old boy with night blindness**
+
+**1. Assessment**
+
+History (diet, recent measles, diarrhoea, worms); examine eyes for **Bitot's spots, corneal xerosis, ulcer**; check nutritional status (weight, height, MUAC), anaemia, infections.
+
+**2. Treatment with vitamin A (WHO schedule, age >12 months)**
+
+| Day | Dose |
+|---|---|
+| **Day 1** | 200,000 IU orally |
+| **Day 2** | 200,000 IU |
+| **Day 14** (or at discharge) | 200,000 IU |
+
+(If corneal lesions: same schedule urgently; refer to eye specialist.)
+
+**3. Eye care** (if corneal involvement)
+
+Antibiotic eye ointment; eye pad / protection; avoid pressure on the eye.
+
+**4. Treat associated conditions**
+
+Diarrhoea (ORS, zinc), ARI, measles; **deworming** (albendazole 400 mg); anaemia; malnutrition.
+
+**5. Dietary advice**
+
+Daily green leafy vegetables, yellow-orange fruits (mango, papaya), carrot, pumpkin, small fish, eggs, milk; use oil in cooking.
+
+**6. Follow-up**
+
+Check improvement of night vision (in a few days); ensure regular **6-monthly vitamin A capsules** until 5 years; check siblings; health education of mother.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.506
+**Functions of vitamin D**
+
+1. **Promotes absorption of calcium and phosphorus** from the intestine.
+2. **Mineralisation of bones and teeth**; bone growth and remodelling.
+3. **Maintains serum calcium and phosphate** (with parathyroid hormone): renal reabsorption of calcium, mobilisation from bone.
+4. Normal **muscle function**; prevents tetany.
+5. **Immune modulation**: innate defence (e.g., against TB).
+6. Regulates **cell growth and differentiation**.
+7. Possible role in insulin secretion and cardiovascular health.
+
+**Sources**: sunlight on skin (main), fish liver oils, oily fish, egg yolk, fortified foods.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.507
+**Manifestations of vitamin D deficiency**
+
+**A. Rickets (children)**
+
+1. **Skull**: craniotabes, frontal and parietal bossing, delayed closure of anterior fontanelle.
+2. **Chest**: **rickety rosary** (beading of costochondral junctions), **Harrison's sulcus**, pigeon chest.
+3. **Limbs**: widening of wrists and ankles, **bow legs** (genu varum) or **knock knees** (genu valgum).
+4. Delayed dentition, enamel defects.
+5. Delayed motor milestones, hypotonia, **pot belly**.
+6. Growth retardation; frequent respiratory infections.
+7. X-ray: cupping, fraying of metaphyses.
+
+**B. Osteomalacia (adults, especially women)**
+
+Bone pain and tenderness, **proximal muscle weakness** (waddling gait), pseudo-fractures, fractures; pelvic deformity → obstructed labour.
+
+**C. Others**
+
+Hypocalcaemic **tetany** and convulsions (infants); osteoporosis; increased infections.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.508
+**Thiamine (vitamin B₁) deficiency disorders**
+
+| Disorder | Features |
+|---|---|
+| **Dry beriberi** | Peripheral neuritis: numbness, tingling, muscle wasting, foot drop, difficulty walking |
+| **Wet beriberi** | Oedema, palpitations, high-output **heart failure** |
+| **Infantile beriberi** | Breastfed infants (2–4 months) of thiamine-deficient mothers: aphonia, vomiting, cyanosis, heart failure, sudden death |
+| **Wernicke's encephalopathy** | Ophthalmoplegia, ataxia, confusion (alcoholics) |
+| **Korsakoff's psychosis** | Memory loss, confabulation |
+
+**Causes**: diet of highly polished rice, excessive washing of rice, discarding cooking water, alcoholism.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.509
+**Role of major minerals**
+
+| Mineral | Roles |
+|---|---|
+| **Calcium** | Bones and teeth; muscle contraction; nerve conduction; blood clotting; heart rhythm; enzyme activation |
+| **Phosphorus** | Bones and teeth; ATP (energy); nucleic acids; phospholipids; buffer |
+| **Magnesium** | Cofactor for many enzymes; bone; nerve and muscle function |
+| **Sodium** | Extracellular fluid volume and osmotic pressure; nerve impulses; acid–base balance |
+| **Potassium** | Intracellular fluid; heart rhythm; muscle contraction; nerve function |
+| **Chloride** | Gastric HCl; fluid and acid–base balance |
+| **Sulphur** | Part of amino acids (methionine, cysteine), keratin, insulin |
+
+**Growth**: calcium, phosphorus and magnesium build the skeleton; with protein they support normal growth in children.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.510
+**Preventing nutritional anaemia among teenage working women**
+
+1. **Weekly iron-folic acid supplementation** (e.g., 60 mg iron + 2.8 mg folic acid weekly).
+2. **Dietary improvement**: iron-rich foods (meat, fish, liver, eggs, green leafy vegetables, pulses); vitamin C with meals; avoid tea with meals.
+3. **Fortified foods**: iron-fortified flour, rice; workplace canteen meals.
+4. **Deworming** every 6 months.
+5. **Treat infections** (malaria, TB) and heavy menstrual bleeding.
+6. **Delay marriage and first pregnancy**; birth spacing.
+7. **Screening** (Hb) and treatment of anaemia at the workplace.
+8. **WASH**: safe water, latrines, menstrual hygiene facilities at factories.
+9. **Nutrition education**; adequate wages and rest.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.511
+**Spectrum of iodine deficiency disorders (IDD)**
+
+| Stage of life | Manifestations |
+|---|---|
+| **Fetus** | Abortions, stillbirths, congenital anomalies; **neurological cretinism** (mental deficiency, deaf-mutism, spastic diplegia, squint); **myxoedematous cretinism** (dwarfism, mental deficiency); psychomotor defects; increased perinatal and infant mortality |
+| **Neonate** | Neonatal goitre; neonatal hypothyroidism |
+| **Child and adolescent** | **Goitre**; juvenile hypothyroidism; impaired mental function (low IQ, poor school performance); retarded physical development |
+| **Adult** | Goitre with complications; hypothyroidism; impaired mental function; iodine-induced hyperthyroidism |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.512
+**Detrimental effects of nutritional anaemia**
+
+1. **Fatigue, weakness**, breathlessness; reduced **work capacity** and productivity.
+2. **Children**: impaired **cognitive development**, poor school performance, delayed growth.
+3. **Reduced immunity** → more infections.
+4. **Pregnancy**: higher **maternal mortality** (poor tolerance of PPH, heart failure), **LBW**, preterm birth, perinatal death.
+5. **Heart failure** in severe anaemia.
+6. Poor quality of life; pica.
+7. **Economic loss** to families and nation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.513
+**Prevention of IDD (Park)**
+
+1. **Iodised salt**: universal salt iodisation (Bangladesh law since 1989); adequate iodine at household level.
+2. **Iodised oil** (oral capsules or injections) for high-risk groups in severely deficient areas.
+3. **Monitoring and surveillance**: salt iodine at production, retail and household; **urinary iodine** surveys; goitre surveys; neonatal TSH.
+4. **Manpower training**.
+5. **Mass communication**: use only iodised salt; store salt covered, add after cooking.
+6. Legislation and enforcement (ban non-iodised edible salt).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.514
+**Five uses / functions of zinc**
+
+1. **Growth and development**: cell division, protein and DNA synthesis → prevents stunting.
+2. **Immunity**: T-cell function, gut barrier → fewer infections.
+3. **Treatment of diarrhoea**: reduces duration, severity and recurrence (10 mg/day for <6 months, 20 mg/day for ≥6 months, for 10–14 days with ORS).
+4. **Wound healing** and skin health (acrodermatitis enteropathica).
+5. **Enzyme cofactor** (>300 enzymes: carbonic anhydrase, alcohol dehydrogenase, superoxide dismutase).
+6. Taste and smell; appetite.
+7. **Reproduction**: spermatogenesis, fetal growth.
+
+**Sources**: meat, fish, eggs, pulses, nuts, whole grains.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.515
+**Factors affecting energy requirement**
+
+1. **Age**: higher per kg in infants and children (growth).
+2. **Sex**: men need more than women (more lean mass).
+3. **Body size and composition**: weight, lean body mass.
+4. **Physical activity**: most variable factor (sedentary, moderate, heavy work).
+5. **Basal metabolic rate**.
+6. **Physiological state**: pregnancy, lactation, growth spurts.
+7. **Climate**: more in cold climate.
+8. **Illness**: fever, infection, injury, burns increase needs.
+9. Thermic effect of food.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.516
+**Malnutrition ⇄ infection: a vicious cycle**
+
+**Malnutrition predisposes to infection**
+
+1. Weak **cell-mediated immunity**, low antibodies, complement and phagocyte function.
+2. Damaged **skin and mucosal barriers** (vitamin A, zinc deficiency).
+3. Infections become **more frequent, severe and prolonged** (measles, diarrhoea, TB, pneumonia).
+
+**Infection worsens malnutrition**
+
+1. **Loss of appetite**; food withheld during illness (wrong custom).
+2. **Malabsorption**, diarrhoea, vomiting → nutrient loss.
+3. **Increased metabolic needs** (fever).
+4. **Catabolism**: protein and vitamin A loss (measles precipitates xerophthalmia and kwashiorkor).
+5. Worms → blood loss and anaemia.
+
+**Cycle**
+
+Malnutrition → lowered immunity → infection → anorexia, malabsorption, losses → worse malnutrition → more infection → death
+
+**Implication**
+
+Break the cycle with **feeding during and after illness**, ORS/zinc, vitamin A, immunisation, deworming, WASH, growth monitoring.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.517
+**Protein-energy malnutrition (PEM)**
+
+A range of conditions from **inadequate intake or utilisation of protein and energy**, often with infections; mainly in children under 5. Includes **stunting, wasting, underweight, kwashiorkor, marasmus, marasmic kwashiorkor**.
+
+**Prevention and control (Park, by levels)**
+
+| Level | Measures |
+|---|---|
+| **Health promotion** | Nutrition of pregnant and lactating women; **breastfeeding**; low-cost **complementary foods**; nutrition education; **family planning and spacing**; improving family environment (income, WASH) |
+| **Specific protection** | Diet adequate in protein and energy; **immunisation**; **fortification**; vitamin A |
+| **Early diagnosis and treatment** | **Growth monitoring**; early detection of growth faltering; treatment of diarrhoea (ORS, zinc), ARI; **deworming** |
+| **Rehabilitation** | Nutritional rehabilitation; hospital treatment of severe acute malnutrition (SAM units, F-75/F-100, RUTF); follow-up |
+
+**In Bangladesh**
+
+National Nutrition Services; IYCF promotion; community management of acute malnutrition; SAM corners in hospitals; vitamin A campaigns; social safety nets; school feeding; homestead food production; women's education and empowerment.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.518
+**Classification of PEM**
+
+| Classification | Basis | Grades |
+|---|---|---|
+| **Gomez** | Weight-for-age (% of reference median) | Normal >90%; Grade I (mild) 75–90%; Grade II (moderate) 60–75%; Grade III (severe) <60% |
+| **Wellcome** | Weight-for-age + oedema | 60–80% without oedema: underweight; 60–80% with oedema: **kwashiorkor**; <60% without oedema: **marasmus**; <60% with oedema: **marasmic kwashiorkor** |
+| **Waterlow** | Weight-for-height (wasting) and height-for-age (stunting) | Normal; wasted; stunted; wasted and stunted |
+| **WHO (z-scores)** | Weight-for-height, height-for-age, weight-for-age, MUAC, oedema | **Moderate**: −2 to −3 SD (MUAC 115–125 mm); **Severe (SAM)**: < −3 SD weight-for-height, or **MUAC <115 mm**, or **bilateral pitting oedema** |
+| IAP | Weight-for-age | Grade I 71–80%; II 61–70%; III 51–60%; IV ≤50% |
+
+**Clinical classification**: kwashiorkor, marasmus, marasmic kwashiorkor.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.519
+**Gomez classification (weight-for-age, % of reference median)**
+
+| Grade | Weight-for-age |
+|---|---|
+| Normal | >90% |
+| I (mild) | 75–90% |
+| II (moderate) | 60–75% |
+| III (severe) | <60% |
+
+**Advantages**
+
+Simple; uses only weight and age; good for community prevalence; correlates with risk of death.
+
+**Disadvantages**
+
+1. Needs **accurate age**.
+2. Does not separate **acute (wasting)** from **chronic (stunting)** malnutrition.
+3. Ignores **oedema**: kwashiorkor may appear normal.
+4. Arbitrary cut-offs; depends on reference used.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.520
+**Causes of PEM**
+
+1. **Inadequate dietary intake**: poverty, food insecurity, large family.
+2. **Faulty feeding**: no exclusive breastfeeding, late or poor complementary feeding, dilute feeds.
+3. **Infections**: diarrhoea, measles, ARI, worms, TB.
+4. **Low birth weight**.
+5. **Short birth spacing**, maternal malnutrition.
+6. **Ignorance**, food taboos, maternal illiteracy.
+7. **Poor sanitation** and unsafe water.
+8. Social factors: gender discrimination, maternal deprivation, broken families, natural disasters.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.521
+**Kwashiorkor vs marasmus**
+
+| Feature | Kwashiorkor | Marasmus |
+|---|---|---|
+| Main deficiency | **Protein** (relatively more) | **Energy** (and protein) |
+| Usual age | 1–3 years (after weaning) | First year of life |
+| Onset | Acute (often after infection) | Gradual |
+| **Oedema** | **Present** (pitting, feet up) | **Absent** |
+| Weight-for-age | 60–80% | <60% |
+| Muscle wasting | Present, masked by oedema | **Severe** ("skin and bones") |
+| Subcutaneous fat | Partly preserved | **Absent** |
+| Face | Moon face | "Old man" (monkey) face |
+| Mental state | **Apathetic, irritable**, miserable | Alert, hungry |
+| Appetite | Poor | Good |
+| Skin | **Flaky-paint dermatosis** | Dry, wrinkled, loose |
+| Hair | Sparse, thin, depigmented (**flag sign**) | Usually normal |
+| Liver | **Fatty, enlarged** | Normal |
+| Serum albumin | Very low | Normal or slightly low |
+| Prognosis | Worse | Better if treated |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.522
+**Lathyrism**
+
+Spastic paralysis of the lower limbs from eating large amounts of **khesari dal** (*Lathyrus sativus*) containing the neurotoxin **BOAA** (β-oxalyl amino alanine) over months.
+
+**Prevention and control (Park)**
+
+1. **Vitamin C prophylaxis** in endemic areas.
+2. **Banning the crop** (sale of khesari dal) and enforcing food laws.
+3. **Removal of toxin**:
+   - **Steeping**: soak dal in hot water for 2 hours, discard water.
+   - **Parboiling**.
+4. **Genetic approach**: grow low-toxin strains.
+5. **Education**: limit khesari dal in diet; mix with other pulses and cereals.
+6. Improve food security so the poor need not depend on khesari dal in hard times.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.523
+**Food adulteration**
+
+Lowering the quality of food by **adding inferior, harmful or unwanted substances**, **removing valuable constituents**, or **substituting** cheaper materials, so that the food is not of the nature, substance or quality claimed or is injurious to health.
+
+**Common adulterants (Bangladesh)**
+
+| Food | Adulterant |
+|---|---|
+| Fish, fruits, vegetables | **Formalin** |
+| Fruits (ripening) | **Calcium carbide** |
+| Milk | Water, starch, detergent |
+| Spice powders | Brick dust, textile dyes |
+| Sweets, snacks | Non-permitted colours |
+| Puffed rice (muri) | Urea, hydrose |
+| Edible oil | Cheaper oils, argemone oil |
+| Pulses | Khesari dal, dyes |
+
+**Health hazards**
+
+Gastroenteritis, liver and kidney damage, cancers, neurological damage, epidemic dropsy (argemone oil), allergies.
+
+**Control**
+
+Food Safety Act 2013; **Bangladesh Food Safety Authority**; BSTI standards; inspection and testing; mobile courts; consumer awareness.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.524
+**Milk-borne diseases**
+
+**A. From infected animals**
+
+1. **Tuberculosis** (bovine, *M. bovis*)
+2. **Brucellosis**
+3. **Q fever**
+4. Salmonellosis
+5. Streptococcal and staphylococcal infections (mastitis)
+6. Anthrax, leptospirosis, foot-and-mouth disease (rare)
+
+**B. From human handlers or contaminated water and utensils**
+
+1. **Typhoid** and paratyphoid
+2. Cholera
+3. Shigellosis
+4. Diphtheria, streptococcal sore throat (scarlet fever)
+5. Hepatitis A, *E. coli* infections, staphylococcal food poisoning
+
+**Five (short answer)**: tuberculosis, brucellosis, typhoid, salmonellosis, Q fever.
+
+**Prevention**: healthy animals; clean milking; **pasteurisation** or boiling; hygienic handling and storage.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.525
+**Food poisoning**
+
+Acute gastroenteritis caused by eating food contaminated with microorganisms, their toxins or chemicals.
+
+**Epidemiological features (Park)**
+
+1. **History of ingestion of a common food**.
+2. **Large number of cases**.
+3. **Sudden, simultaneous onset** (short incubation: hours).
+4. **Similar symptoms**: nausea, vomiting, abdominal pain, diarrhoea.
+5. Cases **confined to those who ate the food** (clustering).
+6. **No secondary cases** (not person-to-person).
+
+**Types**
+
+| Agent | Incubation | Features / food |
+|---|---|---|
+| *Staphylococcus aureus* (toxin) | 1–6 hours | Severe vomiting; milk products, meat handled by carriers |
+| *Bacillus cereus* | 1–6 h (emetic) / 6–16 h (diarrhoeal) | Fried rice |
+| *Clostridium perfringens* | 8–24 hours | Diarrhoea; reheated meat |
+| *Salmonella* | 12–48 hours | Fever, diarrhoea; eggs, poultry |
+| *Clostridium botulinum* | 12–36 hours | Paralysis, diplopia; canned food |
+| *Vibrio parahaemolyticus* | ~12–24 hours | Seafood |
+| Chemical | Minutes–hours | Pesticides, heavy metals |
+
+**Investigation**
+
+Line list of cases; food-specific attack rates; samples of food, vomit, stool; inspection of kitchen and food handlers.
+
+**Prevention**
+
+Food hygiene; cooking thoroughly; refrigeration; healthy food handlers; safe water.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
