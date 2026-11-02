@@ -7927,3 +7927,729 @@ Malnutrition and anaemia, worm infestation, dental caries, skin infections, eye 
 Trained teachers in first aid; first-aid box; emergency contact numbers; referral to nearest health facility; safety drills.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (School Health Services).
+
+## DU.273
+**Definition (Joint ILO/WHO Committee on Occupational Health, 1950; revised 1995)**
+
+Occupational health aims at:
+1. **Promotion and maintenance** of the highest degree of physical, mental and social well-being of workers in all occupations;
+2. **Prevention** of departures from health caused by working conditions;
+3. **Protection** of workers from risks resulting from factors adverse to health;
+4. **Placing and maintaining** the worker in an occupational environment adapted to his physiological and psychological capabilities;
+in short, **the adaptation of work to man and of each man to his job**.
+
+**Scope**
+
+1. Prevention of occupational diseases and injuries.
+2. Healthful and safe work environment.
+3. Health of the worker as a whole (including non-occupational illness).
+4. Ergonomics, welfare, rehabilitation and compensation.
+
+**Related terms**
+
+- **Industrial health**: occupational health in industries.
+- **Occupational disease**: disease caused by exposure at work (silicosis, lead poisoning, NIHL).
+- **Work-related disease**: disease to which work contributes (hypertension, backache, stress).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.274
+**Definition**
+
+**Ergonomics**: the science of **"fitting the job to the worker"**: designing tasks, tools, equipment, workstations and the work environment to match human physical and mental capabilities and limitations (from Greek *ergon* = work, *nomos* = law).
+
+**Objectives**
+
+1. **Fit the job to the worker** (and the worker to the job).
+2. **Improve health and safety**: prevent accidents, musculoskeletal disorders (backache, neck pain, repetitive strain injury), eye strain.
+3. **Reduce fatigue** and physical and mental stress.
+4. **Increase efficiency and productivity**; reduce errors.
+5. **Improve comfort and job satisfaction**; reduce absenteeism and turnover.
+6. **Accommodate** older, disabled and female workers.
+
+**Applications**
+
+Height-adjustable chairs and tables; correct sewing-machine height for garment workers; lifting aids; proper lighting; job rotation and rest breaks; computer workstation design; tool handles suited to hand size.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.275
+**Objectives of occupational health services (ILO/WHO)**
+
+1. **Protect workers** against health hazards arising from work or working conditions.
+2. **Adapt work to workers** (and workers to suitable jobs) according to their physical and mental capacity.
+3. Contribute to the **physical and mental well-being** of workers.
+4. **Prevent occupational diseases and accidents**; early detection.
+5. Provide **treatment, first aid and emergency care**.
+6. **Rehabilitate** injured or ill workers; return to suitable work.
+7. **Health education** and counselling.
+8. Advise management on a **safe and healthy environment**.
+9. Maintain **records** for planning, evaluation and compensation.
+
+**Components (services)**
+
+1. Pre-placement medical examination.
+2. Periodic medical examination.
+3. Medical and health care services (first aid, treatment).
+4. Notification of occupational diseases.
+5. Supervision of the working environment.
+6. Maintenance and analysis of records.
+7. Health education and counselling.
+
+**Three services commonly available**
+
+Pre-placement examination; periodic medical examination; first aid and emergency treatment.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.276
+**Occupational diseases caused by physical agents (Park)**
+
+| Physical agent | Diseases / conditions | Workers at risk |
+|---|---|---|
+| **Heat** | Heat hyperpyrexia (heat stroke), heat exhaustion, heat syncope, heat cramps, burns, prickly heat | Furnace, foundry, glass, steel, bakery, boiler workers |
+| **Cold** | Chilblains, erythrocyanosis, immersion (trench) foot, frostbite | Cold storage, fishermen |
+| **Light** | Occupational cataract (infrared), miner's nystagmus (poor light), eye strain, headache, photokeratitis (UV in welding) | Glass-blowers, welders, miners |
+| **Pressure** | Caisson disease (decompression sickness), air embolism, blast injury | Divers, tunnel and caisson workers |
+| **Noise** | Occupational deafness (NIHL), tinnitus, stress, hypertension | Textile, metal, construction workers |
+| **Radiation** | Cancer, leukaemia, aplastic anaemia, sterility, cataract, genetic effects | Radiology, nuclear workers |
+| **Mechanical factors** | Injuries, accidents, repetitive strain injury | All industries |
+| **Electricity** | Burns, electric shock | Electricians |
+| **Vibration** | Vibration white finger (Raynaud's), bone and joint damage | Pneumatic drill users |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.277
+**Classification of occupational hazards (Park)**
+
+| Hazard | Examples |
+|---|---|
+| **1. Physical** | Heat, cold, light, noise, vibration, ultraviolet and ionising radiation, pressure, electricity |
+| **2. Chemical** | (a) **Local action** on skin: dermatitis, eczema, ulcers, cancer (b) **Inhalation**: dusts (silica, coal, asbestos, cotton), gases (simple and chemical asphyxiants, irritant gases), metals (lead, mercury, cadmium, manganese) (c) **Ingestion**: lead, mercury, arsenic, chromium, phosphorus |
+| **3. Biological** | Brucellosis, leptospirosis, anthrax, tetanus, hydatidosis, psittacosis, Q fever, fungal infections, TB, hepatitis B and C, HIV (health workers) |
+| **4. Mechanical** | Accidents and injuries from machines, falls, moving parts |
+| **5. Psychosocial** | Frustration, lack of job satisfaction, insecurity, poor human relations, emotional tension → anxiety, depression, alcoholism, drug abuse, absenteeism, psychosomatic illness (headache, backache, peptic ulcer, hypertension, heart disease) |
+
+**Also: ergonomic hazards**
+
+Poor posture, repetitive movements, heavy lifting → musculoskeletal disorders.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.278
+**Biological hazards in industry**
+
+| Disease | Source / industry |
+|---|---|
+| **Anthrax** | Wool, hair, hide and leather industries, tanneries, bone mills |
+| **Brucellosis** | Dairy, abattoirs, meat processing, veterinary work |
+| **Leptospirosis** | Sewer workers, abattoirs, rice fields, mines (rat urine) |
+| **Tetanus** | Injuries in construction, agriculture, metal work |
+| **Q fever** | Abattoirs, dairy, animal handling |
+| **Psittacosis** | Poultry and bird processing |
+| **Hydatid disease** | Butchers, abattoirs (dogs, sheep) |
+| **Glanders, erysipeloid** | Horse handlers; fish and meat handlers |
+| **Fungal infections** (sporotrichosis, ringworm, candidiasis) | Wet work, gardening, food industry |
+| **Tuberculosis** | Crowded factories, health care, silica-exposed workers |
+| **Hepatitis B, C, HIV** | Health care, laboratory, waste handlers (needle-stick) |
+| **Rabies** | Veterinary, animal handlers |
+| **Avian influenza, Nipah** | Poultry farms; date-palm sap collectors |
+| Allergic and toxic reactions to moulds | Grain and hay handling (farmer's lung), bagasse |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.279
+**Health problems due to (indiscriminate) industrialisation (Park)**
+
+| Problem | Details |
+|---|---|
+| **1. Environmental sanitation** | Water pollution by industrial effluents; air pollution; soil pollution; noise; poor waste disposal |
+| **2. Housing** | Overcrowding, slums and squatter settlements around factories |
+| **3. Communicable diseases** | TB, respiratory infections, diarrhoea, typhoid, STIs and HIV (migrant single workers) |
+| **4. Food sanitation** | Contaminated street food, adulteration, malnutrition |
+| **5. Mental health** | Stress, anxiety, depression, psychosomatic disorders, loss of family support |
+| **6. Accidents** | Industrial accidents, fires, building collapse, road traffic accidents |
+| **7. Social problems** | Alcoholism, drug addiction, gambling, crime, prostitution, juvenile delinquency, family breakdown |
+| **8. Occupational diseases** | Pneumoconioses, lead poisoning, chemical poisoning, NIHL, occupational cancers |
+| **9. Morbidity and mortality** | Increased; vulnerable groups: women, children (child labour), migrants |
+
+**Bangladesh examples**
+
+Buriganga and Turag river pollution; tannery and dyeing effluents; brick-kiln smoke; Rana Plaza collapse (2013) and Tazreen factory fire (2012); ship-breaking hazards in Chattogram; urban slums around garment belts.
+
+**Prevention**
+
+Planned industrialisation; zoning; effluent treatment; enforcement of environmental and labour laws; workers' housing and welfare; occupational health services.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.280
+**Occupational hazards among industrial / garment workers**
+
+| Hazard | Examples in garment and other industries |
+|---|---|
+| **Physical** | Heat and poor ventilation; noise (sewing and cutting machines); poor lighting → eye strain; electrical hazards; **fire** (locked exits, overcrowding) |
+| **Chemical** | Dyes, bleaches, solvents, formaldehyde → dermatitis, asthma, headache; cotton and fabric dust |
+| **Biological** | TB and respiratory infections (crowding); diarrhoea (unsafe water); UTIs (few toilet breaks) |
+| **Mechanical** | Needle and cutting injuries; machine accidents; **building collapse** (Rana Plaza, 2013); stampedes |
+| **Ergonomic** | Prolonged sitting or standing, repetitive movements → backache, neck and shoulder pain, carpal tunnel syndrome, varicose veins |
+| **Dust** | Cotton dust → **byssinosis**, chronic bronchitis (spinning, weaving) |
+| **Psychosocial** | Long hours, forced overtime, low wages, production pressure, job insecurity, harassment, stress, depression |
+| **Nutritional and reproductive** | Anaemia, malnutrition, menstrual problems, adverse pregnancy outcomes |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.281
+**Occupational hazards for health-care providers**
+
+| Hazard | Examples |
+|---|---|
+| **Biological** | **Needle-stick and sharps injuries** → hepatitis B, hepatitis C, HIV; **TB** (including MDR-TB); COVID-19, influenza, measles, varicella; diarrhoeal infections; scabies |
+| **Chemical** | Disinfectants and sterilants (glutaraldehyde, formaldehyde, chlorine) → dermatitis, asthma; **latex allergy**; anaesthetic gases; cytotoxic drugs; mercury |
+| **Physical** | Ionising radiation (X-ray, fluoroscopy, nuclear medicine); lasers; noise; electrical hazards; slips and falls |
+| **Ergonomic** | Back injury from lifting and moving patients; prolonged standing in surgery; neck strain |
+| **Psychosocial** | Stress, **burnout**, long hours and **night shifts**, sleep deprivation, depression, substance use, suicide; **violence against doctors and nurses**; litigation |
+| **Mechanical** | Cuts from scalpels and broken glass; injuries from equipment |
+
+**Prevention**
+
+Standard precautions; **hepatitis B vaccination**; safe sharps disposal (no recapping); PPE; post-exposure prophylaxis; TB infection control; radiation protection; safe patient handling; reasonable duty hours; security in hospitals; counselling and support.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.282
+**Psychological hazards of female garment workers**
+
+**Causes (stressors)**
+
+| Stressor | Examples |
+|---|---|
+| Work pressure | High production targets, long hours, compulsory overtime, few breaks |
+| Job insecurity | Fear of dismissal, irregular wages, factory closures |
+| Low wages | Financial strain; poor housing and food |
+| Harassment | Verbal abuse, sexual harassment, gender-based violence at work and while commuting |
+| Double burden | Factory work + household work + child care |
+| Lack of maternity protection | Fear of losing job if pregnant; poor child-care facilities |
+| Unsafe workplace | Fear of fire and building collapse (after Rana Plaza, Tazreen) |
+| Poor living conditions | Crowded slums, lack of privacy, unsafe water and toilets |
+| Separation from family | Rural migrants living alone |
+| Lack of voice | Weak trade unions, no grievance mechanism |
+
+**Effects**
+
+1. **Stress, anxiety, depression**; sleep disturbance; fatigue.
+2. **Psychosomatic complaints**: headache, backache, abdominal pain, palpitations.
+3. **Post-traumatic stress disorder** after disasters.
+4. Low self-esteem; frustration; irritability.
+5. Absenteeism, low productivity, job turnover.
+6. Family conflict; neglect of children.
+7. Suicidal ideation in severe cases.
+
+**Prevention**
+
+Reasonable hours and targets; fair wages; anti-harassment committees and policies; safe workplace; crèches and maternity benefits; counselling services; safe transport; welfare and recreation; enforcement of Bangladesh Labour Act.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.283
+**Definition**
+
+**Pneumoconiosis**: a group of lung diseases caused by **inhalation of dust**, usually at work, with reaction of lung tissue (mostly fibrosis) to the deposited dust.
+
+**Classification**
+
+| Dust | Disease | Cause / occupation |
+|---|---|---|
+| **A. Inorganic dusts** | **Silicosis** | Free silica: stone crushing, mining, quarrying, sand blasting, glass, pottery, foundry |
+| | **Anthracosis** (coal workers' pneumoconiosis) | Coal dust: coal miners |
+| | **Asbestosis** | Asbestos: mining, insulation, ship-breaking, brake linings (also mesothelioma, lung cancer) |
+| | **Siderosis** | Iron oxide: welders, iron ore workers |
+| | Berylliosis, stannosis (tin), talcosis, baritosis | Respective metals and minerals |
+| **B. Organic dusts** | **Byssinosis** | Cotton, flax, hemp dust: textile (spinning) workers |
+| | **Bagassosis** | Sugarcane bagasse: paper, board industry |
+| | **Farmer's lung** | Mouldy hay or grain (thermophilic actinomycetes) |
+| | Bird fancier's lung, mushroom worker's lung, malt worker's lung, tobacosis | Respective organic dusts |
+
+**Common pneumoconioses**: silicosis, anthracosis, asbestosis, byssinosis.
+
+**Organic dust diseases (names)**: byssinosis, bagassosis, farmer's lung, bird fancier's lung, tobacosis.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.284
+**Factors / characteristics of dust that decide its harmful effect on the lungs**
+
+| Factor | Effect |
+|---|---|
+| **1. Size of particles** | Particles **0.5–3 µm** reach the alveoli and are most dangerous ("respirable dust"); >10 µm are trapped in the nose; 5–10 µm deposited in airways and cleared |
+| **2. Chemical composition** | **Free silica** is most fibrogenic; asbestos fibres carcinogenic; coal and iron less harmful |
+| **3. Concentration** in the air | Higher concentration → more deposition |
+| **4. Duration of exposure** | Most pneumoconioses need years of exposure (silicosis often 10+ years) |
+| **5. Individual susceptibility** | Pre-existing lung disease, smoking, TB, poor mucociliary clearance |
+| **6. Shape** | Long thin fibres (asbestos) penetrate deep and resist clearance |
+| **7. Solubility** | Insoluble dusts persist in lungs → fibrosis |
+| **8. Rate of breathing** | Heavy work → deeper breathing → more inhaled dust |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.285
+**Protective measures for garment / textile workers against cotton dust (byssinosis)**
+
+**A. Engineering (environmental) control**
+
+1. **Dust control at source**: enclosure of machines; local exhaust ventilation; dust extraction systems.
+2. **Wet methods / humidification** to keep dust down.
+3. **General ventilation** and air filtration.
+4. **Good housekeeping**: vacuum cleaning instead of sweeping or compressed-air blowing.
+5. Washing or steaming raw cotton; mechanisation of dusty processes.
+6. **Dust monitoring** against permissible limits.
+
+**B. Personal protection**
+
+Respirators or dust masks; work clothes; personal hygiene.
+
+**C. Medical measures**
+
+1. **Pre-placement examination**: exclude asthma and chronic lung disease.
+2. **Periodic examination**: symptoms ("Monday chest tightness"), lung function tests (FEV₁ before and after shift), chest X-ray.
+3. Early detection → **job transfer** from dusty areas.
+4. Treatment; smoking cessation.
+
+**D. Administrative**
+
+Job rotation; limited exposure time; training and health education; record keeping.
+
+**E. Legislation**
+
+Bangladesh Labour Act 2006: dust and fume control, ventilation, PPE; notification and compensation of occupational disease; factory inspection.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.286
+**Sickness absenteeism**
+
+Absence from work attributed by the employee to sickness and accepted as such by the employer. It is a useful **index of the health and morale** of workers and of working conditions.
+
+**Causes / factors**
+
+| Factor | Examples |
+|---|---|
+| **Medical** | Respiratory infections, diarrhoea, injuries, musculoskeletal pain, chronic diseases, pregnancy complications |
+| **Economic** | Sick-leave benefits; low wages; second jobs |
+| **Social** | Family illness or obligations, festivals, marriages, housing and transport problems |
+| **Work-related** | Poor working conditions, job dissatisfaction, poor human relations, shift and night work, monotony |
+| **Personal** | Alcoholism, drug use, age, sex (higher among women with double burden), personality |
+| **Seasonal** | Winter respiratory illness, monsoon diseases |
+
+**Measurement**
+
+Sickness absence rate = (days lost due to sickness ÷ total working days) × 100; frequency and duration of spells.
+
+**Effects**
+
+Loss of production and wages; extra burden on co-workers; cost to industry.
+
+**Control**
+
+Occupational health services; better working conditions; health education; good human relations and welfare; investigation of causes; rehabilitation; verification of sickness certificates.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.287
+**Farmer's lung**
+
+An occupational **hypersensitivity pneumonitis (extrinsic allergic alveolitis)** caused by inhalation of dust from **mouldy hay, straw or grain** containing **thermophilic actinomycetes** (*Saccharopolyspora rectivirgula*, formerly *Micropolyspora faeni*; *Thermoactinomyces vulgaris*). It is an **organic-dust pneumoconiosis**.
+
+**At risk**
+
+Farmers handling damp, stored hay, straw, grain; agricultural and dairy workers.
+
+**Clinical features**
+
+- **Acute**: 4–8 hours after exposure: fever, chills, malaise, cough, breathlessness, crepitations; resolves in 1–2 days if exposure stops.
+- **Chronic** (repeated exposure): progressive breathlessness, weight loss, **pulmonary fibrosis**, cor pulmonale.
+
+**Diagnosis**
+
+History of exposure; chest X-ray (diffuse nodular shadows; fibrosis later); lung function (restrictive pattern); serum precipitins to the antigens.
+
+**Prevention**
+
+1. Dry hay and grain properly before storage (prevents mould growth).
+2. Mechanical handling; good ventilation of barns.
+3. Dust masks / respirators.
+4. Health education; early recognition.
+5. Removal from exposure of affected workers.
+
+**Treatment**
+
+Avoid further exposure; corticosteroids in acute severe cases.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.288
+**Occupational cancers and causative exposures**
+
+| Cancer | Agent | Industry / workers |
+|---|---|---|
+| **Skin** | Soot, tar, pitch, mineral oils, arsenic, UV | Chimney sweeps (scrotal cancer, Pott 1775), tar and petroleum workers, outdoor workers |
+| **Lung** | Asbestos, arsenic, chromium, nickel, uranium/radon, coal-tar fumes, cadmium, beryllium, silica | Asbestos and ship-breaking, mining, chrome plating, tanneries, nickel refining |
+| **Mesothelioma** | Asbestos | Insulation, ship-breaking, construction |
+| **Urinary bladder** | Aromatic amines (benzidine, β-naphthylamine) | **Dye**, rubber, cable, chemical industries |
+| **Leukaemia** | Benzene; ionising radiation | Petroleum, rubber, shoe industries; radiology |
+| **Liver (angiosarcoma)** | Vinyl chloride | PVC plastic industry |
+| **Nasal sinus** | Wood dust, nickel, leather dust | Furniture, nickel, leather workers |
+| **Bone** | Radium | Luminous dial painters |
+
+**Industries in Bangladesh with cancer risk**
+
+Ship-breaking (asbestos), tanneries (chromium), dyeing and textile (aromatic amines), rubber, chemical and pesticide factories, battery recycling, agriculture (pesticides).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.289
+**Control measures of occupational cancers (Park)**
+
+1. **Elimination or substitution** of carcinogens (ban asbestos; replace benzidine dyes; replace benzene with safer solvents).
+2. **Engineering control**: closed processes, enclosure, automation, local exhaust ventilation.
+3. **Medical examination**:
+   - Pre-placement.
+   - **Periodic**: urine cytology (bladder cancer in dye workers), chest X-ray and sputum cytology (asbestos, chromium), skin examination, blood counts (benzene).
+   - Continued follow-up **after leaving the job** (long latent period).
+4. **Personal hygiene**: daily bath, change of clothes, no eating in work areas.
+5. **Personal protective equipment**: respirators, gloves, aprons.
+6. **Inspection of factories** and monitoring of exposure levels against permissible limits.
+7. **Notification** of occupational cancers; cancer registries.
+8. **Licensing** of industries using carcinogens.
+9. **Health education** and training of workers; no smoking (synergy with asbestos).
+10. **Legislation** and compensation.
+11. **Research**: identify new carcinogens.
+
+**Examples**
+
+| Cancer | Specific control |
+|---|---|
+| Bladder (dyes) | Ban benzidine; urine cytology every 6 months |
+| Mesothelioma, lung (asbestos) | Ban or strict control of asbestos; wet methods; respirators; no smoking |
+| Skin (tar, oils) | Protective clothing, washing, barrier creams |
+| Leukaemia (benzene, radiation) | Substitution; radiation protection; blood counts |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.290
+**Workers at risk of plumbism (lead poisoning)**
+
+1. **Lead–acid battery** manufacturing and **recycling** (major risk in Bangladesh's informal sector).
+2. Lead **mining, smelting and refining**.
+3. **Painters** using lead-based paints; paint manufacture; scraping old paint.
+4. **Printing** (type-metal workers).
+5. **Plumbers** and pipe makers.
+6. **Ceramic and pottery** glazing; glass making.
+7. **Ship-breaking**, welding and cutting of lead-painted metal.
+8. Cable and solder makers; electronics recycling.
+9. **Rubber and plastic** industries (lead stabilisers).
+10. Ammunition makers; firing-range staff.
+11. Petrol industry (historically tetraethyl lead).
+12. Cosmetic (kohl/surma) and traditional medicine makers.
+
+**Routes**
+
+Mainly **inhalation** of fumes and dust; also ingestion (eating, smoking with dirty hands). Children of workers exposed through dust brought home.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.291
+**Features of plumbism (lead poisoning)**
+
+**A. Symptoms and signs (Park)**
+
+1. **Facial pallor**, especially around the mouth: earliest and most consistent sign.
+2. **Abdominal colic** (lead colic), obstinate **constipation**, loss of appetite, metallic taste.
+3. **Burtonian line**: blue line on the gums (lead sulphide).
+4. **Anaemia**: microcytic hypochromic, with **punctate basophilia** (basophilic stippling of RBCs).
+5. **Peripheral neuropathy** (motor): **wrist drop**, foot drop.
+6. **Encephalopathy** (more in children): headache, irritability, convulsions, coma; learning and behaviour problems.
+7. **Kidney**: nephropathy, hypertension, gout (saturnine gout).
+8. **Reproductive**: abortion, stillbirth, reduced sperm count.
+9. Fatigue, muscle and joint pain.
+
+**B. Laboratory diagnosis**
+
+| Test | Finding |
+|---|---|
+| Blood lead | Raised (best indicator of recent exposure) |
+| Urinary lead | Raised |
+| **Urinary coproporphyrin (CPU)** | Raised (useful screening test) |
+| **Urinary δ-aminolaevulinic acid (ALA)** | Raised |
+| Blood film | Basophilic stippling, anaemia |
+| Zinc protoporphyrin | Raised |
+
+**C. Management**
+
+Remove from exposure; chelation (calcium disodium EDTA, DMSA/succimer, penicillamine); treat anaemia and colic.
+
+**D. Prevention**
+
+Substitution; exhaust ventilation; wet methods; personal hygiene (wash before eating, no eating at work); PPE; periodic blood lead and CPU tests; job rotation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.292
+**Two purposes of periodic medical examination of workers**
+
+1. **Early detection** of occupational diseases and adverse health effects (e.g., silicosis, lead poisoning, NIHL) at a reversible or treatable stage, so the worker can be treated or transferred.
+2. **Evaluation of control measures**: shows whether the working environment and preventive measures (ventilation, PPE) are effective.
+
+**Other purposes**
+
+- Detect **non-occupational diseases** (TB, diabetes, hypertension).
+- Check continued **fitness** for the job; protect vulnerable workers (pregnant women, adolescents).
+- Maintain **records** for research and compensation claims.
+- Opportunity for **health education** and counselling.
+
+**Examples**
+
+Blood lead and CPU in battery workers; audiometry in noisy industries; chest X-ray and lung function in dust-exposed workers; urine cytology in dye workers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.293
+**Occupational hazards of agricultural workers (Park)**
+
+| Hazard | Examples |
+|---|---|
+| **1. Zoonotic / biological** | Brucellosis, leptospirosis, anthrax, tetanus, Q fever, rabies, hookworm and cutaneous larva migrans, fungal infections; vector-borne (malaria, kala-azar, dengue, scrub typhus); Nipah (date-palm sap) |
+| **2. Accidents** | Injuries from tractors, threshers, power tillers, sharp tools; falls from trees; **snake bites**, insect and animal bites; lightning strikes; drowning |
+| **3. Toxic (chemical)** | **Pesticide poisoning** (organophosphates, carbamates); herbicides; fertilisers; skin and eye irritation |
+| **4. Physical** | Heat stress and heat stroke, sun exposure (skin cancer, cataract), rain and cold, noise of machines, vibration |
+| **5. Respiratory** | Organic dusts: farmer's lung, grain dust, bagassosis; smoke from crop burning |
+| **6. Ergonomic** | Backache, joint pain from bending, lifting, prolonged squatting |
+| **7. Psychosocial** | Economic insecurity, debt, crop failure → stress, depression, suicide (often by pesticide ingestion) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.294
+**Biological hazards faced by agricultural workers**
+
+| Disease | Source / mode |
+|---|---|
+| **Tetanus** | Soil-contaminated wounds |
+| **Leptospirosis** | Rat urine in flooded paddy fields, water |
+| **Hookworm**, cutaneous larva migrans | Walking barefoot on faecally contaminated soil |
+| **Brucellosis** | Contact with cattle, goats; raw milk |
+| **Anthrax** | Handling infected animals, carcasses, hides |
+| **Q fever** | Cattle, sheep, goats |
+| **Rabies** | Bites of dogs, jackals, mongooses |
+| **Snake bites**, scorpion and insect stings | Fields, bushes, during rainy season |
+| **Fungal infections** | Wet work: tinea, candidiasis; mycetoma (Madura foot) |
+| **Vector-borne diseases** | Malaria, kala-azar, dengue, Japanese encephalitis, scrub typhus |
+| **Nipah virus** | Raw date-palm sap contaminated by bats |
+| **Farmer's lung** | Mouldy hay and grain (actinomycetes) |
+| **Schistosomiasis** (where endemic) | Water contact |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.295
+**Protection of agricultural workers**
+
+**A. Against biological hazards**
+
+1. **Tetanus immunisation** (Td) for all farmers.
+2. **Footwear and gloves**; protect wounds.
+3. Rodent control; avoid wading in contaminated water (leptospirosis).
+4. **Vaccination of animals**; safe handling of carcasses; boiling milk.
+5. Rabies post-exposure prophylaxis; dog vaccination.
+6. Bed nets, repellents against vectors.
+7. Avoid raw date-palm sap (Nipah).
+8. **Antivenom** at upazila health complexes; first aid for snake bite.
+
+**B. Against chemical hazards (pesticides)**
+
+1. Training in **safe use**: correct dose, mixing, spraying with the wind.
+2. **PPE**: gloves, mask, goggles, long clothes; wash after spraying.
+3. Safe storage away from children and food; proper disposal of containers.
+4. **Integrated pest management**; ban highly hazardous pesticides.
+5. Atropine and pralidoxime available at health facilities.
+
+**C. Against physical and accident hazards**
+
+Machine guards and training; safe use of tools; rest, shade and drinking water in heat; hats; lightning safety; first-aid kits.
+
+**D. Ergonomic**
+
+Better tools; correct lifting; rest breaks; mechanisation.
+
+**E. Health services and welfare**
+
+Primary health care in rural areas; periodic health check-ups; health education; crop and health insurance; social protection; mental health support.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.296
+**General measures for prevention of occupational hazards (Park)**
+
+**A. Medical measures**
+
+1. **Pre-placement examination**: place the right worker in the right job; baseline data.
+2. **Periodic medical examination**: early detection; evaluation of controls.
+3. **Medical and health care services**: first aid, treatment, immunisation, rehabilitation.
+4. **Notification** of occupational diseases.
+5. **Supervision of working environment**: inspection, monitoring.
+6. **Maintenance and analysis of records**.
+7. **Health education and counselling**.
+
+**B. Engineering measures**
+
+1. Proper **design of building** (space, light, ventilation).
+2. **Good housekeeping** (cleanliness, wet sweeping).
+3. **General ventilation**.
+4. **Mechanisation** and automation of hazardous processes.
+5. **Substitution** of less harmful materials or processes.
+6. **Dust control**: prevent formation, wet methods, suppression.
+7. **Enclosure** of hazardous processes.
+8. **Isolation** of hazardous processes (in space or time).
+9. **Local exhaust ventilation**.
+10. **Protective devices** (PPE): respirators, ear plugs, gloves, goggles, aprons.
+11. **Environmental monitoring** of hazards.
+12. **Statistical monitoring** of health and absence data.
+13. **Research**.
+
+**C. Legislative measures**
+
+Labour and factory laws; permissible exposure limits; inspection; compensation; ILO conventions.
+
+**Hierarchy of control**
+
+Elimination → Substitution → Engineering controls → Administrative controls → PPE (least effective)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.297
+**Legislative measures to prevent industrial health hazards (Bangladesh)**
+
+**Bangladesh Labour Act 2006 (amended) and Labour Rules 2015** provide for:
+
+| Area | Provisions |
+|---|---|
+| **Health and hygiene** | Cleanliness; ventilation and temperature; dust and fume control; artificial humidification standards; overcrowding limits; lighting; safe drinking water; latrines and urinals; spittoons; waste disposal |
+| **Safety** | Fire precautions, exits and drills; fencing of machinery; safety of buildings and machinery; pressure plant; protection of eyes; dangerous fumes; restriction on lifting excessive weights; safety committees |
+| **Welfare** | First aid; canteen; rest rooms; **crèche** for children of women workers; washing facilities |
+| **Working hours** | Limits on daily and weekly hours; rest intervals; weekly holiday; limited overtime |
+| **Women** | **Maternity benefit** (16 weeks); restrictions on dangerous work |
+| **Children and adolescents** | Prohibition of employment of children; restrictions and fitness certificates for adolescents |
+| **Notification** | Accidents, dangerous occurrences and occupational diseases |
+| **Compensation** | For injury, occupational disease and death |
+| **Inspection** | Department of Inspection for Factories and Establishments (DIFE) |
+
+**Other measures**
+
+National Occupational Health and Safety Policy (2013); Environment Conservation Act 1995; building codes; post-Rana Plaza factory safety inspections (fire, electrical, structural); ratification of ILO conventions; permissible exposure limits; licensing of hazardous industries.
+
+**Requirements for effectiveness**
+
+Enforcement, adequate inspectors, trade union participation, employer and worker awareness.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.298
+**Anthracosis (coal workers' pneumoconiosis)**
+
+Pneumoconiosis caused by inhalation of **coal dust** in coal mines (Bangladesh: Barapukuria).
+
+**Prevention**
+
+**A. Dust control (engineering)**
+
+1. **Wet methods**: water sprays at cutting points; wet drilling; water infusion into coal seams.
+2. **Adequate mine ventilation** to dilute and remove dust.
+3. Dust extraction at source; enclosed conveyors.
+4. **Regular dust monitoring** against permissible limits.
+
+**B. Personal protection**
+
+Respirators / dust masks; protective clothing.
+
+**C. Medical measures**
+
+1. **Pre-placement examination**: chest X-ray, lung function; exclude TB and chronic lung disease.
+2. **Periodic examination**: chest X-ray (ILO classification), spirometry, sputum for TB.
+3. Early cases transferred to dust-free work.
+4. Treatment and rehabilitation; TB screening.
+
+**D. Administrative**
+
+Limit duration of exposure; job rotation; training and health education; **no smoking** (adds to lung damage).
+
+**E. Legislative**
+
+Mines Act and labour laws; inspection; notification; compensation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
+
+## DU.299
+**a) Type of occupational hazard (1)**
+
+**Biological hazard**: percutaneous exposure to **blood-borne pathogens** (hepatitis B, hepatitis C, HIV) through a **needle-stick (sharps) injury**; caused by unsafe practice (recapping).
+
+**b) Factors to assess the risk of transmission (3)**
+
+| Factor | Higher risk if |
+|---|---|
+| **Type of device** | **Hollow-bore** needle containing blood (vs solid suture needle) |
+| **Depth of injury** | Deep penetration |
+| **Visible blood** on the device | Present |
+| **Site of prior use** | Needle placed directly in the patient's vein or artery |
+| **Volume of blood** | Larger; recently used needle |
+| **Barrier** | No gloves (gloves wipe off some blood) |
+| **Source patient** | HBsAg positive (especially HBeAg positive / high viral load), anti-HCV positive, HIV positive (high viral load, advanced disease); test source with consent |
+| **Exposed person** | **Hepatitis B vaccination status and anti-HBs level**; baseline HBV, HCV, HIV status |
+| **Time and first aid** | Delay in washing and reporting |
+
+Approximate transmission risk after needle-stick: HBV ~6–30% (non-immune), HCV ~1.8%, HIV ~0.3%.
+
+**c) Measures if the source is HBsAg positive (3)**
+
+1. **Immediate first aid**: wash with soap and running water; do not squeeze or suck; report and document the incident.
+2. **Baseline tests** of the nurse: HBsAg, anti-HBs, anti-HCV, HIV.
+3. **Post-exposure prophylaxis by vaccination status**:
+
+| Nurse's status | Action |
+|---|---|
+| Unvaccinated | **HBIG** (0.06 ml/kg IM) + start **hepatitis B vaccine series**, as soon as possible (ideally within 24 hours) |
+| Vaccinated, known responder (anti-HBs ≥10 mIU/ml) | No treatment |
+| Vaccinated, known non-responder | HBIG ×2 (one month apart), or HBIG + revaccination |
+| Vaccinated, response unknown | Test anti-HBs: adequate → nothing; inadequate → HBIG + vaccine booster |
+
+4. **Follow-up testing** (HBsAg, anti-HBc, anti-HBs) at about 6 months; also HCV and HIV follow-up as indicated.
+5. **Counselling**; avoid donating blood, organs or semen during follow-up; no work restriction needed.
+6. **Prevention of recurrence**: no recapping; sharps containers at point of use; safety-engineered devices; training; hepatitis B vaccination of all health workers; incident reporting system; compensation if infection occurs.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health; Epidemiology of Communicable Diseases).
+
+## DU.300
+**(a) Diagnosis and occupation (2)**
+
+- **Diagnosis**: **Silicosis** (irritant cough, exertional dyspnoea, "snow-storm" nodular opacities on chest X-ray).
+- **Likely occupations**: stone crushing, quarrying, mining, tunnelling, **sand blasting**, glass and pottery making, foundry work, construction (cutting concrete or stone), ceramic and tile industries.
+
+**(b) Preventive measures (2)**
+
+1. **Dust control**: wet drilling and cutting; enclosure; local exhaust ventilation; substitute silica sand with safer abrasives (steel grit) in blasting.
+2. **Dust monitoring** against permissible limits.
+3. **Respirators** and protective clothing.
+4. **Medical examination**: pre-placement and periodic chest X-ray and lung function; early removal from exposure.
+5. **TB screening** (silicosis greatly raises TB risk); no smoking.
+6. Health education; limit exposure time; legislation, notification and compensation.
+
+**(c) Diseases due to organic and inorganic dusts (3)**
+
+| Inorganic dusts | Organic dusts |
+|---|---|
+| **Silicosis** (silica) | **Byssinosis** (cotton, flax, hemp) |
+| **Anthracosis** (coal) | **Bagassosis** (sugarcane) |
+| **Asbestosis** (asbestos); mesothelioma, lung cancer | **Farmer's lung** (mouldy hay, grain) |
+| **Siderosis** (iron) | Bird fancier's lung |
+| Berylliosis (beryllium) | Mushroom worker's lung, malt worker's lung |
+| Stannosis (tin), talcosis, baritosis | Tobacosis; occupational asthma (wood dust) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Occupational Health).
