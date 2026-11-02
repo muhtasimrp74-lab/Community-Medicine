@@ -4873,3 +4873,675 @@ CV(A) = (5 ÷ 120) × 100 = **4.2%**; CV(B) = (20 ÷ 120) × 100 = **16.7%**
 **Group A** is more consistent (uniform): smaller SD and CV, less spread of values around the mean.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.164
+**Why communication skills are essential for health education**
+
+Health education is basically a **communication process**: Communicator → Message → Channel → Audience → Feedback. Its success depends on the communicator's skill.
+
+1. **Information transfer**: correct facts must reach people clearly (e.g., EPI schedule, danger signs).
+2. **Understanding (comprehension)**: messages must be in the audience's language and level; jargon blocks learning.
+3. **Motivation and persuasion**: skilful communication arouses interest and changes attitudes, not just knowledge.
+4. **Behaviour change**: the goal of health education is adoption of healthy practices; this needs two-way, convincing communication.
+5. **Credibility and trust**: good communicators win confidence of the community.
+6. **Feedback**: lets the educator check understanding and correct misconceptions.
+7. **Overcoming barriers**: physiological, psychological, environmental and cultural barriers can be reduced by skilled communicators.
+8. **Choice of methods and media**: right method (individual, group, mass) and AV aids for the audience.
+9. **Counselling**: sensitive issues (family planning, HIV, mental illness) need empathy and listening.
+10. **Community participation**: dialogue builds partnership.
+11. **Compliance**: patients follow treatment better when it is explained well (TB, diabetes).
+12. **Doctor–patient relationship** improves; satisfaction rises.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.165
+**Components (elements) of communication**
+
+| Component | Meaning | Example |
+|---|---|---|
+| 1. **Communicator (sender, source)** | Person who originates the message | Doctor, health worker |
+| 2. **Message** | Information, ideas or feelings sent (content) | "Wash hands with soap before eating" |
+| 3. **Encoding** | Converting ideas into words, symbols, gestures | Simple Bangla words, pictures |
+| 4. **Channel (medium)** | Means by which message travels | Face-to-face, radio, TV, poster, mobile |
+| 5. **Audience (receiver)** | Person or group receiving the message | Mothers, school children |
+| 6. **Decoding** | Receiver interprets the message | Understanding the advice |
+| 7. **Feedback** | Receiver's response returned to sender | Questions, demonstration, change in practice |
+| 8. **Noise / barriers** | Anything that distorts the message | Loud environment, language difference |
+| 9. **Effect** | Change in knowledge, attitude, practice | Mothers start using ORS |
+
+**Communication process (model)**
+
+Communicator → (encoding) → Message → Channel → (decoding) → Audience → Effect
+          ↑______________________ Feedback ______________________|
+
+(Noise can interfere at every step.)
+
+**Functions of communication**
+
+1. Information
+2. Education
+3. Motivation
+4. Persuasion
+5. Counselling
+6. Raising morale
+7. Health development
+8. Organisation (coordinating people and activities)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.166
+**Motive**
+
+An internal state (need or desire) that energises and directs behaviour towards a goal.
+
+**Types of motives**
+
+| Type | Meaning | Examples |
+|---|---|---|
+| **Primary (biological / physiological)** | Inborn, unlearned; necessary for survival | Hunger, thirst, sleep, sex, avoidance of pain, need for air, temperature regulation |
+| **Secondary (social / psychological / learned)** | Acquired through experience and society | Affiliation (belonging), achievement, power, approval, recognition, money, security |
+| **Intrinsic** | Arise from within; activity is rewarding in itself | Curiosity, satisfaction of learning |
+| **Extrinsic** | Arise from external rewards or pressures | Prize, salary, fear of punishment |
+| General (unlearned, non-physiological) | Curiosity, exploration, need for activity, contact comfort | Child exploring surroundings |
+
+**In health education**
+
+- Motivation is the central task: "people must feel the need" (felt need).
+- Use secondary motives (child's health, family approval, social status) to promote behaviour change, e.g., mothers immunise children for their child's safety.
+- **Incentives** (rewards) act as external motivators.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.167
+**A. In medical education**
+
+1. **Clear learning objectives** (knowledge, attitude, skill) shared with students.
+2. **Two-way, interactive teaching**: questions, discussion, problem-based learning, case-based learning.
+3. **Small-group teaching**: tutorials, seminars, bedside teaching.
+4. **Audio-visual aids**: slides, videos, models, simulation and skills labs.
+5. **Simple, organised language**; known → unknown; simple → complex.
+6. **Feedback**: formative assessment, constructive comments, OSCE debriefing.
+7. **Role modelling** of good communication with patients.
+8. **Communication skills training**: history-taking, counselling, breaking bad news, role play with simulated patients.
+9. **Digital platforms**: learning management systems, online resources.
+10. Good teacher–student relationship; mentorship.
+
+**B. In research**
+
+1. Clear **research question** and protocol shared with the team.
+2. **Informed consent** explained in the participant's language.
+3. Standardised **instructions and training** of data collectors.
+4. Regular **team meetings**; clear roles.
+5. Communication with **ethics committees** and stakeholders.
+6. **Scientific writing**: structured abstract, IMRaD format, tables and graphs.
+7. **Dissemination**: seminars, conferences, journal publication, policy briefs, plain-language summaries for the community.
+8. Feedback of results to participants and communities.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.168
+**Criteria of a sender with good communication skill**
+
+1. **Knowledge** of the subject; accurate information.
+2. **Clear objective**: knows what change he wants.
+3. **Credibility**: trustworthy, respected, sincere.
+4. **Knows the audience**: their language, level, needs, culture, beliefs.
+5. **Simple, clear language**; avoids jargon.
+6. **Good listener**; encourages questions.
+7. **Empathy** and respect for the audience.
+8. **Good non-verbal skills**: eye contact, posture, facial expression, tone.
+9. **Uses feedback** to check understanding and adjust the message.
+10. **Organised** presentation: logical, brief, relevant.
+11. **Uses suitable methods and AV aids**.
+12. **Confidence**, clear voice and modulation.
+13. **Patience** and good human relations.
+14. **Sets an example** (practises what he preaches).
+15. **Persuasive and motivating**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.169
+**Audio-visual (AV) aids**
+
+Devices that appeal to the senses of hearing and sight to make communication and learning more effective.
+
+**Classification (Park)**
+
+| Group | Examples |
+|---|---|
+| **1. Auditory aids** | Radio, tape and digital audio, public address system (miking), telephone, podcasts |
+| **2. Visual aids** (a) not requiring projection | Chalkboard / whiteboard, leaflets, posters, charts, flannel graph, flash cards, exhibits, models, specimens, photographs |
+| (b) requiring projection | Slides, film strips, overhead projector, multimedia projector |
+| **3. Combined audio-visual aids** | Television, sound films, video, cinema, computer and mobile multimedia, internet |
+
+**Importance / advantages**
+
+1. **Attract attention** and arouse interest.
+2. **Clarify** difficult concepts (models, diagrams).
+3. **Better retention**: more senses involved ("seeing is believing").
+4. **Overcome language and literacy barriers** (pictures).
+5. **Save time** in explanation.
+6. **Reach large audiences** (TV, radio).
+7. Make learning **concrete and realistic**.
+8. **Stimulate discussion** and participation.
+9. **Reinforce** messages.
+10. Increase **credibility** of messages.
+
+**Limitations**
+
+Cost, need for electricity and equipment, can distract if overused, need pretesting.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.170
+**Criteria of a good message (Park)**
+
+1. In line with the **objectives** of the programme.
+2. **Meaningful**: relevant to the audience.
+3. Based on **felt needs** of the audience.
+4. **Clear and understandable**: simple language, no jargon.
+5. **Specific**: tells exactly what to do.
+6. **Accurate** and scientifically correct.
+7. **Timely**: given when needed (e.g., dengue messages before monsoon).
+8. **Adequate**: neither too little nor too much.
+9. **Fits the culture** and social context of the audience.
+10. **Interesting**: attracts attention and arouses curiosity.
+
+**Other qualities**
+
+- **Brief** and easy to remember (slogans).
+- **Positive** tone; gives hope and solution, not just fear.
+- **Consistent** across channels; repeated for reinforcement.
+- **Pretested** on a sample audience.
+- **Credible** source.
+
+**Example**
+
+"Wash hands with soap and water for 20 seconds before eating and after using the toilet."
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.171
+**Barriers of communication (Park)**
+
+| Type | Examples |
+|---|---|
+| **1. Physiological** | Difficulty in hearing (deafness), poor vision, aphasia, speech defects, fatigue, pain |
+| **2. Psychological** | Emotional disturbance, anxiety, fear, neurosis, low intelligence, poor attention, prejudice, comprehension difficulty |
+| **3. Environmental (physical)** | Noise, poor visibility, congestion, poor lighting, interruptions, distance, faulty equipment |
+| **4. Cultural** | Illiteracy, differences in levels of knowledge and understanding, customs, beliefs, religion, attitudes, economic and social class differences, language, cultural gap between communicator and audience |
+
+**Other barriers**
+
+| Type | Examples |
+|---|---|
+| Semantic / language | Medical jargon, different dialect (Chattogram, Sylhet), indigenous languages |
+| Organisational | Rigid hierarchy, overcrowded OPD, short consultation time |
+| Interpersonal | Lack of trust, poor rapport, arrogance, gender difference |
+| Technological | Poor network, no electricity |
+| Message-related | Too long, too technical, contradictory messages |
+
+**Example**
+
+A doctor uses English medical terms to explain insulin use to an illiterate rural woman in a noisy OPD → language, cultural, environmental and psychological (anxiety) barriers together.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.172
+**Functions of health communication (Park)**
+
+| Function | Meaning | Example |
+|---|---|---|
+| 1. **Information** | Basic function: spreading knowledge about health | Dengue symptoms and prevention |
+| 2. **Education** | Systematic learning to change knowledge, attitude and practice | School health education |
+| 3. **Motivation** | Arousing interest and desire to act | Encouraging ANC visits |
+| 4. **Persuasion** | Convincing people to adopt a practice | Quitting smoking |
+| 5. **Counselling** | Helping individuals understand problems and decide | Family planning, HIV counselling |
+| 6. **Raising morale** | Building confidence and team spirit | Encouraging health workers during epidemics |
+| 7. **Health development** | Promoting community action for better health | Community-led total sanitation |
+| 8. **Organisation** | Coordinating people and activities | Planning vaccination campaigns |
+
+**Other roles**
+
+- Advocacy for healthy policies (tobacco control).
+- Risk and crisis communication in outbreaks (COVID-19).
+- Increasing demand for and use of services.
+- Correcting misinformation and rumours.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.173
+**Lecture as one-way communication**
+
+In a lecture, the **flow of communication is from the communicator to the audience only** (didactic method); the audience listens passively, with little or no chance to ask questions or give feedback.
+
+Lecturer → Message → Passive audience (no feedback)
+
+**Features**
+
+1. Authoritative; knowledge "imposed".
+2. Audience passive.
+3. No feedback; speaker cannot check understanding.
+4. Fast; covers much content to many people.
+
+**Disadvantages of one-way communication**
+
+1. Learning is **passive**; little participation.
+2. **No feedback**; misunderstandings remain.
+3. Little effect on **attitude and behaviour**.
+4. Poor **retention**; attention declines after 15–20 minutes.
+5. Ignores individual differences.
+6. Can be boring; monotonous.
+7. Audience needs and doubts not addressed.
+
+**Advantages**
+
+Saves time; reaches large groups; useful for introducing new information.
+
+**Making a lecture two-way**
+
+Ask and invite questions; brief discussion; AV aids; demonstrations; case examples; quizzes; follow-up group work.
+
+**Two-way (Socratic) communication**: communicator and audience both take part → active learning, feedback, more likely to change behaviour.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.174
+**Types of communication**
+
+| Basis | Type | Example |
+|---|---|---|
+| **Direction** | **One-way** (didactic) | Lecture, radio talk |
+| | **Two-way** (Socratic) | Discussion, counselling |
+| **Mode** | **Verbal**: oral | Talk, telephone |
+| | **Verbal**: written | Letters, leaflets, prescriptions |
+| | **Non-verbal** | Gestures, facial expression, posture, eye contact, touch |
+| | **Visual** | Charts, posters, pictures, maps |
+| | **Telecommunication and internet** | TV, mobile phone, SMS, social media, email |
+| **Formality** | **Formal** | Official orders, reports, meetings |
+| | **Informal** ("grapevine") | Chat among colleagues |
+| **Number involved** | Intrapersonal | Thinking, self-talk |
+| | Interpersonal | Doctor–patient talk |
+| | Group | Group discussion with mothers |
+| | Mass | TV campaign |
+| **Organisational flow** | Downward / upward / horizontal | Director to staff / staff report / peer coordination |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.175
+**Traditional / folk media**
+
+Indigenous forms of entertainment and communication rooted in local culture, used to carry health messages.
+
+**Bangladesh examples**
+
+Jatra (folk theatre), puppet show (*putul nach*), *kobigan* (poetic duel), *jari-sari* and *baul* songs, *gombhira* (Rajshahi), *pot gaan* (scroll painting with songs), *pala gaan*, street drama (*pathanatok*), storytelling, *haat-bazaar* announcements, folk proverbs.
+
+**How they influence communication**
+
+1. **Culturally familiar** → high acceptance and credibility.
+2. **Local language and dialect** → easy to understand.
+3. **Reach illiterate and rural people** who lack access to print media.
+4. **Entertaining** → attracts large crowds and holds attention.
+5. **Participatory**: audience reacts, sings along; allows discussion and feedback.
+6. **Emotional appeal** → can change attitudes, not just knowledge.
+7. **Low cost**; local artists and materials.
+8. **Flexible**: messages can be adapted to local problems.
+9. **Respects tradition** → less resistance to sensitive topics (family planning, child marriage, HIV).
+
+**Health uses in Bangladesh**
+
+Family planning, EPI, ORS, breastfeeding, sanitation, arsenic awareness, dengue, HIV prevention, anti-dowry and anti-child-marriage campaigns.
+
+**Limitations**
+
+Limited reach compared to mass media; quality depends on performers; risk of message distortion; needs pretesting and monitoring.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.176
+**Potential key persons (PKP)**
+
+Respected, influential persons in a community through whom health messages can be passed effectively (opinion leaders, gatekeepers).
+
+**PKPs in a Bangladeshi community**
+
+1. **Religious leaders**: imam, khatib, priest, monk.
+2. **Teachers** of schools and madrasas.
+3. **Local government representatives**: union parishad chairman and members, ward councillor.
+4. **Village elders** (*matbor*, *murubbi*).
+5. **Community health workers**: CHCP, health assistant, FWA, NGO volunteers.
+6. **Traditional birth attendants** (*dai*) and village doctors.
+7. **Women's group and mothers' club leaders**.
+8. **Youth club, sports and cultural leaders**.
+9. **Community group (CG) members** of community clinics.
+10. **Local businessmen**, pharmacy owners.
+11. **Students** (child-to-child approach).
+12. **Local journalists** and social media influencers.
+
+**Why involve PKPs**
+
+Trusted; influence attitudes and norms; link health system with community; mobilise people and resources; help counter rumours (e.g., vaccine hesitancy).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.177
+**a) Characteristics of effective communication (2)**
+
+1. **Clear**: simple language the patient understands (Bangla, local dialect).
+2. **Concise and specific**: only key points (e.g., "avoid sweets, eat more vegetables").
+3. **Correct and complete**: accurate, all needed information.
+4. **Two-way**: listening, questions, **feedback** (teach-back).
+5. **Relevant** to patient's needs and culture (local foods).
+6. **Courteous and empathetic**; respectful.
+7. **Supported by aids**: food pictures, diet chart.
+8. **Right time and place**: patient attentive, quiet setting.
+
+**b) Other barriers of communication (2)** (besides language and poor attention)
+
+| Type | Examples |
+|---|---|
+| Physiological | Hearing or vision problems, fatigue, pain, illness |
+| Psychological | Anxiety, fear, denial, depression, low intelligence, prejudice |
+| Environmental | Noise, overcrowded OPD, lack of privacy, interruptions, little time |
+| Cultural | Illiteracy; food beliefs and taboos; religious practices (fasting); social class gap |
+| Semantic | Medical jargon ("glycaemic index", "carbohydrate") |
+| Interpersonal | Lack of trust, doctor's hurried or rude manner |
+
+**c) Improving doctor–patient relationship (3)**
+
+1. Use the **patient's language**; interpreter if needed; avoid jargon.
+2. **Listen actively**; give adequate time; show empathy and respect.
+3. **Explain** diagnosis and plan; use **teach-back** to confirm understanding.
+4. **Involve the patient and family** in decisions (shared decision-making).
+5. Use **AV aids**: printed diet chart with pictures.
+6. Maintain **privacy and confidentiality**.
+7. Be **honest** about cost, prognosis and options; respect beliefs.
+8. **Follow-up** and continuity of care; accessible for questions.
+9. System support: reduce OPD crowding, appointment systems, communication skills training, complaint handling.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education; Medicine and Social Sciences).
+
+## DU.178
+**Definitions**
+
+1. **Park (National Conference on Preventive Medicine, USA)**: a process that **informs, motivates and helps** people to adopt and maintain healthy practices and lifestyles, advocates environmental changes needed for this goal, and conducts professional training and research to the same end.
+2. **Alma-Ata (1978)**: "education concerning prevailing health problems and the methods of preventing and controlling them" (first element of PHC).
+3. **WHO (Health Promotion Glossary, 1998)**: consciously constructed opportunities for learning, involving communication, designed to improve **health literacy** (knowledge and life skills) for individual and community health.
+
+**Key features**
+
+1. A process of **learning**, not just giving information.
+2. Aims at change in **knowledge, attitude and practice (KAP)**.
+3. Voluntary; based on people's participation.
+4. Translates health knowledge into desirable behaviour.
+5. Part of **health promotion** and **primary prevention**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.179
+**Objectives of health education (WHO; Park)**
+
+| Objective | Example |
+|---|---|
+| 1. To encourage people to **adopt and sustain health-promoting lifestyles and practices** | Hand-washing, balanced diet, exercise, no tobacco |
+| 2. To promote the **proper use of health services** available to them | ANC, facility delivery, immunisation, DOTS completion |
+| 3. To arouse interest, provide new knowledge, improve skills and change attitudes so people make **rational decisions** to solve their own problems | Mothers learning to prepare ORS and recognise pneumonia danger signs |
+| 4. To stimulate **individual and community self-reliance and participation** in health development, from identifying problems to solving them | Community dengue source-reduction drives; community clinic management |
+
+**Other aims**
+
+- Promote **positive health** and prevent disease.
+- Develop **health literacy**.
+- Support **healthy public policy** and environmental change.
+- Reduce **stigma** (TB, HIV, mental illness).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.180
+**Approaches to health education (Park)**
+
+| Approach | Meaning | Example | Limitation |
+|---|---|---|---|
+| **1. Regulatory (legal) approach** | Laws and regulations to protect health | Tobacco control law, food adulteration laws, helmet law | Behaviour cannot be changed by law alone; enforcement difficult |
+| **2. Service approach** | Providing health services to people (taking services to their doorstep) | Free latrines, tube wells | Failed when people's felt needs and beliefs were ignored; services not used |
+| **3. Health education approach** | Educating people to adopt healthy behaviour voluntarily | Mass campaigns, counselling | Slow; results take time |
+| **4. Primary health care approach** | Health education as part of PHC with community participation, starting from people's own needs ("bottom-up") | Community clinics, CHWs, community-led total sanitation | Needs organisation and commitment |
+
+**Models of health education**
+
+1. **Medical model**: emphasis on disease prevention by medical interventions; health education as an appendage.
+2. **Motivation model**: individual motivation through knowledge leads to behaviour change (KAP).
+3. **Social intervention model**: changing the social and physical environment (policy, community action) to support healthy behaviour.
+
+**Best approach**
+
+A **combination**, with the PHC approach (community participation) as the core.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.181
+**Stages of adoption of new ideas and practices (Park)**
+
+Awareness → Interest → Evaluation → Trial → Adoption
+
+| Stage | What happens | Example (exclusive breastfeeding) |
+|---|---|---|
+| 1. **Awareness** | Person first hears of the new idea; knows little | Mother hears about exclusive breastfeeding on TV |
+| 2. **Interest** | Seeks more information, details | Asks the CHCP what it means |
+| 3. **Evaluation** | Weighs advantages and disadvantages for herself; mental trial | Thinks about whether her baby will get enough |
+| 4. **Trial** | Tries the practice on a small scale | Breastfeeds only for a few days |
+| 5. **Adoption** | Accepts and practises regularly after satisfaction | Continues exclusive breastfeeding to 6 months |
+
+**Notes**
+
+1. People move through stages at different speeds; some reject at any stage.
+2. Adopter categories: innovators → early adopters → early majority → late majority → laggards.
+3. Health educator must support each stage: information (awareness), counselling (interest, evaluation), demonstration and support (trial), reinforcement (adoption).
+4. **Rejection** can occur at any stage; follow-up prevents relapse.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.182
+**Principles of health education (Park)**
+
+1. **Interest**: people learn what interests them; start from felt needs.
+2. **Participation**: active involvement (learning by doing, discussion) → acceptance.
+3. **Motivation**: awaken desire to learn and act; use incentives.
+4. **Comprehension**: communicate at the level and in the language of the audience.
+5. **Reinforcement**: repeat messages at intervals.
+6. **Learning by doing**: "I hear and forget; I see and remember; I do and I know".
+7. **Known to unknown**: begin with what people know.
+8. **Setting an example**: educator must practise what he teaches.
+9. **Good human relations**: friendly, sympathetic approach.
+10. **Feedback**: check understanding; adjust.
+11. **Leaders**: use local opinion leaders to spread messages.
+12. **Credibility**: message consistent with scientific knowledge, local culture and goals; trusted source.
+
+**"Soil, seed and sower"**
+
+People = soil; health facts = seed; communicator = sower. All three must be favourable for results.
+
+**Important 10 (short answer)**: interest, participation, motivation, comprehension, reinforcement, learning by doing, known to unknown, setting example, good human relations, feedback.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.183
+**Methods of health education (Park)**
+
+| Approach | Methods / media | Example |
+|---|---|---|
+| **1. Individual** | Personal contact, home visits, personal letters, counselling, phone | FWA counselling a couple on contraception |
+| **2. Group** | Lecture (chalk talk), demonstration (method and result), group discussion, panel discussion, symposium, workshop, seminar, conference, role play | ORS demonstration to mothers |
+| **3. Mass** | Television, radio, newspapers, printed material (leaflets, posters), direct mailing, health museums and exhibitions, folk media, internet and social media, SMS | National campaigns (EPI, dengue) |
+
+**Media (AV aids)**
+
+Auditory (radio, audio); visual (posters, charts, flannel graph, models, slides); combined (TV, film, video, mobile multimedia).
+
+**Why methods and media matter**
+
+Choice depends on objective, audience, message and resources; using several together gives best effect.
+
+**How health can be promoted**
+
+1. Health education (all three approaches).
+2. Environmental modification (water, sanitation, housing).
+3. Nutritional interventions.
+4. Lifestyle and behavioural change.
+5. Healthy public policy and laws (Ottawa Charter actions).
+6. Community action and participation.
+7. Reorienting health services towards prevention.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education; Concept of Health and Disease).
+
+## DU.184
+**Developing attitude (affective domain)**
+
+| Method | Media / tools |
+|---|---|
+| Role modelling by teachers | Observation in wards and community |
+| Role play, simulated patients | Scenarios on breaking bad news, consent |
+| Group discussion, reflective writing | Case discussions on ethics, professionalism |
+| Community attachment, field visits | Residential field sites, village surveys, home visits |
+| Video demonstrations and films | Patient stories, documentaries |
+| Mentoring and counselling | Faculty mentors |
+| Feedback on behaviour | Multisource (360°) feedback |
+| Ethics and professionalism sessions | Case-based ethics seminars |
+
+**Developing skill (psychomotor domain)**
+
+| Method | Media / tools |
+|---|---|
+| Demonstration → supervised practice → independent practice ("see one, do one, teach one", with safety) | Bedside teaching |
+| Skills laboratory | Mannequins, task trainers (IV cannulation, suturing, CPR) |
+| Simulation | High-fidelity simulators, OSCE stations |
+| Clinical rotations and internship | Logbooks, direct observation (DOPS, mini-CEX) |
+| Communication skills training | Simulated patients, video recording with feedback |
+| Field practice | Immunisation, health education sessions, surveys |
+
+**Principles**
+
+Clear objectives; learning by doing; repeated practice; immediate feedback; assessment by OSCE and workplace-based tools.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.185
+**How health education promotes public health**
+
+1. **Prevents disease**: hand-washing, safe water, sanitation, safe sex, vector control.
+2. **Promotes healthy lifestyles**: diet, exercise, no tobacco or alcohol → fewer NCDs.
+3. **Increases use of services**: immunisation, ANC, facility delivery, family planning, screening.
+4. **Early care-seeking**: recognising danger signs (pneumonia, pregnancy complications) reduces deaths.
+5. **Improves compliance**: TB, hypertension, diabetes treatment.
+6. **Self-care**: ORS at home, first aid, self-monitoring.
+7. **Community participation**: people take part in identifying and solving health problems.
+8. **Supports national programmes**: EPI, family planning, nutrition, dengue, TB.
+9. **Reduces stigma and misconceptions** (TB, HIV, mental illness, vaccine rumours).
+10. **Advocacy**: builds public support for healthy policies (tobacco control, food safety).
+11. **Health literacy** and empowerment → equity.
+12. **Cost-effective**: low-cost intervention with wide impact.
+
+**Bangladesh examples**
+
+Home-made ORS teaching, family planning campaigns, EPI mobilisation, arsenic awareness, dengue source reduction, tobacco-control messages.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.186
+**Contents (components) of health education (Park)**
+
+| Content | Topics |
+|---|---|
+| 1. **Human biology** | Structure and function of the body; how disease affects it; effects of alcohol, tobacco, drugs |
+| 2. **Nutrition** | Balanced diet, local foods, breastfeeding, complementary feeding, food hygiene, avoiding junk food |
+| 3. **Hygiene** | Personal hygiene (bathing, hand-washing, oral care) and environmental hygiene (safe water, latrines, waste disposal) |
+| 4. **Family health care** | Family planning, ANC, safe delivery, child care, immunisation, care of elderly |
+| 5. **Control of communicable diseases** | Mode of spread and prevention of diarrhoea, TB, dengue, malaria, HIV, COVID-19 |
+| 6. **Mental health** | Stress management, recognising mental illness, reducing stigma |
+| 7. **Prevention of accidents** | Road safety, drowning prevention, burns, home and occupational safety |
+| 8. **Use of health services** | Where and when to seek care, referral, rights |
+
+**Additional modern contents**
+
+NCD risk factors; sexual and reproductive health for adolescents; substance abuse; environmental health (arsenic, air pollution); disaster preparedness; oral health; consumer health (rational drug use).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.187
+**Behaviour change communication (BCC)**
+
+An interactive process with individuals and communities to develop **tailored messages and approaches**, using multiple channels, to promote **positive behaviours** and to provide a **supportive environment** that enables people to adopt and maintain them.
+
+**Features**
+
+1. Focus on **specific behaviours**, not just knowledge.
+2. Based on **research** of the audience (barriers, motivators).
+3. Uses **multiple channels**: interpersonal, community, mass media, digital.
+4. **Two-way**, participatory.
+5. Addresses **social norms** and enabling environment (services, policy).
+6. Monitored and evaluated by behaviour change indicators.
+
+**Relationship between BCC and health education**
+
+| Point | Health education | BCC |
+|---|---|---|
+| Scope | Broad learning process (KAP) | Strategic, behaviour-focused communication |
+| Main aim | Knowledge, attitude, practice | Measurable behaviour change and maintenance |
+| Planning | Often general messages | Audience research, segmentation, pretesting |
+| Environment | Mainly individual learning | Also social and service environment |
+| Relation | **Foundation** | **Evolution / application** of health education |
+
+Both share principles (participation, motivation, feedback); BCC builds on health education and IEC (information, education, communication) and adds strategy and evaluation; it moves people from awareness to sustained practice.
+
+**Example**
+
+Hand-washing with soap: health education explains germs; BCC identifies barriers (no soap near latrine), promotes a hand-washing station, uses TV spots + school activities + mothers' groups, and measures observed hand-washing.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.188
+**Limitations of mass media**
+
+1. **One-way communication**: no immediate feedback; misunderstandings not corrected.
+2. **Cannot individualise**: same message for all; personal doubts not answered.
+3. **Mainly creates awareness**; less effective in changing attitudes and behaviour alone.
+4. **Reach is unequal**: poor, rural, illiterate people may lack TV, internet or newspapers; print excludes the illiterate.
+5. **Message may be misinterpreted** or ignored; selective attention.
+6. **Costly** to produce and air (TV, newspapers).
+7. **Short exposure**; messages quickly forgotten without repetition.
+8. **Competition** with commercial and entertainment content; message overload.
+9. **Misinformation** and rumours spread quickly on social media.
+10. **Difficult to evaluate** impact.
+11. Cultural and language differences limit relevance in diverse groups.
+
+**Overcoming limitations**
+
+Combine mass media with interpersonal and group methods; pretest messages; repeat; use local languages and folk media; use feedback channels (hotlines).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.189
+**"Known to unknown": principle of health education**
+
+Begin with what the audience **already knows** (their experience, beliefs, local terms) and move step by step to **new knowledge**.
+
+Existing knowledge → link → new idea → understanding → acceptance
+
+**Justification**
+
+1. **Learning theory**: new learning is anchored to existing knowledge (meaningful learning); easier to understand.
+2. **Comprehension**: familiar examples and words make abstract ideas concrete.
+3. **Interest and confidence**: people feel respected when their knowledge is acknowledged.
+4. **Less resistance**: building on beliefs (where harmless) avoids rejection.
+5. **Better retention**: new facts linked to old memories are remembered longer.
+6. **Participation**: starting from people's experience encourages discussion.
+7. **Corrects misconceptions** gently by contrasting known ideas with correct ones.
+
+**Examples**
+
+- Explaining **ORS**: start from the known practice of giving saline water / *lobon-gur* → then exact proportions and why it prevents dehydration.
+- Explaining **germs**: start from the known fact that rotten food smells and causes illness → invisible germs on dirty hands.
+- Explaining **vaccination**: start from known experience that a person who once had measles does not get it again → vaccine gives the same protection safely.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
