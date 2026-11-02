@@ -32,7 +32,7 @@ Epidemiology; biostatistics and research; control of communicable and non-commun
 | Social medicine | Study of man as a social being in his total environment |
 | Community health | Health status of a community and organised action to improve it |
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
 
 ## DU.2
 **Aim**
@@ -64,7 +64,7 @@ Highest attainable level of health for the whole community (**Health for All**),
 
 Produce a **community-oriented doctor** who can diagnose community problems, run national programmes and lead the health team at primary level (Upazila and below).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
 
 ## DU.3
 **Differences between community medicine and clinical medicine**
@@ -89,7 +89,7 @@ Produce a **community-oriented doctor** who can diagnose community problems, run
 
 The two are **complementary**: clinical records feed community diagnosis; community medicine sets priorities and preventive measures that cut the clinical load.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
 
 ## DU.4
 **A. WHO "Five-star doctor" (C. Boelen, WHO)**
@@ -119,7 +119,7 @@ The two are **complementary**: clinical records feed community diagnosis; commun
 
 Doctors at Upazila Health Complexes provide first-referral care, supervise community clinics and run national programmes at field level.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1; WHO, The five-star doctor (Boelen C).
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine); WHO, The five-star doctor (Boelen C).
 
 ## DU.5
 **A. Professional qualities**
@@ -159,7 +159,7 @@ Plus **confidentiality**, truthfulness, no exploitation, no conflict of interest
 - Follows professional codes: Hippocratic Oath, WMA Declaration of Geneva (Physician's Pledge, 2017), BMDC Code of Professional Conduct, Etiquette and Ethics.
 - Earns and keeps **public trust**, the basis of the doctor–patient relationship.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1; WMA Declaration of Geneva, 2017.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine); WMA Declaration of Geneva, 2017.
 
 ## DU.6
 **Integrity**
@@ -191,7 +191,7 @@ Plus **confidentiality**, truthfulness, no exploitation, no conflict of interest
 
 Integrity = internal moral compass; accountability = external answerability. Together they ensure **patient safety** and **public trust**.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1; BMDC Code of Professional Conduct, Etiquette and Ethics.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine); BMDC Code of Professional Conduct, Etiquette and Ethics.
 
 ## DU.7
 **Definitions**
@@ -229,7 +229,7 @@ Integrity = internal moral compass; accountability = external answerability. Tog
 
 Public health = broad, multisectoral practice of society; community medicine = medical discipline that applies it.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
 
 ## DU.8
 **Phases (Park)**
@@ -255,7 +255,7 @@ Public health = broad, multisectoral practice of society; community medicine = m
 
 MDGs (2000–2015) → SDGs (2016–2030; **SDG 3**, target 3.8 **UHC**) → **Astana Declaration (2018)** renewing PHC.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
 
 ## DU.9
 **Period**
@@ -298,7 +298,7 @@ MDGs (2000–2015) → SDGs (2016–2030; **SDG 3**, target 3.8 **UHC**) → **A
 
 Disease control phase → **Health promotional phase** (1920–1960).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
 
 ## DU.10
 **Definition**
@@ -336,7 +336,7 @@ Adelaide 1988 (healthy public policy) → Sundsvall 1991 (supportive environment
 
 Tobacco control law (2005, amended 2013), salt iodisation, vitamin A campaigns, hand-washing promotion, Bureau of Health Education (DGHS).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1 & 2; WHO, Ottawa Charter for Health Promotion, 1986.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine; Concept of Health and Disease); WHO, Ottawa Charter for Health Promotion, 1986.
 
 ## DU.11
 **Period**
@@ -373,7 +373,7 @@ Tobacco control law (2005, amended 2013), salt iodisation, vitamin A campaigns, 
 
 NCDs now rising; social measures (girls' education, poverty reduction, social safety nets) improve health more than medical care alone.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine).
 
 ## DU.12
 **Latest phase (Park)**
@@ -409,7 +409,7 @@ NCDs now rising; social measures (girls' education, poverty reduction, social sa
 
 Current form of HFA = **UHC through PHC** under **SDG 3** by 2030.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1 & 7.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine; Health Care of the Community).
 
 ## DU.13
 **Definitions**
@@ -442,7 +442,7 @@ Current form of HFA = **UHC through PHC** under **SDG 3** by 2030.
 7. Health and its maintenance is a major **social investment**.
 8. Health is a **world-wide social goal**.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; WHO Constitution, 1948.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); WHO Constitution, 1948.
 
 ## DU.14
 **Changing concepts of health (Park)**
@@ -462,7 +462,7 @@ Biomedical → Ecological → Psychosocial → Holistic
 2. From **individual to community**; from doctor alone to **team and other sectors**.
 3. The WHO definition (1948) and PHC (Alma-Ata, 1978) reflect the **holistic** concept.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.15
 **Meaning**
@@ -495,7 +495,7 @@ Type 2 diabetes managed holistically: drugs + diet + exercise + foot and eye car
 | Doctor alone | Team, community and other sectors |
 | Hospital-based | Home, community and facility |
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.16
 **Five major dimensions**
@@ -525,7 +525,7 @@ Vocational (work satisfaction); philosophical, cultural, socio-economic, environ
 4. Lay people judge health by ability to **work, perform social roles and feel well**, not only by absence of disease.
 5. So health is **measured** by many indicators (mortality, morbidity, disability, quality of life) and **promoted** by holistic, intersectoral action.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.17
 **Definition**
@@ -562,7 +562,7 @@ Clinical interview; mental status examination; psychological tests (intelligence
 4. Promotion: life skills, school mental health, stress management, social support.
 5. Bangladesh: **Mental Health Act 2018**; mental health integrated into PHC.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2 & 15; WHO, Mental health: strengthening our response, 2022.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Mental Health); WHO, Mental health: strengthening our response, 2022.
 
 ## DU.18
 **A. Individual level**
@@ -592,7 +592,7 @@ Clinical interview; mental status examination; psychological tests (intelligence
 5. Screening programmes.
 6. Epidemiological studies (cross-sectional, cohort).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.19
 **Concept**
@@ -627,7 +627,7 @@ Health status indicators: CDR, IMR, U5MR, life expectancy, morbidity (incidence,
 | Under-5 mortality rate | 33 per 1000 live births (SVRS 2023) |
 | Crude death rate | 6.1 per 1000 population (SVRS 2023) |
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS, Bangladesh Sample Vital Statistics 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
 
 ## DU.20
 **Concept**
@@ -664,7 +664,7 @@ Positive health → Better health → Freedom from sickness → Unrecognised sic
 
 Life expectancy, health-adjusted life expectancy (HALE), quality-of-life scores, physical fitness tests.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.21
 **Meaning**
@@ -697,7 +697,7 @@ Health; food consumption; education; occupation and working conditions; housing;
 
 Bangladesh HDI **0.685**, rank **130 of 193**, medium human development (UNDP HDR 2025, 2023 data).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; UNDP HDR 2025 (TBS News, 2025), https://www.tbsnews.net/node/1135586
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); UNDP HDR 2025 (TBS News, 2025), https://www.tbsnews.net/node/1135586
 
 ## DU.22
 **Concept**
@@ -735,7 +735,7 @@ Objective conditions (income, housing, services) → personal perception (values
 
 Two people with the same standard of living may report very different quality of life; both components are needed.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; WHO, WHOQOL, 1995.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); WHO, WHOQOL, 1995.
 
 ## DU.23
 **Concept**
@@ -775,7 +775,7 @@ Biomedical → Ecological → Psychosocial → Holistic
 
 Treating a malnourished child's diarrhoea with ORS and drugs alone, without addressing water, sanitation, feeding and poverty → repeated illness.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.24
 **Definition**
@@ -804,7 +804,7 @@ Determinants of health = factors inside and outside the body whose interaction d
 
 Structural determinants (socio-political context; income, education, occupation, gender, ethnicity) → Intermediary determinants (living and working conditions, behaviours, psychosocial factors, health system) → Health and equity
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; WHO, Closing the gap in a generation (CSDH), 2008.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); WHO, Closing the gap in a generation (CSDH), 2008.
 
 ## DU.25
 **Health indicator**
@@ -836,7 +836,7 @@ A variable that helps measure changes in health status, directly or indirectly.
 No single indicator meets every criterion; a **set (profile)** of indicators is used.
 Five characteristics (short answer): valid, reliable, sensitive, specific, feasible (also relevant).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.26
 **A. Socio-economic conditions**
@@ -874,7 +874,7 @@ Poverty → illiteracy → harmful practices → ill health → loss of work →
 
 Health education, female education, poverty alleviation, social safety nets, culturally acceptable services, community participation.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2 & 12.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Medicine and Social Sciences).
 
 ## DU.27
 **Definition**
@@ -912,7 +912,7 @@ Principles of PHC: equitable distribution; **community participation**; intersec
 - Planned as one clinic per ~6,000 people within 30 minutes' walk (CCHST, 2025).
 - Others: NGO volunteers (e.g., BRAC *shasthya shebika*), union parishad health committees.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 7; Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
 
 ## DU.28
 **Definition**
@@ -940,7 +940,7 @@ Health indicators: variables that help measure changes in the health situation, 
 
 Mortality, morbidity, disability, nutritional status: they describe the health of people directly; the rest describe determinants and services.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053; Our World in Data, Bangladesh health profile, https://ourworldindata.org/profile/health/bangladesh
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053; Our World in Data, Bangladesh health profile, https://ourworldindata.org/profile/health/bangladesh
 
 ## DU.29
 **Why mortality indicators are good indicators**
@@ -974,7 +974,7 @@ Mortality, morbidity, disability, nutritional status: they describe the health o
 So they are combined with morbidity, disability (DALY, HALE) and quality-of-life indicators.
 Example: Bangladesh IMR 27 per 1000 live births (SVRS 2023).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
 
 ## DU.30
 **Definition**
@@ -1012,7 +1012,7 @@ PHC: 8 essential elements; 4 principles (equitable distribution, community parti
 
 HFA policy for the 21st century (WHA51.7, 1998) → MDGs (2000–2015) → **SDG 3 and UHC** (2016–2030) → **Astana Declaration (2018)**: PHC as the path to UHC.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 1 & 7.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Man and Medicine; Health Care of the Community).
 
 ## DU.31
 **Global indicators for HFA by 2000 (WHO, Global Strategy, 1981)**
@@ -1043,7 +1043,7 @@ HFA policy for the 21st century (WHA51.7, 1998) → MDGs (2000–2015) → **SDG
 | Health status indicators | 8–10 |
 | Social and economic indicators | 11–12 |
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.32
 **Health-related MDGs (2000–2015; baseline 1990)**
@@ -1072,7 +1072,7 @@ MMR baseline 574 per 100,000 LB (1990); 2015 target 143.
 
 SDG 3 (2016–2030), e.g., MMR <70/100,000 LB, U5MR ≤25 and NMR ≤12 per 1000 LB, UHC.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; GED/UNSD, From MDG to SDG monitoring: Bangladesh, 2015, https://unstats.un.org/sdgs/files/meetings/sdg-seminar-xian-2015/Presentation--1.2-From-MDG-to-SDG-Monitoring--Bangladesh.pdf
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); GED/UNSD, From MDG to SDG monitoring: Bangladesh, 2015, https://unstats.un.org/sdgs/files/meetings/sdg-seminar-xian-2015/Presentation--1.2-From-MDG-to-SDG-Monitoring--Bangladesh.pdf
 
 ## DU.33
 **Concept**
@@ -1117,7 +1117,7 @@ SDG 3 (2016–2030), e.g., MMR <70/100,000 LB, U5MR ≤25 and NMR ≤12 per 1000
 
 **SDGs** (September 2015): 17 goals, 169 targets, 2016–2030; universal; health in **SDG 3**.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; UNICEF, A Promise Renewed 2015 progress report, https://www.unicef.cn/en/press-releases/nearly-50-million-lives-saved-2000-millions-more-can-be-saved-2030-unicef-report
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); UNICEF, A Promise Renewed 2015 progress report, https://www.unicef.cn/en/press-releases/nearly-50-million-lives-saved-2000-millions-more-can-be-saved-2030-unicef-report
 
 ## DU.34
 **Health indicator**
@@ -1149,7 +1149,7 @@ Mortality; morbidity; disability; nutritional status; health care delivery; util
 - A **set** of indicators is needed; no single indicator captures health.
 - Support **advocacy and accountability** of governments and programmes.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.35
 **Definition**
@@ -1178,7 +1178,7 @@ Appropriate, comprehensive, adequate, available, accessible, affordable, feasibl
 
 Public (MOHFW: DGHS, DGFP), private, NGO; plus informal providers (village doctors, drug sellers).
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2 & 23; WHO, World Health Report 2000.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Health Care of the Community); WHO, World Health Report 2000.
 
 ## DU.36
 **Criteria of ideal health care (Park)**
@@ -1207,7 +1207,7 @@ Public (MOHFW: DGHS, DGFP), private, NGO; plus informal providers (village docto
 
 Acceptable (culturally), continuous, of good quality, with community participation.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2; WHO, Delivering quality health services, 2018.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease); WHO, Delivering quality health services, 2018.
 
 ## DU.37
 **Concept**
@@ -1247,7 +1247,7 @@ Acceptable (culturally), continuous, of good quality, with community participati
 
 Fragmented, episodic care treats only the disease; comprehensive care treats the person and the community.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2 & 23.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Health Care of the Community).
 
 ## DU.38
 **Components of comprehensive health care**
@@ -1275,7 +1275,7 @@ Promotive + preventive (1, 2) → Curative (3, 4) → Rehabilitative and palliat
 4. Disability limitation: management of complications and drug-resistant TB.
 5. Rehabilitation: vocational and social support.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.39
 **Medical care vs health care**
@@ -1299,7 +1299,7 @@ Promotive + preventive (1, 2) → Curative (3, 4) → Rehabilitative and palliat
 
 Health care = medical care + public health services + intersectoral support. Medical care is one essential component of health care.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 2.
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease).
 
 ## DU.40
 **a) Type of referral (1)**
@@ -1337,7 +1337,7 @@ Also by urgency: **emergency** vs **routine (elective)** referral. A proper refe
 
 Weak enforcement, frequent self-referral, poor transport and ambulance services, little feedback, staff and drug shortages at lower levels.
 
-**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed., Ch. 23; Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Care of the Community); Daily Observer (bdnews24), 2025, https://www.observerbd.com/news/540274
 
 ## DU.41
 **Definition (Alma-Ata Declaration, 1978)**
