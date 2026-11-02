@@ -15740,3 +15740,563 @@ Strong cell-mediated immunity, few bacilli ⟶ weak immunity, many bacilli
 **Bangladesh**: polio-free (SEAR certified 2014) through EPI, NIDs and AFP surveillance; risk of importation and cVDPV remains.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.626
+**Epidemiological basis of polio eradication**
+
+1. **Man is the only reservoir**; no animal or environmental reservoir.
+2. **No long-term carriers**; virus survives only briefly outside the host.
+3. **Most infections are subclinical** but still give immunity → wide natural and vaccine-induced immunity possible.
+4. **Effective, cheap, easy oral vaccine (OPV)** gives **gut (mucosal) immunity** that blocks transmission; vaccine virus spreads to contacts (herd effect).
+5. **Long-lasting, type-specific immunity**.
+6. **Seasonal transmission** → campaigns timed in the low season.
+7. **Good surveillance tools**: AFP surveillance with stool culture; environmental (sewage) surveillance.
+8. Success of smallpox eradication showed feasibility.
+
+**Approach (WHO strategies)**
+
+| Strategy | Purpose |
+|---|---|
+| High **routine immunisation** (bOPV + IPV) | Baseline immunity |
+| **Supplementary immunisation** (NIDs, sub-NIDs) | Extra OPV to all under-5s at once → interrupt transmission |
+| **AFP surveillance** (non-polio AFP rate ≥2/100,000 under-15s; 2 stool samples within 14 days) | Detect any circulating virus |
+| **Mop-up** campaigns | House-to-house OPV where virus found |
+| Environmental surveillance | Detect silent circulation |
+| **OPV withdrawal** (tOPV → bOPV switch 2016; IPV introduction) | Eliminate vaccine-derived polio |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.627
+**Polio eradication programme in Bangladesh**
+
+1. **Routine immunisation (EPI)**: bOPV at 6, 10, 14 weeks; **fractional IPV** at 6 and 14 weeks.
+2. **National Immunisation Days** (since 1995) with OPV for all under-5s; often with vitamin A.
+3. **AFP surveillance** with laboratory confirmation (national polio laboratory, IPH) and WHO support.
+4. **Environmental surveillance** of sewage in selected sites.
+5. **Mop-up** and outbreak response plans; high-risk areas (border, hard-to-reach, Rohingya camps).
+6. Last wild polio case in **2006**; **SEAR certified polio-free in 2014**.
+7. Maintaining polio-free status: high coverage, surveillance, preparedness for importation and cVDPV.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.628
+**Why IPV has been introduced**
+
+1. **Polio endgame**: after **wild poliovirus type 2 eradication** (certified 2015), the **type 2 component was removed** from OPV (trivalent OPV → **bivalent OPV**, April 2016). IPV (containing types 1, 2, 3) maintains **immunity against type 2**.
+2. **Protects against vaccine-derived polio**: OPV can rarely cause **VAPP** and **cVDPV**; IPV is inactivated and cannot.
+3. **Closes immunity gaps**: boosts humoral immunity and **intestinal immunity** in children already given OPV → stronger protection against all types.
+4. Prepares for **eventual withdrawal of all OPV** after global eradication.
+5. Safe in immunocompromised children.
+
+**In Bangladesh**: **fractional IPV (0.1 ml intradermal)** at 6 and 14 weeks: dose-sparing, good immunity, saves scarce vaccine.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.629
+**Modes of transmission of hepatitis B virus (HBV)**
+
+**A. Parenteral (blood-borne)**
+
+1. Transfusion of unscreened **blood and blood products**.
+2. **Unsafe injections**: reused needles and syringes; injecting drug use.
+3. **Needle-stick injuries** in health workers.
+4. Unsterile **surgical and dental** instruments; haemodialysis.
+5. Tattooing, ear-piercing, circumcision, barbers' razors, shared toothbrushes.
+
+**B. Sexual**
+
+Unprotected sexual contact with an infected partner (semen, vaginal fluids).
+
+**C. Perinatal (vertical)**
+
+From **HBsAg-positive (especially HBeAg-positive) mother** to baby, mainly at birth → up to 90% of infected babies become chronic carriers.
+
+**D. Horizontal (household)**
+
+Close contact among children through cuts, sores, shared items.
+
+**Not spread** by food, water, casual contact, breastfeeding (with infant vaccination).
+
+**Infective materials**: blood (most), semen, vaginal secretions, saliva (less).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.630
+**Prevention of HBV infection**
+
+1. **Hepatitis B vaccination**: infants (birth dose + pentavalent), health workers, high-risk adults.
+2. **Prevent mother-to-child transmission**: screen pregnant women; **birth dose vaccine + HBIG** for babies of HBsAg-positive mothers; antiviral (tenofovir) for mothers with high viral load.
+3. **Safe blood**: screen donors (HBsAg, anti-HBc where possible).
+4. **Safe injections**: auto-disable syringes; no reuse.
+5. **Sterilisation** of instruments; infection control in hospitals and dental clinics.
+6. **Safe sex**: condoms.
+7. Harm reduction for injecting drug users.
+8. **Post-exposure prophylaxis** (HBIG + vaccine).
+9. Health education; avoid sharing razors, toothbrushes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.631
+**Health worker exposed to HBV (e.g., needle-stick)**
+
+1. **First aid**: wash wound with soap and water; do not squeeze; flush mucosa with water.
+2. **Report** and document; assess exposure and source (test source for HBsAg with consent).
+3. **Baseline tests** of the worker: HBsAg, anti-HBs (also HCV, HIV).
+4. **Post-exposure prophylaxis by vaccination status** (source HBsAg-positive or unknown high-risk):
+
+| Worker | Action |
+|---|---|
+| Unvaccinated | **HBIG** (0.06 ml/kg IM, within 24 hours) + start **hepatitis B vaccine** series |
+| Vaccinated, responder (anti-HBs ≥10 mIU/ml) | No treatment |
+| Vaccinated, non-responder | HBIG ×2 (1 month apart) or HBIG + revaccination |
+| Vaccinated, response unknown | Test anti-HBs: adequate → none; inadequate → HBIG + booster |
+
+5. **Follow-up** testing at ~6 months; counselling.
+6. Prevention: no recapping, sharps boxes, vaccinate all health workers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases; Occupational Health).
+
+## DU.632
+**Hepatitis A vs hepatitis C**
+
+| Point | Hepatitis A | Hepatitis C |
+|---|---|---|
+| Virus | HAV (RNA, picornavirus) | HCV (RNA, flavivirus) |
+| Transmission | **Faeco-oral** (water, food) | **Parenteral** (blood, unsafe injections, transfusion, IDU); less sexual and perinatal |
+| Incubation period | 15–45 days (~4 weeks) | 2 weeks–6 months (~6–9 weeks) |
+| Age | Children, young adults | Adults |
+| Onset | Acute | Insidious; mostly asymptomatic |
+| Chronicity | **None** | **~70–80% become chronic** |
+| Complications | Rare fulminant hepatitis | Cirrhosis, hepatocellular carcinoma |
+| Carrier state | No | Yes |
+| Vaccine | **Available** | **None** |
+| Treatment | Supportive | **Direct-acting antivirals** (curative) |
+| Prevention | Safe water, sanitation, hygiene, vaccine | Safe blood and injections, harm reduction |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.633
+**Window period in hepatitis B**
+
+**1. Serological ("core") window**
+
+Period during recovery from acute HBV after **HBsAg has disappeared** but **before anti-HBs appears**; only **IgM anti-HBc** is detectable.
+
+**2. Pre-seroconversion (infectious) window**
+
+Early infection **before HBsAg becomes detectable** by tests, though the person may already be infectious.
+
+**Importance**
+
+1. **Missed diagnosis**: testing only HBsAg will miss acute infection; **anti-HBc IgM** must be tested.
+2. **Blood safety**: donors in the window period may test HBsAg-negative yet transmit infection → need sensitive tests, anti-HBc and **nucleic acid testing (NAT)**, careful donor selection (voluntary, low-risk donors).
+3. **Interpretation of serology**: helps distinguish acute, resolving, chronic and past infection.
+4. **Post-exposure follow-up** must be long enough (≈6 months).
+5. Epidemiological surveys and screening programmes must account for it.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.634
+**Hepatitis B vaccine schedule**
+
+**A. Infants**
+
+| Dose | Timing |
+|---|---|
+| **Birth dose** (WHO recommends for all) | Within **24 hours** of birth |
+| Doses 2–4 | With **pentavalent** (DPT-HepB-Hib) at **6, 10, 14 weeks** (Bangladesh EPI) |
+
+Babies of HBsAg-positive mothers: birth dose **+ HBIG** within 12–24 hours.
+
+**B. Adults and older children (unvaccinated, high-risk, health workers)**
+
+| Schedule | Doses |
+|---|---|
+| Standard | **0, 1, 6 months** |
+| Accelerated | 0, 1, 2 months + booster at 12 months |
+| Rapid (urgent) | 0, 7, 21 days + booster at 12 months |
+
+**Dose and route**
+
+0.5 ml (children ≤19 years), 1 ml (adults), **intramuscular** (anterolateral thigh in infants, deltoid in adults); not in the buttock.
+
+**Notes**
+
+Recombinant (HBsAg) vaccine; ~95% protection; routine boosters not needed for healthy people; health workers should check anti-HBs after vaccination.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.635
+**Assessment of dehydration (WHO / IMCI)**
+
+| Sign | No dehydration | Some dehydration | Severe dehydration |
+|---|---|---|---|
+| General condition | Well, alert | **Restless, irritable** | **Lethargic or unconscious** |
+| Eyes | Normal | Sunken | Sunken |
+| Drinking | Drinks normally | **Thirsty, drinks eagerly** | **Drinks poorly / unable** |
+| Skin pinch | Goes back quickly | Goes back **slowly** | Goes back **very slowly (>2 s)** |
+
+(Two or more signs in a column decide the classification.)
+
+**Management**
+
+| Plan | Classification | Treatment |
+|---|---|---|
+| **Plan A** (home) | No dehydration | **Extra fluids**: ORS after each loose stool (<2 years: 50–100 ml; 2–10 years: 100–200 ml; older: as much as wanted); **zinc** for 10–14 days (10 mg/day <6 months; 20 mg/day ≥6 months); **continue feeding / breastfeeding**; return if danger signs |
+| **Plan B** (facility) | Some dehydration | **ORS 75 ml/kg over 4 hours** under observation; continue breastfeeding; reassess after 4 hours; then Plan A; zinc |
+| **Plan C** (urgent) | Severe dehydration | **IV Ringer's lactate 100 ml/kg** (see below); reassess every 1–2 hours; ORS as soon as able to drink; if IV impossible: **nasogastric ORS 20 ml/kg/hour for 6 hours**; refer |
+
+**Plan C rates**
+
+| Age | First 30 ml/kg in | Then 70 ml/kg in |
+|---|---|---|
+| Infants <12 months | 1 hour | 5 hours |
+| ≥12 months | 30 minutes | 2½ hours |
+
+**Antibiotics** only for **dysentery** (blood in stool) and suspected **cholera** with severe dehydration; no antidiarrhoeal drugs in children.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.636
+**Classification of diarrhoeal diseases by causative agent**
+
+| Group | Agents |
+|---|---|
+| **Viral** | **Rotavirus** (commonest in infants), norovirus, adenovirus (enteric), astrovirus |
+| **Bacterial** | ***Vibrio cholerae***, **enterotoxigenic *E. coli*** (ETEC), EPEC, EHEC, ***Shigella***, ***Salmonella***, *Campylobacter*, *Clostridioides difficile*, *Yersinia*; toxins of *S. aureus*, *B. cereus* |
+| **Protozoal** | ***Entamoeba histolytica***, ***Giardia lamblia***, *Cryptosporidium*, *Cyclospora* |
+| **Helminthic** | *Strongyloides*, heavy *Trichuris* infection |
+| Non-infectious | Food intolerance, drugs, toxins |
+
+**Clinical types**: acute watery diarrhoea (including cholera), **dysentery** (bloody), **persistent diarrhoea** (≥14 days).
+
+**Prevention in the locality**
+
+1. **Safe drinking water**: tube wells, boiling, chlorination.
+2. **Sanitary latrines**; end open defecation; safe disposal of child faeces.
+3. **Hand-washing with soap** at critical times.
+4. **Food hygiene**: cook well, eat hot, cover food; avoid unsafe street food.
+5. **Exclusive breastfeeding**; safe complementary feeding.
+6. **Vaccination**: measles (and rotavirus, cholera vaccines where available).
+7. **Vitamin A**; nutrition.
+8. **Fly control**; refuse disposal.
+9. **Health education**; ORS and zinc at home.
+10. Surveillance and early outbreak response.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.637
+**Diarrhoeal disease: a major public health problem in Bangladesh**
+
+1. Among the **leading causes of illness and death** in children under 5.
+2. **Vicious cycle with malnutrition** → stunting, poor development.
+3. **Frequent outbreaks**: cholera, acute watery diarrhoea, especially after **floods** and in the pre-monsoon season.
+4. Large **burden on hospitals** (e.g., icddr,b Dhaka hospital) and families (cost, lost work).
+5. Linked to **unsafe water, poor sanitation and hygiene**, urban slums, Rohingya camps.
+6. Affects all ages; typhoid, hepatitis E also water-borne.
+
+**Suggestions**
+
+ORS + zinc for all cases; WASH; breastfeeding; vaccines (measles; cholera and rotavirus where feasible); vitamin A; health education; surveillance and outbreak response; flood preparedness; research.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.638
+**Management of severe dehydration (Plan C)**
+
+**1. Start IV fluid immediately**
+
+**Ringer's lactate** (or normal saline / cholera saline) **100 ml/kg**:
+
+| Age | First 30 ml/kg | Then 70 ml/kg |
+|---|---|---|
+| Infants <12 months | In 1 hour | In 5 hours |
+| ≥12 months (and adults) | In 30 minutes | In 2½ hours |
+
+Repeat the first 30 ml/kg once if radial pulse is still weak.
+
+**2. Monitor**
+
+Reassess every 15–30 minutes until pulse is strong, then every 1–2 hours: pulse, consciousness, eyes, skin pinch, urine output, stool volume.
+
+**3. ORS**
+
+Start **ORS (5 ml/kg/hour)** as soon as the patient can drink (3–4 hours in infants, 1–2 hours in older).
+
+**4. Reassess after IV course**
+
+Severe → repeat Plan C; some → Plan B; none → Plan A.
+
+**5. If IV not possible**
+
+**Nasogastric ORS 20 ml/kg/hour for 6 hours** (120 ml/kg) or refer urgently (start ORS by mouth on the way).
+
+**6. Other**
+
+1. **Antibiotics** for suspected **cholera** (e.g., azithromycin single dose; doxycycline in adults) or dysentery.
+2. **Zinc** 10–14 days (children).
+3. Continue breastfeeding and feeding once able.
+4. Treat complications: hypokalaemia, hypoglycaemia, acidosis.
+5. Notify cholera; disinfect stools; health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.639
+**Prevention and control of diarrhoea**
+
+**A. Treatment (reduces deaths)**
+
+1. **Oral rehydration therapy** (ORS; home fluids).
+2. **Zinc** for 10–14 days.
+3. **Continued feeding** and breastfeeding.
+4. Appropriate antibiotics for dysentery and cholera only.
+
+**B. Prevention (WHO/UNICEF 7-point plan)**
+
+1. **Rotavirus and measles vaccination**.
+2. **Early and exclusive breastfeeding**; **vitamin A** supplementation.
+3. **Hand-washing with soap**.
+4. Improved **water supply** (quantity and quality), household water treatment and safe storage.
+5. **Community-wide sanitation**.
+
+**C. Other measures**
+
+1. Food hygiene; safe complementary feeding.
+2. Fly control; refuse disposal.
+3. **Oral cholera vaccine** in high-risk areas and outbreaks.
+4. **Surveillance** and early outbreak response (case finding, chlorination, ORS corners).
+5. **Health education** and community mobilisation.
+6. Nutrition improvement (break malnutrition–infection cycle).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.640
+**Sanitation measures to control cholera**
+
+1. **Safe water supply**: chlorination of sources, boiling, household chlorine tablets; disinfection of wells.
+2. **Sanitary excreta disposal**: latrines; stop open defecation.
+3. **Disinfection** of patients' stools, vomit, clothes and bedding (concurrent disinfection; 1–2% chlorine solution).
+4. **Food sanitation**: cook well, eat hot; avoid raw seafood, cut fruits, street food; food handlers' hygiene.
+5. **Hand-washing** with soap.
+6. **Fly control** and refuse disposal.
+7. Safe handling and burial of dead bodies.
+8. Health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.641
+**Role of icddr,b in control of diarrhoeal diseases**
+
+icddr,b (International Centre for Diarrhoeal Disease Research, Bangladesh), Dhaka: began as the Cholera Research Laboratory (1960); international centre since 1978.
+
+| Area | Contributions |
+|---|---|
+| **Research** | Development and field-testing of **ORS** (and reduced-osmolarity ORS); evidence for **zinc** treatment; **oral cholera vaccine** trials; rotavirus and typhoid research; aetiology studies |
+| **Clinical care** | **Dhaka Hospital** ("cholera hospital") and Matlab hospital: free treatment of very large numbers of diarrhoea patients every year; low mortality protocols |
+| **Treatment protocols** | Standard rehydration and case-management guidelines, malnutrition protocols, adopted nationally and by WHO |
+| **Surveillance** | Diarrhoeal disease surveillance, antimicrobial resistance monitoring, outbreak detection |
+| **Training** | National and international training of doctors, nurses, health workers |
+| **Community programmes** | Matlab health and demographic surveillance; WASH, hand-washing and household water treatment research |
+| **Policy support** | Advises MOHFW and WHO; national diarrhoea and zinc scale-up |
+| **Emergency response** | Cholera and diarrhoea outbreaks, floods, Rohingya camps |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.642
+**Health education during a diarrhoea outbreak**
+
+1. **Drink safe water**: boiled or chlorinated (tablets, bleaching solution); store covered; do not use pond or river water.
+2. **Wash hands with soap**: after toilet and cleaning a child, before preparing food, eating and feeding.
+3. **Use latrines**; dispose of children's faeces safely; no open defecation.
+4. **Food hygiene**: cook thoroughly, eat hot, cover food; avoid raw salads, cut fruits and street food; wash utensils with safe water.
+5. **Start ORS early** at home; learn to prepare ORS correctly; give after every loose stool.
+6. **Give zinc** to children for 10–14 days.
+7. **Continue breastfeeding and feeding** during diarrhoea.
+8. **Danger signs** → go to a health facility immediately: frequent watery stools, repeated vomiting, sunken eyes, unable to drink, lethargy, blood in stool, fever.
+9. **Do not use** antidiarrhoeal drugs or antibiotics without advice.
+10. **Report** new cases to health workers; cooperate with chlorination and disinfection.
+11. Keep flies away; dispose of rubbish properly.
+
+**Channels**: miking, community meetings, imams, schools, CHWs, mobile messages, leaflets with pictures.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases; Communication for Health Education).
+
+## DU.643
+**Hookworm prevention and control (Park)**
+
+1. **Chemotherapy**: mass or targeted **deworming** (albendazole 400 mg single dose; mebendazole) of school children and high-risk groups, periodically.
+2. **Sanitation**: sanitary excreta disposal; stop open defecation (breaks transmission at source).
+3. **Health education**: **wear footwear**, use latrines, wash hands.
+4. **Iron supplementation** and nutrition to correct anaemia.
+5. Treatment of cases; surveillance (stool examination).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.644
+**Prevention of taeniasis (*Taenia solium*, *T. saginata*)**
+
+1. **Meat inspection** in slaughter houses; condemn measly (cysticercus-infected) meat.
+2. **Thorough cooking** of pork and beef; avoid raw or undercooked meat; freezing kills cysts.
+3. **Sanitary excreta disposal**: prevent pigs and cattle from eating human faeces.
+4. **Treatment of carriers** (praziquantel, niclosamide).
+5. **Personal hygiene** and hand-washing (prevents cysticercosis from *T. solium* eggs).
+6. **Pig husbandry**: confine pigs.
+7. Health education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.645
+**Diagnosis of enteric (typhoid) fever**
+
+**A. Clinical**
+
+Step-ladder fever, headache, malaise, abdominal pain, constipation or diarrhoea; coated tongue, relative bradycardia, tender abdomen, hepatosplenomegaly, rose spots; history of unsafe food or water.
+
+**B. Laboratory**
+
+| Test | Remarks |
+|---|---|
+| **Blood culture** | Test of choice; best in **first week** |
+| **Bone marrow culture** | Most sensitive (even after antibiotics) |
+| Stool and urine culture | Positive from 2nd–3rd week; detect carriers |
+| **Widal test** | Antibodies from 2nd week; rising titre more useful; low specificity in endemic areas |
+| Rapid antibody tests (Typhidot etc.) | Supportive |
+| CBC | Leucopenia, relative lymphocytosis |
+| LFT | Raised enzymes |
+
+**Management**
+
+1. **Antibiotics** (guided by local resistance; high fluoroquinolone resistance in Bangladesh):
+   - Uncomplicated: **oral azithromycin** (7 days) or cefixime.
+   - Severe / complicated: **IV ceftriaxone** (10–14 days).
+   - Change according to culture sensitivity (carbapenem for extensively resistant strains).
+2. **Supportive**: rest, fluids, nutritious soft diet, paracetamol (no NSAIDs).
+3. **Complications**: watch for intestinal bleeding and perforation (surgery), encephalopathy.
+4. **Follow-up**: stool cultures to detect carriers; treat carriers (prolonged antibiotics, cholecystectomy if gallstones).
+5. **Public health**: notification; exclude food handlers until negative cultures; hygiene; **typhoid conjugate vaccine**; safe water and food.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.646
+**Complications of typhoid fever**
+
+1. **Intestinal haemorrhage** and **perforation** (usually 3rd week) → peritonitis.
+2. **Toxic myocarditis**; shock.
+3. **Hepatitis**, cholecystitis.
+4. **Typhoid encephalopathy**, meningitis, psychosis.
+5. Pneumonia, bronchitis.
+6. Osteomyelitis, arthritis.
+7. Nephritis; DIC.
+8. **Relapse**.
+9. **Chronic carrier state** (gall bladder).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.647
+**Environmental and behavioural factors in typhoid transmission**
+
+**Environmental**
+
+1. **Unsafe drinking water**: contaminated piped supply (leaking pipes near sewers), wells.
+2. **Poor sanitation**; open defecation; inadequate sewage treatment.
+3. **Flies**; refuse.
+4. **Floods**, monsoon; crowding in slums.
+5. Vegetables irrigated with sewage.
+
+**Behavioural**
+
+1. Eating **street food**, raw salads, cut fruits, ice, ice cream.
+2. Poor **hand-washing**.
+3. **Carriers working as food handlers**.
+4. Not boiling water; unsafe storage.
+5. Self-medication with antibiotics (resistance, carriers).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.648
+**Recent dengue crisis in Bangladesh**
+
+**A. Situation**
+
+1. Dengue became a major problem from 2000; large outbreak in **2019** (over 100,000 hospitalised cases).
+2. **2023: the worst epidemic** so far, with about **321,000 hospitalised cases and over 1,700 deaths** (DGHS data); high transmission continued in following years.
+3. Spread from **Dhaka to all 64 districts**, including rural areas.
+4. Season lengthened; cases now occur almost **year-round**, peaking in **July–October**.
+5. Shift in **serotypes** (e.g., DENV-2, DENV-3) → more severe secondary infections; higher case fatality.
+
+**B. Causes**
+
+1. **Unplanned urbanisation**, construction sites, stored water, discarded containers, poor waste management.
+2. **Climate change**: higher temperature, longer and erratic monsoon.
+3. Spread of ***Aedes albopictus*** to rural areas.
+4. **Weak vector control**: irregular larval surveillance, insecticide resistance, fogging over source reduction.
+5. Low **community participation** and awareness.
+6. **Health system strain**: crowded hospitals, late presentation, limited fluid-management capacity outside Dhaka.
+
+**C. Gaps and lessons**
+
+Need for year-round **integrated vector management**, strong surveillance (Breteau index), early detection (NS1 testing), standard case management at all levels, decentralised care, coordination between city corporations, DGHS and communities, research (vaccines, *Wolbachia*).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.649
+**Epidemiology of dengue**
+
+| Factor | Details |
+|---|---|
+| **Agent** | Dengue virus (flavivirus), **4 serotypes** (DENV-1 to 4); infection gives lifelong immunity to that serotype only |
+| **Vector** | ***Aedes aegypti*** (main, urban, day-biter); *Ae. albopictus* (peri-urban, rural) |
+| **Reservoir** | Man and mosquito (transovarial transmission in mosquitoes) |
+| **Host** | All ages; **secondary infection with a different serotype** → higher risk of **severe dengue** (antibody-dependent enhancement); infants, elderly, pregnant women, people with comorbidities at risk |
+| **Environment** | **Monsoon (June–October)**, warm, humid; urban containers holding clean water; construction sites |
+| **Transmission** | Bite of infected female *Aedes* |
+| **Extrinsic incubation** | 8–12 days in mosquito |
+| **Incubation period** | **4–10 days** (3–14) |
+| **Clinical (WHO 2009)** | Dengue without warning signs; dengue **with warning signs** (abdominal pain, persistent vomiting, bleeding, lethargy, liver enlargement, rising haematocrit with falling platelets); **severe dengue** (shock, severe bleeding, organ failure) |
+
+**Preventive measures in the present situation of Bangladesh**
+
+1. **Source reduction**: weekly emptying, cleaning and covering of water containers; remove tyres and trash; manage construction sites, rooftop gardens.
+2. **Larviciding** (temephos, Bti) where containers cannot be removed.
+3. **Targeted adult control** (fogging) around cases in outbreaks.
+4. **Entomological surveillance** (Breteau index) and case surveillance, year-round.
+5. **Personal protection**: daytime nets, repellents, long clothes, screens.
+6. **Community mobilisation** and school campaigns; legal action against breeding sites.
+7. **Early diagnosis (NS1)** and **standard case management** (fluids, avoid NSAIDs) at all levels to prevent deaths.
+8. Intersectoral coordination (city corporations, local government, DGHS).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
+
+## DU.650
+**Control and prevention of dengue (DF / DHF)**
+
+**A. Vector control (main measure)**
+
+| Approach | Measures |
+|---|---|
+| **Environmental (source reduction)** | Eliminate container breeding sites; cover water storage; proper solid waste disposal; weekly cleaning; piped water supply |
+| **Chemical** | Larvicides (temephos), adulticides (space spraying in outbreaks) |
+| **Biological** | Larvivorous fish, copepods, Bti; *Wolbachia*-infected mosquitoes (research) |
+| **Integrated vector management** | Combination with community participation |
+
+**B. Personal protection**
+
+Bed nets (including daytime), repellents, long-sleeved clothes, window screens, coils and vaporisers.
+
+**C. Surveillance**
+
+Case surveillance and early warning; entomological indices (house, container, **Breteau** index); lab confirmation (NS1, IgM).
+
+**D. Case management (prevent deaths)**
+
+Early diagnosis; careful **fluid management**; monitoring haematocrit and platelets; recognise warning signs; avoid aspirin/NSAIDs; refer severe cases.
+
+**E. Community and intersectoral action**
+
+Health education; community clean-up drives; school involvement; legislation; coordination of city corporations, DGHS, DPHE.
+
+**F. Vaccines**
+
+Dengue vaccines exist (e.g., TAK-003, recommended by WHO for some high-transmission settings) but are not part of Bangladesh's routine programme.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Epidemiology of Communicable Diseases).
