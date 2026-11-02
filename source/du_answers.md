@@ -13776,3 +13776,990 @@ Line list of cases; food-specific attack rates; samples of food, vomit, stool; i
 Food hygiene; cooking thoroughly; refrigeration; healthy food handlers; safe water.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.526
+**Prevention of road traffic accidents (RTA)**
+
+**A. Data and research**: accident surveillance, black-spot identification.
+
+**B. Measures (Haddon's approach: human, vehicle, environment; before, during, after crash)**
+
+| Area | Measures |
+|---|---|
+| **Human (driver, pedestrian)** | Driver training and licensing; **no drunk driving**; speed limits; **helmets** (motorcyclists, cyclists), **seat belts**, child restraints; ban mobile phone use while driving; rest for drivers (no fatigue); health check of drivers (vision); road-safety education in schools |
+| **Vehicle** | Fitness certificates; brakes, lights, tyres; ban unfit and overloaded vehicles; speed governors; safer designs |
+| **Road environment** | Good roads, footpaths, **foot-overbridges / zebra crossings**, separate lanes for slow vehicles, road dividers, signs, street lights, removal of black spots, traffic signals |
+| **Enforcement and legislation** | Road Transport Act 2018; traffic police; fines; CCTV; ban on illegal vehicles on highways |
+| **Post-crash care** | First aid by trained bystanders; **ambulance services**; trauma centres; emergency number (999); rehabilitation |
+
+**Bangladesh priorities**: highways (buses, trucks, motorcycles), pedestrian safety, reckless and unlicensed driving, overloading, poor enforcement.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.527
+**Role of pedestrians in preventing RTA in Dhaka**
+
+1. Use **footpaths**, foot-overbridges, underpasses and **zebra crossings**.
+2. Cross only at signals; **look right–left–right**; never run across.
+3. Do not cross between parked vehicles, near bends or in front of buses.
+4. Avoid using **mobile phones / earphones** while walking or crossing.
+5. Walk **facing oncoming traffic** where there is no footpath.
+6. Wear light or reflective clothing at night.
+7. Hold children's hands; teach them road rules.
+8. Do not get on or off **moving buses**.
+9. Obey traffic police and signals.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.528
+**Epidemiological triad of accidents**
+
+Agent ↔ Host ↔ Environment
+
+| Component | Factors | Example (road accident) |
+|---|---|---|
+| **Agent** | **Energy** transferred to the body: mechanical (kinetic), thermal, chemical, electrical, radiation | Speed of a bus (kinetic energy) |
+| **Host (human)** | Age (children, elderly), sex (young males), alcohol and drugs, fatigue, inexperience, poor vision, illness (epilepsy), personality (risk-taking), not using helmet/seat belt | Untrained, sleepy driver |
+| **Environment** | Physical: road design, lighting, weather, traffic density; vehicle condition; social: laws, enforcement, culture, poverty | Narrow highway, fog, no divider, weak enforcement |
+
+**Primary factors in accidents**
+
+1. **Human**: unsafe behaviour (speeding, drunk driving), fatigue.
+2. **Vehicle / machine**: defects, overloading.
+3. **Environment**: unsafe roads, poor lighting, weather.
+4. **Socio-economic**: poverty, poor laws and enforcement.
+
+**Use**
+
+Plan prevention at each arm (Haddon matrix): educate drivers, maintain vehicles, improve roads.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.529
+**Industrial accidents**
+
+**A. Underlying causes**
+
+| Group | Factors |
+|---|---|
+| **Human** | Lack of training, fatigue (long hours), carelessness, alcohol/drugs, inexperience, illiteracy, young or old workers |
+| **Machine / equipment** | Unguarded machinery, faulty equipment, lack of maintenance |
+| **Environment** | Poor lighting, noise, heat, slippery floors, overcrowding, poor ventilation, **unsafe buildings**, faulty wiring, locked or blocked exits |
+| **Management** | Production pressure, no safety policy or committee, no PPE, poor supervision |
+| **Legal** | Weak enforcement of safety laws, few inspectors |
+
+**Bangladesh examples**: Tazreen garment factory fire (2012), **Rana Plaza** building collapse (2013), chemical warehouse fires in old Dhaka, ship-breaking accidents.
+
+**B. Preventive measures**
+
+1. **Safe building design** and structural inspection; building codes.
+2. **Fire safety**: open exits, fire doors, alarms, extinguishers, sprinklers, drills.
+3. **Electrical safety**; machine guarding; maintenance.
+4. **PPE**: helmets, gloves, goggles, safety shoes.
+5. **Training** of workers and supervisors; safety committees.
+6. Reasonable **working hours**; rest breaks.
+7. **Good housekeeping**: clean, uncluttered floors; safe storage of chemicals.
+8. **Inspection and enforcement** (Bangladesh Labour Act; DIFE).
+9. First aid, emergency response, ambulance; compensation and rehabilitation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries; Occupational Health).
+
+## DU.530
+**Common domestic accidents**
+
+1. **Falls** (stairs, roofs, beds, wet floors) — children and elderly.
+2. **Burns and scalds** (cooking fires, hot liquids, kerosene lamps, gas cylinder explosions).
+3. **Drowning** (ponds, buckets) — children 1–4 years.
+4. **Poisoning** (kerosene, medicines, pesticides, cleaning agents).
+5. **Cuts and injuries** (knives, glass, sharp tools).
+6. **Electric shock**.
+7. **Choking** / foreign bodies.
+8. **Animal bites** (dog, snake).
+9. Suffocation; gas leaks.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.531
+**Causes of domestic accidents**
+
+1. **Host**: young children (curious, unsupervised), elderly (poor vision, weak), alcohol, epilepsy.
+2. **Unsafe home design**: no railings, steep stairs, open ponds or wells nearby, poor lighting.
+3. **Unsafe cooking**: open stoves at floor level, loose clothing, kerosene, leaking gas.
+4. **Unsafe storage** of medicines, kerosene, pesticides within children's reach.
+5. **Faulty electrical wiring**.
+6. **Lack of supervision** (busy mothers).
+7. **Overcrowding**, poverty.
+8. Lack of awareness and first-aid knowledge.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.532
+**Prevention of domestic accidents**
+
+| Accident | Preventive measures |
+|---|---|
+| **Falls** | Railings on stairs, balconies, roofs; good lighting; non-slip floors; keep floors dry; bed rails; support for elderly |
+| **Burns** | Raised, enclosed stoves; keep children away from kitchen; avoid loose clothing (sari, orna) while cooking; safe gas cylinders and pipes; fire extinguisher; matches out of reach |
+| **Drowning** | **Fence or cover ponds, wells, buckets**; supervise children; crèches (day care); swimming lessons for children aged ≥6 |
+| **Poisoning** | Store medicines, kerosene, pesticides **locked** and out of reach; original labelled containers |
+| **Electric shock** | Safe wiring, earthing, socket covers, circuit breakers |
+| **Cuts** | Store knives and glass safely |
+| **Choking** | Keep small objects away from infants; age-appropriate food |
+
+**General**: health education of mothers and families; safer home design; **first-aid** training; emergency numbers; community awareness.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.533
+**Prevention and control of fire accidents in urban areas**
+
+**A. Prevention**
+
+1. **Building codes**: fire-resistant materials, **adequate exits**, fire escapes, wide stairs; no locked exits.
+2. **Ban hazardous storage** (chemicals, gas cylinders) in residential areas (e.g., old Dhaka); relocate chemical warehouses.
+3. **Safe electrical wiring**; avoid overloaded connections; inspection.
+4. **Safe gas use**: check cylinders and pipelines for leaks.
+5. **Fire detection**: smoke detectors, alarms; **extinguishers**, hydrants, sprinklers.
+6. **Fire drills** and staff training in factories, hospitals, schools, markets.
+7. Public awareness; no smoking near flammables.
+8. Regular **inspection and enforcement** by Fire Service and city authorities.
+
+**B. Control / response**
+
+1. **Early alarm** (999), evacuation plans.
+2. Accessible roads for fire engines; water sources.
+3. Well-equipped, trained **fire service**.
+4. **Burn units**, ambulances, trauma care.
+5. Rehabilitation, compensation, psychological support.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.534
+**Snake bite: prevention and control**
+
+**A. Prevention**
+
+1. Wear **boots**, cover legs when working in fields; use a **torch** at night.
+2. Sleep on a raised bed under a **bed net**.
+3. Keep houses and surroundings clean; remove rubbish, rat holes (rats attract snakes).
+4. Avoid putting hands into holes or under rocks.
+5. Health education in rural areas.
+
+**B. First aid**
+
+1. **Reassure**; immobilise the limb (splint); keep still.
+2. Remove rings and tight items.
+3. **No cutting, sucking, tight tourniquets** or traditional healers (*ojha*).
+4. **Transport quickly** to a health facility.
+
+**C. Treatment**
+
+**Anti-snake venom (polyvalent)** for envenomation; supportive care (ventilation for neurotoxic bites, dialysis); tetanus prophylaxis.
+
+**D. Health system**
+
+Antivenom and trained staff at Upazila Health Complexes; referral; data collection.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.535
+**Transportation injuries are a public health issue**
+
+1. **Large burden**: a leading cause of death and disability worldwide, especially among **young people** (5–29 years).
+2. Cause long-term **disability**, loss of productive years (high DALYs).
+3. **Economic loss**: medical costs, loss of earnings, families pushed into poverty.
+4. Affect mostly **vulnerable road users** (pedestrians, cyclists, motorcyclists) and the poor in LMICs.
+5. **Preventable** by known public health measures (helmets, seat belts, speed control, safe roads).
+6. Need **multisectoral** action (transport, police, health, education).
+7. Pressure on **health services** (trauma care, rehabilitation).
+8. Included in **SDG 3.6** (halve road traffic deaths).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Accidents and Injuries).
+
+## DU.536
+**Classification of disasters**
+
+| Type | Examples |
+|---|---|
+| **A. Natural** | |
+| Meteorological / hydrological | **Cyclones**, **floods**, tornadoes, storm surges, **drought**, heat and cold waves |
+| Geophysical | **Earthquakes**, tsunamis, volcanic eruptions, **landslides** |
+| Biological | **Epidemics / pandemics** (cholera, COVID-19), pest invasions |
+| Climatological | Wildfires, river erosion |
+| **B. Man-made** | |
+| Industrial / technological | Factory fires, explosions, chemical leaks (Bhopal), building collapse (Rana Plaza), nuclear accidents |
+| Transport | Ship / launch capsizing, train and air crashes |
+| Conflict-related | War, terrorism, refugee crises (Rohingya influx) |
+| Others | Stampedes, structural fires |
+
+**Other ways**
+
+Sudden-onset (cyclone, earthquake) vs slow-onset (drought, famine).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.537
+**Common natural disasters of Bangladesh and health effects**
+
+| Disaster | Health effects |
+|---|---|
+| **Flood** | Drowning, diarrhoea, cholera, typhoid, hepatitis E, leptospirosis, skin infections, snake bites, malnutrition |
+| **Cyclone and storm surge** | Deaths, injuries, drowning, loss of shelter, water contamination, salinity |
+| **River erosion** | Displacement, loss of livelihood, mental stress |
+| **Drought** (north-west) | Food insecurity, malnutrition |
+| **Heat waves** | Heat stroke, dehydration |
+| **Lightning** | Deaths, burns |
+| **Landslides** (hill districts) | Deaths, injuries |
+| **Earthquake** (risk) | Mass casualties, building collapse |
+| **Cold waves** | ARI, deaths among elderly and children |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.538
+**Public health impact of disasters**
+
+**A. Common effects**
+
+| Effect | Details |
+|---|---|
+| **Deaths and injuries** | Sudden mass casualties (trauma, drowning) |
+| **Communicable diseases** | Diarrhoea, cholera, typhoid, hepatitis, ARI, measles, leptospirosis, vector-borne diseases (from crowding, unsafe water, poor sanitation) |
+| **Food shortage and malnutrition** | Crop loss; worse in children, pregnant women |
+| **Population displacement** | Overcrowded shelters; loss of homes |
+| **Damage to health facilities** | Disruption of services, EPI, chronic disease care |
+| **Water and sanitation** | Contaminated sources, destroyed latrines |
+| **Mental health** | Acute stress, anxiety, depression, PTSD |
+| **Environmental** | Debris, dead bodies and animals, vector breeding |
+| **Socio-economic** | Loss of livelihoods, poverty |
+
+**B. Effects by type of disaster**
+
+| Disaster | Typical health problems |
+|---|---|
+| Earthquake | Crush injuries, fractures, deaths (trapped) |
+| Cyclone / storm surge | Drowning, injuries, saline water |
+| Flood | Drowning, water-borne and vector-borne diseases, snake bites |
+| Drought / famine | Malnutrition, micronutrient deficiency, deaths |
+| Industrial accident | Burns, poisoning, trauma |
+
+**Epidemiology of disaster**: surveillance to find needs, rapid health assessment, monitoring of disease outbreaks; vulnerable groups: children, elderly, women, disabled, poor.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.539
+**Managing health problems in a cyclone-devastated remote area**
+
+1. **Rapid needs assessment** (population, injuries, water, sanitation, shelter, diseases).
+2. **Search, rescue and triage**; first aid; evacuate seriously injured.
+3. **Mobile medical teams**; temporary health posts.
+4. **Safe water**: chlorine tablets, bleaching powder, tanker water; repair tube wells.
+5. **Sanitation**: emergency latrines, waste and dead-body/animal disposal.
+6. **Disease surveillance** (diarrhoea, ARI, measles); outbreak response.
+7. **ORS, essential drugs**, tetanus prophylaxis; measles vaccination and vitamin A for children.
+8. **Food and nutrition** support; care of pregnant women and children.
+9. Shelter, clothing, hygiene kits.
+10. **Psychosocial support**.
+11. Coordination with administration, NGOs, Red Crescent, armed forces.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.540
+**Immediate health hazards of flood**
+
+1. **Drowning** and **injuries** (especially children).
+2. **Water-borne diseases**: acute watery diarrhoea, **cholera**, dysentery, **typhoid**, **hepatitis A and E**.
+3. **Leptospirosis** (contact with flood water contaminated by rat urine).
+4. **Skin infections** and fungal infections; eye infections (conjunctivitis).
+5. **Respiratory infections** (crowded shelters, cold).
+6. **Snake bites**, insect bites.
+7. **Vector-borne diseases** (dengue, malaria) after water recedes.
+8. **Electrocution**, injuries from debris.
+9. **Food shortage**, malnutrition; contamination of food.
+10. **Disruption of health services** (EPI, ANC, chronic disease drugs).
+11. **Displacement**, overcrowding, lack of privacy for women.
+12. **Mental stress**, anxiety.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.541
+**Disaster preparedness**
+
+All measures taken **before a disaster** to ensure an effective response and minimise loss of life and health.
+
+**Disaster cycle**
+
+Mitigation → **Preparedness** → Response → Recovery / rehabilitation → (back to mitigation)
+
+**Components of preparedness**
+
+1. **Risk assessment and mapping**: hazards, vulnerable populations, resources.
+2. **Disaster plan** at national, district and upazila levels; clear roles (Standing Orders on Disaster).
+3. **Early warning systems** (cyclone warning signals, flood forecasting) and communication channels.
+4. **Shelters** (cyclone shelters) and evacuation plans.
+5. **Training and drills** of health staff and volunteers (Cyclone Preparedness Programme).
+6. **Stockpiling** essential drugs, ORS, water purification tablets, food, tents.
+7. **Health facility preparedness**: emergency plans, mass casualty management, triage.
+8. **Public education** and community participation.
+9. **Coordination** with government, NGOs, Red Crescent, armed forces.
+10. **Surveillance** system ready for outbreaks.
+
+**Bangladesh**
+
+Disaster Management Act 2012; early warning and cyclone shelters have greatly reduced cyclone deaths compared with 1970 and 1991.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.542
+**Triage**
+
+**Rapid sorting and classification of casualties** according to the **severity of injuries and the urgency of treatment**, so that the greatest number can be saved with limited resources (French *trier* = to sort).
+
+**Colour coding (commonly used)**
+
+| Colour | Priority | Examples |
+|---|---|---|
+| **Red** | **Immediate** (first priority): life-threatening but treatable | Airway obstruction, severe bleeding, shock, tension pneumothorax |
+| **Yellow** | **Delayed** (second priority): serious, can wait a few hours | Fractures, moderate burns |
+| **Green** | **Minor** (walking wounded) | Minor cuts, bruises |
+| **Black** | **Dead or expectant** (unlikely to survive) | No breathing after airway opening, massive injuries |
+
+**Principles**
+
+Done at the site and at hospital entry by trained staff; repeated (re-triage); simple, quick (e.g., START method).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.543
+**Disaster mitigation**
+
+Measures to **reduce the impact** (deaths, damage) of disasters before they happen.
+
+1. **Hazard mapping** and land-use planning (no settlement on riverbanks, slopes).
+2. **Structural measures**: embankments, cyclone shelters, earthquake-resistant buildings, raised homes and tube wells.
+3. **Coastal green belts** (mangroves).
+4. **Early warning systems**.
+5. **Building codes** and enforcement.
+6. **Community awareness** and training.
+7. **Insurance**, social safety nets, livelihood diversification.
+8. **Climate adaptation**; afforestation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.544
+**Forming a flood health team as UH&FPO**
+
+**1. Assess**: rapid assessment of affected unions, population, health risks, facilities and resources.
+
+**2. Composition of team(s)**
+
+| Member | Role |
+|---|---|
+| **Medical officer** (team leader) | Clinical care, triage, referral, coordination |
+| **SACMO / nurse / midwife** | Treatment of common illnesses, ANC/PNC, deliveries, first aid |
+| **Health Inspector / AHI / Health Assistants** | Surveillance, water disinfection, sanitation, health education, EPI (measles, vitamin A) |
+| **CHCPs** | Community-level services, referral |
+| **FWA / FWV** (with UFPO) | MCH, family planning |
+| **Pharmacist / storekeeper** | Drugs, ORS, water purification tablets, logistics |
+| **Lab technician** | Rapid tests, stool samples |
+| **Volunteers** (Red Crescent, scouts, NGO workers) | Distribution, mobilisation |
+
+**3. Organisation**
+
+1. Form **mobile medical teams** (one per affected union) and a **control room** at the UHC.
+2. Stock **emergency kits**: ORS, zinc, antibiotics, chlorine tablets, bleaching powder, IV fluids, antivenom, tetanus toxoid.
+3. Set up **medical camps** in shelters; ORS corners.
+4. Daily **surveillance** reporting (diarrhoea, ARI, skin, injuries) to civil surgeon.
+5. Coordinate with **UNO**, Upazila Disaster Management Committee, DPHE, NGOs.
+6. Transport (boats), communication (mobile phones).
+
+**4. Activities**
+
+Treatment, safe water and sanitation, health education, immunisation, nutrition, psychosocial support, referral, rehabilitation after flood.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Disaster Management).
+
+## DU.545
+**Definition**
+
+**Epidemiology**: "the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems" (Last, Dictionary of Epidemiology, adopted by WHO).
+
+**Key words**
+
+| Word | Meaning |
+|---|---|
+| **Study** | Systematic: surveillance, observation, hypothesis testing, experiment |
+| **Distribution** | Frequency and pattern by **time, place and person** |
+| **Determinants** | Causes and risk factors |
+| **Health-related states or events** | Diseases, injuries, deaths, behaviours, service use |
+| **Specified populations** | Defined groups |
+| **Application** | Prevention and control (the ultimate aim) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.546
+**Basic components of epidemiology**
+
+**1. Disease frequency**: measurement of disease, disability or death as **rates and ratios** (incidence, prevalence, mortality rates).
+
+**2. Distribution of disease**: pattern by **time** (when), **place** (where) and **person** (who) → descriptive epidemiology; generates hypotheses.
+
+**3. Determinants of disease**: identification of **causes and risk factors** by testing hypotheses (analytical and experimental epidemiology).
+
+**Ultimate aim**
+
+Use this knowledge for **prevention, control and planning** of health services.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.547
+**Aims of epidemiology (IEA)**
+
+1. **Describe** the distribution and size of health problems in populations.
+2. Provide data essential to **planning, implementation and evaluation** of services for prevention, control and treatment.
+3. **Identify aetiological factors** (causes, risk factors).
+
+**Uses (Morris)**
+
+1. **Study historical trends** of disease (rise and fall).
+2. **Community diagnosis**: identify health problems and their size.
+3. **Planning and evaluation** of health services.
+4. **Evaluation of individual risks** (risk factors).
+5. **Syndrome identification**: describe new diseases.
+6. **Completing the natural history** of disease.
+7. **Search for causes** of disease.
+
+**Importance in medical science (examples)**
+
+Smoking and lung cancer; rubella and congenital defects; ORS trials; COVID-19 surveillance and vaccine trials; screening programmes; evidence-based clinical practice.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.548
+**Basic tools of measurement in epidemiology**
+
+| Tool | Definition | Example |
+|---|---|---|
+| **Rate** | Occurrence of events in a population over a time period: (events ÷ population at risk) × multiplier | Crude death rate = deaths per 1,000 population per year |
+| **Ratio** | Relation of one quantity to another (numerator not part of denominator) | Sex ratio; doctor–population ratio; MMR (per 100,000 live births) |
+| **Proportion** | Ratio where numerator is part of denominator, usually as % | Proportion of deaths due to TB = 10% |
+
+**What is measured**
+
+Mortality, morbidity (incidence, prevalence), disability, natality, presence of attributes (height, BP), use of health services, risk factors.
+
+**Measures of association**
+
+Relative risk, odds ratio, attributable risk.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.549
+**Approaches in epidemiology**
+
+1. **Asking questions** (what, when, where, who, why).
+2. **Making comparisons** (between groups) to find associations.
+
+**Classification of epidemiological methods (studies)**
+
+```
+Epidemiological studies
+├── A. Observational
+│    ├── Descriptive studies (case report, case series, cross-sectional, ecological)
+│    └── Analytical studies
+│         ├── Ecological (correlational)
+│         ├── Cross-sectional (prevalence)
+│         ├── Case-control (case–reference)
+│         └── Cohort (follow-up)
+└── B. Experimental (intervention)
+     ├── Randomised controlled trials (patients)
+     ├── Field trials (healthy people)
+     └── Community trials (whole communities)
+```
+
+| Study | Unit | Example |
+|---|---|---|
+| Descriptive | Population | Prevalence of anaemia |
+| Case-control | Individual (cases vs controls) | Betel nut and oral cancer |
+| Cohort | Individual (exposed vs non-exposed) | Smoking and CHD |
+| RCT | Patients | New antihypertensive drug |
+| Field trial | Healthy individuals | Vaccine trial |
+| Community trial | Communities | Salt-reduction programme |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.550
+**Steps of a descriptive study (Park)**
+
+1. **Define the population** to be studied (defined population with known size and characteristics).
+2. **Define the disease** under study (clear case definition; operational criteria).
+3. **Describe the disease** by:
+   - **Time**: short-term fluctuations, periodic (seasonal, cyclic), long-term (secular) trends.
+   - **Place**: international, national, rural–urban, local (spot maps).
+   - **Person**: age, sex, marital status, occupation, social class, behaviour, stress, migration.
+4. **Measure the disease**: incidence, prevalence, mortality rates.
+5. **Compare** with known indices (other places, times, groups).
+6. **Formulate an aetiological hypothesis** (what, where, when, who → why).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.551
+**Basic steps of a case-control study**
+
+1. **Selection of cases and controls**.
+2. **Matching**.
+3. **Measurement of exposure** (past exposure, in both groups, in the same way).
+4. **Analysis and interpretation**: exposure rates; **odds ratio**.
+
+**Selection of cases**
+
+1. Clear **case definition** (diagnostic criteria, stage).
+2. **Sources**: hospitals (hospital-based) or the general population (population-based); preferably **incident (new) cases**.
+3. Cases should be representative of all cases.
+
+**Selection of controls**
+
+1. **Free from the disease** under study.
+2. **Similar to cases** in all other respects except the disease (same population base).
+3. **Sources**: hospital controls (patients with other diseases), relatives, neighbourhood controls, general population.
+4. **Matching** for confounders (age, sex, socio-economic status); one or more controls per case.
+
+**Analysis**
+
+| | Cases | Controls |
+|---|---|---|
+| Exposed | a | b |
+| Not exposed | c | d |
+
+Odds ratio = ad ÷ bc
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.552
+**Basic steps of a cohort study**
+
+1. **Selection of study subjects**: general population or special groups (occupational, insured).
+2. **Obtaining data on exposure**: from subjects, records, examinations, environmental surveys.
+3. **Selection of comparison groups**: internal comparison, external comparison, or general population rates.
+4. **Follow-up** of all subjects over time (examinations, records, surveillance).
+5. **Analysis**: incidence in exposed and non-exposed; **relative risk** and **attributable risk**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.553
+**Case-control study**
+
+**Advantages**
+
+1. **Quick and cheap**; relatively easy.
+2. **Few subjects** needed.
+3. Suitable for **rare diseases**.
+4. **No attrition** problems (no follow-up).
+5. No risk to subjects; ethical.
+6. Can study **several risk factors** at once.
+7. Allows study of diseases with long latency.
+8. Useful first step for hypothesis testing.
+
+**Disadvantages**
+
+1. **Recall bias** (memory of past exposure) and selection bias.
+2. Difficult to choose an appropriate **control** group.
+3. Cannot measure **incidence** or relative risk directly (only odds ratio estimate).
+4. Cannot study **several outcomes** of one exposure.
+5. **Temporal sequence** (exposure before disease) may be unclear.
+6. Confounding.
+7. Not suitable for rare exposures.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.554
+**Cohort study**
+
+**Advantages / importance**
+
+1. **Incidence** can be calculated directly.
+2. **Relative risk and attributable risk** measured.
+3. **Temporal sequence** clear (exposure before outcome) → stronger causal evidence.
+4. **Several outcomes** of one exposure can be studied.
+5. Less recall bias.
+6. Studies **natural history** of disease.
+7. Good for rare exposures.
+
+**Disadvantages**
+
+1. Needs **large numbers** and **long follow-up**; costly, time-consuming.
+2. **Loss to follow-up** (attrition).
+3. Not suitable for **rare diseases**.
+4. Changes in diagnostic criteria or exposure over time.
+5. Administrative problems; ethical issues.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.555
+**Why cohort studies are more valid and reliable than case-control studies**
+
+1. **Temporal sequence**: exposure is recorded **before** disease occurs → cause precedes effect.
+2. **Direct measurement of incidence**, relative risk and attributable risk (case-control gives only odds ratio).
+3. **Less recall bias**: exposure measured at the start, not remembered later.
+4. **Less selection bias**: subjects selected by exposure, before outcome is known.
+5. **Several outcomes** can be studied.
+6. Exposure data are often more **complete and accurate** (measured, not recalled).
+7. Supports **dose–response** analysis.
+
+Hence cohort studies give **stronger evidence of causation**, though they are slower and costlier.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.556
+**Case-control vs cohort study**
+
+| Point | Case-control study | Cohort study |
+|---|---|---|
+| Direction | **Effect → cause** (backward, retrospective) | **Cause → effect** (forward, prospective) |
+| Starting point | Disease (cases and controls) | Exposure (exposed and non-exposed), disease-free |
+| Groups compared | Cases vs controls | Exposed vs non-exposed |
+| Measures | **Odds ratio** | **Incidence, relative risk, attributable risk** |
+| Time | Short | Long follow-up |
+| Cost | Cheap | Expensive |
+| Sample size | Small | Large |
+| Rare diseases | Suitable | Not suitable |
+| Rare exposures | Not suitable | Suitable |
+| Outcomes studied | One disease, many exposures | One exposure, many outcomes |
+| Bias | Recall and selection bias common | Loss to follow-up |
+| Causal evidence | Weaker | Stronger |
+| Example | Betel nut and oral cancer | Smoking and CHD (Framingham) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.557
+**Cross-sectional vs longitudinal study**
+
+| Point | Cross-sectional study | Longitudinal study |
+|---|---|---|
+| Observation | **Once**, at one point in time ("snapshot") | **Repeated** observations over a long period ("movie") |
+| Measures | **Prevalence** | **Incidence**, natural history, changes over time |
+| Time and cost | Quick, cheap | Long, costly |
+| Temporal relation | Unclear (exposure and outcome together) | Clear |
+| Loss to follow-up | None | Common |
+| Information | Burden of disease; distribution | Natural history, prognosis, risk factors, growth patterns |
+| Best for | Chronic diseases, planning | Studying development, ageing, disease course |
+| Example | Prevalence of hypertension in Dhaka adults | Following children's growth from birth to 5 years |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.558
+**Cross-sectional study: key characteristics**
+
+1. **Exposure and outcome measured at the same time** (single point).
+2. Gives **prevalence** ("prevalence study").
+3. A **sample of the population** is examined once.
+4. Can be **descriptive** or **analytical** (associations).
+5. Commonly uses surveys and questionnaires.
+
+**Advantages**
+
+1. **Quick, cheap**, easy to conduct.
+2. Measures **disease burden** → useful for **planning** health services.
+3. Studies **several exposures and outcomes** at once.
+4. No follow-up or loss to follow-up.
+5. Generates **hypotheses**.
+6. Good for chronic diseases and risk factor surveys (NCD STEPS, BDHS).
+
+**Disadvantages**
+
+Cannot establish temporal sequence or causation; not suited to rare or short diseases; prevalence–incidence bias.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.559
+**Importance of longitudinal studies**
+
+1. Study the **natural history** of disease.
+2. Measure **incidence** and changes over time.
+3. Identify **risk factors** and their temporal relation to disease.
+4. Study **growth and development** of children, ageing.
+5. Assess **prognosis** and outcomes.
+6. Evaluate long-term effects of interventions and exposures.
+
+**Limitations**: time, cost, attrition.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.560
+**Incidence vs prevalence**
+
+| Point | Incidence rate | Prevalence rate |
+|---|---|---|
+| Definition | Number of **new cases** occurring in a defined population during a specified period | Number of **all current cases (old + new)** in a population at a point or during a period |
+| Formula | (New cases during period ÷ population at risk) × 1,000 | (All existing cases ÷ total population) × 1,000 / 100 |
+| Measures | **Risk** of developing disease | **Burden** of disease |
+| Time | Always over a period | At a point (point prevalence) or period (period prevalence) |
+| Affected by | Causes / risk factors | Incidence and **duration** (P = I × D) |
+| Useful for | **Acute diseases**; aetiology; evaluating prevention | **Chronic diseases**; planning services |
+| Obtained by | Cohort studies | Cross-sectional studies |
+| Example | New TB cases in 2024 | All TB patients on a given day |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.561
+**Point vs period prevalence**
+
+| Point | Point prevalence | Period prevalence |
+|---|---|---|
+| Definition | All current cases (old and new) **at a given point in time** | All current cases (old and new) existing **during a given period** (e.g., a year) |
+| Formula | (Cases at a point ÷ population at that point) × 100 | (Cases during period ÷ mid-period population) × 100 |
+| Includes | Cases present on that day | Cases present at start + new cases during the period |
+| Relation | — | Period prevalence = point prevalence at start + incidence during period |
+| Example | TB patients on 1 January 2026 | All TB patients during 2026 |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.562
+**Randomisation**
+
+A statistical procedure by which participants are **allocated to study and control groups by chance** (e.g., random number tables, computer), so each has an **equal chance** of being in either group.
+
+**Purpose**
+
+1. Removes **selection bias** (investigator cannot choose).
+2. Makes groups **comparable** in known and unknown confounders.
+3. Allows valid statistical testing.
+
+It is the "heart" of a **randomised controlled trial**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.563
+**Steps of outbreak (epidemic) investigation (Park)**
+
+1. **Verify the diagnosis** (clinical examination, laboratory tests).
+2. **Confirm the existence of an epidemic**: compare with usual frequency (expected numbers).
+3. **Define the population at risk**: map the area, count the population (denominator).
+4. **Rapid search for all cases** and their characteristics: case definition, line list (time, place, person).
+5. **Data analysis**: by time (epidemic curve), place (spot map), person (age, sex, occupation) → attack rates.
+6. **Formulate hypotheses** about source, mode of transmission.
+7. **Test hypotheses** (analytical studies: case-control or cohort).
+8. **Evaluate ecological factors** (water, food, vectors, sanitation).
+9. **Further investigation** of population at risk (screening, serology).
+10. **Writing the report** and dissemination.
+
+**Control measures** start early and run alongside: treatment, isolation, source control (chlorination), health education, vaccination; continued **surveillance** to confirm end of epidemic.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.564
+**Information collected in descriptive studies**
+
+| Category | Information |
+|---|---|
+| **Time** | Date of onset, season, trend over years, epidemic curve |
+| **Place** | Residence, area, urban/rural, country; spot maps |
+| **Person** | Age, sex, marital status, occupation, education, social class, ethnicity, religion, behaviour (smoking, diet), migration, family size |
+| **Disease** | Case definition, frequency (incidence, prevalence), severity, outcome |
+| **Exposure / environment** | Water, food, housing, sanitation |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.565
+**Given**
+
+New TB cases in 2024 = 1,000; old cases = 5,000; population = 7,000,000.
+
+**a) Prevalence (period prevalence) in 2024 (3.5)**
+
+Prevalence = (All cases, old + new ÷ population) × 100,000
+= (6,000 ÷ 7,000,000) × 100,000 = **85.7 per 100,000 population** (0.086%)
+
+**b) Incidence in 2024 (3.5)**
+
+Incidence = (New cases during the year ÷ population at risk) × 100,000
+= (1,000 ÷ 7,000,000) × 100,000 = **14.3 per 100,000 population per year**
+
+(Strictly, the population at risk excludes existing cases: 7,000,000 − 5,000 = 6,995,000 → incidence ≈ 14.3 per 100,000; practically unchanged.)
+
+**Interpretation**
+
+Prevalence (≈86) is about 6 times incidence (≈14) because TB is a chronic disease with long duration (P ≈ I × D).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.566
+**Relationship: P = I × D**
+
+**Prevalence = Incidence × mean Duration** (when the disease is stable and prevalence is low).
+
+| Situation | Effect on prevalence |
+|---|---|
+| Incidence ↑ (more new cases) | Prevalence ↑ |
+| Duration ↑ (chronic disease; better treatment that prolongs life without cure, e.g., ART for HIV, insulin for diabetes) | Prevalence ↑ |
+| Duration ↓ (rapid cure or rapid death) | Prevalence ↓ |
+| Incidence = prevalence | Very short diseases |
+
+**Examples**
+
+- Common cold: high incidence, short duration → low prevalence.
+- Diabetes, TB: moderate incidence, long duration → high prevalence.
+
+**Use**: estimate duration (D = P ÷ I) or incidence from prevalence.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.567
+**Bias**
+
+Any **systematic error** in the design, conduct or analysis of a study that produces a result **different from the truth**.
+
+**Types**
+
+| Type | Meaning | Example |
+|---|---|---|
+| **Selection bias** | Study groups not comparable or not representative | Hospital controls differ from community |
+| **Information / measurement bias** | Error in measuring exposure or outcome | Faulty BP machine |
+| **Recall bias** | Cases remember past exposures better than controls | Mothers of malformed babies recall drug use more |
+| **Interviewer bias** | Interviewer probes cases more | Knowing who is a case |
+| **Berkesonian bias** | Different hospital admission rates for cases and controls | Hospital-based case-control |
+| **Confounding** | Third factor distorts the association | Age in smoking–CHD |
+| Loss to follow-up | Drop-outs differ from those remaining | Cohort studies |
+
+**Bias is very common in case-control studies** (recall, selection and interviewer bias).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.568
+**Confounding**
+
+A **third variable** associated with both the **exposure** and the **outcome** (and not on the causal path) that distorts the true association.
+
+**Example**
+
+Studying **alcohol and lung cancer**: alcohol drinkers are more often **smokers**; smoking causes lung cancer. So **smoking is a confounder** → alcohol appears to cause lung cancer.
+
+Alcohol → (associated with) Smoking → Lung cancer
+
+**Other examples**: age in the relation between grey hair and CHD; coffee and CHD confounded by smoking.
+
+**Control**: randomisation, matching, restriction, stratified and multivariate analysis.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.569
+**Relative risk, attributable risk, population attributable risk**
+
+| Measure | Formula | Meaning | Use |
+|---|---|---|---|
+| **Relative risk (RR)** | Incidence in exposed ÷ incidence in non-exposed | How many **times** more likely the exposed are to get disease | **Strength of association** (aetiology) |
+| **Attributable risk (AR)** | Incidence in exposed − incidence in non-exposed (also as % of incidence in exposed) | Amount of disease **in the exposed** due to the exposure | Benefit of removing exposure **for exposed individuals** |
+| **Population attributable risk (PAR)** | Incidence in total population − incidence in non-exposed | Amount of disease **in the whole population** due to the exposure | **Public health impact**; priority setting |
+
+**Example**: lung cancer incidence 1.30/1,000 in smokers, 0.07/1,000 in non-smokers → RR ≈ 18.6; AR = 1.23/1,000 (≈95% of lung cancer in smokers is due to smoking).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.570
+**Study design (1)**
+
+**Cohort (prospective) study**.
+
+**Why (2.5)**
+
+1. **Incidence** (new cases over time) can only be measured by following a disease-free group forward.
+2. Workers are a **defined, accessible group** with records → easy follow-up (occupational cohort).
+3. Exposure (dust, fumes, smoking) can be measured **before** cancer develops → clear temporal sequence.
+4. Allows comparison of **exposed vs less exposed** workers → relative and attributable risk.
+5. Can study **several outcomes** (lung cancer, COPD, TB).
+(Limitation: long follow-up, costly; a historical cohort using past employment records can save time.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.571
+**a) Suitable study design (1)**
+
+**Case-control study**: oral cancer patients (cases) and similar people without oral cancer (controls) compared for past betel nut chewing.
+
+**b) Measure of association: odds ratio (3)**
+
+| | Oral cancer (cases) | No cancer (controls) |
+|---|---|---|
+| Chewers | a | b |
+| Non-chewers | c | d |
+
+**OR = ad ÷ bc**
+
+| OR | Interpretation |
+|---|---|
+| 1 | No association |
+| >1 | Betel nut chewing is a **risk factor** (e.g., OR = 4: chewers have about 4 times the odds of oral cancer) |
+| <1 | Protective |
+
+Significance judged by 95% confidence interval (excludes 1) or p-value.
+
+**c) Advantages and limitations (3)**
+
+| Advantages | Limitations |
+|---|---|
+| Quick, cheap | **Recall bias** about chewing habits |
+| Few subjects | Selection of comparable **controls** difficult |
+| Good for **rare disease** with long latency (oral cancer) | Cannot measure incidence or RR directly |
+| Several exposures (tobacco, alcohol) studied together | **Confounding** (smoking, alcohol) |
+| No follow-up | Temporal sequence less certain |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.572
+**a) Type of study and justification (2)**
+
+**Randomised controlled trial (RCT)**, an experimental (therapeutic) study:
+1. Investigator **assigns the intervention** (new vs standard drug).
+2. **Random allocation** into two groups.
+3. **Control group** (standard drug) for comparison.
+4. **Followed up** for outcome (BP after 6 months).
+
+**b) Steps of an RCT (3)**
+
+1. **Drawing up a protocol**: aims, criteria, outcomes, sample size, ethics.
+2. **Selecting reference and experimental populations**; informed consent; inclusion/exclusion criteria.
+3. **Randomisation** into study and control groups.
+4. **Manipulation / intervention**: new drug vs standard drug.
+5. **Follow-up** of both groups for the same period, same way.
+6. **Assessment of outcome**: blood pressure, side effects; **blinding** (single, double, triple) to avoid bias.
+7. **Analysis and interpretation**: compare outcomes; statistical tests.
+
+**c) Advantages and disadvantages (2)**
+
+| Advantages | Disadvantages |
+|---|---|
+| **Strongest evidence** of cause-effect / efficacy | **Costly**, time-consuming |
+| Randomisation controls known and unknown confounders | **Ethical** limits; drop-outs |
+| Blinding reduces bias | Results may not apply to general population (strict criteria) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.573
+**Type of study (1)**
+
+**Case-control study** (analytical observational) to find risk factors: CHD cases compared with controls for past exposures.
+
+**Cardinal features (3.5)**
+
+1. **Both exposure and outcome have already occurred** when the study starts.
+2. Proceeds **from effect to cause** (backward).
+3. Uses a **control group** to compare exposure.
+4. Measures **odds ratio**.
+
+**Disadvantages**
+
+Recall bias; selection bias; difficulty in choosing controls; confounding; cannot measure incidence or RR directly; temporal sequence uncertain.
+
+**OR = 2 (1)**
+
+The odds of exposure (e.g., smoking) among CHD cases are **twice** those among controls → the exposed have about **2 times the risk** of CHD (a positive association), if significant (95% CI excludes 1).
+
+**Observational vs experimental studies (1.5)**
+
+| Observational | Experimental |
+|---|---|
+| Investigator **observes** naturally occurring exposures | Investigator **assigns** the intervention |
+| No randomisation | **Randomisation** |
+| More prone to bias and confounding | Least biased; strongest evidence |
+| Fewer ethical problems | Ethical limits |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
