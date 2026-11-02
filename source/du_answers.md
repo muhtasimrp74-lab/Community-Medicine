@@ -2684,3 +2684,881 @@ Positive predictive value = a / (a + b); negative predictive value = d / (c + d)
 100 diseased, 900 healthy; test positive in 90 diseased and 45 healthy → sensitivity = 90/100 = 90%; specificity = 855/900 = 95%.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Screening for Disease).
+
+## DU.85
+**Definition**
+
+**Medical sociology**: the branch of sociology that studies the **social aspects of health, illness and medical care**: social causes and consequences of disease, health and illness behaviour, doctor–patient relationship, medical profession, hospitals and health care systems.
+
+**Two branches (R. Straus, 1957)**
+
+| Branch | Focus | Example |
+|---|---|---|
+| **Sociology in medicine** | Uses sociological knowledge to solve medical and health problems | Social factors in TB, illness behaviour, compliance |
+| **Sociology of medicine** | Studies medicine itself as a social institution | Medical profession, hospital organisation, power and ethics |
+
+**Scope**
+
+1. Social factors in **aetiology** of disease (poverty, stress, customs).
+2. **Health, illness and sick-role behaviour**.
+3. **Doctor–patient relationship** and communication.
+4. **Hospital** as a social organisation.
+5. **Health care systems**, policy, equity.
+6. **Culture, beliefs** and health practices; stigma.
+7. Social problems: alcoholism, drug abuse, violence.
+
+**Importance for doctors**
+
+Understands patients in their social setting; improves communication, compliance and prevention; basis of **social medicine** and the holistic approach.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.86
+**Components of medical sociology**
+
+1. **Social aetiology of disease**: poverty, overcrowding, illiteracy, occupation, urbanisation, stress.
+2. **Social epidemiology**: distribution of disease by class, gender, ethnicity, residence.
+3. **Health behaviour, illness behaviour and sick role** (Parsons): rights and duties of the sick.
+4. **Doctor–patient relationship**: communication, trust, compliance.
+5. **Hospital sociology**: hospital as a social system; roles of staff and patients.
+6. **Medical profession**: professional values, ethics, power, socialisation of doctors.
+7. **Health care organisation and policy**: access, equity, financing.
+8. **Culture and health**: beliefs, customs, taboos, traditional healers.
+9. **Family and health**: family's role in causation, care, rehabilitation.
+10. **Stigma and deviance**: leprosy, HIV, mental illness.
+11. **Stress and social support**.
+12. **Social problems**: alcoholism, drug addiction, suicide, delinquency, domestic violence.
+13. **Social change**: industrialisation, migration, ageing.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.87
+**Factors influencing doctor–patient relationship**
+
+| Group | Factors |
+|---|---|
+| **Doctor** | Knowledge and competence; communication skills; empathy, courtesy; attitude (respect vs arrogance); time given; honesty; fees; gender; language; professional ethics |
+| **Patient** | Education, culture, beliefs; expectations; socio-economic status; anxiety, fear; previous experience; compliance; gender, age |
+| **Illness** | Severity, urgency, chronicity; stigma (HIV, mental illness, leprosy); prognosis |
+| **Communication** | Language barrier; medical jargon; non-verbal cues; listening; explanation |
+| **Setting / system** | Overcrowded OPD, short consultation time, lack of privacy, long waiting; cost of care; public vs private; referral problems |
+| **Social** | Media reports, mistrust, commercialisation, violence against doctors, litigation |
+| **Third parties** | Family members, attendants, brokers, drug companies |
+
+**Models (Szasz and Hollender)**
+
+| Model | Doctor | Patient | Example |
+|---|---|---|---|
+| Activity–passivity | Active | Passive | Unconscious patient, emergency |
+| Guidance–cooperation | Guides | Cooperates | Acute infection |
+| Mutual participation | Helps patient help himself | Partner | Chronic disease (diabetes) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.88
+**Strategies to enhance doctor–patient relationship (Bangladesh)**
+
+**A. Doctor-level**
+
+1. **Communication skills** training (undergraduate and in-service): listening, explaining, breaking bad news.
+2. Speak **Bangla / local language**; avoid jargon; use **interpreters** for indigenous, Rohingya or foreign patients.
+3. **Empathy**, courtesy, respect for dignity, culture and religion.
+4. **Informed consent** and shared decision-making.
+5. **Privacy and confidentiality**: screened examination, female chaperone.
+6. Honest, transparent information on diagnosis, cost, prognosis.
+7. Rational prescribing; avoid unnecessary tests; declare conflicts of interest.
+8. Follow BMDC code of ethics.
+
+**B. System-level**
+
+1. Reduce **OPD overcrowding**: more doctors, appointment and token systems, strong referral.
+2. Adequate **consultation time**.
+3. Clear, fixed **fees** in private sector; regulation of private clinics.
+4. Patient **help desks**, information boards, complaint and feedback systems.
+5. **Security** of doctors and staff; legal protection against violence.
+6. Continuity of care: **family physicians**, community clinics.
+7. Female doctors and women-friendly services.
+8. Telemedicine and follow-up by phone.
+
+**C. Community-level**
+
+1. Health education to set realistic expectations.
+2. Responsible media reporting.
+3. Community participation in hospital management committees.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.89
+**Definition**
+
+**Behaviour**: everything a person does (physical, mental or verbal) in response to internal or external stimuli; observable actions plus internal processes (thinking, feeling).
+
+**Classification**
+
+| Basis | Types | Examples |
+|---|---|---|
+| Observability | **Overt** (observable) / **Covert** (internal) | Walking, speaking / thinking, feeling |
+| Control | **Voluntary** / **Involuntary** (reflex) | Eating / knee jerk, blinking |
+| Awareness | **Conscious** / **Unconscious** | Planned decision / slips of tongue, habits |
+| Origin | **Innate** (instinctive) / **Learned** (acquired) | Sucking reflex / hand-washing, smoking |
+| Normality | **Normal** / **Abnormal** | Social interaction / hallucinatory behaviour |
+| Numbers | **Individual** / **Group (collective)** | Personal diet / crowd panic, mob behaviour |
+| Effect | **Adaptive** / **Maladaptive** | Seeking help when ill / drug abuse |
+| Health-related (Kasl and Cobb) | **Health behaviour**, **illness behaviour**, **sick-role behaviour** | Vaccination; consulting a doctor; taking prescribed medicine |
+
+**Determinants**
+
+Heredity, learning, motivation, perception, attitudes, beliefs, personality, culture, family, peers, environment.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.90
+**Types of health-related behaviour (Kasl and Cobb, 1966)**
+
+| Point | Health behaviour | Illness behaviour | Sick-role behaviour |
+|---|---|---|---|
+| Person's state | Believes himself **healthy** | **Feels ill**; not yet diagnosed | **Considers himself ill** (diagnosed) |
+| Purpose | Prevent disease or detect it in asymptomatic stage | Define the illness and find a remedy | Get well |
+| Activities | Immunisation, exercise, balanced diet, hand-washing, check-ups, screening | Noticing symptoms, consulting family, self-medication, visiting a doctor | Taking prescribed drugs, rest, follow-up, exemption from duties |
+| Example | Woman getting VIA screening | Man with cough visiting the community clinic | TB patient completing DOTS |
+| Level of prevention | Primary | Secondary | Secondary / tertiary |
+
+**Other classification**
+
+| Type | Examples |
+|---|---|
+| **Health-promoting / protective** | Breastfeeding, seat-belt use, safe sex |
+| **Health-damaging (risk) behaviour** | Smoking, alcohol, drug use, unsafe sex, open defecation |
+| **Help-seeking behaviour** | Choice of provider: doctor, quack, kabiraj |
+| **Compliance (adherence)** | Following treatment advice |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.91
+**Human needs**
+
+Needs are states of deprivation that motivate behaviour.
+
+| Type | Examples |
+|---|---|
+| **Primary (biological)** | Food, water, air, sleep, shelter, sex, avoidance of pain |
+| **Secondary (psychosocial, learned)** | Love, security, belonging, recognition, achievement, power |
+
+**Maslow's hierarchy of needs (1943)**
+
+Needs are arranged in a pyramid; lower needs must be met before higher ones motivate.
+
+| Level (bottom → top) | Need | Examples |
+|---|---|---|
+| 1 | **Physiological** | Food, water, sleep, shelter |
+| 2 | **Safety / security** | Physical safety, job security, health, money |
+| 3 | **Love and belonging (social)** | Family, friends, acceptance in a group |
+| 4 | **Esteem** | Self-respect, recognition, status, achievement |
+| 5 | **Self-actualisation** | Realising one's full potential, creativity |
+
+Physiological → Safety → Belonging → Esteem → Self-actualisation
+
+- Levels 1–4: **deficiency needs**; level 5: **growth need**.
+
+**Relevance to health**
+
+1. Poor people focused on survival needs may ignore preventive services → link health with basic needs.
+2. Motivating health workers: pay meets lower needs; recognition and growth meet higher needs.
+3. Patient care: safety, belonging and dignity matter, not only treatment.
+4. Health education must appeal to the need active in the audience.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Communication for Health Education).
+
+## DU.92
+**How behaviour influences health**
+
+Health depends largely on what people do; many leading causes of death are **behaviour-related**.
+
+| Behaviour | Effect on health |
+|---|---|
+| Tobacco smoking and chewing | Lung and oral cancers, CHD, stroke, COPD, TB |
+| Unhealthy diet (salt, sugar, fat) | Hypertension, diabetes, obesity, CHD |
+| Physical inactivity | Obesity, diabetes, CHD, osteoporosis, depression |
+| Alcohol and drug use | Liver disease, accidents, violence, HIV (injecting) |
+| Unsafe sex | STIs, HIV, unwanted pregnancy |
+| Poor hygiene, open defecation | Diarrhoea, typhoid, hepatitis, worms |
+| Delayed care-seeking | Complications, maternal and child deaths |
+| Non-adherence to treatment | Treatment failure, drug resistance (MDR-TB) |
+| Reckless driving, no helmet | Road traffic injuries |
+| Breastfeeding, immunisation, ANC | Protection of mother and child |
+| Regular exercise, balanced diet, sleep | Physical and mental well-being |
+
+**Pathways**
+
+1. **Direct**: exposure to or protection from risk (smoking → cancer).
+2. **Through use of services**: screening, vaccination, early treatment.
+3. **Through others**: second-hand smoke; spread of infection; children copying parents.
+4. **Psychological**: stress-coping behaviour affects mental and physical health.
+
+**Implications**
+
+Behaviour change communication; health belief model; laws and policy; community participation; positive role models.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Communication for Health Education).
+
+## DU.93
+**a) Analysis using Maslow's hierarchy (1.5)**
+
+- Adequate salary satisfies **physiological** and **safety** needs (food, shelter, security).
+- He is still dissatisfied → the unmet needs are higher:
+  1. **Esteem needs** (most likely): lack of recognition, respect, appreciation, status, sense of achievement; interns often feel undervalued.
+  2. **Love and belonging (social)**: may not feel accepted by the team; isolation, poor relations with seniors.
+  3. **Self-actualisation**: little chance to learn, grow and use skills; routine clerical work.
+- Herzberg's two-factor view agrees: salary is a **hygiene factor** (prevents dissatisfaction) but does not motivate; **motivators** are recognition, responsibility, achievement and growth.
+
+**b) Effect on professional performance (2)**
+
+1. **Low motivation** and job satisfaction; minimal effort.
+2. **Poor quality of care**: hurried history, errors, poor record keeping.
+3. **Poor communication** and empathy with patients → weak doctor–patient relationship.
+4. **Absenteeism**, late arrival, early leaving.
+5. **Burnout**, stress, frustration, depression.
+6. Poor **teamwork** and conflicts with staff.
+7. Little interest in learning → slow skill development.
+8. Wish to leave the job or profession (turnover, brain drain).
+
+**Remedies**
+
+Recognition and appreciation; constructive feedback; supportive supervision and mentoring; involvement in decisions; clear roles; learning opportunities; good team culture.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Health Planning and Management).
+
+## DU.94
+**Definition**
+
+**Learning**: a relatively permanent change in behaviour (knowledge, attitude or skill) that results from **experience or practice**.
+
+Changes due to maturation, fatigue, illness or drugs are **not** learning.
+
+**Features**
+
+1. A **change in behaviour** (actual or potential).
+2. **Relatively permanent**.
+3. Result of **experience, practice or training**.
+4. Can be good or bad (hand-washing or smoking are both learned).
+5. Continuous, lifelong process.
+6. Goal-directed; influenced by motivation.
+
+**Process**
+
+Stimulus → Perception → Response → Reinforcement (reward) → Learned behaviour
+
+**Domains (Bloom)**
+
+Cognitive (knowledge), affective (attitude), psychomotor (skill).
+
+**Importance in health**
+
+Basis of health education and behaviour change; training of health workers; patient self-care (insulin injection, ORS preparation).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Communication for Health Education).
+
+## DU.95
+**Types of learning**
+
+| Type | Proponent | Mechanism | Example |
+|---|---|---|---|
+| **Classical conditioning** | Pavlov | Neutral stimulus paired with natural stimulus produces a conditioned response | Child cries at the sight of a white coat after injections |
+| **Operant (instrumental) conditioning** | Skinner | Behaviour shaped by its consequences (reward or punishment) | Praise for completed vaccination card encourages return visits |
+| **Trial and error** | Thorndike | Repeated attempts; successful responses retained | Learning to use an inhaler correctly |
+| **Insight (cognitive) learning** | Köhler (Gestalt) | Sudden understanding of relationships | Grasping why ORS works |
+| **Observational / social learning** | Bandura | Imitation of a model | Adolescents copying smoking parents; peer educators |
+| **Rote learning** | — | Memorising by repetition | Drug doses |
+| **Meaningful learning** | Ausubel | Linking new to existing knowledge | Understanding pathophysiology |
+
+**Other classifications**
+
+- By domain (Bloom): cognitive, affective, psychomotor.
+- By setting: formal (school), non-formal (training), informal (daily life).
+- By participation: active (learning by doing) vs passive (listening).
+- By group: individual vs group learning.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Communication for Health Education).
+
+## DU.96
+**Factors affecting learning**
+
+| Group | Factors |
+|---|---|
+| **Learner** | Motivation and interest; intelligence; age; physical and mental health; attention; readiness; previous knowledge; emotional state (anxiety); fatigue; sensory defects |
+| **Teacher** | Knowledge; teaching method; communication; attitude; use of examples and aids |
+| **Material** | Meaningfulness; difficulty; length; organisation (simple → complex) |
+| **Method** | Practice and repetition; spaced vs massed practice; active participation (learning by doing); feedback; reinforcement (reward); audio-visual aids |
+| **Environment** | Physical (light, ventilation, noise, seating); social (group size, peer influence); culture |
+
+**Defence mechanisms**
+
+Unconscious mental processes that protect the self from anxiety (Freud).
+
+| Mechanism | Example |
+|---|---|
+| Repression | Forgetting a painful event |
+| Denial | Refusing to accept a cancer diagnosis |
+| Projection | Blaming the doctor for one's own failure |
+| Rationalisation | "Smoking relieves my stress" |
+| Displacement | Anger at boss shown to family |
+| Regression | Adult behaving childishly in hospital |
+| Reaction formation | Excess kindness to a disliked person |
+| Sublimation | Aggression channelled into sport |
+| Identification | Student copying a respected teacher |
+| Intellectualisation | Discussing one's illness only in technical terms |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Communication for Health Education).
+
+## DU.97
+**Bloom's domains of learning (Bloom, 1956)**
+
+| Domain | Concerns | Levels (lowest → highest) | Medical example |
+|---|---|---|---|
+| **Cognitive** | Knowledge, thinking ("head") | Remember → Understand → Apply → Analyse → Evaluate → Create (revised 2001; original: knowledge, comprehension, application, analysis, synthesis, evaluation) | Knowing EPI schedule; interpreting a growth chart |
+| **Affective** | Attitudes, feelings, values ("heart") | Receiving → Responding → Valuing → Organisation → Characterisation (Krathwohl) | Showing empathy; valuing confidentiality |
+| **Psychomotor** | Manual and physical skills ("hands") | Imitation → Manipulation → Precision → Articulation → Naturalisation (Dave) | Giving an injection; taking BP; CPR |
+
+**Uses**
+
+1. Writing clear **learning objectives** (knowledge, attitude, skill).
+2. Choosing **teaching methods**: lectures (cognitive), role play (affective), demonstration and practice (psychomotor).
+3. Designing **assessment**: MCQ/SAQ, attitude scales, OSCE.
+4. Health education aims at all three: KAP (knowledge, attitude, practice).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.98
+**Key principles of learning**
+
+1. **Motivation**: learning is fastest when the learner wants to learn (felt need).
+2. **Readiness** (Thorndike's law of readiness): learner must be physically and mentally ready.
+3. **Exercise / practice**: repetition strengthens learning ("practice makes perfect").
+4. **Effect / reinforcement**: rewarded responses are repeated; punished ones fade.
+5. **Active participation**: "learning by doing" is better than passive listening.
+6. **Known to unknown; simple to complex; concrete to abstract**.
+7. **Interest and relevance**: link content to learner's problems and life.
+8. **Comprehension**: use the learner's language and level.
+9. **Feedback**: tells the learner what is right and what to correct.
+10. **Primacy and recency**: first and last items are remembered best.
+11. **Intensity**: vivid, dramatic experiences (demonstration, real cases) are remembered longer.
+12. **Spaced learning** is better than massed (cramming).
+13. **Multisensory**: using several senses (audio-visual aids) improves retention.
+14. **Individual differences**: pace and method suited to the learner.
+15. **Good human relations** between teacher and learner.
+
+**Application**
+
+Health education, patient counselling, training of CHWs and students.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Communication for Health Education).
+
+## DU.99
+**Definition**
+
+**Personality**: the dynamic organisation within the individual of those psychophysical systems that determine his unique adjustment to his environment (after Allport); the sum of a person's characteristic patterns of thinking, feeling and behaving.
+
+**Classification**
+
+**A. Type theories**
+
+| Theory | Types | Example features |
+|---|---|---|
+| Hippocrates (humours) | Sanguine, choleric, melancholic, phlegmatic | Cheerful; irritable; sad; calm |
+| Kretschmer (body build) | Pyknic, asthenic, athletic | Stout, sociable; thin, withdrawn; muscular, energetic |
+| Sheldon (somatotype) | Endomorph, mesomorph, ectomorph | Relaxed, comfort-loving; assertive; shy, restrained |
+| Jung | Introvert, extrovert, ambivert | Reserved; outgoing; mixed |
+| Friedman and Rosenman | Type A, Type B | Hurried, competitive (CHD risk); relaxed |
+
+**B. Trait theories**
+
+- **Allport**: cardinal, central and secondary traits.
+- **Cattell**: 16 personality factors.
+- **Eysenck**: extraversion, neuroticism, psychoticism.
+- **Big Five (OCEAN)**: openness, conscientiousness, extraversion, agreeableness, neuroticism.
+
+**C. Psychoanalytic (Freud)**
+
+Id, ego, superego.
+
+**Determinants**
+
+Heredity, physique, endocrine glands, family, culture, school, peers, life experiences.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.100
+**Type A vs Type B personality (Friedman and Rosenman)**
+
+| Feature | Type A | Type B |
+|---|---|---|
+| Time | Sense of **time urgency**; always hurried | Relaxed; no hurry |
+| Drive | Highly **competitive**, ambitious, achievement-oriented | Less competitive; easy-going |
+| Emotions | Impatient, **hostile**, easily angered | Patient, calm, tolerant |
+| Work | Workaholic; many tasks at once | Balanced work and leisure |
+| Speech and manner | Fast talking, interrupts, restless | Slow, unhurried speech |
+| Leisure | Feels guilty when relaxing | Enjoys leisure without guilt |
+| Stress response | High stress, high sympathetic arousal | Low stress |
+| Health risk | Higher risk of **coronary heart disease**, hypertension, peptic ulcer | Lower risk |
+
+**Notes**
+
+- The **hostility / anger** component of Type A is most strongly linked to CHD.
+- Later types: Type C (suppresses emotions; linked to cancer coping), Type D ("distressed": negative affect + social inhibition; poorer cardiac outcome).
+
+**Relevance**
+
+Stress management, relaxation, lifestyle counselling for Type A persons as part of CHD prevention.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Epidemiology of Chronic Non-communicable Diseases).
+
+## DU.101
+**Development of personality**
+
+Personality develops through the interaction of **heredity** (genes, physique, temperament, endocrine) and **environment** (family, school, peers, culture, religion, life events), across stages of life.
+
+**A. Freud's psychosexual stages**
+
+| Stage | Age | Focus |
+|---|---|---|
+| Oral | 0–1 year | Mouth (sucking, feeding) |
+| Anal | 1–3 years | Toilet training, control |
+| Phallic | 3–6 years | Genitals; Oedipus/Electra complex |
+| Latency | 6 years–puberty | Sexual drive dormant; school, skills |
+| Genital | Puberty onward | Mature sexual relationships |
+
+**B. Erikson's psychosocial stages**
+
+| Stage | Age | Conflict | Virtue |
+|---|---|---|---|
+| 1 | Infancy (0–1) | Trust vs mistrust | Hope |
+| 2 | Early childhood (1–3) | Autonomy vs shame and doubt | Will |
+| 3 | Preschool (3–6) | Initiative vs guilt | Purpose |
+| 4 | School age (6–12) | Industry vs inferiority | Competence |
+| 5 | Adolescence (12–18) | Identity vs role confusion | Fidelity |
+| 6 | Young adult | Intimacy vs isolation | Love |
+| 7 | Middle adult | Generativity vs stagnation | Care |
+| 8 | Old age | Integrity vs despair | Wisdom |
+
+**Agents of development**
+
+Family (first and most important), school, peer group, religion, mass media, occupation, culture.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.102
+**Definition**
+
+**Emotion**: a complex state of feeling, arising in response to a stimulus, with three components:
+1. **Subjective** experience (feeling)
+2. **Physiological** arousal (autonomic: heart rate, BP, sweating; hormones)
+3. **Behavioural / expressive** response (facial expression, voice, action)
+
+**Primary (basic) emotions**
+
+| Model | Emotions |
+|---|---|
+| Ekman (6, universal facial expressions) | Happiness, sadness, fear, anger, surprise, disgust |
+| Plutchik (8) | Joy, trust, fear, surprise, sadness, disgust, anger, anticipation |
+
+Secondary (complex) emotions arise from mixtures: love, guilt, shame, jealousy, pride, anxiety.
+
+**Features**
+
+1. Aroused by internal or external stimuli.
+2. Accompanied by bodily changes.
+3. Influence thinking and behaviour.
+4. Can be pleasant or unpleasant.
+
+**Relevance to health**
+
+- Chronic negative emotions (anxiety, anger) → stress → hypertension, peptic ulcer, CHD (psychosomatic illness).
+- Fear influences care-seeking and compliance.
+- Emotional dimension of health; emotional intelligence of doctors improves care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences; Mental Health).
+
+## DU.103
+**Features of a mentally healthy person (Park)**
+
+1. Free from internal **conflicts**; not at war with himself.
+2. **Well adjusted**: gets along with others; accepts praise and criticism.
+3. Searches for **identity**.
+4. Strong sense of **self-esteem**.
+5. Knows himself, his needs, problems and goals (**self-actualisation**).
+6. Good **self-control**: balances rationality and emotionality.
+7. Faces problems and tries to solve them **intelligently**; copes with stress and anxiety.
+
+**Other features**
+
+- Realistic perception of reality.
+- Ability to form satisfying relationships (love and friendship).
+- Works productively; contributes to the community.
+- Takes responsibility for own actions.
+- Adapts to change; flexible.
+
+**Five criteria (Jahoda)**
+
+1. Positive attitude towards self
+2. Growth and self-actualisation
+3. Integration of personality
+4. Autonomy
+5. Accurate perception of reality and environmental mastery
+
+**WHO (2022)**: mental health is a state of mental well-being that enables people to cope with stresses, realise abilities, learn and work well, and contribute to their community.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Mental Health); WHO, 2022.
+
+## DU.104
+**Intelligence**
+
+The global capacity to act purposefully, think rationally and deal effectively with the environment (Wechsler); ability to learn, reason, solve problems and adapt.
+
+**IQ (Intelligence Quotient)**
+
+A numerical index of intelligence relative to age.
+
+**Formula (ratio IQ; Stern, Terman)**
+
+IQ = (Mental age ÷ Chronological age) × 100
+
+- **Mental age (MA)**: the age level at which a person performs on an intelligence test.
+- **Chronological age (CA)**: actual age.
+- Average IQ = 100 (MA = CA).
+
+**Deviation IQ**
+
+Modern tests (Wechsler) compare a person with peers of the same age; mean 100, standard deviation 15.
+
+**Tests**
+
+Stanford–Binet; Wechsler Adult Intelligence Scale (WAIS); Wechsler Intelligence Scale for Children (WISC); Raven's Progressive Matrices (non-verbal).
+
+**Uses**
+
+1. Diagnosis and grading of **intellectual disability**.
+2. Educational placement; special education.
+3. Vocational guidance and selection.
+4. Research (effects of iodine deficiency, malnutrition, lead).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Mental Health).
+
+## DU.105
+**Classification of people by IQ**
+
+| IQ range | Category |
+|---|---|
+| ≥140 | Genius / near genius |
+| 120–139 | Very superior |
+| 110–119 | Superior |
+| 90–109 | **Average (normal)** |
+| 80–89 | Dull normal (low average) |
+| 70–79 | Borderline |
+| <70 | **Intellectual disability (mental retardation)** |
+
+**Grades of intellectual disability**
+
+| Grade | IQ | Mental age (adult) | Features |
+|---|---|---|---|
+| Mild | 50–69 | 9–12 years | Educable; can live independently with some support |
+| Moderate | 35–49 | 6–9 years | Trainable; self-care and simple work under supervision |
+| Severe | 20–34 | 3–6 years | Needs constant supervision; limited speech |
+| Profound | <20 | <3 years | Total care needed |
+
+**Interpretation**
+
+- About two-thirds of people have IQ 85–115 (mean ± 1 SD).
+- IQ must be interpreted with adaptive behaviour (social and daily-living skills) before diagnosing intellectual disability.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Mental Health).
+
+## DU.106
+**Calculation**
+
+IQ = (Mental age ÷ Chronological age) × 100
+
+**Given**
+
+Chronological age = 10 years; mental age = 2 years.
+
+IQ = (2 ÷ 10) × 100 = **20**
+
+**Interpretation**
+
+| IQ range | Grade |
+|---|---|
+| 50–69 | Mild intellectual disability |
+| 35–49 | Moderate |
+| **20–34** | **Severe** |
+| <20 | Profound |
+
+IQ 20 = **severe intellectual disability** (at the borderline with profound).
+
+**Implications**
+
+1. Functions like a 2-year-old: limited speech, needs help with self-care.
+2. Needs **constant supervision** and family support.
+3. Requires **special education**, training in basic self-care, speech and physiotherapy.
+4. Look for causes: birth asphyxia, congenital hypothyroidism, iodine deficiency, genetic syndromes (Down syndrome), infections, malnutrition.
+5. Assess adaptive behaviour; counsel the family; link to disability services.
+
+**Note**
+
+Ratio IQ is used for children; for adults, deviation IQ is used (chronological age above ~15–16 years is not used in the formula).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Mental Health).
+
+## DU.107
+**Definition**
+
+- **Park**: a group of biologically related individuals living together and eating from a common kitchen.
+- **Sociological (Burgess and Locke)**: a group of persons united by marriage, blood or adoption, forming a single household, interacting in their social roles (husband, wife, parents, children, siblings) and sharing a common culture.
+
+**Characteristics**
+
+1. Universal social unit; the **primary group**.
+2. Based on **marriage** and blood ties (or adoption).
+3. Common **residence** and kitchen.
+4. Economic provision and shared resources.
+5. Emotional bonds; nurtures and socialises children.
+6. Limited size; permanent and temporary aspects.
+7. Has a system of names and descent.
+
+**Family as a unit of health care**
+
+- First line of care for the sick.
+- Shapes health habits, diet and hygiene.
+- Decides use of health services.
+- Family health is the basis of community health.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.108
+**Functions of the family**
+
+| Function | Meaning |
+|---|---|
+| 1. **Biological / reproductive** | Regulates sexual relations; produces and continues generations |
+| 2. **Socialisation and education** | Teaches language, values, norms, habits, culture |
+| 3. **Economic** | Earns, shares income and property; provides food, clothing, shelter |
+| 4. **Emotional (affectional)** | Love, security, companionship |
+| 5. **Protective and caring** | Care of children, sick, disabled and elderly |
+| 6. **Social status (placement)** | Gives name, identity, religion, social position |
+| 7. **Recreational** | Leisure and relaxation |
+| 8. **Religious / moral** | Moral and religious training |
+
+**Functions relevant to health and health behaviour**
+
+1. **Nutrition** and child feeding: breastfeeding, complementary feeding.
+2. **Hygiene and sanitation** at home: hand-washing, safe water, latrine use.
+3. **Health habits** learned from parents: diet, exercise, tobacco avoidance.
+4. **Care of the sick**: home nursing, ORS, compliance with treatment.
+5. **Decision making** on care-seeking, ANC, facility delivery, immunisation.
+6. **Family planning** and birth spacing.
+7. **Financing** of health care.
+8. **Emotional support** in chronic illness, mental illness and disability.
+9. **Care of the elderly** and rehabilitation.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.109
+**Role of family in health and disease**
+
+**A. In causation of disease**
+
+1. **Heredity**: genetic diseases (thalassaemia, haemophilia), consanguineous marriage.
+2. **Family size and spacing**: malnutrition, infections, maternal depletion.
+3. **Socio-economic status**: poverty, overcrowding, poor housing → TB, diarrhoea.
+4. **Habits and lifestyle** passed on: diet, smoking, betel quid, inactivity.
+5. **Spread of infection** within household: TB, scabies, hepatitis, COVID-19.
+6. **Family disharmony**: broken or problem families → delinquency, depression, substance abuse, child abuse.
+
+**B. In recognition of disease**
+
+Family members notice symptoms and danger signs first; they decide when and where to seek care.
+
+**C. In care and treatment**
+
+1. Home care and nursing; ORS for diarrhoea.
+2. Ensures **compliance** (DOTS, insulin, antihypertensives).
+3. Pays for treatment.
+4. Emotional support reduces stress and aids recovery.
+
+**D. In rehabilitation**
+
+Care of disabled, elderly, mentally ill; reintegration into society.
+
+**E. In prevention and promotion**
+
+Immunisation, breastfeeding, family planning, hygiene, healthy diet, ANC, safe delivery.
+
+**Concept**
+
+The family is the **basic unit of health care**; family-centred care improves outcomes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.110
+**Classification of family**
+
+| Basis | Types | Meaning / example |
+|---|---|---|
+| **Structure (Park)** | **Nuclear** (elementary) | Husband, wife and unmarried children |
+| | **Joint** (extended) | Several nuclear families sharing residence, kitchen and property (brothers with wives and children, parents) |
+| | **Three-generation** | Grandparents, parents and children together |
+| **Marriage** | Monogamous | One husband, one wife |
+| | Polygamous: polygyny / polyandry | One husband, several wives / one wife, several husbands |
+| **Authority** | Patriarchal / matriarchal / egalitarian | Father / mother / both hold authority |
+| **Residence** | Patrilocal / matrilocal / neolocal | Live with husband's / wife's family / new home |
+| **Descent** | Patrilineal / matrilineal | Descent through father (Bangladesh) / mother (Garo community) |
+| **Membership** | Family of orientation / procreation | Family one is born into / family one creates by marriage |
+| **Other** | Single-parent, broken, blended, problem family | One parent; separated; remarriage; family with persistent social and health problems |
+
+**Trend in Bangladesh**
+
+Shift from joint to **nuclear** families with urbanisation and migration; implications: less support for elderly and childcare.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Medicine and Social Sciences).
+
+## DU.111
+**Types of leadership**
+
+**A. By style (Lewin)**
+
+| Type | Features | Health example |
+|---|---|---|
+| **Autocratic (authoritarian)** | Leader decides alone; strict control; one-way communication | Emergency resuscitation, disaster response |
+| **Democratic (participative)** | Decisions shared with group; two-way communication | Upazila health team planning EPI micro-plans |
+| **Laissez-faire (free-rein)** | Leader gives freedom; minimal direction | Experienced research team |
+
+**B. Other types**
+
+| Type | Features |
+|---|---|
+| Bureaucratic | Works strictly by rules and procedures |
+| Paternalistic | Leader acts like a parent; caring but controlling |
+| Charismatic | Influence through personal charm and vision |
+| Transactional | Reward and punishment for performance |
+| Transformational | Inspires, motivates change, develops followers |
+| Situational (Hersey–Blanchard) | Style varies with followers' readiness: telling, selling, participating, delegating |
+| Servant | Leader serves the needs of the team |
+
+**C. By position**
+
+Formal (appointed: UH&FPO, civil surgeon) vs informal (emerges from the group: respected village elder, imam, teacher).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management; Communication for Health Education).
+
+## DU.112
+**Criteria / qualities of a good leader**
+
+1. **Vision**: clear goals and direction.
+2. **Integrity and honesty**: trusted by the team.
+3. **Competence and knowledge** of the field.
+4. **Communication**: listens, explains, gives feedback.
+5. **Decision-making** and problem-solving ability.
+6. **Motivates and inspires** others; recognises good work.
+7. **Delegation**: assigns tasks according to ability.
+8. **Fairness**: impartial; no favouritism.
+9. **Empathy and emotional intelligence**.
+10. **Accountability**: accepts responsibility for outcomes.
+11. **Confidence and courage** in difficult situations.
+12. **Flexibility**: adapts style to the situation.
+13. **Team building** and conflict resolution.
+14. **Commitment and hard work**: leads by example.
+15. **Humility**: open to advice and criticism.
+16. **Creativity and innovation**.
+
+**Three characteristics (short answer)**
+
+Vision, integrity, good communication.
+
+**In health care**
+
+A good leader (e.g., UH&FPO) coordinates the team, community and other sectors, uses data for decisions and maintains quality of care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.113
+**Ideal leadership: democratic (participative), adapted to the situation**
+
+**Why democratic is generally ideal in health care**
+
+1. Health care is **teamwork**; members have different skills.
+2. **Shared decisions** use the knowledge of all members → better decisions.
+3. **Motivation and job satisfaction** rise; staff feel valued (esteem needs).
+4. **Commitment and acceptance** of decisions; easier implementation.
+5. **Two-way communication**; problems surface early.
+6. Develops **future leaders**; builds trust.
+7. Fits **community participation** principle of PHC.
+
+**Limitations**
+
+Slow in emergencies; needs skilled, willing members.
+
+**Comparison**
+
+| Style | Best used when | Drawback |
+|---|---|---|
+| Autocratic | Emergencies, disasters, inexperienced staff | Low morale, no creativity |
+| **Democratic** | Routine planning, programme management, team care | Slow decisions |
+| Laissez-faire | Highly skilled, self-motivated experts | Lack of direction, chaos |
+
+**Conclusion**
+
+No single style suits every situation (**situational leadership**); democratic is ideal for most health settings, with an autocratic shift in emergencies; transformational qualities make it more effective.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.114
+**Answer**
+
+**Democratic (participative) leadership** encourages participation of staff in decision-making.
+
+**Features**
+
+1. Leader consults staff and shares decision-making.
+2. Two-way communication; ideas welcomed.
+3. Responsibility delegated; teamwork encouraged.
+4. Decisions often by consensus or majority.
+5. Leader guides, coordinates and keeps final accountability.
+
+**Advantages**
+
+Higher motivation and job satisfaction; better-quality decisions; commitment to implementation; creativity; staff development.
+
+**Disadvantages**
+
+Time-consuming; unsuitable in emergencies; needs competent staff.
+
+**Example**
+
+UH&FPO holding a monthly meeting with medical officers, nurses, HIs and CHCPs to plan dengue control and EPI micro-plans.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management).
+
+## DU.115
+**Definition**
+
+**Leader**: a person who influences, guides and directs the behaviour of a group towards achieving common goals, and whom the group accepts.
+
+**Leadership**: the process (art) of influencing people so that they work willingly and enthusiastically towards group goals.
+
+**Key elements**
+
+1. **Influence** over others.
+2. **Followers** who accept the influence.
+3. **Common goal**.
+4. **Situation** in which leadership occurs.
+
+**Types of leaders**
+
+- **Formal**: appointed to a position (UH&FPO, hospital director).
+- **Informal**: emerges from the group by respect (village elder, teacher, imam).
+- **Opinion leaders** in the community: key to health education and community participation.
+
+**Leader vs manager (brief)**
+
+Leader: vision, inspiration, change | Manager: planning, organising, control.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management; Communication for Health Education).
