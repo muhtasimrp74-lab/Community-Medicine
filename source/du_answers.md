@@ -6351,3 +6351,965 @@ Drinking and cooking; bathing; washing clothes and utensils; flushing latrines; 
 Climate; standard of living; habits; type of sanitation (flush vs pit); industry and trade; cost and availability; leakage and waste.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO / UN, right to water.
+
+## DU.216
+**Situation**
+
+Tube wells submerged → groundwater sources contaminated by flood water, faeces and debris → high risk of cholera, diarrhoea, typhoid, hepatitis E, leptospirosis, skin infections.
+
+**A. Immediate assessment**
+
+1. Rapid survey of population, shelters, water sources, latrines; identify vulnerable groups.
+2. Coordinate with Upazila administration, DPHE, NGOs, WASH partners; set up a control room.
+3. Start **disease surveillance** (daily diarrhoea reporting) and ORS corners.
+
+**B. Emergency safe water supply**
+
+1. **Distribute household water treatment**: water purification tablets (chlorine/NaDCC), bleaching powder solution, or flocculant–disinfectant sachets with clear instructions; 30 minutes' contact.
+2. **Boil water** where fuel is available (rolling boil).
+3. **Supply bottled or tanker water** to shelters; mobile water treatment plants.
+4. **Rainwater harvesting** with clean containers.
+5. Provide **clean, covered containers** (jerry cans) and ladles; at least 15 litres/person/day in emergency (Sphere), minimum 2–3 litres for drinking.
+6. Use **raised or high-platform tube wells** not submerged; clean their surroundings.
+
+**C. After water recedes: restore sources**
+
+1. **Disinfect tube wells**: pump out water until clear; pour chlorine solution (bleaching powder) into the well pipe; contact for several hours (overnight); pump out until chlorine smell disappears.
+2. **Disinfect dug wells**: Horrock's test; ~2.5 g bleaching powder/1,000 L; 1 hour contact; OT test for residual ≥0.5 mg/L.
+3. Repair platforms and drains; test water (E. coli, arsenic) before reuse.
+
+**D. Sanitation and hygiene**
+
+1. Emergency latrines away (≥15 m) and downhill from water sources; avoid open defecation.
+2. Hygiene kits: soap, sanitary pads; hand-washing points.
+3. Safe disposal of refuse and dead animals; chlorinate flooded latrines.
+
+**E. Health measures**
+
+Health education (boil/chlorinate, hand-washing, safe food); ORS and zinc stocks; early case management and referral; **oral cholera vaccine** if outbreak risk; outbreak response team.
+
+**F. Monitoring**
+
+Daily residual chlorine checks at distribution points (≥0.2–0.5 mg/L); disease trends; feedback to community.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Disaster Management).
+
+## DU.217
+**a) Five diseases transmitted through contaminated water (2)**
+
+1. Cholera / acute watery diarrhoea
+2. Typhoid (enteric) fever
+3. Hepatitis E and A
+4. Bacillary dysentery (shigellosis)
+5. Amoebiasis / giardiasis
+(Also: poliomyelitis, rotavirus diarrhoea, leptospirosis, worm infestations.)
+
+**b) Purification of water at community level (2.5)**
+
+Storage → Filtration → Disinfection
+
+1. **Storage**: sedimentation, oxidation, natural die-off of pathogens.
+2. **Filtration**:
+   - Slow sand filter (biological; vital layer; pond sand filter in villages).
+   - Rapid sand filter (coagulation with alum → flocculation → sedimentation → filtration → backwashing).
+3. **Disinfection: chlorination**: principles: clear water, estimate chlorine demand, free residual chlorine 0.5 mg/L after 1 hour contact; methods: chlorine gas, chloramine, perchloron.
+4. **Disinfection of wells** with bleaching powder (Horrock's test; OT test).
+5. **Alternative safe sources**: sanitary tube wells, deep tube wells, piped supply; protect pond (fencing, no bathing or washing).
+
+**c) Purification at household level (2.5)**
+
+1. **Boiling**: rolling boil 5–10 minutes; kills all pathogens.
+2. **Chemical disinfection**: bleaching powder solution, chlorine tablets (NaDCC), high-test hypochlorite; 30 minutes' contact.
+3. **Filtration**: ceramic or candle filters; cloth filtration (folded sari cloth reduces cholera).
+4. **Solar disinfection (SODIS)**: clear bottles in sunlight for 6 hours.
+5. **Combined**: alum settling + chlorination; flocculant–disinfectant sachets.
+6. **Safe storage**: covered, narrow-mouthed container; ladle for drawing water.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.218
+**(a) Routes of contamination of drinking water (2)**
+
+1. **Flood water entering submerged tube wells** through the pump head, broken platforms and loose joints.
+2. **Overflowing latrines** near water sources → faecal matter washed into wells and ponds.
+3. **Seepage** of faecally contaminated surface water into shallow aquifers.
+4. **Contaminated storage and handling**: dirty containers, hands, utensils.
+5. Use of **flood or pond water** for drinking, washing and cooking.
+6. Animal carcasses, solid waste and sewage in flood water.
+
+**(b) Environmental factors responsible (2)**
+
+1. **Flooding**: spreads faecal contamination; damages water and sanitation infrastructure.
+2. **Poor siting of latrines** (<15 m from water sources; upslope).
+3. **Unsafe water sources**: submerged shallow tube wells, ponds.
+4. **Inadequate sanitation**: open defecation, unsanitary latrines.
+5. **Crowding** in shelters; poor hygiene; lack of soap.
+6. **Warm, humid climate** favouring bacterial growth; flies.
+7. Poor **food hygiene**; lack of fuel for boiling.
+
+**(c) Community-level plan to prevent further transmission (3)**
+
+| Area | Actions |
+|---|---|
+| Surveillance and case management | Daily case reporting; ORS corners; zinc; refer severe cases; stool samples to IEDCR; line list |
+| Safe water | Distribute chlorine tablets/bleaching powder; boil water; tanker or bottled water; disinfect tube wells after flood; test water |
+| Sanitation | Emergency latrines ≥15 m and downslope from water sources; desludge or seal flooded latrines; safe disposal of child faeces |
+| Hygiene | Hand-washing stations with soap; hygiene kits; food hygiene |
+| Health education | Mass and interpersonal messages through CHWs, imams, teachers, miking |
+| Specific protection | Oral cholera vaccine campaign if cholera confirmed |
+| Coordination | Upazila health and disaster committee, DPHE, NGOs; community volunteers |
+| Long-term | Raised-platform tube wells; proper latrine siting; flood-resilient WASH |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Epidemiology of Communicable Diseases).
+
+## DU.219
+**Definition**
+
+**Air pollution**: the presence in the outdoor (or indoor) air of one or more contaminants (gases, particles, biological agents) in such quantity and for such duration as to be harmful to human, animal or plant life or property, or to interfere unreasonably with the comfortable enjoyment of life or property (WHO concept).
+
+**Types**
+
+| Basis | Types |
+|---|---|
+| Place | Outdoor (ambient) / Indoor (household) |
+| Origin | Primary pollutants (emitted directly: SO₂, CO, NOx, PM) / Secondary pollutants (formed in air: ozone, photochemical smog, acid rain) |
+| Source | Natural (dust storms, volcanoes, pollen) / Man-made (vehicles, industry, brick kilns, biomass burning) |
+
+**Major pollutants**
+
+Particulate matter (PM₂.₅, PM₁₀), carbon monoxide, sulphur dioxide, nitrogen oxides, ozone, lead, hydrocarbons.
+
+**WHO air quality guidelines (2021)**
+
+PM₂.₅: annual 5 µg/m³, 24-hour 15 µg/m³; PM₁₀: annual 15 µg/m³, 24-hour 45 µg/m³.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021.
+
+## DU.220
+**How air becomes polluted: sources (causes)**
+
+| Source | Pollutants |
+|---|---|
+| **1. Automobiles** | CO, NOx, hydrocarbons, PM, lead (leaded fuel), smoke |
+| **2. Industries** | SO₂, NOx, PM, fluorides, metals, organic chemicals |
+| **3. Domestic sources** | Burning of wood, coal, cow dung, kerosene → smoke, CO, PM |
+| **4. Brick kilns** | PM, SO₂, CO, black carbon |
+| **5. Construction and road dust** | Coarse and fine PM |
+| **6. Miscellaneous** | Burning of refuse, incinerators, pesticide spraying, aircraft, nuclear tests |
+| **7. Natural** | Volcanoes, forest fires, dust storms, pollen, sea salt |
+
+**Process**
+
+Emission of primary pollutants → dispersion (affected by wind, temperature inversion, humidity) → chemical reactions (sunlight → ozone, smog; SO₂ + water → acid rain) → exposure.
+
+**Air-borne diseases**
+
+| Group | Diseases |
+|---|---|
+| Infections spread by droplets / droplet nuclei | Tuberculosis, influenza, COVID-19, measles, chickenpox, diphtheria, pertussis, pneumonia, mumps, meningococcal meningitis |
+| Due to air pollutants | Asthma, chronic bronchitis, COPD, lung cancer, ischaemic heart disease, stroke, pneumoconiosis (occupational dusts), allergic rhinitis |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.221
+**Effects of air pollution**
+
+**A. Health effects**
+
+| Type | Effects |
+|---|---|
+| **Immediate (acute)** | Eye, nose and throat irritation; cough; acute bronchitis; asthma attacks; CO poisoning; deaths in smog episodes (London smog, 1952) |
+| **Delayed (chronic)** | Chronic bronchitis, COPD, emphysema, **lung cancer**, reduced lung function in children, ischaemic heart disease, stroke |
+| **Specific pollutants** | CO → carboxyhaemoglobin, hypoxia; SO₂ → bronchospasm; NO₂ → lung irritation, infections; ozone → reduced lung function; lead → anaemia, neurotoxicity in children; PM₂.₅ → enters lungs and blood, CVD |
+| **Vulnerable groups** | Children, elderly, pregnant women (low birth weight, preterm birth), people with heart and lung disease |
+
+**B. Social and economic effects**
+
+1. Damage to plants and crops; reduced yield.
+2. Harm to animals.
+3. Corrosion and soiling of buildings, metals, monuments.
+4. Reduced visibility → accidents, flight delays.
+5. Loss of working days; health-care costs.
+
+**C. Environmental effects**
+
+Acid rain; photochemical smog; ozone layer depletion (CFCs); global warming (CO₂, methane, black carbon).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.222
+**Indoor (household) air pollution**
+
+Pollution of air inside homes, schools and workplaces, mainly from burning solid fuels for cooking and heating in poorly ventilated kitchens.
+
+**Sources**
+
+Biomass fuels (wood, crop residue, cow dung), coal, kerosene; tobacco smoke; mosquito coils; incense; building materials (asbestos, formaldehyde); dampness and moulds; radon; cleaning chemicals.
+
+**Impacts on health**
+
+| Group | Effects |
+|---|---|
+| **Children** | Acute respiratory infections and **pneumonia** (leading cause of under-5 deaths); otitis media; reduced lung growth |
+| **Women** (cooks) | **COPD**, chronic bronchitis, lung cancer (coal), cataract, headache, eye irritation |
+| **Pregnancy** | Low birth weight, stillbirth, preterm birth |
+| **All** | TB, asthma, ischaemic heart disease, stroke |
+| **Acute** | CO poisoning, burns, kerosene poisoning in children |
+
+**Other impacts**
+
+1. Time lost collecting fuel; drudgery for women and girls.
+2. Deforestation; contribution to climate change (black carbon).
+3. Economic loss from illness.
+
+**Prevention**
+
+Clean fuels (LPG, electricity, biogas); improved cookstoves with chimney; kitchen ventilation; separate kitchen; keep children away from cooking smoke; no smoking indoors.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.223
+**Tools for monitoring air pollution**
+
+**A. Classical methods (Park)**
+
+| Tool / index | Measures |
+|---|---|
+| **Sulphur dioxide** measurement (lead peroxide candle; chemical methods) | SO₂ concentration |
+| **Smoke or soiling index** | Darkening of filter paper by smoke |
+| **Grit and dust measurement** (deposit gauge) | Settleable particles |
+| **Coefficient of haze** | Light transmission through filtered air |
+| **Air pollution index** | Combined value from several pollutants |
+
+**B. Modern methods**
+
+1. **Continuous Air Monitoring Stations (CAMS)**: automatic analysers for PM₂.₅, PM₁₀, SO₂, NO₂, CO, O₃ (Bangladesh Department of Environment).
+2. **High-volume and low-volume samplers** for particulate matter (gravimetric).
+3. **Air Quality Index (AQI)**: converts pollutant levels into colour-coded categories for public warning.
+4. **Low-cost sensors** and online platforms.
+5. **Satellite remote sensing** (aerosol optical depth, NO₂).
+6. **Personal exposure monitors** (indoor air, workers).
+7. **Biomonitoring**: blood lead, carboxyhaemoglobin, lichens as bio-indicators.
+8. **Health surveillance**: hospital visits for asthma, COPD during high pollution days.
+
+**Uses**
+
+Compare with standards (WHO AQG 2021, national standards); warn the public; evaluate control measures.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.224
+**Air pollution in Dhaka city**
+
+Dhaka is among the most polluted cities in the world; levels of **PM₂.₅** many times the WHO guideline (annual 5 µg/m³), worst in the **dry season (November–March)**.
+
+**Main sources**
+
+1. **Brick kilns** around the city (dry season).
+2. **Vehicle emissions**: old, poorly maintained buses and trucks; diesel; traffic congestion.
+3. **Construction and road dust**: unpaved roads, open building sites, metro and flyover works, digging.
+4. **Industrial emissions**: steel re-rolling, chemical and textile units.
+5. **Open burning** of waste and biomass.
+6. **Trans-boundary pollution** from neighbouring regions in winter.
+7. Household fuel use in slums.
+
+**Contributing factors**
+
+Rapid unplanned urbanisation; high population density; weak enforcement; temperature inversion and low wind in winter.
+
+**Health impact**
+
+Respiratory infections, asthma, COPD, lung cancer, heart disease, stroke; reduced life expectancy; worst in children, elderly and outdoor workers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021.
+
+## DU.225
+**Prevention and control of air pollution (Park)**
+
+| Principle | Measures |
+|---|---|
+| **1. Containment** | Prevent escape of pollutants: filters, electrostatic precipitators, scrubbers, closed processes |
+| **2. Replacement** | Change process or fuel: unleaded petrol, CNG/LPG, electric vehicles, cleaner technology |
+| **3. Dilution** | Green belts, tall chimneys, zoning of industries away from residential areas |
+| **4. Legislation** | Air quality standards; emission limits; vehicle fitness tests; licensing |
+| **5. International action** | WHO air quality guidelines; monitoring networks; climate agreements |
+
+**Control in Dhaka city**
+
+1. **Brick kilns**: replace old kilns with cleaner technology (zigzag, hybrid Hoffmann); promote hollow and concrete blocks; relocate kilns away from city.
+2. **Vehicles**: phase out old and unfit vehicles; emission testing; CNG and electric public transport; mass transit (metro rail, BRT); traffic management.
+3. **Construction dust**: cover sites and materials; water spraying; finish road works quickly; pave roads; street cleaning.
+4. **Industry**: emission control devices; enforcement by Department of Environment.
+5. **No open burning** of waste; proper solid waste management.
+6. **Urban greening**: trees, parks.
+7. **Monitoring**: CAMS, public AQI alerts; health advisories (masks, limit outdoor activity).
+8. **Laws**: Environment Conservation Act 1995; Air Pollution (Control) Rules 2022.
+9. **Household**: clean cooking fuels.
+10. **Regional cooperation** on trans-boundary pollution.
+
+**WHO strategy**
+
+Global Air Quality Guidelines (2021); WHO road map on health and air pollution; promote clean household energy, sustainable transport, monitoring and health-sector advocacy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO Global Air Quality Guidelines, 2021.
+
+## DU.226
+**Components of air quality**
+
+**A. Normal composition of air (dry, by volume)**
+
+| Gas | Percentage |
+|---|---|
+| Nitrogen | ~78% |
+| Oxygen | ~21% |
+| Argon | ~0.93% |
+| Carbon dioxide | ~0.04% |
+| Others (neon, helium, hydrogen, ozone) | Traces |
+| Water vapour | Variable |
+
+**B. Physical (thermal comfort) components**
+
+1. Air temperature
+2. Humidity
+3. Air movement (velocity)
+4. Radiation (mean radiant temperature)
+Indices: corrected effective temperature, predicted 4-hour sweat rate.
+
+**C. Purity (pollutant) components**
+
+1. Particulate matter (PM₂.₅, PM₁₀)
+2. Gases: CO, SO₂, NO₂, ozone
+3. Lead and other metals
+4. Volatile organic compounds
+5. Biological agents: bacteria, viruses, pollen, moulds
+6. Odour
+
+**D. Ventilation**
+
+Adequate fresh air supply and removal of contaminated air (air changes per hour).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.227
+**Major air pollutants**
+
+| Pollutant | Main sources | Health effects |
+|---|---|---|
+| **Particulate matter (PM₂.₅, PM₁₀)**, smoke, soot | Vehicles, brick kilns, construction, burning | Respiratory and heart disease, lung cancer |
+| **Carbon monoxide (CO)** | Incomplete combustion; vehicles, stoves | Carboxyhaemoglobin, hypoxia, death |
+| **Sulphur dioxide (SO₂)** | Coal and oil burning, industry, kilns | Bronchospasm, acid rain |
+| **Nitrogen oxides (NO, NO₂)** | Vehicles, power plants | Airway irritation, smog |
+| **Ozone (O₃)** (secondary) | Sunlight + NOx + hydrocarbons | Reduced lung function, asthma |
+| **Hydrocarbons / VOCs** (benzene) | Vehicles, solvents | Cancer, smog formation |
+| **Lead** | Leaded fuel (past), industry, batteries | Anaemia, neurotoxicity in children |
+| Fluorides | Aluminium, fertiliser industries | Fluorosis |
+| Other metals (cadmium, arsenic, mercury) | Industry | Organ toxicity, cancer |
+| Biological (pollen, spores, microbes) | Plants, waste | Allergy, infections |
+
+**Criteria pollutants (WHO / national standards)**
+
+PM₂.₅, PM₁₀, O₃, NO₂, SO₂, CO (and lead).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.228
+**Three important sources of indoor air pollution in Bangladesh**
+
+1. **Burning of solid biomass fuels** (wood, crop residues, cow-dung cakes, coal) for cooking in poorly ventilated kitchens: smoke, PM₂.₅, CO.
+2. **Tobacco smoking** indoors (second-hand smoke).
+3. **Mosquito coils** and kerosene lamps or stoves.
+
+**Other sources**
+
+Incense; cooking oil fumes; dampness and moulds; building materials and paints; cleaning chemicals; asbestos; poor ventilation in crowded slums.
+
+**Most affected**
+
+Women who cook, and young children kept near the stove → pneumonia, COPD, low birth weight.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.229
+**Ventilation**
+
+Replacement of vitiated (used) air by fresh outdoor air, to maintain comfort and remove heat, moisture, odours and contaminants.
+
+**Categories**
+
+| Type | Mechanism / methods |
+|---|---|
+| **A. Natural ventilation** | |
+| 1. Wind (perflation) | Wind blows through openings (doors, windows); **cross-ventilation** through opposite openings |
+| 2. Diffusion | Slow passage of air through openings and porous walls |
+| 3. Inequality of temperature (stack effect) | Warm air rises and leaves through high openings; cool air enters low |
+| **B. Artificial (mechanical) ventilation** | |
+| 1. Exhaust (extraction) ventilation | Fans remove vitiated air; fresh air enters by openings (kitchens, toilets, factories) |
+| 2. Plenum (supply / propulsion) ventilation | Fresh air blown in; foul air escapes by vents |
+| 3. Balanced ventilation | Combination of supply and exhaust |
+| 4. Air conditioning | Controls temperature, humidity, air movement and purity |
+
+**Standards (Park)**
+
+Air change: 2–3 per hour in living rooms (more in workplaces); window area at least 1/10 of floor area (doors + windows ~2/5); adequate cubic space per person.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.230
+**Types of artificial (mechanical) ventilation**
+
+| Type | Description | Uses |
+|---|---|---|
+| **1. Exhaust (extraction) ventilation** | Electric fans or blowers draw out vitiated air; fresh air enters through doors, windows and inlets | Kitchens, toilets, factories, laboratories (local exhaust hoods over dust or fumes) |
+| **2. Plenum (supply / propulsion) ventilation** | Fresh air (often filtered, cooled or heated) blown in by fans; used air escapes through outlets | Theatres, large halls, mines, operation theatres (positive pressure) |
+| **3. Balanced ventilation** | Combination of supply and exhaust systems, matched to keep correct pressure | Large buildings, hospitals, isolation rooms (negative pressure for TB/airborne infections) |
+| **4. Air conditioning** | Controls temperature, humidity, air movement and air purity (filtration) simultaneously | Hospitals, offices, ICUs, cinemas |
+
+**Other devices**
+
+Ceiling and table fans (air movement only; no fresh air exchange); air coolers; HEPA filters and air purifiers.
+
+**Advantages**
+
+Independent of wind and temperature; controllable; filtration possible.
+
+**Disadvantages**
+
+Cost; power needed; noise; poor maintenance can spread infection (Legionella).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.231
+**Simplest system: natural cross-ventilation**
+
+Openings (windows / doors) on **opposite walls** + **ventilators** high on the walls near the ceiling.
+
+**Diagram (section of a room)**
+
+```
+   Outlet ventilator (high, near ceiling) → warm, used air out
+  ┌──────────────────────────────┐
+  │ ▒▒                       ▒▒  │
+  │                              │
+  │  ← fresh air      warm air ↑ │
+  │                              │
+Window ▶   →  →  →  →  →  →    ◀ Window (opposite wall)
+  │  (inlet, lower level)        │
+  └──────────────────────────────┘
+```
+
+Fresh air enters through the lower window on the windward side → crosses the room → warm, used air rises and leaves through high ventilators and the opposite window.
+
+**Principles**
+
+1. **Perflation**: wind through opposite openings.
+2. **Stack effect**: warm air rises and escapes at the top; cool air enters below.
+3. Inlets low, outlets high.
+4. Openings unobstructed; window area at least 1/10 of floor area.
+
+**Advantages**
+
+Cheap, no power needed, simple; suits rural and low-income homes in Bangladesh.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.232
+**Noise**
+
+**Wrong sound, in the wrong place, at the wrong time**; any unwanted sound that annoys or harms.
+
+**Properties**
+
+| Property | Unit | Note |
+|---|---|---|
+| Intensity (loudness) | Decibel (dB) | Logarithmic; +10 dB ≈ 10 times intensity |
+| Frequency (pitch) | Hertz (Hz) | Human hearing 20–20,000 Hz; most sensitive 2,000–5,000 Hz |
+| Duration | Time | Longer exposure → more damage |
+
+Hearing damage risk: prolonged exposure **above 85 dB(A)** (8 hours/day).
+
+**Sources of noise**
+
+| Source | Examples |
+|---|---|
+| Traffic | Horns (hydraulic horns), engines, buses, motorcycles, trains |
+| Industry | Machines, generators, looms, presses, metal workshops |
+| Construction | Pile drivers, drills, mixers |
+| Aircraft | Airports, flight paths |
+| Social / community | Loudspeakers and microphones (*miking*), festivals, firecrackers, weddings, political rallies |
+| Domestic | Television, music, appliances, generators |
+| Commercial | Markets, shops with speakers |
+
+**Typical levels**
+
+Whisper ~30 dB; conversation ~60 dB; heavy traffic ~85–90 dB; hydraulic horn 100+ dB; jet engine ~140 dB.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.233
+**Effects of noise pollution on health**
+
+**A. Auditory effects**
+
+1. **Auditory fatigue** (temporary threshold shift): above ~90 dB, recovers with rest.
+2. **Noise-induced hearing loss** (permanent threshold shift): prolonged exposure >85 dB; first at **4,000 Hz** ("4 kHz notch"); irreversible.
+3. **Acoustic trauma**: sudden very loud noise (>140 dB, blasts) → ruptured eardrum.
+4. **Tinnitus**.
+
+**B. Non-auditory effects**
+
+| Effect | Details |
+|---|---|
+| Interference with speech | Communication difficulty; accidents from missed warnings |
+| Annoyance | Irritation, anger |
+| Sleep disturbance | Insomnia, fatigue |
+| Reduced efficiency | Poor concentration and work output; more errors |
+| Physiological | Rise in BP and heart rate, hypertension, CVD, headache, raised intracranial pressure, increased sweating, nausea, vertigo |
+| Psychological | Stress, anxiety, neurosis, aggression |
+| Children | Impaired learning and reading; delayed speech |
+| Pregnancy | Possible low birth weight with high exposure |
+
+**Vulnerable groups**
+
+Traffic police, drivers, factory and construction workers, children, elderly, patients in hospitals.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Occupational Health).
+
+## DU.234
+**Noise control measures in Dhaka city**
+
+**A. Legislation and enforcement**
+
+1. **Noise Pollution (Control) Rules 2006**: zone-wise day and night limits (silent, residential, mixed, commercial, industrial zones).
+2. **Silent zones** around hospitals, schools, offices and courts; no horns.
+3. **Ban on hydraulic horns**; mobile courts and fines.
+4. Permits and time limits for loudspeakers and construction at night.
+
+**B. At the source**
+
+1. Vehicle fitness checks; silencers; ban on old noisy vehicles.
+2. Traffic management to reduce congestion and honking.
+3. Low-noise machinery; enclosures for generators and industrial machines.
+4. Construction work only in daytime; quieter equipment.
+
+**C. Along the path**
+
+1. **Zoning**: industries and workshops away from homes, schools and hospitals.
+2. **Green belts** and trees; noise barriers along highways and flyovers.
+3. Sound insulation of buildings; double-glazed windows in hospitals.
+
+**D. At the receiver**
+
+Ear plugs and muffs for workers and traffic police; periodic audiometry.
+
+**E. Education and awareness**
+
+Campaigns against unnecessary honking; driver training; community participation; school education.
+
+**F. Monitoring**
+
+Regular noise measurement by Department of Environment; mapping noise hotspots.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.235
+**a) Common sources of noise in Chawkbazar (2)**
+
+1. **Traffic**: honking (including hydraulic horns), rickshaw and vehicle congestion, trucks loading goods.
+2. **Small factories and workshops**: plastic, metal, printing and packaging units; machines and generators.
+3. **Commercial activities**: wholesale markets, shop loudspeakers, hawkers.
+4. **Construction** and demolition.
+5. **Social events**: loudspeakers, processions, religious and festive gatherings.
+
+**b) Health effects of prolonged excessive noise (2)**
+
+1. **Noise-induced hearing loss** (permanent; first at 4 kHz); tinnitus.
+2. **Hypertension**, cardiovascular disease, headache.
+3. **Sleep disturbance**, fatigue.
+4. **Stress, irritability, anxiety**, reduced concentration and work efficiency.
+5. **Speech interference** → accidents.
+6. Impaired learning in children.
+
+**c) Control measures by the local authority (3)**
+
+1. **Enforce Noise Pollution (Control) Rules 2006**: zone limits; fines by mobile courts.
+2. **Ban hydraulic horns**; declare no-horn zones near schools, hospitals and mosques.
+3. **Traffic management**: one-way routes, fixed loading/unloading hours, rickshaw lanes.
+4. **Relocate or zone** noisy factories and workshops away from residential areas; require sound-proof enclosures for generators and machines.
+5. **Regulate loudspeakers** and construction hours (no night work).
+6. **Noise barriers and tree planting**.
+7. **Regular noise monitoring** and public display of levels.
+8. **Awareness campaigns** for drivers, traders and residents; ear protection for exposed workers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.236
+**Sources of radiation exposure**
+
+**A. Natural (background) sources**: the largest share of human exposure.
+
+| Source | Examples |
+|---|---|
+| Cosmic rays | From outer space; higher at high altitude and in air travel |
+| Terrestrial | Uranium, thorium, radium in soil and rocks; building materials |
+| **Radon** gas | From soil into houses; main natural source |
+| Internal | Potassium-40, carbon-14 in the body; from food and water |
+
+**B. Man-made (artificial) sources**
+
+| Source | Examples |
+|---|---|
+| **Medical** (largest man-made source) | Diagnostic X-ray, CT scan, fluoroscopy, nuclear medicine (isotope scans), radiotherapy |
+| Occupational | Radiology staff, nuclear workers, industrial radiography, miners |
+| Nuclear power and fuel cycle | Reactors (e.g., Rooppur nuclear power plant), waste |
+| Nuclear accidents and weapon tests | Chernobyl, Fukushima; fallout |
+| Consumer products | Luminous dials, smoke detectors, tobacco (polonium-210) |
+| Industrial and research uses | Radioisotopes, sterilisation of medical products |
+
+**C. Non-ionising radiation**
+
+Ultraviolet (sun), visible light, infrared, microwaves, radiofrequency (mobile phones), lasers.
+
+**Units**
+
+Absorbed dose: gray (Gy); effective dose: sievert (Sv).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Occupational Health).
+
+## DU.237
+**Radiation hazards**
+
+**A. Ionising radiation**
+
+| Type | Effects |
+|---|---|
+| **Somatic: immediate (deterministic)** | Acute radiation syndrome; skin erythema, burns, epilation; sterility; cataract; bone marrow depression; fetal death |
+| **Somatic: delayed (stochastic)** | **Cancers**: leukaemia, thyroid, breast, lung, bone, skin cancer; shortened life span |
+| **Genetic** | Mutations in germ cells → congenital defects in descendants |
+| **In utero exposure** | Abortion, microcephaly, intellectual disability, growth retardation, childhood cancer |
+
+**Deterministic vs stochastic**
+
+| Deterministic | Stochastic |
+|---|---|
+| Threshold dose exists | No threshold |
+| Severity increases with dose | Probability increases with dose |
+| e.g., burns, cataract, ARS | e.g., cancer, genetic effects |
+
+**Factors affecting harm**
+
+Dose, dose rate, type of radiation, part of body exposed, age (children and fetus most sensitive), cell sensitivity (rapidly dividing cells: bone marrow, gut, gonads, skin).
+
+**B. Non-ionising radiation**
+
+UV: sunburn, skin cancer, cataract, snow blindness; infrared: heat cataract (glass-blowers), burns; microwaves: tissue heating; lasers: retinal burns.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Occupational Health).
+
+## DU.238
+**Acute radiation syndrome (ARS)**
+
+An acute illness caused by **whole-body (or most of body) exposure to a high dose of penetrating ionising radiation (>1 Gy) over a short time** (minutes).
+
+**Phases**
+
+Prodromal (nausea, vomiting, fatigue: minutes–days) → Latent (apparent recovery) → Manifest illness → Recovery or death
+
+**Syndromes by dose**
+
+| Syndrome | Dose (approx.) | Features |
+|---|---|---|
+| **Haematopoietic (bone marrow)** | 1–8 Gy | Pancytopenia → infections, bleeding, anaemia; death in weeks without treatment |
+| **Gastrointestinal** | ~6–10 Gy or more | Severe vomiting, bloody diarrhoea, dehydration, sepsis; usually fatal |
+| **Cardiovascular / CNS** | >20–50 Gy | Confusion, convulsions, coma, shock; death within hours–days |
+
+- **LD₅₀/₆₀** (dose killing 50% in 60 days) without treatment: about 3.5–4 Gy.
+- **Cutaneous radiation injury** often accompanies ARS.
+
+**Management**
+
+Decontamination; supportive care (fluids, antiemetics); antibiotics; blood products; growth factors (G-CSF); bone marrow transplant in selected cases; potassium iodide for radioiodine exposure.
+
+**Prevention**
+
+Radiation safety, emergency preparedness at nuclear facilities.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.239
+**Principles of radiation protection (ICRP)**
+
+1. **Justification**: every exposure must do more good than harm.
+2. **Optimisation (ALARA)**: dose kept "as low as reasonably achievable".
+3. **Dose limits**: occupational 20 mSv/year (averaged over 5 years, not >50 mSv in any one year); public 1 mSv/year.
+
+**Protection of X-ray technicians and imaging staff**
+
+| Measure | Details |
+|---|---|
+| **Time** | Minimise time near the source |
+| **Distance** | Stay as far as possible (inverse square law: doubling distance → ¼ dose) |
+| **Shielding** | Lead aprons, thyroid collars, lead gloves, lead-glass screens and goggles; lead/concrete walls and doors of X-ray rooms |
+| **Personal monitoring** | TLD / film badges worn at work; dose records |
+| **Equipment safety** | Collimation, filtration, regular calibration and maintenance; no leakage |
+| **Safe work practice** | Never hold patients during exposure; use immobilisers; control panel behind shield |
+| **Warning signs** | Radiation symbol, red light outside room |
+| **Medical surveillance** | Pre-employment and periodic examination, blood counts, eye check |
+| **Training** | Radiation safety education |
+| **Pregnant staff** | Declare pregnancy; dose to fetus ≤1 mSv for rest of pregnancy |
+| **Regulation** | Licensing and inspection (Bangladesh Atomic Energy Regulatory Authority) |
+
+**Protection of patients and public**
+
+Avoid unnecessary or repeat X-rays; use lowest dose; gonadal and thyroid shields; ask about pregnancy (ten-day rule); prefer ultrasound or MRI when suitable.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Occupational Health).
+
+## DU.240
+**Greenhouse gases (GHGs)**
+
+| Gas | Main sources |
+|---|---|
+| **Carbon dioxide (CO₂)** | Burning fossil fuels (coal, oil, gas), deforestation, cement |
+| **Methane (CH₄)** | Rice paddies, livestock, landfills, gas leaks |
+| **Nitrous oxide (N₂O)** | Fertilisers, burning of biomass, industry |
+| **Chlorofluorocarbons (CFCs)**, HCFCs, **HFCs** | Refrigerators, air conditioners, aerosols, foam |
+| **Water vapour** | Natural evaporation (feedback amplifier) |
+| **Tropospheric ozone (O₃)** | Secondary pollutant from vehicles and industry |
+| Perfluorocarbons (PFCs), sulphur hexafluoride (SF₆) | Industry, electrical equipment |
+
+**Note**
+
+CO₂ contributes most to warming because of its quantity; methane and N₂O are much more potent per molecule; CFCs also deplete the ozone layer.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.241
+**Environmental pollution: the challenge of this millennium**
+
+Environment-related risks cause about a quarter of global deaths and disease (WHO, 2016 estimate for 2012).
+
+**Types and problems**
+
+| Type | Main problems |
+|---|---|
+| Air pollution | Respiratory and heart disease, lung cancer; Dhaka among the most polluted cities |
+| Water pollution | Diarrhoea, cholera, typhoid; arsenic; river pollution (Buriganga, Turag) |
+| Soil pollution | Pesticides, heavy metals, industrial waste; enters food chain |
+| Noise pollution | Hearing loss, stress, hypertension |
+| Plastic and solid waste | Drain blockage, flooding, microplastics |
+| E-waste and hospital waste | Toxic metals, infections |
+| Chemical pollution | Lead, mercury, pesticides, endocrine disruptors |
+| Radiation | Cancer, genetic effects |
+| **Climate change** (GHG pollution) | Heat, floods, cyclones, sea-level rise, vector-borne disease |
+
+**Why it is a challenge**
+
+1. **Rapid urbanisation and industrialisation**; population growth.
+2. **Global and trans-boundary** nature (air, rivers, climate).
+3. **Long-term, cumulative** effects (cancers, climate).
+4. **Poor and vulnerable** suffer most → inequity.
+5. **Weak enforcement** of laws in developing countries.
+6. Conflicts with economic growth; high cost of control.
+7. Loss of biodiversity and ecosystem services.
+
+**Responses**
+
+SDGs (3.9: reduce deaths from pollution; 6: water and sanitation; 11: sustainable cities; 13: climate action); Paris Agreement; national laws (Environment Conservation Act 1995); cleaner technologies; waste management; public awareness; intersectoral action.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health); WHO, Preventing disease through healthy environments, 2016.
+
+## DU.242
+**Global warming**
+
+The **rise in the average temperature of the earth's surface and lower atmosphere** due to increased concentration of greenhouse gases (enhanced greenhouse effect) from human activities since the industrial revolution.
+
+**Causes**
+
+1. Burning of fossil fuels → CO₂.
+2. Deforestation (less CO₂ absorption).
+3. Agriculture and livestock (methane, N₂O).
+4. Industrial gases (CFCs, HFCs).
+5. Urbanisation and land-use change.
+
+**Evidence**
+
+Global surface temperature about 1.1 °C above pre-industrial (1850–1900) levels in 2011–2020 (IPCC AR6, 2021); melting glaciers and ice sheets; rising sea level; more frequent extreme weather.
+
+**Consequences**
+
+Heat waves; sea-level rise; floods, droughts, cyclones; salinity intrusion; crop failure and food insecurity; spread of vector-borne diseases; loss of biodiversity; displacement of people.
+
+**Prevention (mitigation)**
+
+Cut GHG emissions: renewable energy, energy efficiency, public transport, reforestation, less deforestation; international action (UNFCCC, Kyoto Protocol, Paris Agreement 2015: keep warming well below 2 °C, aim 1.5 °C).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.243
+**Climate change**
+
+Long-term change in temperature, rainfall and weather patterns, mainly due to human-made greenhouse gas emissions. Bangladesh is among the most vulnerable countries: low-lying delta, dense population, poverty.
+
+**Impact on health in Bangladesh**
+
+| Climate effect | Health impact |
+|---|---|
+| **Heat waves**, rising temperature | Heat stroke, dehydration, kidney disease, deaths in elderly and outdoor workers; reduced work capacity |
+| **Floods** | Drowning, injuries, diarrhoea, cholera, typhoid, hepatitis E, leptospirosis, skin infections, snake bites |
+| **Cyclones and storm surges** (Sidr 2007, Aila 2009, Amphan 2020) | Deaths, injuries, destruction of health facilities, displacement |
+| **Sea-level rise and salinity** (coastal areas) | Unsafe drinking water; hypertension, pre-eclampsia, skin disease; reduced crop yield |
+| **Changing rainfall and temperature** | Spread of **dengue**, chikungunya, malaria to new areas and seasons |
+| **Drought and crop loss** | Food insecurity, malnutrition, stunting |
+| **Displacement and migration** | Urban slums, overcrowding, poor sanitation, TB, mental stress |
+| **Air quality** | Worse air pollution and pollen allergies |
+| **Mental health** | Anxiety, depression, PTSD after disasters |
+
+**Greenhouse effect in Bangladesh context**
+
+Bangladesh emits little but suffers most → climate justice.
+
+**Responses**
+
+1. **Adaptation**: cyclone shelters and early warning, flood-resilient WASH, climate-resilient health facilities, disease surveillance, heat action plans, saline-tolerant crops.
+2. **Mitigation**: renewable energy (solar home systems), afforestation (coastal green belt), energy efficiency.
+3. **Policies**: Bangladesh Climate Change Strategy and Action Plan 2009; National Adaptation Plan 2023–2050; health-sector climate strategy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health; Disaster Management).
+
+## DU.244
+**Ozone layer**
+
+Layer of ozone (O₃) in the **stratosphere** (~15–35 km) that absorbs most harmful **ultraviolet-B (UV-B)** radiation from the sun.
+
+**Depletion**
+
+Caused by **chlorofluorocarbons (CFCs)**, halons, carbon tetrachloride, methyl chloroform, methyl bromide → release chlorine and bromine, which destroy ozone; "ozone hole" over Antarctica.
+
+**Impact on community health**
+
+| Area | Effects |
+|---|---|
+| **Skin** | Sunburn; **skin cancers**: basal cell, squamous cell carcinoma, malignant melanoma; photo-ageing |
+| **Eyes** | **Cataract**, photokeratitis (snow blindness), pterygium, ocular cancers |
+| **Immune system** | Suppression → more infections, reduced vaccine response, reactivation of herpes |
+| **Food and nutrition** | Reduced crop yield; damage to marine phytoplankton and fisheries → food insecurity |
+| **Environment** | Damage to ecosystems; more ground-level ozone and smog |
+
+**Prevention**
+
+1. **Montreal Protocol (1987)**: phase-out of ozone-depleting substances (most successful environmental treaty); Kigali Amendment (2016) phases down HFCs.
+2. Use of ozone-friendly refrigerants and aerosols.
+3. Personal protection: avoid midday sun, protective clothing, hats, sunglasses, sunscreen.
+4. Public UV index warnings and education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.245
+**Greenhouse phenomenon (greenhouse effect)**
+
+The warming of the earth's surface because certain gases in the atmosphere trap heat, like the glass of a greenhouse.
+
+**Mechanism**
+
+Sun's short-wave radiation passes through atmosphere → absorbed by earth's surface → earth emits long-wave **infrared (heat)** radiation → **greenhouse gases** (CO₂, methane, N₂O, CFCs, water vapour, ozone) absorb and re-radiate it back → lower atmosphere and surface warm up
+
+**Natural vs enhanced greenhouse effect**
+
+| Natural | Enhanced (man-made) |
+|---|---|
+| Keeps average earth temperature about +15 °C instead of about −18 °C; essential for life | Extra GHGs from fossil fuels, deforestation, agriculture trap more heat → **global warming** and climate change |
+
+**Consequences of enhanced effect**
+
+Rising temperature, sea-level rise, extreme weather, floods, droughts, health effects (heat illness, vector-borne and water-borne diseases, malnutrition).
+
+**Control**
+
+Reduce GHG emissions; renewable energy; forests; international agreements (UNFCCC, Paris Agreement).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.246
+**Definition**
+
+**Housing** (residential environment, WHO): not only the physical structure that gives shelter, but also its **immediate surroundings** and the related **community services and facilities** needed for the physical, mental and social well-being of the family and individual.
+
+**Components**
+
+1. Physical structure: shelter, rooms, floor, roof, walls.
+2. Facilities: water supply, sanitation, drainage, kitchen, lighting, ventilation.
+3. Surroundings: neighbourhood, open space, safety, freedom from nuisances.
+4. Community services: schools, health facilities, transport, markets, recreation.
+
+**Importance**
+
+Housing is a major determinant of health; poor housing and overcrowding spread TB, respiratory infections, diarrhoea, skin diseases and cause accidents and mental stress.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.247
+**Criteria of healthful housing (WHO Expert Committee)**
+
+Healthful housing provides a physical structure that promotes physical, mental and social well-being:
+1. Meets **fundamental physiological needs**: protection from weather; adequate light, ventilation, temperature; clean air; space for rest and exercise.
+2. Meets **psychological needs**: privacy, comfort, normal family and community life.
+3. Protects **against contagion**: safe water, sanitary excreta and refuse disposal, no overcrowding, freedom from vermin.
+4. Protects **against accidents**: safe structure, fire safety, electrical safety, safe stairs.
+
+**Housing standards (Park)**
+
+| Item | Standard |
+|---|---|
+| Site | Elevated, well drained, away from nuisances (dust, smoke, noise, odour) |
+| Set-back | Open space around the house for light and air |
+| Floor | Impermeable, easy to clean, damp-proof |
+| Walls | Strong, smooth, damp-proof, poor heat conductors |
+| Roof | Weather-proof; height ≥10 feet |
+| Rooms | At least two rooms, with adequate floor space per person |
+| Windows | Area at least 1/10 of floor area; doors + windows about 2/5 of floor area |
+| Lighting | Adequate daylight in all rooms |
+| Kitchen | Separate, with smoke outlet |
+| Latrine | Sanitary latrine |
+| Water supply | Safe and adequate |
+| Drainage, waste disposal | Proper |
+| Bathing and washing | Facilities provided |
+
+**Overcrowding standards (persons per room)**
+
+1 room: 2 persons; 2 rooms: 3; 3 rooms: 5; 4 rooms: 7; 5+ rooms: 10 (+2 per extra room). Children <1 year not counted; 1–10 years counted as half.
+
+**"Healthful housing for healthy life"**
+
+Good housing prevents infections (TB, diarrhoea, scabies), accidents and mental stress; supports family life, child development and productivity, so it is a basic need for health.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).
+
+## DU.248
+**Effects of poor housing**
+
+**A. Physical health**
+
+| Housing defect | Health effect |
+|---|---|
+| Overcrowding, poor ventilation | **Tuberculosis**, common cold, influenza, pneumonia, diphtheria, whooping cough, measles, meningococcal meningitis |
+| Poor sanitation, unsafe water | Diarrhoea, cholera, typhoid, hepatitis, worm infestations |
+| Crowding, lack of water | Skin infections: scabies, impetigo, fungal infections; lice |
+| Rats and insects | Plague, leptospirosis, dengue, malaria, filariasis |
+| Dampness | Rheumatism, arthritis, respiratory disease, asthma (moulds) |
+| Indoor smoke | ARI in children, COPD in women |
+| Poor lighting, unsafe structure | **Accidents**: falls, burns, fires, electrocution; eye strain |
+| Lead paint, asbestos | Poisoning, cancer |
+
+**B. Psychological effects**
+
+Stress, frustration, lack of privacy, depression, mental illness, sleep disturbance.
+
+**C. Social effects**
+
+Juvenile delinquency, alcoholism, drug abuse, crime, prostitution, family breakdown, poor school performance.
+
+**D. Mortality**
+
+Higher morbidity and mortality, especially **infant mortality** and TB deaths, in slums.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Environment and Health).

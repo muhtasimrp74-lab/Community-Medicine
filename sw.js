@@ -1,4 +1,4 @@
-const CACHE = 'cm-bank-v20';
+const CACHE = 'cm-bank-v21';
 const FILES = ['./', 'index.html', 'css/app.css', 'css/visuals.css', 'js/visuals.js', 'js/app.js', 'data/du.js', 'data/mcq.js', 'data/predict.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
   'fonts/dm-serif-display-latin-400-normal.woff2', 'fonts/hanken-grotesk-latin-400-normal.woff2', 'fonts/hanken-grotesk-latin-600-normal.woff2', 'fonts/hanken-grotesk-latin-700-normal.woff2'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(FILES.map(f => c.add(new Request(f, { cache: 'reload' })).catch(() => {})))).then(() => self.skipWaiting())); });
