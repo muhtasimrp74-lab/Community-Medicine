@@ -11756,3 +11756,1147 @@ Harm to an infant caused by **replacing breast milk with cow's milk or other art
 **Exclusive breastfeeding** for 6 months; continued breastfeeding to 2 years or more with complementary foods; avoid bottle feeding; enforce the breast-milk substitutes marketing law; counsel mothers.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics; Nutrition and Health).
+
+## DU.426
+**Rooming-in**
+
+Keeping the **mother and newborn together in the same room (bed-side cot) 24 hours a day** from birth until discharge, instead of keeping the baby in a separate nursery.
+
+**Benefits**
+
+1. Early and **on-demand breastfeeding**; better milk production.
+2. **Bonding** between mother and baby.
+3. Mother learns baby care (warmth, cord care, danger signs).
+4. **Less hospital infection** (less handling by staff).
+5. Baby kept warm; less crying.
+6. Part of the **Baby-Friendly Hospital Initiative**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.427
+**Exclusive breastfeeding (EBF)**
+
+The infant receives **only breast milk** (including expressed breast milk) and **no other liquids or solids, not even water**, except **ORS, drops or syrups of vitamins, minerals or medicines**, for the **first 6 months** of life (WHO).
+
+**Key practices**
+
+1. **Early initiation**: within **1 hour** of birth; give colostrum.
+2. **On demand**, day and night (8–12 times / 24 hours).
+3. **No prelacteal feeds** (honey, sugar water, mustard oil), no bottles or pacifiers.
+4. Correct positioning and attachment.
+5. After 6 months: start **complementary feeding**; continue breastfeeding to **2 years or beyond**.
+
+**Why 6 months**
+
+Breast milk alone meets all nutritional and fluid needs for 6 months and protects against infections; water or other foods add infection risk and reduce milk intake.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics; Nutrition and Health).
+
+## DU.428
+**Benefits of exclusive breastfeeding**
+
+**A. For the baby**
+
+1. **Ideal nutrition**: right proportion of protein, fat, lactose, vitamins; easily digested.
+2. **Anti-infective factors**: secretory IgA, lactoferrin, lysozyme, macrophages, bifidus factor → protection against **diarrhoea, pneumonia, otitis media, sepsis**.
+3. **Lower infant mortality** and hospitalisation.
+4. **Clean, safe, at the right temperature**; no contamination.
+5. **Brain development** (DHA); higher IQ.
+6. **Less allergy**, asthma; lower later risk of obesity, diabetes.
+7. **Bonding**, emotional security.
+
+**B. For the mother**
+
+1. **Lactational amenorrhoea** → birth spacing.
+2. **Oxytocin** release → uterine contraction, **less PPH**, faster involution.
+3. **Lower risk of breast and ovarian cancer**; type 2 diabetes.
+4. Helps return to pre-pregnancy weight.
+5. Convenient; saves time.
+
+**C. For family and nation**
+
+Saves money (no formula, fewer illnesses); reduces health-care costs; environment-friendly; contributes to child survival and development goals.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.429
+**Weaning**
+
+The process of **gradually introducing foods other than breast milk** to the infant's diet, while breastfeeding continues, so that the child moves from breast milk to the family diet. WHO now prefers the term **complementary feeding**.
+
+**Timing**
+
+From **6 months** (180 days); breastfeeding continued up to 2 years or beyond.
+
+**Principles (good complementary feeding)**
+
+1. **Timely**: at 6 months.
+2. **Adequate**: energy, protein and micronutrients (iron, zinc, vitamin A); thick, energy-dense foods.
+3. **Safe**: hygienically prepared and stored; clean hands and utensils.
+4. **Properly fed**: responsive feeding; increase frequency and variety with age.
+
+| Age | Frequency | Consistency |
+|---|---|---|
+| 6–8 months | 2–3 meals + breastfeeding | Mashed, soft (khichuri, mashed vegetables, fruit) |
+| 9–11 months | 3–4 meals + 1–2 snacks | Finely chopped, finger foods |
+| 12–24 months | 3–4 meals + 1–2 snacks | Family foods |
+
+**Problems of faulty weaning**
+
+Weanling diarrhoea, growth faltering, PEM, micronutrient deficiencies.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.430
+**Disadvantages of artificial (bottle) feeding**
+
+1. **Infection**: contaminated bottles, teats, water → diarrhoea, thrush.
+2. **Malnutrition**: over-dilution → marasmus; wrong preparation.
+3. Lacks **anti-infective factors** (IgA, lactoferrin, lysozyme) → more ARI, otitis, NEC.
+4. **Cow's milk protein allergy**, intolerance; occult GI bleeding → iron-deficiency anaemia.
+5. High solute load → hypernatraemic dehydration.
+6. **Costly**; time and fuel for preparation.
+7. Later **obesity**, diabetes risk.
+8. Less **bonding**; mother loses lactational contraception.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.431
+**Colostrum**
+
+Thick, **yellowish** milk secreted during the **first 2–3 days** (up to ~5 days) after delivery.
+
+**Features**
+
+1. Rich in **protein**, **antibodies (secretory IgA)**, leucocytes, **vitamin A**, zinc; less fat and lactose than mature milk.
+2. Acts as the baby's **"first immunisation"**: protects against infections.
+3. **Laxative**: helps passage of meconium → less jaundice.
+4. Promotes growth of gut lining and healthy flora.
+5. Small volume suits the newborn's stomach.
+
+**Practice**: give colostrum; **do not discard** it (a harmful custom); no prelacteal feeds.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.432
+**Contraindications of breastfeeding (very few)**
+
+**A. Infant conditions**
+
+1. **Classic galactosaemia** (absolute).
+2. Maple syrup urine disease; **phenylketonuria** (partial breastfeeding with special formula).
+
+**B. Maternal conditions**
+
+1. **HIV** infection: where safe replacement feeding is acceptable, feasible, affordable, sustainable and safe; otherwise breastfeed with ART (WHO).
+2. **Active untreated TB**: temporary separation until non-infectious (expressed milk can be given).
+3. HTLV-1 infection; herpes lesions on the breast (feed from the other side).
+4. **Drugs**: anticancer drugs, radioactive isotopes, some immunosuppressants; substance abuse.
+5. Severe maternal illness (shock, eclampsia, psychosis) temporarily.
+
+**Not contraindications**
+
+Hepatitis B (baby gets vaccine + HBIG), common cold, diarrhoea, most drugs, mastitis.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.433
+**Importance of complementary feeding**
+
+1. After **6 months**, breast milk alone cannot meet the child's needs for **energy, protein, iron, zinc and vitamin A**.
+2. Prevents **growth faltering**, stunting and PEM during the critical 6–24-month window.
+3. Prevents **iron-deficiency anaemia** and other micronutrient deficiencies.
+4. Develops **chewing**, swallowing and taste for family foods.
+5. Supports **brain development** and learning.
+6. Reduces later **malnutrition-infection cycle** when foods are prepared hygienically.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Nutrition and Health).
+
+## DU.434
+**Infant mortality in Bangladesh**
+
+IMR 27 per 1,000 live births (SVRS 2023); most infant deaths occur in the **neonatal period**.
+
+**A. Medical causes**
+
+| Period | Causes |
+|---|---|
+| **Neonatal** (largest share) | **Prematurity / LBW**, **birth asphyxia**, **neonatal sepsis**, pneumonia, hypothermia, congenital anomalies, jaundice |
+| **Post-neonatal** | **Pneumonia / ARI**, **diarrhoea**, malnutrition, measles and other vaccine-preventable diseases, injuries (drowning in late infancy) |
+
+**B. Underlying (social) causes: why IMR is high in developing countries**
+
+1. **Maternal factors**: teenage pregnancy, short birth intervals, high parity, malnutrition and anaemia → LBW.
+2. **Home deliveries** without skilled attendants; poor newborn care.
+3. Poor **ANC** and access to emergency obstetric and newborn care.
+4. **Poverty**, illiteracy (especially female), low status of women.
+5. Poor **breastfeeding** practices (prelacteal feeds, late initiation) and faulty complementary feeding.
+6. **Unsafe water, poor sanitation and hygiene**.
+7. **Incomplete immunisation**.
+8. Delayed **care-seeking**; reliance on quacks.
+9. Overcrowding, indoor air pollution.
+10. Weak health system: shortage of staff, special care newborn units.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+
+## DU.435
+**Measures to reduce IMR**
+
+**A. Before and during pregnancy**
+
+1. Delay first pregnancy (end child marriage); **birth spacing** (family planning).
+2. **Maternal nutrition**: IFA, calcium, extra food; treat anaemia.
+3. **ANC** (≥8 contacts); Td; screening (syphilis, HIV, HBsAg).
+4. Antenatal corticosteroids for preterm labour (facility).
+
+**B. At birth**
+
+1. **Skilled birth attendance / facility delivery**; clean delivery.
+2. **Essential newborn care**: drying, warmth, **early breastfeeding**, **chlorhexidine** cord care, vitamin K, eye care.
+3. **Newborn resuscitation** (Helping Babies Breathe).
+
+**C. After birth**
+
+1. **Kangaroo mother care** for LBW; special care newborn units.
+2. Management of possible serious bacterial infection (PSBI).
+3. **Exclusive breastfeeding** 6 months; complementary feeding.
+4. **Immunisation** (EPI) on time.
+5. **IMCI**: ORS + zinc for diarrhoea, antibiotics for pneumonia; vitamin A.
+6. Postnatal home visits.
+
+**D. Community and social**
+
+WASH; female education; poverty reduction; health education; drowning prevention (supervision, crèches); strong referral and transport.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.436
+**Formula**
+
+IMR = (Number of deaths of infants under 1 year in a year ÷ Number of live births in the same year) × 1,000
+
+**Calculation**
+
+Infant deaths = 50; live births = 1,500
+
+IMR = (50 ÷ 1,500) × 1,000 = **33.3 per 1,000 live births**
+
+**Note**
+
+The denominator is **live births** (1,500), not the number of infants alive (1,000) or the total population (50,000).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.437
+**Definition**
+
+**Infant mortality rate (IMR)**: the number of deaths of children **under one year of age** in a year per **1,000 live births** in the same year.
+
+IMR = (Infant deaths in a year ÷ Live births in that year) × 1,000
+
+**Components**
+
+| Component | Age |
+|---|---|
+| Neonatal mortality | 0–27 days (early: 0–6 days; late: 7–27 days) |
+| Post-neonatal mortality | 28 days–under 1 year |
+
+**What it indicates**
+
+1. **Most sensitive indicator** of the health status of a community.
+2. Reflects the **level of living** (socio-economic status) of people.
+3. Reflects the effectiveness of **MCH services** (ANC, delivery care, newborn care, immunisation).
+4. Reflects **maternal health, nutrition, female education**, sanitation and housing.
+5. Responds quickly to improvements → good for **comparing** areas and monitoring programmes.
+6. Neonatal deaths reflect mainly **biological / obstetric** factors; post-neonatal deaths reflect **environmental and social** factors.
+
+**Bangladesh**: 27 per 1,000 live births (SVRS 2023).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.438
+**Neonatal mortality**
+
+Death of a live-born baby within the **first 28 days of life** (0–27 completed days).
+
+**Neonatal mortality rate (NMR)**
+
+NMR = (Deaths of infants under 28 days in a year ÷ Live births in the same year) × 1,000
+
+| Type | Period |
+|---|---|
+| Early neonatal | 0–6 days (first week; highest risk, first 24 hours) |
+| Late neonatal | 7–27 days |
+
+**Main causes**: prematurity / LBW, birth asphyxia, neonatal sepsis and pneumonia, congenital anomalies, hypothermia.
+
+**Significance**: reflects quality of maternal care, delivery care and newborn care; forms the largest part of infant deaths. SDG target: NMR ≤12 per 1,000 live births by 2030.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.439
+**Definition**
+
+**Perinatal mortality**: late fetal deaths (stillbirths at ≥28 weeks of gestation) plus early neonatal deaths (within the first 7 days of life).
+
+**Perinatal mortality rate (Park)**
+
+PMR = [(Late fetal deaths ≥28 weeks + Early neonatal deaths in first week) in a year ÷ Live births in the same year] × 1,000
+
+(WHO international comparisons use total births, i.e., live births + stillbirths, as the denominator.)
+
+**Importance**
+
+1. Reflects **quality of antenatal, intranatal and newborn care**.
+2. Reflects **maternal health and nutrition** (LBW, pre-eclampsia, anaemia).
+3. Combines stillbirths and early neonatal deaths, which share causes (asphyxia, prematurity, obstetric complications).
+4. Sensitive indicator of **obstetric services** and EmOC availability.
+5. Used to plan and evaluate **MCH programmes**; perinatal death audit improves care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.440
+**Causes of perinatal mortality**
+
+1. **Low birth weight / prematurity**.
+2. **Birth asphyxia**; birth injuries.
+3. **Intrauterine and neonatal infections** (syphilis, sepsis).
+4. **Congenital anomalies**.
+5. **Maternal conditions**: pre-eclampsia/eclampsia, APH, diabetes, anaemia, malnutrition, infections.
+6. **Obstetric complications**: obstructed labour, malpresentation, cord prolapse, prolonged labour.
+7. Rh incompatibility; multiple pregnancy.
+8. **Maternal factors**: age <18 or >35, high parity, short interval.
+9. **Socio-economic**: poverty, illiteracy, home delivery without skilled care, poor ANC.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.441
+**Role of breastfeeding in reducing infant mortality**
+
+1. **Early initiation** (within 1 hour) reduces neonatal deaths (warmth, colostrum).
+2. **Anti-infective factors** (IgA, lactoferrin, lysozyme) protect against **diarrhoea, pneumonia and sepsis**, the main killers.
+3. **Clean and safe**: avoids contaminated bottle feeds.
+4. **Complete nutrition** for 6 months → prevents malnutrition.
+5. **Birth spacing** (lactational amenorrhoea) → healthier mothers and babies.
+6. Continued breastfeeding during illness aids recovery.
+7. Lower risk of NEC in preterm babies; better survival of LBW babies.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.442
+**Maternal death (WHO, ICD)**
+
+The death of a woman **while pregnant or within 42 days of termination of pregnancy**, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management, but **not from accidental or incidental causes**.
+
+**Maternal mortality rate**
+
+= (Maternal deaths in a year ÷ Women of reproductive age 15–49 in the same year) × 100,000 (or 1,000)
+
+**Maternal mortality ratio (MMR)**
+
+= (Maternal deaths in a year ÷ Live births in the same year) × 100,000
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.443
+**Causes of high maternal mortality in Bangladesh**
+
+**A. Medical causes**
+
+| Direct (obstetric) | Indirect |
+|---|---|
+| **Postpartum haemorrhage** (leading) | Anaemia |
+| **Eclampsia** / pre-eclampsia | Heart disease, hypertension, diabetes |
+| Obstructed / prolonged labour | Hepatitis, TB, other infections |
+| Complications of abortion | Stroke, suicide (mental illness) |
+| Puerperal sepsis | |
+
+**B. Social and other factors**
+
+1. **Early marriage** and adolescent pregnancy.
+2. **Low education** and status of women; limited decision-making.
+3. **Poverty**; cost of care and transport.
+4. **Home delivery** by untrained attendants.
+5. **Three delays**: deciding to seek care, reaching a facility, receiving care.
+6. Poor **ANC** use; danger signs not recognised.
+7. **Short birth intervals**, high parity, unwanted pregnancy, unsafe abortion.
+8. Cultural beliefs, **purdah**, seeking care from traditional healers.
+9. **Health system**: shortage of skilled midwives, EmOC facilities, blood transfusion; weak referral; staff absence.
+10. Malnutrition and anaemia.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.444
+**APGAR score (Virginia Apgar)**
+
+Assessed at **1 and 5 minutes** after birth; five signs, each scored 0–2 (total 0–10).
+
+| Sign | 0 | 1 | 2 |
+|---|---|---|---|
+| **A**ppearance (colour) | Blue / pale | Body pink, extremities blue | Completely pink |
+| **P**ulse (heart rate) | Absent | <100/min | ≥100/min |
+| **G**rimace (reflex irritability) | No response | Grimace | Cry, cough |
+| **A**ctivity (muscle tone) | Limp | Some flexion | Active movement |
+| **R**espiration | Absent | Weak, irregular | Good cry |
+
+**Use in identifying high-risk neonates**
+
+| Score | Interpretation | Action |
+|---|---|---|
+| 7–10 | Normal | Routine care |
+| 4–6 | Moderate depression (asphyxia) | Stimulation, airway clearing, oxygen, close watch |
+| 0–3 | Severe asphyxia | **Immediate resuscitation**, special care unit |
+
+A low 5-minute score predicts higher risk of death and neurological damage → baby labelled **high-risk** for follow-up.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.445
+**Measures to reduce maternal mortality**
+
+1. **Antenatal care** (≥8 contacts): IFA, calcium, Td; detect high-risk mothers.
+2. **Skilled birth attendance** and **facility delivery**.
+3. **Emergency obstetric care** (basic and comprehensive) available 24/7: caesarean, **blood transfusion**.
+4. **Active management of third stage** (oxytocin); **misoprostol** where no oxytocin.
+5. **Magnesium sulphate** for eclampsia.
+6. **Family planning**; safe MR and post-abortion care.
+7. **End child marriage**; girls' education.
+8. **Birth preparedness**; tackle the **three delays** (transport, community funds).
+9. Postnatal care within 24 hours.
+10. Maternal death surveillance and response.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.446
+**Maternal mortality rate vs ratio**
+
+| Point | Maternal mortality **rate** | Maternal mortality **ratio** (MMR) |
+|---|---|---|
+| Formula | Maternal deaths ÷ women of reproductive age (15–49) | Maternal deaths ÷ live births |
+| Multiplier | × 100,000 (or 1,000) | × 100,000 |
+| Measures | Risk of maternal death among **all women** of reproductive age (includes fertility level) | **Obstetric risk per pregnancy / birth** |
+| Affected by fertility | Yes | No (largely) |
+| Use | Burden in population | Quality of maternal care; international comparison (SDG 3.1) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.447
+**Three delays model (Thaddeus and Maine)**
+
+| Delay | Causes | Solutions |
+|---|---|---|
+| **1. Delay in deciding to seek care** | Not recognising danger signs; low status of women; cost; cultural beliefs; previous bad experience | Health education, birth preparedness, women's empowerment |
+| **2. Delay in reaching a health facility** | Distance, poor roads, no transport, floods, cost | Transport schemes, community funds, nearby facilities, ambulances |
+| **3. Delay in receiving adequate care at the facility** | Staff shortage, no blood, drugs or theatre, poor referral, bureaucracy | Functional 24/7 EmOC, trained staff, blood banks, referral system |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.448
+**a) Levels of prevention that failed (1)**
+
+**Primary prevention**: health promotion (nutrition, WASH, hygiene) and specific protection (immunisation); also **secondary prevention** (early diagnosis and treatment of diarrhoea and malnutrition).
+
+**b) Preventive measures (2)**
+
+1. Complete **immunisation** (catch-up: pentavalent, OPV, IPV, PCV, MR).
+2. **Nutrition**: continued breastfeeding, adequate complementary feeding, vitamin A, deworming, micronutrients; treat malnutrition.
+3. **WASH**: safe water, sanitary latrine, hand-washing with soap, food hygiene.
+4. **Diarrhoea case management**: ORS + zinc; continued feeding.
+5. **Growth monitoring**; health education of mother; birth spacing.
+
+**c) Indicators to assess child health care (2.5)**
+
+| Group | Indicators |
+|---|---|
+| Mortality | IMR, NMR, U5MR |
+| Nutrition | Stunting, wasting, underweight; LBW; anaemia |
+| Coverage | Full immunisation, MR coverage, vitamin A, EBF rate, ORS + zinc use, care-seeking for pneumonia |
+| WASH | Use of safe water and sanitation |
+| Service | Growth monitoring coverage, IMCI coverage, facility delivery |
+
+**d) Malnutrition–infection interaction (1.5)**
+
+**Vicious cycle**: malnutrition lowers immunity and gut integrity → more frequent, severe, prolonged infections; infections reduce appetite and absorption, increase losses and metabolic needs → worse malnutrition.
+Malnutrition → infection → worse malnutrition → more infection → death
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Concept of Health and Disease; Nutrition and Health).
+
+## DU.449
+**Definition (WHO Expert Committee, 1971)**
+
+**Family planning**: "a way of thinking and living that is adopted voluntarily, upon the basis of knowledge, attitudes and responsible decisions by individuals and couples, in order to promote the health and welfare of the family group and thus contribute effectively to the social development of a country."
+
+**Key points**
+
+Voluntary; informed choice; includes spacing, limiting and also achieving wanted pregnancies (infertility care); improves maternal and child health.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.450
+**Objectives of family planning (WHO)**
+
+To help individuals and couples to:
+1. **Avoid unwanted births**.
+2. **Bring about wanted births** (treat infertility).
+3. **Regulate the intervals** between pregnancies.
+4. **Control the timing** of births in relation to the ages of the parents.
+5. **Determine the number** of children in the family.
+
+**Broader aims**
+
+1. Improve **maternal and child health**: reduce maternal, infant and child deaths.
+2. Reduce unsafe abortion.
+3. Enable women's education, employment and empowerment.
+4. Slow **population growth**; support social and economic development.
+5. Prevent STIs/HIV (condoms); improve reproductive health.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.451
+**Unmet need for family planning**
+
+The percentage of women of reproductive age (married or in union) who are **fecund and sexually active**, who **want to stop** having children (**limiting**) or **delay the next birth for at least 2 years** (**spacing**), but are **not using any method of contraception**.
+
+**Components**
+
+1. Unmet need for **spacing**.
+2. Unmet need for **limiting**.
+(Includes pregnant women whose pregnancy was unwanted or mistimed, and amenorrhoeic women whose last birth was unwanted or mistimed.)
+
+**Total demand** = met need (current users) + unmet need.
+
+**Causes**
+
+Fear of side effects; husband or family opposition; religious or cultural barriers; lack of knowledge or access; poor quality services and stock-outs; husband away (migrant workers); postpartum and breastfeeding women thinking they cannot conceive; cost.
+
+**Importance**
+
+Leads to unintended pregnancies, unsafe abortion, maternal deaths; key target for FP programmes (SDG 3.7: demand satisfied by modern methods).
+
+**Reducing unmet need**
+
+Counselling, wider method choice, postpartum FP, male involvement, community distribution, LARC, urban and hard-to-reach services.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.452
+**"Family planning is more than mere birth control": scope of FP services (WHO)**
+
+1. Proper **spacing and limitation** of births.
+2. Advice on **sterility** (infertility treatment).
+3. **Education for parenthood**.
+4. **Sex education**.
+5. **Screening** for pathological conditions related to the reproductive system (e.g., cervical cancer).
+6. **Genetic counselling**.
+7. **Premarital consultation** and examination.
+8. Carrying out **pregnancy tests**.
+9. **Marriage counselling**.
+10. Preparation of couples for the arrival of their **first child**.
+11. Providing services for **unmarried mothers**.
+12. Teaching **home economics and nutrition**.
+13. Providing **adoption services**.
+
+**Modern additions**: STI/HIV prevention, safe MR and post-abortion care, adolescent reproductive health, management of menopause, gender-based violence services.
+
+Thus FP promotes the **health and welfare of the whole family**, not only fewer births.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.453
+**Criteria of a good (ideal) contraceptive method (Park)**
+
+1. **Safe**: no serious side effects.
+2. **Effective**: low failure rate.
+3. **Acceptable** to the couple and culture.
+4. **Inexpensive** and easily available.
+5. **Reversible**: fertility returns after stopping (except permanent methods).
+6. **Simple** to use or administer.
+7. **Independent of coitus**.
+8. **Long-lasting**.
+9. Requires **little or no medical supervision**.
+
+**Other desirable features**
+
+No effect on lactation; protection against STIs; non-contraceptive benefits; suitable for the user's medical condition (WHO medical eligibility criteria).
+
+No method fulfils all criteria → offer a **choice of methods** (cafeteria approach).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.454
+**Eligible couple**
+
+A **currently married couple** where the wife is in the **reproductive age group** (generally 15–49 years). They need family planning services.
+
+**Target couple**
+
+Eligible couples identified for priority family planning motivation: originally couples with **2–3 living children** (for limiting), later extended to couples with **one child** (for spacing) and newly married couples.
+
+**Importance**
+
+1. Eligible couple register maintained by FWAs → denominators for **contraceptive prevalence / couple protection rate**.
+2. Helps plan supplies and target services (spacing vs limiting methods).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.455
+**Couple protection rate (CPR)**
+
+The **percentage of eligible couples effectively protected** against childbirth by one or other approved method of family planning (sterilisation, IUD, condom, oral pills, injectables, implants).
+
+CPR = (Effectively protected eligible couples ÷ Total eligible couples) × 100
+
+**Significance**: indicator of FP programme performance; CPR above ~60% is needed to reach replacement fertility (NRR = 1).
+
+Bangladesh uses **contraceptive prevalence rate**: modern methods 62.1% (SVRS 2023).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); The Daily Star, 2024, https://www.thedailystar.net/opinion/views/news/why-do-our-surveys-paint-different-pictures-about-our-progress-3583291
+
+## DU.456
+**Achievements of the family planning programme in Bangladesh**
+
+1. **Fertility fell** from very high levels in the 1970s to near replacement: TFR 2.17 (SVRS 2023).
+2. **Contraceptive use** rose greatly: modern CPR 62.1% (SVRS 2023).
+3. Slower **population growth**; Bangladesh cited worldwide as a family planning success despite poverty.
+4. Fall in **maternal and child mortality** linked to spacing and fewer high-risk births.
+5. Nationwide **door-to-door services** (FWAs), satellite clinics, social marketing (SMC).
+6. Wider **method mix**: pills, injectables, condoms, IUD, implants, permanent methods; MR services.
+7. Strong **government–NGO partnership**.
+
+**Remaining challenges**: high discontinuation, low LARC/permanent method use, unmet need, adolescent pregnancy, regional gaps (Chattogram, Sylhet).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS SVRS 2023 (The Daily Star, 2024), https://www.thedailystar.net/opinion/views/news/why-do-our-surveys-paint-different-pictures-about-our-progress-3583291
+
+## DU.457
+**Strategies of the family planning programme of Bangladesh**
+
+1. **Domiciliary (door-to-door) services** by Family Welfare Assistants.
+2. **Clinic-based services**: UH&FWCs, MCWCs, UHCs, community clinics, satellite clinics.
+3. **Cafeteria approach**: wide choice of methods; emphasis on **LARC and permanent methods**.
+4. **Integration** of FP with MCH, nutrition and health services (ESP).
+5. **Social marketing** (SMC) of pills and condoms.
+6. **IEC / BCC**: mass media, folk media, religious leaders.
+7. **Government–NGO partnership**.
+8. **Postpartum and post-abortion FP**; MR services.
+9. **Male involvement**; adolescent reproductive health.
+10. Compensation for permanent methods; free supplies.
+11. Logistics and supply-chain management; MIS.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.458
+**Merits of family planning at the family level**
+
+| For | Benefits |
+|---|---|
+| **Mother** | Fewer high-risk pregnancies (too early, too late, too many, too close) → less maternal death, anaemia, PPH; time to recover between births; less unsafe abortion; better health and nutrition |
+| **Child** | Lower infant and child mortality; better birth weight; longer breastfeeding; more attention, food and care; better growth and education |
+| **Father / family** | Lower economic burden; better standard of living; more resources for education, housing, health |
+| **Couple** | Better marital harmony; planned parenthood; opportunity for woman's education and work |
+| **Family as a whole** | Better quality of life; less poverty; happier family |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.459
+**Benefits of family planning at different levels**
+
+| Level | Benefits |
+|---|---|
+| **Individual (mother, child)** | Lower maternal and infant mortality; healthier mothers and children; women's education and employment |
+| **Family** | Economic security; better nutrition, schooling, housing; quality of life |
+| **Community** | Less pressure on schools, health services, housing, water; healthier community |
+| **National** | **Slower population growth**; demographic dividend; higher per capita income; savings and investment; food security; less unemployment; better use of resources; achievement of SDGs (3.1, 3.2, 3.7, 5) |
+| **Environment** | Less pressure on land, forests, water; less pollution |
+| **Global** | Population stabilisation; sustainable development |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.460
+**Indications of vasectomy and tubectomy (permanent methods)**
+
+1. Couples who have **completed their family** and want no more children (usually at least two living children, youngest healthy).
+2. **Voluntary request** with **informed consent** after counselling (permanence explained).
+3. **Medical reasons** where pregnancy is dangerous: heart disease, severe hypertension, renal disease, repeated caesarean sections.
+4. **Genetic disorders** with high risk of transmission.
+5. Failure of, or contraindications to, other methods.
+6. Tubectomy can be done postpartum (within 7 days), with caesarean section, or as interval procedure; vasectomy (no-scalpel) is simpler and safer.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.461
+**Three major determinants of unmet need for family planning**
+
+1. **Health concerns and fear of side effects** of methods.
+2. **Opposition** from husband, family or religious beliefs.
+3. **Lack of access**: poor knowledge of methods or sources, stock-outs, distance, cost, poor quality of services.
+
+**Others**
+
+Infrequent sex (husband abroad); postpartum amenorrhoea / breastfeeding (perceived low risk); young age; low education.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.462
+**Method failure vs user failure**
+
+| Point | Method failure | User failure |
+|---|---|---|
+| Meaning | Pregnancy despite **correct and consistent use** of the method | Pregnancy due to **incorrect or inconsistent use** |
+| Cause | Inherent limitation of the method | Human error: missed pills, condom not used every time, late injection |
+| Measure | Perfect-use failure rate | Typical-use minus perfect-use failure |
+| Example | Pregnancy with Cu-T in place | Pregnancy after forgetting 3 pills |
+| Reduction | Better technology | Counselling, follow-up, LARC |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.463
+**Classification of contraceptive methods (Park)**
+
+**A. Spacing (temporary) methods**
+
+| Group | Methods |
+|---|---|
+| **1. Barrier methods** | Physical: **condom**, diaphragm, cervical cap, vaginal sponge; Chemical: spermicides (foams, jellies, creams, tablets); Combined |
+| **2. Intrauterine devices** | 1st generation: Lippes loop; 2nd generation (copper): **Cu-T 380A**, Cu-T 200, Multiload; 3rd generation (hormonal): LNG-IUS |
+| **3. Hormonal methods** | **Oral pills** (combined, progestogen-only, emergency); **injectables** (DMPA 3-monthly, NET-EN); **implants** (Implanon, Jadelle); vaginal ring, patch |
+| **4. Post-conceptional methods** | **Menstrual regulation**, menstrual induction, abortion |
+| **5. Miscellaneous / natural** | Abstinence, coitus interruptus, safe period (calendar), basal body temperature, cervical mucus method, symptothermal, **LAM** |
+
+**B. Terminal (permanent) methods**
+
+- Male: **vasectomy** (no-scalpel vasectomy).
+- Female: **tubectomy** (minilaparotomy, laparoscopic).
+
+**Methods for females**: pills, injectables, implants, IUD, diaphragm, female condom, tubectomy, LAM.
+
+**Common in Bangladesh**: oral pills (most used), injectables, condoms, implants, IUD, tubectomy, NSV, MR.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.464
+**Mode of action of IUDs**
+
+**Copper IUD (Cu-T 380A, medicated)**
+
+1. Local **foreign-body inflammatory reaction** in the endometrium (leucocytes, macrophages) → phagocytosis of sperm.
+2. **Copper ions** are toxic to sperm and ova: reduce sperm motility, viability and capacitation → **prevent fertilisation** (main action).
+3. Biochemical changes in endometrium and cervical mucus → hostile to sperm and implantation.
+4. May prevent implantation if fertilisation occurs (used as emergency contraception).
+
+**Hormone-releasing IUD (3rd generation: LNG-IUS)**
+
+1. **Thickens cervical mucus** → sperm cannot pass.
+2. **Endometrial suppression** (thin, inactive endometrium).
+3. Partial inhibition of ovulation in some cycles.
+4. Reduces menstrual blood loss.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.465
+**Ideal candidate (client criteria) for IUCD (Park)**
+
+A woman:
+1. Who has **borne at least one child**.
+2. Has **no history of pelvic disease** (PID, STI).
+3. Has **normal menstrual periods** (no heavy or irregular bleeding).
+4. Is **willing to check the IUD tail** (threads).
+5. Has **access to follow-up** and treatment of complications.
+6. Is in a **monogamous relationship** (low STI risk).
+
+**Other suitable clients**
+
+Women wanting long-acting, reversible, non-hormonal contraception; breastfeeding mothers; postpartum (within 48 hours or after 4 weeks) and post-abortion women; women with contraindications to hormones; emergency contraception within 5 days.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.466
+**Contraindications of IUD**
+
+**A. Absolute**
+
+1. **Suspected pregnancy**.
+2. **Pelvic inflammatory disease** (current or recent), purulent cervicitis, current gonorrhoea/chlamydia.
+3. **Unexplained vaginal bleeding**.
+4. **Cancer** of cervix, uterus or adnexa; malignant trophoblastic disease.
+5. **Previous ectopic pregnancy** (Park).
+6. Puerperal sepsis; immediately after septic abortion.
+7. **Uterine cavity distortion** (fibroids, congenital anomalies); pelvic TB.
+
+**B. Relative**
+
+1. **Anaemia**; heavy or painful periods.
+2. History of PID since last pregnancy; high STI risk (multiple partners).
+3. Nulliparity, small uterus.
+4. Inability to check threads or attend follow-up.
+5. Wilson's disease or copper allergy (copper IUD).
+6. Valvular heart disease (infection risk).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.467
+**Complications / disadvantages of IUCD (Cu-T)**
+
+| Complication | Notes |
+|---|---|
+| **1. Bleeding** | Heavier, longer periods; spotting; commonest cause of removal; anaemia |
+| **2. Pain** | Cramps, backache; dysmenorrhoea |
+| **3. Pelvic infection (PID)** | Mainly in first 20 days after insertion; STI risk |
+| **4. Uterine perforation** | At insertion; device may migrate to abdomen |
+| **5. Expulsion** | Mostly in first few months, often during menses |
+| **6. Pregnancy (failure)** | Low (<1 per 100 women-years); risk of septic abortion if left |
+| **7. Ectopic pregnancy** | If pregnancy occurs, higher proportion are ectopic |
+| **8. Missing threads** | Expulsion, perforation, pregnancy, curled thread |
+| 9. Vaginal discharge | |
+
+**Other disadvantages**
+
+Needs trained provider for insertion and removal; pelvic examination; no protection against STIs/HIV.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.468
+**Classification of hormonal contraceptive pills**
+
+| Type | Composition | Example / use |
+|---|---|---|
+| **1. Combined oral pill (COC)** | Oestrogen (ethinyl oestradiol) + progestogen | **Monophasic** (same dose all days; e.g., Shukhi, Femicon), **biphasic**, **triphasic** |
+| **2. Progestogen-only pill (POP, mini-pill)** | Progestogen only (levonorgestrel, desogestrel) | Breastfeeding women; oestrogen contraindicated (e.g., Minicon) |
+| **3. Post-coital (emergency) pill** | Levonorgestrel 1.5 mg; ulipristal acetate; Yuzpe regimen (combined pills) | Within 72–120 hours of unprotected intercourse |
+| **4. Once-a-month pill** | Long-acting oestrogen + short-acting progestogen | Limited use |
+| **5. Male pill** | Experimental | — |
+| **6. Non-steroidal weekly pill** | Centchroman (ormeloxifene) | India (Saheli) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.469
+**Combined oral contraceptive pill (OCP)**
+
+**Advantages**
+
+1. **Highly effective** (>99% with perfect use); reversible.
+2. Regular, lighter, less painful periods → **less anaemia**, dysmenorrhoea.
+3. Protection against **ovarian and endometrial cancer**, benign breast disease, functional ovarian cysts, ectopic pregnancy, PID.
+4. Reduces acne, PMS, endometriosis symptoms.
+5. Independent of coitus; user-controlled.
+
+**Disadvantages**
+
+1. **Daily intake** required; missed pills → failure.
+2. No protection against **STIs/HIV**.
+3. Reduces **milk supply** (not for early breastfeeding).
+4. Needs regular supply; cost.
+5. Drug interactions (rifampicin, anticonvulsants).
+
+**Minor side effects**
+
+Nausea, breast tenderness, headache, spotting / breakthrough bleeding, weight gain, mood changes, amenorrhoea.
+
+**Complications / health hazards**
+
+1. **Venous thromboembolism**, pulmonary embolism.
+2. **Stroke, myocardial infarction** (smokers >35 years, hypertension).
+3. **Hypertension**.
+4. Liver: benign hepatic adenoma, cholestatic jaundice, gallstones.
+5. Slight increase in cervical cancer risk with long use; breast cancer risk (small, while using).
+6. Glucose intolerance; depression.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.470
+**Indications of OCP**
+
+1. Healthy women wanting **reversible, highly effective** contraception (spacing).
+2. **Menstrual disorders**: dysmenorrhoea, menorrhagia, irregular cycles, PMS.
+3. **Endometriosis**, **PCOS** (acne, hirsutism), functional ovarian cysts.
+4. Women with iron-deficiency anaemia due to heavy periods.
+5. Emergency contraception (Yuzpe regimen).
+
+**Contraindications**
+
+**Absolute**
+
+1. **Thromboembolism** (present or past), stroke, ischaemic heart disease.
+2. **Breast cancer**; oestrogen-dependent tumours.
+3. **Liver disease**: active hepatitis, cirrhosis, liver tumour.
+4. **Undiagnosed vaginal bleeding**.
+5. **Pregnancy**.
+6. **Smokers aged ≥35** (≥15 cigarettes/day).
+7. **Severe hypertension** (≥160/100 mmHg); migraine with aura.
+8. Diabetes with vascular complications.
+9. Breastfeeding <6 weeks postpartum; major surgery with prolonged immobilisation.
+
+**Relative**
+
+Controlled hypertension, epilepsy (drug interaction), gallbladder disease, depression, age >40, obesity, sickle-cell disease, use of enzyme-inducing drugs (rifampicin).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.471
+**Causes of failure of vasectomy**
+
+1. **Unprotected intercourse soon after the operation**: sperm remain in the distal vas for about 3 months (~20 ejaculations); semen must be checked for azoospermia.
+2. **Spontaneous recanalisation** of the vas.
+3. **Wrong structure ligated** or one vas missed; **duplicate vas**.
+
+**Causes of failure of tubectomy**
+
+1. **Recanalisation** or tubo-peritoneal fistula.
+2. **Faulty technique**: wrong structure (round ligament) ligated, clip / ring misapplied.
+3. **Pre-existing pregnancy** at the time of operation (luteal phase).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.472
+**Pearl index**
+
+The **failure rate** of a contraceptive method expressed as the **number of failures (accidental pregnancies) per 100 woman-years of exposure** (HY = 100 women using the method for one year).
+
+**Formula**
+
+Pearl index = (Total accidental pregnancies × 1,200) ÷ Total months of exposure
+(1,200 = 12 months × 100 women; some use 1,300 with 13 cycles per year.)
+
+**Use**
+
+Compare effectiveness of methods; lower index = more effective (e.g., implants and IUD very low; condoms and safe period higher).
+
+**Limitation**
+
+Failure is highest in the first months of use and falls later; the life-table method is more accurate.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.473
+**Safe period (rhythm / calendar method)**
+
+**Merits**
+
+1. **No cost**; no devices or drugs.
+2. **No side effects**.
+3. Acceptable to religions and cultures that oppose other methods.
+4. Involves cooperation of **both partners**.
+5. Knowledge of fertile period also helps couples who **want** pregnancy.
+
+**Demerits**
+
+1. **High failure rate** (typical use).
+2. Not usable with **irregular cycles**, after childbirth, during breastfeeding, near menopause.
+3. Requires **abstinence** for many days → frustration.
+4. Needs careful **record of cycles** and motivation.
+5. No protection against STIs/HIV.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.474
+**Calendar (Ogino–Knaus) method**
+
+Based on: ovulation occurs about 14 (12–16) days before the next period; sperm survive ~3 days; ovum ~1 day.
+
+**Formula** (using records of at least 6 cycles)
+
+- **First fertile (unsafe) day** = shortest cycle − 18
+- **Last fertile (unsafe) day** = longest cycle − 11
+
+**a) Regular 28-day cycle**
+
+First fertile day = 28 − 18 = **day 10**; last fertile day = 28 − 11 = **day 17**
+→ **Unsafe: days 10–17**; **safe: days 1–9 and 18–28**.
+
+**b) Shortest 22 days, longest 35 days**
+
+First fertile day = 22 − 18 = **day 4**; last fertile day = 35 − 11 = **day 24**
+→ **Unsafe: days 4–24**; **safe: days 1–3 and from day 25 to the next period**.
+
+**Note**
+
+Irregular cycles give a long unsafe period and higher failure; combine with basal body temperature and cervical mucus (symptothermal method) for better accuracy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.475
+**Emergency contraceptive pill (ECP)**
+
+Hormonal pills taken **after unprotected intercourse** to prevent pregnancy; "morning-after pill".
+
+**Regimens**
+
+| Method | Dose | Time limit |
+|---|---|---|
+| **Levonorgestrel** | 1.5 mg single dose (or 0.75 mg × 2, 12 hours apart) | Best within 72 hours; up to 120 hours (less effective) |
+| **Ulipristal acetate** | 30 mg single dose | Up to 120 hours |
+| **Yuzpe (combined pills)** | 100 µg ethinyl oestradiol + 0.5 mg levonorgestrel, repeated after 12 hours | Within 72 hours |
+| Copper IUD (most effective EC) | Insertion | Within 5 days |
+
+**Mode of action**
+
+Mainly **delays or inhibits ovulation**; does **not** cause abortion and does not harm an established pregnancy.
+
+**Indications**
+
+Unprotected sex; condom burst or slipped; missed pills; late injection; sexual assault.
+
+**Side effects**
+
+Nausea, vomiting (repeat if vomiting within 2 hours), irregular bleeding, headache, breast tenderness.
+
+**Points**
+
+Earlier = more effective; not a regular method; start a regular method afterwards; no STI protection.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.476
+**Menstrual regulation (MR)**
+
+A procedure to **regulate (bring back) menstruation** in a woman whose period is **missed for a short time**, done **without confirming pregnancy**, by:
+1. **Manual vacuum aspiration (MVA)** of the uterine contents, or
+2. **Medication (MRM)**: mifepristone + misoprostol.
+
+**In Bangladesh**
+
+- Part of the national **family planning programme** (since the late 1970s) and legally accepted as an "interim method to establish non-pregnancy".
+- Done within a limited time after the last menstrual period (by trained doctors and Family Welfare Visitors).
+- Provided at UH&FWCs, MCWCs, UHCs and NGO clinics with post-MR family planning counselling.
+
+**Importance**
+
+Reduces **unsafe abortion** and maternal deaths; links women to contraception.
+
+**Complications**
+
+Incomplete evacuation, bleeding, infection, perforation (rare).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.477
+**Classification of IUCDs**
+
+| Generation | Type | Examples |
+|---|---|---|
+| **First** | Inert (non-medicated), polyethylene | **Lippes loop** |
+| **Second** | **Copper-bearing** | Cu-7, Cu-T 200, Cu-T 220C, **Cu-T 380A**, Nova-T, Multiload-250/375 |
+| **Third** | **Hormone-releasing** | Progestasert (progesterone), **LNG-IUS** (levonorgestrel; Mirena) |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.478
+**Non-contraceptive uses**
+
+**Condom**
+
+1. Prevention of **STIs and HIV**.
+2. Reduces risk of **cervical cancer** (HPV) and PID.
+3. Helps premature ejaculation.
+4. Sperm allergy (in female partner).
+5. Semen collection; cover for ultrasound probes.
+6. **Condom-catheter balloon tamponade** for PPH.
+
+**Oral contraceptive pill**
+
+1. Dysmenorrhoea, menorrhagia, irregular cycles, PMS.
+2. Endometriosis; PCOS (acne, hirsutism).
+3. Functional ovarian cysts.
+4. Reduced **ovarian and endometrial cancer**, benign breast disease.
+5. Less iron-deficiency anaemia, ectopic pregnancy, PID.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.479
+**a) Long-acting options (2)**
+
+1. **Copper IUD (Cu-T 380A)**: effective for 10+ years.
+2. **Hormonal IUD (LNG-IUS)**: 5 years.
+3. **Implants**: Implanon (3 years), Jadelle (5 years).
+4. **Injectable DMPA** (3-monthly; medium-acting).
+5. **Permanent methods**: tubectomy (her) or vasectomy (husband), if family is complete.
+
+**b) Factors to consider (2)**
+
+1. **Reproductive intention**: wants more children later (spacing) or none (limiting).
+2. **Medical eligibility** (WHO MEC): anaemia, heavy periods, PID or STI risk, hypertension, liver disease, breast cancer, thromboembolism.
+3. **Breastfeeding** status; time since delivery.
+4. Menstrual pattern and tolerance of bleeding changes.
+5. **Partner's view**, religious and cultural beliefs.
+6. **Side-effect concerns**, previous experience.
+7. Availability, cost, access to follow-up and removal services.
+8. STI risk (use condom as well if at risk).
+
+**c) Most appropriate option, with justification (3)**
+
+**If she may want another child later: Cu-T 380A** (or implant)
+1. Highly effective (failure <1%); long-acting (up to 10–12 years).
+2. **Reversible** immediately on removal.
+3. **Non-hormonal**: no systemic side effects; no effect on breastfeeding.
+4. Free in government facilities; low cost; few visits.
+5. Suitable for a parous woman with two children (ideal candidate if no PID, normal periods).
+(Implant is the choice if she has heavy periods or anaemia.)
+
+**If her family is complete: tubectomy (or husband's no-scalpel vasectomy)**: permanent, one-time, most effective; after informed consent.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.480
+**a) Method and mode of action (3)**
+
+**Lactational Amenorrhoea Method (LAM)**.
+
+**Criteria** (all three needed): 1. no return of menses; 2. **fully or nearly fully breastfeeding** day and night; 3. baby **<6 months** old → ~98% protection.
+
+**Mode of action**: frequent suckling → nerve impulses to hypothalamus → raised **prolactin** and disturbed **GnRH pulsatility** → low FSH and LH → **ovulation suppressed** → amenorrhoea and infertility.
+
+**b) Advantages and limitations (2)**
+
+| Advantages | Limitations |
+|---|---|
+| Free, natural, no drugs or devices | Effective only up to **6 months** |
+| No side effects; safe for mother and baby | All three criteria must be met |
+| Starts immediately after birth | Fails if feeds are spaced (>4 h day, >6 h night) or supplements are given |
+| Promotes exclusive breastfeeding | Not reliable for working mothers away from baby |
+| Culturally and religiously acceptable | No protection against STIs/HIV |
+
+**c) Advice after 6 months (2)**
+
+1. **Start another method** now (or earlier if menses return or breastfeeding drops): progestogen-only pill, DMPA injection, implant, Cu-T, condom; combined pill acceptable after 6 months.
+2. **Continue breastfeeding** with complementary foods up to 2 years.
+3. Come back early if periods return or the baby starts other feeds.
+4. Spacing of at least 24 months before the next pregnancy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.481
+**(a) Causes of missing Cu-T thread (2)**
+
+1. Thread **drawn up into the cervical canal or uterus** (curled).
+2. Thread cut too short or broken.
+3. **Unnoticed expulsion** of the IUD.
+4. **Uterine perforation** / translocation into the abdomen.
+5. **Pregnancy** (enlarging uterus pulls the thread up).
+6. Displacement / embedding in the myometrium.
+
+**Approach**: exclude pregnancy; speculum and thread retriever; **ultrasound**; X-ray if not seen in uterus; back-up contraception until resolved.
+
+**(b) Aims and schedule of follow-up after IUCD insertion (3)**
+
+**Aims**
+
+1. Detect **expulsion** and check **threads**.
+2. Manage **side effects** (bleeding, pain) early.
+3. Detect **infection (PID)**, especially in the first weeks.
+4. Detect **pregnancy / ectopic pregnancy**.
+5. Reassure and counsel → reduce discontinuation.
+6. Plan **timely removal / replacement**.
+
+**Schedule**
+
+1. **First visit after the first menses or 3–6 weeks** after insertion.
+2. Then **yearly**, or at any time a problem arises (pain, fever, abnormal discharge, missed period, missing or long thread).
+3. Client taught to **check threads after each menstruation**.
+
+**(c) Public health impact on the local FP programme (2)**
+
+1. **Loss of confidence** and rumours → fewer IUD acceptors; higher discontinuation; lower CPR.
+2. **Unintended pregnancies** if expulsion is unnoticed.
+3. Extra cost and workload (ultrasound, X-ray, surgery for perforation).
+4. Shows need for **better insertion skills, counselling and follow-up** → opportunity to improve quality of services.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
