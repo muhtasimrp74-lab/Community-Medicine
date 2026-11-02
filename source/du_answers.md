@@ -3562,3 +3562,743 @@ UH&FPO holding a monthly meeting with medical officers, nurses, HIs and CHCPs to
 Leader: vision, inspiration, change | Manager: planning, organising, control.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Planning and Management; Communication for Health Education).
+
+## DU.116
+**Vital statistics**
+
+Numerical records of vital events occurring in a population (births, deaths, marriages and related events); collected by registration and sample registration.
+
+**Major vital events (UN list)**
+
+1. **Live birth**
+2. **Death** (including infant, neonatal and maternal deaths)
+3. **Fetal death** (stillbirth)
+4. **Marriage**
+5. **Divorce**
+6. Annulment of marriage
+7. Judicial separation
+8. Adoption
+9. Legitimation
+10. Recognition (of paternity)
+
+Births and deaths are the most important for health; marriages and divorces matter for fertility.
+
+**Rates derived**
+
+Crude birth rate, crude death rate, IMR, NMR, MMR, life expectancy, fertility rates, marriage rate.
+
+**Bangladesh**
+
+- Births and Deaths Registration Act 2004 (civil registration).
+- Sample Vital Registration System (SVRS) by BBS gives annual national estimates.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics; Demography and Family Planning).
+
+## DU.117
+**Sources of demographic statistics**
+
+| Source | Description | Bangladesh example |
+|---|---|---|
+| 1. **Census** | Complete count of population at one time; age, sex, education, occupation, housing | Population and Housing Census (every 10 years; latest 2022) |
+| 2. **Registration of vital events** (civil registration) | Continuous, compulsory recording of births, deaths, marriages | Births and Deaths Registration Act 2004 |
+| 3. **Sample registration system** | Continuous registration in a representative sample with independent survey (dual record) | SVRS (BBS) |
+| 4. **Sample surveys** | Periodic national surveys | BDHS, MICS, HIES, Labour Force Survey |
+| 5. **Population registers** | Continuous record of each resident | National ID database |
+| 6. **Health service records** | Hospital records, EPI and FP registers, HMIS/DHIS2 | DGHS, DGFP records |
+| 7. **Notification and special registers** | Notifiable diseases, cancer registry | IEDCR |
+| 8. **Other records** | School enrolment, migration, NGO records | Ministry of Education data |
+| 9. **International estimates** | UN World Population Prospects, World Bank | UN WPP |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning; Health Information and Basic Medical Statistics).
+
+## DU.118
+**Biostatistics**
+
+Application of statistical methods to biological, medical and health data.
+
+**Uses**
+
+**A. Medicine and research**
+1. Define **normal limits** (Hb, BP, height, weight).
+2. Compare efficacy of **drugs, vaccines and procedures** (clinical trials).
+3. Find **associations** between risk factors and disease (smoking and lung cancer).
+4. Design studies: sample size, sampling, randomisation.
+5. Test **hypotheses**; judge significance (p-value, confidence interval).
+6. Evaluate **diagnostic and screening tests** (sensitivity, specificity).
+
+**B. Community medicine / public health**
+1. Measure **health status** of a community (IMR, MMR, life expectancy).
+2. **Compare** health status between areas, groups and times.
+3. Identify **priority problems** and high-risk groups (community diagnosis).
+4. **Plan, monitor and evaluate** health programmes (EPI coverage, CPR).
+5. **Surveillance** and outbreak detection (trends, epidemic thresholds).
+6. Demography: population growth, projections.
+
+**C. Health administration**
+1. Planning services, manpower, beds, budget.
+2. Hospital statistics: bed occupancy, average length of stay.
+
+**D. Basic sciences**
+Physiology, anatomy, pharmacology (dose–response, bioassay), genetics.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.119
+**Definition**
+
+**Variable**: a characteristic that varies (takes different values) from person to person, place to place or time to time (e.g., age, sex, Hb, BP).
+
+**Types**
+
+| Type | Sub-type | Meaning | Examples |
+|---|---|---|---|
+| **Qualitative (categorical)** | **Nominal** | Categories without order | Sex, blood group, religion |
+| | **Ordinal** | Categories with natural order | Stage of cancer, socio-economic class, grade of anaemia |
+| **Quantitative (numerical)** | **Discrete** | Whole numbers; counted | Number of children, pulse rate, number of decayed teeth |
+| | **Continuous** | Any value in a range; measured | Height, weight, Hb, BP, temperature |
+
+**By role in research**
+
+| Type | Meaning | Example (smoking and lung cancer) |
+|---|---|---|
+| Independent (exposure) | Presumed cause | Smoking |
+| Dependent (outcome) | Presumed effect | Lung cancer |
+| Confounding | Related to both, distorts association | Age, air pollution |
+
+**Discrete vs continuous**
+
+| Discrete | Continuous |
+|---|---|
+| Counted | Measured |
+| Whole numbers only | Fractions possible |
+| Gaps between values | Unbroken scale |
+| Number of ANC visits | Birth weight |
+| Shown by bar diagram | Shown by histogram, frequency polygon |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.120
+**Definition**
+
+**Data**: a collection of facts, figures or observations (numbers or categories) recorded on variables, from which information is derived.
+
+**Classification**
+
+| Basis | Types | Examples |
+|---|---|---|
+| Nature | **Qualitative** / **Quantitative** | Sex, blood group / Hb, age |
+| Quantitative | **Discrete** / **Continuous** | Number of children / height |
+| Scale of measurement | Nominal, ordinal, interval, ratio | Religion; pain grade; temperature (°C); weight |
+| Source | **Primary** / **Secondary** | Own survey / census, hospital records |
+| Arrangement | Ungrouped (raw) / Grouped | List of ages / frequency table by age group |
+| Time | Cross-sectional / Time-series | One survey / yearly IMR trend |
+
+**Qualitative vs quantitative data**
+
+| Point | Qualitative | Quantitative |
+|---|---|---|
+| Nature | Attributes, categories | Numbers, measurements |
+| Obtained by | Classification, counting frequency | Measurement or counting |
+| Sub-types | Nominal, ordinal | Discrete, continuous |
+| Summary | Proportion, percentage, ratio | Mean, median, SD |
+| Presentation | Bar diagram, pie chart | Histogram, frequency polygon, line graph |
+| Tests | Chi-square | t-test, ANOVA, correlation |
+| Example | Immunised / not immunised | Birth weight 2.8 kg |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.121
+**Sources of data**
+
+**A. Primary data**: collected first-hand by the investigator for the study.
+
+| Method | Example |
+|---|---|
+| Surveys (interview, questionnaire) | Household survey on hand-washing |
+| Observation | Observing hygiene practices in a school |
+| Measurement / examination | BP, Hb, anthropometry |
+| Experiments and trials | Vaccine trial |
+| Focus group discussions, in-depth interviews | Barriers to ANC |
+
+**B. Secondary data**: already collected by others for other purposes.
+
+| Source | Example |
+|---|---|
+| Census | Population and Housing Census 2022 |
+| Vital registration, SVRS | Birth and death rates |
+| National surveys | BDHS, MICS, HIES |
+| Hospital and health service records | OPD registers, HMIS/DHIS2 |
+| Disease notification, registers | IEDCR surveillance, cancer registry |
+| Published literature and reports | Journals, WHO and UNICEF reports |
+
+**Primary vs secondary**
+
+| Primary | Secondary |
+|---|---|
+| Original, specific to purpose | Already available |
+| More accurate and relevant | May not fit the purpose; quality unknown |
+| Costly, time-consuming | Cheap, quick |
+
+**Other classifications**
+
+Internal (within the institution) vs external; routine (continuous) vs ad hoc (special surveys).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.122
+**Methods of data collection**
+
+1. **Observation**: participant / non-participant; structured (checklist) / unstructured.
+2. **Interview**: face-to-face or telephone; structured, semi-structured, unstructured; interview schedule.
+3. **Questionnaire**: self-administered, mailed, online.
+4. **Physical examination and measurement**: clinical examination, anthropometry (weight, height, MUAC), BP.
+5. **Laboratory investigations**: Hb, blood glucose, stool, sputum.
+6. **Record review (documentary)**: hospital records, registers, case notes.
+7. **Qualitative methods**: focus group discussion (FGD), in-depth interview (IDI), key informant interview (KII).
+8. **Experiments / trials**.
+9. **Mechanical / electronic**: data loggers, mobile data collection (ODK, KoBo).
+
+**Parts of a table**
+
+| Part | Content |
+|---|---|
+| 1. Table number | Serial number (Table 1) |
+| 2. Title | Brief, clear: what, where, when |
+| 3. Column headings (captions) | Labels of columns, with units |
+| 4. Row headings (stubs) | Labels of rows (categories) |
+| 5. Body (cells) | The data (frequencies, %) |
+| 6. Totals | Row and column totals |
+| 7. Footnote | Explanations, abbreviations |
+| 8. Source | Origin of data |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.123
+**Methods of data presentation**
+
+**A. Textual**: short description in sentences.
+
+**B. Tabulation**
+
+1. Simple table (one variable).
+2. Frequency distribution table (grouped).
+3. Complex / cross-table (two or more variables).
+
+**C. Graphical (charts and diagrams)**
+
+| For quantitative (continuous) data | For qualitative / discrete data |
+|---|---|
+| **Histogram** | **Bar diagram**: simple, multiple, component, proportional |
+| **Frequency polygon** | **Pie (sector) chart** |
+| Frequency curve | **Pictogram** |
+| **Line graph** (trend over time) | **Map diagram**: spot map, shaded map |
+| Cumulative frequency curve (ogive) | |
+| **Scatter diagram** (correlation) | |
+| Box-and-whisker plot; stem-and-leaf | |
+
+**Principles of good presentation**
+
+1. Self-explanatory title; numbered.
+2. Clear labels and units; scales start at zero.
+3. Simple; not overcrowded.
+4. Source and footnotes.
+5. Right diagram for the type of data.
+
+**Uses**
+
+Makes data easy to understand, compare and remember; shows trends and relationships.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.124
+**Criteria (characteristics) of the normal distribution curve**
+
+1. **Bell-shaped** and **symmetrical** about the mean.
+2. **Mean = median = mode** (at the centre).
+3. **Unimodal**: one peak.
+4. **Asymptotic**: tails approach but never touch the x-axis.
+5. Total **area under the curve = 1 (100%)**.
+6. Defined fully by two parameters: **mean (μ)** and **standard deviation (σ)**.
+7. Fixed area relationships:
+
+| Range | Area (observations) |
+|---|---|
+| Mean ± 1 SD | 68.27% |
+| Mean ± 1.96 SD | 95% |
+| Mean ± 2 SD | 95.45% |
+| Mean ± 2.58 SD | 99% |
+| Mean ± 3 SD | 99.73% |
+
+8. **Skewness = 0**; kurtosis mesokurtic.
+9. Points of inflection at mean ± 1 SD.
+10. **Standard normal curve**: mean 0, SD 1 (z-score = (x − mean) ÷ SD).
+
+**Examples**
+
+Height, weight, Hb, BP of healthy adults.
+
+**Uses**
+
+Setting **normal limits** (mean ± 2 SD); z-scores (growth standards); basis of parametric tests and confidence intervals.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.125
+**Bar diagram: characteristics**
+
+1. Used for **qualitative (categorical)** or **discrete** data.
+2. Bars of **equal width**; only the **length (height)** shows the value.
+3. Length proportional to frequency or percentage.
+4. **Equal gaps** between bars (bars do not touch).
+5. Bars may be **vertical (column)** or **horizontal**.
+6. Scale on the value axis **starts from zero**.
+7. Bars arranged in a logical order (ascending, descending, alphabetical or time).
+8. Clear **title**, axis labels, units, legend (for multiple / component bars).
+9. Simple to draw and easy to compare.
+
+**Types**
+
+| Type | Use | Example |
+|---|---|---|
+| Simple | One variable | Immunisation coverage by vaccine |
+| Multiple (grouped) | Two or more variables side by side | Male vs female literacy by division |
+| Component (sub-divided) | Parts of a total within one bar | Causes of child deaths each year |
+| Proportional (100%) | Percentage composition | Proportion of deliveries by place |
+
+**Bar diagram vs histogram**
+
+| Bar diagram | Histogram |
+|---|---|
+| Qualitative / discrete data | Continuous data |
+| Gaps between bars | Bars touch (no gaps) |
+| Width has no meaning | Width = class interval; area = frequency |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.126
+**Data**: 12, 14, 16, 18, 20, 22, 25, 30, 35, 40 (n = 10)
+
+**Formula**
+
+Mean (x̄) = Σx ÷ n
+
+**Calculation**
+
+Σx = 12 + 14 + 16 + 18 + 20 + 22 + 25 + 30 + 35 + 40 = 232
+
+x̄ = 232 ÷ 10 = **23.2 years**
+
+**Interpretation**
+
+The average age of the 10 persons is 23.2 years. The data are skewed to the right (a few older ages: 30, 35, 40), so the mean is greater than the median (21 years).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.127
+**Data**: 65, 45, 46, 35, 33, 77, 39, 49 (n = 8)
+
+**Mean**
+
+Σx = 65 + 45 + 46 + 35 + 33 + 77 + 39 + 49 = 389
+
+x̄ = 389 ÷ 8 = **48.63** (≈ 48.6)
+
+**Median**
+
+Arrange in ascending order: 33, 35, 39, **45, 46**, 49, 65, 77
+
+n = 8 (even) → median = average of the (n/2)th and (n/2 + 1)th values = 4th and 5th values
+
+Median = (45 + 46) ÷ 2 = **45.5**
+
+**Interpretation**
+
+Mean (48.6) > median (45.5) → slight positive (right) skew due to high values 65 and 77; median better represents the centre.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.128
+**Data**: 7, 10, 6, 3, 2, 7, 8, 10, 5, 4 (n = 10)
+
+**Ascending order**
+
+2, 3, 4, 5, **6, 7**, 7, 8, 10, 10
+
+**Median**
+
+n = 10 (even) → average of 5th and 6th values
+
+Median = (6 + 7) ÷ 2 = **6.5**
+
+**Mode**
+
+| Value | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 10 |
+|---|---|---|---|---|---|---|---|---|
+| Frequency | 1 | 1 | 1 | 1 | 1 | **2** | 1 | **2** |
+
+7 and 10 each occur twice → **Mode = 7 and 10 (bimodal series)**
+
+(Mean = 62 ÷ 10 = 6.2, for reference.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.129
+**Data (height, cm)**: 70, 68, 85, 75, 72, 80 (n = 6)
+
+**Ascending order**
+
+68, 70, **72, 75**, 80, 85
+
+**Median**
+
+n = 6 (even) → average of (n/2)th = 3rd and (n/2 + 1)th = 4th values
+
+Median = (72 + 75) ÷ 2 = **73.5 cm**
+
+**Interpretation**
+
+Half of the children are shorter than 73.5 cm and half are taller.
+
+**Note**
+
+Median is not affected by extreme values; useful for skewed data.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.130
+**Type of diagram**
+
+Data are **qualitative (categorical)** (levels of mother's education) with a percentage for each → **simple bar diagram** (vertical or horizontal).
+
+**Diagram (simple bar diagram)**
+
+```
+Percentage (%)
+100 |
+ 80 |  ████
+ 60 |  ████     ████
+ 50 |  ████     ████     ████
+ 40 |  ████     ████     ████
+ 20 |  ████     ████     ████
+  0 +--------------------------------
+       Nil     Primary  Secondary
+          Mother's education
+```
+
+**Figure**: Percentage by level of mother's education (Nil 80%, Primary 60%, Secondary 50%).
+
+**Features shown**
+
+1. Bars of equal width with equal gaps.
+2. Height proportional to percentage; scale starts at zero.
+3. Title, axis labels and units given.
+
+**Interpretation**
+
+The percentage falls as mother's education rises (80% → 60% → 50%), showing an inverse relationship between maternal education and the outcome.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.131
+**Definition**
+
+**Census**: the total process of collecting, compiling, evaluating, analysing and publishing demographic, economic and social data relating to **all persons** in a country (or defined part) at a **specified time** (UN).
+
+**Essential features**
+
+1. **Individual enumeration** of every person.
+2. **Universality** within a defined territory.
+3. **Simultaneity**: refers to one reference date/time.
+4. **Defined periodicity**: usually every 10 years.
+5. Conducted by the government (Bangladesh: BBS).
+
+**Types**
+
+| Basis | Type | Meaning |
+|---|---|---|
+| Place of counting | **De facto** | Counts people where they are found on census night |
+| | **De jure** | Counts people at their usual place of residence |
+| Coverage | Complete census | Whole population |
+| | Sample census | Part of population for detailed questions |
+| Subject | Population and housing census; agricultural; economic census | — |
+
+**Bangladesh**
+
+Population and Housing Census every 10 years: 1974, 1981, 1991, 2001, 2011, 2022 (first digital census).
+
+**Uses**
+
+Population size, structure and distribution; denominators for rates; planning of health, education and housing; projections; electoral boundaries.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.132
+**Types of bar diagram**
+
+**1. Simple bar diagram**: one variable; one bar per category.
+
+```
+Coverage (%)
+ 90 | ████
+ 80 | ████  ████
+ 70 | ████  ████  ████
+    +------------------
+      BCG   Penta3  MR1
+```
+
+**2. Multiple (grouped) bar diagram**: two or more related variables side by side for each category; shading distinguishes them.
+
+```
+Literacy (%)     ▓ Male  ░ Female
+ 80 | ▓▓░░
+ 60 | ▓▓░░   ▓▓░░
+ 40 | ▓▓░░   ▓▓░░
+    +----------------
+      Urban   Rural
+```
+
+**3. Component (sub-divided) bar diagram**: each bar shows the total, divided into parts.
+
+```
+Total deaths
+ 100 | ░░░ (others)
+  60 | ▒▒▒ (diarrhoea)
+  30 | ▓▓▓ (pneumonia)
+     +-----
+       2024
+```
+
+**4. Proportional (percentage) bar diagram**: all bars of equal height (100%), divided into percentage components; compares composition across groups.
+
+```
+100% | ░░░  ░░░
+     | ▒▒▒  ░░░
+     | ▓▓▓  ▒▒▒
+     +-----------
+      Urban Rural
+  ▓ Facility  ▒ Home (trained)  ░ Home (untrained)
+```
+
+**General rules**
+
+Equal bar width and spacing; scale from zero; title, labels, legend.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.133
+**Importance (uses) of vital statistics**
+
+**A. Health**
+
+1. **Measure health status** of a population: CBR, CDR, IMR, MMR, life expectancy.
+2. **Compare** health between regions, groups and countries; over time.
+3. **Identify problems** and high-risk groups (high neonatal or maternal deaths).
+4. **Plan, monitor and evaluate** health programmes (MCH, EPI, FP).
+5. **Research**: trends and causes of death; epidemiological studies.
+6. Monitor **national and international goals** (SDG 3).
+
+**B. Demographic**
+
+1. Population growth, natural increase, fertility.
+2. Population **projections** for planning.
+
+**C. Legal and administrative (individual)**
+
+| Certificate | Uses |
+|---|---|
+| Birth certificate | Proof of age, nationality; school admission; marriage age; passport, NID; inheritance; employment |
+| Death certificate | Inheritance and property transfer; insurance and pension claims; cause-of-death statistics |
+| Marriage registration | Legal rights of spouses; prevention of child marriage |
+
+**D. Social and economic planning**
+
+Education, housing, employment, food supply, social security.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics; Demography and Family Planning).
+
+## DU.134
+**De facto vs de jure census**
+
+| Point | De facto census | De jure census |
+|---|---|---|
+| Meaning | Persons counted **where they are found** at the census moment | Persons counted at their **usual place of residence** |
+| Basis | Actual presence | Legal / usual residence |
+| Visitors | Counted where present | Counted at home |
+| Absent residents | Not counted at home | Counted at home |
+| Procedure | Simpler; usually done in one night | Longer period; needs rules for "usual residence" |
+| Error risk | Less omission or double count | Possible double counting or omission |
+| Picture given | Population present (good for services on the spot) | Permanent population (good for planning) |
+| Example | Traveller on census night counted at the hotel | Traveller counted at his home district |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.135
+**Definition**
+
+**Research instrument**: a tool or device used to collect, measure and record data from study subjects in a valid and reliable way.
+
+**Classification**
+
+| Type | Use | Example |
+|---|---|---|
+| **Questionnaire** (self-administered) | Literate respondents; large samples | Online survey on smoking |
+| **Interview schedule** (structured / semi-structured / unstructured) | Interviewer asks and records | Household survey on ANC |
+| **Observation checklist** | Recording observed behaviour or conditions | Hand-hygiene audit |
+| **Measuring instruments** | Physical and physiological measurements | Weighing scale, stadiometer, MUAC tape, sphygmomanometer |
+| **Laboratory instruments / tests** | Biochemical and microbiological data | Haemoglobinometer, glucometer, GeneXpert |
+| **Rating scales / psychometric tools** | Attitudes, symptoms, quality of life | Likert scale, PHQ-9, WHOQOL-BREF |
+| **Record review form (data extraction sheet)** | Secondary data | Hospital record review |
+| **Qualitative guides** | FGD guide, in-depth interview guide | Barriers to facility delivery |
+
+**Qualities of a good instrument**
+
+Valid; reliable; simple; acceptable; culturally appropriate; pretested; easy to code and analyse.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics; Principles of Epidemiology).
+
+## DU.136
+**Importance of research in biomedical science**
+
+1. **New knowledge**: structure and function of the body, mechanisms of disease.
+2. **Causes and risk factors**: e.g., smoking and lung cancer; HPV and cervical cancer.
+3. **New diagnostics**: rapid tests, GeneXpert for TB.
+4. **New treatments and vaccines**: antibiotics, ART, HPV vaccine.
+5. **Evidence-based medicine**: replaces opinion with tested evidence.
+6. **Evaluation** of drugs, procedures and programmes (efficacy, safety, cost-effectiveness).
+7. **Prevention strategies** and public health policy.
+8. **Health systems improvement**: quality, access, efficiency (operational research).
+9. **Local problems**: research in the local setting finds suitable solutions.
+10. **Training and critical thinking** of doctors.
+11. **Economic benefit**: reduces cost of disease; supports pharmaceutical industry.
+12. **Ethics and safety**: detects adverse effects (pharmacovigilance).
+
+**Bangladesh examples**
+
+- **ORS** developed and proven at icddr,b; one of the greatest medical advances of the 20th century.
+- Research on **zinc** for diarrhoea, **chlorhexidine** cord care, and kala-azar treatment supported national programmes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.137
+**Literature review**
+
+A systematic search, reading and critical summary of published and unpublished work on the research topic.
+
+**Importance**
+
+1. **Shows what is already known** and what is not → identifies the **gap**.
+2. **Avoids duplication** of research already done.
+3. **Refines the research problem**, question, objectives and hypothesis.
+4. **Justifies the study** (rationale, significance).
+5. Builds the **conceptual / theoretical framework** and identifies variables.
+6. Guides choice of **study design, methods, sample size and instruments** (validated tools).
+7. Warns of **problems and biases** faced by others.
+8. Helps **interpret and compare results** in the discussion.
+9. Provides **references** and credibility.
+10. Improves the researcher's knowledge and critical thinking.
+11. **Ethical**: prevents exposing subjects to unnecessary research.
+
+**Sources**
+
+Textbooks, journals (PubMed, Google Scholar, BanglaJOL), reports (WHO, BDHS), theses, grey literature.
+
+**Steps**
+
+Search → Select → Read critically → Organise → Write summary → Cite references
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.138
+**Definition**
+
+**Research**: a systematic, organised and objective investigation, using the scientific method, to discover new facts, verify existing knowledge and find relationships, in order to solve problems.
+
+**Classification**
+
+| Basis | Types | Example |
+|---|---|---|
+| **Purpose** | Basic (pure) / Applied / Action research | Mechanism of insulin resistance / best diabetes education method / improving CC services |
+| **Approach** | Quantitative / Qualitative / Mixed methods | Prevalence of hypertension / reasons for home delivery (FGD) |
+| **Design** | Descriptive (case report, case series, cross-sectional) | Prevalence of anaemia |
+| | Analytical observational (case-control, cohort) | Smoking and lung cancer |
+| | Experimental / interventional (RCT, field trial, community trial) | Vaccine trial |
+| **Time** | Cross-sectional / Longitudinal; retrospective / prospective | — |
+| **Field** | Biomedical, clinical, epidemiological, health systems / operational research | — |
+| **Setting** | Laboratory / clinical (hospital) / field (community) | — |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.139
+**Steps of research**
+
+Problem → Literature review → Objectives / hypothesis → Design → Sampling → Tools → Ethics → Data collection → Analysis → Report → Use
+
+1. **Identify and define the research problem** (relevant, feasible, ethical).
+2. **Review the literature**.
+3. **Formulate research question, objectives** (general, specific) and **hypothesis**.
+4. Identify **variables**; draw the **conceptual framework**; operational definitions.
+5. Select the **study design** (cross-sectional, case-control, cohort, trial).
+6. Define **study population, place and period**; inclusion and exclusion criteria.
+7. Decide **sample size and sampling technique**.
+8. Choose **data collection methods** and prepare **instruments**; **pretest**.
+9. Plan **data management and analysis** (statistical tests, software).
+10. Obtain **ethical clearance** (e.g., BMRC / institutional review board) and informed consent.
+11. Prepare **work plan, budget** → complete **research protocol**.
+12. **Collect data**; supervise quality.
+13. **Process and analyse data**.
+14. **Interpret** results; draw conclusions.
+15. **Write the report** / paper and **disseminate** (seminar, journal).
+16. **Utilise findings** for policy and practice.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.140
+**Rules of writing an abstract**
+
+**A. Structure (structured abstract)**
+
+| Heading | Content |
+|---|---|
+| Background / Introduction | Problem and why it matters (1–2 lines) |
+| Objective | Aim of the study |
+| Methods | Design, setting, period, participants, sample size, sampling, tools, analysis |
+| Results | Main findings with key numbers (%, mean, OR, CI, p-value) |
+| Conclusion | Main message and recommendation |
+| Keywords | 3–6 terms (MeSH) |
+
+**B. Rules**
+
+1. **Brief**: within word limit (usually 150–300 words; follow the journal or conference).
+2. **Self-contained**: understandable without the full paper.
+3. **Write it last**, after the full report.
+4. **Consistent** with the main text; no new information.
+5. **No references, tables, figures** or long quotations.
+6. Avoid **abbreviations**, or define them at first use.
+7. Use **past tense** for methods and results.
+8. Give **specific results** with numbers, not vague statements.
+9. Conclusion must follow from the results; no over-claiming.
+10. Clear, simple language; no jargon.
+11. Title and abstract should contain the key words for indexing.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.141
+**Three qualities of a good questionnaire**
+
+1. **Valid**: measures what it is meant to measure.
+2. **Reliable**: gives consistent answers on repetition.
+3. **Simple and clear**: short, easy, unambiguous questions in the respondent's language.
+
+**Other qualities**
+
+4. **Relevant** to study objectives; no unnecessary questions.
+5. **Logical sequence**: general to specific; sensitive questions later.
+6. **Unbiased**: no leading or loaded questions; no double-barrelled questions.
+7. **Appropriate mix** of closed (easy to analyse) and open questions.
+8. **Pretested** (pilot study) and revised.
+9. Clear **instructions** and skip patterns.
+10. Attractive **layout**; easy to code and enter.
+11. **Ethical**: consent statement; confidentiality; respects culture.
+12. Reasonable **length** (avoids respondent fatigue).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
