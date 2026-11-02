@@ -1,0 +1,41 @@
+/* Annotation layer (pen / highlighter). Pairs with js/ink.js. Uses the site's own colour variables. */
+.inkc{position:relative;isolation:isolate} /* isolate: a z-index:-1 canvas paints above the card background but below its text */
+canvas.mbi{position:absolute;left:0;top:0;right:auto;bottom:auto;width:100%;height:100%;min-width:0;min-height:0;max-width:none;max-height:none;
+  display:block;margin:0;padding:0;border:0;border-radius:0;outline:0;box-shadow:none;
+  background:transparent!important;background-image:none!important;opacity:1;filter:none;mix-blend-mode:normal;
+  pointer-events:none!important;z-index:3;-webkit-user-select:none;user-select:none}
+/* highlighter sits BEHIND the text; opaque blocks (chips, options, code) get a blended copy on top instead */
+canvas.mbi.mbi-hl,canvas.mbi.mbi-hlive{z-index:-1}
+canvas.mbi.mbi-hlx,canvas.mbi.mbi-hlivex{z-index:2;mix-blend-mode:multiply;mix-blend-mode:var(--mbi-blend)}
+canvas.mbi.mbi-live{z-index:4}
+:root{--mbi-blend:multiply;--mbi-hla:.5}
+html[data-theme="dark"]{--mbi-blend:lighten;--mbi-hla:.4}
+.ink .inkc{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;cursor:crosshair}
+.ink .inkc a,.ink .inkc button{cursor:crosshair}
+.ink.finger .inkc{touch-action:none} /* finger mode: a finger on a card draws; scroll from the page margin or switch Finger off */
+/* floating button + toolbar */
+:root{--ib:calc(5.3rem + env(safe-area-inset-bottom,0px))}
+#inkfab{display:none;position:fixed;z-index:36;right:max(1rem,env(safe-area-inset-right,0px));bottom:calc(var(--ib) + .4rem);width:3rem;height:3rem;border-radius:50%;place-items:center;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:0;box-shadow:0 4px 14px rgba(0,0,0,.28);cursor:pointer}
+#inkfab svg{width:1.3rem;height:1.3rem}
+.hasq #inkfab{display:grid}.ink #inkfab{display:none}
+#ink{display:none;position:fixed;z-index:48;left:50%;bottom:var(--ib);transform:translateX(-50%);align-items:center;gap:.15rem;max-width:calc(100vw - .75rem);padding:.35rem .5rem;border-radius:1rem;
+  background:var(--panel);border:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.28);overflow-x:auto;scrollbar-width:none;touch-action:pan-x}
+#ink::-webkit-scrollbar{display:none}
+.hasq.ink #ink{display:flex}
+.ig{flex:none;width:1.1rem;height:2.25rem;margin-right:.1rem;background:radial-gradient(circle,var(--muted) 1.6px,transparent 2px) 0 0/6px 8px;touch-action:none;cursor:grab;opacity:.5}
+.ik{flex:none;display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:.6rem;color:var(--muted);background:transparent;border:1px solid transparent;cursor:pointer;padding:0}
+.ik svg{width:1.2rem;height:1.2rem}
+.ik:hover{background:var(--line);color:var(--text)}
+.ik.on{background:var(--accent);color:#fff}
+.ik:disabled{opacity:.35;cursor:default}
+.ic{flex:none;width:1.55rem;height:1.55rem;margin:0 .12rem;padding:0;border-radius:50%;background:var(--c);border:2px solid var(--panel);box-shadow:0 0 0 1px var(--muted);cursor:pointer}
+.ic.on{box-shadow:0 0 0 2.5px var(--accent)}
+.iv{flex:none;width:1px;height:1.6rem;margin:0 .3rem;background:var(--line)}
+.is{flex:none;width:5.5rem!important;margin:0 .35rem!important;accent-color:var(--accent)}
+#inkmenu{display:none;position:fixed;z-index:49;min-width:13rem;padding:.3rem;border-radius:.8rem;background:var(--panel);border:1px solid var(--line);box-shadow:0 12px 32px rgba(0,0,0,.3)}
+#inkmenu.on{display:block}
+#inkmenu button{display:block;width:100%;padding:.65rem .85rem;border:0;border-radius:.5rem;background:none;text-align:left;font-weight:600;color:var(--text);cursor:pointer}
+#inkmenu button:hover{background:var(--line)}
+#inkmenu .dg{color:var(--bad)}
+@media print{#ink,#inkmenu,#inkfab,canvas.mbi{display:none!important}}

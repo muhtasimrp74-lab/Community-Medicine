@@ -269,7 +269,7 @@
     var meta = '';
     if (q.kind) meta += '<span class="tpill">' + esc(q.kind) + '</span>';
     var lv = qlvl(q);
-    return '<div class="qrow' + (lv ? ' rc' + lv : '') + (S.read[q.id] ? ' read' : '') + (open ? ' open' : '') + '" data-id="' + q.id + '"><div class="qtop"><span class="qid">' + esc(q.id.replace('DU.', '')) + '</span><div class="qtx qb">' + q.q + '</div>' +
+    return '<div class="qrow inkc' + (lv ? ' rc' + lv : '') + (S.read[q.id] ? ' read' : '') + (open ? ' open' : '') + '" data-id="' + q.id + '"><div class="qtop"><span class="qid">' + esc(q.id.replace('DU.', '')) + '</span><div class="qtx qb">' + q.q + '</div>' +
       '<div class="qside">' + stars(q.stars) + heatHtml(q) + '<a class="abtn" href="#/q/' + q.id + '">Answer</a></div></div>' + (meta ? '<div class="qmeta">' + meta + '</div>' : '') + tagsHtml(q) +
       '<div class="qexp"><div class="ansbox">' + ansHtml(q) + '</div>' + (q.asked ? '<p class="meta"><b>Also asked as:</b> ' + esc(q.asked) + '</p>' : '') + (q.note ? '<p class="meta"><b>Note:</b> ' + esc(q.note) + '</p>' : '') +
       '<div class="acts"><button data-a="read" aria-pressed="' + !!S.read[q.id] + '">' + (S.read[q.id] ? '✓ Read' : 'Mark read') + '</button><button data-a="flag" aria-pressed="' + !!S.flag[q.id] + '">⚑ Flag</button><button data-a="note">Notes' + (S.notes[q.id] ? ' •' : '') + '</button></div><div class="slot"></div></div></div>';
@@ -494,7 +494,7 @@
   }
   /* answers shown: reading mode and review */
   function readCard(q, p) {
-    var h = '<div class="rdq">' + chips(q) + '<p class="stem">' + esc(q.stem) + '</p>';
+    var h = '<div class="rdq inkc" data-id="' + q.id + '">' + chips(q) + '<p class="stem">' + esc(q.stem) + '</p>';
     q.opts.forEach(function (o) {
       var cls = '', tag = '';
       if (q.kind === 'SBA') { if (o.l === q.ans) { cls = 'k'; tag = '✓ Correct'; } else if (p && p.sba === o.l) { cls = 'w'; tag = 'Your answer'; } }
@@ -612,7 +612,7 @@
     if (sess.done) { result(); return; }
     var id = sess.ids[sess.i], q = byId[id], p = sess.ans[id] || {}, exam = sess.mode === 'exam', checked = !!sess.chk[id], n = sess.ids.length;
     var answered = sess.ids.filter(function (x) { return sess.ans[x] && Object.keys(sess.ans[x]).length; }).length;
-    var body = '<div class="rdq">' + chips(q) + '<p class="stem">' + esc(q.stem) + '</p>';
+    var body = '<div class="rdq inkc" data-id="' + q.id + '">' + chips(q) + '<p class="stem">' + esc(q.stem) + '</p>';
     if (q.kind === 'SBA') {
       q.opts.forEach(function (o) {
         var c = ''; if (checked) { if (o.l === q.ans) c = ' ok'; else if (p.sba === o.l) c = ' bad'; } else if (p.sba === o.l) c = ' pick';
@@ -673,7 +673,7 @@
     var n = sess.ids.length, pc = Math.round(sess.ok / n * 100), un = sess.ids.filter(function (id) { return !sess.ans[id] || !Object.keys(sess.ans[id]).length; }).length;
     main.innerHTML = hero({ crumb: '<a href="#/mcqs">← MCQs</a> · ' + esc(sess.scope), icon: 'target', title: sess.ok + ' / ' + n + ' <small>correct</small>', desc: pc + '% fully correct · ' + fmt(sess.el) + (un ? ' · ' + un + ' not answered' : '') + '. Review every answer below.',
       btns: '<div class="btnrow"><button class="bigbtn fill" id="again">Try again</button><a class="bigbtn" href="#/mcqs">MCQ home</a></div>' }) +
-      wrap(sess.ids.map(function (id) { var q = byId[id], p = sess.ans[id] || {}; return readCard(q, p).replace('<div class="rdq">', '<div class="rdq ' + (isOk(q, scoreOf(q, p)) ? 'good' : scoreOf(q, p) === null ? '' : 'miss') + '">'); }).join(''), true);
+      wrap(sess.ids.map(function (id) { var q = byId[id], p = sess.ans[id] || {}; return readCard(q, p).replace('<div class="rdq inkc"', '<div class="rdq inkc ' + (isOk(q, scoreOf(q, p)) ? 'good' : scoreOf(q, p) === null ? '' : 'miss') + '">'); }).join(''), true);
     $('#again').onclick = function () { var ids = shuf(sess.ids); start(ids, { scope: sess.scope, mode: sess.mode, limit: sess.limit }); };
   }
 
@@ -681,7 +681,7 @@
     var dark = document.documentElement.dataset.theme === 'dark';
     main.innerHTML = hero({ icon: 'menu', title: 'Menu', desc: 'Display, backup and the second-term archive.' }) + '<div class="wrap" style="padding-top:1rem"><div class="grid">' +
       '<div class="card"><div class="k">Display</div><h3>Reading</h3><div class="row"><button class="btn ghost sm" id="m-theme">' + (dark ? 'Day mode' : 'Night mode') + '</button><button class="btn ghost sm" id="m-fs-">A−</button><button class="btn ghost sm" id="m-fs+">A+</button></div></div>' +
-      '<div class="card"><div class="k">Progress</div><h3>Backup</h3><div class="m">' + nRead() + ' read · ' + nDone() + ' MCQs tried · ' + Object.keys(S.notes).length + ' notes</div><div class="row"><button class="btn ghost sm" id="m-exp">Download backup</button><label class="btn ghost sm">Restore<input id="m-imp" type="file" accept="application/json" hidden></label><button class="btn ghost sm" id="m-reset">Reset</button></div></div>' +
+      '<div class="card"><div class="k">Progress</div><h3>Backup</h3><div class="m">' + nRead() + ' read · ' + nDone() + ' MCQs tried · ' + Object.keys(S.notes).length + ' notes' + (window.CMINK && CMINK.count() ? ' · ' + CMINK.count() + ' pen strokes' : '') + '</div><div class="row"><button class="btn ghost sm" id="m-exp">Download backup</button><label class="btn ghost sm">Restore<input id="m-imp" type="file" accept="application/json" hidden></label><button class="btn ghost sm" id="m-reset">Reset</button></div></div>' +
       '<a class="card" href="#/firsts"><div class="k">Patterns</div><h3>First-time questions</h3><div class="m">New questions in each exam session since 2017.</div></a>' +
       '<a class="card ppred" href="#/predict"><div class="k">Exam</div><h3>Prediction for Prof</h3><div class="m">Four predicted papers for this year\'s format.</div></a>' +
       '<a class="card" href="#/progress"><div class="k">Track</div><h3>Progress tracker</h3><div class="m">Streak, daily activity, progress by part.</div></a>' +
@@ -690,8 +690,8 @@
     $('#m-theme').onclick = function () { var d = document.documentElement.dataset.theme === 'dark'; if (d) delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = 'dark'; S.theme = d ? '' : 'dark'; save(); menu(); };
     function fs(d) { var v = Math.max(80, Math.min(140, (S.fs || 100) + d)); S.fs = v; document.documentElement.style.fontSize = v + '%'; save(); }
     $('#m-fs-').onclick = function () { fs(-10); }; $('#m-fs\\+').onclick = function () { fs(10); };
-    $('#m-exp').onclick = function () { var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(S)], { type: 'application/json' })); a.download = 'community-medicine-progress.json'; a.click(); };
-    $('#m-imp').onchange = function (e) { var f = e.target.files[0]; if (!f) return; e.target.value = ''; f.text().then(function (t) { var o = JSON.parse(t); if (!o || typeof o !== 'object' || Array.isArray(o)) throw 0; if (!confirm('Replace the progress on this device with this backup?')) return; S = o; save(); location.reload(); }).catch(function () { alert('That file is not a valid backup.'); }); };
+    $('#m-exp').onclick = function () { var a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(Object.assign({}, S, { ink: window.CMINK ? CMINK.read() : {} }))], { type: 'application/json' })); a.download = 'community-medicine-progress.json'; a.click(); };
+    $('#m-imp').onchange = function (e) { var f = e.target.files[0]; if (!f) return; e.target.value = ''; f.text().then(function (t) { var o = JSON.parse(t); if (!o || typeof o !== 'object' || Array.isArray(o)) throw 0; if (!confirm('Replace the progress on this device with this backup? (Handwriting in the backup is merged in, never overwritten.)')) return; var ink = window.CMINK && CMINK.clean(o.ink); delete o.ink; S = o; save(); return (ink && ink.ok ? CMINK.mergeAsync(ink.ink) : Promise.resolve()).then(function () { location.reload(); }); }).catch(function () { alert('That file is not a valid backup.'); }); };
     $('#m-reset').onclick = function () { if (confirm('Erase all read marks, flags, notes and MCQ results on this device?')) { try { localStorage.removeItem(KEY); } catch (e) {} location.reload(); } };
   }
   $('#t-theme').onclick = function () { var d = document.documentElement.dataset.theme === 'dark'; if (d) delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = 'dark'; S.theme = d ? '' : 'dark'; save(); };
