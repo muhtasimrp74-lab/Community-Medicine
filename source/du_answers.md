@@ -10720,3 +10720,1039 @@ During **outbreaks**, in humanitarian settings or for HIV-exposed infants, an ex
 10. Advise the mother to return if symptoms persist beyond 48 hours.
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology).
+
+## DU.387
+**Definition**
+
+**Demography**: the scientific study of **human population**, focusing on (1) **changes in population size** (growth or decline), (2) the **composition** of the population (age, sex, marital status, education, occupation) and (3) the **distribution** of population in space (Park).
+
+**Demographic processes**
+
+Fertility, mortality, marriage, migration and social mobility; these change population size, structure and distribution.
+
+**Branches**
+
+- **Formal demography**: quantitative study of size, structure, growth.
+- **Population studies (social demography)**: social, economic and biological causes and effects of population change.
+
+**Importance**
+
+Planning health, education, housing, employment; denominators for health indicators; family planning and population policy; projections.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.388
+**Information obtained from demographic data**
+
+| Area | Information |
+|---|---|
+| **Size** | Total population; growth rate; density |
+| **Composition (structure)** | Age and sex structure (population pyramid); sex ratio; dependency ratio; marital status; religion; ethnicity |
+| **Distribution** | Urban–rural; regional; migration patterns; urbanisation |
+| **Fertility** | CBR, GFR, TFR, age-specific fertility, NRR |
+| **Mortality** | CDR, IMR, U5MR, MMR, life expectancy, causes of death |
+| **Social characteristics** | Literacy and education, occupation, family size and type, household size |
+| **Economic characteristics** | Income, employment, labour force |
+| **Housing and amenities** | Housing type, water, sanitation, electricity |
+| **Trends and projections** | Future population, ageing, demographic dividend |
+
+**Uses**
+
+Health planning (beds, staff, vaccines); calculating rates; identifying vulnerable groups (under-fives, women, elderly); evaluating family planning and health programmes; national development planning.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.389
+**Five demographic processes (Park)**
+
+| Process | Effect on population |
+|---|---|
+| **1. Fertility** | Adds to population (births) |
+| **2. Mortality** | Reduces population (deaths) |
+| **3. Marriage** | Influences fertility (age at marriage, proportion married) |
+| **4. Migration** | Changes size and distribution (in-migration, out-migration, urbanisation) |
+| **5. Social mobility** | Movement between social classes; affects fertility, education, occupation |
+
+**Population change equation**
+
+Population change = (Births − Deaths) + (In-migrants − Out-migrants)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.390
+**Demographic cycle (Blacker): five stages**
+
+| Stage | Birth rate | Death rate | Growth | Example |
+|---|---|---|---|---|
+| **1. High stationary** | High | High | Stationary (balanced) | Pre-industrial societies; India until 1920 |
+| **2. Early expanding** | High | **Begins to fall** | Rapid increase | Many sub-Saharan countries |
+| **3. Late expanding** | **Begins to fall** | Falls further (low) | Increases, but more slowly | **Bangladesh**, India |
+| **4. Low stationary** | Low | Low | Stationary or slow | Many developed countries (Denmark) |
+| **5. Declining** | **Lower than death rate** | Low | Population **declines** | Japan, Germany, some East European countries |
+
+**Demographic transition**
+
+Shift from high birth and death rates to low birth and death rates with socio-economic development. Death rate falls first (better nutrition, sanitation, vaccines, medical care); birth rate falls later (education, urbanisation, family planning) → the gap produces rapid growth.
+
+**Bangladesh in context**
+
+1. Death rate has fallen sharply (CDR 6.1/1000; life expectancy 72.3 years, SVRS 2023).
+2. Fertility has fallen to near replacement (TFR 2.17, SVRS 2023) through family planning, female education and later marriage.
+3. Bangladesh is in the **late expanding stage**, moving toward low stationary.
+4. Large young working-age population → **demographic dividend**; ageing rising (65+ about 6% in 2023).
+5. Population still grows because of **population momentum** (many young people entering reproductive age).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning); BBS SVRS 2023 (The Financial Express, 2024), https://today.thefinancialexpress.com.bd/print/life-expectancy-falls-in-bd-bbs-1724781053
+
+## DU.391
+**Developed vs developing countries: demographic characteristics**
+
+| Feature | Developed countries | Developing countries |
+|---|---|---|
+| Birth rate | Low | High (falling) |
+| Death rate | Low | Moderate to low (falling) |
+| Growth rate | Low, zero or negative | High to moderate |
+| Stage of demographic cycle | Low stationary / declining | Early or late expanding |
+| Age structure | **Old**: few children, many elderly | **Young**: many children and young adults |
+| Population pyramid | Narrow base, broad top, nearly vertical sides | Broad base, narrow top |
+| Dependency ratio | High **old-age** dependency | High **child** dependency |
+| Life expectancy | High (80+ years) | Lower (but rising) |
+| IMR, MMR | Very low | Higher |
+| TFR | Below replacement (<2.1) | Higher (above or near replacement) |
+| Sex ratio | More women in older ages | Variable; sometimes fewer women |
+| Urbanisation | High | Lower but rising fast |
+| Disease pattern | Mainly NCDs | Double burden: infections + NCDs |
+| Literacy | High | Lower |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.392
+**Population (age–sex) pyramid**
+
+A graphic presentation of the age and sex composition of a population: horizontal bars for 5-year age groups, males on the left, females on the right; length shows number or percentage.
+
+**Characteristics**
+
+1. Shows **age structure** and **sex ratio** at a glance.
+2. Reflects past **fertility, mortality and migration**.
+3. **Shape** indicates the stage of demographic transition.
+4. Predicts future growth, dependency and service needs.
+
+**Pyramid of a developing country (e.g., Bangladesh in past decades)**
+
+```
+           Male | Female
+   70+          ▌|▐
+   60–69       ▐█|█▌
+   50–59      ▐██|██▌
+   40–49     ▐███|███▌
+   30–39    ▐████|████▌
+   20–29   ▐█████|█████▌
+   10–19  ▐██████|██████▌
+   0–9   ▐███████|███████▌
+```
+
+**Interpretation**
+
+1. **Broad base**: high birth rate; many children.
+2. **Rapid narrowing upward**: high mortality at all ages; low life expectancy.
+3. **Narrow top**: few elderly.
+4. High **child dependency ratio**; young population; built-in **population momentum**.
+5. Bangladesh today: base **narrowing** (falling fertility) and a **bulge in ages 15–34** (youth bulge) → demographic dividend phase.
+
+**Developing vs developed pyramids**
+
+| Feature | Developing | Developed |
+|---|---|---|
+| Shape | Triangular (expansive) | Beehive / rectangular or inverted base (constrictive) |
+| Base | Broad | Narrow |
+| Top | Narrow | Broad |
+| Sides | Concave, tapering fast | Nearly vertical |
+| Meaning | High fertility, high mortality, young population | Low fertility, low mortality, ageing population |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.393
+**Growth rate**
+
+**1. Rate of natural increase (RNI)**
+
+RNI = Crude birth rate − Crude death rate (per 1,000 population)
+Growth rate (%) = (CBR − CDR) ÷ 10
+
+**2. Overall (actual) growth rate**
+
+Growth rate = [(Births − Deaths) + (Immigrants − Emigrants)] ÷ mid-year population × 100
+
+**3. From two censuses (annual exponential growth rate)**
+
+r = [ln(Pₜ ÷ P₀) ÷ t] × 100, where P₀ and Pₜ are populations at two censuses t years apart.
+
+**4. Doubling time**
+
+Doubling time (years) ≈ 70 ÷ growth rate (%).
+
+**Calculation for Bangladesh (method, with illustrative values)**
+
+If CBR = 18 per 1,000 and CDR = 6 per 1,000:
+RNI = 18 − 6 = 12 per 1,000 = **1.2% per year**
+Doubling time ≈ 70 ÷ 1.2 ≈ **58 years**
+(Substitute the latest SVRS/census CBR and CDR in the same formula; Bangladesh's CDR was 6.1 per 1,000 in SVRS 2023.)
+
+**Interpretation**
+
+Growth has slowed with falling fertility, but the absolute increase is still large because of the big young population (population momentum).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.394
+**Factors influencing fertility (Park)**
+
+| Factor | Effect |
+|---|---|
+| **1. Age at marriage** | Early marriage → longer reproductive span → higher fertility |
+| **2. Duration of married life** | Longer → more children |
+| **3. Spacing of children** | Short birth intervals → more births |
+| **4. Education** (especially female) | Higher education → later marriage, more contraception, fewer children |
+| **5. Economic status** | Poverty → children seen as earners and old-age security → high fertility |
+| **6. Religion and caste** | Beliefs about family size and contraception |
+| **7. Nutrition** | Indirect effects on fecundity |
+| **8. Family planning** | Use of contraception → lower fertility |
+| **9. Other** | Child mortality (replacement births), son preference, urbanisation, women's employment, status of women |
+
+**Causes of (past) high fertility in Bangladesh**
+
+1. **Early marriage** of girls; adolescent pregnancy.
+2. **Son preference**.
+3. **High infant and child mortality** (insurance births).
+4. **Poverty**; children as economic assets and old-age security.
+5. **Low female education** and employment; low status of women.
+6. **Religious and cultural beliefs**; joint-family pressure.
+7. **Unmet need for family planning**; limited method choice; rumours about side effects.
+8. **Rural residence**; poor access to services in hard-to-reach areas.
+9. Low male involvement in family planning.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.395
+**Reducing fertility in Bangladesh**
+
+**A. Family planning services**
+
+1. Ensure **availability and choice** of methods (pills, condoms, injectables, IUD, implants, permanent methods).
+2. **Long-acting reversible and permanent methods** promotion.
+3. **Postpartum and post-abortion family planning**.
+4. Door-to-door services by **FWAs**, satellite clinics, community clinics; urban slums.
+5. Reduce **unmet need** and discontinuation; good counselling; manage side effects.
+6. Adolescent-friendly services.
+
+**B. Socio-economic measures**
+
+1. **Prevent child marriage**: enforce Child Marriage Restraint Act 2017 (girls 18, boys 21 years).
+2. **Female education**: stipends, keep girls in school.
+3. **Women's employment and empowerment**.
+4. **Reduce child mortality** (EPI, nutrition) → less need for "insurance" births.
+5. Poverty reduction; social security for old age.
+6. Urbanisation and better living standards.
+
+**C. Behaviour change communication**
+
+Mass media, community leaders, imams, folk media; small-family norm; male involvement; correct rumours.
+
+**D. Policy and programme**
+
+Strong political commitment; population policy; integration of FP with MCH services; incentives and compensation for permanent methods; supply chain for contraceptives; monitoring by surveys.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.396
+**Definition**
+
+**Fertility**: the **actual bearing of children** (number of live births) by a woman or a population.
+
+**Related terms**
+
+| Term | Meaning |
+|---|---|
+| **Fecundity** | Physiological **capacity** to bear children |
+| Infecundity / sterility | Inability to bear children |
+| Fertility rates | Measures of actual births |
+
+**Measures of fertility**
+
+1. **Crude birth rate (CBR)**: live births per 1,000 mid-year population.
+2. **General fertility rate (GFR)**: live births per 1,000 women aged 15–44 (or 15–49).
+3. **General marital fertility rate**: per 1,000 married women 15–49.
+4. **Age-specific fertility rate (ASFR)**.
+5. **Total fertility rate (TFR)**: average children a woman would have through her reproductive years at current ASFRs (Bangladesh 2.17, SVRS 2023).
+6. **Gross reproduction rate (GRR)**: average daughters per woman (no mortality).
+7. **Net reproduction rate (NRR)**: average daughters per woman, allowing for mortality.
+8. Child–woman ratio; pregnancy rate; abortion rate.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.397
+**Demographic dividend**
+
+The **economic growth potential** that arises when, after a fall in fertility, the **working-age population (15–64 years)** becomes large relative to the dependent population (children and elderly).
+
+**How it arises**
+
+Fall in death rate → fall in birth rate → fewer children, large cohort of young adults → low dependency ratio → "**window of opportunity**" (temporary, a few decades)
+
+**Benefits (if used well)**
+
+1. More workers and producers per dependent.
+2. Higher savings and investment.
+3. More women can join the workforce (fewer children).
+4. More resources per child for health and education.
+5. Faster economic growth (East Asian example).
+
+**Requirements to realise it**
+
+Quality **education and skills**; **health** and nutrition of youth; **jobs** for young people; **women's participation**; good governance, savings and investment.
+
+**Bangladesh**
+
+In the demographic dividend phase with a large youth population; failure to create jobs and skills could turn it into a burden (unemployment, migration, social unrest); the window will close as the population ages.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.398
+**Why TFR is preferred to CBR for comparing fertility**
+
+| Point | Crude birth rate (CBR) | Total fertility rate (TFR) |
+|---|---|---|
+| Denominator | **Whole population** (men, children, elderly included) | Based on **women of reproductive age** (age-specific rates) |
+| Effect of age–sex structure | **Strongly affected**: a young population gives a high CBR even with low fertility per woman | **Not affected**: sum of age-specific fertility rates (a standardised measure) |
+| Meaning | Births per 1,000 population | **Average number of children per woman** over her reproductive life |
+| Comparison | Misleading between populations with different structures | **Valid** comparison between countries, regions and over time |
+| Use in policy | General | Directly shows **replacement level** (≈2.1) |
+
+**Reasons (summary)**
+
+1. Independent of age and sex composition.
+2. Easy to interpret (children per woman).
+3. Directly linked to population replacement.
+4. Good for monitoring family planning programmes.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.399
+**TFR of 2.1: replacement-level fertility**
+
+In a population with low mortality, a TFR of about **2.1** means each woman, on average, has just enough children to **replace herself and her partner**.
+
+1. **2 children** replace the two parents.
+2. The extra **0.1** allows for:
+   - **More boys than girls at birth** (sex ratio ~105 boys per 100 girls).
+   - Some **girls dying before reaching reproductive age**.
+3. Equivalent to **NRR = 1** (each woman replaced by one daughter who survives to childbearing age).
+4. If sustained, the population becomes **stationary** in the long run (no growth from natural increase, ignoring migration).
+5. Population may still grow for decades due to **population momentum** (large young cohorts).
+6. In high-mortality populations, replacement TFR is higher (2.5–3 or more).
+
+**Bangladesh**
+
+TFR 2.17 (SVRS 2023): close to replacement level.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.400
+**Population explosion**
+
+A **very rapid increase in population** occurring when **death rates fall sharply** (better sanitation, vaccines, antibiotics, food supply) while **birth rates remain high**; seen in the early and late expanding stages of the demographic cycle.
+
+**Causes**
+
+1. Fall in death rate, especially infant and child mortality.
+2. Persistently high fertility: early marriage, poverty, low education, son preference, low contraceptive use.
+3. Longer life expectancy.
+4. Population momentum (large young population).
+
+**Consequences**
+
+| Area | Effects |
+|---|---|
+| Health | Overcrowding, infections, malnutrition, maternal and child deaths, pressure on health services |
+| Economic | Unemployment, poverty, low per capita income |
+| Social | Housing shortage, slums, illiteracy, crime |
+| Environment | Deforestation, pollution, water scarcity, loss of farmland |
+| Resources | Food insecurity; pressure on education, transport, energy |
+
+**Control**
+
+Family planning; female education; delaying marriage; reducing child mortality; poverty reduction; women's empowerment; population policy.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.401
+**Net reproduction rate (NRR)**
+
+The **average number of daughters a newborn girl will bear during her lifetime**, assuming she experiences the current **age-specific fertility rates and age-specific mortality rates** (Park).
+
+**Interpretation**
+
+| NRR | Meaning |
+|---|---|
+| **= 1** | **Replacement level**: each generation of mothers exactly replaces itself → population becomes stationary in the long run |
+| > 1 | Population will grow |
+| < 1 | Population will decline in the long run |
+
+**Relation to other measures**
+
+- **Gross reproduction rate (GRR)**: average daughters per woman without allowing for mortality; NRR is always ≤ GRR.
+- NRR of 1 corresponds to a TFR of about 2.1 in low-mortality populations.
+
+**Use**
+
+Demographic goal in population policies (e.g., target NRR = 1); indicates long-term growth potential.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.402
+**a) Natural increase rate (2)**
+
+Rate of natural increase (RNI) = CBR − CDR
+
+| Country | CBR | CDR | RNI (per 1,000) | Growth rate (%) | Doubling time |
+|---|---|---|---|---|---|
+| A | 38 | 8 | **30** | **3.0%** | ≈70 ÷ 3 ≈ 23 years |
+| B | 12 | 10 | **2** | **0.2%** | ≈70 ÷ 0.2 ≈ 350 years |
+
+**Country A** has the greater natural increase (15 times that of B).
+
+**b) Demographic consequences in Country A (2.5)**
+
+1. **Young age structure**: broad-based pyramid; large child population; high **child dependency ratio**.
+2. **Rapid population growth and momentum**: population doubles in about 23 years; growth continues even if fertility falls.
+3. **Pressure on services and resources**: schools, health care (MCH, immunisation), food, housing, jobs; urbanisation and slums.
+4. High demand for **family planning and MCH** services; risk of high maternal and child mortality.
+5. Future **demographic dividend** possible if fertility falls and youth are educated and employed; otherwise unemployment and poverty.
+
+**c) Demographic challenges in Country B (2.5)**
+
+1. **Population ageing**: rising proportion of elderly; high **old-age dependency ratio**.
+2. **Shrinking workforce**: labour shortages; dependence on immigrant workers; slower economic growth.
+3. **Health-care burden**: NCDs, disability, dementia, need for long-term and palliative care; higher costs.
+4. **Pension and social security** pressure on a smaller working population.
+5. Possible **population decline** (fertility below replacement); more deaths than births in future; feminisation of old age; loneliness and need for elderly care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Demography and Family Planning).
+
+## DU.403
+**New concept of MCH care**
+
+**Traditional MCH**: promotive, preventive, curative and rehabilitative care for mothers (pregnancy, childbirth) and children, with emphasis on maternal and infant mortality.
+
+**New (current) concept**
+
+1. **Mother and child as one unit**; care of the family as a whole (**family health**).
+2. **Reproductive and Child Health (RCH)** approach (after ICPD Cairo, 1994): adds family planning, safe abortion, RTI/STI, adolescent health and gender issues.
+3. **Continuum of care (RMNCAH+N)**:
+   - **Across the life cycle**: pre-pregnancy → pregnancy → childbirth → postnatal → newborn → childhood → adolescence → adulthood.
+   - **Across places**: home → community → health facility (referral).
+4. **Risk approach**: special care for high-risk mothers and children while giving basic care to all.
+5. **Integrated services**: ANC, institutional delivery, newborn care, IMCI, nutrition, immunisation, family planning, under one system.
+6. **Rights-based and equity-focused**: women's empowerment, respectful maternity care, men's involvement.
+7. **Community participation**: CHWs, community clinics.
+8. **Quality of care** and **survive, thrive and transform** agenda (Global Strategy for Women's, Children's and Adolescents' Health).
+
+**Components of MCH**
+
+Maternal health; family planning; child health; school health; handicapped children; care of children in special settings.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.404
+**Maternity cycle: stages**
+
+```
+          ┌──────────── Conception ────────────┐
+          ↓                                     │
+   Antenatal period                    Interconceptional period
+   (pregnancy)                         (family planning, spacing)
+          ↓                                     ↑
+   Intranatal period  ───────→  Postnatal period
+   (labour, delivery)            (puerperium, 6 weeks)
+```
+
+| Stage | Care needed |
+|---|---|
+| **1. Conception** | Pre-conception care: nutrition, folic acid, rubella immunity, treatment of chronic disease, healthy age (≥20 years) |
+| **2. Antenatal period** | ANC (≥8 contacts, WHO), IFA, Td, nutrition, risk detection, birth preparedness |
+| **3. Intranatal period** | Skilled birth attendance, clean and safe delivery, partograph, AMTSL, emergency obstetric care |
+| **4. Postnatal period** | Care of mother and newborn; PNC visits; breastfeeding; detect complications |
+| **5. Interconceptional period** | Family planning, birth spacing (≥24 months), nutrition recovery |
+
+**Importance**
+
+Each stage carries specific risks; comprehensive MCH care covers the whole cycle.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.405
+**High-risk (at-risk) mothers / pregnancies (Park)**
+
+1. **Elderly primigravida** (≥30 years).
+2. **Short-statured primigravida** (≤140 cm).
+3. **Malpresentations** (breech, transverse lie).
+4. **Antepartum haemorrhage**; threatened abortion.
+5. **Pre-eclampsia and eclampsia**.
+6. **Anaemia** (especially severe).
+7. **Twins** (multiple pregnancy); hydramnios.
+8. **Previous stillbirth, intrauterine death**, manual removal of placenta.
+9. **Prolonged pregnancy** (≥14 days past expected date).
+10. **History of previous caesarean or instrumental delivery**.
+11. **Pregnancy with general diseases**: heart disease, diabetes, kidney disease, liver disease, TB, hypertension, epilepsy.
+
+**Other risk factors**
+
+- Age **<18 years** (adolescent) or **>35 years**.
+- **Grand multipara** (≥5 deliveries); short birth interval (<2 years).
+- **Rh-negative** mother.
+- Previous **PPH**, obstructed labour, bad obstetric history, preterm birth, congenital anomaly.
+- Poor socio-economic status, malnutrition, no ANC.
+
+**Management**
+
+Identify early (risk approach); more frequent ANC; referral; institutional delivery in a facility with emergency obstetric care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.406
+**Warning (danger) signs of pregnancy**
+
+1. **Vaginal bleeding** at any time.
+2. **Severe headache, blurred vision**.
+3. **Convulsions (fits)** or loss of consciousness.
+4. **High fever**.
+5. **Severe abdominal pain**.
+6. **Swelling of face and hands**.
+7. **Breathlessness**, fast breathing, chest pain.
+8. **Reduced or absent fetal movements**.
+9. **Leaking of watery fluid** from the vagina before labour (rupture of membranes).
+10. **Severe or persistent vomiting**.
+11. Foul-smelling vaginal discharge; burning urination.
+12. Severe weakness, pallor.
+
+**During labour / after delivery**
+
+Labour >12 hours (prolonged / obstructed); retained placenta >30 minutes; heavy bleeding after delivery; cord or hand prolapse.
+
+**Action**
+
+Go **immediately** to a health facility with emergency obstetric care; birth preparedness plan (transport, money, blood donor).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.407
+**Specific health protection during pregnancy (Park)**
+
+| Measure | Details |
+|---|---|
+| **1. Diet** | Balanced, extra energy and protein in 2nd and 3rd trimesters; one extra meal; iodised salt |
+| **2. Anaemia prophylaxis** | **Iron-folic acid** daily throughout pregnancy (and 3 months after); treat anaemia |
+| **3. Other nutritional supplements** | **Calcium** (prevents pre-eclampsia); iodine; vitamin D where needed |
+| **4. Tetanus immunisation** | **TT/Td** (2 doses if not immunised; booster if previously immunised) |
+| **5. Syphilis** | Screening (VDRL/RPR) and treatment with penicillin → prevents congenital syphilis |
+| **6. Rubella (German measles)** | Vaccinate non-immune women **before** pregnancy; avoid exposure in pregnancy |
+| **7. Rh status** | Blood grouping; anti-D for Rh-negative mothers |
+| **8. HIV and hepatitis B** | Screening; PMTCT; hepatitis B vaccine and HBIG for newborn |
+| **9. Malaria** | Insecticide-treated nets; prophylaxis/treatment in endemic areas |
+| **10. Deworming** | After first trimester |
+| **11. Avoid harmful exposures** | Unnecessary drugs, X-rays, smoking, smokeless tobacco, alcohol, heavy work |
+| **12. Prenatal advice** | Rest, hygiene, sleep, safe sex, recognition of danger signs, birth preparedness |
+| **13. Prevention of pre-eclampsia** | BP monitoring; low-dose aspirin for high-risk women |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.408
+**Objectives of antenatal care (Park)**
+
+1. To **promote, protect and maintain the health of the mother** during pregnancy.
+2. To **detect "high-risk" cases** and give them special attention.
+3. To **foresee complications and prevent them**.
+4. To **remove anxiety and dread** associated with delivery.
+5. To **reduce maternal and infant mortality and morbidity**.
+6. To **teach the mother** the elements of child care, nutrition, personal hygiene and environmental sanitation.
+7. To sensitise the mother to the need for **family planning**.
+8. To attend to **under-five children** accompanying the mother.
+
+**Number and timing of antenatal visits**
+
+| Guideline | Schedule |
+|---|---|
+| **Park (traditional ideal)** | Monthly until 28 weeks; every 2 weeks from 28–36 weeks; weekly thereafter |
+| **Minimum (Bangladesh, 4 visits)** | 1st: by 16 weeks; 2nd: 24–28 weeks; 3rd: 32 weeks; 4th: 36 weeks |
+| **WHO (2016): at least 8 contacts** | 1st contact up to 12 weeks; then at 20, 26, 30, 34, 36, 38 and 40 weeks |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); WHO recommendations on antenatal care for a positive pregnancy experience, 2016.
+
+## DU.409
+**Components of the first antenatal visit (duties of the attending physician)**
+
+**1. Registration**: open ANC card; record identity, address, contact.
+
+**2. History**
+
+- Menstrual: LMP → **EDD**; cycle.
+- Obstetric: parity, previous pregnancies, abortions, stillbirths, caesarean, PPH, birth weights.
+- Present pregnancy: symptoms (bleeding, vomiting, headache).
+- Medical: hypertension, diabetes, heart, kidney disease, TB, epilepsy, drugs, allergies.
+- Family: twins, diabetes, hypertension, genetic disorders.
+- Social: age, education, nutrition, tobacco, violence.
+- Immunisation (TT/Td) and contraception history.
+
+**3. Examination**
+
+- General: height, weight (BMI), BP, pulse, pallor, jaundice, oedema, thyroid, breasts, teeth.
+- Systemic: heart, lungs.
+- Obstetric: fundal height (after 12 weeks), uterine size vs dates.
+
+**4. Investigations**
+
+Hb, blood group and Rh, urine (protein, sugar, infection), blood glucose, VDRL/RPR, HBsAg, HIV (with counselling), ultrasound (dating, viability, number).
+
+**5. Risk assessment** → plan care and referral if high-risk.
+
+**6. Interventions**
+
+Iron-folic acid, calcium; TT/Td; deworming (after first trimester); treatment of problems.
+
+**7. Advice / health education**
+
+Diet, rest, hygiene, danger signs, avoid harmful drugs and tobacco, birth preparedness, breastfeeding, family planning.
+
+**8. Next visit date** and follow-up plan.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.410
+**Home visit**
+
+A visit by a health worker (FWA, HA, CHCP, nurse, doctor) to a family's home to provide **health care, education and follow-up** in the home setting.
+
+**Purposes (in MCH)**
+
+1. **Antenatal**: register pregnant women; motivate for ANC and facility delivery; check danger signs; IFA, Td follow-up; birth preparedness.
+2. **Postnatal**: check mother and newborn (bleeding, fever, breastfeeding, cord, temperature, jaundice); refer danger signs; counsel on family planning.
+3. **Child care**: immunisation defaulter tracing, growth monitoring, diarrhoea and pneumonia management, nutrition counselling.
+4. **Family planning**: supply of pills, condoms, injectables; counselling.
+5. **Chronic and special care**: TB treatment support, elderly and disabled.
+
+**Advantages**
+
+1. Sees the **real home environment** (sanitation, water, food, housing).
+2. Builds **rapport and trust** with the family.
+3. Reaches those who cannot or do not come to facilities.
+4. Education is **personalised** and involves the whole family.
+5. Early detection of problems; follow-up of defaulters.
+
+**Steps**
+
+Plan (objective, records) → introduction and rapport → observation and assessment → service and education → record → follow-up plan.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.411
+**Prenatal services for a 40-year-old multipara (high-risk pregnancy)**
+
+**A. Risks to anticipate**
+
+Chromosomal anomalies (Down syndrome), miscarriage, gestational diabetes, hypertension and pre-eclampsia, anaemia, malpresentation, placenta praevia, preterm birth, growth restriction, stillbirth, prolonged labour, uterine rupture, **postpartum haemorrhage**.
+
+**B. Services**
+
+1. **Early registration** and **risk labelling**; care by a doctor/obstetrician; more frequent ANC (at least 8 contacts; more as needed).
+2. **History and examination**: previous obstetric events (PPH, caesarean), chronic diseases; BP and weight at every visit.
+3. **Investigations**:
+   - Hb, blood group and Rh, urine, VDRL, HBsAg, HIV.
+   - **Blood glucose / OGTT** for gestational diabetes (early and at 24–28 weeks).
+   - **Ultrasound**: dating, multiple pregnancy, anomaly scan (18–22 weeks), growth scans, placental position.
+   - **Screening for aneuploidy** (nuchal translucency, combined test or other available tests), with counselling about diagnostic tests.
+4. **Supplements**: iron-folic acid, calcium; low-dose aspirin if pre-eclampsia risk.
+5. **Td immunisation** as per status.
+6. **Nutrition** counselling and rest; avoid heavy work.
+7. **Danger signs** education; birth preparedness and complication readiness.
+8. **Institutional delivery** in a facility with **comprehensive emergency obstetric care** (CS, blood transfusion); active management of third stage to prevent PPH.
+9. **Family planning counselling**: postpartum contraception; permanent method (tubectomy) if family complete.
+10. Psychological support.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.412
+**Laboratory investigations at the first antenatal visit (primigravida, ~12 weeks)**
+
+| Investigation | Reason |
+|---|---|
+| **Haemoglobin** (CBC) | Detect **anaemia** (Hb <11 g/dl); start treatment |
+| **Blood group and Rh typing** | Identify **Rh-negative** mothers (anti-D prophylaxis); blood for emergencies |
+| **Urine routine** (protein, sugar, pus cells) | Baseline protein (pre-eclampsia later); glycosuria; **asymptomatic bacteriuria** / UTI |
+| **Blood glucose** (fasting / random; OGTT if risk) | Detect pre-existing **diabetes** |
+| **VDRL / RPR** | **Syphilis** → treat to prevent congenital syphilis |
+| **HBsAg** | **Hepatitis B** → birth-dose vaccine + HBIG for baby |
+| **HIV** (with counselling) | **PMTCT**: ART for mother, prophylaxis for baby |
+| **Ultrasound** | Confirm pregnancy, viability, **dating** (EDD), multiple pregnancy, early anomalies |
+| Optional / as indicated | TSH (thyroid), rubella IgG, haemoglobin electrophoresis (thalassaemia carrier), stool for ova, hepatitis C |
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.413
+**Why mother and child are one unit**
+
+1. **During pregnancy** the fetus is part of the mother; it depends entirely on her for nutrition, oxygen and protection.
+2. **Maternal health decides fetal outcome**: maternal malnutrition and anaemia → **low birth weight**; infections (syphilis, rubella, HIV, hepatitis B) → congenital or perinatal infection; drugs, smoking, alcohol → fetal harm.
+3. **At delivery**, complications of the mother (obstructed labour, eclampsia, haemorrhage) directly cause birth asphyxia and stillbirth.
+4. **After birth**, the child depends on the mother for **breastfeeding**, warmth, care, stimulation and immunisation.
+5. **Maternal death** greatly raises the risk of death of her baby and older children.
+6. **Maternal antibodies** (IgG through placenta, IgA in breast milk) protect the infant.
+7. Mother's education, health behaviour and decisions shape child health.
+8. Both are a **vulnerable group** with linked risks; services can be delivered together (ANC, delivery care, PNC, EPI, nutrition) → **integrated MCH** is efficient.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.414
+**Risk approach**
+
+A **managerial tool** for improving MCH care: identify individuals or groups at **higher risk** of an unfavourable outcome (using risk factors), and give them **more and special care in proportion to their need**, while still providing **basic care for all**: "**something for all, but more for those in greater need**" (WHO).
+
+**Steps**
+
+Identify risk factors → score / classify mothers and children (high vs low risk) → special attention, monitoring and referral for high-risk → basic care for all → evaluate outcomes
+
+**Examples**
+
+| Group | Risk factors | Action |
+|---|---|---|
+| Pregnant women | Age <18 or >35, short stature, anaemia, previous CS, pre-eclampsia, twins | More ANC, referral, facility delivery |
+| Newborns | LBW, prematurity, asphyxia | KMC, special care newborn unit |
+| Children | Severe malnutrition, failure to gain weight | Nutritional rehabilitation |
+
+**Advantages**
+
+Efficient use of limited resources; early detection and prevention of complications; better referral; reduces mortality.
+
+**Limitations**
+
+Many complications occur in "low-risk" women → all deliveries need skilled care and access to emergency services.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.415
+**Intranatal period**
+
+The period from the **onset of true labour** to the **complete expulsion of the placenta and membranes** (end of the third stage), often extended to include the first hour after delivery (fourth stage).
+
+**Stages of labour**
+
+| Stage | From → to |
+|---|---|
+| First | Onset of true labour → full dilatation of cervix |
+| Second | Full dilatation → birth of baby |
+| Third | Birth of baby → delivery of placenta and membranes |
+| (Fourth) | First hour after placental delivery: observation for PPH |
+
+**Aims of intranatal care (Park)**
+
+1. Thorough **asepsis** (clean delivery).
+2. **Minimum injury** to mother and baby.
+3. **Readiness to deal with complications** (emergency obstetric care, referral).
+4. **Care of the baby** at delivery: resuscitation, warmth, cord care, early breastfeeding.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.416
+**Complications / danger signals during the intranatal period**
+
+**A. Maternal**
+
+1. **Prolonged labour** (>12 hours) and **obstructed labour**.
+2. **Malpresentations** (breech, transverse lie, face, brow).
+3. **Haemorrhage**: antepartum haemorrhage; **postpartum haemorrhage**; retained placenta (>30 minutes).
+4. **Eclampsia** (convulsions).
+5. **Rupture of uterus**; inversion of uterus.
+6. **Cord prolapse** or prolapse of a hand.
+7. Premature or prolonged rupture of membranes → **infection** (chorioamnionitis).
+8. Perineal tears; shock.
+
+**B. Fetal**
+
+1. **Fetal distress**: FHR <110 or >160/min, irregular; **meconium-stained** liquor.
+2. **Birth asphyxia**.
+3. **Birth injuries**.
+4. Preterm birth.
+
+**Danger signals (Park): call for help or refer**
+
+- No progress despite good pains for an hour after rupture of membranes.
+- Weak or absent pains after rupture of membranes.
+- Prolapse of cord or limb.
+- Excessive bleeding.
+- Abnormal fetal heart rate or meconium-stained liquor.
+- Convulsions, high fever, shock.
+
+**Prevention**
+
+Skilled birth attendant; partograph; clean delivery; active management of third stage (oxytocin); timely referral to EmOC.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.417
+**At-risk (high-risk) babies (Park)**
+
+1. **Birth weight less than 2.5 kg** (low birth weight).
+2. **Twins** (multiple births).
+3. **Birth order 5 or more**.
+4. **Artificial feeding** (not breastfed).
+5. **Weight below 70% of expected** (below −2 SD).
+6. **Failure to gain weight** during three successive months.
+7. **Children with PEM or diarrhoea**.
+8. **Working mother / one-parent family**.
+
+**Other high-risk newborns**
+
+Preterm babies; birth asphyxia; congenital anomalies; neonatal infections; jaundice; babies of diabetic, HIV-positive or HBsAg-positive mothers; babies whose mother died.
+
+**Three criteria (short answer)**
+
+Birth weight <2.5 kg; twins; failure to gain weight for three successive months (or artificial feeding).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.418
+**Rh incompatibility**
+
+Occurs when an **Rh-negative mother** carries an **Rh-positive fetus** (father Rh-positive).
+
+**Mechanism**
+
+Fetal Rh-positive RBCs enter maternal blood (at delivery, abortion, ectopic pregnancy, APH, amniocentesis, trauma) → mother **sensitised** → forms **anti-D (IgG)** antibodies → in a **later** Rh-positive pregnancy antibodies cross the placenta → destroy fetal RBCs → **haemolytic disease of the fetus and newborn (HDFN)**.
+
+**Effects on baby**
+
+Anaemia; **jaundice** (early, severe) → **kernicterus**; hepatosplenomegaly; **hydrops fetalis**; stillbirth.
+
+The **first pregnancy** is usually unaffected (sensitisation occurs at its delivery).
+
+**Prevention**
+
+1. **Blood group and Rh typing** at first ANC visit.
+2. **Indirect Coombs test** in Rh-negative mothers.
+3. **Anti-D immunoglobulin** to unsensitised Rh-negative mothers:
+   - Within **72 hours** after delivery of an Rh-positive baby.
+   - After abortion, ectopic pregnancy, APH, invasive procedures.
+   - Routine antenatal prophylaxis at about 28 weeks (where available).
+
+**Management of affected pregnancy**
+
+Monitor antibody titres and fetal anaemia (Doppler); intrauterine transfusion; timely delivery; newborn phototherapy, exchange transfusion.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.419
+**Complications of the postnatal period (mother)**
+
+| Complication | Features |
+|---|---|
+| **Postpartum haemorrhage** | Primary (within 24 hours: atonic uterus, tears, retained placenta); secondary (24 hours–6 weeks: retained products, infection) |
+| **Puerperal sepsis** | Fever, foul lochia, lower abdominal pain after delivery; can cause septic shock |
+| **Breast problems** | Engorgement, cracked nipples, **mastitis**, breast abscess |
+| **Urinary problems** | Retention, UTI; **obstetric fistula** after prolonged obstructed labour |
+| **Thrombophlebitis / deep vein thrombosis**, pulmonary embolism | Leg pain and swelling; breathlessness |
+| **Postpartum eclampsia / hypertension** | Convulsions, headache |
+| **Sub-involution** of uterus | Persistent lochia, large uterus |
+| **Perineal wound** infection or breakdown | Pain, discharge |
+| **Anaemia** | Weakness, breathlessness |
+| **Mental health problems** | Postpartum blues, **postpartum depression**, puerperal psychosis |
+| Others | Backache, constipation, haemorrhoids, uterine prolapse later |
+
+**Newborn problems in the same period**
+
+Hypothermia, sepsis, jaundice, feeding problems, cord infection.
+
+**Prevention**
+
+Postnatal check-ups (within 24 hours, day 3, days 7–14, 6 weeks), danger-sign education, iron supplements, breastfeeding support, family planning counselling.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.420
+**Common child health problems in Bangladesh**
+
+| Age group | Problems |
+|---|---|
+| **Newborn** | **Prematurity and LBW**, **birth asphyxia**, **neonatal sepsis**, hypothermia, neonatal jaundice, congenital anomalies (neonatal deaths form a large share of under-5 deaths) |
+| **Infancy and childhood** | **Pneumonia / ARI**, **diarrhoea**, **malnutrition** (stunting 23.6% in 2022, wasting, underweight), **anaemia**, micronutrient deficiencies |
+| **Infections** | Measles and other vaccine-preventable diseases (outbreak in 2026), dengue, typhoid, TB, worm infestations, skin infections (scabies) |
+| **Injuries** | **Drowning** (leading cause of death in children aged 1–4), road traffic injuries, burns, falls, poisoning |
+| **Developmental** | Cerebral palsy, autism, intellectual disability, hearing and vision problems |
+| **Others** | Childhood cancers, rheumatic heart disease, thalassaemia, child abuse and neglect, child labour |
+| **Adolescents** | Child marriage, adolescent pregnancy, anaemia, mental health problems, substance use |
+
+**Underlying causes**
+
+Poverty, poor maternal nutrition and education, unsafe water and sanitation, home deliveries, incomplete immunisation, poor feeding practices.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); Our World in Data, https://ourworldindata.org/profile/health/bangladesh
+
+## DU.421
+**Postnatal period (puerperium)**
+
+The period from the **delivery of the placenta** to **6 weeks (42 days)** after delivery, during which the reproductive organs return to their non-pregnant state.
+
+**Phases**
+
+| Phase | Time | Importance |
+|---|---|---|
+| Immediate | First 24 hours | Highest risk: PPH, eclampsia; most maternal and neonatal deaths |
+| Early | Days 2–7 | Infection, breastfeeding problems, neonatal jaundice |
+| Late | Weeks 2–6 | Recovery, family planning, postpartum depression |
+
+**Objectives of postnatal care (Park)**
+
+1. Prevent complications of the postnatal period.
+2. Restore the mother to optimum health.
+3. Check adequacy of breastfeeding.
+4. Provide family planning services.
+5. Provide basic health education to mother and family.
+
+**Recommended contacts (WHO)**: within 24 hours, day 3, days 7–14, and 6 weeks.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.422
+**Growth chart (Road to Health chart)**
+
+A visual record of a child's **weight (and height) plotted against age**, used to monitor growth over time.
+
+**Uses (Park)**
+
+1. **Growth monitoring**: early detection of growth faltering and malnutrition, before clinical signs.
+2. **Tool for action**: guides feeding advice, treatment, referral.
+3. **Educational tool** for mothers: shows how the child is growing.
+4. **Evaluation** of nutrition and health programmes.
+5. **Planning and policy** (community nutrition status).
+6. **Teaching aid** for health workers.
+7. **Record** of immunisation, vitamin A, illnesses, birth weight.
+
+**WHO growth standards (2006)**
+
+Based on healthy breastfed children from six countries; show how children **should** grow.
+
+| Indicator | Detects |
+|---|---|
+| Weight-for-age | Underweight |
+| Length/height-for-age | **Stunting** (chronic malnutrition) |
+| Weight-for-length/height | **Wasting** (acute malnutrition), overweight |
+| BMI-for-age | Thinness, overweight, obesity |
+
+**Interpretation (z-scores)**
+
+| Position | Meaning |
+|---|---|
+| Above −2 SD (and below +2 SD) | Normal |
+| Between −2 and −3 SD | Moderate malnutrition |
+| Below −3 SD | Severe malnutrition |
+| Above +2 SD (weight-for-height) | Overweight |
+
+**Direction of the growth curve** (more important than one point)
+
+| Curve | Meaning |
+|---|---|
+| Rising parallel to reference lines | Good growth |
+| Flat | **Danger**: growth faltering |
+| Falling | **Very dangerous**: needs urgent action |
+
+**Conditions that affect growth and learning**
+
+Malnutrition (stunting), iron-deficiency anaemia, iodine deficiency, LBW and prematurity, repeated infections and worms, chronic illness, lead exposure, lack of stimulation and care.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics; Nutrition and Health).
+
+## DU.423
+**Determinants of growth and development**
+
+| Group | Factors |
+|---|---|
+| **1. Genetic** | Parents' height and build; sex; ethnicity; genetic and chromosomal disorders |
+| **2. Prenatal** | Maternal nutrition and anaemia, age, infections (TORCH, malaria), drugs, smoking, hypertension → LBW, IUGR, prematurity |
+| **3. Nutrition** | Exclusive breastfeeding; timely, adequate complementary feeding; micronutrients (iron, iodine, zinc, vitamin A) |
+| **4. Infections** | Diarrhoea, pneumonia, measles, worms, TB → growth faltering; vicious cycle with malnutrition |
+| **5. Socio-economic** | Family income, parental (especially maternal) education, family size, birth spacing, birth order |
+| **6. Environment** | Safe water, sanitation and hygiene; housing; pollution (lead) |
+| **7. Hormonal** | Growth hormone, thyroid, sex hormones, insulin |
+| **8. Psychosocial** | Love, play, **responsive caregiving**, early learning, emotional security; neglect and violence harm development |
+| **9. Health care** | Immunisation, growth monitoring, early treatment |
+| **10. Physical activity and sleep** | Normal muscle and bone growth |
+| **11. Chronic disease** | Heart, kidney disease, thalassaemia |
+
+**WHO Nurturing Care Framework (2018): five components**
+
+Good health → adequate nutrition → responsive caregiving → opportunities for early learning → security and safety
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics); WHO, Nurturing care for early childhood development, 2018.
+
+## DU.424
+**Definition**
+
+**Low birth weight (LBW)**: birth weight **less than 2,500 g** (up to and including 2,499 g), regardless of gestational age, ideally measured within the first hour after birth (WHO).
+
+**Groups**
+
+| Group | Meaning |
+|---|---|
+| **Preterm** | Born before 37 completed weeks; weight appropriate for gestation |
+| **Small-for-date (SGA / IUGR)** | Term or preterm but weight below the 10th percentile for gestation (fetal growth restriction) |
+
+In Bangladesh and South Asia most LBW babies are **small-for-date**.
+
+**Causes / risk factors**
+
+| Group | Factors |
+|---|---|
+| **Maternal** | Young age (<18), short stature, **malnutrition** and low pre-pregnancy weight, poor weight gain, **anaemia**, heavy physical work, short birth interval, high parity, tobacco (smoking, smokeless), alcohol |
+| **Medical / obstetric** | **Hypertension / pre-eclampsia**, APH, multiple pregnancy, infections (malaria, UTI, syphilis, HIV), chronic diseases (heart, kidney) |
+| **Fetal** | Congenital anomalies, chromosomal disorders, intrauterine infections |
+| **Placental** | Placental insufficiency, abnormal placentation |
+| **Socio-economic** | Poverty, low education, poor ANC, indoor air pollution |
+
+**Consequences**
+
+Higher neonatal mortality; hypothermia, hypoglycaemia, infections, respiratory distress, jaundice, feeding problems; later stunting, developmental delay, poor school performance; adult NCDs (Barker hypothesis).
+
+**Prevention**
+
+Maternal nutrition (food supplementation, IFA, calcium), delay first pregnancy, birth spacing, treat infections and anaemia, stop tobacco, rest, ANC with BP monitoring, education of women.
+
+**Management**
+
+Thermal care and **Kangaroo Mother Care**; early and exclusive breastfeeding (expressed milk, cup feeding); infection prevention; vitamin K; antenatal corticosteroids for preterm labour; special care newborn units (SCANU); growth and developmental follow-up.
+
+**Three risk factors (short answer)**
+
+Maternal malnutrition/anaemia; adolescent pregnancy; pre-eclampsia (or multiple pregnancy, smoking).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics).
+
+## DU.425
+**Milk injury**
+
+Harm to an infant caused by **replacing breast milk with cow's milk or other artificial milk** too early (in the first months of life), or by improper artificial feeding.
+
+**Harmful effects**
+
+1. **Cow's milk protein** → allergy and intolerance; **occult intestinal blood loss** → **iron-deficiency anaemia** ("milk anaemia").
+2. **High solute load** (protein, sodium) → strain on immature kidneys; **hypernatraemic dehydration**.
+3. **Infection**: contaminated bottles and teats → **diarrhoea**, gastroenteritis.
+4. **Malnutrition**: over-dilution → **marasmus**; wrong mixing → under- or over-feeding.
+5. **Lack of protective factors** of breast milk (IgA, lactoferrin, lysozyme) → more ARI, otitis media, NEC.
+6. Poor iron and vitamin bioavailability; low essential fatty acids for brain development.
+7. Later **obesity**, allergies, diabetes risk.
+8. Loss of mother–infant bonding; earlier return of fertility in mother.
+
+**Prevention**
+
+**Exclusive breastfeeding** for 6 months; continued breastfeeding to 2 years or more with complementary foods; avoid bottle feeding; enforce the breast-milk substitutes marketing law; counsel mothers.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Preventive Medicine in Obstetrics, Paediatrics and Geriatrics; Nutrition and Health).
