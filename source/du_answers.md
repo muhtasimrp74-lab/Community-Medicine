@@ -4302,3 +4302,574 @@ Problem → Literature review → Objectives / hypothesis → Design → Samplin
 12. Reasonable **length** (avoids respondent fatigue).
 
 **Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.142
+**Definitions**
+
+| Term | Definition | Example (study of hypertension among adults in Mymensingh) |
+|---|---|---|
+| **Population (target / reference population)** | The whole group of individuals (or units) about whom information is required and to whom results will apply | All adults (≥18 years) of Mymensingh |
+| **Study population (accessible population)** | The part of the target population that is actually available and from which the sample is drawn | Adults of selected wards listed in the sampling frame |
+| **Sample** | A part (subset) of the population selected for study, which should represent the population | 400 adults selected by random sampling |
+| **Sampling** | The process of selecting a sample from the population | Simple random, systematic, cluster sampling |
+
+**Related terms**
+
+- **Sampling unit**: element selected (person, household, village).
+- **Sampling frame**: list of all sampling units (voter list, household list).
+- **Sample size**: number of units in the sample (e.g., n = z²pq ÷ d²).
+- **Sampling error**: difference between sample estimate and true population value due to chance.
+
+**Why sampling**
+
+Saves time, money and manpower; allows better accuracy and supervision; needed when the population is large or testing is destructive.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.143
+**Classification of sampling**
+
+**A. Probability (random) sampling**: every unit has a known, non-zero chance of selection → representative; results can be generalised.
+
+| Method | Procedure | Example |
+|---|---|---|
+| **Simple random** | Each unit has an equal chance; lottery or random number table/computer | 50 students chosen by lottery from a list of 500 |
+| **Systematic** | Every kᵗʰ unit after a random start (k = N ÷ n) | Every 10th household in a village |
+| **Stratified** | Population divided into homogeneous strata (age, sex, urban/rural); random sample from each | Sampling urban and rural mothers separately |
+| **Cluster** | Groups (villages, schools) randomly selected; all units in chosen clusters studied | EPI 30-cluster coverage survey |
+| **Multistage** | Sampling in stages (district → upazila → union → household) | BDHS |
+| Multiphase | Some information from whole sample, more from a sub-sample | Screening all, detailed tests in positives |
+
+**B. Non-probability sampling**: selection not by chance; may not represent the population.
+
+| Method | Procedure | Example |
+|---|---|---|
+| Convenience | Whoever is easily available | OPD patients on study days |
+| Purposive (judgement) | Chosen by researcher for a purpose | Key informants for FGD |
+| Quota | Fixed numbers from each category, chosen conveniently | 50 men and 50 women |
+| Snowball | Subjects refer others | Injecting drug users |
+| Consecutive | All eligible patients in a period | All MI cases admitted in 3 months |
+
+**Simple random sampling (example)**
+
+To select 50 out of 500 school children: number them 1–500 → draw 50 numbers by lottery or random number table → each child has an equal (1 in 10) chance.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.144
+**Types of probability sampling**
+
+| Type | Description | Example |
+|---|---|---|
+| 1. **Simple random sampling** | Every unit has an equal and independent chance; lottery, random number table or computer | Selecting 100 patients from a list of 1,000 registered diabetics |
+| 2. **Systematic random sampling** | First unit random, then every kᵗʰ unit (sampling interval k = N ÷ n) | N = 2,000 households, n = 200 → every 10th household after a random start |
+| 3. **Stratified random sampling** | Population divided into strata by a characteristic; random sample from each (proportionate or not) | Selecting students separately from each year of MBBS |
+| 4. **Cluster sampling** | Naturally occurring groups (clusters) randomly selected; all members studied | 30 villages selected; all under-5 children examined |
+| 5. **Multistage sampling** | Random selection in successive stages | Division → district → upazila → union → household |
+| 6. **Multiphase sampling** | All sampled units give basic data; a sub-sample gives detailed data | All children screened for anaemia; detailed tests in a sub-sample |
+
+**Merits of probability sampling**
+
+Representative; free from selection bias; sampling error can be measured; results can be generalised.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.145
+**Sample vs population**
+
+| Point | Population | Sample |
+|---|---|---|
+| 1. Meaning | Whole group of units about which information is required | Part (subset) of the population selected for study |
+| 2. Size | Large (N) | Smaller (n) |
+| 3. Measures | **Parameters** (μ, σ, P), fixed but usually unknown | **Statistics** (x̄, s, p), vary from sample to sample; estimate parameters |
+| 4. Study method | Census (complete enumeration) | Sampling survey |
+| 5. Cost and time | High | Low |
+| 6. Error | No sampling error (may have non-sampling errors) | Sampling error present |
+| 7. Accuracy of collection | Hard to supervise large numbers | Better supervision, more detailed data |
+| 8. Example | All adults of Bangladesh | 2,000 adults in a national survey |
+
+**Three important differences (short answer)**
+
+1. Population is the whole; sample is a part.
+2. Population values are **parameters**; sample values are **statistics**.
+3. Sample has **sampling error**; studying a sample is cheaper and quicker.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.146
+**a) Study design and why**
+
+**Descriptive cross-sectional study**.
+Why:
+1. Aim is **prevalence** (existing cases at one point in time).
+2. Exposure and outcome measured **once**, at the same time; no follow-up needed.
+3. Quick, cheap, feasible in a community.
+4. Gives baseline data for planning services for the elderly.
+
+**b) Sample and sampling technique**
+
+- **Sample**: a representative number of senior citizens (aged ≥60 years) living in old Dhaka, selected from the population, who meet inclusion criteria (permanent residents, consent) and exclusion criteria (seriously ill, unable to respond).
+- **Sample size**: n = z²pq ÷ d² (z = 1.96; p = expected prevalence of hypertension; q = 1 − p; d = allowable error).
+- **Sampling technique**: **multistage (cluster) random sampling**:
+  Old Dhaka wards → random selection of wards (clusters) → random selection of mohallas → systematic random selection of households → all eligible elderly persons in selected households.
+  (If a complete list of the elderly is available: simple or systematic random sampling.)
+
+**c) Population**
+
+- **Target population**: all senior citizens (≥60 years) residing in old Dhaka.
+- **Study population**: senior citizens of the selected wards who are available during the study period.
+
+**Outcome measurement**
+
+BP measured with a standard sphygmomanometer (two readings); hypertension = SBP ≥140 and/or DBP ≥90 mmHg or on treatment.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Health Information and Basic Medical Statistics).
+
+## DU.147
+**Measures of central tendency (statistical averages)**
+
+A single value that represents the centre of a set of data.
+
+| Measure | Definition | Formula / method | Example (2, 3, 3, 5, 7) |
+|---|---|---|---|
+| **Arithmetic mean** | Sum of observations ÷ number | x̄ = Σx ÷ n; grouped: Σfx ÷ Σf | 20 ÷ 5 = 4 |
+| **Median** | Middle value when data are arranged in order | Odd n: (n + 1)/2 th value; even n: average of two middle values | 3 |
+| **Mode** | Most frequently occurring value | Value with highest frequency | 3 |
+| Geometric mean | nth root of product of n values | antilog (Σ log x ÷ n) | Antibody titres, bacterial counts |
+| Harmonic mean | Reciprocal of mean of reciprocals | n ÷ Σ(1/x) | Rates, speeds |
+
+**Merits and demerits**
+
+| Measure | Merits | Demerits | Best used for |
+|---|---|---|---|
+| Mean | Uses all values; basis for further statistics | Affected by extreme values | Symmetrical data (Hb, height) |
+| Median | Not affected by extremes; easy | Ignores actual values; less used in tests | Skewed data (income, survival time) |
+| Mode | Easy; usable for qualitative data | May be absent or multiple; unstable | Most common category (commonest blood group) |
+
+**Relationship**
+
+Symmetrical distribution: mean = median = mode. Skewed: Mode ≈ 3 Median − 2 Mean.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.148
+**Data**: 1, 2, 3, 3, 3, 4, 5 (n = 7; already in ascending order)
+
+**Mean**
+
+Σx = 1 + 2 + 3 + 3 + 3 + 4 + 5 = 21
+x̄ = 21 ÷ 7 = **3**
+
+**Median**
+
+n = 7 (odd) → median = (n + 1)/2 = 4th value
+1, 2, 3, **3**, 3, 4, 5 → Median = **3**
+
+**Mode**
+
+3 occurs 3 times (most frequent) → Mode = **3**
+
+**Interpretation**
+
+Mean = median = mode = 3 → the distribution is **symmetrical**.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.149
+**Data**: 4, 7, 5, 8, 6, 9, 7, 10, 8 (n = 9)
+
+**Mean**
+
+Σx = 4 + 7 + 5 + 8 + 6 + 9 + 7 + 10 + 8 = 64
+x̄ = 64 ÷ 9 = **7.11**
+
+**Median**
+
+Ascending order: 4, 5, 6, 7, **7**, 8, 8, 9, 10
+n = 9 (odd) → (n + 1)/2 = 5th value → Median = **7**
+
+**(Mode)**: 7 and 8 each occur twice → bimodal (7, 8).
+
+**Interpretation**
+
+Mean (7.11) and median (7) are almost equal → nearly symmetrical distribution.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.150
+**Formula (grouped data)**
+
+Mean x̄ = Σfx ÷ Σf, where x = mid-point of class interval
+
+**Calculation**
+
+| Age (years) | Mid-point (x) | Frequency (f) | fx |
+|---|---|---|---|
+| 5–9 | 7 | 6 | 42 |
+| 10–14 | 12 | 8 | 96 |
+| 15–19 | 17 | 9 | 153 |
+| 20–24 | 22 | 5 | 110 |
+| 25–29 | 27 | 3 | 81 |
+| 30–34 | 32 | 2 | 64 |
+| **Total** | | **Σf = 33** | **Σfx = 546** |
+
+Mid-point = (lower limit + upper limit) ÷ 2, e.g., (5 + 9) ÷ 2 = 7
+
+x̄ = 546 ÷ 33 = **16.55 years**
+
+**Interpretation**
+
+The mean age of the 33 persons is about 16.5 years; the modal class is 15–19 years (highest frequency, 9).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.151
+**Data (Hb of 8 pregnant mothers)**: 8, 8.5, 9.5, 10, 10.5, 11, 13, 12
+(Unit should be **g/dl**, not mg/dl.)
+
+**Median**
+
+Ascending order: 8, 8.5, 9.5, **10, 10.5**, 11, 12, 13
+n = 8 (even) → average of 4th and 5th values
+Median = (10 + 10.5) ÷ 2 = **10.25 g/dl**
+
+**Interpretation**
+
+Half the mothers have Hb below 10.25 g/dl; since anaemia in pregnancy is Hb <11 g/dl (WHO), 5 of 8 mothers (62.5%) are anaemic.
+
+**Graphical presentation (simple bar diagram of each mother's Hb)**
+
+```
+Hb (g/dl)
+13 |                               ██
+12 |                          ██   ██
+11 |                     ██   ██   ██
+10 |           ██   ██   ██   ██   ██
+ 9 |      ██   ██   ██   ██   ██   ██
+ 8 | ██   ██   ██   ██   ██   ██   ██   ██
+   +---------------------------------------
+     M1   M2   M3   M4   M5   M6   M7   M8
+ (M1 = 8, M2 = 8.5, M3 = 9.5, M4 = 10, M5 = 10.5, M6 = 11, M7 = 12, M8 = 13; arranged in ascending order)
+```
+
+Alternatively: dot plot along an Hb scale, with a line at 11 g/dl marking the anaemia cut-off.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics); WHO, haemoglobin cut-offs for anaemia.
+
+## DU.152
+**Data**: 52, 65, 52, 60, 45 (n = 5)
+
+**Mean**
+
+Σx = 52 + 65 + 52 + 60 + 45 = 274
+x̄ = 274 ÷ 5 = **54.8**
+
+**Median**
+
+Ascending order: 45, 52, **52**, 60, 65
+n = 5 (odd) → (n + 1)/2 = 3rd value → Median = **52**
+
+**Mode**
+
+52 occurs twice → Mode = **52**
+
+**Interpretation**
+
+Mean (54.8) > median (52) = mode (52) → slight positive skew (pulled up by 65).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.153
+**a) Flowchart: cohort study to find outcomes of tobacco consumption**
+
+Defined population free of the outcomes (e.g., adults without cancer or CHD)
+→ Classify by exposure:
+  **Exposed**: tobacco users | **Non-exposed**: non-users
+→ Follow up both groups over time (e.g., 10 years)
+→ Record outcomes: lung / oral cancer, CHD, stroke, COPD (develop / do not develop)
+→ Calculate incidence in exposed and non-exposed
+→ Relative risk = incidence in exposed ÷ incidence in non-exposed; attributable risk = difference
+
+| | Outcome + | Outcome − | Total |
+|---|---|---|---|
+| Tobacco users | a | b | a + b |
+| Non-users | c | d | c + d |
+
+RR = [a/(a + b)] ÷ [c/(c + d)]
+
+**b) Standard deviation of age**
+
+Data: 83, 75, 81, 79, 71, 95, 75, 77, 84, 90 (n = 10)
+Mean = 810 ÷ 10 = **81 years**
+
+| x | x − x̄ | (x − x̄)² |
+|---|---|---|
+| 83 | 2 | 4 |
+| 75 | −6 | 36 |
+| 81 | 0 | 0 |
+| 79 | −2 | 4 |
+| 71 | −10 | 100 |
+| 95 | 14 | 196 |
+| 75 | −6 | 36 |
+| 77 | −4 | 16 |
+| 84 | 3 | 9 |
+| 90 | 9 | 81 |
+| | | **Σ = 482** |
+
+SD = √[Σ(x − x̄)² ÷ (n − 1)] = √(482 ÷ 9) = √53.56 = **7.32 years**
+(Small sample, n <30, so n − 1 is used; with n as divisor, SD = √48.2 = 6.94 years.)
+
+**Interpretation**: ages vary on average by about 7.3 years around the mean of 81 years.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Principles of Epidemiology; Health Information and Basic Medical Statistics).
+
+## DU.154
+**Data**: 62, 75, 62, 70, 55, 52, 56, 68, 46, 63, 50 (n = 11)
+
+**Mean**
+
+Σx = 62 + 75 + 62 + 70 + 55 + 52 + 56 + 68 + 46 + 63 + 50 = 659
+x̄ = 659 ÷ 11 = **59.91**
+
+**Median**
+
+Ascending order: 46, 50, 52, 55, 56, **62**, 62, 63, 68, 70, 75
+n = 11 (odd) → (n + 1)/2 = 6th value → Median = **62**
+
+**Mode**
+
+62 occurs twice → Mode = **62**
+
+**Interpretation**
+
+Mean (59.9) < median (62) = mode (62) → slight negative (left) skew, pulled down by low values (46, 50).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.155
+**Simple random sample (SRS)**
+
+A sample in which **every unit of the population has an equal and independent chance** of being selected; drawn by lottery, random number table or computer from a complete sampling frame.
+Example: selecting 50 children by lottery from a school list of 500.
+
+**Calculation**
+
+Data: 52, 65, 52, 60, 45, 42, 46, 58, 36, 52, 40 (n = 11)
+
+**Mean**
+
+Σx = 52 + 65 + 52 + 60 + 45 + 42 + 46 + 58 + 36 + 52 + 40 = 548
+x̄ = 548 ÷ 11 = **49.82**
+
+**Median**
+
+Ascending order: 36, 40, 42, 45, 46, **52**, 52, 52, 58, 60, 65
+n = 11 (odd) → 6th value → Median = **52**
+
+**Mode**
+
+52 occurs 3 times → Mode = **52**
+
+**Interpretation**
+
+Mean (49.8) < median = mode (52) → slight negative skew.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.156
+**Measures of dispersion (variation)**
+
+Show how widely observations are scattered around the central value.
+
+| Measure | Definition / formula | Example (2, 4, 6, 8, 10; mean 6) |
+|---|---|---|
+| 1. **Range** | Highest − lowest value | 10 − 2 = 8 |
+| 2. **Interquartile range** | Q3 − Q1 (middle 50% of data) | Used with median in skewed data |
+| 3. **Mean deviation** | Σ\|x − x̄\| ÷ n | (4 + 2 + 0 + 2 + 4) ÷ 5 = 2.4 |
+| 4. **Standard deviation (SD)** | √[Σ(x − x̄)² ÷ (n − 1)] | √(40 ÷ 4) = 3.16 |
+| 5. **Variance** | SD² | 10 |
+| 6. **Coefficient of variation (CV)** | (SD ÷ mean) × 100 | (3.16 ÷ 6) × 100 = 52.7% |
+
+**Notes**
+
+- **SD** is the most widely used and most reliable measure.
+- **CV** compares variability of different variables or units (e.g., height vs weight).
+- **Range** is simplest but depends only on extreme values.
+
+**Uses**
+
+Judge reliability of mean; compare variability between groups; define normal limits (mean ± 2 SD); needed for sample size and tests of significance.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.157
+**Data (DBP, mmHg)**: 83, 75, 81, 79, 71, 90, 75, 95, 77, 94
+
+**Range**
+
+Range = highest value − lowest value
+Highest = 95 mmHg; lowest = 71 mmHg
+Range = 95 − 71 = **24 mmHg** (71 to 95 mmHg)
+
+**Interpretation**
+
+Diastolic pressures of the 10 people spread over 24 mmHg.
+
+**Note**
+
+Range is the simplest measure of dispersion but uses only two extreme values; SD is more reliable.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.158
+**Proportion**
+
+Proportion = (number with the characteristic ÷ total in the group from which they come) × 100
+
+**Calculation**
+
+Children with PEM = 50; total children = 500
+
+Proportion of PEM among children = (50 ÷ 500) × 100 = **10%**
+
+**Note**
+
+- The denominator must be **children** (the population at risk), not the total slum population (2,000), because the question asks about PEM among children.
+- 2,000 would give PEM per total population = (50 ÷ 2,000) × 100 = 2.5%, which is not the asked measure.
+
+**Interpretation**
+
+One in every ten children in the slum has protein-energy malnutrition; this is the **prevalence** of PEM among children.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.159
+**Data (age, years)**: 52, 42, 65, 52, 60, 45, 38, 40 (n = 8)
+
+**Median**
+
+Ascending order: 38, 40, 42, **45, 52**, 52, 60, 65
+n = 8 (even) → average of 4th and 5th values
+Median = (45 + 52) ÷ 2 = **48.5 years**
+
+**Graphical presentation (simple bar diagram, persons arranged by age)**
+
+```
+Age (years)
+70 |
+60 |                               ██   ██
+50 |                     ██   ██   ██   ██
+40 |      ██   ██   ██   ██   ██   ██   ██
+30 | ██   ██   ██   ██   ██   ██   ██   ██
+   +---------------------------------------
+     P1   P2   P3   P4   P5   P6   P7   P8
+   (38) (40) (42) (45) (52) (52) (60) (65)
+```
+
+The median (48.5 years) lies between the 4th and 5th bars.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.160
+**Data (MUAC, cm; n = 22)**: 20, 19, 22, 16, 18, 17, 14, 20, 12, 18, 16, 17, 21, 24, 22, 20, 18, 19, 20, 18, 17, 20
+
+**Frequency table**
+
+| MUAC (x) | 12 | 14 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 24 | Total |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| f | 1 | 1 | 2 | 3 | 4 | 2 | **5** | 1 | 2 | 1 | 22 |
+| fx | 12 | 14 | 32 | 51 | 72 | 38 | 100 | 21 | 44 | 24 | **408** |
+
+**Mean**
+
+x̄ = Σfx ÷ n = 408 ÷ 22 = **18.55 cm**
+
+**Median**
+
+Ascending order: 12, 14, 16, 16, 17, 17, 17, 18, 18, 18, **18, 19**, 19, 20, 20, 20, 20, 20, 21, 22, 22, 24
+n = 22 (even) → average of 11th and 12th values = (18 + 19) ÷ 2 = **18.5 cm**
+
+**Mode**
+
+20 occurs 5 times → Mode = **20 cm**
+
+**Interpretation**
+
+Mean 18.55, median 18.5, mode 20 cm; slight negative skew (low values 12, 14). (Note: MUAC values below 11.5 cm in children 6–59 months indicate severe acute malnutrition.)
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.161
+**Data**: 1, 2, 3, 5, 7, 9 (n = 6; already in ascending order)
+
+**Mean**
+
+Σx = 1 + 2 + 3 + 5 + 7 + 9 = 27
+x̄ = 27 ÷ 6 = **4.5**
+
+**Median**
+
+n = 6 (even) → average of 3rd and 4th values
+1, 2, **3, 5**, 7, 9 → Median = (3 + 5) ÷ 2 = **4**
+
+**Interpretation**
+
+Mean (4.5) > median (4) → slight positive skew (higher values 7 and 9).
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.162
+**Data (SBP, mmHg; 10 values as printed)**: 120, 130, 125, 140, 135, 128, 132, 130, 138, 126
+
+**Mean**
+
+Σx = 120 + 130 + 125 + 140 + 135 + 128 + 132 + 130 + 138 + 126 = 1304
+x̄ = 1304 ÷ 10 = **130.4 mmHg**
+
+**Median**
+
+Ascending order: 120, 125, 126, 128, **130, 130**, 132, 135, 138, 140
+n = 10 (even) → average of 5th and 6th values
+Median = (130 + 130) ÷ 2 = **130 mmHg**
+
+**Mode**
+
+130 occurs twice → Mode = **130 mmHg**
+
+**Interpretation**
+
+Mean (130.4) ≈ median (130) = mode (130) → nearly **symmetrical** distribution; average SBP of OPD adults is about 130 mmHg.
+
+**Note**
+
+If 11 values are given in the paper, add the extra value, recompute Σx ÷ 11, and take the 6th ordered value as the median.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
+
+## DU.163
+**a) Greater variability (2)**
+
+**Group B** (SD = 20 mmHg) has greater variability than Group A (SD = 5 mmHg), though both have the same mean (120 mmHg).
+
+**b) Interpretation of SD (3)**
+
+Assuming normal distribution:
+
+| Range | Group A (120 ± 5) | Group B (120 ± 20) |
+|---|---|---|
+| Mean ± 1 SD (~68%) | 115–125 mmHg | 100–140 mmHg |
+| Mean ± 2 SD (~95%) | 110–130 mmHg | 80–160 mmHg |
+| Mean ± 3 SD (~99.7%) | 105–135 mmHg | 60–180 mmHg |
+
+- **Group A**: SBP values lie close to the mean; members are similar (homogeneous); the mean represents the group well.
+- **Group B**: SBP values are widely scattered; some members may be hypotensive and others hypertensive (≥140 mmHg); the mean alone is misleading.
+
+**Coefficient of variation**
+
+CV(A) = (5 ÷ 120) × 100 = **4.2%**; CV(B) = (20 ÷ 120) × 100 = **16.7%**
+
+**c) More consistent (2)**
+
+**Group A** is more consistent (uniform): smaller SD and CV, less spread of values around the mean.
+
+**Ref:** Park K. Park's Textbook of Preventive and Social Medicine, 28th ed. (Health Information and Basic Medical Statistics).
