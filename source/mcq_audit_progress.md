@@ -16,6 +16,12 @@ Status
 
 ## Change log
 
+### UI — filters and annotation safety (cache v56)
+- Shared filter component (js/app.js FX) now drives Questions, every Chapter page, MCQ Reading mode and Custom practice: sticky search, Filters button with count, quick chips, removable active chips, grouped panel (Syllabus / Exam history / College papers or Question / My progress) with live counts, sort options. Filter choices are remembered per page (S.fx).
+- Chapter pages: topic chips (or subtopic chips for single-topic parts) as quick filters, plus a Practise/Read MCQs bar for the chosen topic.
+- MCQ filters: part, topic, type, source, disputed key, asked in last 2/5 years, times asked, DU paper, progress; search covers options and explanations.
+- Annotations: ink.js treats the new .rd.f/.rd.x classes as state classes (keeps old anchors), never drops a stroke whose text anchor moved (falls back to the nearest block, then the card start), and moves marks from the 72 retired MCQ ids to the item that replaced them (originals kept as old:<id> in storage and backups). M.90 (deleted, no replacement) keeps its marks in storage/backups only.
+
 ### Explanations 4 — parts 10–11 (cache v54)
 All 477 MCQs now have per-option explanations.
 - Explanations: parts 10-11 (all items) explanations added for every option; all 477 items now explained

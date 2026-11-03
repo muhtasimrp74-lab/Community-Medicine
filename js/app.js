@@ -359,67 +359,164 @@
     h += '<div class="tiles" style="margin-top:1rem"><a class="tile" href="#/questions?status=flagged"><b>' + DU.filter(function (q) { return S.flag[q.id]; }).length + ' flagged</b><span>Review flagged questions</span></a><a class="tile" href="#/questions?status=noted"><b>' + DU.filter(function (q) { return S.notes[q.id]; }).length + ' notes</b><span>Questions with your notes</span></a></div></div>';
     main.innerHTML = h;
   }
-  /* ------------------------------------------------------------ questions */
-  function questions(r) {
-    if (!QF || Object.keys(r.qs).length) QF = fromQs(r.qs);
-    var h = hero({ crumb: '<a href="#/">Home</a> › Questions', icon: 'list', title: 'Questions', desc: 'Tap a question to read its answer right here, or tap Answer to open it on its own page.',
-      btns: '<div class="btnrow"><button class="bigbtn fill" id="rnd">Random question</button><a class="bigbtn" href="#/chapters">Chapters</a></div>', pills: [DU.length + ' questions', 'DU Written years', 'College papers'] });
-    h += '<div class="wrap" id="qpage"><div class="bar2"><input type="search" id="qtxt" placeholder="Search words, &quot;exact phrase&quot;, -exclude" aria-label="Search"><button class="sbtn" id="ftog" aria-expanded="false">Filters <span id="fbadge"></span></button></div>' +
-      '<div class="panel fpanel" id="fpanel" hidden></div><div class="chips" id="quick"></div><div id="active" class="chips"></div>' + progLine(nRead(), DU.length, 'read') +
-      recLegend() + '<div class="toolrow"><span class="count" id="qcount"></span><span class="seg sortseg" id="sortseg"><button type="button" data-sort="syl">By syllabus</button><button type="button" data-sort="new">Newest first</button></span></div><div class="toolrow" id="xrow"><span></span><span><button class="lnk" data-x="open">Expand all</button><button class="lnk" data-x="close">Collapse all</button></span></div><div id="qlist"></div></div>';
-    main.innerHTML = h;
-    var txt = $('#qtxt'); txt.value = QF.txt;
-    var open = false, tg = {};
-    function fchip(k, v, label, cnt) { var on = QF[k].indexOf(v) >= 0; return '<button type="button" class="fchip' + (on ? ' on' : '') + (cnt === 0 && !on ? ' z' : '') + '" data-fq="' + k + '" data-v="' + esc(v) + '" aria-pressed="' + on + '">' + label + (cnt == null ? '' : '<em>' + cnt + '</em>') + '</button>'; }
-    function cnt(k, v) { return DU.filter(function (q) { return qMatch(q, QF, k) && (k === 'part' ? q.part === v : k === 'topic' ? q.topic === v : k === 'sub' ? (q.sub || '~') === v : FACETS.filter(function (f) { return f[0] === k; })[0][2](q).indexOf(v) >= 0); }).length; }
-    function subCnt(t, v) { return DU.filter(function (q) { return q.topic === t && qMatch(q, QF, 'sub') && (q.sub || '~') === v; }).length; }
-    function panel() {
-      var p = '<div class="fsec"><p class="fh">Part</p><div class="chips">' + partIds.map(function (n) { return fchip('part', n, 'P' + n + ' · ' + esc(PARTS[n]), cnt('part', n)); }).join('') + '</div></div>';
-      if (QF.part.length) {
-        p += '<div class="fsec"><p class="fh">Topic</p>' + QF.part.map(function (n) { return '<p class="fsub">' + esc(PARTS[n]) + '</p><div class="chips">' + topicsOf(DU, n).map(function (t) { return fchip('topic', t, esc(t), cnt('topic', t)); }).join('') + '</div>'; }).join('') + '</div>';
-      }
-      var subTopics = []; (QF.topic.length ? QF.topic.map(function (t) { return [DU.filter(function (q) { return q.topic === t; })[0], t]; }) : QF.part.reduce(function (a, n) { return a.concat(topicsOf(DU, n).map(function (t) { return [DU.filter(function (q) { return q.part === n && q.topic === t; })[0], t]; })); }, [])).forEach(function (x) { if (x[0] && CM.subs && CM.subs[x[0].part + '|' + x[1]]) subTopics.push(x); });
-      if (subTopics.length) p += '<div class="fsec"><p class="fh">Subtopic</p>' + subTopics.map(function (x) {
-        var key = x[0].part + '|' + x[1], seq = CM.subs[key];
-        return '<p class="fsub">' + esc(x[1]) + '</p><div class="chips">' + seq.map(function (sb) { return fchip('sub', sb, esc(sb), subCnt(x[1], sb)); }).join('') + fchip('sub', '~', 'Other in this topic', subCnt(x[1], '~')) + '</div>';
-      }).join('') + '</div>';
-      var ys = FACETS.filter(function (f) { return f[0] === 'yr'; })[0][4], yo = function (cur) { return '<option value="0">Any</option>' + ys.map(function (y) { return '<option value="' + y + '"' + (cur === y ? ' selected' : '') + '>' + y + '</option>'; }).join(''); };
-      p += '<div class="fsec"><p class="fh">DU Written year range</p><div class="yrange"><label>From <select data-fr="yfrom">' + yo(QF.yfrom) + '</select></label><label>To <select data-fr="yto">' + yo(QF.yto) + '</select></label></div></div>';
-      FACETS.forEach(function (f) { p += '<div class="fsec"><p class="fh">' + f[1] + '</p><div class="chips">' + f[4].map(function (v) { return fchip(f[0], v, esc(f[3](v)), cnt(f[0], v)); }).join('') + '</div></div>'; });
-      var tot = DU.filter(function (q) { return qMatch(q, QF); }).length;
-      return p + '<div class="fsum"><b>' + tot + '</b> questions match<span><button class="lnk" data-fa="clear">Clear all</button><button class="sbtn" data-fa="close">Show results</button></span></div>';
+  /* ------------------------------------------------------------ shared filter panel (Questions, Chapter, MCQ reading, Custom practice)
+     One component: sticky search + Filters button, quick chips, removable active chips, and a grouped panel whose chips show live counts.
+     Filters only ever re-render the result list; cards keep their data-id, so handwritten notes on them are redrawn, never removed. */
+  S.fx = S.fx && typeof S.fx === 'object' ? S.fx : {};
+  function fxState(id) { var s = S.fx[id]; if (!s || typeof s !== 'object' || !s.f) s = S.fx[id] = { txt: '', f: {}, yfrom: 0, yto: 0, sort: '' }; return s; }
+  function fxReset(st) { st.txt = ''; st.f = {}; st.yfrom = 0; st.yto = 0; }
+  function fxClean(path) { try { history.replaceState(null, '', path); } catch (e) {} }
+  function fxTok(t) { var o = { inc: [], exc: [] }; (String(t || '').match(/-?"[^"]+"|\S+/g) || []).forEach(function (w) { var neg = w.charAt(0) === '-' && w.length > 1; if (neg) w = w.slice(1); w = w.replace(/"/g, '').toLowerCase().trim(); if (w) (neg ? o.exc : o.inc).push(w); }); return o; }
+  function fxMatch(c, q, st, skip, tk) {
+    for (var i = 0; i < c.facets.length; i++) {
+      var fc = c.facets[i], s = st.f[fc.k]; if (fc.k === skip || !s || !s.length) continue;
+      if (!fc.get(q).some(function (x) { return s.indexOf(x) >= 0; })) return false;
     }
-    function activeChips() {
-      var a = [];
-      QF.part.forEach(function (n) { a.push(['part', n, 'P' + n + ' ' + PARTS[n]]); }); QF.topic.forEach(function (t) { a.push(['topic', t, t]); });
-      QF.sub.forEach(function (v) { a.push(['sub', v, v === '~' ? 'Other in topic' : v]); });
-      FACETS.forEach(function (f) { QF[f[0]].forEach(function (v) { a.push([f[0], v, f[3](v)]); }); });
-      return (QF.yfrom || QF.yto ? '<button type="button" class="fchip on" data-fa="yr">' + (QF.yfrom || 'start') + ' – ' + (QF.yto || 'now') + ' ✕</button>' : '') + a.map(function (x) { return '<button type="button" class="fchip on" data-fq="' + x[0] + '" data-v="' + esc(x[1]) + '">' + esc(x[2]) + ' ✕</button>'; }).join('') + (QF.txt ? '<button type="button" class="fchip on" data-fa="txt">“' + esc(QF.txt) + '” ✕</button>' : '');
+    if (c.range && skip !== 'range' && (st.yfrom || st.yto) && !c.range.get(q).some(function (v) { return (!st.yfrom || v >= st.yfrom) && (!st.yto || v <= st.yto); })) return false;
+    if (tk && (tk.inc.length || tk.exc.length)) {
+      var key = '_fx' + c.kind; if (q[key] === undefined) q[key] = c.text(q).toLowerCase();
+      var h = q[key], j;
+      for (j = 0; j < tk.inc.length; j++) if (h.indexOf(tk.inc[j]) < 0) return false;
+      for (j = 0; j < tk.exc.length; j++) if (h.indexOf(tk.exc[j]) >= 0) return false;
+    }
+    return true;
+  }
+  function fxN(st) { var n = (st.txt ? 1 : 0) + (st.yfrom || st.yto ? 1 : 0); Object.keys(st.f).forEach(function (k) { n += (st.f[k] || []).length; }); return n; }
+  function FX(c) {
+    var st = c.st, open = !!c.startOpen, og = {}, tm, root = c.el, FB = {};
+    c.facets.forEach(function (f) { FB[f.k] = f; });
+    root.innerHTML = '<div class="fx"><div class="fx-bar"><label class="fx-q"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input type="search" placeholder="' + esc(c.ph) + '" aria-label="Search"><button type="button" class="x" data-fx="txt" aria-label="Clear search" hidden>✕</button></label>' +
+      '<button type="button" class="fx-tog" aria-expanded="false" aria-controls="' + c.id + '-p"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filters<b></b></button></div>' +
+      '<div class="chips fx-quick"></div><div class="fx-act"></div><div class="fx-panel" id="' + c.id + '-p" hidden></div>' +
+      '<div class="fx-meta"><span class="count" aria-live="polite"></span><span class="fx-tools">' + (c.sorts ? '<span class="fx-sort" role="group" aria-label="Sort">' + c.sorts.map(function (s) { return '<button type="button" data-sort="' + s[0] + '">' + s[1] + '</button>'; }).join('') + '</span>' : '') + (c.tools || '') + '</span></div></div><div class="fx-list"></div>';
+    var inp = $('.fx-q input', root), clr = $('.fx-q .x', root), tog = $('.fx-tog', root), panelEl = $('.fx-panel', root), listEl = $('.fx-list', root);
+    inp.value = st.txt || '';
+    function chip(k, v, label, n) { var s = st.f[k] || [], on = s.indexOf(v) >= 0; return '<button type="button" class="fchip' + (on ? ' on' : '') + (n === 0 && !on ? ' z' : '') + '" data-fq="' + k + '" data-v="' + esc(v) + '" aria-pressed="' + on + '">' + label + (n == null ? '' : '<em>' + n + '</em>') + '</button>'; }
+    function prune() {
+      var pool = c.pool();
+      c.facets.forEach(function (fc) { if (!fc.dep || !st.f[fc.k]) return; var ok = fc.opts(st, pool).filter(function (it) { return it.h == null; }).map(function (it) { return it[0]; }); st.f[fc.k] = st.f[fc.k].filter(function (v) { return ok.indexOf(v) >= 0; }); if (!st.f[fc.k].length) delete st.f[fc.k]; });
+    }
+    function panel(pool, tk, total) {
+      var h = '<div class="fx-grid">';
+      c.groups.forEach(function (g, gi) {
+        var body = '', nsel = 0;
+        g.k.forEach(function (k) {
+          if (k === 'range') {
+            if (!c.range) return; var ys = c.range.vals(), yo = function (cur) { return '<option value="0">Any</option>' + ys.map(function (y) { return '<option value="' + y + '"' + (cur === y ? ' selected' : '') + '>' + y + '</option>'; }).join(''); };
+            if (st.yfrom || st.yto) nsel++;
+            body += '<div class="fx-f"><p class="fx-fl">' + esc(c.range.label) + '</p><div class="yrange"><label>From <select data-fr="yfrom">' + yo(st.yfrom) + '</select></label><label>To <select data-fr="yto">' + yo(st.yto) + '</select></label></div></div>'; return;
+          }
+          var fc = FB[k]; if (!fc) return; var items = fc.opts(st, pool), sel = st.f[k] || []; nsel += sel.length;
+          if (!items.length) { var hint = fc.hint ? fc.hint(st) : ''; if (hint) body += '<div class="fx-f"><p class="fx-fl">' + esc(fc.l) + '</p><p class="fx-hint">' + esc(hint) + '</p></div>'; return; }
+          var cnt = {}; pool.forEach(function (q) { if (fxMatch(c, q, st, k, tk)) fc.get(q).forEach(function (v) { cnt[v] = (cnt[v] || 0) + 1; }); });
+          body += '<div class="fx-f"><p class="fx-fl">' + esc(fc.l) + (sel.length ? '<button type="button" class="lnk" data-fxclr="' + k + '">Clear</button>' : '') + '</p><div class="chips">' +
+            items.map(function (it) { return it.h != null ? '<p class="fx-fh">' + esc(it.h) + '</p>' : chip(k, it[0], esc(it[1]), cnt[it[0]] || 0); }).join('') + '</div></div>';
+        });
+        if (!body) return;
+        var isOpen = og[gi] != null ? og[gi] : (gi === 0 || nsel > 0);
+        h += '<details class="fx-g" data-g="' + gi + '"' + (isOpen ? ' open' : '') + '><summary>' + esc(g.t) + (nsel ? '<em>' + nsel + '</em>' : '') + '</summary><div class="fx-gb">' + body + '</div></details>';
+      });
+      return h + '</div><div class="fx-foot"><span><b>' + total + '</b> ' + c.noun(total) + ' match</span><span><button type="button" class="lnk" data-fx="clear">Clear all</button><button type="button" class="sbtn" data-fx="close">Show results</button></span></div>';
+    }
+    function act() {
+      var a = '';
+      c.facets.forEach(function (fc) { (st.f[fc.k] || []).forEach(function (v) { a += '<button type="button" class="fchip" data-fq="' + fc.k + '" data-v="' + esc(v) + '" aria-label="Remove ' + esc(fc.l + ': ' + fc.lab(v)) + '"><i>' + esc(fc.s || fc.l) + '</i>' + esc(fc.lab(v)) + '<span aria-hidden="true">✕</span></button>'; }); });
+      if (st.yfrom || st.yto) a += '<button type="button" class="fchip" data-fx="range"><i>Years</i>' + (st.yfrom || 'start') + '–' + (st.yto || 'now') + '<span aria-hidden="true">✕</span></button>';
+      if (st.txt) a += '<button type="button" class="fchip" data-fx="txt"><i>Search</i>“' + esc(st.txt) + '”<span aria-hidden="true">✕</span></button>';
+      return a ? a + '<button type="button" class="lnk" data-fx="clear">Clear all</button>' : '';
     }
     function paint() {
-      var list = DU.filter(function (q) { return qMatch(q, QF); }), n = nActive(QF);
-      $('#quick').innerHTML = fchip('stars', 3, '★★★ High-yield') + fchip('st', 'unread', 'Not read') + fchip('st', 'flagged', 'Flagged') + fchip('kind', 'SEQ', 'SEQ') + fchip('kind', 'Case-based', 'Case-based');
-      $('#active').innerHTML = activeChips();
-      $('#fbadge').textContent = n ? '(' + n + ')' : '';
-      $('#qcount').textContent = list.length + ' question' + (list.length === 1 ? '' : 's') + (n ? ' match' : '');
-      $('#fpanel').innerHTML = panel(); $('#fpanel').hidden = !open; $('#ftog').setAttribute('aria-expanded', open);
-      var flat = QF.sort === 'new';
-      main.querySelectorAll('#sortseg button').forEach(function (b) { b.classList.toggle('on', b.dataset.sort === QF.sort); }); $('#xrow').hidden = flat;
-      if (flat) list = list.slice().sort(function (a, b) { return qyear(b) - qyear(a) || b.stars - a.stars || a.n - b.n; });
-      $('#qlist').innerHTML = !list.length ? '' : flat ? list.map(function (q) { return qRow(q); }).join('') : groupedRows(list, n > 0 && list.length < 120);
-      if (!list.length) $('#qlist').innerHTML = '<div class="empty-state"><h2>No questions match</h2><p>Remove a filter to see more.</p></div>';
-      $('#rnd').onclick = function () { var q = (list.length ? list : DU)[Math.floor(Math.random() * (list.length || DU.length))]; location.hash = '#/q/' + q.id; };
+      var tk = fxTok(st.txt), pool = c.pool(), list = pool.filter(function (q) { return fxMatch(c, q, st, null, tk); }), n = fxN(st);
+      if (c.sorts) {
+        if (!c.sorts.some(function (s) { return s[0] === st.sort; })) st.sort = c.sorts[0][0];
+        list = c.sort(list, st.sort);
+        root.querySelectorAll('[data-sort]').forEach(function (b) { var on = b.dataset.sort === st.sort; b.classList.toggle('on', on); b.setAttribute('aria-pressed', on); });
+      }
+      $('.fx-quick', root).innerHTML = (typeof c.quick === 'function' ? c.quick(st) : c.quick || []).map(function (x) { return chip(x[0], x[1], esc(x[2])); }).join('');
+      $('.fx-act', root).innerHTML = act();
+      $('b', tog).textContent = n ? n : '';
+      tog.classList.toggle('has', n > 0); tog.setAttribute('aria-expanded', open);
+      clr.hidden = !st.txt;
+      $('.count', root).innerHTML = '<b>' + list.length + '</b> ' + c.noun(list.length) + (n ? ' match' : '') + (n && pool.length !== list.length ? ' <span>of ' + pool.length + '</span>' : '');
+      panelEl.innerHTML = open ? panel(pool, tk, list.length) : ''; panelEl.hidden = !open;
+      listEl.innerHTML = c.list(list, n);
+      if (c.after) c.after(list, listEl, n);
+      save();
     }
-    $('#qpage').addEventListener('change', function (e) { var r = e.target.closest('[data-fr]'); if (r) { QF[r.dataset.fr] = +r.value; if (QF.yfrom && QF.yto && QF.yfrom > QF.yto) { var tmp = QF.yfrom; QF.yfrom = QF.yto; QF.yto = tmp; } paint(); } });
-    $('#qpage').addEventListener('click', function (e) {
-      var so = e.target.closest('[data-sort]'); if (so) { QF.sort = so.dataset.sort; paint(); return; }
-      var c = e.target.closest('[data-fq]'), a = e.target.closest('[data-fa]');
-      if (c) { var k = c.dataset.fq, v = (k === 'part' || k === 'stars' || k === 'yr') ? +c.dataset.v : c.dataset.v, i = QF[k].indexOf(v); if (i >= 0) QF[k].splice(i, 1); else QF[k].push(v); if (k === 'part' || k === 'topic') QF.sub = []; if (k === 'part') QF.topic = QF.topic.filter(function (t) { return QF.part.length === 0 || QF.part.some(function (pn) { return topicsOf(DU, pn).indexOf(t) >= 0; }); }); paint(); }
-      if (a) { var f = a.dataset.fa; if (f === 'clear') { QF = emptyQF(); txt.value = ''; } if (f === 'txt') { QF.txt = ''; txt.value = ''; } if (f === 'yr') { QF.yfrom = 0; QF.yto = 0; } if (f === 'close') { open = false; window.scrollTo(0, $('#qpage').offsetTop); } paint(); }
+    root.addEventListener('click', function (e) {
+      var t = e.target.closest('[data-fq],[data-fx],[data-fxclr],[data-sort],.fx-tog'); if (!t || listEl.contains(t)) return;
+      if (t.classList.contains('fx-tog')) { open = !open; paint(); return; }
+      if (t.dataset.sort) { st.sort = t.dataset.sort; paint(); return; }
+      if (t.dataset.fxclr) { delete st.f[t.dataset.fxclr]; prune(); paint(); return; }
+      if (t.dataset.fq) {
+        var k = t.dataset.fq, fc = FB[k], v = fc && fc.num ? +t.dataset.v : t.dataset.v, s = st.f[k] = st.f[k] || [], i = s.indexOf(v);
+        if (i >= 0) s.splice(i, 1); else s.push(v); if (!s.length) delete st.f[k];
+        prune(); paint(); return;
+      }
+      var a = t.dataset.fx;
+      if (a === 'clear') { fxReset(st); inp.value = ''; }
+      if (a === 'txt') { st.txt = ''; inp.value = ''; inp.focus(); }
+      if (a === 'range') { st.yfrom = 0; st.yto = 0; }
+      if (a === 'close') open = false;
+      paint();
+      if (a === 'close') window.scrollTo(0, Math.max(0, root.getBoundingClientRect().top + window.scrollY - 70));
     });
-    var t; txt.oninput = function () { clearTimeout(t); t = setTimeout(function () { QF.txt = txt.value; paint(); }, 250); };
-    $('#ftog').onclick = function () { open = !open; paint(); };
-    paint();
+    root.addEventListener('change', function (e) { var r = e.target.closest('[data-fr]'); if (!r) return; st[r.dataset.fr] = +r.value; if (st.yfrom && st.yto && st.yfrom > st.yto) { var x = st.yfrom; st.yfrom = st.yto; st.yto = x; } paint(); });
+    panelEl.addEventListener('toggle', function (e) { var d = e.target; if (d && d.dataset && d.dataset.g != null) og[d.dataset.g] = d.open; }, true);
+    inp.addEventListener('input', function () { clearTimeout(tm); tm = setTimeout(function () { st.txt = inp.value.trim(); paint(); }, 250); });
+    inp.addEventListener('keydown', function (e) { if (e.key === 'Escape' && inp.value) { inp.value = ''; st.txt = ''; paint(); } });
+    return { paint: paint, st: st };
+  }
+
+  /* ---- DU written-question filters (Questions page and each chapter) ---- */
+  function qnoun(n) { return n === 1 ? 'question' : 'questions'; }
+  var DUG = [{ t: 'Syllabus', k: ['part', 'topic', 'sub'] }, { t: 'Exam history', k: ['range', 'yr', 'rec', 'ses', 'stars', 'kind'] }, { t: 'College papers', k: ['col', 'paper'] }, { t: 'My progress', k: ['st', 'ans'] }];
+  var DUQ = [['stars', 3, '★★★ High-yield'], ['rec', 'new5', 'Last 5 years'], ['st', 'unread', 'Not read'], ['st', 'flagged', 'Flagged'], ['kind', 'SEQ', 'SEQ'], ['kind', 'Case-based', 'Case-based']];
+  var DUS = [['syl', 'By syllabus'], ['new', 'Newest first'], ['imp', 'Most important']];
+  var DUR = { label: 'DU Written year range', vals: function () { return FACETS.filter(function (f) { return f[0] === 'yr'; })[0][4]; }, get: function (q) { return q.years.map(function (y) { return yparse(y).y; }); } };
+  function duFacets(part) {
+    var fs = [];
+    if (!part) fs.push({ k: 'part', l: 'Part', num: 1, get: function (q) { return [q.part]; }, lab: function (v) { return 'P' + v + ' ' + PARTS[v]; }, opts: function () { return partIds.map(function (n) { return [n, 'P' + n + ' · ' + PARTS[n]]; }); } });
+    fs.push({ k: 'topic', l: 'Topic', dep: 1, get: function (q) { return [q.topic]; }, lab: function (v) { return v; }, hint: function () { return 'Choose a part to see its topics.'; },
+      opts: function (st) { var ps = part ? [part] : (st.f.part || []), o = []; ps.forEach(function (n) { if (!part) o.push({ h: 'P' + n + ' · ' + PARTS[n] }); topicsOf(DU, n).forEach(function (t) { o.push([t, t]); }); }); return o; } });
+    fs.push({ k: 'sub', l: 'Subtopic', dep: 1, get: function (q) { return [q.sub || '~']; }, lab: function (v) { return v === '~' ? 'Other in topic' : v; }, hint: function (st) { return duTopics(st, part).length ? '' : 'Choose a topic to see its subtopics.'; },
+      opts: function (st) { var o = []; duTopics(st, part).forEach(function (t) { var q0 = DU.filter(function (q) { return q.topic === t; })[0], seq = q0 && CM.subs && CM.subs[q0.part + '|' + t]; if (!seq || !seq.length) return; o.push({ h: t }); seq.forEach(function (sb) { o.push([sb, sb]); }); o.push(['~', 'Other in this topic']); }); return o; } });
+    FACETS.forEach(function (f) { fs.push({ k: f[0], l: f[1], num: f[0] === 'stars' || f[0] === 'yr', get: f[2], lab: function (v) { return String(f[3](v)); }, opts: function () { return f[4].map(function (v) { return [v, String(f[3](v))]; }); } }); });
+    return fs;
+  }
+  function duTopics(st, part) { var t = st.f.topic || []; if (t.length) return t; var all = part ? topicsOf(DU, part) : []; return all.length === 1 ? all : []; }
+  function duText(q) { return strip(q.q) + ' ' + q.topic + ' ' + (q.sub || '') + ' ' + (q.colleges || '') + ' ' + (q.asked || '') + ' ' + (q.note || '') + ' ' + q.years.map(function (y) { return yparse(y).label; }).join(' '); }
+  function duSort(list, s) {
+    if (s === 'new') return list.slice().sort(function (a, b) { return qyear(b) - qyear(a) || b.stars - a.stars || a.n - b.n; });
+    if (s === 'imp') return list.slice().sort(function (a, b) { return b.stars - a.stars || qyear(b) - qyear(a) || a.n - b.n; });
+    return list;
+  }
+  function duList(list, grouped, openAll) {
+    if (!list.length) return '<div class="empty-state"><h2>No questions match</h2><p>Remove a filter, or clear them all, to see more.</p></div>';
+    return grouped ? groupedRows(list, openAll) : list.map(function (q) { return qRow(q); }).join('');
+  }
+  function seedDU(st, qs) {
+    fxReset(st); st.txt = qs.q || '';
+    if (qs.part) st.f.part = [+qs.part];
+    if (qs.topic) { st.f.topic = [qs.topic]; if (!qs.part) { var q0 = DU.filter(function (q) { return q.topic === qs.topic; })[0]; if (q0) st.f.part = [q0.part]; } }
+    if (qs.stars) { st.f.stars = []; for (var s = +qs.stars; s <= 3; s++) st.f.stars.push(s); }
+    if (qs.kind) st.f.kind = [qs.kind]; if (qs.status) st.f.st = [qs.status];
+  }
+  var XTOOLS = '<span class="fx-x"><button class="lnk" data-x="open">Expand all</button><button class="lnk" data-x="close">Collapse all</button></span>';
+
+  /* ------------------------------------------------------------ questions */
+  function questions(r) {
+    var st = fxState('q');
+    if (Object.keys(r.qs).length) { seedDU(st, r.qs); fxClean('#/questions'); }
+    main.innerHTML = hero({ crumb: '<a href="#/">Home</a> › Questions', icon: 'list', title: 'Questions', desc: 'Tap a question to read its answer right here, or tap Answer to open it on its own page.',
+      btns: '<div class="btnrow"><button class="bigbtn fill" id="rnd">Random question</button><a class="bigbtn" href="#/chapters">Chapters</a></div>', pills: [DU.length + ' questions', 'DU Written years', 'College papers'] }) +
+      '<div class="wrap" id="qpage">' + progLine(nRead(), DU.length, 'read') + recLegend() + '<div id="fxq"></div></div>';
+    var cur = DU;
+    FX({ id: 'q', kind: 'du', el: $('#fxq'), st: st, pool: function () { return DU; }, facets: duFacets(0), groups: DUG, range: DUR, text: duText, noun: qnoun,
+      ph: 'Search: words, "exact phrase", -exclude', quick: DUQ, sorts: DUS, sort: duSort, tools: XTOOLS,
+      list: function (list, n) { cur = list; return duList(list, st.sort === 'syl', n > 0 && list.length < 120); },
+      after: function (list, el) { var x = $('.fx-x', $('#fxq')); if (x) x.hidden = st.sort !== 'syl' || !list.length; } }).paint();
+    $('#rnd').onclick = function () { var l = cur.length ? cur : DU, q = l[Math.floor(Math.random() * l.length)]; location.hash = '#/q/' + q.id; };
   }
   function single(r) {
     var q = byId[r.id]; if (!q || q.id.indexOf('DU.') !== 0) { location.hash = '#/questions'; return; }
@@ -441,14 +538,24 @@
   }
   function chapter(r) {
     var n = +r.id; if (!PARTS[n]) { location.hash = '#/chapters'; return; }
-    var list = DU.filter(function (q) { return q.part === n; }), tp = topicsOf(list), ms = MCQ.filter(function (q) { return q.part === n; });
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › Part ' + n, part: n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topics, ' + ms.length + ' MCQs.',
+    var list = DU.filter(function (q) { return q.part === n; }), tp = topicsOf(list), ms = MCQ.filter(function (q) { return q.part === n; }), mt = topicsOf(ms);
+    var st = fxState('ch' + n);
+    if (r.qs.topic || r.qs.q) { fxReset(st); if (r.qs.topic) st.f.topic = [r.qs.topic]; st.txt = r.qs.q || ''; fxClean('#/chapter/' + n); }
+    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › Part ' + n, part: n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ', ' + ms.length + ' MCQs.',
       btns: '<div class="btnrow"><button class="bigbtn fill" data-go="practice">Practise MCQs</button><a class="bigbtn" href="#/read?part=' + n + '">Read MCQs</a></div>' });
-    h += '<div class="wrap">' + progLine(list.filter(function (q) { return S.read[q.id]; }).length, list.length, 'read') + recLegend() + '<div class="toolrow"><span class="count">' + list.length + ' questions</span><span><button class="lnk" data-x="open">Expand all</button><button class="lnk" data-x="close">Collapse all</button></span></div>' +
-      (n > 1 ? '' : '') + groupedRows(list, true) + '<div class="pager">' + (n > 1 ? '<a class="btn ghost sm" href="#/chapter/' + (n - 1) + '">← Part ' + (n - 1) + '</a>' : '<span></span>') + (PARTS[n + 1] ? '<a class="btn ghost sm" href="#/chapter/' + (n + 1) + '">Part ' + (n + 1) + ' →</a>' : '') + '</div></div>';
+    h += '<div class="wrap">' + progLine(list.filter(function (q) { return S.read[q.id]; }).length, list.length, 'read') + recLegend() + '<div id="fxc"></div>' +
+      '<div class="pager">' + (n > 1 ? '<a class="btn ghost sm" href="#/chapter/' + (n - 1) + '">← Part ' + (n - 1) + '</a>' : '<span></span>') + (PARTS[n + 1] ? '<a class="btn ghost sm" href="#/chapter/' + (n + 1) + '">Part ' + (n + 1) + ' →</a>' : '') + '</div></div>';
     main.innerHTML = h;
+    FX({ id: 'ch' + n, kind: 'du', el: $('#fxc'), st: st, pool: function () { return list; }, facets: duFacets(n), groups: DUG, range: DUR, text: duText, noun: qnoun,
+      ph: 'Search in ' + PARTS[n], quick: function (st) { var q = tp.length > 1 ? tp.map(function (t) { return ['topic', t, t]; }) : [], ts = duTopics(st, n); if (ts.length === 1) { var seq = (CM.subs && CM.subs[n + '|' + ts[0]]) || []; q = q.concat(seq.map(function (sb) { return ['sub', sb, sb]; })); } return q; }, sorts: DUS, sort: duSort, tools: XTOOLS,
+      list: function (l) {
+        var tt = duTopics(st, n), one = tt.length === 1 ? tt[0] : '', link = one && mt.indexOf(one) >= 0 ? '<div class="fx-mcq"><span>MCQs on <b>' + esc(one) + '</b></span><span><button class="sbtn" data-go="tmcq">Practise</button><a class="sbtn" href="' + url('#/read', { part: n, topic: one }) + '">Read</a></span></div>' : '';
+        return link + duList(l, st.sort === 'syl', true);
+      },
+      after: function (l, el) { var x = $('.fx-x', $('#fxc')); if (x) x.hidden = st.sort !== 'syl' || !l.length; var b = $('[data-go=tmcq]', el); if (b) b.onclick = function () { var t1 = duTopics(st, n)[0]; startFrom({ part: [n], topic: [t1] }, { scope: t1 }); }; } }).paint();
     $('[data-go=practice]').onclick = function () { startFrom({ part: [n] }, { scope: pname(n) }); };
   }
+
 
   /* ------------------------------------------------------------ answers */
   function answers(r) {
@@ -552,45 +659,82 @@
     });
   }
 
+  /* ---- MCQ filters (Reading mode and Custom practice) ---- */
+  function mnoun(n) { return n === 1 ? 'MCQ' : 'MCQs'; }
+  var MYEARS = (function () { var m = {}; MCQ.forEach(function (q) { q.years.forEach(function (y) { m[y] = 1; }); }); return Object.keys(m).sort(function (a, b) { var A = yparse(a), B = yparse(b); return B.y - A.y || ({ Nov: 5, S: 4, Ju: 3, M: 2, Ja: 1 }[B.s] || 0) - ({ Nov: 5, S: 4, Ju: 3, M: 2, Ja: 1 }[A.s] || 0) || (b < a ? -1 : 1); }); })();
+  var MLAB = { kind: { SBA: 'Single best answer', TF: 'True / False' }, src: { DU: 'Past DU papers', BCS: 'BCS', New: 'New (AI-written)' }, key: { clean: 'No disputed statement', disp: 'Has a disputed statement' },
+    rec: { new2: 'Last 2 years', new5: 'Last 5 years', du: 'Any DU paper', none: 'Never in a DU paper' }, rep: { r2: 'Asked 2+ times', r3: 'Asked 3+ times', r1: 'Once or never' },
+    st: { todo: 'Not tried', wrong: 'Got wrong', right: 'Got right', flagged: 'Flagged' } };
+  function mfix(k, order) { return { k: k, l: { kind: 'Question type', src: 'Source', key: 'Answer key', rec: 'Asked in DU', rep: 'Times asked', st: 'Your progress' }[k], lab: function (v) { return MLAB[k][v] || v; }, opts: function () { return order.map(function (v) { return [v, MLAB[k][v]]; }); } }; }
+  function mcqFacets() {
+    var f = [
+      { k: 'part', l: 'Part', num: 1, get: function (q) { return [q.part]; }, lab: function (v) { return 'P' + v + ' ' + PARTS[v]; }, opts: function () { return partIds.map(function (n) { return [n, 'P' + n + ' · ' + PARTS[n]]; }); } },
+      { k: 'topic', l: 'Topic', dep: 1, get: function (q) { return [q.topic]; }, lab: function (v) { return v; }, hint: function () { return 'Choose a part to see its topics.'; },
+        opts: function (st) { var o = []; (st.f.part || []).forEach(function (n) { o.push({ h: 'P' + n + ' · ' + PARTS[n] }); topicsOf(MCQ, n).forEach(function (t) { o.push([t, t]); }); }); return o; } },
+      mfix('kind', ['SBA', 'TF']), mfix('src', ['DU', 'BCS', 'New']), mfix('key', ['clean', 'disp']), mfix('rec', ['new2', 'new5', 'du', 'none']), mfix('rep', ['r2', 'r3', 'r1']),
+      { k: 'year', l: 'DU paper', get: function (q) { return q.years; }, lab: function (v) { return yparse(v).label; }, opts: function () { return MYEARS.map(function (y) { return [y, yparse(y).label]; }); } },
+      mfix('st', ['todo', 'wrong', 'right', 'flagged'])];
+    var G = { kind: function (q) { return [q.kind]; }, src: function (q) { return [q.src]; }, key: function (q) { return [q.opts.some(function (o) { return o.conflict; }) ? 'disp' : 'clean']; },
+      rec: function (q) { if (!q.years.length) return ['none']; var y = qyear(q), a = ['du']; if (y >= RECMAX - 1) a.push('new2'); if (y >= RECMAX - 4) a.push('new5'); return a; },
+      rep: function (q) { var c = q.years.length; return c >= 3 ? ['r3', 'r2'] : c === 2 ? ['r2'] : ['r1']; },
+      st: function (q) { var d = S.mcq[q.id], a = [d ? (d.c ? 'right' : 'wrong') : 'todo']; if (S.flag[q.id]) a.push('flagged'); return a; } };
+    f.forEach(function (x) { if (!x.get) x.get = G[x.k]; });
+    return f;
+  }
+  var MG = [{ t: 'Syllabus', k: ['part', 'topic'] }, { t: 'Question', k: ['kind', 'src', 'key'] }, { t: 'Exam history', k: ['rec', 'rep', 'year'] }, { t: 'My progress', k: ['st'] }];
+  var MQ = [['st', 'todo', 'Not tried'], ['st', 'wrong', 'Got wrong'], ['src', 'DU', 'Past DU'], ['rec', 'new5', 'Last 5 years'], ['kind', 'SBA', 'SBA'], ['kind', 'TF', 'True / False']];
+  var MS = [['syl', 'Syllabus order'], ['new', 'Newest first'], ['rep', 'Most repeated']];
+  var MRANK = (function () { var r = {}; partIds.forEach(function (p) { topicsOf(MCQ, p).forEach(function (t, i) { r[p + '|' + t] = i; }); }); return r; })();
+  function mSort(list, s) {
+    var syl = function (a, b) { return a.part - b.part || MRANK[a.part + '|' + a.topic] - MRANK[b.part + '|' + b.topic] || a.n - b.n; };
+    if (s === 'new') return list.slice().sort(function (a, b) { return qyear(b) - qyear(a) || b.years.length - a.years.length || syl(a, b); });
+    if (s === 'rep') return list.slice().sort(function (a, b) { return b.years.length - a.years.length || qyear(b) - qyear(a) || syl(a, b); });
+    return list.slice().sort(syl);
+  }
+  function mText(q) { return q.stem + ' ' + q.topic + ' ' + (q.sub || '') + ' ' + q.opts.map(function (o) { return o.t + ' ' + (o.e || ''); }).join(' ') + ' ' + q.years.map(function (y) { return yparse(y).label; }).join(' '); }
+  function seedM(st, qs) {
+    fxReset(st); st.txt = qs.q || '';
+    if (qs.part) st.f.part = [+qs.part];
+    if (qs.topic) { st.f.topic = [qs.topic]; if (!qs.part) { var q0 = MCQ.filter(function (q) { return q.topic === qs.topic; })[0]; if (q0) st.f.part = [q0.part]; } }
+    if (qs.kind) st.f.kind = [qs.kind]; if (qs.src) st.f.src = [qs.src]; if (qs.year) st.f.year = [qs.year]; if (qs.status) st.f.st = [qs.status];
+  }
+  function mScope(st) { var t = st.f.topic || [], p = st.f.part || []; return t.length === 1 ? t[0] : p.length === 1 ? pname(p[0]) : 'Filtered MCQs'; }
+
   /* ------------------------------------------------------------ custom practice */
-  var F = { part: [], topic: [], kind: [], src: [], st: [], txt: '', n: 20, shuffle: 1, mode: 'practice' };
+  var F = { n: 20, shuffle: 1, mode: 'practice' };
   function custom() {
-    var tg = function (f, v, label) { return '<label class="fchip' + (F[f].indexOf(v) >= 0 ? ' on' : '') + '"><input type="checkbox" hidden data-f="' + f + '" data-v="' + esc(v) + '"' + (F[f].indexOf(v) >= 0 ? ' checked' : '') + '>' + label + '</label>'; };
+    var st = fxState('cu'), pool = [];
     var seg = function (o, vals) { return '<div class="seg">' + vals.map(function (v) { return '<button type="button" data-o="' + o + '" data-v="' + v[0] + '" class="' + (String(F[o]) === String(v[0]) ? 'on' : '') + '">' + v[1] + '</button>'; }).join('') + '</div>'; };
-    var tp = F.part.length ? F.part.reduce(function (a, p) { return a.concat(topicsOf(MCQ, p).map(function (t) { return [p, t]; })); }, []) : [];
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Custom', icon: 'sliders', title: 'Custom practice', desc: 'Build your own set. Filters narrow the pool; the count updates as you choose.' });
-    h += '<div class="wrap"><div class="bar2"><input type="search" id="ftxt" placeholder="Search question text" value="' + esc(F.txt) + '"></div>' +
-      '<div class="panel"><p class="slabel">Part</p><div class="chips">' + partIds.map(function (p) { return tg('part', p, 'P' + p + ' · ' + esc(PARTS[p])); }).join('') + '</div>' +
-      (tp.length ? '<p class="slabel">Topic</p><div class="chips">' + tp.map(function (x) { return tg('topic', x[1], esc(x[1])); }).join('') + '</div>' : '') +
-      '<p class="slabel">Question type</p><div class="chips">' + tg('kind', 'SBA', 'Single best answer') + tg('kind', 'TF', 'True / False') + '</div>' +
-      '<p class="slabel">Source</p><div class="chips">' + tg('src', 'DU', 'Past DU papers') + tg('src', 'BCS', 'BCS') + tg('src', 'New', 'New (AI-written)') + '</div>' +
-      '<p class="slabel">Your progress</p><div class="chips">' + tg('st', 'todo', 'Not tried') + tg('st', 'wrong', 'Got wrong') + tg('st', 'right', 'Got right') + tg('st', 'flagged', 'Flagged') + '</div></div>' +
+    main.innerHTML = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Custom', icon: 'sliders', title: 'Custom practice', desc: 'Build your own set. Filters narrow the pool; the count updates as you choose.' }) +
+      '<div class="wrap"><div id="fxcu"></div>' +
       '<div class="panel"><p class="slabel">How many</p>' + seg('n', [[10, '10'], [20, '20'], [30, '30'], [50, '50'], [0, 'All']]) + '<p class="slabel">Order</p>' + seg('shuffle', [[1, 'Shuffled'], [0, 'Syllabus order']]) +
       '<p class="slabel">Feedback</p>' + seg('mode', [['practice', 'After each question'], ['exam', 'At the end (timed)']]) + '</div>' +
-      '<div class="panel"><p class="count" id="cnt"></p><button class="bigbtn fill" id="go" style="color:#fff">Start practice</button><button class="lnk" id="clr">Clear all filters</button></div></div>';
-    main.innerHTML = h;
-    function count() { var pool = filteredM(F).filter(scorable); $('#cnt').innerHTML = '<b>' + pool.length + '</b> MCQs with an answer key match' + (F.n && pool.length > F.n ? ' · ' + F.n + ' will be drawn' : ''); $('#go').disabled = !pool.length; return pool; }
-    count();
-    main.querySelectorAll('input[data-f]').forEach(function (c) { c.onchange = function () { var a = F[c.dataset.f], v = c.dataset.f === 'part' ? +c.dataset.v : c.dataset.v, i = a.indexOf(v); if (i >= 0) a.splice(i, 1); else a.push(v); if (c.dataset.f === 'part') F.topic = []; var y = window.scrollY; custom(); window.scrollTo(0, y); }; });
-    main.querySelectorAll('.seg button').forEach(function (b) { b.onclick = function () { var v = b.dataset.v; F[b.dataset.o] = b.dataset.o === 'mode' ? v : +v; main.querySelectorAll('.seg button[data-o=' + b.dataset.o + ']').forEach(function (x) { x.classList.toggle('on', x === b); }); count(); }; });
-    $('#ftxt').oninput = function () { F.txt = this.value; count(); };
-    $('#clr').onclick = function () { F.part = []; F.topic = []; F.kind = []; F.src = []; F.st = []; F.txt = ''; custom(); };
-    $('#go').onclick = function () { var pool = count(); if (!pool.length) return; var ids = pool.map(function (q) { return q.id; }); if (F.shuffle) ids = shuf(ids); if (F.n) ids = ids.slice(0, F.n); start(ids, { scope: 'Custom practice', mode: F.mode, limit: F.mode === 'exam' ? ids.length * 90 : 0 }); };
+      '<div class="panel"><p class="count" id="cnt"></p><button class="bigbtn fill" id="go" style="color:#fff">Start practice</button></div></div>';
+    function count() { $('#cnt').innerHTML = '<b>' + pool.length + '</b> MCQs with an answer key match' + (F.n && pool.length > F.n ? ' · ' + F.n + ' will be drawn' : ''); $('#go').disabled = !pool.length; }
+    FX({ id: 'cu', kind: 'm', el: $('#fxcu'), st: st, pool: function () { return MCQ; }, facets: mcqFacets(), groups: MG, text: mText, noun: mnoun, startOpen: true,
+      ph: 'Search question text and explanations', quick: MQ, list: function (list) { pool = mSort(list.filter(scorable), 'syl'); return ''; }, after: count }).paint();
+    main.querySelectorAll('.seg button[data-o]').forEach(function (b) { b.onclick = function () { var v = b.dataset.v; F[b.dataset.o] = b.dataset.o === 'mode' ? v : +v; main.querySelectorAll('.seg button[data-o=' + b.dataset.o + ']').forEach(function (x) { x.classList.toggle('on', x === b); }); count(); }; });
+    $('#go').onclick = function () { if (!pool.length) return; var ids = pool.map(function (q) { return q.id; }); if (F.shuffle) ids = shuf(ids); if (F.n) ids = ids.slice(0, F.n); start(ids, { scope: 'Custom practice', mode: F.mode, limit: F.mode === 'exam' ? ids.length * 90 : 0 }); };
   }
 
   /* ------------------------------------------------------------ reading mode */
   function reading(r) {
-    var qs = r.qs, list = filteredM(qsToF(qs)), keyed = list.filter(scorable);
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Reading mode', icon: 'book', title: 'Reading mode', desc: 'Every MCQ with its answer shown, for revision without pressure. Switch to practice when you are ready to test yourself.',
-      btns: '<div class="btnrow"><button class="bigbtn fill" id="rp"' + (keyed.length ? '' : ' disabled') + '>Practise these</button><a class="bigbtn" href="#/mcqs">MCQ home</a></div>', pills: [list.length + ' MCQs'] });
-    h += '<div class="wrap"><div class="bar2"><input type="search" data-f="q" placeholder="Search MCQs" value="' + esc(qs.q || '') + '"></div><div class="panel filters">' +
-      sel('part', 'All parts', partOpts(MCQ), qs.part) + sel('topic', 'All topics', topicsOf(MCQ, qs.part).map(function (t) { return [t, t]; }), qs.topic) + sel('kind', 'SBA and T/F', [['SBA', 'SBA only'], ['TF', 'True/False only']], qs.kind) + sel('src', 'All sources', [['DU', 'Past DU papers'], ['BCS', 'BCS'], ['New', 'New (AI-written)']], qs.src) + '</div>' +
-      '<div class="toolrow"><span class="count">' + list.length + ' MCQ' + (list.length === 1 ? '' : 's') + '</span></div><div>' + list.slice(0, shown).map(function (q) { return readCard(q); }).join('') + '</div>';
-    if (list.length > shown) h += '<button class="btn ghost more" id="more">Show more (' + (list.length - shown) + ' left)</button>';
-    if (!list.length) h += '<div class="empty-state"><h2>No MCQs match</h2></div>';
-    main.innerHTML = h + '</div>'; bindFilters('#/read');
-    var more = $('#more'); if (more) more.onclick = function () { shown += 30; route(true); };
-    $('#rp').onclick = function () { if (keyed.length) start(shuf(keyed).slice(0, 50).map(function (q) { return q.id; }), { scope: qs.topic || (qs.part ? pname(+qs.part) : 'Practice') }); };
+    var st = fxState('mr'), cur = [];
+    if (Object.keys(r.qs).length) { seedM(st, r.qs); fxClean('#/read'); }
+    main.innerHTML = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Reading mode', icon: 'book', title: 'Reading mode', desc: 'Every MCQ with its answer and explanations shown, for revision without pressure. Filter to a topic, a paper or your mistakes, then practise the same set.',
+      btns: '<div class="btnrow"><button class="bigbtn fill" id="rp">Practise these</button><a class="bigbtn" href="#/mcqs">MCQ home</a></div>', pills: [MCQ.length + ' MCQs'] }) + '<div class="wrap"><div id="fxm"></div></div>';
+    FX({ id: 'mr', kind: 'm', el: $('#fxm'), st: st, pool: function () { return MCQ; }, facets: mcqFacets(), groups: MG, text: mText, noun: mnoun,
+      ph: 'Search MCQs, options and explanations', quick: MQ, sorts: MS, sort: mSort,
+      list: function (list) {
+        cur = list; shown = 30;
+        if (!list.length) return '<div class="empty-state"><h2>No MCQs match</h2><p>Remove a filter, or clear them all, to see more.</p></div>';
+        return list.slice(0, shown).map(function (q) { return readCard(q); }).join('') + (list.length > shown ? '<button class="btn ghost more" data-more="1">Show more (' + (list.length - shown) + ' left)</button>' : '');
+      },
+      after: function (list, el) {
+        var b = $('[data-more]', el); if (b) b.onclick = function () { var from = shown; shown += 30; b.insertAdjacentHTML('beforebegin', cur.slice(from, shown).map(function (q) { return readCard(q); }).join('')); if (cur.length > shown) b.textContent = 'Show more (' + (cur.length - shown) + ' left)'; else b.remove(); };
+        $('#rp').disabled = !list.some(scorable);
+      } }).paint();
+    $('#rp').onclick = function () { var k = cur.filter(scorable); if (k.length) start(shuf(k).slice(0, 50).map(function (q) { return q.id; }), { scope: mScope(st) }); };
   }
 
   /* ------------------------------------------------------------ practice / exam runner */

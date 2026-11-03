@@ -48,7 +48,7 @@ const clipTo=(x,rs)=>{x.save();x.beginPath();rs.forEach(r=>x.rect(r[0],r[1],r[2]
 /* ---- text anchoring ----
    Every stroke point is stored as: (block key, character offset in that block, dx, dy from that character's centre in root-font units).
    Block keys are class/tag paths (not DOM indices), so they survive collapsing/expanding, <mark> search highlights and card re-renders. */
-const BLK='p,li,td,th,h1,h2,h3,h4,h5,h6,pre,blockquote,summary,dt,dd,figcaption,button,label,.qid,.qtx,.qb,.stem,.chip,.tpill,.stars,.abtn,.yc,.meta,.note,.verdict,.rd,.tf .t',FLAG=/^(on|o|dn|c|open|active|sel|ok|bad|pick|good|miss|read|k|w|z|cur|done|rc\d?)$/;
+const BLK='p,li,td,th,h1,h2,h3,h4,h5,h6,pre,blockquote,summary,dt,dd,figcaption,button,label,.qid,.qtx,.qb,.stem,.chip,.tpill,.stars,.abtn,.yc,.meta,.note,.verdict,.rd,.tf .t',FLAG=/^(on|o|dn|c|open|active|sel|ok|bad|pick|good|miss|read|k|w|f|x|z|cur|done|rc\d?)$/;
 const sigC=e=>e.tagName+'.'+[...e.classList].filter(c=>!FLAG.test(c)).join('.');
 function blkKey(a,e){const p=[];for(;e&&e!==a;e=e.parentElement){const s=sigC(e);let i=0;for(let x=e.previousElementSibling;x;x=x.previousElementSibling)if(sigC(x)===s)i++;p.push(s+'#'+i)}return p.reverse().join('>')}
 function frags(a){const b=box(a),items=[],map=new Map(),blocks=new Map(),w=document.createTreeWalker(a,NodeFilter.SHOW_TEXT),rg=document.createRange();let n;
@@ -63,7 +63,12 @@ function nearest(F,x,y){let best=null,bd=1e18;for(const it of F.items){const dx=
 const sigOf=(a,u)=>a.clientWidth+'x'+a.clientHeight+'@'+u+'#'+(a._mv|0);
 function geo(a,q){const u=unitPx(),s=sigOf(a,u);let G=GEO[q];if(G&&G.a===a&&G.sig===s)return G;return GEO[q]={a,sig:s,u,W:a.clientWidth,H:a.clientHeight,_F:null,wm:new WeakMap()}}
 const getF=G=>G._F||(G._F=frags(G.a)),inv=a=>{a._mv=(a._mv|0)+1};
-const look=(G,k,o)=>{const m=getF(G).map;for(const d of[0,-1,1,-2,2]){const it=m.get(k+'|'+(o+d));if(it)return it}return null};
+const look=(G,k,o)=>{const F=getF(G),m=F.map;for(const d of[0,-1,1,-2,2]){const it=m.get(k+'|'+(o+d));if(it)return it}return lookFb(F,k,o)};
+/* Never lose a mark when the card's text changes (edited question, new explanation line, renamed class): fall back to the last character
+   of the same block, then of the nearest enclosing block, then to the card's first character, so the stroke moves instead of vanishing. */
+function lookFb(F,k,o){if(!F.bmax){F.bmax=new Map();for(const key of F.map.keys()){const i=key.lastIndexOf('|'),b=key.slice(0,i),n=+key.slice(i+1);if(!(F.bmax.get(b)>=n))F.bmax.set(b,n)}}
+  let b=String(k||'');for(;;){if(F.bmax.has(b)){for(let x=Math.min(o,F.bmax.get(b));x>=0;x--){const it=F.map.get(b+'|'+x);if(it)return it}}if(!b)break;const j=b.lastIndexOf('>');b=j>=0?b.slice(0,j):''}
+  return F.items[0]||null}
 /* resolve a stroke to card-space runs. A run breaks where the text wrapped differently and the neighbouring anchors moved apart. */
 function runsOf(G,s){let r=G.wm.get(s);if(r)return r;r=[];
   if(s.v===2){const p=s.p,u=G.u;let run=null,pv=null;for(let i=0;i+5<p.length;i+=6){const it=look(G,s.k[p[i]],p[i+1]);if(!it){run=null;pv=null;continue}
@@ -234,10 +239,14 @@ mn.addEventListener('click',e=>{const m=e.target.closest('[data-m]');if(!m)retur
 document.addEventListener('click',e=>{if(MORE&&!e.target.closest('#inkmenu,[data-i=more]')){MORE=false;tb()}},true);
 {const rp=()=>document.querySelectorAll('#main .inkc>canvas.mbi-base').forEach(c=>redraw(c.parentElement.dataset.id));
 try{matchMedia('(prefers-color-scheme:dark)').addEventListener('change',rp)}catch(e){}new MutationObserver(rp).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']})}
-tb();sync();load().then(o=>{Object.keys(o).forEach(k=>{if(k==='__proto__'||!Array.isArray(o[k]))return;const have=INK[k]||[],ids=new Set(have.map(s=>s.id));INK[k]=o[k].filter(s=>okStroke(s)&&!ids.has(s.id)).concat(have)});sync()});
+/* MCQs merged or retired in the 2026 audit: their marks move to the question that replaced them (originals kept under old:<id> for backups). */
+const ALIAS={"M.523":"M.421","M.190":"M.180","M.451":"M.370","M.265":"M.270","M.462":"M.485","M.36":"M.38","M.267":"M.273","M.252":"M.249","M.452":"M.384","M.453":"M.386","M.454":"M.387","M.455":"M.379","M.464":"M.480","M.501":"M.394","M.502":"M.407","M.503":"M.406","M.504":"M.396","M.505":"M.395","M.506":"M.403","M.507":"M.400","M.508":"M.415","M.509":"M.416","M.510":"M.420","M.511":"M.421","M.230":"M.35","M.283":"M.261","M.284":"M.263","M.285":"M.262","M.299":"M.286","M.300":"M.287","M.318":"M.304","M.319":"M.302","M.321":"M.310","M.348":"M.341","M.349":"M.340","M.356":"M.350","M.364":"M.359","M.367":"M.365","M.542":"M.347","M.24":"M.12","M.25":"M.13","M.26":"M.16","M.44":"M.32","M.45":"M.34","M.62":"M.47","M.63":"M.49","M.64":"M.51","M.65":"M.48","M.77":"M.69","M.94":"M.88","M.99":"M.81","M.100":"M.86","M.107":"M.103","M.108":"M.104","M.125":"M.123","M.135":"M.119","M.139":"M.136","M.161":"M.150","M.178":"M.176","M.181":"M.179","M.201":"M.198","M.209":"M.207","M.218":"M.214","M.219":"M.213","M.10":"M.9","M.155":"M.154","M.405":"M.403","M.15":"M.14","M.87":"M.81","M.199":"M.198","M.288":"M.286","M.290":"M.286"};
+function migrate(){Object.keys(ALIAS).forEach(r=>{const L=INK[r];if(!L||!L.length)return;const t=ALIAS[r],have=INK[t]||[],ids=new Set(have.map(s=>s.id)),old=INK['old:'+r]||[],oids=new Set(old.map(s=>s.id));
+  INK[t]=have.concat(L.filter(s=>!ids.has(s.id)));INK['old:'+r]=old.concat(L.filter(s=>!oids.has(s.id)));INK[r]=[];persist(t);persist('old:'+r);persist(r)})}
+tb();sync();load().then(o=>{Object.keys(o).forEach(k=>{if(k==='__proto__'||!Array.isArray(o[k]))return;const have=INK[k]||[],ids=new Set(have.map(s=>s.id));INK[k]=o[k].filter(s=>okStroke(s)&&!ids.has(s.id)).concat(have)});try{migrate()}catch(e){}sync()});
 /* union by stroke id: never overwrites what is already on a question */
 function merge(d){let n=0;Object.keys(d||{}).forEach(k=>{if(k==='__proto__'||!Array.isArray(d[k]))return;const have=INK[k]||[],ids=new Set(have.map(s=>s.id)),add=d[k].filter(s=>okStroke(s)&&!ids.has(s.id));
-  if(add.length){INK[k]=have.concat(add);n+=add.length;persist(k);redraw(k)}});sync();return n}
+  if(add.length){INK[k]=have.concat(add);n+=add.length;persist(k);redraw(k)}});try{migrate()}catch(e){}sync();return n}
 /* hooks for the app-wide backup in Menu */
 window.CMINK={read(){const o={};Object.keys(INK).forEach(k=>{if(INK[k]&&INK[k].length)o[k]=INK[k]});return JSON.parse(JSON.stringify(o))},
   clean:cleanInk,merge,mergeAsync(d){const n=merge(d);return flush().then(()=>n)},count(){let n=0;Object.keys(INK).forEach(k=>n+=(INK[k]||[]).length);return n}};
