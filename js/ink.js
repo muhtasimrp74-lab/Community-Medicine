@@ -55,20 +55,24 @@ function frags(a){const b=box(a),items=[],map=new Map(),blocks=new Map(),w=docum
   while(n=w.nextNode()){const p=n.parentElement;if(!p||p.closest('canvas,textarea,script,style,.cmws,.cmws-add'))continue;
     let o=p.closest(BLK);if(!o||o===a||!a.contains(o))o=a;
     let bi=blocks.get(o);if(!bi){bi={k:o===a?'':blkKey(a,o),off:0};blocks.set(o,bi)}
-    const t=n.data;for(let i=0;i<t.length;i++){const ch=t.charCodeAt(i);if(ch<=32||ch===160)continue;rg.setStart(n,i);rg.setEnd(n,i+1);const r=rg.getClientRects()[0];if(!r||(!r.width&&!r.height))continue;
-      const it={k:bi.k,o:bi.off+i,l:r.left-b.left,t:r.top-b.top,r:r.right-b.left,b:r.bottom-b.top};it.cx=(it.l+it.r)/2;it.cy=(it.t+it.b)/2;items.push(it);map.set(it.k+'|'+it.o,it)}
+    const t=n.data;for(let i=0;i<t.length;i++){const ch=t.charCodeAt(i);if(ch<=32||ch===160)continue;bi.t=1;rg.setStart(n,i);rg.setEnd(n,i+1);const r=rg.getClientRects()[0];if(!r||(!r.width&&!r.height))continue;
+      bi.v=1;const it={k:bi.k,o:bi.off+i,l:r.left-b.left,t:r.top-b.top,r:r.right-b.left,b:r.bottom-b.top};it.cx=(it.l+it.r)/2;it.cy=(it.t+it.b)/2;items.push(it);map.set(it.k+'|'+it.o,it)}
     bi.off+=t.length}
-  return{items,map}}
+  /* vis / hid: every path prefix of a block that has visible text / only hidden text (e.g. a collapsed answer). Used by lookFb. */
+  const vis=new Set(),hid=new Set();blocks.forEach(bi=>{if(!bi.t)return;const S=bi.v?vis:hid,p=bi.k?bi.k.split('>'):[];S.add('');for(let i=1;i<=p.length;i++)S.add(p.slice(0,i).join('>'))});
+  return{items,map,vis,hid}}
 function nearest(F,x,y){let best=null,bd=1e18;for(const it of F.items){const dx=x<it.l?it.l-x:x>it.r?x-it.r:0,dy=y<it.t?it.t-y:y>it.b?y-it.b:0,d=dx*dx+dy*dy+((x-it.cx)**2+(y-it.cy)**2)*1e-4;if(d<bd){bd=d;best=it}}return best}
 const sigOf=(a,u)=>a.clientWidth+'x'+a.clientHeight+'@'+u+'#'+(a._mv|0);
 function geo(a,q){const u=unitPx(),s=sigOf(a,u);let G=GEO[q];if(G&&G.a===a&&G.sig===s)return G;return GEO[q]={a,sig:s,u,W:a.clientWidth,H:a.clientHeight,_F:null,wm:new WeakMap()}}
 const getF=G=>G._F||(G._F=frags(G.a)),inv=a=>{a._mv=(a._mv|0)+1};
 const look=(G,k,o)=>{const F=getF(G),m=F.map;for(const d of[0,-1,1,-2,2]){const it=m.get(k+'|'+(o+d));if(it)return it}return lookFb(F,k,o)};
-/* Never lose a mark when the card's text changes (edited question, new explanation line, renamed class): fall back to the last character
-   of the same block, then of the nearest enclosing block, then to the card's first character, so the stroke moves instead of vanishing. */
+/* A mark whose exact character is gone (question text edited) moves to the nearest character of the same visible block, or of a visible
+   enclosing block. Marks inside collapsed/hidden content (a closed answer) or from another layout of the same question are not drawn. */
 function lookFb(F,k,o){if(!F.bmax){F.bmax=new Map();for(const key of F.map.keys()){const i=key.lastIndexOf('|'),b=key.slice(0,i),n=+key.slice(i+1);if(!(F.bmax.get(b)>=n))F.bmax.set(b,n)}}
-  let b=String(k||'');for(;;){if(F.bmax.has(b)){for(let x=Math.min(o,F.bmax.get(b));x>=0;x--){const it=F.map.get(b+'|'+x);if(it)return it}}if(!b)break;const j=b.lastIndexOf('>');b=j>=0?b.slice(0,j):''}
-  return F.items[0]||null}
+  let b=String(k||'');for(;;){if(F.bmax.has(b)){for(let x=Math.min(o,F.bmax.get(b));x>=0;x--){const it=F.map.get(b+'|'+x);if(it)return it}}
+    if(F.hid.has(b)&&!F.vis.has(b))return null; /* the mark sits in content that is collapsed or hidden right now: draw nothing, never pile it elsewhere */
+    if(!b)break;const j=b.lastIndexOf('>');b=j>=0?b.slice(0,j):''}
+  return null}
 /* resolve a stroke to card-space runs. A run breaks where the text wrapped differently and the neighbouring anchors moved apart. */
 function runsOf(G,s){let r=G.wm.get(s);if(r)return r;r=[];
   if(s.v===2){const p=s.p,u=G.u;let run=null,pv=null;for(let i=0;i+5<p.length;i+=6){const it=look(G,s.k[p[i]],p[i+1]);if(!it){run=null;pv=null;continue}

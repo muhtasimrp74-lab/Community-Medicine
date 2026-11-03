@@ -16,6 +16,9 @@ Status
 
 ## Change log
 
+### Fix — marks from closed answers piled onto question cards (cache v57)
+- The v56 fallback drew strokes whose text was hidden (collapsed answer) at the nearest visible spot. Now marks in hidden/collapsed content are simply not drawn until the answer is opened again; the fallback only moves marks within the same visible block (edited text). Tested: mark on open answer → collapse (0 px drawn) → reopen (mark back in place).
+
 ### UI — filters and annotation safety (cache v56)
 - Shared filter component (js/app.js FX) now drives Questions, every Chapter page, MCQ Reading mode and Custom practice: sticky search, Filters button with count, quick chips, removable active chips, grouped panel (Syllabus / Exam history / College papers or Question / My progress) with live counts, sort options. Filter choices are remembered per page (S.fx).
 - Chapter pages: topic chips (or subtopic chips for single-topic parts) as quick filters, plus a Practise/Read MCQs bar for the chosen topic.
