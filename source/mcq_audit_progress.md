@@ -12,9 +12,13 @@ Status
 - New-item audit: parts 1–5 done (batch 5); parts 6–9 done (batch 6); parts 10–11 done (batch 7). New-item audit COMPLETE (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
 - Final duplicate sweep done (batch 8), incl. BCS review (no "all/none of the above" left).
 - AUDIT COMPLETE.
-- EXPLANATIONS (new task): every option gets an "e" field (why true/false, why right/wrong); shown in reading mode, and in practice after Check (js/app.js, css/app.css .ex). Done: parts 1–9. Next: parts 10 → 11 (run batches/edump-style dump of items lacking "e"). Kept by design: an SBA and a TF on the same fact (different formats). Possible follow-ups: web-verify remaining time-sensitive New items (EPI cold-chain temperatures, MDT durations) and add New items to thin topics.
+- EXPLANATIONS (new task): every option gets an "e" field (why true/false, why right/wrong); shown in reading mode, and in practice after Check (js/app.js, css/app.css .ex). COMPLETE: all 477 items, every option explained. When adding or editing an MCQ, give each option an "e" too (Bank.explain). Kept by design: an SBA and a TF on the same fact (different formats). Possible follow-ups: web-verify remaining time-sensitive New items (EPI cold-chain temperatures, MDT durations) and add New items to thin topics.
 
 ## Change log
+
+### Explanations 4 — parts 10–11 (cache v54)
+All 477 MCQs now have per-option explanations.
+- Explanations: parts 10-11 (all items) explanations added for every option; all 477 items now explained
 
 ### Explanations 3 — parts 8–9 (cache v53)
 Option-level explanations added for all part 8–9 items.
