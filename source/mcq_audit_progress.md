@@ -12,9 +12,13 @@ Status
 - New-item audit: parts 1–5 done (batch 5); parts 6–9 done (batch 6); parts 10–11 done (batch 7). New-item audit COMPLETE (batch 5; M.320 from part 8 also fixed). Rule: TF "New" items that repeat a DU TF item are deleted; SBA versions kept if sound.
 - Final duplicate sweep done (batch 8), incl. BCS review (no "all/none of the above" left).
 - AUDIT COMPLETE.
-- EXPLANATIONS (new task): every option gets an "e" field (why true/false, why right/wrong); shown in reading mode, and in practice after Check (js/app.js, css/app.css .ex). Done: part 1. Next: parts 2 → 11 (run batches/edump-style dump of items lacking "e"). Kept by design: an SBA and a TF on the same fact (different formats). Possible follow-ups: web-verify remaining time-sensitive New items (EPI cold-chain temperatures, MDT durations) and add New items to thin topics.
+- EXPLANATIONS (new task): every option gets an "e" field (why true/false, why right/wrong); shown in reading mode, and in practice after Check (js/app.js, css/app.css .ex). Done: parts 1–7. Next: parts 8 → 11 (run batches/edump-style dump of items lacking "e"). Kept by design: an SBA and a TF on the same fact (different formats). Possible follow-ups: web-verify remaining time-sensitive New items (EPI cold-chain temperatures, MDT durations) and add New items to thin topics.
 
 ## Change log
+
+### Explanations 2 — parts 2–7 (cache v52)
+Option-level explanations added for all part 2–7 items.
+- Explanations: parts 2-7 (all items) explanations added for every option
 
 ### Explanations 1 — part 1 (cache v51)
 Option-level explanations added for all part 1 items; app shows them.
