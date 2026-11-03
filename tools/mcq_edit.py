@@ -269,6 +269,19 @@ class Bank:
         self.note(i, note or 'checked vs PDF')
         return q
 
+    def explain(self, i, texts):
+        """Attach an explanation ('e') to every option, in option order (list) or by letter (dict)."""
+        q = self.by[i]
+        if isinstance(texts, (list, tuple)):
+            assert len(texts) == len(q['opts']), (i, len(texts), len(q['opts']))
+            texts = dict(zip([o['l'] for o in q['opts']], texts))
+        for o in q['opts']:
+            if o['l'] in texts:
+                e = texts[o['l']].strip()
+                assert e, (i, o['l'])
+                o['e'] = e
+        self.note(i, 'explanations added')
+
     def stamp_y(self, i):
         """Set every TF option's y to the item's year list."""
         q = self.by[i]

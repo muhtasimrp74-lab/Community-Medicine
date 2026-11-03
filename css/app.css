@@ -257,3 +257,6 @@ a.prow:hover{border-color:var(--accent)}
 .fst{border:1px solid var(--line,#ccc);border-radius:12px;margin:.7rem 0;padding:.2rem .8rem;background:var(--panel)}.fst summary{cursor:pointer;display:flex;justify-content:space-between;gap:.6rem;padding:.6rem 0;font-size:.95rem}.fst summary span{opacity:.75;font-size:.85rem}.sel{padding:.45rem .6rem;border-radius:8px;border:1px solid var(--line,#ccc);background:var(--panel);color:var(--text);max-width:100%}
 
 .qb table{display:block;max-width:100%;overflow-x:auto}
+
+.rd .ex,.tf .ex,.opt .ex{display:block;clear:both;margin-top:.3rem;font-size:.82rem;line-height:1.45;color:var(--muted);font-weight:400;font-style:normal}
+.opt span{flex:1}

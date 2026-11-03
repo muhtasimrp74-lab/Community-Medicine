@@ -499,7 +499,7 @@
       var cls = '', tag = '';
       if (q.kind === 'SBA') { if (o.l === q.ans) { cls = 'k'; tag = '✓ Correct'; } else if (p && p.sba === o.l) { cls = 'w'; tag = 'Your answer'; } }
       else { tag = o.k ? (o.k === 'T' ? 'True' : 'False') : 'no key'; if (o.k) cls = 'k'; if (p && p[o.l]) { if (o.k && !o.conflict && p[o.l] !== o.k) { cls = 'w'; tag += ' · you said ' + (p[o.l] === 'T' ? 'True' : 'False'); } else if (o.k) tag += ' · ✓'; } }
-      h += '<div class="rd ' + cls + '"><b>' + o.l + ')</b> ' + esc(o.t) + (tag ? '<em>' + tag + '</em>' : '') + (o.conflict ? '<small>Papers give different keys for this statement.</small>' : '') + '</div>';
+      h += '<div class="rd ' + cls + '"><b>' + o.l + ')</b> ' + esc(o.t) + (tag ? '<em>' + tag + '</em>' : '') + (o.conflict ? '<small>Papers give different keys for this statement.</small>' : '') + (o.e ? '<small class="ex">' + esc(o.e) + '</small>' : '') + '</div>';
     });
     if (!anskey(q)) h += '<p class="note">The source has no answer key for this item.</p>';
     if (q.ref) h += '<p class="meta">Ref: ' + esc(q.ref) + '</p>';
@@ -616,12 +616,12 @@
     if (q.kind === 'SBA') {
       q.opts.forEach(function (o) {
         var c = ''; if (checked) { if (o.l === q.ans) c = ' ok'; else if (p.sba === o.l) c = ' bad'; } else if (p.sba === o.l) c = ' pick';
-        body += '<button class="opt' + c + '" data-l="' + o.l + '"><b>' + o.l + ')</b><span>' + esc(o.t) + '</span></button>';
+        body += '<button class="opt' + c + '" data-l="' + o.l + '"><b>' + o.l + ')</b><span>' + esc(o.t) + (checked && o.e ? '<small class="ex">' + esc(o.e) + '</small>' : '') + '</span></button>';
       });
     } else {
       q.opts.forEach(function (o) {
         var c = ''; if (checked && o.k && !o.conflict && p[o.l]) c = p[o.l] === o.k ? ' ok' : ' bad';
-        body += '<div class="tf' + c + '" data-l="' + o.l + '"><span class="t"><b>' + o.l + ')</b> ' + esc(o.t) + (checked ? '<small>' + (o.conflict ? 'Papers give different keys for this statement.' : o.k ? 'Correct: ' + (o.k === 'T' ? 'True' : 'False') : 'No key in source') + '</small>' : '') + '</span>' +
+        body += '<div class="tf' + c + '" data-l="' + o.l + '"><span class="t"><b>' + o.l + ')</b> ' + esc(o.t) + (checked ? '<small>' + (o.conflict ? 'Papers give different keys for this statement.' : o.k ? 'Correct: ' + (o.k === 'T' ? 'True' : 'False') : 'No key in source') + '</small>' + (o.e ? '<small class="ex">' + esc(o.e) + '</small>' : '') : '') + '</span>' +
           '<button data-t="T" class="' + (p[o.l] === 'T' ? 'sel' : '') + '">T</button><button data-t="F" class="' + (p[o.l] === 'F' ? 'sel' : '') + '">F</button></div>';
       });
     }
