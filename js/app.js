@@ -498,7 +498,7 @@
     q.opts.forEach(function (o) {
       var cls = '', tag = '';
       if (q.kind === 'SBA') { if (o.l === q.ans) { cls = 'k'; tag = '✓ Correct'; } else if (p && p.sba === o.l) { cls = 'w'; tag = 'Your answer'; } }
-      else { tag = o.k ? (o.k === 'T' ? 'True' : 'False') : 'no key'; if (o.k) cls = 'k'; if (p && p[o.l]) { if (o.k && !o.conflict && p[o.l] !== o.k) { cls = 'w'; tag += ' · you said ' + (p[o.l] === 'T' ? 'True' : 'False'); } else if (o.k) tag += ' · ✓'; } }
+      else { tag = o.k ? (o.k === 'T' ? 'True' : 'False') : 'no key'; if (o.k) cls = o.k === 'T' ? 'k' : 'f'; if (p && p[o.l]) { if (o.k && !o.conflict && p[o.l] !== o.k) { cls += ' x'; tag += ' · ✗ you said ' + (p[o.l] === 'T' ? 'True' : 'False'); } else if (o.k) tag += ' · ✓'; } }
       h += '<div class="rd ' + cls + '"><b>' + o.l + ')</b> ' + esc(o.t) + (tag ? '<em>' + tag + '</em>' : '') + (o.conflict ? '<small>Papers give different keys for this statement.</small>' : '') + (o.e ? '<small class="ex">' + esc(o.e) + '</small>' : '') + '</div>';
     });
     if (!anskey(q)) h += '<p class="note">The source has no answer key for this item.</p>';
@@ -620,8 +620,8 @@
       });
     } else {
       q.opts.forEach(function (o) {
-        var c = ''; if (checked && o.k && !o.conflict && p[o.l]) c = p[o.l] === o.k ? ' ok' : ' bad';
-        body += '<div class="tf' + c + '" data-l="' + o.l + '"><span class="t"><b>' + o.l + ')</b> ' + esc(o.t) + (checked ? '<small>' + (o.conflict ? 'Papers give different keys for this statement.' : o.k ? 'Correct: ' + (o.k === 'T' ? 'True' : 'False') : 'No key in source') + '</small>' + (o.e ? '<small class="ex">' + esc(o.e) + '</small>' : '') : '') + '</span>' +
+        var c = '', ks = o.k ? '<span class="' + (o.k === 'T' ? 'kt">True' : 'kf">False') + '</span>' : ''; if (checked && o.k) c = o.k === 'T' ? ' ok' : ' bad'; if (checked && o.k && !o.conflict && p[o.l] && p[o.l] !== o.k) c += ' miss';
+        body += '<div class="tf' + c + '" data-l="' + o.l + '"><span class="t"><b>' + o.l + ')</b> ' + esc(o.t) + (checked ? '<small>' + (o.conflict ? 'Answer (Park): ' + ks + ' · not scored, papers give different keys' : o.k ? 'Answer: ' + ks + (p[o.l] ? (p[o.l] === o.k ? ' · ✓ you were right' : ' · ✗ you said ' + (p[o.l] === 'T' ? 'True' : 'False')) : ' · not answered') : 'No key in source') + '</small>' + (o.e ? '<small class="ex">' + esc(o.e) + '</small>' : '') : '') + '</span>' +
           '<button data-t="T" class="' + (p[o.l] === 'T' ? 'sel' : '') + '">T</button><button data-t="F" class="' + (p[o.l] === 'F' ? 'sel' : '') + '">F</button></div>';
       });
     }

@@ -260,3 +260,8 @@ a.prow:hover{border-color:var(--accent)}
 
 .rd .ex,.tf .ex,.opt .ex{display:block;clear:both;margin-top:.3rem;font-size:.82rem;line-height:1.45;color:var(--muted);font-weight:400;font-style:normal}
 .opt span{flex:1}
+.rd.f{background:var(--badbg);border-color:var(--bad)}
+.rd.f em,.rd.x em{color:var(--bad)}
+.rd.x,.tf.miss{outline:2px dashed var(--bad);outline-offset:2px}
+.tf small .kt{color:var(--ok);font-weight:700}
+.tf small .kf{color:var(--bad);font-weight:700}
