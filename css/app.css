@@ -325,3 +325,19 @@ a.prow:hover{border-color:var(--accent)}
 .fx-mcq{display:flex;justify-content:space-between;align-items:center;gap:.6rem;flex-wrap:wrap;margin:0 0 .8rem;padding:.65rem .9rem;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:.9rem;background:var(--panel);font-size:var(--fs-sm)}
 .fx-mcq span{display:flex;gap:.4rem;align-items:center}
 @media(min-width:900px){.fx-grid{display:block;columns:2;column-gap:0;column-rule:1px solid var(--line)}.fx-g{break-inside:avoid;display:block}}
+/* ---- chapters by exam group (2021 curriculum) ---- */
+.gjump{display:flex;gap:.45rem;flex-wrap:wrap;margin:1.1rem 0 .4rem}
+.gjump a{flex:1;min-width:5.5rem;text-align:center;padding:.6rem .8rem;border:1px solid var(--line);border-radius:2rem;background:var(--panel);font-weight:700;font-size:var(--fs-sm);color:var(--text);text-decoration:none}
+.gsec{margin:1.6rem 0 2rem;scroll-margin-top:5rem}
+.ghead{display:flex;align-items:flex-start;gap:.9rem;padding:1rem 1.1rem;margin-bottom:1rem;border-radius:1.2rem;background:var(--hero);color:#fff}
+.ghead .gl{flex:none;display:grid;place-items:center;width:3.1rem;height:3.1rem;border-radius:.9rem;background:linear-gradient(135deg,var(--accent),var(--accent2));font:400 1.9rem var(--disp)}
+.ghead .gtx{flex:1;min-width:0}
+.ghead h2{margin:0;font:400 1.5rem var(--disp);color:#fff}
+.ghead .gm{margin:.15rem 0 0;font-size:var(--fs-xs);font-weight:700;color:#f1a8c0}
+.ghead .gtop{margin:.45rem 0 0;font-size:var(--fs-sm);line-height:1.5;opacity:.85}
+.ghead .gst{flex:none;text-align:right;font-size:var(--fs-xs);opacity:.8;line-height:1.5}
+.gnote{font-size:var(--fs-xs);color:var(--muted);margin:1rem 0 2rem}
+.gdiv{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:1.4rem 0 .6rem;padding-bottom:.35rem;border-bottom:2px solid var(--accent)}
+.gdiv b{font:400 1.35rem var(--disp);color:var(--accent)}
+.gdiv span{font-size:var(--fs-xs);color:var(--muted);font-weight:600}
+@media(max-width:560px){.ghead .gst{display:none}}

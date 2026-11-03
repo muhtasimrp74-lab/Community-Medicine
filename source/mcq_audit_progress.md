@@ -16,6 +16,10 @@ Status
 
 ## Change log
 
+### Chapters re-arranged by 2021 curriculum exam groups A–D (cache v59)
+- data/groups.js (loaded after du.js/mcq.js) maps every bank topic to one of 16 chapters: A1–A4, B1–B4, C1–C5, D1–D3, sets q.G (group) and keeps the old part in q.p0. Data files and ids are unchanged, so progress, notes and handwritten marks are unaffected. International Health → A2 and Accidents & Disasters → C5 (not named in the table; same placement as data/predict.js). MDG/SDG items of "Health Indicators & MDGs" → A2 (DU.32, DU.33, M.17–M.19).
+- Chapters page grouped by Group A–D with marks and official topic list; Questions/MCQ lists show group dividers; Group filter added everywhere; one-time reset of saved filters and chapter scroll positions (old part numbers).
+
 ### Resume where you left (cache v58)
 - Each bottom tab remembers its last page; each page remembers scroll, open questions/groups and MCQs loaded (localStorage cmb:view, separate from progress). Survives tab switches, back/forward and Chrome reloading a discarded tab. Tapping the current tab goes to its start page, or to the top if already there. Links with filters (e.g. Read MCQs for a topic) open fresh at the top.
 

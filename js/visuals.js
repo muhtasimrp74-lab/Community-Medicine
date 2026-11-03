@@ -42,11 +42,12 @@
   };
 
   /* one colour (hue 0-360) and one icon per part */
+  /* 16 curriculum chapters (data/groups.js): A1-A4, B1-B4, C1-C5, D1-D3 */
   var PART = {
-    1: { h: 340, i: 'heart' },    2: { h: 215, i: 'chart' },    3: { h: 275, i: 'chat' },
-    4: { h: 150, i: 'leaf' },     5: { h: 35,  i: 'hardhat' },  6: { h: 190, i: 'globe' },
-    7: { h: 12,  i: 'bug' },      8: { h: 320, i: 'mch' },      9: { h: 95,  i: 'apple' },
-    10: { h: 255, i: 'warning' }, 11: { h: 172, i: 'virus' }
+    1: { h: 340, i: 'heart' },   2: { h: 190, i: 'globe' },   3: { h: 300, i: 'people' },  4: { h: 12, i: 'bug' },
+    5: { h: 232, i: 'search' },  6: { h: 215, i: 'chart' },   7: { h: 95, i: 'apple' },    8: { h: 150, i: 'leaf' },
+    9: { h: 255, i: 'building' }, 10: { h: 320, i: 'mch' },   11: { h: 45, i: 'book' },    12: { h: 35, i: 'hardhat' },
+    13: { h: 5, i: 'warning' },  14: { h: 275, i: 'chat' },   15: { h: 200, i: 'shield' }, 16: { h: 172, i: 'virus' }
   };
   /* hue for non-part icons (page headers, tiles) */
   var IHUE = { chart: 215, list: 340, book: 150, pen: 275, check: 172, menu: 255, target: 12, heart: 340, cross: 340,
@@ -93,7 +94,7 @@
     },
     /* coloured strip with pattern, watermark icon and chip: top of a part card */
     banner: function (n) {
-      return '<span class="vbn" aria-hidden="true">' + svg(iconOf(n), 'vbn-art') + '<span class="vbn-n">PART ' + n + '</span>' + V.chip(n, 'lg') + '</span>';
+      return '<span class="vbn" aria-hidden="true">' + svg(iconOf(n), 'vbn-art') + '<span class="vbn-n">' + (window.CM && CM.chapters && CM.chapters[n - 1] ? 'GROUP ' + CM.chapters[n - 1].g + ' · ' + CM.chapters[n - 1].code : 'PART ' + n) + '</span>' + V.chip(n, 'lg') + '</span>';
     },
     /* small coloured topic icon for a topic heading */
     ticon: function (topic, part) {

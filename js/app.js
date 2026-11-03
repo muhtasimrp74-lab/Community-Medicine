@@ -13,7 +13,11 @@
   var partIds = Object.keys(PARTS).map(Number).sort(function (a, b) { return a - b; });
   function dkey(d) { d = d || new Date(); return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
   function bump(t) { S.act = S.act || {}; var k = dkey(), a = S.act[k] = S.act[k] || { r: 0, m: 0 }; a[t]++; }
-  function pname(n) { return 'Part ' + n + ' · ' + PARTS[n]; }
+  function pcode(n) { var c = CM.chapters && CM.chapters[n - 1]; return c ? c.code : 'P' + n; }
+  function pgrp(n) { var c = CM.chapters && CM.chapters[n - 1]; return c ? c.g : ''; }
+  function pname(n) { return pcode(n) + ' · ' + PARTS[n]; }
+  var GRPS = ['A', 'B', 'C', 'D'], GMARK = '17.5 marks · SAQ Q1–4 (answer any three, 3.5 each) · SEQ Q5 (compulsory, 7)';
+  function chOpts() { var o = []; GRPS.forEach(function (g) { var ns = partIds.filter(function (n) { return pgrp(n) === g; }); if (!ns.length) return; o.push({ h: 'Group ' + g }); ns.forEach(function (n) { o.push([n, pname(n)]); }); }); return o; }
   var nRead = function () { return DU.filter(function (q) { return S.read[q.id]; }).length; };
   var nDone = function () { return MCQ.filter(function (q) { return S.mcq[q.id]; }).length; };
 
@@ -50,6 +54,7 @@
      Tapping the tab you are already on goes to that tab's start page (or to the top if you are already there). Saved separately from progress. */
   var VKEY = 'cmb:view', VIEW; try { VIEW = JSON.parse(localStorage.getItem(VKEY) || '{}') || {}; } catch (e) { VIEW = {}; }
   if (!VIEW.p || typeof VIEW.p !== 'object') VIEW.p = {}; if (!VIEW.t || typeof VIEW.t !== 'object') VIEW.t = {};
+  if (VIEW.v !== 'g21') { Object.keys(VIEW.p).forEach(function (k) { if (/^#\/(chapter|read|questions)/.test(k)) delete VIEW.p[k]; }); if (/^#\/chapter\//.test(VIEW.t.chapters || '')) delete VIEW.t.chapters; VIEW.v = 'g21'; }
   var curKey = null, restoring = false, vt;
   function tabOf(r) { return { q: 'questions', chapter: 'chapters', predict: 'menu', firsts: 'menu', read: 'mcqs', custom: 'mcqs', run: 'mcqs' }[r] || r; }
   function vSave() {
@@ -102,7 +107,7 @@
     });
     var keys = Object.keys(tot).map(Number).filter(function (k) { return k >= FROM; }).sort(function (a, b) { return b - a; });
     var all = 0, allN = 0; keys.forEach(function (k) { all += (by[k] || []).length; allN += tot[k]; });
-    var opts = '<option value="">All parts</option>' + partIds.map(function (n) { return '<option value="' + n + '"' + (n === part ? ' selected' : '') + '>' + esc(pname(n)) + '</option>'; }).join('');
+    var opts = '<option value="">All chapters</option>' + partIds.map(function (n) { return '<option value="' + n + '"' + (n === part ? ' selected' : '') + '>' + esc(pname(n)) + '</option>'; }).join('');
     var h = hero({ title: 'First-time questions', desc: 'Questions that appeared in the bank for the first time in each exam session, from 2017 onward.' }) + '<div class="wrap" style="padding-top:1rem">' +
       '<div class="card pbox"><div class="k">How to read this</div><div class="m">A question is \u201cfirst-time\u201d when its earliest exam-year tag in this bank is that session. Across ' + keys.length + ' sessions, ' + all + ' of ' + allN + ' question appearances (' + Math.round(all / allN * 100) + '%) were new. Questions with no exam-year tag (college scenarios) are not counted. Rewordings are merged, so a truly reworded old question is not shown as new.</div></div>' +
       '<div class="row"><select id="f-part" class="sel" aria-label="Filter by part">' + opts + '</select></div>';
@@ -329,11 +334,13 @@
   }
   function groupedRows(list, openAll) {
     var h = '';
+    var lastG = '', multi = GRPS.filter(function (g) { return list.some(function (q) { return q.G === g; }); }).length > 1;
     partIds.forEach(function (n) {
       var items = list.filter(function (q) { return q.part === n; }); if (!items.length) return;
+      if (multi && pgrp(n) !== lastG) { lastG = pgrp(n); h += '<p class="gdiv"><b>Group ' + lastG + '</b><span>' + GMARK + '</span></p>'; }
       var done = items.filter(function (q) { return S.read[q.id]; }).length, byT = {}, order = [];
       items.forEach(function (q) { if (!byT[q.topic]) { byT[q.topic] = []; order.push(q.topic); } byT[q.topic].push(q); });
-      h += '<div class="grp' + (openAll ? ' open' : '') + '"><button type="button" data-a="grp">' + CMV.chip(n) + '<span class="tt">' + esc(PARTS[n]) + '<span class="ct">Part ' + n + ' · ' + items.length + ' question' + (items.length === 1 ? '' : 's') + ' · ' + done + ' read</span></span><span class="chev">›</span></button><div class="body">' +
+      h += '<div class="grp' + (openAll ? ' open' : '') + '"><button type="button" data-a="grp">' + CMV.chip(n) + '<span class="tt">' + esc(PARTS[n]) + '<span class="ct">Group ' + pgrp(n) + ' · ' + pcode(n) + ' · ' + items.length + ' question' + (items.length === 1 ? '' : 's') + ' · ' + done + ' read</span></span><span class="chev">›</span></button><div class="body">' +
         order.map(function (t) { return '<p class="tlabel">' + CMV.ticon(t, n) + esc(t) + ' <small>' + byT[t].length + '</small></p>' + subBlocks(n, t, byT[t]); }).join('') + '</div></div>';
     });
     return h;
@@ -407,7 +414,7 @@
   /* ------------------------------------------------------------ shared filter panel (Questions, Chapter, MCQ reading, Custom practice)
      One component: sticky search + Filters button, quick chips, removable active chips, and a grouped panel whose chips show live counts.
      Filters only ever re-render the result list; cards keep their data-id, so handwritten notes on them are redrawn, never removed. */
-  S.fx = S.fx && typeof S.fx === 'object' ? S.fx : {};
+  S.fx = S.fx && typeof S.fx === 'object' && S.fxv === 'g21' ? S.fx : {}; S.fxv = 'g21';
   function fxState(id) { var s = S.fx[id]; if (!s || typeof s !== 'object' || !s.f) s = S.fx[id] = { txt: '', f: {}, yfrom: 0, yto: 0, sort: '' }; return s; }
   function fxReset(st) { st.txt = ''; st.f = {}; st.yfrom = 0; st.yto = 0; }
   function fxClean(path) { try { history.replaceState(null, '', path); } catch (e) {} }
@@ -515,15 +522,15 @@
 
   /* ---- DU written-question filters (Questions page and each chapter) ---- */
   function qnoun(n) { return n === 1 ? 'question' : 'questions'; }
-  var DUG = [{ t: 'Syllabus', k: ['part', 'topic', 'sub'] }, { t: 'Exam history', k: ['range', 'yr', 'rec', 'ses', 'stars', 'kind'] }, { t: 'College papers', k: ['col', 'paper'] }, { t: 'My progress', k: ['st', 'ans'] }];
-  var DUQ = [['stars', 3, '★★★ High-yield'], ['rec', 'new5', 'Last 5 years'], ['st', 'unread', 'Not read'], ['st', 'flagged', 'Flagged'], ['kind', 'SEQ', 'SEQ'], ['kind', 'Case-based', 'Case-based']];
+  var DUG = [{ t: 'Syllabus', k: ['G', 'part', 'topic', 'sub'] }, { t: 'Exam history', k: ['range', 'yr', 'rec', 'ses', 'stars', 'kind'] }, { t: 'College papers', k: ['col', 'paper'] }, { t: 'My progress', k: ['st', 'ans'] }];
+  var DUQ = [['G', 'A', 'Group A'], ['G', 'B', 'Group B'], ['G', 'C', 'Group C'], ['G', 'D', 'Group D'], ['stars', 3, '★★★ High-yield'], ['rec', 'new5', 'Last 5 years'], ['st', 'unread', 'Not read'], ['st', 'flagged', 'Flagged'], ['kind', 'SEQ', 'SEQ'], ['kind', 'Case-based', 'Case-based']];
   var DUS = [['syl', 'By syllabus'], ['new', 'Newest first'], ['imp', 'Most important']];
   var DUR = { label: 'DU Written year range', vals: function () { return FACETS.filter(function (f) { return f[0] === 'yr'; })[0][4]; }, get: function (q) { return q.years.map(function (y) { return yparse(y).y; }); } };
   function duFacets(part) {
     var fs = [];
-    if (!part) fs.push({ k: 'part', l: 'Part', num: 1, get: function (q) { return [q.part]; }, lab: function (v) { return 'P' + v + ' ' + PARTS[v]; }, opts: function () { return partIds.map(function (n) { return [n, 'P' + n + ' · ' + PARTS[n]]; }); } });
-    fs.push({ k: 'topic', l: 'Topic', dep: 1, get: function (q) { return [q.topic]; }, lab: function (v) { return v; }, hint: function () { return 'Choose a part to see its topics.'; },
-      opts: function (st) { var ps = part ? [part] : (st.f.part || []), o = []; ps.forEach(function (n) { if (!part) o.push({ h: 'P' + n + ' · ' + PARTS[n] }); topicsOf(DU, n).forEach(function (t) { o.push([t, t]); }); }); return o; } });
+    if (!part) { fs.push({ k: 'G', l: 'Exam group', get: function (q) { return [q.G]; }, lab: function (v) { return 'Group ' + v; }, opts: function () { return GRPS.map(function (g) { return [g, 'Group ' + g]; }); } }); fs.push({ k: 'part', l: 'Chapter', num: 1, get: function (q) { return [q.part]; }, lab: function (v) { return pname(v); }, opts: chOpts }); }
+    fs.push({ k: 'topic', l: 'Topic', dep: 1, get: function (q) { return [q.topic]; }, lab: function (v) { return v; }, hint: function () { return 'Choose a chapter to see its topics.'; },
+      opts: function (st) { var ps = part ? [part] : (st.f.part || []), o = []; ps.forEach(function (n) { if (!part) o.push({ h: pname(n) }); topicsOf(DU, n).forEach(function (t) { o.push([t, t]); }); }); return o; } });
     fs.push({ k: 'sub', l: 'Subtopic', dep: 1, get: function (q) { return [q.sub || '~']; }, lab: function (v) { return v === '~' ? 'Other in topic' : v; }, hint: function (st) { return duTopics(st, part).length ? '' : 'Choose a topic to see its subtopics.'; },
       opts: function (st) { var o = []; duTopics(st, part).forEach(function (t) { var q0 = DU.filter(function (q) { return q.topic === t; })[0], seq = q0 && CM.subs && CM.subs[q0.part + '|' + t]; if (!seq || !seq.length) return; o.push({ h: t }); seq.forEach(function (sb) { o.push([sb, sb]); }); o.push(['~', 'Other in this topic']); }); return o; } });
     FACETS.forEach(function (f) { fs.push({ k: f[0], l: f[1], num: f[0] === 'stars' || f[0] === 'yr', get: f[2], lab: function (v) { return String(f[3](v)); }, opts: function () { return f[4].map(function (v) { return [v, String(f[3](v))]; }); } }); });
@@ -573,23 +580,31 @@
 
   /* ------------------------------------------------------------ chapters */
   function chapters() {
-    var h = hero({ crumb: '<a href="#/">Home</a> › Chapters', icon: 'book', title: 'Chapters', desc: 'Pick a part to study its questions topic by topic, and jump to the matching MCQs. For one flat list to drill, use Questions.',
-      btns: '<a class="bigbtn fill" href="#/questions">All questions</a>', pills: [partIds.length + ' parts', DU.length + ' questions', MCQ.length + ' MCQs'] });
-    h += wrap('<div class="pgrid">' + partIds.map(function (n) {
+    var h = hero({ crumb: '<a href="#/">Home</a> › Chapters', icon: 'book', title: 'Chapters', desc: 'Arranged by the four written-exam groups of the 2021 curriculum. Each group is worth 17.5 marks: SAQ questions 1–4 (answer any three, 3.5 marks each) and SEQ question 5 (compulsory, 7 marks). MCQs (MTF 10 + SBA 10) come from every chapter.',
+      btns: '<a class="bigbtn fill" href="#/questions">All questions</a>', pills: ['4 groups', partIds.length + ' chapters', DU.length + ' questions', MCQ.length + ' MCQs'] });
+    var card = function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; }), d = qs.filter(function (q) { return S.read[q.id]; }).length, tp = topicsOf(qs);
-      return '<a class="pcard vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<span class="num">P' + n + '</span><h3>' + esc(PARTS[n]) + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span><span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topics · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
-    }).join('') + '</div>');
+      return '<a class="pcard vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<span class="num">' + pcode(n) + '</span><h3>' + esc(PARTS[n]) + (CM.chapters[n - 1].extra ? ' <sup title="Not named in the curriculum table">*</sup>' : '') + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span><span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ' · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
+    };
+    var body = GRPS.map(function (g) {
+      var ns = partIds.filter(function (n) { return pgrp(n) === g; }), qs = DU.filter(function (q) { return q.G === g; }), d = qs.filter(function (q) { return S.read[q.id]; }).length, gi = CM.groups && CM.groups[g];
+      return '<section class="gsec" id="group-' + g + '"><div class="ghead"><span class="gl">' + g + '</span><div class="gtx"><h2>Group ' + g + '</h2><p class="gm">' + GMARK + '</p>' +
+        (gi ? '<p class="gtop">' + gi.topics.map(esc).join(' · ') + '</p>' : '') + '</div><span class="gst">' + qs.length + ' questions<br>' + d + ' read</span></div><div class="pgrid">' + ns.map(card).join('') + '</div></section>';
+    }).join('');
+    h += wrap('<nav class="gjump" aria-label="Jump to group">' + GRPS.map(function (g) { return '<a href="#/chapters" data-gj="' + g + '">Group ' + g + '</a>'; }).join('') + '</nav>' + body +
+      '<p class="gnote">* Not named in the curriculum table; placed where this site\'s exam predictions put it: International Health in A2, Accidents & Disasters as C5. Health indicators stay in A1; MDG and SDG questions are in A2.</p>');
     main.innerHTML = h;
+    main.querySelectorAll('[data-gj]').forEach(function (a) { a.onclick = function (e) { e.preventDefault(); var t = document.getElementById('group-' + a.dataset.gj); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' }); }; });
   }
   function chapter(r) {
     var n = +r.id; if (!PARTS[n]) { location.hash = '#/chapters'; return; }
     var list = DU.filter(function (q) { return q.part === n; }), tp = topicsOf(list), ms = MCQ.filter(function (q) { return q.part === n; }), mt = topicsOf(ms);
     var st = fxState('ch' + n);
     if (r.qs.topic || r.qs.q) { fxReset(st); if (r.qs.topic) st.f.topic = [r.qs.topic]; st.txt = r.qs.q || ''; fxClean('#/chapter/' + n); }
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › Part ' + n, part: n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ', ' + ms.length + ' MCQs.',
+    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › ' + pcode(n) + ' (Group ' + pgrp(n) + ')', part: n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ', ' + ms.length + ' MCQs.',
       btns: '<div class="btnrow"><button class="bigbtn fill" data-go="practice">Practise MCQs</button><a class="bigbtn" href="#/read?part=' + n + '">Read MCQs</a></div>' });
     h += '<div class="wrap">' + progLine(list.filter(function (q) { return S.read[q.id]; }).length, list.length, 'read') + recLegend() + '<div id="fxc"></div>' +
-      '<div class="pager">' + (n > 1 ? '<a class="btn ghost sm" href="#/chapter/' + (n - 1) + '">← Part ' + (n - 1) + '</a>' : '<span></span>') + (PARTS[n + 1] ? '<a class="btn ghost sm" href="#/chapter/' + (n + 1) + '">Part ' + (n + 1) + ' →</a>' : '') + '</div></div>';
+      '<div class="pager">' + (n > 1 ? '<a class="btn ghost sm" href="#/chapter/' + (n - 1) + '">← ' + pcode(n - 1) + '</a>' : '<span></span>') + (PARTS[n + 1] ? '<a class="btn ghost sm" href="#/chapter/' + (n + 1) + '">' + pcode(n + 1) + ' →</a>' : '') + '</div></div>';
     main.innerHTML = h;
     FX({ id: 'ch' + n, kind: 'du', el: $('#fxc'), st: st, pool: function () { return list; }, facets: duFacets(n), groups: DUG, range: DUR, text: duText, noun: qnoun,
       ph: 'Search in ' + PARTS[n], quick: function (st) { var q = tp.length > 1 ? tp.map(function (t) { return ['topic', t, t]; }) : [], ts = duTopics(st, n); if (ts.length === 1) { var seq = (CM.subs && CM.subs[n + '|' + ts[0]]) || []; q = q.concat(seq.map(function (sb) { return ['sub', sb, sb]; })); } return q; }, sorts: DUS, sort: duSort, tools: XTOOLS,
@@ -677,8 +692,8 @@
     h += '<p class="h2s">Practise</p><div class="tiles">' + tile('quick', 'Quick 10', 'Mixed questions, answer shown after each') + tile('custom', 'Custom practice', 'Pick parts, topics, type, status') + tile('mock', 'Mock paper', '20 questions, 30 minutes, marked at the end') +
       tile('read', 'Reading mode', 'Every question with the answers shown') + tile('mist', 'Mistake bank', mist + ' question' + (mist === 1 ? '' : 's') + ' you got wrong', '', !mist) + tile('fresh', 'Not tried yet', left + ' MCQs you have not attempted') + '</div>';
     h += '<p class="h2s">Browse by chapter</p>' + partIds.map(function (p) {
-      var ms = MCQ.filter(function (q) { return q.part === p; }), a = ms.filter(function (q) { return S.mcq[q.id]; }).length, rt = ms.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length;
-      return '<details class="grp mxd"><summary>' + CMV.chip(p) + '<span class="tt">' + esc(PARTS[p]) + '<span class="ct">' + ms.length + ' MCQs · ' + (a ? Math.round(rt / a * 100) + '% right of ' + a + ' tried' : 'not started') + '</span></span><span class="chev">›</span></summary><div class="body">' +
+      var gh = p === 1 || pgrp(p) !== pgrp(p - 1) ? '<p class="gdiv"><b>Group ' + pgrp(p) + '</b><span>' + GMARK + '</span></p>' : '', ms = MCQ.filter(function (q) { return q.part === p; }), a = ms.filter(function (q) { return S.mcq[q.id]; }).length, rt = ms.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length;
+      return gh + '<details class="grp mxd"><summary>' + CMV.chip(p) + '<span class="tt">' + esc(PARTS[p]) + '<span class="ct">' + pcode(p) + ' · ' + ms.length + ' MCQs · ' + (a ? Math.round(rt / a * 100) + '% right of ' + a + ' tried' : 'not started') + '</span></span><span class="chev">›</span></summary><div class="body">' +
         topicsOf(ms).map(function (t) { var tm = ms.filter(function (q) { return q.topic === t; }), ta = tm.filter(function (q) { return S.mcq[q.id]; }).length; return '<div class="tp"><span>' + esc(t) + '<small>' + tm.length + ' MCQs' + (ta ? ' · ' + ta + ' tried' : '') + '</small></span><button class="sbtn" data-go="topic" data-p="' + p + '" data-t="' + esc(t) + '">Practise</button><a class="sbtn" href="' + url('#/read', { part: p, topic: t }) + '">Read</a></div>'; }).join('') +
         '<div class="tp all"><span>Whole part<small>' + ms.length + ' MCQs</small></span><button class="sbtn" data-go="part" data-p="' + p + '">Practise</button><a class="sbtn" href="#/read?part=' + p + '">Read</a></div></div></details>';
     }).join('');
@@ -713,9 +728,10 @@
   function mfix(k, order) { return { k: k, l: { kind: 'Question type', src: 'Source', key: 'Answer key', rec: 'Asked in DU', rep: 'Times asked', st: 'Your progress' }[k], lab: function (v) { return MLAB[k][v] || v; }, opts: function () { return order.map(function (v) { return [v, MLAB[k][v]]; }); } }; }
   function mcqFacets() {
     var f = [
-      { k: 'part', l: 'Part', num: 1, get: function (q) { return [q.part]; }, lab: function (v) { return 'P' + v + ' ' + PARTS[v]; }, opts: function () { return partIds.map(function (n) { return [n, 'P' + n + ' · ' + PARTS[n]]; }); } },
-      { k: 'topic', l: 'Topic', dep: 1, get: function (q) { return [q.topic]; }, lab: function (v) { return v; }, hint: function () { return 'Choose a part to see its topics.'; },
-        opts: function (st) { var o = []; (st.f.part || []).forEach(function (n) { o.push({ h: 'P' + n + ' · ' + PARTS[n] }); topicsOf(MCQ, n).forEach(function (t) { o.push([t, t]); }); }); return o; } },
+      { k: 'G', l: 'Exam group', get: function (q) { return [q.G]; }, lab: function (v) { return 'Group ' + v; }, opts: function () { return GRPS.map(function (g) { return [g, 'Group ' + g]; }); } },
+      { k: 'part', l: 'Chapter', num: 1, get: function (q) { return [q.part]; }, lab: function (v) { return pname(v); }, opts: chOpts },
+      { k: 'topic', l: 'Topic', dep: 1, get: function (q) { return [q.topic]; }, lab: function (v) { return v; }, hint: function () { return 'Choose a chapter to see its topics.'; },
+        opts: function (st) { var o = []; (st.f.part || []).forEach(function (n) { o.push({ h: pname(n) }); topicsOf(MCQ, n).forEach(function (t) { o.push([t, t]); }); }); return o; } },
       mfix('kind', ['SBA', 'TF']), mfix('src', ['DU', 'BCS', 'New']), mfix('key', ['clean', 'disp']), mfix('rec', ['new2', 'new5', 'du', 'none']), mfix('rep', ['r2', 'r3', 'r1']),
       { k: 'year', l: 'DU paper', get: function (q) { return q.years; }, lab: function (v) { return yparse(v).label; }, opts: function () { return MYEARS.map(function (y) { return [y, yparse(y).label]; }); } },
       mfix('st', ['todo', 'wrong', 'right', 'flagged'])];
@@ -726,8 +742,8 @@
     f.forEach(function (x) { if (!x.get) x.get = G[x.k]; });
     return f;
   }
-  var MG = [{ t: 'Syllabus', k: ['part', 'topic'] }, { t: 'Question', k: ['kind', 'src', 'key'] }, { t: 'Exam history', k: ['rec', 'rep', 'year'] }, { t: 'My progress', k: ['st'] }];
-  var MQ = [['st', 'todo', 'Not tried'], ['st', 'wrong', 'Got wrong'], ['src', 'DU', 'Past DU'], ['rec', 'new5', 'Last 5 years'], ['kind', 'SBA', 'SBA'], ['kind', 'TF', 'True / False']];
+  var MG = [{ t: 'Syllabus', k: ['G', 'part', 'topic'] }, { t: 'Question', k: ['kind', 'src', 'key'] }, { t: 'Exam history', k: ['rec', 'rep', 'year'] }, { t: 'My progress', k: ['st'] }];
+  var MQ = [['G', 'A', 'Group A'], ['G', 'B', 'Group B'], ['G', 'C', 'Group C'], ['G', 'D', 'Group D'], ['st', 'todo', 'Not tried'], ['st', 'wrong', 'Got wrong'], ['src', 'DU', 'Past DU'], ['rec', 'new5', 'Last 5 years'], ['kind', 'SBA', 'SBA'], ['kind', 'TF', 'True / False']];
   var MS = [['syl', 'Syllabus order'], ['new', 'Newest first'], ['rep', 'Most repeated']];
   var MRANK = (function () { var r = {}; partIds.forEach(function (p) { topicsOf(MCQ, p).forEach(function (t, i) { r[p + '|' + t] = i; }); }); return r; })();
   function mSort(list, s) {
