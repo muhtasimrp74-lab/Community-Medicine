@@ -16,6 +16,9 @@ Status
 
 ## Change log
 
+### Resume where you left (cache v58)
+- Each bottom tab remembers its last page; each page remembers scroll, open questions/groups and MCQs loaded (localStorage cmb:view, separate from progress). Survives tab switches, back/forward and Chrome reloading a discarded tab. Tapping the current tab goes to its start page, or to the top if already there. Links with filters (e.g. Read MCQs for a topic) open fresh at the top.
+
 ### Fix — marks from closed answers piled onto question cards (cache v57)
 - The v56 fallback drew strokes whose text was hidden (collapsed answer) at the nearest visible spot. Now marks in hidden/collapsed content are simply not drawn until the answer is opened again; the fallback only moves marks within the same visible block (edited text). Tested: mark on open answer → collapse (0 px drawn) → reopen (mark back in place).
 

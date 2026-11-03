@@ -34,13 +34,58 @@
     var r = parse();
     document.querySelectorAll('#bnav a').forEach(function (a) { var k = a.getAttribute('data-r'); a.classList.toggle('on', k === r.r || (r.r === 'q' && k === 'questions') || (r.r === 'chapter' && k === 'chapters') || (r.r === 'predict' && k === 'menu') || (r.r === 'firsts' && k === 'menu') || (['read','custom','run'].indexOf(r.r) >= 0 && k === 'mcqs')); });
     var fn = { home: home, progress: progress, questions: questions, q: single, chapters: chapters, chapter: chapter, answers: answers, mcqs: mcqs, custom: custom, read: reading, run: run, menu: menu, predict: predict, firsts: firsts }[r.r] || home;
-    if (!keep) shown = 30;
+    if (!keep) { vSnap(); shown = 30; }
     var y = window.scrollY; stopTimer();
     fn(r);
-    if (keep) window.scrollTo(0, y); else window.scrollTo(0, 0);
+    var key = location.hash || '#/'; curKey = key; VIEW.t[tabOf(r.r)] = key;
+    if (keep) window.scrollTo(0, y); else if (Object.keys(r.qs).length || !vRestore(key)) window.scrollTo(0, 0);
+    vSave();
     document.title = 'Community Medicine — ' + ({ home: 'Dashboard', questions: 'Questions', q: 'Question', progress: 'Progress', chapters: 'Chapters', chapter: 'Chapter', answers: 'Answers', mcqs: 'MCQs', custom: 'Custom practice', read: 'Reading mode', run: 'MCQ session', menu: 'Menu', predict: 'Prediction for Prof', firsts: 'First-time questions' }[r.r] || 'DU Question Bank');
   }
   window.addEventListener('hashchange', function () { route(false); });
+
+  /* ------------------------------------------------------------ remember where you were
+     Each page (by its #hash) keeps its scroll position, open questions, open groups and how many MCQs were loaded, and each bottom tab
+     remembers the last page you had open in it. Switching tabs, going back, or Chrome reloading a discarded tab returns you to the same spot.
+     Tapping the tab you are already on goes to that tab's start page (or to the top if you are already there). Saved separately from progress. */
+  var VKEY = 'cmb:view', VIEW; try { VIEW = JSON.parse(localStorage.getItem(VKEY) || '{}') || {}; } catch (e) { VIEW = {}; }
+  if (!VIEW.p || typeof VIEW.p !== 'object') VIEW.p = {}; if (!VIEW.t || typeof VIEW.t !== 'object') VIEW.t = {};
+  var curKey = null, restoring = false, vt;
+  function tabOf(r) { return { q: 'questions', chapter: 'chapters', predict: 'menu', firsts: 'menu', read: 'mcqs', custom: 'mcqs', run: 'mcqs' }[r] || r; }
+  function vSave() {
+    var ks = Object.keys(VIEW.p); if (ks.length > 40) ks.sort(function (a, b) { return VIEW.p[a].t - VIEW.p[b].t; }).slice(0, ks.length - 40).forEach(function (k) { delete VIEW.p[k]; });
+    try { localStorage.setItem(VKEY, JSON.stringify(VIEW)); } catch (e) {}
+  }
+  function vSnap() {
+    if (!curKey || restoring) return;
+    var g = [].map.call(main.querySelectorAll('.grp'), function (x) { return x.tagName === 'DETAILS' ? x.open : x.classList.contains('open'); });
+    var o = [].map.call(main.querySelectorAll('.qrow.open'), function (x) { return x.dataset.id; });
+    VIEW.p[curKey] = { y: Math.round(window.scrollY), g: g, o: o, n: curKey.indexOf('#/read') === 0 ? shown : 0, t: Date.now() };
+    vSave();
+  }
+  function vRestore(key) {
+    var v = VIEW.p[key]; if (!v) return false;
+    restoring = true;
+    var gs = main.querySelectorAll('.grp');
+    if (v.g && v.g.length === gs.length) [].forEach.call(gs, function (x, i) { if (x.tagName === 'DETAILS') x.open = !!v.g[i]; else x.classList.toggle('open', !!v.g[i]); });
+    (v.o || []).forEach(function (id) { var r = main.querySelector('.qrow[data-id="' + String(id).replace(/["\\]/g, '') + '"]'); if (r) r.classList.add('open'); });
+    var moved = false, stop = function () { moved = true; };
+    window.addEventListener('touchstart', stop, { once: true, passive: true }); window.addEventListener('wheel', stop, { once: true, passive: true });
+    var go = function () { if (!moved) window.scrollTo(0, v.y || 0); };
+    go(); requestAnimationFrame(go); setTimeout(function () { go(); restoring = false; }, 300);
+    return true;
+  }
+  window.addEventListener('scroll', function () { clearTimeout(vt); vt = setTimeout(vSnap, 300); }, { passive: true });
+  document.addEventListener('visibilitychange', function () { if (document.hidden) vSnap(); });
+  window.addEventListener('pagehide', vSnap);
+  main.addEventListener('click', function () { setTimeout(vSnap, 60); });
+  var bnav = document.getElementById('bnav');
+  if (bnav) bnav.addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-r]'); if (!a) return;
+    var k = a.dataset.r, here = tabOf(parse().r), cur = location.hash || '#/', last = VIEW.t[k];
+    if (k !== here) { if (last && last !== cur) { e.preventDefault(); location.hash = last; } }
+    else if (a.getAttribute('href') === cur || (k === 'home' && (cur === '#/' || cur === '#'))) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  });
 
 
 
@@ -719,14 +764,14 @@
 
   /* ------------------------------------------------------------ reading mode */
   function reading(r) {
-    var st = fxState('mr'), cur = [];
+    var st = fxState('mr'), cur = [], vp = !Object.keys(r.qs).length && VIEW.p['#/read'], want = vp && vp.n > 30 ? vp.n : 30, first = true;
     if (Object.keys(r.qs).length) { seedM(st, r.qs); fxClean('#/read'); }
     main.innerHTML = hero({ crumb: '<a href="#/">Home</a> › <a href="#/mcqs">MCQs</a> › Reading mode', icon: 'book', title: 'Reading mode', desc: 'Every MCQ with its answer and explanations shown, for revision without pressure. Filter to a topic, a paper or your mistakes, then practise the same set.',
       btns: '<div class="btnrow"><button class="bigbtn fill" id="rp">Practise these</button><a class="bigbtn" href="#/mcqs">MCQ home</a></div>', pills: [MCQ.length + ' MCQs'] }) + '<div class="wrap"><div id="fxm"></div></div>';
     FX({ id: 'mr', kind: 'm', el: $('#fxm'), st: st, pool: function () { return MCQ; }, facets: mcqFacets(), groups: MG, text: mText, noun: mnoun,
       ph: 'Search MCQs, options and explanations', quick: MQ, sorts: MS, sort: mSort,
       list: function (list) {
-        cur = list; shown = 30;
+        cur = list; shown = first ? want : 30; first = false;
         if (!list.length) return '<div class="empty-state"><h2>No MCQs match</h2><p>Remove a filter, or clear them all, to see more.</p></div>';
         return list.slice(0, shown).map(function (q) { return readCard(q); }).join('') + (list.length > shown ? '<button class="btn ghost more" data-more="1">Show more (' + (list.length - shown) + ' left)</button>' : '');
       },
