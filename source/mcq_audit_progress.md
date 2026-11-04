@@ -16,6 +16,12 @@ Status
 
 ## Change log
 
+### Groups re-derived from the DU new-curriculum papers Nov 2025 + May 2026 (cache v61)
+- data/groups.js layout "groups2026": 20 chapters. A: A1 Health & disease, A2 Health care/PHC/national programmes, A3 Behavioural science, A4 MCH, A5 Immunity/immunization/disinfection. B: B1 Epidemiology, B2 Research & biostatistics, B3 Family planning, B4 Nutrition, B5 Health administration. C: C1 Environment, C2 Occupational, C3 School health, C4 Communication & HE, C5 International health, C6 Entomology, C7 Accidents & disasters. D: D1 Demography, D2 Communicable diseases, D3 NCD.
+- Rule: May 2026 decides when the papers disagree (immunity A vs D; nutrition B vs C; water/communication/school/occupational C vs A). Each chapter shows its evidence ("Asked: ...").
+- Device data: read/flags/notes/MCQ results/sessions and ink are keyed by question id and untouched. Saved filters (S.fx) and scroll positions (cmb:view) from layout "groups2021" are migrated via CM.layoutMoves (old chapter -> new chapters), not wiped. Verified in a browser with a simulated old device.
+- Not changed: data/predict.js still uses its own (older) group split.
+
 ### NMC suggested problem-based questions (cache v60)
 - 21 NMC questions added to data/du.js directly as kind "Case-based", college tag "NMC (Suggested Qn)": DU.766–DU.784 (Q7 and Q11 are the same question → one item DU.772); Q10 (missing IUCD thread) merged into DU.481 (MuMC), with its wording and a "what will you do" answer appended. Question wording kept (typos fixed); answers expanded. Corrections flagged in-answer: Q2(a) is marasmic kwashiorkor (key said kwashiorkor); Q20 WHO 2018: drinking milk of a rabid animal needs no PEP; Q21 sunken eyes + slow pinch = some dehydration (Plan B), severe → Plan C.
 - data/du.js now holds manual additions: do NOT run tools/build_banks.py (it would drop them).

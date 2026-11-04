@@ -54,7 +54,13 @@
      Tapping the tab you are already on goes to that tab's start page (or to the top if you are already there). Saved separately from progress. */
   var VKEY = 'cmb:view', VIEW; try { VIEW = JSON.parse(localStorage.getItem(VKEY) || '{}') || {}; } catch (e) { VIEW = {}; }
   if (!VIEW.p || typeof VIEW.p !== 'object') VIEW.p = {}; if (!VIEW.t || typeof VIEW.t !== 'object') VIEW.t = {};
-  if (VIEW.v !== 'g21') { Object.keys(VIEW.p).forEach(function (k) { if (/^#\/(chapter|read|questions)/.test(k)) delete VIEW.p[k]; }); if (/^#\/chapter\//.test(VIEW.t.chapters || '')) delete VIEW.t.chapters; VIEW.v = 'g21'; }
+  if (VIEW.v !== CM.layout) {
+    var mvv = VIEW.v === 'g21' ? (CM.layoutMoves || {}).groups2021 : null, nvp = {};
+    Object.keys(VIEW.p).forEach(function (k) { var m = /^#\/chapter\/(\d+)$/.exec(k); if (!m) { nvp[k] = VIEW.p[k]; return; } var t = mvv && mvv[+m[1]]; if (t && t.length === 1 && !nvp['#/chapter/' + t[0]]) nvp['#/chapter/' + t[0]] = VIEW.p[k]; });
+    VIEW.p = nvp;
+    var tc = /^#\/chapter\/(\d+)$/.exec(VIEW.t.chapters || ''), t2 = tc && mvv && mvv[+tc[1]]; if (tc) { if (t2 && t2.length) VIEW.t.chapters = '#/chapter/' + t2[0]; else delete VIEW.t.chapters; }
+    VIEW.v = CM.layout;
+  }
   var curKey = null, restoring = false, vt;
   function tabOf(r) { return { q: 'questions', chapter: 'chapters', predict: 'menu', firsts: 'menu', read: 'mcqs', custom: 'mcqs', run: 'mcqs' }[r] || r; }
   function vSave() {
@@ -414,7 +420,22 @@
   /* ------------------------------------------------------------ shared filter panel (Questions, Chapter, MCQ reading, Custom practice)
      One component: sticky search + Filters button, quick chips, removable active chips, and a grouped panel whose chips show live counts.
      Filters only ever re-render the result list; cards keep their data-id, so handwritten notes on them are redrawn, never removed. */
-  S.fx = S.fx && typeof S.fx === 'object' && S.fxv === 'g21' ? S.fx : {}; S.fxv = 'g21';
+  /* saved filters follow the chapter layout of data/groups.js: when the layout changes they are carried over (chapter numbers remapped), not wiped */
+  (function () {
+    var L = CM.layout || 'g', from = S.fxv === 'g21' ? (CM.layoutMoves || {}).groups2021 : null;
+    if (!S.fx || typeof S.fx !== 'object') S.fx = {};
+    if (S.fxv === L) return;
+    if (!from) { if (S.fxv !== undefined) S.fx = {}; S.fxv = L; return; }
+    var nf = {};
+    Object.keys(S.fx).forEach(function (k) {
+      var st = S.fx[k]; if (!st || typeof st !== 'object') return;
+      if (st.f && st.f.part) { var np = []; st.f.part.forEach(function (o) { (from[o] || []).forEach(function (n) { if (np.indexOf(n) < 0) np.push(n); }); }); if (np.length) st.f.part = np; else delete st.f.part; }
+      var m = /^ch(\d+)$/.exec(k);
+      if (m) { (from[+m[1]] || []).forEach(function (n) { if (!nf['ch' + n]) nf['ch' + n] = JSON.parse(JSON.stringify(st)); }); return; }
+      nf[k] = st;
+    });
+    S.fx = nf; S.fxv = L; save();
+  })();
   function fxState(id) { var s = S.fx[id]; if (!s || typeof s !== 'object' || !s.f) s = S.fx[id] = { txt: '', f: {}, yfrom: 0, yto: 0, sort: '' }; return s; }
   function fxReset(st) { st.txt = ''; st.f = {}; st.yfrom = 0; st.yto = 0; }
   function fxClean(path) { try { history.replaceState(null, '', path); } catch (e) {} }
@@ -580,19 +601,19 @@
 
   /* ------------------------------------------------------------ chapters */
   function chapters() {
-    var h = hero({ crumb: '<a href="#/">Home</a> › Chapters', icon: 'book', title: 'Chapters', desc: 'Arranged by the four written-exam groups of the 2021 curriculum. Each group is worth 17.5 marks: SAQ questions 1–4 (answer any three, 3.5 marks each) and SEQ question 5 (compulsory, 7 marks). MCQs (MTF 10 + SBA 10) come from every chapter.',
+    var h = hero({ crumb: '<a href="#/">Home</a> › Chapters', icon: 'book', title: 'Chapters', desc: 'Arranged by the four written-exam groups as set in the DU new-curriculum papers (Nov 2025, May 2026). Each group is worth 17.5 marks: SAQ questions 1–4 (answer any three, 3.5 marks each) and SEQ question 5 (compulsory, 7 marks). MCQs (MTF 10 + SBA 10) come from every chapter.',
       btns: '<a class="bigbtn fill" href="#/questions">All questions</a>', pills: ['4 groups', partIds.length + ' chapters', DU.length + ' questions', MCQ.length + ' MCQs'] });
     var card = function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; }), d = qs.filter(function (q) { return S.read[q.id]; }).length, tp = topicsOf(qs);
-      return '<a class="pcard vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<span class="num">' + pcode(n) + '</span><h3>' + esc(PARTS[n]) + (CM.chapters[n - 1].extra ? ' <sup title="Not named in the curriculum table">*</sup>' : '') + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span><span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ' · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
+      return '<a class="pcard vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<span class="num">' + pcode(n) + '</span><h3>' + esc(PARTS[n]) + (CM.chapters[n - 1].extra ? ' <sup title="Not named in the curriculum table">*</sup>' : '') + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span>' + (CM.chapters[n - 1].ev ? '<span class="ev">Asked: ' + esc(CM.chapters[n - 1].ev) + '</span>' : '') + '<span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ' · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
     };
     var body = GRPS.map(function (g) {
       var ns = partIds.filter(function (n) { return pgrp(n) === g; }), qs = DU.filter(function (q) { return q.G === g; }), d = qs.filter(function (q) { return S.read[q.id]; }).length, gi = CM.groups && CM.groups[g];
       return '<section class="gsec" id="group-' + g + '"><div class="ghead"><span class="gl">' + g + '</span><div class="gtx"><h2>Group ' + g + '</h2><p class="gm">' + GMARK + '</p>' +
-        (gi ? '<p class="gtop">' + gi.topics.map(esc).join(' · ') + '</p>' : '') + '</div><span class="gst">' + qs.length + ' questions<br>' + d + ' read</span></div><div class="pgrid">' + ns.map(card).join('') + '</div></section>';
+        (gi ? '<p class="gtop">' + esc(gi.basis) + '</p>' : '') + '</div><span class="gst">' + qs.length + ' questions<br>' + d + ' read</span></div><div class="pgrid">' + ns.map(card).join('') + '</div></section>';
     }).join('');
     h += wrap('<nav class="gjump" aria-label="Jump to group">' + GRPS.map(function (g) { return '<a href="#/chapters" data-gj="' + g + '">Group ' + g + '</a>'; }).join('') + '</nav>' + body +
-      '<p class="gnote">* Not named in the curriculum table; placed where this site\'s exam predictions put it: International Health in A2, Accidents & Disasters as C5. Health indicators stay in A1; MDG and SDG questions are in A2.</p>');
+      '<p class="gnote">Groups follow the DU new-curriculum written papers of November 2025 and May 2026. Where the two papers put a topic in different groups, May 2026 (the latest) decides; topics not yet asked sit with their nearest neighbour. "Asked" on each chapter shows paper, group and question number; brackets mean it also appeared in another group.</p>');
     main.innerHTML = h;
     main.querySelectorAll('[data-gj]').forEach(function (a) { a.onclick = function (e) { e.preventDefault(); var t = document.getElementById('group-' + a.dataset.gj); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' }); }; });
   }

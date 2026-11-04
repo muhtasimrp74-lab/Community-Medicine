@@ -42,12 +42,12 @@
   };
 
   /* one colour (hue 0-360) and one icon per part */
-  /* 16 curriculum chapters (data/groups.js): A1-A4, B1-B4, C1-C5, D1-D3 */
+  /* 20 chapters (data/groups.js): A1-A5, B1-B5, C1-C7, D1-D3 */
   var PART = {
-    1: { h: 340, i: 'heart' },   2: { h: 190, i: 'globe' },   3: { h: 300, i: 'people' },  4: { h: 12, i: 'bug' },
-    5: { h: 232, i: 'search' },  6: { h: 215, i: 'chart' },   7: { h: 95, i: 'apple' },    8: { h: 150, i: 'leaf' },
-    9: { h: 255, i: 'building' }, 10: { h: 320, i: 'mch' },   11: { h: 45, i: 'book' },    12: { h: 35, i: 'hardhat' },
-    13: { h: 5, i: 'warning' },  14: { h: 275, i: 'chat' },   15: { h: 200, i: 'shield' }, 16: { h: 172, i: 'virus' }
+    1: { h: 340, i: 'heart' },    2: { h: 190, i: 'cross' },   3: { h: 300, i: 'people' },  4: { h: 320, i: 'mch' },     5: { h: 200, i: 'shield' },
+    6: { h: 232, i: 'search' },   7: { h: 215, i: 'chart' },   8: { h: 280, i: 'pill' },    9: { h: 95, i: 'apple' },    10: { h: 255, i: 'building' },
+    11: { h: 150, i: 'leaf' },    12: { h: 35, i: 'hardhat' }, 13: { h: 45, i: 'book' },    14: { h: 275, i: 'chat' },   15: { h: 185, i: 'globe' },
+    16: { h: 12, i: 'bug' },      17: { h: 5, i: 'warning' },  18: { h: 300, i: 'chart' },  19: { h: 172, i: 'virus' },  20: { h: 345, i: 'heart' }
   };
   /* hue for non-part icons (page headers, tiles) */
   var IHUE = { chart: 215, list: 340, book: 150, pen: 275, check: 172, menu: 255, target: 12, heart: 340, cross: 340,

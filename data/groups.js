@@ -1,42 +1,55 @@
-/* Curriculum 2021 written-exam layout (MBBS Community Medicine, section 2.10.3 "Topics distribution in different group of written exam").
+/* Written-exam group layout (A-D) of the new curriculum, taken from the DU Third Professional papers of Nov 2025 and May 2026.
    Four groups of 17.5 marks each: SAQ Q1-4 (answer any three, 3.5 each) + SEQ Q5 (compulsory, 7). MCQ (MTF 10 + SBA 10) covers all topics.
    This file re-arranges the question banks at load time: every item keeps its id (so progress, notes and handwritten marks are untouched),
    but its `part` becomes one of the 16 curriculum chapters below (1-16, A1..D3) and `G` its group. The original part is kept in `p0`.
    Loaded after data/du.js and data/mcq.js, before the app. Edit TOPICS to move a topic between chapters. */
 (function () {
   var CM = window.CM = window.CM || {};
+  /* Group layout of the NEW curriculum as actually set in the DU Third Professional papers of Nov 2025 and May 2026 (the 2021 operational-manual
+     table that was used before did not match these papers). Rule: where the two papers disagree, May 2026 (latest) wins; topics not yet asked
+     sit with their nearest asked neighbour. `ev` records where each chapter's questions appeared (paper, group, question no.). */
   var GROUPS = {
-    A: { name: 'Group A', topics: ['Concept of Public Health, Community Medicine, Health and Disease', 'HFA, Primary Health Care, Universal Health Coverage and existing National Health Programmes, MDGs, SDG', 'Behavioural Science', 'Medical Entomology'] },
-    B: { name: 'Group B', topics: ['Principles of Epidemiology', 'Research methodology and Biostatistics', 'Public Health Nutrition', 'Environment and Health'] },
-    C: { name: 'Group C', topics: ['Public Health Administration and Management', 'MCH-FP and Demography', 'School Health Service', 'Occupational Health'] },
-    D: { name: 'Group D', topics: ['Health Communication and Health Education', 'Immunity, Immunization and Disinfection', 'Epidemiology of CD and NCD'] }
+    A: { name: 'Group A', basis: 'Concept of health & disease, health care & PHC, behavioural science, MCH, immunity & immunization' },
+    B: { name: 'Group B', basis: 'Epidemiology, research & biostatistics, family planning, nutrition, health management' },
+    C: { name: 'Group C', basis: 'Environment, occupational & school health, communication & health education, international health, entomology, disasters' },
+    D: { name: 'Group D', basis: 'Demography, communicable diseases, non-communicable diseases' }
   };
-  /* chapter: code, group, title, the bank topics it holds (in teaching order). Topics marked * are not named in the curriculum table and are
-     placed where the site's exam predictions already put them. */
+  /* chapter: code, group, title, bank topics (teaching order), evidence */
   var CH = [
-    ['A1', 'A', 'Public Health, Community Medicine, Health & Disease', ['Introduction to Community Medicine', 'Public Health', 'Concept of Health', 'Determinants of Health', 'Health Indicators & MDGs', 'Concept of Disease', 'Disease Prevention, Control and Eradication', 'Community Diagnosis and Treatment']],
-    ['A2', 'A', 'HFA, PHC, UHC, National Programmes, MDGs & SDGs', ['Health Care of the Community', 'PHC', 'Bhore Committee', 'National Health Situations & Programmes', 'International Health*']],
-    ['A3', 'A', 'Behavioural Science', ['Behavioral Science', 'Learning and Personality', 'Mental Health', 'I.Q.', 'Family and Leadership']],
-    ['A4', 'A', 'Medical Entomology', ['Arthropod Diseases and Control']],
-    ['B1', 'B', 'Principles of Epidemiology', ['Basic Principles of Epidemiology', 'Infectious Disease Epidemiology']],
-    ['B2', 'B', 'Research Methodology & Biostatistics', ['Research', 'Biostatistics and Data', 'Sample and Sampling', 'Central Tendency & Measures of Dispersion']],
-    ['B3', 'B', 'Public Health Nutrition', ['Food & Nutrition']],
-    ['B4', 'B', 'Environment & Health', ['Environmental Health (General)', 'Water & Arsenicosis', 'Air Pollution', 'Ventilation & Noise', 'Radiation', 'Green House Effect', 'Housing', 'Disposal of Wastes & Excreta']],
-    ['C1', 'C', 'Public Health Administration & Management', ['Health Administration']],
-    ['C2', 'C', 'MCH-FP & Demography', ['Demography & Fertility', 'Maternal and Child Health', 'Family Planning', 'Contraceptive Methods']],
-    ['C3', 'C', 'School Health Service', ['School Health']],
-    ['C4', 'C', 'Occupational Health', ['Occupational Health']],
-    ['C5', 'C', 'Accidents & Disaster Management*', ['Accidents', 'Disasters']],
-    ['D1', 'D', 'Health Communication & Health Education', ['Communication', 'Health Education']],
-    ['D2', 'D', 'Immunity, Immunization & Disinfection', ['Immunity & Immune Response', 'Herd Immunity', 'Vaccine, Immunization & NID', 'Sterilization & Disinfection']],
-    ['D3', 'D', 'Epidemiology of CD & NCD', ['Communicable Diseases', 'Non-Communicable Diseases']]
+    ['A1', 'A', 'Public Health, Community Medicine, Health & Disease', ['Introduction to Community Medicine', 'Public Health', 'Concept of Health', 'Determinants of Health', 'Health Indicators & MDGs', 'Concept of Disease', 'Disease Prevention, Control and Eradication', 'Community Diagnosis and Treatment'], 'May 2026 A1, A2 · Nov 2025 A1 · (integrity: Nov 2025 D3)'],
+    ['A2', 'A', 'Health Care, PHC & National Health Programmes', ['Health Care of the Community', 'PHC', 'Bhore Committee', 'National Health Situations & Programmes'], 'Nov 2025 A1'],
+    ['A3', 'A', 'Behavioural Science', ['Behavioral Science', 'Learning and Personality', 'Mental Health', 'I.Q.', 'Family and Leadership'], 'May 2026 A3'],
+    ['A4', 'A', 'Maternal & Child Health', ['Maternal and Child Health'], 'May 2026 A5 · Nov 2025 A4 · (perinatal mortality: May 2026 D1)'],
+    ['A5', 'A', 'Immunity, Immunization & Disinfection', ['Immunity & Immune Response', 'Herd Immunity', 'Vaccine, Immunization & NID', 'Sterilization & Disinfection'], 'May 2026 A4 · (Nov 2025 D1, B5)'],
+    ['B1', 'B', 'Principles of Epidemiology', ['Basic Principles of Epidemiology', 'Infectious Disease Epidemiology'], 'May 2026 B1, B5 · Nov 2025 B2 · (Nov 2025 D2)'],
+    ['B2', 'B', 'Research Methodology & Biostatistics', ['Research', 'Biostatistics and Data', 'Sample and Sampling', 'Central Tendency & Measures of Dispersion'], 'May 2026 B2 · Nov 2025 B4 · (Nov 2025 A5)'],
+    ['B3', 'B', 'Family Planning & Contraception', ['Family Planning', 'Contraceptive Methods'], 'May 2026 B3 · Nov 2025 B1'],
+    ['B4', 'B', 'Public Health Nutrition', ['Food & Nutrition'], 'May 2026 B4 · (Nov 2025 C1)'],
+    ['B5', 'B', 'Health Administration & Management', ['Health Administration'], 'Nov 2025 B3'],
+    ['C1', 'C', 'Environment & Health', ['Environmental Health (General)', 'Water & Arsenicosis', 'Air Pollution', 'Ventilation & Noise', 'Radiation', 'Green House Effect', 'Housing', 'Disposal of Wastes & Excreta'], 'May 2026 C1, C3 · (Nov 2025 A2)'],
+    ['C2', 'C', 'Occupational Health', ['Occupational Health'], 'May 2026 C2 · (Nov 2025 A3)'],
+    ['C3', 'C', 'School Health Service', ['School Health'], 'May 2026 C1 · (Nov 2025 A3)'],
+    ['C4', 'C', 'Health Communication & Health Education', ['Communication', 'Health Education'], 'May 2026 C1 · (Nov 2025 A3)'],
+    ['C5', 'C', 'International Health', ['International Health'], 'May 2026 C4'],
+    ['C6', 'C', 'Medical Entomology', ['Arthropod Diseases and Control'], 'Nov 2025 C2 · (Nov 2025 A4)'],
+    ['C7', 'C', 'Accidents & Disaster Management', ['Disasters', 'Accidents'], 'Nov 2025 C3'],
+    ['D1', 'D', 'Demography', ['Demography & Fertility'], 'May 2026 D1 · Nov 2025 D3'],
+    ['D2', 'D', 'Communicable Diseases', ['Communicable Diseases'], 'May 2026 D2, D3, D4 · Nov 2025 D4 · (May 2026 C5, Nov 2025 C4)'],
+    ['D3', 'D', 'Non-Communicable Diseases', ['Non-Communicable Diseases'], 'May 2026 D4, D5 · Nov 2025 D2, D5 · (Nov 2025 C5)']
   ];
+  /* previous layout (v59, "groups2021") so saved filters and scroll positions can be carried over */
+  var PREV = { groups2021: [['Introduction to Community Medicine', 'Public Health', 'Concept of Health', 'Determinants of Health', 'Health Indicators & MDGs', 'Concept of Disease', 'Disease Prevention, Control and Eradication', 'Community Diagnosis and Treatment'],
+    ['Health Care of the Community', 'PHC', 'Bhore Committee', 'National Health Situations & Programmes', 'International Health'], ['Behavioral Science', 'Learning and Personality', 'Mental Health', 'I.Q.', 'Family and Leadership'],
+    ['Arthropod Diseases and Control'], ['Basic Principles of Epidemiology', 'Infectious Disease Epidemiology'], ['Research', 'Biostatistics and Data', 'Sample and Sampling', 'Central Tendency & Measures of Dispersion'],
+    ['Food & Nutrition'], ['Environmental Health (General)', 'Water & Arsenicosis', 'Air Pollution', 'Ventilation & Noise', 'Radiation', 'Green House Effect', 'Housing', 'Disposal of Wastes & Excreta'],
+    ['Health Administration'], ['Demography & Fertility', 'Maternal and Child Health', 'Family Planning', 'Contraceptive Methods'], ['School Health'], ['Occupational Health'], ['Accidents', 'Disasters'],
+    ['Communication', 'Health Education'], ['Immunity & Immune Response', 'Herd Immunity', 'Vaccine, Immunization & NID', 'Sterilization & Disinfection'], ['Communicable Diseases', 'Non-Communicable Diseases']] };
   var MDG = /\bMDGs?\b|\bSDGs?\b|millennium development|sustainable development/i;
   var T = {}, rank = {}, parts = {}, chapters = [];
   CH.forEach(function (c, i) {
     var n = i + 1;
     parts[n] = c[2].replace(/\*$/, '');
-    chapters.push({ n: n, code: c[0], g: c[1], title: c[2].replace(/\*$/, ''), extra: /\*$/.test(c[2]), topics: c[3].map(function (t) { return t.replace(/\*$/, ''); }) });
+    chapters.push({ n: n, code: c[0], g: c[1], title: c[2].replace(/\*$/, ''), extra: /\*$/.test(c[2]), ev: c[4] || '', topics: c[3].map(function (t) { return t.replace(/\*$/, ''); }) });
     c[3].forEach(function (t, j) { t = t.replace(/\*$/, ''); T[t] = n; rank[t] = j; });
   });
   function chapterOf(q) {
@@ -52,11 +65,14 @@
     });
     (list || []).sort(function (a, b) { return a.part - b.part || (rank[a.topic] - rank[b.topic]) || a._ix - b._ix; });
   }
-  if (CM.layout !== 'groups2021') {
+  /* old chapter number -> new chapter numbers, per previous layout (used by the app to migrate saved filters / positions) */
+  var moves = {};
+  Object.keys(PREV).forEach(function (L) { moves[L] = {}; PREV[L].forEach(function (tops, i) { var m = []; tops.forEach(function (t) { if (T[t] && m.indexOf(T[t]) < 0) m.push(T[t]); }); if (tops.indexOf('Health Indicators & MDGs') >= 0 && m.indexOf(2) < 0) m.push(2); moves[L][i + 1] = m; }); });
+  if (CM.layout !== 'groups2026') {
     var subs = {};
     Object.keys(CM.subs || {}).forEach(function (k) { var t = k.slice(k.indexOf('|') + 1); if (T[t]) subs[T[t] + '|' + t] = CM.subs[k]; });
     remap(CM.du); remap(CM.mcq);
-    CM.subs = subs; CM.parts = parts; CM.chapters = chapters; CM.groups = GROUPS; CM.layout = 'groups2021';
+    CM.subs = subs; CM.parts = parts; CM.chapters = chapters; CM.groups = GROUPS; CM.layoutMoves = moves; CM.layout = 'groups2026';
     if (!ok && window.console) console.warn('groups.js: some topics are not mapped to a chapter');
   }
 })();

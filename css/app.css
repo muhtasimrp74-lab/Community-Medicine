@@ -343,3 +343,4 @@ a.prow:hover{border-color:var(--accent)}
 @media(max-width:560px){.ghead .gst{display:none}}
 .tpill.cb{background:color-mix(in srgb,#c2410c 14%,transparent);color:#c2410c}
 [data-theme=dark] .tpill.cb{background:color-mix(in srgb,#fb923c 18%,transparent);color:#fdba74}
+.pcard .ev{display:block;font-size:var(--fs-xs);color:var(--muted);margin:.15rem 0 .1rem;line-height:1.4}
