@@ -16,6 +16,9 @@ Status
 
 ## Change log
 
+### Group-stability badges (cache v62)
+- data/groups.js STAB per chapter: fixed (A1, B3, D1), leaning (A4, B1, B2, D2, D3), asked once (A2, A3, B5, C5, C7), flexible (A5, B4, C1, C2, C3, C4, C6). Shown on chapter banners, chapter page header and Questions group headers, with a legend on the Chapters page. Update STAB when new papers arrive.
+
 ### Groups re-derived from the DU new-curriculum papers Nov 2025 + May 2026 (cache v61)
 - data/groups.js layout "groups2026": 20 chapters. A: A1 Health & disease, A2 Health care/PHC/national programmes, A3 Behavioural science, A4 MCH, A5 Immunity/immunization/disinfection. B: B1 Epidemiology, B2 Research & biostatistics, B3 Family planning, B4 Nutrition, B5 Health administration. C: C1 Environment, C2 Occupational, C3 School health, C4 Communication & HE, C5 International health, C6 Entomology, C7 Accidents & disasters. D: D1 Demography, D2 Communicable diseases, D3 NCD.
 - Rule: May 2026 decides when the papers disagree (immunity A vs D; nutrition B vs C; water/communication/school/occupational C vs A). Each chapter shows its evidence ("Asked: ...").

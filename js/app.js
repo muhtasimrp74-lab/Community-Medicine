@@ -16,6 +16,15 @@
   function pcode(n) { var c = CM.chapters && CM.chapters[n - 1]; return c ? c.code : 'P' + n; }
   function pgrp(n) { var c = CM.chapters && CM.chapters[n - 1]; return c ? c.g : ''; }
   function pname(n) { return pcode(n) + ' · ' + PARTS[n]; }
+  /* group-stability badge for a chapter (data/groups.js `st`): fixed / asked once / leaning / flexible */
+  var STB = { fixed: ['Fixed', 'Same group in both new-curriculum papers'], once: ['Asked once', 'Asked in one paper only; group not confirmed'],
+    lean: ['Leaning', 'Mostly this group, sometimes another'], flex: ['Flexible', 'Appeared in different groups; may come in any group'] };
+  function stab(n, sm) {
+    var c = CM.chapters && CM.chapters[n - 1]; if (!c || !c.st) return '';
+    var t = c.st === 'fixed' ? 'Fixed in ' + c.g : c.st === 'once' ? 'Asked once · ' + c.g : c.st === 'lean' ? 'Mostly ' + c.g + ' · also ' + c.alt.split('').join(', ') : 'Flexible · ' + c.alt.split('').join(' / ');
+    return '<span class="stb stb-' + c.st + (sm ? ' sm' : '') + '" title="' + esc(STB[c.st][1]) + '"><i aria-hidden="true"></i>' + t + '</span>';
+  }
+  function stabLegend() { return '<div class="stbleg">' + ['fixed', 'lean', 'once', 'flex'].map(function (k) { return '<span class="stb stb-' + k + ' sm"><i aria-hidden="true"></i>' + STB[k][0] + '</span><em>' + STB[k][1] + '</em>'; }).join('') + '</div>'; }
   var GRPS = ['A', 'B', 'C', 'D'], GMARK = '17.5 marks · SAQ Q1–4 (answer any three, 3.5 each) · SEQ Q5 (compulsory, 7)';
   function chOpts() { var o = []; GRPS.forEach(function (g) { var ns = partIds.filter(function (n) { return pgrp(n) === g; }); if (!ns.length) return; o.push({ h: 'Group ' + g }); ns.forEach(function (n) { o.push([n, pname(n)]); }); }); return o; }
   var nRead = function () { return DU.filter(function (q) { return S.read[q.id]; }).length; };
@@ -346,7 +355,7 @@
       if (multi && pgrp(n) !== lastG) { lastG = pgrp(n); h += '<p class="gdiv"><b>Group ' + lastG + '</b><span>' + GMARK + '</span></p>'; }
       var done = items.filter(function (q) { return S.read[q.id]; }).length, byT = {}, order = [];
       items.forEach(function (q) { if (!byT[q.topic]) { byT[q.topic] = []; order.push(q.topic); } byT[q.topic].push(q); });
-      h += '<div class="grp' + (openAll ? ' open' : '') + '"><button type="button" data-a="grp">' + CMV.chip(n) + '<span class="tt">' + esc(PARTS[n]) + '<span class="ct">Group ' + pgrp(n) + ' · ' + pcode(n) + ' · ' + items.length + ' question' + (items.length === 1 ? '' : 's') + ' · ' + done + ' read</span></span><span class="chev">›</span></button><div class="body">' +
+      h += '<div class="grp' + (openAll ? ' open' : '') + '"><button type="button" data-a="grp">' + CMV.chip(n) + '<span class="tt">' + esc(PARTS[n]) + stab(n, 1) + '<span class="ct">Group ' + pgrp(n) + ' · ' + pcode(n) + ' · ' + items.length + ' question' + (items.length === 1 ? '' : 's') + ' · ' + done + ' read</span></span><span class="chev">›</span></button><div class="body">' +
         order.map(function (t) { return '<p class="tlabel">' + CMV.ticon(t, n) + esc(t) + ' <small>' + byT[t].length + '</small></p>' + subBlocks(n, t, byT[t]); }).join('') + '</div></div>';
     });
     return h;
@@ -605,14 +614,14 @@
       btns: '<a class="bigbtn fill" href="#/questions">All questions</a>', pills: ['4 groups', partIds.length + ' chapters', DU.length + ' questions', MCQ.length + ' MCQs'] });
     var card = function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; }), d = qs.filter(function (q) { return S.read[q.id]; }).length, tp = topicsOf(qs);
-      return '<a class="pcard vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<span class="num">' + pcode(n) + '</span><h3>' + esc(PARTS[n]) + (CM.chapters[n - 1].extra ? ' <sup title="Not named in the curriculum table">*</sup>' : '') + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span>' + (CM.chapters[n - 1].ev ? '<span class="ev">Asked: ' + esc(CM.chapters[n - 1].ev) + '</span>' : '') + '<span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ' · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
+      return '<a class="pcard vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n).replace(/<\/span>$/, stab(n) + '</span>') + '<span class="num">' + pcode(n) + '</span><h3>' + esc(PARTS[n]) + (CM.chapters[n - 1].extra ? ' <sup title="Not named in the curriculum table">*</sup>' : '') + '</h3><span class="prev">' + esc(tp.slice(0, 3).join(' · ') + (tp.length > 3 ? ' …' : '')) + '</span>' + (CM.chapters[n - 1].ev ? '<span class="ev">Asked: ' + esc(CM.chapters[n - 1].ev) + '</span>' : '') + '<span class="st">' + qs.length + ' questions · ' + ms.length + ' MCQs · ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ' · ' + d + ' read</span><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
     };
     var body = GRPS.map(function (g) {
       var ns = partIds.filter(function (n) { return pgrp(n) === g; }), qs = DU.filter(function (q) { return q.G === g; }), d = qs.filter(function (q) { return S.read[q.id]; }).length, gi = CM.groups && CM.groups[g];
       return '<section class="gsec" id="group-' + g + '"><div class="ghead"><span class="gl">' + g + '</span><div class="gtx"><h2>Group ' + g + '</h2><p class="gm">' + GMARK + '</p>' +
         (gi ? '<p class="gtop">' + esc(gi.basis) + '</p>' : '') + '</div><span class="gst">' + qs.length + ' questions<br>' + d + ' read</span></div><div class="pgrid">' + ns.map(card).join('') + '</div></section>';
     }).join('');
-    h += wrap('<nav class="gjump" aria-label="Jump to group">' + GRPS.map(function (g) { return '<a href="#/chapters" data-gj="' + g + '">Group ' + g + '</a>'; }).join('') + '</nav>' + body +
+    h += wrap(stabLegend() + '<nav class="gjump" aria-label="Jump to group">' + GRPS.map(function (g) { return '<a href="#/chapters" data-gj="' + g + '">Group ' + g + '</a>'; }).join('') + '</nav>' + body +
       '<p class="gnote">Groups follow the DU new-curriculum written papers of November 2025 and May 2026. Where the two papers put a topic in different groups, May 2026 (the latest) decides; topics not yet asked sit with their nearest neighbour. "Asked" on each chapter shows paper, group and question number; brackets mean it also appeared in another group.</p>');
     main.innerHTML = h;
     main.querySelectorAll('[data-gj]').forEach(function (a) { a.onclick = function (e) { e.preventDefault(); var t = document.getElementById('group-' + a.dataset.gj); if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' }); }; });
@@ -622,7 +631,7 @@
     var list = DU.filter(function (q) { return q.part === n; }), tp = topicsOf(list), ms = MCQ.filter(function (q) { return q.part === n; }), mt = topicsOf(ms);
     var st = fxState('ch' + n);
     if (r.qs.topic || r.qs.q) { fxReset(st); if (r.qs.topic) st.f.topic = [r.qs.topic]; st.txt = r.qs.q || ''; fxClean('#/chapter/' + n); }
-    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › ' + pcode(n) + ' (Group ' + pgrp(n) + ')', part: n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ', ' + ms.length + ' MCQs.',
+    var h = hero({ crumb: '<a href="#/">Home</a> › <a href="#/chapters">Chapters</a> › ' + pcode(n) + ' (Group ' + pgrp(n) + ')', part: n, title: esc(PARTS[n]), desc: list.length + ' questions across ' + tp.length + ' topic' + (tp.length === 1 ? '' : 's') + ', ' + ms.length + ' MCQs.<br>' + stab(n),
       btns: '<div class="btnrow"><button class="bigbtn fill" data-go="practice">Practise MCQs</button><a class="bigbtn" href="#/read?part=' + n + '">Read MCQs</a></div>' });
     h += '<div class="wrap">' + progLine(list.filter(function (q) { return S.read[q.id]; }).length, list.length, 'read') + recLegend() + '<div id="fxc"></div>' +
       '<div class="pager">' + (n > 1 ? '<a class="btn ghost sm" href="#/chapter/' + (n - 1) + '">← ' + pcode(n - 1) + '</a>' : '<span></span>') + (PARTS[n + 1] ? '<a class="btn ghost sm" href="#/chapter/' + (n + 1) + '">' + pcode(n + 1) + ' →</a>' : '') + '</div></div>';

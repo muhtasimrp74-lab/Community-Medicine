@@ -37,6 +37,10 @@
     ['D2', 'D', 'Communicable Diseases', ['Communicable Diseases'], 'May 2026 D2, D3, D4 · Nov 2025 D4 · (May 2026 C5, Nov 2025 C4)'],
     ['D3', 'D', 'Non-Communicable Diseases', ['Non-Communicable Diseases'], 'May 2026 D4, D5 · Nov 2025 D2, D5 · (Nov 2025 C5)']
   ];
+  /* how stable each chapter's group has been across the two new-curriculum papers:
+     fixed = same group in both papers; once = asked in one paper only; lean = mostly this group, sometimes `alt`; flex = no reliable group (`alt` = groups seen) */
+  var STAB = { A1: ['fixed'], A2: ['once'], A3: ['once'], A4: ['lean', 'D'], A5: ['flex', 'ABD'], B1: ['lean', 'D'], B2: ['lean', 'A'], B3: ['fixed'], B4: ['flex', 'BC'],
+    B5: ['once'], C1: ['flex', 'AC'], C2: ['flex', 'AC'], C3: ['flex', 'AC'], C4: ['flex', 'AC'], C5: ['once'], C6: ['flex', 'AC'], C7: ['once'], D1: ['fixed'], D2: ['lean', 'C'], D3: ['lean', 'C'] };
   /* previous layout (v59, "groups2021") so saved filters and scroll positions can be carried over */
   var PREV = { groups2021: [['Introduction to Community Medicine', 'Public Health', 'Concept of Health', 'Determinants of Health', 'Health Indicators & MDGs', 'Concept of Disease', 'Disease Prevention, Control and Eradication', 'Community Diagnosis and Treatment'],
     ['Health Care of the Community', 'PHC', 'Bhore Committee', 'National Health Situations & Programmes', 'International Health'], ['Behavioral Science', 'Learning and Personality', 'Mental Health', 'I.Q.', 'Family and Leadership'],
@@ -49,7 +53,7 @@
   CH.forEach(function (c, i) {
     var n = i + 1;
     parts[n] = c[2].replace(/\*$/, '');
-    chapters.push({ n: n, code: c[0], g: c[1], title: c[2].replace(/\*$/, ''), extra: /\*$/.test(c[2]), ev: c[4] || '', topics: c[3].map(function (t) { return t.replace(/\*$/, ''); }) });
+    chapters.push({ n: n, code: c[0], g: c[1], title: c[2].replace(/\*$/, ''), extra: /\*$/.test(c[2]), ev: c[4] || '', st: (STAB[c[0]] || ['once'])[0], alt: (STAB[c[0]] || [])[1] || '', topics: c[3].map(function (t) { return t.replace(/\*$/, ''); }) });
     c[3].forEach(function (t, j) { t = t.replace(/\*$/, ''); T[t] = n; rank[t] = j; });
   });
   function chapterOf(q) {
