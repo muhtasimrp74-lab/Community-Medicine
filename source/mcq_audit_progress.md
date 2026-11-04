@@ -16,6 +16,11 @@ Status
 
 ## Change log
 
+### NMC suggested problem-based questions (cache v60)
+- 21 NMC questions added to data/du.js directly as kind "Case-based", college tag "NMC (Suggested Qn)": DU.766–DU.784 (Q7 and Q11 are the same question → one item DU.772); Q10 (missing IUCD thread) merged into DU.481 (MuMC), with its wording and a "what will you do" answer appended. Question wording kept (typos fixed); answers expanded. Corrections flagged in-answer: Q2(a) is marasmic kwashiorkor (key said kwashiorkor); Q20 WHO 2018: drinking milk of a rabid animal needs no PEP; Q21 sunken eyes + slow pinch = some dehydration (Plan B), severe → Plan C.
+- data/du.js now holds manual additions: do NOT run tools/build_banks.py (it would drop them).
+- College chips: colours never showed (.tg.col overrode .c-*); fixed with .tg.col.c-* rules. NMC = pink. Case-based pill now orange.
+
 ### Chapters re-arranged by 2021 curriculum exam groups A–D (cache v59)
 - data/groups.js (loaded after du.js/mcq.js) maps every bank topic to one of 16 chapters: A1–A4, B1–B4, C1–C5, D1–D3, sets q.G (group) and keeps the old part in q.p0. Data files and ids are unchanged, so progress, notes and handwritten marks are unaffected. International Health → A2 and Accidents & Disasters → C5 (not named in the table; same placement as data/predict.js). MDG/SDG items of "Health Indicators & MDGs" → A2 (DU.32, DU.33, M.17–M.19).
 - Chapters page grouped by Group A–D with marks and official topic list; Questions/MCQ lists show group dividers; Group filter added everywhere; one-time reset of saved filters and chapter scroll positions (old part numbers).

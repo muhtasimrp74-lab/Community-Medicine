@@ -278,7 +278,7 @@
       var y = qyear(q), a = []; if (!q.years.length) return ['none']; if (y >= RECMAX - 1) a.push('new2'); if (y >= RECMAX - 4) a.push('new5'); if (y > REC0) a.push('post'); else a.push('old'); return a;
     }, function (v) { return { new2: 'Last 2 years (' + (RECMAX - 1) + '–' + RECMAX + ')', new5: 'Last 5 years (' + (RECMAX - 4) + '–' + RECMAX + ')', post: 'After ' + REC0, old: REC0 + ' or earlier', none: 'No exam year' }[v]; }, ['new2', 'new5', 'post', 'old', 'none']],
     ['ses', 'DU Written session', function (q) { return q.years.map(function (y) { return yparse(y).s; }).filter(Boolean); }, function (v) { return { Ja: 'January', M: 'May', Ju: 'July', S: 'September', Nov: 'November' }[v]; }, ['Ja', 'M', 'Ju', 'S', 'Nov']],
-    ['col', 'Medical college paper', function (q) { return ccol(q).map(function (x) { return x.c; }); }, function (v) { return v; }, ['MMC', 'MuMC', 'ShSMC', 'SSMC', 'DMC']],
+    ['col', 'Medical college paper', function (q) { return ccol(q).map(function (x) { return x.c; }); }, function (v) { return v; }, ['MMC', 'MuMC', 'ShSMC', 'SSMC', 'DMC', 'NMC']],
     ['paper', 'College exam', function (q) { return ccol(q).map(function (x) { return x.p; }); }, function (v) { return v; }, 'papers'],
     ['st', 'Your progress', function (q) { var a = []; a.push(S.read[q.id] ? 'read' : 'unread'); if (S.flag[q.id]) a.push('flagged'); if (S.notes[q.id]) a.push('noted'); return a; }, function (v) { return QSTAT[v]; }, ['unread', 'read', 'flagged', 'noted']],
     ['ans', 'Model answer', function (q) { return [q.a ? 'yes' : 'no']; }, function (v) { return v === 'yes' ? 'Answer added' : 'Answer not added yet'; }, ['yes', 'no']]
@@ -317,7 +317,7 @@
   function ansHtml(q) { return q.a ? '<div class="qb">' + q.a + '</div>' : '<p class="empty">The model answer for this question has not been added yet.</p>'; }
   function qRow(q, open) {
     var meta = '';
-    if (q.kind) meta += '<span class="tpill">' + esc(q.kind) + '</span>';
+    if (q.kind) meta += '<span class="tpill' + (q.kind === 'Case-based' ? ' cb' : '') + '">' + esc(q.kind) + '</span>';
     var lv = qlvl(q);
     return '<div class="qrow inkc' + (lv ? ' rc' + lv : '') + (S.read[q.id] ? ' read' : '') + (open ? ' open' : '') + '" data-id="' + q.id + '"><div class="qtop"><span class="qid">' + esc(q.id.replace('DU.', '')) + '</span><div class="qtx qb">' + q.q + '</div>' +
       '<div class="qside">' + stars(q.stars) + heatHtml(q) + '<a class="abtn" href="#/q/' + q.id + '">Answer</a></div></div>' + (meta ? '<div class="qmeta">' + meta + '</div>' : '') + tagsHtml(q) +

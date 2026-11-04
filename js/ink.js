@@ -48,7 +48,7 @@ const clipTo=(x,rs)=>{x.save();x.beginPath();rs.forEach(r=>x.rect(r[0],r[1],r[2]
 /* ---- text anchoring ----
    Every stroke point is stored as: (block key, character offset in that block, dx, dy from that character's centre in root-font units).
    Block keys are class/tag paths (not DOM indices), so they survive collapsing/expanding, <mark> search highlights and card re-renders. */
-const BLK='p,li,td,th,h1,h2,h3,h4,h5,h6,pre,blockquote,summary,dt,dd,figcaption,button,label,.qid,.qtx,.qb,.stem,.chip,.tpill,.stars,.abtn,.yc,.meta,.note,.verdict,.rd,.tf .t',FLAG=/^(on|o|dn|c|open|active|sel|ok|bad|pick|good|miss|read|k|w|f|x|z|cur|done|rc\d?)$/;
+const BLK='p,li,td,th,h1,h2,h3,h4,h5,h6,pre,blockquote,summary,dt,dd,figcaption,button,label,.qid,.qtx,.qb,.stem,.chip,.tpill,.stars,.abtn,.yc,.meta,.note,.verdict,.rd,.tf .t',FLAG=/^(on|o|dn|c|open|active|sel|ok|bad|pick|good|miss|read|k|w|f|x|cb|z|cur|done|rc\d?)$/;
 const sigC=e=>e.tagName+'.'+[...e.classList].filter(c=>!FLAG.test(c)).join('.');
 function blkKey(a,e){const p=[];for(;e&&e!==a;e=e.parentElement){const s=sigC(e);let i=0;for(let x=e.previousElementSibling;x;x=x.previousElementSibling)if(sigC(x)===s)i++;p.push(s+'#'+i)}return p.reverse().join('>')}
 function frags(a){const b=box(a),items=[],map=new Map(),blocks=new Map(),w=document.createTreeWalker(a,NodeFilter.SHOW_TEXT),rg=document.createRange();let n;
