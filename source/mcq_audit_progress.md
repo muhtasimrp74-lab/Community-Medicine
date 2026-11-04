@@ -16,6 +16,9 @@ Status
 
 ## Change log
 
+### Badges simplified (cache v63)
+- "Asked once" merged into "Fixed" (badge: Fixed in X). Three tags now: Fixed (green), Mostly X · also Y (amber), Flexible (red, dashed). Tags added beside topic headings inside chapters, MCQ hub chapter list, progress rows and home chapter cards (home card label now shows code + group instead of "Part n").
+
 ### Group-stability badges (cache v62)
 - data/groups.js STAB per chapter: fixed (A1, B3, D1), leaning (A4, B1, B2, D2, D3), asked once (A2, A3, B5, C5, C7), flexible (A5, B4, C1, C2, C3, C4, C6). Shown on chapter banners, chapter page header and Questions group headers, with a legend on the Chapters page. Update STAB when new papers arrive.
 

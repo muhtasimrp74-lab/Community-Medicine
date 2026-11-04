@@ -17,14 +17,14 @@
   function pgrp(n) { var c = CM.chapters && CM.chapters[n - 1]; return c ? c.g : ''; }
   function pname(n) { return pcode(n) + ' · ' + PARTS[n]; }
   /* group-stability badge for a chapter (data/groups.js `st`): fixed / asked once / leaning / flexible */
-  var STB = { fixed: ['Fixed', 'Same group in both new-curriculum papers'], once: ['Asked once', 'Asked in one paper only; group not confirmed'],
+  var STB = { fixed: ['Fixed', 'Same group every time it was asked'],
     lean: ['Leaning', 'Mostly this group, sometimes another'], flex: ['Flexible', 'Appeared in different groups; may come in any group'] };
   function stab(n, sm) {
     var c = CM.chapters && CM.chapters[n - 1]; if (!c || !c.st) return '';
-    var t = c.st === 'fixed' ? 'Fixed in ' + c.g : c.st === 'once' ? 'Asked once · ' + c.g : c.st === 'lean' ? 'Mostly ' + c.g + ' · also ' + c.alt.split('').join(', ') : 'Flexible · ' + c.alt.split('').join(' / ');
-    return '<span class="stb stb-' + c.st + (sm ? ' sm' : '') + '" title="' + esc(STB[c.st][1]) + '"><i aria-hidden="true"></i>' + t + '</span>';
+    var t = c.st === 'fixed' || c.st === 'once' ? 'Fixed in ' + c.g : c.st === 'lean' ? 'Mostly ' + c.g + ' · also ' + c.alt.split('').join(', ') : 'Flexible · ' + c.alt.split('').join(' / ');
+    return '<span class="stb stb-' + (c.st === 'once' ? 'fixed' : c.st) + (sm ? ' sm' : '') + '" title="' + esc(STB[c.st][1]) + '"><i aria-hidden="true"></i>' + t + '</span>';
   }
-  function stabLegend() { return '<div class="stbleg">' + ['fixed', 'lean', 'once', 'flex'].map(function (k) { return '<span class="stb stb-' + k + ' sm"><i aria-hidden="true"></i>' + STB[k][0] + '</span><em>' + STB[k][1] + '</em>'; }).join('') + '</div>'; }
+  function stabLegend() { return '<div class="stbleg">' + ['fixed', 'lean', 'flex'].map(function (k) { return '<span class="stb stb-' + k + ' sm"><i aria-hidden="true"></i>' + STB[k][0] + '</span><em>' + STB[k][1] + '</em>'; }).join('') + '</div>'; }
   var GRPS = ['A', 'B', 'C', 'D'], GMARK = '17.5 marks · SAQ Q1–4 (answer any three, 3.5 each) · SEQ Q5 (compulsory, 7)';
   function chOpts() { var o = []; GRPS.forEach(function (g) { var ns = partIds.filter(function (n) { return pgrp(n) === g; }); if (!ns.length) return; o.push({ h: 'Group ' + g }); ns.forEach(function (n) { o.push([n, pname(n)]); }); }); return o; }
   var nRead = function () { return DU.filter(function (q) { return S.read[q.id]; }).length; };
@@ -203,7 +203,7 @@
     h += '<div class="sec"><h2>Browse by part</h2></div><div class="grid">' + partIds.map(function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; });
       var d = qs.filter(function (q) { return S.read[q.id]; }).length;
-      return '<a class="card vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n) + '<div class="k">Part ' + n + '</div><h3>' + esc(PARTS[n]) + '</h3><div class="m">' + qs.length + ' questions · ' + ms.length + ' MCQs</div><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
+      return '<a class="card vcard" style="--h:' + CMV.hue(n) + '" href="#/chapter/' + n + '">' + CMV.banner(n).replace(/<\/span>$/, stab(n) + '</span>') + '<div class="k">' + pcode(n) + ' · Group ' + pgrp(n) + '</div><h3>' + esc(PARTS[n]) + '</h3><div class="m">' + qs.length + ' questions · ' + ms.length + ' MCQs</div><div class="bar"><i style="width:' + (qs.length ? Math.round(d / qs.length * 100) : 0) + '%"></i></div></a>';
     }).join('') + '</div>';
     h += '<div class="sec"><h2>Archive</h2></div><a class="card archive" href="second-term/"><div class="k">Separate site</div><h3>Second-term solved viva bank</h3><div class="m">80 fully solved viva questions (Environment, PHC, CD/NCD, MCH-FP, School and Occupational Health). Kept apart from this question bank.</div></a>';
     main.innerHTML = '<div class="wrap">' + h + '</div>';
@@ -356,7 +356,7 @@
       var done = items.filter(function (q) { return S.read[q.id]; }).length, byT = {}, order = [];
       items.forEach(function (q) { if (!byT[q.topic]) { byT[q.topic] = []; order.push(q.topic); } byT[q.topic].push(q); });
       h += '<div class="grp' + (openAll ? ' open' : '') + '"><button type="button" data-a="grp">' + CMV.chip(n) + '<span class="tt">' + esc(PARTS[n]) + stab(n, 1) + '<span class="ct">Group ' + pgrp(n) + ' · ' + pcode(n) + ' · ' + items.length + ' question' + (items.length === 1 ? '' : 's') + ' · ' + done + ' read</span></span><span class="chev">›</span></button><div class="body">' +
-        order.map(function (t) { return '<p class="tlabel">' + CMV.ticon(t, n) + esc(t) + ' <small>' + byT[t].length + '</small></p>' + subBlocks(n, t, byT[t]); }).join('') + '</div></div>';
+        order.map(function (t) { return '<p class="tlabel">' + CMV.ticon(t, n) + esc(t) + ' <small>' + byT[t].length + '</small>' + stab(n, 1) + '</p>' + subBlocks(n, t, byT[t]); }).join('') + '</div></div>';
     });
     return h;
   }
@@ -416,7 +416,7 @@
     }).join('') + '</div><div class="dots"><span class="g"><i style="background:var(--accent)"></i>Questions read</span><span><i style="background:var(--ok)"></i>MCQs answered</span></div></div>';
     h += '<p class="h2s">By part</p>' + partIds.map(function (n) {
       var qs = DU.filter(function (q) { return q.part === n; }), ms = MCQ.filter(function (q) { return q.part === n; }), r = qs.filter(function (q) { return S.read[q.id]; }).length, t = ms.filter(function (q) { return S.mcq[q.id]; }).length, c = ms.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length;
-      return '<a class="prow" href="#/chapter/' + n + '"><div class="ph">' + CMV.chip(n, 'sm') + '<span class="pt">' + esc(PARTS[n]) + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + '/' + qs.length + ' read · ' + t + '/' + ms.length + ' MCQs tried' + (t ? ' · ' + pc(c, t) + '% right' : '') + '</small></a>';
+      return '<a class="prow" href="#/chapter/' + n + '"><div class="ph">' + CMV.chip(n, 'sm') + '<span class="pt">' + esc(PARTS[n]) + ' ' + stab(n, 1) + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + '/' + qs.length + ' read · ' + t + '/' + ms.length + ' MCQs tried' + (t ? ' · ' + pc(c, t) + '% right' : '') + '</small></a>';
     }).join('');
     var tiers = [3, 2, 1].map(function (s) { var qs = DU.filter(function (q) { return q.stars === s; }), r = qs.filter(function (q) { return S.read[q.id]; }).length; return '<div class="prow"><div class="ph"><span class="pt">' + '★'.repeat(s) + (s === 3 ? ' High-yield' : s === 2 ? ' Often asked' : ' Repeated') + '</span><span class="pp">' + pc(r, qs.length) + '%</span></div><div class="bar"><i style="width:' + pc(r, qs.length) + '%"></i></div><small>' + r + ' of ' + qs.length + ' read</small></div>'; }).join('');
     h += '<p class="h2s">By importance</p>' + tiers;
@@ -723,7 +723,7 @@
       tile('read', 'Reading mode', 'Every question with the answers shown') + tile('mist', 'Mistake bank', mist + ' question' + (mist === 1 ? '' : 's') + ' you got wrong', '', !mist) + tile('fresh', 'Not tried yet', left + ' MCQs you have not attempted') + '</div>';
     h += '<p class="h2s">Browse by chapter</p>' + partIds.map(function (p) {
       var gh = p === 1 || pgrp(p) !== pgrp(p - 1) ? '<p class="gdiv"><b>Group ' + pgrp(p) + '</b><span>' + GMARK + '</span></p>' : '', ms = MCQ.filter(function (q) { return q.part === p; }), a = ms.filter(function (q) { return S.mcq[q.id]; }).length, rt = ms.filter(function (q) { return S.mcq[q.id] && S.mcq[q.id].c; }).length;
-      return gh + '<details class="grp mxd"><summary>' + CMV.chip(p) + '<span class="tt">' + esc(PARTS[p]) + '<span class="ct">' + pcode(p) + ' · ' + ms.length + ' MCQs · ' + (a ? Math.round(rt / a * 100) + '% right of ' + a + ' tried' : 'not started') + '</span></span><span class="chev">›</span></summary><div class="body">' +
+      return gh + '<details class="grp mxd"><summary>' + CMV.chip(p) + '<span class="tt">' + esc(PARTS[p]) + stab(p, 1) + '<span class="ct">' + pcode(p) + ' · ' + ms.length + ' MCQs · ' + (a ? Math.round(rt / a * 100) + '% right of ' + a + ' tried' : 'not started') + '</span></span><span class="chev">›</span></summary><div class="body">' +
         topicsOf(ms).map(function (t) { var tm = ms.filter(function (q) { return q.topic === t; }), ta = tm.filter(function (q) { return S.mcq[q.id]; }).length; return '<div class="tp"><span>' + esc(t) + '<small>' + tm.length + ' MCQs' + (ta ? ' · ' + ta + ' tried' : '') + '</small></span><button class="sbtn" data-go="topic" data-p="' + p + '" data-t="' + esc(t) + '">Practise</button><a class="sbtn" href="' + url('#/read', { part: p, topic: t }) + '">Read</a></div>'; }).join('') +
         '<div class="tp all"><span>Whole part<small>' + ms.length + ' MCQs</small></span><button class="sbtn" data-go="part" data-p="' + p + '">Practise</button><a class="sbtn" href="#/read?part=' + p + '">Read</a></div></div></details>';
     }).join('');
